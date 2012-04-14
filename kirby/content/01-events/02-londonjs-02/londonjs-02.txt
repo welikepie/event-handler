@@ -4,7 +4,7 @@ Title: Home
 
 Text: 
 
-Yay! If you are seeing this, the installation of Kirby worked :)
+London JS #02! If you are seeing this, the installation of Kirby worked :)
 Now just give the links in the menu a try to see if URL redirection works as well.
 
 Check out the docs: <http://getkirby.com/docs> if you run into any problems or send me an email: <bastian@getkirby.com>
@@ -15,16 +15,101 @@ Have fun with Kirby!
 
 What:What test
 ----
-Where:Where test
+Where: Poke London, Biscuit Building,
+10 Redchurch Street, E2 7DD
 ----
 When:When test
 ----
 Cost:Cost test
 ----
-Map:Map test
+Map: 323 New Cross Road, London, Greater London SE14, United Kingdom
 ----
 Booking_link:Booking test
 ----
-Additional: Additional test
+Additional:
+<table class="schedule">
+	<caption>Schedule</caption>
+	<thead>
+		<tr>
+			<th></th>
+			<th scope="col">Key Track</th>
+			<th scope="col">Alt Track</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">10:00</th>
+			<td>Speaker List</td>
+			<td>Speaker List</td>
+		</tr>
+		<tr>
+			<th scope="row">11:30</th>
+			<td>Speaker List</td>
+			<td>Speaker List</td>
+		</tr>
+		<tr>
+			<th scope="row">14:00</th>
+			<td>Speaker List</td>
+			<td>Speaker List</td>
+		</tr>
+		<tr>
+			<th scope="row">15:30</th>
+			<td>Speaker List</td>
+			<td>Speaker List</td>
+		</tr>
+		<tr>
+			<th scope="row">17:00</th>
+			<td>Speaker List</td>
+			<td>Speaker List</td>
+		</tr>
+		<tr>
+			<th scope="row">18:30</th>
+			<td colspan="2">Keynote</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="presenters">
+	<details open>
+		<summary>Addy Ossamie</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Mark Wuben</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Syd Lawrence</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Kornel Lesinski</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Addy Ossamie</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Addy Ossamie</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Mark Wuben</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Syd Lawrence</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Kornel Lesinski</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+	<details>
+		<summary>Addy Ossamie</summary>
+		<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right.</p>
+	</details>
+</div>
 ----
 Date: 2011-07-09

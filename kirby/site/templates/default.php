@@ -5,16 +5,53 @@
   <article>
 	<div class="main_content">
     	<h1><?php echo html($page->title()) ?></h1>
+		
     	<?php echo kirbytext($page->text()) ?>
+		
+		<?php $booking = $page->booking_link();
+		      if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">Book this place</a><?php } ?>
+		
+		<table>
+			<caption>What</caption>
+			<thead>
+				<tr>
+					<td colspan="2"><?php echo kirbytext($page->what()); ?></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">Where</th>
+					<td><?php echo kirbytext($page->where()); ?></td>
+				</tr>
+				<tr>
+					<th scope="row">When</th>
+					<td><?php echo $page->date("jS F Y"); ?></td>
+				</tr>
+				<tr>
+					<th scope="row">Cost</th>
+					<td><?php echo kirbytext($page->cost()); ?></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<?php $map = $page->map();
+		      if ($map) { echo snippet('map', array('address' => $map, 'width' => '', 'height' => '')); } ?>
 
-		<?php echo kirbytext($page->what()) ?>
+		<!--<?php echo kirbytext($page->what()) ?>
 		<?php echo kirbytext($page->where()) ?>
 		<?php echo kirbytext($page->when()) ?>
 		<?php echo kirbytext($page->cost()) ?>
 		<?php echo kirbytext($page->map()) ?>
-		<?php echo kirbytext($page->booking_link()) ?>
+		<?php echo kirbytext($page->booking_link()) ?>-->
 	</div>
-	<div class="additional_content"><?php echo kirbytext($page->additional()) ?></div>
+	
+	<!--<div class="additional_content_wrapper_outer">-->
+		<div class="additional_content_wrapper">
+			<div class="additional_content">
+				<?php echo $page->additional(); ?>
+			</div>
+		</div>
+	<!--</div>-->
 	
   </article>
 

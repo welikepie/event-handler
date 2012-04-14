@@ -13,6 +13,8 @@
   <link rel="apple-touch-icon" href="<?php echo u('assets/images/apple-touch-icon.png') ?>" />
 
   <?php echo css('assets/styles/styles.css') ?>
+    <!--[if lt IE 9]><script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="/assets/scripts/details.js"></script>
 	<script type="text/javascript" src="http://use.typekit.com/enx4ueb.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
