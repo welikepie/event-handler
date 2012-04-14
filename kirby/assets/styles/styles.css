@@ -36,6 +36,7 @@ header h1 {
 	width:833px;
 	padding:0 89px;
 	height:128px;
+	margin: 16px 0 32px;
 	background-image: url('/assets/images/logo_large.png');
 	background-repeat: no-repeat;
 	background-position:center 0;
@@ -56,6 +57,11 @@ nav ul {
 nav ul li {
 	display: inline;
 }
+nav a {
+	color: #000;
+	text-decoration: none;
+}
+nav a:hover, nav a:focus { color: #333; }
 
 article {
 	
@@ -103,19 +109,13 @@ article {
 	
 	color: #483b36;
 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-	font-size: 10px;
+	font-size: 11px;
+	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
 	line-height: 36px;
 	text-shadow: none;
 }
-
-/*.additional_content_wrapper_outer {
-	float: left;
-	overflow: hidden;
-	width: 100%;
-	background: url('/assets/images/slants.png') no-repeat scroll left top;
-}*/
 
 .additional_content_wrapper {
 	clear: both;
@@ -123,12 +123,15 @@ article {
 	display: block;
 	width: 150%;
 	padding: 40px 0 40px 100px;
-	margin: 100px 0 100px -100px;
-	/*background: url('/assets/images/slants.png') no-repeat scroll left bottom;*/
+	margin: 50px 0 50px -100px;
 	background-color: black;
+	
 	transform: rotate(4deg);
 	-moz-transform: rotate(4deg);
 	-webkit-transform: rotate(4deg);
+	transform-origin: 400px 50%;
+	-moz-transform-origin: 400px 50%;
+	-webkit-transform-origin: 400px 50%;
 }
 	
 .additional_content {
@@ -136,6 +139,7 @@ article {
 	width:833px;
 	padding: 0 89px 30px;
 	background-color: black;
+	
 	transform: rotate(-4deg);
 	-moz-transform: rotate(-4deg);
 	-webkit-transform: rotate(-4deg);

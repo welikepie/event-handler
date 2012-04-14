@@ -36,22 +36,14 @@
 		
 		<?php $map = $page->map();
 		      if ($map) { echo snippet('map', array('address' => $map, 'width' => '', 'height' => '')); } ?>
-
-		<!--<?php echo kirbytext($page->what()) ?>
-		<?php echo kirbytext($page->where()) ?>
-		<?php echo kirbytext($page->when()) ?>
-		<?php echo kirbytext($page->cost()) ?>
-		<?php echo kirbytext($page->map()) ?>
-		<?php echo kirbytext($page->booking_link()) ?>-->
+	
 	</div>
 	
-	<!--<div class="additional_content_wrapper_outer">-->
-		<div class="additional_content_wrapper">
-			<div class="additional_content">
-				<?php echo $page->additional(); ?>
-			</div>
+	<div class="additional_content_wrapper">
+		<div class="additional_content">
+			<?php echo $page->additional(); ?>
 		</div>
-	<!--</div>-->
+	</div>
 	
   </article>
 
