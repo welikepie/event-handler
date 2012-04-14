@@ -13,12 +13,13 @@
   <link rel="apple-touch-icon" href="<?php echo u('assets/images/apple-touch-icon.png') ?>" />
 
   <?php echo css('assets/styles/styles.css') ?>
-
+	<script type="text/javascript" src="http://use.typekit.com/enx4ueb.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
 <body>
 
-  <header>
+  <header class="tk-futura-pt-condensed">
 	<?php snippet('menu') ?>
-    <h1><a href="<?php echo url() ?>"><img src="<?php echo url('assets/images/logo.png') ?>" width="115" height="41" alt="<?php echo h($site->title()) ?>" /></a></h1>
+    <h1><a href="<?php echo url() ?>"><span class="hidden">Event Handler - events for geeks</span></a></h1>
   </header>
