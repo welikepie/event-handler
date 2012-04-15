@@ -44,14 +44,16 @@
 		
 		};
 
-		details_collection = document.getElementsByTagName('details');
+		details_collection = document.getElementsByTagName('summary');
 		for (i = 0; i < details_collection.length; i++) {
-			if (event_method === 0) {
-				details_collection[i].addEventListener('click', event_func, false);
-			} else if (event_method === 1) {
-				details_collection[i].attachEvent('onclick', event_func);
-			} else {
-				details_collection[i].onload = event_func;
+			if (details_collection[i].parentNode.tagName.toUpperCase() === 'DETAILS') {
+				if (event_method === 0) {
+					details_collection[i].addEventListener('click', event_func, false);
+				} else if (event_method === 1) {
+					details_collection[i].attachEvent('onclick', event_func);
+				} else {
+					details_collection[i].onload = event_func;
+				}
 			}
 		}
 	

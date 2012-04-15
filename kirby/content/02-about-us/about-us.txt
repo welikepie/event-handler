@@ -1,8 +1,20 @@
 Title: About Us
 ----
 Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+
+## Be excellent to each other
+
+We are dedicated to producing the best events. To make the experience enjoyable for everyone – regardless of age, gender, sexuality, religious or ethnic identity – we expect our speakers and attendees to remember about these simple rules:
+
+- offensive behaviour (verbal abuse, intimidation, harassment etc.) will not be tolerated
+- offensive slide decks will not be tolerated
+- anyone acting like a jerk will be asked to leave
+- If you find something offensive, let us know and we'll investigate it
+
+Any feedback and suggestions how we can make our events more enjoyable and inclusive are welcome, so don't be shy.
+
 ----
-Profiles:
+Profiles-REMOVETHISBITTORESTORE:
 
 Arran Ross-Paterson:
   Text: |

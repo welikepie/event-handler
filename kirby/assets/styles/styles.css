@@ -86,11 +86,12 @@ article {
 	font-size: 14px;
 	font-weight: bold;
 }
-.main_content > p, .aboutus_content p {
+.main_content > p, .aboutus_content p, .main_content > ul, .aboutus_content ul {
 	margin-bottom: 24px;
 	font-size: 13px;
 	line-height: 24px;
 }
+.main_content > ul, .aboutus_content ul { margin-left: 24px; }
 
 /* About-us page */
 .aboutus_content .profile { overflow: hidden; margin-bottom: 24px; }
@@ -272,14 +273,14 @@ table th {
 	font-family: "futura-pt-condensed", sans-serif;
 	font-weight: normal;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: 38px;
 	text-align: left;
 	vertical-align: baseline;
 }
 table td {
 	padding: 0 10px;
 	font-size: 13px;
-	line-height: 30px;
+	line-height: 38px;
 	vertical-align: baseline;
 }
 table thead td {	
@@ -287,7 +288,7 @@ table thead td {
 	margin-top: 32px;
 	font-family: "futura-pt-condensed", sans-serif;
 	font-size: 24px;
-	line-height: 32px;
+	line-height: 40px;
 }
 table td, table th {
 	border-top: 2px solid white;
@@ -316,9 +317,9 @@ div.presenters {
 	width: 300px;
 	margin: 32px 8px 0 16px;
 }
-div.presenters details { display: block; margin: 0 0 16px; }
-div.presenters details * { display: none; }
-div.presenters details[open] * { display: block; }
+div.presenters details { display: block; margin: 0 0 8px; }
+div.presenters details > * { display: none; }
+div.presenters details[open] > * { display: block; }
 div.presenters details summary {
 	display: block;
 	font-family: "futura-pt-condensed", sans-serif;
