@@ -6,7 +6,7 @@ After a successful year bringing you respected industry experts from around the 
 
 So this is our plan; 1 hour talks, projects to code along with, resources online. Long breaks between talks to coffee up, network, carry on hacking & meet with speakers. No rubbish conference centre WiFi, we're building our own network just for you.
 ----
-What: Lotsa cool stuff
+What: JavaScript, WebSockets, Data, Arduino
 ----
 Date: 2012-06-30
 ----

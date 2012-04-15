@@ -1,9 +1,7 @@
-Title: Kirby Demo
+﻿Title: Event Handler - Events for Geeks
 ----
-Author: Bastian Allgeier
+Author: Arran Ross-Paterson & Mikołaj Banasik
 ----
-Description: Kirby is awesome
+Keywords-SPECIFYSOME: kirby, cms, kirbycms, php, filesystem
 ----
-Keywords: kirby, cms, kirbycms, php, filesystem
-----
-Copyright: © 2009-(date: Year) (link: http://bastianallgeier.com text: Bastian Allgeier)
+Copyright: © 2012-(date: Year) Arran Ross-Paterson

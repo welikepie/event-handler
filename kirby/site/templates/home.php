@@ -53,6 +53,9 @@
 			
 			<?php $additional = $event->additional(); if ($additional) { ?>
 			<div class="additional_content_wrapper">
+				<div class="background_element">
+					<div class="actual_background"></div>
+				</div>
 				<div class="additional_content">
 					<?php echo $additional; ?>
 				</div>
