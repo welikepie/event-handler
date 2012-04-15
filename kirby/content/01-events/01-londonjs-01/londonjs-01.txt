@@ -17,8 +17,8 @@ What:What test
 ----
 Where:Where test
 ----
-When:When test
-----
+Date: 2011-01-01
+----P
 Cost:Cost test
 ----
 Map: Reichstag, Platz der Republik 1, 11011 Berlin, Germany
@@ -26,5 +26,3 @@ Map: Reichstag, Platz der Republik 1, 11011 Berlin, Germany
 Booking_link:Booking test
 ----
 Additional: Additional test
-----
-Date: 2011-01-01

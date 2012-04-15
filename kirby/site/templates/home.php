@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
 <section class="content event_list"><?php
 	
@@ -7,16 +7,21 @@
 	$events = $events->sortBy('date', 'desc');
 	$events = $events->limit(10);
 	
+	$counter = 1;
 	foreach($events as $event) {
 	?>
   		<article>
 			<div class="main_content">
-    			<h1><?php echo html($event->title()) ?></h1>
+    			<h1><?php echo html($event->title()); ?></h1>
 				
-				<?php echo kirbytext($event->text()) ?>
+				<?php
+					$html = kirbytext($event->text());
+					$html = preg_replace('/<p>/i', '<p><span class="figure">Fig.' . $counter++ . ' </span>', $html, 1);
+					echo $html;
+				?>
 				
 				<?php $booking = $event->booking_link();
-		              if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">Book this place</a><?php } ?>
+		              if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php } ?>
 		
 				<table>
 					<caption>What</caption>
@@ -45,11 +50,14 @@
 		              if ($map) { echo snippet('map', array('address' => $map, 'width' => '', 'height' => '')); } ?>
 
 			</div>
+			
+			<?php $additional = $event->additional(); if ($additional) { ?>
 			<div class="additional_content_wrapper">
 				<div class="additional_content">
-					<?php echo $event->additional(); ?>
+					<?php echo $additional; ?>
 				</div>
 			</div>
+			<?php } ?>
 
   		</article>
 	<?php

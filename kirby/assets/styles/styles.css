@@ -67,35 +67,79 @@ article {
 	
 }
 
-.main_content {
+.main_content, .aboutus_content {
 	overflow: hidden;
 	width:833px;
 	padding:0 89px;
 	text-shadow: 0px 2px 4px #123031;
 }
 
-.main_content h1 {
+.main_content h1, .main_content h2, .aboutus_content h1, .aboutus_content h2 {
 	font-size: 28px;
 	font-style: italic;
 	font-weight: normal;
 	margin-bottom: 16px;
 }
-.main_content > p {
+.main_content .figure {
+	color: #dd9e31;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.main_content > p, .aboutus_content p {
 	margin-bottom: 24px;
 	font-size: 13px;
 	line-height: 24px;
 }
 
-.main_content a.booking {
+/* About-us page */
+.aboutus_content .profile { overflow: hidden; margin-bottom: 24px; }
+.aboutus_content .profile > div, .aboutus_content .profile > img { float: left; }
+.aboutus_content .profile > div { width: 391px; margin-right: 16px; }
+.aboutus_content .profile > img {
+	width: 234px;
+	display: block;
+	border: 4px solid white;
+	box-shadow: 0 2px 4px 0 #123031;
+	-moz-box-shadow: 0 2px 4px 0 #123031;
+	-webkit-box-shadow: 0 2px 4px 0 #123031;
+}
+
+/* Contact Form */
+.mailing_list label {
+
+	display: block;
+	width: 639px;
+	padding: 12px;
+	margin: 0 0 16px;
+	
+	background-color: #e1e1e1;
+	
+	border: 4px solid white;
+	box-shadow: 0 2px 4px 0 #123031;
+	-moz-box-shadow: 0 2px 4px 0 #123031;
+	-webkit-box-shadow: 0 2px 4px 0 #123031;
+
+}
+.mailing_list label input {
+
+	display: block;
+	width: 100%;
+	padding: 6px 4px;
+
+}
+.mailing_list input[type="submit"] {
+	margin: 0 0 0 455px;
+}
+.main_content a.booking, .mailing_list input[type="submit"] {
+
 	display: block;
 	width: 185px;
 	height: 36px;
+	
 	border: 1px solid #333;
 	border-radius: 5px;
-	
-	float: left;
-	margin: 0 0 0 447px;
-	
+
 	background: white -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
 	background: white -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
 	background: white -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
@@ -115,6 +159,15 @@ article {
 	text-decoration: none;
 	line-height: 36px;
 	text-shadow: none;
+
+}
+
+.main_content a.booking {
+	
+	float: left;
+	margin: 0 0 0 447px;
+	
+
 }
 
 .additional_content_wrapper {

@@ -1,5 +1,21 @@
-Title: About
+Title: About Us
 ----
 Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
 ----
-Map: 323 New Cross Road, London, Greater London SE14, United Kingdom
+Profiles:
+
+Arran Ross-Paterson:
+  Text: |
+    But... whatever. I agreed to do it. There's just one deal point that Jim Robinson - a wonderful man at Morgan Creek, a great company - need to work out is they want me in it. If they do, it's a smash. If they don't, it's a turd that opens on a tugboat.
+    
+    But... whatever. I agreed to do it. There's just one deal point that Jim Robinson - a wonderful man at Morgan Creek, a great company - need to work out is they want me in it. If they do, it's a smash. If they don't, it's a turd that opens on a tugboat.
+  
+  Image: https://twimg0-a.akamaihd.net/profile_images/1648553727/6318021079_709ed8469c.jpg
+
+Mikołaj Banasik:
+  Text: |
+    The only thing I'm addicted to right now is winning. You know? This bootleg cult - you know, arrogantly referred to as 'Alcoholics Anonymous' - now supports a 5% success rate. My success rate is 100%. Do the math!
+    
+    The only thing I'm addicted to right now is winning. You know? This bootleg cult - you know, arrogantly referred to as 'Alcoholics Anonymous' - now supports a 5% success rate. My success rate is 100%. Do the math!
+  
+  Image: http://www.gravatar.com/avatar/fcc29d09b0b8618f77a6e02146bc993d?s=200

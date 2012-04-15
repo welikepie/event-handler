@@ -6,10 +6,14 @@
 	<div class="main_content">
     	<h1><?php echo html($page->title()) ?></h1>
 		
-    	<?php echo kirbytext($page->text()) ?>
+    	<?php
+					$html = kirbytext($page->text());
+					$html = preg_replace('/<p>/i', '<p><span class="figure">Fig. 1 </span>', $html, 1);
+					echo $html;
+				?>
 		
 		<?php $booking = $page->booking_link();
-		      if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">Book this place</a><?php } ?>
+		      if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php } ?>
 		
 		<table>
 			<caption>What</caption>
@@ -39,11 +43,13 @@
 	
 	</div>
 	
+	<?php $additional = $page->additional(); if ($additional) { ?>
 	<div class="additional_content_wrapper">
 		<div class="additional_content">
-			<?php echo $page->additional(); ?>
+			<?php echo $additional; ?>
 		</div>
 	</div>
+	<?php } ?>
 	
   </article>
 
