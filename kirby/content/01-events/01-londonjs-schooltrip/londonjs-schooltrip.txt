@@ -18,7 +18,7 @@ Cost: £75 per person
 ----
 Map: Cowper Street, London, EC2A 4SH, United Kingdom
 ----
-Booking_link: http://lanyrd.com/2012/london-js-school-trip/
+Booking_link: http://ldnjs-school-trip.eventbrite.com/
 ----
 Additional:
 <table class="schedule">
