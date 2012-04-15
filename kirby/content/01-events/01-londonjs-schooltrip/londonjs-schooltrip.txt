@@ -33,32 +33,36 @@ Additional:
 	<tbody>
 		<tr>
 			<th scope="row">10:00</th>
-			<td colspan="2">Keynote: <strong>Steph Troeth</strong></td>
+			<td colspan="2">Keynote: Steph Troeth</td>
 		</tr>
 		<tr>
-			<th scope="row">11:30</th>
+			<th scope="row">10:30</th>
 			<td>Mark Wubben</td>
 			<td>TBA</td>
 		</tr>
 		<tr>
-			<th scope="row">14:00</th>
+			<th scope="row">12:15</th>
 			<td>Irene Ros</td>
 			<td>TBA</td>
 		</tr>
 		<tr>
-			<th scope="row">15:30</th>
+			<th scope="row">14:00</th>
 			<td>Philip Deschaine</td>
 			<td>TBA</td>
 		</tr>
 		<tr>
-			<th scope="row">17:00</th>
+			<th scope="row">15:45</th>
 			<td>Kornel Lesinski</td>
 			<td>Paul King</td>
 		</tr>
 		<tr>
-			<th scope="row">18:30</th>
+			<th scope="row">17:30</th>
 			<td>Syd Lawrence</td>
 			<td>TBA</td>
+		</tr>
+		<tr>
+			<th scope="row">19:00</th>
+			<td colspan="2">After party</td>
 		</tr>
 	</tbody>
 </table>
