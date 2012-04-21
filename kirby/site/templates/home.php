@@ -16,17 +16,18 @@
 		if ($counter > 10) { break; }
 	
 		// Only display events that are about to happen
-		$date = new DateTime();
-		$date->setTimestamp($event->date());
-		$current = new DateTime();
-		$current->setTime(0, 0, 0);
+		$event_date = $event->date();
+		$current_date = mktime(
+			0, 0, 0,
+			date('n'), date('j'), date('Y')
+		);
 		
-		if ($date < $current) { continue; }
+		if ($event_date < $current_date) { continue; }
 	
 	?>
   		<article>
 			<div class="main_content">
-    			<h1><?php echo html($event->title()); ?></h1>
+    			<h1><a href="<?php echo $event->url(); ?>"><?php echo html($event->title()); ?></a></h1>
 				
 				<?php
 					$html = kirbytext($event->text());
