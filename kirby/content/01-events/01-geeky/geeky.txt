@@ -1,12 +1,17 @@
-﻿Title: London JS School Trip
+﻿Title: Geeky
 ----
 Text: 
 
-After a successful year bringing you respected industry experts from around the world, we listened to your feedback and decided to take it a step further with talks that are bigger, more technical, and more hands-on. We think there should be more discussion and more idea sharing. We think there should be more WiFi and better coffee.
+A celebration of geekyness. Enjoy talk
+
+Zombies to dinosaurs
+Lego and space ships
+4sq and semicolons
+
 
 So this is our plan: 1 hour talks, projects to code along with, resources available online. Long breaks between talks to coffee up, network, carry on hacking and meet with speakers. No rubbish conference centre WiFi – we're building our own network just for you.
 ----
-What: JavaScript, WebSockets, Data, Arduino
+What: Geeks & Lightning talks
 ----
 Date: 2012-06-30
 ----
@@ -14,7 +19,7 @@ Where: Central Foundation Boys School
 Cowper Street, London,
 EC2A 4SH, United Kingdom
 ----
-Cost: £75 per person
+Cost: Free
 ----
 Map: Cowper Street, London, EC2A 4SH, United Kingdom
 ----

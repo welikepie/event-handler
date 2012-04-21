@@ -1,0 +1,27 @@
+Title: Podcasts
+----
+Text: Live recordings from London JS. A monthly community meetup where expert speakers talk on subjects relating to all things JavaScript. Also available on (link: http://itunes.apple.com/gb/podcast/londonjs-podcasts/id520096892 text: iTunes popup: yes)
+
+----
+Profiles:
+
+Local Storage and ApplicationCache:
+  Text: |
+    16th April 2012. View event on (link: http://lanyrd.com/2012/londonjs-10/ text: lanyrd popup: yes).
+      
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/andrew-betts-localstorage.m4a text: Andrew Betts - Local Storage)
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/jake-archibald-appcache.m4a text: Jake Archibald - ApplicationCache: Douchebag)
+
+D3.js & SVG/Canvas:
+  Text: |
+    27th March 2012. View event on (link: http://lanyrd.com/2012/londonjs-09/ text: lanyrd popup: yes).
+
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/laurian-gridinoc-d3js.m4a text: Laurian Gridinoc - d3.js)
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/tim-meadowcroft-svg.m4a text: Tim Meadowcroft - The good, bad and ugly of scripting SVG in the browser)
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/joe-parry-canvas.m4a text: Joe Parry - Why Canvas Wins)
+
+JS Architecture Patterns & APIs:
+  Text: |
+    27th March 2012. View event on (link: http://lanyrd.com/2012/londonjs-08/ text: lanyrd popup: yes).
+
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/michael-mahemoff-patterns.m4a text: Michael Mahemoff - JS Architecture Patterns)

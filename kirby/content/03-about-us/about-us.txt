@@ -1,0 +1,38 @@
+Title: About us
+----
+Text: Event Handler is geeks organising events for other geeks. For over a year now we've been running London JS and other tech events around London. We run the events based around a few simple ideas;
+
+- An event is made by it's attendees 
+- We want you to walk away having learned something
+- We sell sponsorship not speaking slots
+
+
+## Be excellent to each other
+
+We are dedicated to producing the best events. To make the experience enjoyable for everyone – regardless of age, gender, sexuality, religious or ethnic identity – we expect our speakers and attendees to remember about these simple rules;
+
+- Offensive behaviour (verbal abuse, intimidation, harassment etc.) will not be tolerated
+- Offensive slide decks will not be tolerated
+- Anyone acting like a jerk will be asked to leave
+- If you find something offensive, let us know and we'll investigate it
+
+Any feedback and suggestions how we can make our events more enjoyable and inclusive are welcome, so don't be shy.
+
+----
+Profiles-REMOVETHISBITTORESTORE:
+
+Arran Ross-Paterson:
+  Text: |
+    But... whatever. I agreed to do it. There's just one deal point that Jim Robinson - a wonderful man at Morgan Creek, a great company - need to work out is they want me in it. If they do, it's a smash. If they don't, it's a turd that opens on a tugboat.
+    
+    But... whatever. I agreed to do it. There's just one deal point that Jim Robinson - a wonderful man at Morgan Creek, a great company - need to work out is they want me in it. If they do, it's a smash. If they don't, it's a turd that opens on a tugboat.
+  
+  Image: https://twimg0-a.akamaihd.net/profile_images/1648553727/6318021079_709ed8469c.jpg
+
+Mikołaj Banasik:
+  Text: |
+    The only thing I'm addicted to right now is winning. You know? This bootleg cult - you know, arrogantly referred to as 'Alcoholics Anonymous' - now supports a 5% success rate. My success rate is 100%. Do the math!
+    
+    The only thing I'm addicted to right now is winning. You know? This bootleg cult - you know, arrogantly referred to as 'Alcoholics Anonymous' - now supports a 5% success rate. My success rate is 100%. Do the math!
+  
+  Image: http://www.gravatar.com/avatar/fcc29d09b0b8618f77a6e02146bc993d?s=200

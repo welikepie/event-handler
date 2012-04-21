@@ -311,7 +311,7 @@ table caption {
 	text-align: left;
 }
 table th {
-	width: 64px;
+	width: 44px;
 	padding: 0 6px;
 	font-family: "futura-pt-condensed", sans-serif;
 	font-weight: normal;
@@ -320,6 +320,7 @@ table th {
 	text-align: left;
 	vertical-align: baseline;
 }
+
 table td {
 	padding: 0 10px;
 	font-size: 13px;
