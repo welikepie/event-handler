@@ -1,5 +1,13 @@
 <?php snippet('header') ?>
 
+<?php
+
+	$homepage = $pages->find('home');
+	$temp = $homepage->alert(); if ($temp) {
+		?><div class="alert"><?php echo($temp); ?></div><?php
+	}
+?>
+
 <section class="content">
 
   <article>

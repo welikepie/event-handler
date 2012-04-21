@@ -20,6 +20,8 @@ Map: Cowper Street, London, EC2A 4SH, United Kingdom
 ----
 Booking_link: http://ldnjs-school-trip.eventbrite.com/
 ----
+Priority: 1
+----
 Additional:
 <table class="schedule">
 	<caption>Schedule</caption>

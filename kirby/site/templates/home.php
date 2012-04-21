@@ -1,14 +1,28 @@
 <?php snippet('header'); ?>
 
+<?php $temp = $page->alert(); if ($temp) {
+	?><div class="alert"><?php echo($temp); ?></div><?php
+} ?>
+
 <section class="content event_list"><?php
 	
+	snippet('page_sort');
 	$events = $pages->find('events');
 	$events = $events->children()->visible();
-	$events = $events->sortBy('date', 'desc');
-	$events = $events->limit(10);
+	page_sort($events, array('date_sort', 'priority_sort'));
 	
 	$counter = 1;
 	foreach($events as $event) {
+		if ($counter > 10) { break; }
+	
+		// Only display events that are about to happen
+		$date = new DateTime();
+		$date->setTimestamp($event->date());
+		$current = new DateTime();
+		$current->setTime(0, 0, 0);
+		
+		if ($date < $current) { continue; }
+	
 	?>
   		<article>
 			<div class="main_content">

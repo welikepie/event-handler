@@ -13,7 +13,7 @@ So this is our plan: 1 hour talks, projects to code along with, resources availa
 ----
 What: Geeks & Lightning talks
 ----
-Date: 2012-06-30
+Date: 2012-05-14
 ----
 Where: Central Foundation Boys School
 Cowper Street, London,
