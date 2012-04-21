@@ -12,7 +12,6 @@ Check out the docs: <http://getkirby.com/docs> if you run into any problems or s
 Have fun with Kirby!
 
 ----
-Alert:
 back-Alert:
 <a href="http://codeclub.org.uk/" rel="external" target="_blank"><img src="/assets/images/codeclub_logo.png" alt="Codeclub Logo"></a>
 <h1>Code Club 10%</h1>
