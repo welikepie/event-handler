@@ -251,12 +251,7 @@ a {
   color: white;
   text-decoration: underline;
 }
-a,
-a:hover,
-a:active,
-a:visited {
-  outline: 0px;
-}
+
 a:hover {
 
 }
