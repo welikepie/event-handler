@@ -16,12 +16,12 @@
 		if ($counter > 10) { break; }
 	
 		// Only display events that are about to happen
-		$date = new DateTime();
-		$date->setTimestamp($event->date());
-		$current = new DateTime();
-		$current->setTime(0, 0, 0);
+//		$date = new DateTime();
+//		$date->setTimestamp($event->date());
+//		$current = new DateTime();
+//		$current->setTime(0, 0, 0);
 		
-		if ($date < $current) { continue; }
+//		if ($date < $current) { continue; }
 	
 	?>
   		<article>
