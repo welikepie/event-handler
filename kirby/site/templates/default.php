@@ -9,7 +9,6 @@
 ?>
 
 <section class="content">
-
   <article>
 	<div class="main_content">
     	<h1><?php echo html($page->title()) ?></h1>

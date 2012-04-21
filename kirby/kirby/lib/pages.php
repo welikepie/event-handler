@@ -109,7 +109,11 @@ class page extends obj {
 
   function template() {
 
-    $name = (!$this->content || !$this->content->name) ? c::get('tpl.default') : $this->content->name;
+	if (array_key_exists('template', $this->_)) {
+		$name = $this->_['template'];
+	} else {
+		$name = (!$this->content || !$this->content->name) ? c::get('tpl.default') : $this->content->name;
+	}
     
     // construct the template file 
     $file = c::get('root.templates') . '/' . $name . '.php';
