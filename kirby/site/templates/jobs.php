@@ -47,6 +47,7 @@
 				?></div>
 				<div class="contact"><span>Contact:</span> <a href="<?php echo $job->application(); ?>" rel="external" class="application">Contact the Employer</a></div>
 				<div class="description"><?php echo kirbytext($job->text()); ?></div>
+				<a class="extender">View More</a>
 			</div>
 		</div><?php
 	
@@ -56,4 +57,5 @@
 	
 </section>
 
+<script type="text/javascript" src="/assets/scripts/jobs.js"></script>
 <?php snippet('footer') ?>

@@ -22,7 +22,9 @@
 		
 		?></div>
 		<div class="contact"><span>Contact:</span> <a href="<?php echo $page->application(); ?>" rel="external" class="application">Contact the Employer</a></div>
-		<div class="description"><?php echo kirbytext($page->text()); ?></div>
+		<div class="description open">
+			<?php echo kirbytext($page->text()); ?>
+		</div>
 	</div>
 	
 </section>
