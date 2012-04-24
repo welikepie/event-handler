@@ -31,7 +31,13 @@
 			
 			}
 			if (typeof description_div !== 'undefined') {
-				description_div.className += ' open';
+				if (description_div.className.indexOf('open') !== -1) {
+					description_div.className = description_div.className.replace(/\bopen\b/i, '').replace(/\s+/i, ' ').replace(/^\s+|\s+$/i, '');
+					this.innerHTML = 'View More';
+				} else {
+					description_div.className += ' open';
+					this.innerHTML = 'Hide';
+				}
 			}
 		
 		};

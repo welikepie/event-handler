@@ -431,7 +431,6 @@ div.presenters details[open] summary:after { content: ' -'; }
 	text-decoration: none;
 }
 .job .details a.extender { float: right; cursor: pointer; }
-.job .details .description.open + a.extender { display: none; }
 .job .details a.application:hover,
 .job .details a.application:focus,
 .job .details a.extender:hover,
