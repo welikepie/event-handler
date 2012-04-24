@@ -9,7 +9,6 @@
 ?>
 
 <section class="content">
-
   <article>
 	<div class="main_content">
     	<h1><?php echo html($page->title()) ?></h1>
@@ -65,4 +64,5 @@
 
 </section>
 
+<script type="text/javascript" src="/assets/scripts/details.js"></script>
 <?php snippet('footer') ?>

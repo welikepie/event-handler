@@ -85,5 +85,5 @@
 	?>
 </section>
 
-
+<script type="text/javascript" src="/assets/scripts/details.js"></script>
 <?php snippet('footer') ?>
