@@ -60,7 +60,7 @@ Additional:
 		<tr>
 			<th scope="row">17:30</th>
 			<td>Syd Lawrence</td>
-			<td>TBA</td>
+			<td>Phil Nash	</td>
 		</tr>
 		<tr>
 			<th scope="row">19:00</th>
@@ -116,6 +116,11 @@ Additional:
 		<summary>Paul King: Sensing the real world with Javascript and Arduino</summary>
 		<p>Thanks to projects like Arduino, it's never been easier to react to
 		real world data in your projects.  Let's do that!</p>
+		<p>- <a href="https://twitter.com/nrocy" rel="external">@nrocy</a></p>
+	</details>
+	<details>
+		<summary>Phil Nash: Browsers! JavaScript! Cameras! Microphones!</summary>
+		<p>Browsers are starting to implement JavaScript APIs for access to web cams and microphones. We'll look at what we can do with this, from simply taking a picture of yourself to video chat, all in the browser.</p>
 		<p>- <a href="https://twitter.com/nrocy" rel="external">@nrocy</a></p>
 	</details>
 </div>
