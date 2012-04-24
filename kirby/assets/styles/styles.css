@@ -417,6 +417,7 @@ div.presenters details[open] summary:after { content: ' -'; }
 .job .details .description p { margin: 0 0 24px; }
 .job .details .description h1,
 .job .details .description h2 { line-height: 24px; margin: 0 0 24px; }
+.job .details .description ul { margin: 0 0 24px 24px; }
 .job .details a.application, .job .details a.extender {
 	display: block;
 	float: left;

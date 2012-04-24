@@ -1,0 +1,49 @@
+Title: JavaScript Developer
+----
+Text:
+
+Join us as a JavaScript developer to build great websites and web applications for a wide variety of platforms and audiences.  You'll be working with skilled backend developers, UX engineers and designers to build immersive and responsive user interfaces for desktop and mobile applications. You'll be using jQuery and home grown JavaScript tools, along with new web technologies such as manifests, local storage, sqlite, and AJAX navigation. Your JavaScript will use appropriate design patterns and a well planned architecture to create testable, maintainable code.
+
+## Responsibilities may include:
+
+* Software development in JavaScript
+* Writing user interaction behaviours
+* Integrating with server-side APIs
+* Liaising with UX engineers and designers to help shape the user experience
+* Testing, debugging and troubleshooting
+* Client liaison and training
+
+## Required skills
+
+* Highly capable in raw Javascript programming (without dependence on any framework or toolset)
+* HTML5 and CSS
+* Knowledge of a variety of software design patterns, such as factory, observer, revealing module, pubsub, closure, etc
+* Working knowledge of Linux command line tools and version control concepts
+* Excellent quality of written and spoken English
+
+## Desirable skills
+
+* Experience with PHP
+* Experience with jQuery
+* Usability and user experience design
+* Knowledge of the Baazar VCS
+
+## Salary
+
+We offer salaries of £25,000 – £50,000 for developer roles.
+
+----
+Company: Assanka
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: Assanka, JavaScript, Developer
+----
+Application: http://assanka.net/iwantajob
+----
+Date: 2012-04-24
+----
+Template: job
+----
