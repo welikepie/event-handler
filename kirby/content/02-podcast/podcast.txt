@@ -5,6 +5,13 @@ Text: Live recordings from London JS. A monthly community meetup where expert sp
 ----
 Profiles:
 
+Data Visualisation:
+  Text: |
+    21st May 2012. View event on (link: http://lanyrd.com/2012/londonjs-11/ text: lanyrd popup: yes).
+    
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/hannah-wolfe-ga-api.m4a text: Hannah Wolfe - Hacking your own UI to the GA API)
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/premasagar-rose-visualisation.m4a text: Premasagar Rose - Anatomy of a Data Visualisation)
+
 Local Storage and ApplicationCache:
   Text: |
     16th April 2012. View event on (link: http://lanyrd.com/2012/londonjs-10/ text: lanyrd popup: yes).
