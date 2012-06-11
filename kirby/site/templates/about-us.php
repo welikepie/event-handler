@@ -13,8 +13,10 @@
 			foreach ($profiles as $name => &$profile) {
 			
 				?><div class="profile">
-					<h2><?php echo html($name); ?></h2>
-					<div><?php echo kirbytext($profile['Text']); ?></div>
+					<div>
+						<h2><?php echo html($name); ?></h2>
+						<?php echo kirbytext($profile['Text']); ?>
+					</div>
 					<img src="<?php echo $profile['Image']; ?>" alt="Picture of <?php echo $name; ?>">
 				</div><?php
 			

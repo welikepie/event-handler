@@ -10,9 +10,7 @@ What: JavaScript, WebSockets, Data, Arduino
 ----
 Date: 2012-06-30
 ----
-Where: Central Foundation Boys School
-Cowper Street, London,
-EC2A 4SH, United Kingdom
+Where: Central Foundation Boys School, Cowper Street, London, EC2A 4SH, United Kingdom
 ----
 Cost: £75 per person
 ----
@@ -121,6 +119,210 @@ Additional:
 	<details>
 		<summary>Phil Nash: Browsers! JavaScript! Cameras! Microphones!</summary>
 		<p>Browsers are starting to implement JavaScript APIs for access to web cams and microphones. We'll look at what we can do with this, from simply taking a picture of yourself to video chat, all in the browser.</p>
-		<p>- <a href="https://twitter.com/nrocy" rel="external">@nrocy</a></p>
+		<p>- <a href="https://twitter.com/philnash" rel="external">@philnash</a></p>
 	</details>
 </div>
+----
+Speakers:
+<div class="wide_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/arran_and_edd.png" alt=" " />
+			<h1>Arran &amp; Edd <a href="http://twitter.com/#!/arranrp" target="_blank"><span class="twitter">@</span>arranrp</a> <a href="http://twitter.com/#!/edds" target="_blank"><span class="twitter">@</span>edds</a> </h1>
+			<h2>Introduction and announcements</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>Introduction and announcements</h2>
+		<p>This is the boring stuff, but it needs to happen other wise everyone would get lost.
+		</p>
+	</div>
+</div>
+
+<div class="wide_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/steph.png" alt=" " />
+			<h1>Steph Troeth <a href="http://twitter.com/#!/" target="_blank"><span class="twitter">@</span>sniffles</a> </h1>
+			<h2>Key note:</br>What Can You Make?</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>What Can You Make?</h2>
+		<p>How well do we know this ephemeral material we use to craft websites, apps, and ultimately the web? How well do we know our powers and skills, as architects and engineers? And if we knew ourselves and our craft better, would we—could we—make more awesome things, or would it have the opposite effect?
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/mark.png" alt=" " />
+			<h1>Mark Wubben <a href="http://twitter.com/#!/novemberborn" target="_blank"><span class="twitter">@</span>novemberborn</a> </h1>
+			<h2>EyebrowJS</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>EyebrowJS</h2>
+		<p>A discussion on realtime, multi-device, rich-client applications. But how do you build a website that can do server-side rendering while also being a single-page app on the client-side? EyebrowJS is the template &amp; UI system used at State, a London-based startup building a global opinion network. It’s used for server-side rendering from a Node.js server and client-side magic. We’ll discuss how Eyebrow is architected and what it means for development.
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/mike.png" alt=" " />
+			<h1>Mike MacCana <a href="http://twitter.com/#!/mikemaccana" target="_blank"><span class="twitter">@</span>mikemaccana</a> </h1>
+			<h2>Fix Your Life With Chrome Extensions</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>Fix Your Life With Chrome Extensions</h2>
+		<p>Building four practical Chrome extensions, each of which fixes a real real-world problem:
+		- Removing Google+ animations when you use google.com:
+		- Simulating user input to get top position on an online typing test :
+		- Finding which tab in which window runs Soundcloud and stopping the music from the keyboard. - Making an EventBrite sniper
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/irene.png" alt=" " />
+			<h1>Irene Ros <a href="http://twitter.com/#!/ireneros" target="_blank"><span class="twitter">@</span>ireneros</a> </h1>
+			<h2>Building Client-Side Data-Driven Web Applications</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>Building Client-Side Data-Driven Web Applications</h2>
+		<p>As data becomes an integral part of our web application stack, traditional approaches to data fetching and manipulation may not be enough. In this session we will discuss the varying approaches one can take to building data-driven applications and the available libraries to support those approaches. From JSON requests to n-dimensional filtering, come learn what patterns might be useful in your workflow.
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/luca.png" alt=" " />
+			<h1>Luca Sale <a href="http://twitter.com/#!/" target="_blank"><span class="twitter">@</span>blackberryluca</a> </h1>
+			<h2>Alice.js: A Lightweight Independent CSS Engine</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>Alice.js: A Lightweight Independent CSS Engine</h2>
+		<p>An open source micro library simplifies doing advanced animations with CSS. It’s self contained and works directly against the DOM. The framework introduced the concept of Organics, adding randomization characteristics to create visual effects that are subtly different each time they play out. Used for games as well as regular business apps, AliceJS can help bring freshness and polish to your work.
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/philip.png" alt=" " />
+			<h1>Philip Deschaine <a href="http://twitter.com/#!/vowelnoun" target="_blank"><span class="twitter">@</span>vowelnoun</a> </h1>
+			<h2>Off to the Races: Building a Massively Scalable App Fast</h2>
+		</div>
+		
+	</figure>
+  
+	<div>
+		<h2>Off to the Races: Building a Massively Scalable App Fast</h2>
+		<p>We're living in the future. It's 2012 and we should start acting act like it. Let's make a multiplayer game in HTML5 and JavaScript completely from scratch that automatically scales to millions. In an hour.
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/tbh.png" alt=" " />
+			<h1>TBH <a href="http://twitter.com/#!/" target="_blank"><span class="twitter"></span></a> </h1>
+			<h2></h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2></h2>
+		<p>
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/kornel.png" alt=" " />
+			<h1>Kornel Lesinski <a href="http://twitter.com/#!/pornelski" target="_blank"><span class="twitter">@</span>pornelski</a> </h1>
+			<h2>Getting website to load in 1 second</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>Getting website to load in 1 second</h2>
+		<p>TBA, it's going to be awesome.
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/paul.png" alt=" " />
+			<h1>Paul King <a href="http://twitter.com/#!/nrocy" target="_blank"><span class="twitter">@</span>nrocy</a> </h1>
+			<h2>Sensing the real world with Javascript and Arduino</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>Sensing the real world with Javascript and Arduino</h2>
+		<p>Thanks to projects like Arduino, it's never been easier to react to real world data in your projects. Let's do that!
+		</p>
+		<p> How well do we know our powers and skills, as architects and engineers? And if we knew ourselves and our craft better, would we—could we—make more awesome things, or would it have the opposite effect?
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/syd.png" alt=" " />
+			<h1>Syd Lawrence <a href="http://twitter.com/#!/sydlawrence" target="_blank"><span class="twitter">@</span>sydlawrence</a> </h1>
+			<h2>Using The Internet as Your Database</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>Using The Internet as Your Database</h2>
+		<p>Many sites offer APIs, let's use them. Let's make something awesome.
+		</p>
+	</div>
+</div>
+
+<div class="mini_box speaker_box"> 
+	<figure>
+		<div>
+			<img src="/assets/images/phil.png" alt=" " />
+			<h1>Phil Nash <a href="http://twitter.com/#!/philnash" target="_blank"><span class="twitter">@</span>philnash</a> </h1>
+			<h2>Browsers! JavaScript! Cameras! Microphones!</h2>
+		</div>
+	</figure>
+  
+	<div>
+		<h2>Browsers! JavaScript! Cameras! Microphones!</h2>
+		<p>Browsers are starting to implement JavaScript APIs for access to web cams and microphones. We'll look at what we can do with this, from simply taking a picture of yourself to video chat, all in the browser.
+		</p>
+	</div>
+</div>
+
+
+
+
+

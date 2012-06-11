@@ -1,0 +1,53 @@
+Title: Senior Web (UX) Designer
+----
+Text:
+
+Our product makes it easy for people to collaborate on content across all their devices. We need a magical user experience, providing simple, quick and ubiquitous access to people, information and tools. That experience begins in our insightful (naturally) product strategy and guides the development of our platform and API suite. Your job is to help us deliver a beautiful and usable user interface.
+
+You're a designer who can also code. You're as adept with HTML5 and CSS3 as you are with typography, layout and colour theory. You're all about using responsive design and media queries to create adaptable pages that look awesome on all screens. You can work with wireframes, comps, and high-level requirements, and create beautiful, sensible design options that meet the brief. You're agile, creative, open to ideas and not afraid to speak up with your own.
+
+## Key responsibilities
+
+* Design beautiful, simple and usable webpages that work cross-platform
+* Prototype designs directly in the browser where appropriate, and in Adobe suite where not
+* Make conceptual prototypes for user-testing sessions
+* Work nicely with our client-side developers to take your designs live
+* Work within our agile environment, where you'll need to report on your progress every day
+* Be quick to solve day-to-day issues, but design for the long-term
+* Work from written or verbal briefs from the Product Manager and UX Lead
+* Keep showing us the stuff we should be doing to make Huddle better
+
+## Experience guidelines
+
+* 5 Years+ experience as a visual design practitioner
+* Experienced in working from wireframes and/or designing directly in the browser
+* Experienced in designing interfaces for web, mobile and tablet applications
+* Proficient in HTML5, CSS3 and jQuery or equivalent
+* Proficient in user-centred design, information architecture and interaction design
+* Proficient in common design tools: Fireworks, Photoshop, Illustrator, Axure, Omnigraffle
+* Excellent analytical, process-oriented and time-management skills
+* Excellent timekeeper and team-player
+* Excellent written and verbal communicator
+* Able to travel if required
+
+## About Huddle
+
+Universally recognised as one of Europe's premier tech start-ups, Huddle has been named a potential 'next Google' and one of the top 50 global start-ups by Business Week, and one of the Financial Times' top 10 British start-up companies.
+
+Huddle's social collaboration platform is the winner of multiple awards, including TechCrunch's Best EMEA Enterprise app, Tech Media Invest's Innovation Award and BCS' Internet Product of the Year, and more. Thousands of businesses including P&G, Pearson, Panasonic and UNICEF and a number of UK and US government departments trust Huddle.
+
+----
+Company: huddle
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: UX, cross-platform, CSS3, HTML5, Agile
+----
+Application: http://www.huddle.com/about/jobs/web-designer/
+----
+Date: 2012-05-09
+----
+Template: job
+----

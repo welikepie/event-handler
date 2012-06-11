@@ -1,0 +1,37 @@
+Title: Lead Developer
+----
+Text:
+
+We're looking for our new in house Lead Developer!
+We're looking for a self starting enthusiastic developer to take us to the next level. We have a few websites that you'll be in charge of. Firstly, our online research platform, CNCT, a little like a private Facebook. We have our main recruitment site, [thesensenetwork.com](http://thesensenetwork.com) and [chorusandecho.com](http://chorusandecho.com), the home of our global experts.
+
+One half of your role will involve maintaining our current PHP/Javascript (CodeIgniter and Symphony2) code base. This means fixing bugs and implementing small feature updates. You have to be able to support the full stack, from server configuration to client side Javascript HTML & CSS. The other half of the role will involve building a brand new 'mini' social network, to replace the current Sense Network site. For the new site we would like to move away from a PHP backend and use Ruby, Python, a JVM language such as Scala or Clojure or even Node.js, whichever you feel confident with.
+
+The new build will be your baby and we have big plans for the future of our network and so we feel that a move away from PHP was necessary both to shake things up a bit and to attract candidates that are keen to expand their horizons and learn about other technologies. Ideally the server and client would be completely separate code bases, communicating via API so you would have to be confident writing javascript (or Coffeescript) as well as using modern front-end libraries such as Backbone.js.
+
+You will be working mostly on your own when it comes to coding but as a central part of our "Cyber" team you will have the support of Raj our Design Director, James our community manager who has a computer science background and can sling some code now and again, Maria who looks after the users and enjoys breaking things, pointing out bugs and suggesting new features and Jean Robert (Aka J) who looks after chorusandecho.com. We do also hire the occasional freelancer whenever necessary, web designers in particular.
+
+## About us
+
+Sense Worldwide is a forward thinking brand strategy agency. Recently described by FastCo as 'The Hogwarts of strategy'.
+
+We were one of the first agencies to solve problems through co-creation and so we have built an enviable reputation for our strategic collaborative approach. We now help companies across many different categories, many of them the biggest and best known brands in the world, including Nike, MTV, Diageo and Johnson & Johnson.
+
+We're a very diverse bunch of people and this is what sets us apart. As a Developer you will often be able to provide a unique perspective on some of our projects. You may be pulled in to meetings about the future of the Internet Of Things or be asked about your view on how to revolutionise banking. We have a great space in the loft where you will be encouraged to take part in events such as London IA or even organise your own tech meetup!
+
+
+----
+Company: Sense Worldwide
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: JavaScript, Node.js, Backbone.js, Clojure, CodeIgniter, Symphony2
+----
+Application: https://docs.google.com/a/eventhandler.co.uk/spreadsheet/viewform?pli=1&formkey=dEtFM09XYkR5MHJmM3ZEQWhENWdxeXc6MQ#gid=0
+----
+Date: 2012-06-06
+----
+Template: job
+----

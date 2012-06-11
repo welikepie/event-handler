@@ -1,0 +1,51 @@
+Title: UI Developer
+----
+Text:
+
+We are looking for an exceptional person to join our amazing award winning high growth company! Are you a passionate and self-motivated front end web developer? Moo needs you to join our expanding engineering team at our Shoreditch headquarters!
+
+## About MOO:
+
+* We make life a little less virtual (we love the web, but you can't put it in your pocket).
+* We help our customers create products like Business Cards, Postcards and MiniCards, making it easy for them to share information about themselves or their business in the real world.
+* Unlike many tech companies, we make physical products, and they are used every day by hundreds of thousands of people around the world.
+* We work with amazing partners including Facebook, Flickr, Etsy, LinkedIn, and YouTube.
+
+## Responsibilities
+
+* Working along side the Product, UX, and design teams to define and deliver interfaces of exceptional quality
+* Developing high quality JavaScript (jQuery), CSS, and HTML which conforms to the MOO coding standards
+* Working in a small cross-functional team of developers to deliver high quality web applications to (self imposed) demanding deadlines.
+* Provide mentorship and direction to more junior members of the team.
+
+## About you
+
+* Able to write modular, cross-browser, optimised CSS/SASS/Less code, including understanding & communicating how given designs will degrade across older browsers while still allowing the best MOO look & feel possible for each platform.
+* Able to write performant, well-organised JavaScript, jQuery and AJAX, giving a rich interactive experience for those that support it, and degrades sensibly and gracefully across older browsers
+* Understanding & communicating the best semantic markup for a layout, working within a modified grid360 system
+* Work closely with UX, product managers, other developers and designers to best realise the vision, design & implementation of the website, discussing technical solutions and suggesting alternatives where required
+* Awareness of industry issues, trends & emerging technologies, and able to communicate them to both technical and non technical team members
+* Able to design, communicate and ensure consistent front end code standards for a team of developers
+
+## About you
+
+* University Degree in Computer Science
+* An obsession with unit testing, and a militant supporter of web standards
+* Active involvement in an open source project
+* A good understanding of agile software development practices, preferably hands on experience of SCRUM
+
+----
+Company: MOO.com
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: JavaScript, CSS/SASS/LESS, HTML5
+----
+Application: https://jobs-moo.icims.com/jobs/1077/job
+----
+Date: 2012-05-08
+----
+Template: job
+----

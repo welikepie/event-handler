@@ -1,0 +1,70 @@
+Title: Senior UI Developer
+----
+Text:
+
+Huddle seeks to be at the forefront of the modern web, and is looking for an expert in web UI development to help us get there and stay there. We are building a rich, responsive, JavaScript-based web app, based on Knockout and talking directly to our extensive REST API. We are therefore looking for someone with exceptional JavaScript skills as well as the ability to produce beautiful and maintainable HTML and CSS.
+
+Our focus is on providing a fantastic user experience, and alongside JavaScript, CSS and HTML development, this position involves working closely with our Interaction Designer, Visual Designer and Product team to make sure we build something that our users love.
+
+Reporting to the Head of Development, and working as part of an Agile development team, this role is based at our Shoreditch office and has the following responsibilities:
+
+## Responsibilities
+
+* Developing high quality JavaScript, CSS and HTML code for the Huddle web application
+* Working as a member of a cross functional team comprised of C# Developers, UI Developers, and QA Engineers
+* Working closely with the Product Team to refine product requirements and contribute product ideas
+* Making design decisions in line with both technical and visual standards
+* Driving improvements in the areas of design, UI technology and process
+* Working with QA to define appropriate test cases and fixing any bugs found during QA testing
+* Writing automated tests including web automation and JavaScript unit tests
+* Working with backend developers to integrate business logic and presentation
+* Mentoring less experienced team members and helping to cross train C# Developers who have an interest in UI development
+* Guiding the future architectural direction of Huddle's UI
+
+## Required experience and qualifications
+
+* Recognised expert in JavaScript, including JQuery, JQuery UI and JQuery plug-ins, and frameworks such as Knockout, Backbone.js or similar
+* Significant experience interacting with a HATEOAS REST API , JSON and AJAX
+* Expert in producing maintainable CSS for large applications, and in the usage of sprites
+* A successful track record and proven ability to deliver elegant web user interfaces using modular, reusable code
+* 5+ years' experience designing, developing and maintaining the front end of large-scale web applications
+* Commercial experience working with Scrum, XP or a similar Agile methodology
+* Experience developing for multiple browsers, including IE6
+* Awareness of accessibility and W3C compliance
+* The ability to articulate pros and cons of various UI development tools and frameworks and make resulting trade off decisions
+* A genuine passion for web development in general; and elegance, usability and web standards in particular
+
+## Desired experience and qualifications
+
+* Experience with graphic editing software such as Fireworks or Photoshop
+* Some knowledge of C# and ASP.NET
+* Experience of unit testing and BDD in JavaScript
+* Experience working with MVC websites and REST APIs
+
+## About you
+
+* Your aim will be to work in a fast-paced start-up environment and share in the excitement of growing a global online business
+* You will share the values associated with Agile software development
+* You will be driven, dedicated and motivated by constant improvement
+
+## About Huddle
+
+Universally recognised as one of Europe's premier tech start-ups, Huddle has been named a potential 'next Google' and one of the top 50 global start-ups by Business Week, and one of the Financial Times' top 10 British start-up companies.
+
+Huddle's social collaboration platform is the winner of multiple awards, including TechCrunch's Best EMEA Enterprise app, Tech Media Invest's Innovation Award and BCS' Internet Product of the Year, and more. Thousands of businesses including P&G, Pearson, Panasonic and UNICEF and a number of UK and US government departments trust Huddle.
+
+----
+Company: huddle
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: JavaScript, CSS/SASS/LESS, Backbone.js, REST APIs
+----
+Application: http://www.huddle.com/about/jobs/senior-ui-dev/
+----
+Date: 2012-05-09
+----
+Template: job
+----

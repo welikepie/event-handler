@@ -2,7 +2,7 @@ Title: JavaScript Developer
 ----
 Text:
 
-Join us as a JavaScript developer to build great websites and web applications for a wide variety of platforms and audiences.  You'll be working with skilled backend developers, UX engineers and designers to build immersive and responsive user interfaces for desktop and mobile applications. You'll be using jQuery and home grown JavaScript tools, along with new web technologies such as manifests, local storage, sqlite, and AJAX navigation. Your JavaScript will use appropriate design patterns and a well planned architecture to create testable, maintainable code.
+FT Labs is a brand new emerging web technologies group within the Financial Times, one of the world’s leading business news and information organisations.  We build web applications using exciting new web technologies, and are looking for new JavaScript developers to join our team.
 
 ## Responsibilities may include:
 
@@ -33,13 +33,13 @@ Join us as a JavaScript developer to build great websites and web applications f
 We offer salaries of £25,000 – £50,000 for developer roles.
 
 ----
-Company: Assanka
+Company: FT Labs
 ----
 Type: Permanent
 ----
 Location: London, UK
 ----
-Tags: Assanka, JavaScript, Developer
+Tags: JavaScript, Developer, Publishing, Content, HTML5
 ----
 Application: http://assanka.net/iwantajob
 ----
