@@ -321,8 +321,5 @@ Speakers:
 		</p>
 	</div>
 </div>
-
-
-
-
-
+----
+Alert: <a href="https://developer.blackberry.com/html5/" rel="external" class="central_image" target="_blank"><img src="/assets/images/blackberry.png" alt="BlackBerry Logo"></a>

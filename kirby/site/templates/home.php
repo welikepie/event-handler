@@ -52,7 +52,7 @@
 
 					<div class="speaker_heading">
 						<ul>
-							<li>Track A</li>
+							<li>Track BlackBerry</li>
 							<li>Track B</li>
 						</ul>
 					</div>
@@ -75,6 +75,12 @@
 				</div>
 			</div>
 			<?php } ?>
+			
+			<?php
+				$temp = $event->alert(); if ($temp) {
+					?><div class="alert"><?php echo($temp); ?></div><?php
+				} unset($temp);
+			?>
 			
 			<div class="main_content">
 				<table>

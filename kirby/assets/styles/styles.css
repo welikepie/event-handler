@@ -188,7 +188,7 @@ article {
 	display: block;
 	width: 655px;
 	padding: 16px;
-	margin: 32px 0 0px 89px;
+	margin: 32px 0 32px 89px;
 	overflow: hidden;
 	
 	color: #483B36;
@@ -215,6 +215,13 @@ article {
 .alert img {
 	width: 120px;
 }
+
+.alert a.central_image {
+	float: none;
+	display: block;
+	text-align: center;
+}
+.alert a.central_image img { width: 400px; padding-top: 8px; }
 
 /* Contact Form */
 .mailing_list label {
@@ -284,7 +291,7 @@ a.booking {
 
 	float: left;
 	width: 100%;
-	margin: 0;
+	margin: 0 0 32px;
 	padding:0;
 
 }
