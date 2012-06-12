@@ -224,31 +224,45 @@ article {
 .alert a.central_image img { width: 400px; padding-top: 8px; }
 
 /* Contact Form */
-.mailing_list label {
+.mailing_list fieldset {
 
 	display: block;
 	width: 639px;
 	padding: 12px;
 	margin: 0 0 16px;
+	overflow: auto;
 	
 	background-color: #e1e1e1;
+	text-shadow: none;
 	
 	border: 4px solid white;
 	box-shadow: 0 2px 4px 0 #123031;
 	-moz-box-shadow: 0 2px 4px 0 #123031;
 	-webkit-box-shadow: 0 2px 4px 0 #123031;
-	-0-box-shadow: 0 2px 4px 0 #123031;
+	-o-box-shadow: 0 2px 4px 0 #123031;
 
 }
-.mailing_list label input {
+.mailing_list input[type="email"] {
 
 	display: block;
 	width: 100%;
 	padding: 6px 4px;
+	margin-bottom: 8px;
 
+}
+.mailing_list label {
+	float: left;
+	margin-right: 32px;
+	color: #483B36;
 }
 .mailing_list input[type="submit"] {
 	margin: 0 0 0 455px;
+}
+.mailing_list div.error {
+	display: none;
+	clear: both;
+	padding-top: 4px;
+	color: #A00;
 }
 a.booking, .mailing_list input[type="submit"] {
 

@@ -31,7 +31,7 @@
 	</script>
 </head>
 
-<body onload="initialize()">
+<body>
 
   <header class="tk-futura-pt-condensed">
 	<h1><a href="<?php echo url('') ?>"><span class="hidden">Event Handler - events for geeks</span></a></h1>
