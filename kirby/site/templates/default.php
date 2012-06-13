@@ -176,7 +176,7 @@ function map_initialize() {
 				marker = new google.maps.Marker({
 					map: map,
 					position: location,
-					visible: true
+					visible: false
 				});
 				infobox = new InfoBox({
 					content: event_map,
@@ -216,7 +216,7 @@ function map_initialize() {
 				marker = new google.maps.Marker({
 					map: map,
 					position: results[0].geometry.location,
-					visible: true
+					visible: false
 				});
 				google.maps.event.addListener(marker, 'click', function() { map.panTo(location); });
 				map.panTo(location);
