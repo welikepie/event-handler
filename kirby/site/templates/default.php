@@ -1,120 +1,156 @@
-<?php snippet('header') ?>
+<?php snippet('header'); ?>
 
-<div class="map_container">
-	<div id="map" style="width:100%; height:100%"></div>
-</div>
+		<!-- Event Map Widget -->
+		<div class="map_container">
+			<div id="map" style="width:100%; height:100%"></div>
+		</div>
 
-<div class="page_container">
-
-<section class="content event_list">
-  <article>
-	<div class="main_content">
-    	<h1><?php echo html($page->title()) ?></h1>
-		
-    	<?php
-					$html = kirbytext($page->text());
-					$html = preg_replace('/<p>/i', '<p><span class="figure">Fig. 1 </span>', $html, 1);
-					echo $html;
-				?>
-		
-		<?php $booking = $page->booking_link();
-		      if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php } ?>
-
-		
-	</div>
-	
-	<?php $speakers = $page->speakers(); if ($speakers) { ?>		
-		<div class="additional_content_wrapper">
-			<div class="additional_content">
-
-				<div class="speaker_heading">
-					<ul>
-						<li>Track BlackBerry</li>
-						<li>Track B</li>
-					</ul>
-				</div>
-				<div class="speaker_notes">
-					<ul>
-						<li>10:00</li>
-						<li>10:30</li>
-						<li>12:15</li>
-						<li>14:00</li>
-						<li>15:45</li>
-						<li>17:30</li>
-					</ul>
-				</div>
-				<div class="speaker_grid">
-						<?php echo $speakers; ?>
-				</div>
+		<div class="page_container">
+			<section class="content event_list">
+				<article>
 				
-				<?php $booking = $page->booking_link();
-		              if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php } ?>
-			</div>
+					<div class="main_content">
+						<!-- Page Title -->
+						<h1><?php echo html($page->title()) ?></h1>
+						
+						<!-- Page Description -->
+						<?php
+							$html = kirbytext($page->text());
+							$html = preg_replace('/<p>/i', '<p><span class="figure">Fig. 1 </span>', $html, 1);
+							echo $html;
+						?>
+						
+						<!-- Booking link (if available) -->
+						<?php
+							$booking = $page->booking_link();
+							if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php }
+						?>
+					</div>
+					
+					<?php
+						$speakers = $page->speakers();
+						if ($speakers) { $speakers = yaml($speakers);
+							
+							$speaker_renders = array();
+							$speaker_grid = "";
+							$speaker_times = "";
+							$speaker_tracks = "";
+							$current_list = null;
+							
+							// Renders times
+							if (isset($speakers['Times'])) {
+								$speaker_times = '<ul>';
+								foreach ($speakers['Times'] as &$time) { $speaker_times .= '<li>' . $time . '</li>'; }
+								$speaker_times .= '</ul>';
+							}
+							
+							// Generate speaker renders
+							if (isset($speakers['Talks'])) {
+							
+								// Tracks
+								$speaker_tracks = '<ul>';
+								foreach ($speakers['Talks'] as $track => &$people) {
+								
+									$speaker_renders[] = array();
+									$current_list = &$speaker_renders[count($speaker_renders)-1];
+									$speaker_tracks .= '<li>' . $track . '</li>';
+									
+									foreach ($people as &$speaker) {
+									
+										$temp = '<div class="wide_box speaker_box"><figure>';
+										if (isset($speaker['Image'])) { $temp .= '<img src="' . $speaker['Image'] . '" alt="">'; }
+										$temp .= '<h1>' . $speaker['Name'] . '</h1>' .
+												 '<h2>' . $speaker['Title'] . '</h2>' .
+												 '</figure><div>' .
+												 '<h2>' . $speaker['Title'] . '</h2>' .
+												 kirbytext($speaker['Description']) .
+												 '</div></div>';
+										$current_list[] = $temp;
+									
+									}
+								
+								}
+								$speaker_tracks .= '</ul>';
+								
+								for($i = 0; $i < count($speaker_renders[0]); $i++) {
+									foreach ($speaker_renders as &$render)
+										$speaker_grid .= $render[$i];
+								}
+							
+							}
+							
+							?><div class="additional_content_wrapper">
+								<div class="additional_content">
+									<div class="speaker_heading"><?php echo $speaker_tracks; ?></div>
+									<div class="speaker_notes"><?php echo $speaker_times; ?></div>
+									<div class="speaker_grid"><?php echo $speaker_grid; ?></div>
+									<?php if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php } ?> 
+								</div>
+							</div><?php
+						
+						}
+					?>
+					
+					<!-- Page-wise alerts -->
+					<?php
+						$temp = $page->alert(); if ($temp) {
+							?><div class="alert"><?php echo($temp); ?></div><?php
+						} unset($temp);
+					?>
+					
+					<div class="main_content">
+						<table class="details">
+							<caption>What</caption>
+							<thead>
+								<tr>
+									<td colspan="2"><?php echo kirbytext($page->what()); ?></td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">Where</th>
+									<td><?php echo kirbytext($page->where()); ?></td>
+								</tr>
+								<tr>
+									<th scope="row">When</th>
+									<td><?php echo $page->date("jS F Y"); ?></td>
+								</tr>
+								<tr>
+									<th scope="row">Cost</th>
+									<td><?php echo kirbytext($page->cost()); ?></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					
+					<!-- Global alerts -->
+					<?php
+						$homepage = $pages->find('home');
+						$temp = $homepage->alert(); if ($temp) {
+							?><div class="alert"><?php echo($temp); ?></div><?php
+						}
+					?>
+					
+				</article>
+			</section>
 		</div>
-		<?php } ?>
 		
-		<?php
-			$temp = $page->alert(); if ($temp) {
-				?><div class="alert"><?php echo($temp); ?></div><?php
-			} unset($temp);
-		?>
-		
-		<div class="main_content">
-			<table>
-				<caption>What</caption>
-				<thead>
-					<tr>
-						<td colspan="2"><?php echo kirbytext($page->what()); ?></td>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<th scope="row">Where</th>
-						<td><?php echo kirbytext($page->where()); ?></td>
-					</tr>
-					<tr>
-						<th scope="row">When</th>
-						<td><?php echo $page->date("jS F Y"); ?></td>
-					</tr>
-					<tr>
-						<th scope="row">Cost</th>
-						<td><?php echo kirbytext($page->cost()); ?></td>
-					</tr>
-				</tbody>
-			</table>
+		<div class="infobox-wrapper" data-loc="<?php echo h($page->map()); ?>">
+			<?php $temp = $page->infobox(); if ($temp) { ?>
+			<div id="infobox"><?php echo $temp; ?></div>
+			<?php } ?>
 		</div>
-		<?php
-
-			$homepage = $pages->find('home');
-			$temp = $homepage->alert(); if ($temp) {
-				?><div class="alert"><?php echo($temp); ?></div><?php
-			}
-		?>
-  </article>
-
-</section>
-
-</div>
-
-<div class="infobox-wrapper">
-    <div id="infobox">
-        <h1>
-        	<span>JS School Trip</span>
-			<span>30th June 2012</span>
-			<abbr class="easydate">Sat, 30 June 2012 07:25:58 -0700</abbr>
-			<span>Tickets £75</span>
-        </h1>
-    </div>
-</div>
-
-<script type="text/javascript" src="/assets/scripts/details.js"></script>
-<?php snippet('footer') ?>
-
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
-<script type="text/javascript">
-function initialize() {
+		
+<?php snippet('footer', array(
+	'bottom_scripts' => array(
+		'http://code.jquery.com/jquery-latest.min.js',
+		'http://maps.google.com/maps/api/js?sensor=false',
+		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
+		'/assets/scripts/jquery.easydate-0.2.4.min.js'
+	),
+	'bottom_snippets' => array(
+	<<<EOT
+function map_initialize() {
     var loc, map, marker, infobox;
     loc = new google.maps.LatLng(51.526047, -0.08832);
     
@@ -125,51 +161,79 @@ function initialize() {
          center: new google.maps.LatLng(51.524245, -0.076239),
          mapTypeId: google.maps.MapTypeId.ROADMAP
     });
-    
-    marker = new google.maps.Marker({
-        map: map,
-        position: loc,
-        visible: false
-    });
+	
+	event_map = document.getElementById("infobox");
+	if (event_map) {
+	
+		geocoder = new google.maps.Geocoder();
+		geocoder.geocode({'address': event_map.parentNode.getAttribute('data-loc')}, function (results, status) {
 
-    infobox = new InfoBox({
-         content: document.getElementById("infobox"),
-         disableAutoPan: false,
-         maxWidth: 400,
-         pixelOffset: new google.maps.Size(80, -60),
-         zIndex: null,
-         boxStyle: {
-            opacity: 1,
-            width: "280px"
-        },
-//        closeBoxMargin: "12px 4px 2px 2px",
-//        closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
-//        infoBoxClearance: new google.maps.Size(1, 1)
-    });
-    
-	google.maps.event.addListener(marker, 'click', function() {
-		infobox.open(map, this);
-		map.panTo(loc);
-    });
-    
-    infobox.open(map, marker);
-//   map.panTo(loc);
+			var marker, infobox, location;
+
+			if (status === google.maps.GeocoderStatus.OK) {
+			
+				location = results[0].geometry.location;
+				marker = new google.maps.Marker({
+					map: map,
+					position: location,
+					visible: true
+				});
+				infobox = new InfoBox({
+					content: event_map,
+					disableAutoPan: false,
+					maxWidth: 400,
+					pixelOffset: new google.maps.Size(60, -140),
+					zIndex: null,
+					boxStyle: {
+						opacity: 1,
+						width: "280px"
+					},
+					//closeBoxMargin: "12px 4px 2px 2px",
+					//closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
+					//infoBoxClearance: new google.maps.Size(1, 1)
+				});
+				
+				google.maps.event.addListener(marker, 'click', function() {
+					infobox.open(map, this);
+					map.panTo(location);
+				});
+				
+				infobox.open(map, marker);
+				map.panTo(location);
+			
+			}
+
+		});
+	
+	} else {
+	
+		geocoder = new google.maps.Geocoder();
+		geocoder.geocode({'address': $('div.infobox-wrapper').get(0).getAttribute('data-loc')}, function (results, status) {
+		
+			var marker, location;
+			if (status === google.maps.GeocoderStatus.OK) {
+				location = results[0].geometry.location;
+				marker = new google.maps.Marker({
+					map: map,
+					position: results[0].geometry.location,
+					visible: true
+				});
+				google.maps.event.addListener(marker, 'click', function() { map.panTo(location); });
+				map.panTo(location);
+			}
+		
+		});
+	
+	}
+
 }
-google.maps.event.addDomListener(window, 'load', initialize);
-
-
-
-
-</script>
-<script type="text/javascript" src="/assets/scripts/details.js"></script>
-<script type="text/javascript" src="/assets/scripts/jquery.easydate-0.2.4.min.js"></script>
-
-<script type="text/javascript" charset="utf-8">
+google.maps.event.addDomListener(window, 'load', map_initialize);
+EOT
+	, <<<EOT
 	$('.speaker_grid > div').click(function(){
-	  $(this).toggleClass('foo');
+		$(this).toggleClass('foo');
 	});
-</script>
-
-<script type="text/javascript" charset="utf-8">
 	$(".easydate").easydate();
-</script>
+EOT
+	)
+)); ?>

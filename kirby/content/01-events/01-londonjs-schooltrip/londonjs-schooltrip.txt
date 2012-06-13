@@ -6,320 +6,121 @@ After a successful year bringing you respected industry experts from around the 
 
 So this is our plan: 1 hour talks, projects to code along with, resources available online. Long breaks between talks to coffee up, network, carry on hacking and meet with speakers. No rubbish conference centre WiFi – we're building our own network just for you.
 ----
-What: JavaScript, WebSockets, Data, Arduino
-----
 Date: 2012-06-30
+----
+What: JavaScript, WebSockets, Data, Arduino
 ----
 Where: Central Foundation Boys School, Cowper Street, London, EC2A 4SH, United Kingdom
 ----
 Cost: £75 per person
 ----
-Map: Cowper Street, London, EC2A 4SH, United Kingdom
-----
 Booking_link: http://ldnjs-school-trip.eventbrite.com/
 ----
 Priority: 1
 ----
-Additional:
-<table class="schedule">
-	<caption>Schedule</caption>
-	<thead>
-		<tr>
-			<th></th>
-			<th scope="col">A Track</th>
-			<th scope="col">B Track</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row">10:00</th>
-			<td colspan="2">Keynote: Steph Troeth</td>
-		</tr>
-		<tr>
-			<th scope="row">10:30</th>
-			<td>Mark Wubben</td>
-			<td>Mike MacCana</td>
-		</tr>
-		<tr>
-			<th scope="row">12:15</th>
-			<td>Irene Ros</td>
-			<td>TBA</td>
-		</tr>
-		<tr>
-			<th scope="row">14:00</th>
-			<td>Philip Deschaine</td>
-			<td>TBA</td>
-		</tr>
-		<tr>
-			<th scope="row">15:45</th>
-			<td>Kornel Lesinski</td>
-			<td>Paul King</td>
-		</tr>
-		<tr>
-			<th scope="row">17:30</th>
-			<td>Syd Lawrence</td>
-			<td>Phil Nash	</td>
-		</tr>
-		<tr>
-			<th scope="row">19:00</th>
-			<td colspan="2">After party</td>
-		</tr>
-	</tbody>
-</table>
+Map: Cowper Street, London, EC2A 4SH, United Kingdom
+----
+Infobox:
 
-<div class="presenters">
-	<details open>
-		<summary>Steph Troeth: What Can You Make?</summary>
-		<p>How well do we know this ephemeral material we use to craft websites, apps, and ultimately the web? How well do we know our powers and skills, as architects and engineers? And if we knew ourselves and our craft better, would we—could we—make more awesome things, or would it have the opposite effect?
-		</p>
-		<p>- <a href="https://twitter.com/sniffles" rel="external">@sniffles</a></p>
-	</details>
-	<details>
-		<summary>Mark Wubben: EyebrowJS</summary>
-		<p>A discussion on realtime, multi-device, rich-client applications. Single-page apps are the new black. But how do you build a website that can do server-side rendering while also being a single-page app on the client-side?
-
-		EyebrowJS is the template and UI system used at State, a London-based startup building a global opinion network. It’s used for server-side rendering from a Node.js server and client-side magic, including managing UI, animations, page transitions and reactive data-binding. We’ll discuss how Eyebrow is architected and what it means for web application development.</p>
-		<p>- <a href="https://twitter.com/novemberborn" rel="external">@novemberborn</a></p>
-	</details>
-	<details>
-		<summary>Irene Ros: Building Client-Side Data-Driven Web Applications</summary>
-		<p>As data becomes an integral part of our web application stack, traditional approaches to data fetching and manipulation may not be enough. In this session we will discuss the varying approaches one can take to building data-driven applications and the available libraries to support those approaches. From JSON requests to n-dimensional filtering, come learn what patterns might be useful in your workflow.</p>
-		<p>- <a href="https://twitter.com/ireneros" rel="external">@ireneros</a></p>
-	</details>
-	<details>
-		<summary>Philip Deschaine: Off to the Races: Building a Massively Scalable App Fast</summary>
-		<p>We're living in the future.  It's 2012 and we should start acting act like it.  Let's make a multiplayer game in HTML5 and JavaScript completely from scratch that automatically scales to millions.  In an hour. </p>
-		<p>- <a href="https://twitter.com/vowelnoun" rel="external">@vowelnoun</a></p>
-	</details>
-	<details>
-		<summary>Kornel Lesinski: Getting website to load in 1 second</summary>
-		<p>TBA, it's going to be awesome.</p>
-		<p>- <a href="https://twitter.com/pornelski" rel="external">@pornelski</a></p>
-	</details>
-	<details>
-		<summary>Syd Lawrence: Using The Internet as Your Database</summary>
-		<p>Many sites offer APIs, let's use them. Let's make something awesome.</p>
-		<p>- <a href="https://twitter.com/sydlawrence" rel="external">@sydlawrence</a></p>
-	</details>
-	<details>
-		<summary>Mike MacCana: Fix Your Life With Chrome Extensions</summary>
-		<p>Building four practical Chrome extensions, each of which fixes a real real-world problem:<br/>
-		 - Removing Google+ animations when you use google.com:<br/>
-		 - Simulating user input to get top position on an online typing test :<br/>
-		 - Finding which tab in which window runs Soundcloud and stopping the music from the keyboard.
-		 - Making an EventBrite sniper</p>
-		<p>- <a href="https://twitter.com/mikemaccana" rel="external">@mikemaccana</a></p>
-	</details>
-	<details>
-		<summary>Paul King: Sensing the real world with Javascript and Arduino</summary>
-		<p>Thanks to projects like Arduino, it's never been easier to react to
-		real world data in your projects.  Let's do that!</p>
-		<p>- <a href="https://twitter.com/nrocy" rel="external">@nrocy</a></p>
-	</details>
-	<details>
-		<summary>Phil Nash: Browsers! JavaScript! Cameras! Microphones!</summary>
-		<p>Browsers are starting to implement JavaScript APIs for access to web cams and microphones. We'll look at what we can do with this, from simply taking a picture of yourself to video chat, all in the browser.</p>
-		<p>- <a href="https://twitter.com/philnash" rel="external">@philnash</a></p>
-	</details>
-</div>
+<h1>
+	<span>JS School Trip</span>
+	<span>30th June 2012</span>
+	<abbr class="easydate">Sat, 30 June 2012 07:25:58 -0700</abbr>
+	<a href="http://ldnjs-school-trip.eventbrite.com/" rel="external" target="_blank">Tickets £75</a>
+</h1>
 ----
 Speakers:
-<div class="wide_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/arran_and_edd.png" alt=" " />
-			<h1>Arran &amp; Edd <a href="http://twitter.com/#!/arranrp" target="_blank"><span class="twitter">@</span>arranrp</a> <a href="http://twitter.com/#!/edds" target="_blank"><span class="twitter">@</span>edds</a> </h1>
-			<h2>Introduction and announcements</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>Introduction and announcements</h2>
-		<p>This is the boring stuff, but it needs to happen other wise everyone would get lost.
-		</p>
-	</div>
-</div>
 
-<div class="wide_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/steph.png" alt=" " />
-			<h1>Steph Troeth <a href="http://twitter.com/#!/" target="_blank"><span class="twitter">@</span>sniffles</a> </h1>
-			<h2>Key note:</br>What Can You Make?</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>What Can You Make?</h2>
-		<p>How well do we know this ephemeral material we use to craft websites, apps, and ultimately the web? How well do we know our powers and skills, as architects and engineers? And if we knew ourselves and our craft better, would we—could we—make more awesome things, or would it have the opposite effect?
-		</p>
-	</div>
-</div>
+Times:
+  - '10:00'
+  - '10:30'
+  - '12:15'
+  - '14:00'
+  - '15:45'
+  - '17:30'
 
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/mark.png" alt=" " />
-			<h1>Mark Wubben <a href="http://twitter.com/#!/novemberborn" target="_blank"><span class="twitter">@</span>novemberborn</a> </h1>
-			<h2>EyebrowJS</h2>
-		</div>
-	</figure>
+Talks:
+  Track BlackBerry:
   
-	<div>
-		<h2>EyebrowJS</h2>
-		<p>A discussion on realtime, multi-device, rich-client applications. But how do you build a website that can do server-side rendering while also being a single-page app on the client-side? EyebrowJS is the template &amp; UI system used at State, a London-based startup building a global opinion network. It’s used for server-side rendering from a Node.js server and client-side magic. We’ll discuss how Eyebrow is architected and what it means for development.
-		</p>
-	</div>
-</div>
+    - Name:  Arran &amp; Edd <a href="http://twitter.com/arranrp" target="_blank"><span class="twitter">@</span>arranrp</a> <a href="http://twitter.com/edds" target="_blank"><span class="twitter">@</span>edds</a>
+      Title: Introduction and Announcements
+      Image: /assets/images/arran_and_edd.png
+      Description: |
+        This is the boring stuff, but it needs to happen other wise everyone would get lost.
+    
+    - Name:  Mark Wubben <a href="http://twitter.com/novemberborn" target="_blank"><span class="twitter">@</span>novemberborn</a>
+      Title: EyebrowJS
+      Image: /assets/images/mark.png
+      Description: |
+        A discussion on realtime, multi-device, rich-client applications. But how do you build a website that can do server-side rendering while also being a single-page app on the client-side? EyebrowJS is the template &amp; UI system used at State, a London-based startup building a global opinion network. It’s used for server-side rendering from a Node.js server and client-side magic. We’ll discuss how Eyebrow is architected and what it means for development.
+    
+    - Name:  Irene Ros <a href="http://twitter.com/ireneros" target="_blank"><span class="twitter">@</span>ireneros</a>
+      Title: Building Client-Side Data-Driven Web Applications
+      Image: /assets/images/irene.png
+      Description: |
+        As data becomes an integral part of our web application stack, traditional approaches to data fetching and manipulation may not be enough. In this session we will discuss the varying approaches one can take to building data-driven applications and the available libraries to support those approaches. From JSON requests to n-dimensional filtering, come learn what patterns might be useful in your workflow.
+    
+    - Name:  Philip Deschaine <a href="http://twitter.com/vowelnoun" target="_blank"><span class="twitter">@</span>vowelnoun</a>
+      Title: 'Off to the Races: Building a Massively Scalable App Fast'
+      Image: /assets/images/philip.png
+      Description: |
+        We're living in the future. It's 2012 and we should start acting act like it. Let's make a multiplayer game in HTML5 and JavaScript completely from scratch that automatically scales to millions. In an hour.
+    
+    - Name:  Kornel Lesinski <a href="http://twitter.com/pornelski" target="_blank"><span class="twitter">@</span>pornelski</a>
+      Title: Getting website to load in 1 second
+      Image: /assets/images/kornel.png
+      Description: |
+        TBA, pure awesomeness and glee abound.
+    
+    - Name:  Syd Lawrence <a href="http://twitter.com/sydlawrence" target="_blank"><span class="twitter">@</span>sydlawrence</a>
+      Title: Using The Internet as Your Database
+      Image: /assets/images/syd.png
+      Description: |
+        Many sites offer APIs, let's use them. Let's make something awesome.
+  
+  Track B:
+  
+    - Name:  Steph Troeth <a href="http://twitter.com/sniffles" target="_blank"><span class="twitter">@</span>sniffles</a>
+      Title: 'Key note:</br>What Can You Make?'
+      Image: /assets/images/steph.png
+      Description: |
+        How well do we know this ephemeral material we use to craft websites, apps, and ultimately the web? How well do we know our powers and skills, as architects and engineers? And if we knew ourselves and our craft better, would we—could we—make more awesome things, or would it have the opposite effect?
+    
+    - Name:  Mike MacCana <a href="http://twitter.com/mikemaccana" target="_blank"><span class="twitter">@</span>mikemaccana</a>
+      Title: Fix Your Life With Chrome Extensions
+      Image: /assets/images/mike.png
+      Description: |
+        Building four practical Chrome extensions, each of which fixes a real real-world problem:
+        - Removing Google+ animations when you use google.com:
+        - Simulating user input to get top position on an online typing test :
+        - Finding which tab in which window runs Soundcloud and stopping the music from the keyboard.
+        - Making an EventBrite sniper
+    
+    - Name:  Luca Sale <a href="http://twitter.com/blackberryluca" target="_blank"><span class="twitter">@</span>blackberryluca</a>
+      Title: 'Alice.js: A Lightweight Independent CSS Engine'
+      Image: /assets/images/luca.png
+      Description: |
+        An open source micro library simplifies doing advanced animations with CSS. It’s self contained and works directly against the DOM. The framework introduced the concept of Organics, adding randomization characteristics to create visual effects that are subtly different each time they play out. Used for games as well as regular business apps, AliceJS can help bring freshness and polish to your work.
+    
+    - Name:  TBH
+      Title: 
+      Image: /assets/images/tbh.png
+      Description: |
+        
+    
+    - Name:  Paul King <a href="http://twitter.com/nrocy" target="_blank"><span class="twitter">@</span>nrocy</a>
+      Title: Sensing the real world with Javascript and Arduino
+      Image: /assets/images/paul.png
+      Description: |
+        Thanks to projects like Arduino, it's never been easier to react to real world data in your projects. Let's do that!
+        
+        How well do we know our powers and skills, as architects and engineers? And if we knew ourselves and our craft better, would we—could we—make more awesome things, or would it have the opposite effect?
+    
+    - Name:  Phil Nash <a href="http://twitter.com/philnash" target="_blank"><span class="twitter">@</span>philnash</a>
+      Title: Browsers! JavaScript! Cameras! Microphones!
+      Image: /assets/images/phil.png
+      Description: |
+        Browsers are starting to implement JavaScript APIs for access to web cams and microphones. We'll look at what we can do with this, from simply taking a picture of yourself to video chat, all in the browser.
 
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/mike.png" alt=" " />
-			<h1>Mike MacCana <a href="http://twitter.com/#!/mikemaccana" target="_blank"><span class="twitter">@</span>mikemaccana</a> </h1>
-			<h2>Fix Your Life With Chrome Extensions</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>Fix Your Life With Chrome Extensions</h2>
-		<p>Building four practical Chrome extensions, each of which fixes a real real-world problem:
-		- Removing Google+ animations when you use google.com:
-		- Simulating user input to get top position on an online typing test :
-		- Finding which tab in which window runs Soundcloud and stopping the music from the keyboard. - Making an EventBrite sniper
-		</p>
-	</div>
-</div>
-
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/irene.png" alt=" " />
-			<h1>Irene Ros <a href="http://twitter.com/#!/ireneros" target="_blank"><span class="twitter">@</span>ireneros</a> </h1>
-			<h2>Building Client-Side Data-Driven Web Applications</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>Building Client-Side Data-Driven Web Applications</h2>
-		<p>As data becomes an integral part of our web application stack, traditional approaches to data fetching and manipulation may not be enough. In this session we will discuss the varying approaches one can take to building data-driven applications and the available libraries to support those approaches. From JSON requests to n-dimensional filtering, come learn what patterns might be useful in your workflow.
-		</p>
-	</div>
-</div>
-
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/luca.png" alt=" " />
-			<h1>Luca Sale <a href="http://twitter.com/#!/" target="_blank"><span class="twitter">@</span>blackberryluca</a> </h1>
-			<h2>Alice.js: A Lightweight Independent CSS Engine</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>Alice.js: A Lightweight Independent CSS Engine</h2>
-		<p>An open source micro library simplifies doing advanced animations with CSS. It’s self contained and works directly against the DOM. The framework introduced the concept of Organics, adding randomization characteristics to create visual effects that are subtly different each time they play out. Used for games as well as regular business apps, AliceJS can help bring freshness and polish to your work.
-		</p>
-	</div>
-</div>
-
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/philip.png" alt=" " />
-			<h1>Philip Deschaine <a href="http://twitter.com/#!/vowelnoun" target="_blank"><span class="twitter">@</span>vowelnoun</a> </h1>
-			<h2>Off to the Races: Building a Massively Scalable App Fast</h2>
-		</div>
-		
-	</figure>
-  
-	<div>
-		<h2>Off to the Races: Building a Massively Scalable App Fast</h2>
-		<p>We're living in the future. It's 2012 and we should start acting act like it. Let's make a multiplayer game in HTML5 and JavaScript completely from scratch that automatically scales to millions. In an hour.
-		</p>
-	</div>
-</div>
-
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/tbh.png" alt=" " />
-			<h1>TBH <a href="http://twitter.com/#!/" target="_blank"><span class="twitter"></span></a> </h1>
-			<h2></h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2></h2>
-		<p>
-		</p>
-	</div>
-</div>
-
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/kornel.png" alt=" " />
-			<h1>Kornel Lesinski <a href="http://twitter.com/#!/pornelski" target="_blank"><span class="twitter">@</span>pornelski</a> </h1>
-			<h2>Getting website to load in 1 second</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>Getting website to load in 1 second</h2>
-		<p>TBA, it's going to be awesome.
-		</p>
-	</div>
-</div>
-
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/paul.png" alt=" " />
-			<h1>Paul King <a href="http://twitter.com/#!/nrocy" target="_blank"><span class="twitter">@</span>nrocy</a> </h1>
-			<h2>Sensing the real world with Javascript and Arduino</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>Sensing the real world with Javascript and Arduino</h2>
-		<p>Thanks to projects like Arduino, it's never been easier to react to real world data in your projects. Let's do that!
-		</p>
-		<p> How well do we know our powers and skills, as architects and engineers? And if we knew ourselves and our craft better, would we—could we—make more awesome things, or would it have the opposite effect?
-		</p>
-	</div>
-</div>
-
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/syd.png" alt=" " />
-			<h1>Syd Lawrence <a href="http://twitter.com/#!/sydlawrence" target="_blank"><span class="twitter">@</span>sydlawrence</a> </h1>
-			<h2>Using The Internet as Your Database</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>Using The Internet as Your Database</h2>
-		<p>Many sites offer APIs, let's use them. Let's make something awesome.
-		</p>
-	</div>
-</div>
-
-<div class="mini_box speaker_box"> 
-	<figure>
-		<div>
-			<img src="/assets/images/phil.png" alt=" " />
-			<h1>Phil Nash <a href="http://twitter.com/#!/philnash" target="_blank"><span class="twitter">@</span>philnash</a> </h1>
-			<h2>Browsers! JavaScript! Cameras! Microphones!</h2>
-		</div>
-	</figure>
-  
-	<div>
-		<h2>Browsers! JavaScript! Cameras! Microphones!</h2>
-		<p>Browsers are starting to implement JavaScript APIs for access to web cams and microphones. We'll look at what we can do with this, from simply taking a picture of yourself to video chat, all in the browser.
-		</p>
-	</div>
-</div>
 ----
 Alert: <a href="https://developer.blackberry.com/html5/" rel="external" class="central_image" target="_blank"><img src="/assets/images/blackberry.png" alt="BlackBerry Logo"></a>
