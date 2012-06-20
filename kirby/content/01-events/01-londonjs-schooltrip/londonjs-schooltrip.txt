@@ -103,10 +103,10 @@ Talks:
         An open source micro library simplifies doing advanced animations with CSS. It’s self contained and works directly against the DOM. The framework introduced the concept of Organics, adding randomization characteristics to create visual effects that are subtly different each time they play out. Used for games as well as regular business apps, AliceJS can help bring freshness and polish to your work.
     
     - Name:  Alex Graul <a href="http://twitter.com/AlexGraul" target="_blank"><span class="twitter">@</span>AlexGraul</a>
-      Title: Please stop inflating Greenland
+      Title: Better maps for your apps
       Image: /assets/images/alex.png
       Description: |
-        A guide to making better client-side maps.
+        Learn how to create beautiful maps and display geographic data from the ground up with open tools and open data.
     
     - Name:  Paul King <a href="http://twitter.com/nrocy" target="_blank"><span class="twitter">@</span>nrocy</a>
       Title: Sensing the real world with Javascript and Arduino
