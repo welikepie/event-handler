@@ -77,7 +77,7 @@ header h1 {
 	padding:0;
 	height:139px;
 	margin: 0;
-	background-image: url('/assets/images/logo.png');
+	background-image: url('../images/logo.png');
 	background-repeat: no-repeat;
 	background-position:0 0;
 }

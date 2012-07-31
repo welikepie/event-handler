@@ -173,7 +173,7 @@
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
-		'/assets/scripts/jquery.easydate-0.2.4.min.js'
+		url('/assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
 	'bottom_snippets' => array(
 	<<<EOT
