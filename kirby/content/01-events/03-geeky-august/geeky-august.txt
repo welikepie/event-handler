@@ -14,5 +14,14 @@ Cost: Free
 ----
 Map: 19 Mandela Street, London, NW1 0DU, United Kingdom
 ----
+Infobox:
+
+<h1>
+	<span>Geeky</span>
+	<span>27th August 2012</span>
+	<abbr class="easydate">Mon, 27 August 2012 18:00:00 +0000</abbr>
+	<a href="http://geeky-august.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
 Booking_link: http://geeky-august.eventbrite.com/
 
