@@ -18,8 +18,8 @@ Infobox:
 
 <h1>
 	<span>Geeky</span>
-	<span>27th August 2012</span>
-	<abbr class="easydate">Mon, 27 August 2012 18:00:00 +0000</abbr>
+	<span>28th August 2012</span>
+	<abbr class="easydate">Mon, 28 August 2012 18:00:00 +0000</abbr>
 	<a href="http://geeky-august.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
 ----

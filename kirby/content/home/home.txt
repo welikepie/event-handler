@@ -10,9 +10,3 @@ Now just give the links in the menu a try to see if URL redirection works as wel
 Check out the docs: <http://getkirby.com/docs> if you run into any problems or send me an email: <bastian@getkirby.com>
 
 Have fun with Kirby!
-
-----
-Alert:
-<a href="http://codeclub.org.uk/" rel="external" target="_blank"><img src="/assets/images/codeclub_logo.png" alt="Codeclub Logo"></a>
-<h1>Code Club 10%</h1>
-<p>We think Code Club is an awesome initiative. They need some help getting off the ground so we decided to donate 10% of all our ticket sales to them.</p>
