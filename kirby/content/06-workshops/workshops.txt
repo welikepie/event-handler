@@ -1,0 +1,26 @@
+Title: Workshops
+----
+Text: Since we've started doing events, we've always had the idea of holding workshops at the back of our minds.
+As there is no time like the present, we're excited to say that we are doing just that, we will be organising
+several workshops on all different subjects on a regular basis around London. 
+
+Ideas we have been toying with include Arduino workshops, Paper Prototyping, an introduction to Web Intents 
+and to the D3 framework. Take a look at the descriptions below, if you wish to take part in any of
+them, please register your interest at the appropriate links!
+
+If you have any suggestions for workshops to hold, or would like to do your own, 
+Please contact us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) or on Twitter at @eventhandleruk. 
+
+----
+Formstart: <form action="http://eventhandler.us2.list-manage.com/subscribe?u=b76886bab37470b1e293804f6&id=799f4da2e1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" target="_blank">
+----
+Formend:
+			<fieldset>
+				<input type="email" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
+				<div class="error">You need to select at least one category.</div>
+			</fieldset>
+			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+		</form>
+
+
+	

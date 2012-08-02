@@ -1,0 +1,5 @@
+Title: Mashup crash course with Hannah Wolfe
+----
+Lecturer: Hannah Wolfe
+----
+Description: Be introduced to RESTful API’s and create a mash-ups, making and parsing requests, testing and deploying your projects. 

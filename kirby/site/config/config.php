@@ -40,8 +40,7 @@ Make sure to write the url without a trailing slash.
  
 */
 
-c::set('url', false);
-
+c::set('url', false); //reset on commit
 
 /* 
 
@@ -82,8 +81,7 @@ RewriteBase /subfolder
 */
 
 c::set('subfolder', false);
-
-
+//c::set('subfolder', 'aptana/event-handler/kirby');
 /* 
 
 ---------------------------------------
@@ -262,7 +260,7 @@ php errors there.
 
 */
 
-c::set('debug', false);
+c::set('debug', true);
 
 
 /* 

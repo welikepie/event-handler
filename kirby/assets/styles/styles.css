@@ -471,6 +471,7 @@ div.presenters details[open] summary:after { content: ' -'; }
 	text-shadow: none;
 	
 }
+.job .details .rightFormCheck{float:right;}
 .job .details .meta { margin: 0 0 8px; overflow: hidden; font-weight: bold; }
 .job .details .meta span {
 	float: right;
