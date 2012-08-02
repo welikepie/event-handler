@@ -1,44 +1,45 @@
-<?php snippet('header')
-?>
+<?php snippet('header'); ?>
 
-<section class="aboutus_content jobs">
-<div class="introduction">
-<h1><?php echo html($page -> title()); ?></h1>
-<?php echo kirbytext($page -> text()); ?>
-</div>
+<div class="page_container workshops">
+	<section>
+	
+		<div class="introduction">
+		<h1><?php echo html($page -> title()); ?></h1>
+		<?php echo kirbytext($page -> text()); ?>
+		</div>
 
-<?php echo ($page -> formstart());
-$workshops = $pages->find('workshops');
-$workshops = $workshops->children()->visible();
-//$workshops = $workshops->sortBy('title','desc');
+		<form action="http://eventhandler.us2.list-manage.com/subscribe?u=b76886bab37470b1e293804f6&id=799f4da2e1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" target="_blank">
+		<?php
+		$workshops = $pages->find('workshops');
+		$workshops = $workshops->children()->visible();
+		//$workshops = $workshops->sortBy('title','desc');
 
-foreach ($workshops as $workshop) {
-
-?>
-
-	<div class="job">
-		<h1><?php echo html($workshop -> title()); ?></h1>
-			<div class="details">
-				<img src= "<?php 
-				if($workshop->imagepath()!=null){
-				echo ($workshop->imagepath());}
-				else{echo("DEFAULT PATH");} 	
-				  ?>
-				" >
-				<p class="meta">Lecturer: <span><?php echo html($workshop -> lecturer()); ?></span></p>
-				<p class="meta">Description: <span><?php echo kirbytext($workshop -> description()); ?></span></p>
-				<label class="rightFormCheck">Let Me Know  <input type="checkbox" id=<?php echo(str_replace(" ","_",$workshop->title()));?> value="Subscribe" checked></label>
+		foreach ($workshops as $workshop) {
+		
+		?>
+			<div class="workshop">
+				<h1><?php echo html($workshop -> title()); ?></h1>
+				<div class="details">
+					<img src= "<?php 
+					$img = ($workshop->imagepath() ? $workshop->imagepath() : 'assets/images/tbh.png');
+					echo url($img); unset($img);	
+					?>">
+					<p class="meta"><span>Lecturer:</span> <?php echo html($workshop->lecturer()); ?></p>
+					<div class="description"><?php echo kirbytext($workshop->description()); ?></div>
+					<label class="rightFormCheck">Let Me Know  <input type="checkbox" id="<?php echo(str_replace(" ","_",$workshop->title()));?>" value="Subscribe" checked></label>
+				</div>
 			</div>
-	</div>
+		<?php
+		
+		}
+		?>
+			<fieldset>
+				<input type="email" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
+				<div class="error">You need to select at least one category.</div>
+			</fieldset>
+			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+		</form>
 
-<?php
-
-}
-?>
-<div>
-<?php echo ($page -> formend());?>
+	</section>
 </div>
-
-</section>
-<?php snippet('footer')
-?>
+<?php snippet('footer'); ?>

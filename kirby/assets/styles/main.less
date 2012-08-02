@@ -206,10 +206,10 @@ article { margin-bottom: @base * 4; }
     
 }
 
-// Job Boxes
+// Job Boxes (and workshop boxes)s
 // ------------------
 
-.jobs .job {
+.jobs .job, .workshops .workshop {
     margin-bottom: 24px;
     
     .details {
@@ -236,7 +236,7 @@ article { margin-bottom: @base * 4; }
 	        border-radius: 3px;
         }
         // Application and "view more" button
-        .contact a, a.extender {
+        .contact a, a.extender, .rightFormCheck {
             display: block;
         	float: left;
         	margin: 0 8px 8px 0;
@@ -250,7 +250,7 @@ article { margin-bottom: @base * 4; }
             
             &:hover, &:focus { text-decoration: underline; }
         }
-        a.extender { float: right; cursor: pointer; }
+        a.extender, .rightFormCheck { float: right; cursor: pointer; }
         
         // Description box
         .description {
@@ -266,6 +266,18 @@ article { margin-bottom: @base * 4; }
                 margin: 0 0 24px;
             }
             ul { margin: 0 0 24px 24px; }
+        }
+    }
+}
+// Workshop-only stuff
+.workshops .workshop {
+    .details {
+        > img {
+            float: left;
+            margin: 0 16px 8px 0;
+        }
+        .rightFormCheck {
+            
         }
     }
 }

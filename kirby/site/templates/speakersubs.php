@@ -1,15 +1,13 @@
 <?php snippet('header') ?>
 
-<section class="content">
-  <article>
-	<div class="aboutus_content">
-    	<h1><?php echo html($page->title()) ?></h1>
-    	<?php echo kirbytext($page -> text());
+<div class="page_container speakersubs">
+	<section>
+		<h1><?php echo html($page->title()) ?></h1>
+		<?php echo kirbytext($page -> text());
 			echo $page -> form();
-    	?>
-	</div>
-  </article>
-</section>
+		?>
+	</section>
+</div>
 
 <script type="text/javascript">
 	window.contact_checkboxes = function() {
