@@ -6,7 +6,7 @@
 		</div>
 
 		<div class="page_container">
-			<section class="content event_list">
+			<section class="event_list">
 				<article>
 				
 					<div class="main_content">
@@ -23,7 +23,7 @@
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $page->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php }
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">View Tickets</a><?php }
 						?>
 					</div>
 					
@@ -103,13 +103,13 @@
 							<caption>What</caption>
 							<thead>
 								<tr>
-									<td colspan="2"><?php echo kirbytext($page->what()); ?></td>
+									<td colspan="2"><?php echo html($page->what()); ?></td>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<th scope="row">Where</th>
-									<td><?php echo kirbytext($page->where()); ?></td>
+									<td><?php echo html($page->where()); ?></td>
 								</tr>
 								<tr>
 									<th scope="row">When</th>
@@ -117,7 +117,7 @@
 								</tr>
 								<tr>
 									<th scope="row">Cost</th>
-									<td><?php echo kirbytext($page->cost()); ?></td>
+									<td><?php echo html($page->cost()); ?></td>
 								</tr>
 							</tbody>
 						</table>

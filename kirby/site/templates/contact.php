@@ -3,25 +3,26 @@
 <section class="content">
 
   <article>
-	<div class="aboutus_content">
-    	<h1><?php echo html($page->title()) ?></h1>
-    	<?php echo kirbytext($page->text()); ?>
-		
-		<h2>Subscribe to our mailing list</h2>
-		<form action="http://welikepie.us2.list-manage1.com/subscribe/post?u=b76886bab37470b1e293804f6&amp;id=801bc2e5e9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" target="_blank">
-			<fieldset>
-				<input type="email" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
-				<div class="categories">
-					<label><input type="checkbox" id="everything_check" checked> Everything</label>
-					<label><input type="checkbox" name="DEV" value="Subscribe" checked> Development</label>
-					<label><input type="checkbox" name="DESIGN" value="Subscribe" checked> Design</label>
-					<label><input type="checkbox" name="SOCIAL" value="Subscribe" checked> Social</label>
-				</div>
-				<div class="error">You need to select at least one category.</div>
-			</fieldset>
-			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-		</form>
-		
+	<div class="page_container contact">
+		<section>
+			<h1><?php echo html($page->title()) ?></h1>
+			<?php echo kirbytext($page->text()); ?>
+			
+			<h2>Subscribe to our mailing list</h2>
+			<form action="http://welikepie.us2.list-manage1.com/subscribe/post?u=b76886bab37470b1e293804f6&amp;id=801bc2e5e9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" target="_blank">
+				<fieldset>
+					<input type="email" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
+					<div class="categories">
+						<label><input type="checkbox" id="everything_check" checked> Everything</label>
+						<label><input type="checkbox" name="DEV" value="Subscribe" checked> Development</label>
+						<label><input type="checkbox" name="DESIGN" value="Subscribe" checked> Design</label>
+						<label><input type="checkbox" name="SOCIAL" value="Subscribe" checked> Social</label>
+					</div>
+					<div class="error">You need to select at least one category.</div>
+				</fieldset>
+				<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+			</form>
+		</section>
 	</div>
   </article>
 

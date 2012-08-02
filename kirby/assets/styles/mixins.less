@@ -1,0 +1,42 @@
+.box-shadow (@x: 0, @y: 0, @blur: 1px, @range: 1px, @color: #000) {
+    box-shadow: @arguments;
+    -o-box-shadow: @arguments;
+    -moz-box-shadow: @arguments;
+    -webkit-box-shadow: @arguments;
+}
+
+.transition(@transition: all linear .2s) {
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -ms-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+.transform(@transform) {
+  -webkit-transform: @transform;
+  -moz-transform: @transform;
+  -ms-transform: @transform;
+  -o-transform: @transform;
+  transform: @transform;
+}
+.transform-origin(@transform-origin: 0% 0%) {
+  -webkit-transform-origin: @transform-origin;
+  -moz-transform-origin: @transform-origin;
+  -ms-transform-origin: @transform-origin;
+  -o-transform-origin: @transform-origin;
+  transform-origin: transform-origin;
+}
+.transform-style(@transform-style) {
+  -webkit-transform-style: @transform-style;
+  -moz-transform-style: @transform-style;
+  -ms-transform-style: @transform-style;
+  -o-transform-style: @transform-style;
+  transform-style: transform-style;
+}
+.perspective(@perspective) {
+  -webkit-perspective: @perspective;
+  -moz-perspective: @perspective;
+  -ms-perspective: @perspective;
+  -o-perspective: @perspective;
+  perspective: @perspective;
+}
