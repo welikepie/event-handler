@@ -1,6 +1,6 @@
 <?php snippet('header')?>
-
-<section class="aboutus_content jobs">
+<div class = "page_container workshops">
+<section class="content">
 <div class="introduction">
 <h1><?php echo html($page -> title()); ?></h1>
 <?php echo kirbytext($page -> text()); ?>
@@ -58,8 +58,14 @@ $wdayvar = $currentdate['wday'];
 
 $iMax = date("t");
 for($i = 1; $i < $iMax+1; $i++){
-	echo("<span>");
-	echo("||".(($i+($mdayvar%$wdayvar))%7).",".$i."||");
+	if ((($i+($mdayvar%$wdayvar))%7) == 0){
+		$spanclass = 7;
+	}
+	else{
+	$spanclass = (($i+($mdayvar%$wdayvar))%7);
+	}
+	echo("<span class = "."cal c".(($i+($mdayvar%$wdayvar))%7).">");
+	echo("||".$spanclass.",".(($i+($mdayvar%$wdayvar))%7).",".$i."||");
 	foreach($eventArray as $event){
 		if($event->date()!=0)
 			{
