@@ -6,7 +6,7 @@
 		</div>
 
 		<div class="page_container">
-			<section class="content event_list">
+			<section class="event_list">
 			<?php
 			
 			snippet('page_sort');
@@ -54,7 +54,7 @@
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $event->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php }
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">View Tickets</a><?php }
 						?>
 					</div>
 					
@@ -115,7 +115,7 @@
 									<div class="speaker_heading"><?php echo $speaker_tracks; ?></div>
 									<div class="speaker_notes"><?php echo $speaker_times; ?></div>
 									<div class="speaker_grid"><?php echo $speaker_grid; ?></div>
-									<?php if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php } ?> 
+									<?php if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking button">View Tickets</a><?php } ?> 
 								</div>
 							</div><?php
 						
@@ -134,13 +134,13 @@
 							<caption>What</caption>
 							<thead>
 								<tr>
-									<td colspan="2"><?php echo kirbytext($event->what()); ?></td>
+									<td colspan="2"><?php echo html($event->what()); ?></td>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<th scope="row">Where</th>
-									<td><?php echo kirbytext($event->where()); ?></td>
+									<td><?php echo html($event->where()); ?></td>
 								</tr>
 								<tr>
 									<th scope="row">When</th>
@@ -148,7 +148,7 @@
 								</tr>
 								<tr>
 									<th scope="row">Cost</th>
-									<td><?php echo kirbytext($event->cost()); ?></td>
+									<td><?php echo html($event->cost()); ?></td>
 								</tr>
 							</tbody>
 						</table>

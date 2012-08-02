@@ -6,7 +6,7 @@
 		</div>
 
 		<div class="page_container">
-			<section class="content event_list">
+			<section class="event_list">
 				<article>
 				
 					<div class="main_content">
@@ -23,7 +23,7 @@
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $page->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php }
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">View Tickets</a><?php }
 						?>
 					</div>
 					
