@@ -15,17 +15,38 @@
 		//$workshops = $workshops->sortBy('title','desc');
 
 		foreach ($workshops as $workshop) {
-		
+		$imgSize;
 		?>
 			<div class="workshop">
 				<h1><?php echo html($workshop -> title()); ?></h1>
 				<div class="details">
 					<img src= "<?php 
 					$img = ($workshop->imagepath() ? $workshop->imagepath() : 'assets/images/tbh.png');
-					echo url($img); unset($img);	
+					$imgSize = getimagesize($img);
+					echo url($img); unset($img);
 					?>">
 					<p class="meta"><span>Lecturer:</span> <?php echo html($workshop->lecturer()); ?></p>
 					<div class="description"><?php echo kirbytext($workshop->description()); ?></div>
+						<div class="lists">
+						<?php
+						if($workshop->learn() != null){
+							?>
+								<span class = "listHead"><p class ="meta">What You'll Learn:</p></span><br>
+								<?php echo kirbytext($workshop->learn());?>
+							<?php
+						}
+						?></div>
+						<div id="left">
+						<?php
+						if($workshop->requirements() != null){
+							?>
+								<span class ="listHead"><p class="meta">Requirements:</p></span><br>
+								<?php echo kirbytext($workshop->requirements());?>
+							<?php
+						}
+						?>
+						
+						</div>
 					<label class="rightFormCheck">Let Me Know  <input type="checkbox" id="<?php echo(str_replace(" ","_",$workshop->title()));?>" value="Subscribe" checked></label>
 				</div>
 			</div>

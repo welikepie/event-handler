@@ -15,9 +15,8 @@
 			page_sort($events, array('date_sort', 'priority_sort'));
 			
 			$infobox = "";
-		
 			$counter = 1;
-			
+			$pagefound = 0;
 			//THING STARTS HERE
 			
 			foreach($events as $event) {
@@ -29,7 +28,7 @@
 					0, 0, 0,
 					date('n'), date('j'), date('Y')
 				);
-				if ($event_date < $current_date) { $pagefound = 1; continue; }
+				if ($event_date < $current_date) {continue; }
 				
 				// Attach infobox if none yet found
 				if (!$infobox) {
@@ -39,16 +38,17 @@
 								   '</div>' .
 							   '</div>';
 				}
-		
 			?>
+
+			
 				<article>
-				
+			<!--thing starts here-->
 					<div class="main_content">
 						<!-- Page Title -->
 						<h1><a href="<?php echo $event->url(); ?>"><?php echo html($event->title()) ?></a></h1>
-						
 						<!-- Page Description -->
 						<?php
+						$pagefound = 1;
 							$html = kirbytext($event->text());
 							$html = preg_replace('/<p>/i', '<p><span class="figure">Fig.' . $counter++ . ' </span>', $html, 1);
 							echo $html;
@@ -156,12 +156,18 @@
 							</tbody>
 						</table>
 					</div>
-					
 				</article>
 			<!--THING ENDS HERE-->
+			
 			<?php } if($pagefound==0) { ?>
-			<div>
-				
+			<div class="event_absent">
+				<h1>No events planned!</h1>
+				<p>
+			Currently we don't seem to have anything planned. 
+				</p>
+				<p>
+					If you have any suggestions of events you'd like us to do, please email us at <a href="mailto:contact@eventhandler.co.uk">contact@eventhandler.co.uk</a>, we'd love to hear from you.
+				</p>
 			</div>
 			<?php } ?>
 			</section>

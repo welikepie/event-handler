@@ -16,10 +16,10 @@ To talk to us about speaking at an event, sponsorship or any other question send
 			<fieldset>
 				<input type="email" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
 				<div class="categories">
-					<label><input type="checkbox" id="everything_check" checked> Everything</label>
-					<label><input type="checkbox" name="DEV" value="Subscribe" checked> Development</label>
-					<label><input type="checkbox" name="DESIGN" value="Subscribe" checked> Design</label>
-					<label><input type="checkbox" name="SOCIAL" value="Subscribe" checked> Social</label>
+					<input type="checkbox" id="everything_check" checked><label for"everything_check">Everything</label>
+					<input type="checkbox" name="DEV" value="Subscribe" checked><label>Development</label>
+					<input type="checkbox" name="DESIGN" value="Subscribe" checked> <label>Design</label>
+					<input type="checkbox" name="SOCIAL" value="Subscribe" checked><label>Social</label>
 				</div>
 				<div class="error">You need to select at least one category.</div>
 			</fieldset>

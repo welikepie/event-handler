@@ -4,11 +4,9 @@
 		<div class="map_container">
 			<div id="map" style="width:100%; height:100%"></div>
 		</div>
-
 		<div class="page_container">
 			<section class="event_list">
-				<article>
-				
+				<article>		
 					<div class="main_content">
 						<!-- Page Title -->
 						<h1><?php echo html($page->title()) ?></h1>
