@@ -89,7 +89,7 @@
 						}
 					?>
 					
-					<!-- Page-wise alerts -->
+					<!-- Event-wide alerts -->
 					<?php
 						$temp = $page->alert(); if ($temp) {
 							?><div class="alert"><?php echo($temp); ?></div><?php
@@ -123,16 +123,22 @@
 					
 					<!-- Global alerts -->
 					<?php
-						$homepage = $pages->find('home');
-						$temp = $homepage->alert(); if ($temp) {
-							?><div class="alert"><?php echo($temp); ?></div><?php
-						}
+					
+						/* Site-wide alerts have been moved to site.txt file and will be
+						 * pulled and rendered from there. Only if there are any specified,
+						 * of course.
+						 */
+						
+						$temp = $site->alert();
+						if ($temp) { echo('<div class="alert">' . $temp . '</div>'); }
+
 					?>
 					
 				</article>
 			</section>
 		</div>
 		
+		<!-- Infobox render -->
 		<div class="infobox-wrapper" data-loc="<?php echo h($page->map()); ?>">
 			<?php $temp = $page->infobox(); if ($temp) { ?>
 			<div id="infobox"><?php echo $temp; ?></div>
@@ -185,10 +191,10 @@ function map_initialize() {
 					boxStyle: {
 						opacity: 1,
 						width: "280px"
-					},
-					//closeBoxMargin: "12px 4px 2px 2px",
-					//closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
-					//infoBoxClearance: new google.maps.Size(1, 1)
+					}/*,
+					closeBoxMargin: "12px 4px 2px 2px",
+					closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
+					infoBoxClearance: new google.maps.Size(1, 1)*/
 				});
 				
 				google.maps.event.addListener(marker, 'click', function() {

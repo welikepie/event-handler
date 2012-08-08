@@ -61,8 +61,8 @@ function date_sort ($a, $b) {
 
 	if (is_object($a)) {
 		$a_sort = $a->date();
-		if (is_object($a_sort)) {
-			$a_sort = intval($a_sort->value, 10);
+		if ($a_sort) {
+			$a_sort = intval((string) $a_sort, 10);
 		} else {
 			$a_sort = 0;
 		}
@@ -72,8 +72,8 @@ function date_sort ($a, $b) {
 	
 	if (is_object($b)) {
 		$b_sort = $b->date();
-		if (is_object($b_sort)) {
-			$b_sort = intval($b_sort->value, 10);
+		if ($b_sort) {
+			$b_sort = intval((string) $b_sort, 10);
 		} else {
 			$b_sort = 0;
 		}
@@ -91,8 +91,8 @@ function priority_sort ($a, $b) {
 
 	if (is_object($a)) {
 		$a_sort = $a->priority();
-		if (is_object($a_sort)) {
-			$a_sort = intval($a_sort->value, 10);
+		if ($a_sort) {
+			$a_sort = intval((string) $a_sort, 10);
 		} else {
 			$a_sort = 0;
 		}
@@ -102,8 +102,8 @@ function priority_sort ($a, $b) {
 	
 	if (is_object($b)) {
 		$b_sort = $b->priority();
-		if (is_object($b_sort)) {
-			$b_sort = intval($b_sort->value, 10);
+		if ($b_sort) {
+			$b_sort = intval((string) $b_sort, 10);
 		} else {
 			$b_sort = 0;
 		}

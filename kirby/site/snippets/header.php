@@ -10,12 +10,29 @@
 		<meta name="robots" content="index, follow">
 
 		<?php echo css('assets/styles/main.css'); ?>
+		<!--[if lt IE 8]><style type="text/css">
+		
+		/* This is more or less how the box sizing polyfill is to be used.
+		 * Not added in a script tag (as it is NOT a script, but as CSS "behavior" property,
+		 * a proprietary MS extension. Just as it was specified in the usage instructions on
+		 * the polyfill's github page.
+		 * The line is included here, in HTML, rather than in CSS because "behavior" property
+		 * resolves its URLs relative to HTML document, not the CSS file, hence the need to
+		 * use the url() kirby function.
+		 */
+		
+		* {
+			box-sizing: border-box;
+			behavior: url(<?php echo url('assets/styles/boxsizing.htc'); ?>);
+		}
+		
+		</style><![endif]-->
+		
 		<link rel="shortcut icon" href="<?php echo url('assets/images/favicon.png'); ?>" type="image/png">
 		<link rel="icon" href="<?php echo url('assets/images/favicon.png'); ?>" type="image/png">
-		<link rel="apple-touch-icon" href="<?php echo u('assets/images/apple-touch-icon.png'); ?>">
+		<link rel="apple-touch-icon" href="<?php echo url('assets/images/apple-touch-icon.png'); ?>">
 
 		<!--[if lt IE 9]><script type="text/javascript" src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-		<!--[if lt IE 8]><script type="text/javascript" src="assets/styles/boxsizing.htc"></script><![endif]-->
 		<script type="text/javascript" src="http://use.typekit.com/enx4ueb.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 		<script type="text/javascript">

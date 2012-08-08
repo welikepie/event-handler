@@ -13,3 +13,5 @@ Learn:
 ----
 Requirements:
 - Basic understanding of Javascript 
+----
+Image: assets/images/paul.png

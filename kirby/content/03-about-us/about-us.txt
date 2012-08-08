@@ -1,4 +1,4 @@
-Title: About us
+﻿Title: About us
 ----
 Text: Event Handler is geeks organising events for other geeks. For over a year now we've been running London JS and other tech events around London. We run the events based around a few simple ideas;
 
@@ -13,18 +13,18 @@ To talk to us about speaking at an event, sponsorship or any other question send
 ## Subscribe to our mailing list
 
 <form action="http://welikepie.us2.list-manage1.com/subscribe/post?u=b76886bab37470b1e293804f6&amp;id=801bc2e5e9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" target="_blank">
-			<fieldset>
-				<input type="email" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
-				<div class="categories">
-					<input type="checkbox" id="everything_check" checked><label for"everything_check">Everything</label>
-					<input type="checkbox" name="DEV" value="Subscribe" checked><label>Development</label>
-					<input type="checkbox" name="DESIGN" value="Subscribe" checked> <label>Design</label>
-					<input type="checkbox" name="SOCIAL" value="Subscribe" checked><label>Social</label>
-				</div>
-				<div class="error">You need to select at least one category.</div>
-			</fieldset>
-			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-		</form>
+	<fieldset>
+		<input type="email" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
+		<div class="categories">
+			<label><input type="checkbox" id="everything_check" checked> Everything</label>
+			<label><input type="checkbox" name="DEV" value="Subscribe" checked> Development</label>
+			<label><input type="checkbox" name="DESIGN" value="Subscribe" checked> Design</label>
+			<label><input type="checkbox" name="SOCIAL" value="Subscribe" checked> Social</label>
+		</div>
+		<div class="error">You need to select at least one category.</div>
+	</fieldset>
+	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+</form>
 		
 ## Be excellent to each other
 
@@ -43,24 +43,23 @@ Profiles:
 Arran Ross-Paterson:
   Text: |
     Founder, designer & eater of pies at Event Handler. Arran is rubbish with names & dates, thats why he schedules the events & speakers. He does multi screen design for ecommerce & tech companies. Live's on a boat, drinks to much coffee & has high blood pressure.
-    
 
-    Twitter - (link: http://twitter.com/#!/arranrp text: @arranrp)
+    Twitter - (link: https://twitter.com/arranrp text: @arranrp)
   
-  Image: /assets/images/arrans_face.jpg
+  Image: assets/images/arrans_face.jpg
 
 Edd Sowden:
   Text: |
     Our resident compère. Edd is a frontend engineer with an unhealthy interest in JavaScript and web technologies. His other passion is road cycling and can often be found atop a bike riding around London or Surrey.
 
-    Twitter - (link: http://twitter.com/#!/edds text: @edds)
+    Twitter - (link: https://twitter.com/edds text: @edds)
   
-  Image: /assets/images/edds_face.jpg
+  Image: assets/images/edds_face.jpg
 
 Matt Bee:
   Text: |
     Door man & token northerner. Matt is a frontend developer who can either be found trying to catch up to Edd on his road bike, trialling a vintage car or doing some other sport that is liable to get him injured. Always happy to show you his scars over a pint at the pub & happy to help with anything whenever a friendly face is needed.
 
-    Twitter - (link: http://twitter.com/#!/mattbee text: @mattbee)
+    Twitter - (link: https://twitter.com/mattbee text: @mattbee)
 
-  Image: /assets/images/matts_face.jpg
+  Image: assets/images/matts_face.jpg

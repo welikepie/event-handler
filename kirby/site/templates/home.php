@@ -14,56 +14,73 @@
 			$events = $events->children()->visible();
 			page_sort($events, array('date_sort', 'priority_sort'));
 			
-			$infobox = "";
-			$counter = 1;
-			$pagefound = 0;
-			//THING STARTS HERE
+			$event_count = 0;      // Increased by 1 for every event rendered
+			$infobox = "";         // Holds the infobox HTML
 			
-			foreach($events as $event) {
-				if ($counter > 10) { break; }
-		
-				// Only display events that are about to happen
-				$event_date = $event->date();
-				$current_date = mktime(
-					0, 0, 0,
-					date('n'), date('j'), date('Y')
-				);
-				if ($event_date < $current_date) {continue; }
+			foreach ($events as $event) {
+			
+				// Skip all other events if we've already
+				// rendered required number of upcoming events
+				if ($event_count >= 10) { break; }
 				
-				// Attach infobox if none yet found
-				if (!$infobox) {
+				// Only render events that are upcoming (event time in the future).
+				// Compare to current date and time at midnight, so that today's events
+				// show up regardless of time of day.
+				$event_date = $event->date();
+				$current_date = mktime(0, 0, 0, date('n'), date('j'), date('Y'));
+				if ($current_date > $event_date) { continue; }
+				
+				// Event has passed requirements, will be rendered.
+				// Increase the counter.
+				$event_count += 1;
+				
+				// Set up map infobox if none was set up yet
+				// (this wway, only the infobox for first entry is displayed)
+				if (!$infobox && $event->infobox()) {
 					$infobox = '<div class="infobox-wrapper" data-loc="' . h($event->map()) . '">' .
 								   '<div id="infobox">' .
 									   $event->infobox() .
 								   '</div>' .
 							   '</div>';
 				}
-			?>
-
-			
-				<article>
-			<!--thing starts here-->
+				
+				?><article>
 					<div class="main_content">
-						<!-- Page Title -->
+					
+						<!-- Page title -->
 						<h1><a href="<?php echo $event->url(); ?>"><?php echo html($event->title()) ?></a></h1>
+						
 						<!-- Page Description -->
+						<div class="description">
 						<?php
-						$pagefound = 1;
 							$html = kirbytext($event->text());
-							$html = preg_replace('/<p>/i', '<p><span class="figure">Fig.' . $counter++ . ' </span>', $html, 1);
+							$html = preg_replace('/<p>/i', '<p><span class="figure">Fig.' . $event_count . ' </span>', $html, 1);
 							echo $html;
 						?>
+						</div>
 						
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $event->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">View Tickets</a><?php }
+							if ($booking) { echo('<a href="' . $booking . '" class="booking button">View Tickets</a>'); }
 						?>
-					</div>
 					
+					</div>
+						
+					<!-- Speakers grid -->
 					<?php
+					
+						/* Speakers grid lists all the people participating in the event,
+						 * if such list is specified. Given times of time slots and separate tracks
+						 * with all the speakers and their topics listed, prepares a nicely animated
+						 * and styled grid.
+						 */
+					
 						$speakers = $event->speakers();
-						if ($speakers) { $speakers = yaml($speakers);
+						if ($speakers) {
+						
+							// Parse YAML into accessible PHP data formats
+							$speakers = yaml($speakers);
 							
 							$speaker_renders = array();
 							$speaker_grid = "";
@@ -113,25 +130,27 @@
 							
 							}
 							
-							?><div class="additional_content_wrapper">
-								<div class="additional_content">
-									<div class="speaker_heading"><?php echo $speaker_tracks; ?></div>
-									<div class="speaker_notes"><?php echo $speaker_times; ?></div>
-									<div class="speaker_grid"><?php echo $speaker_grid; ?></div>
-									<?php if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking button">View Tickets</a><?php } ?> 
-								</div>
-							</div><?php
+							echo(
+								'<div class="additional_content_wrapper">' .
+									'<div class="additional_content">' .
+										'<div class="speaker_heading">' . $speaker_tracks . '</div>' .
+										'<div class="speaker_notes">' . $speaker_times . '</div>' .
+										'<div class="speaker_grid">' . $speaker_grid . '</div>' .
+										($booking ? '<a href="' . $booking . '" class="booking button">View Tickets</a>' : '') .
+									'</div>' .
+								'</div>'
+							);
 						
 						}
 					?>
-					
-					<!-- Event-wise alerts -->
+						
+					<!-- Event-wide alerts -->
 					<?php
-						$temp = $event->alert(); if ($temp) {
-							?><div class="alert"><?php echo($temp); ?></div><?php
-						} unset($temp);
+						$temp = $event->alert();
+						if ($temp) { echo('<div class="alert">' . $temp . '</div>'); }
 					?>
 					
+					<!-- Details table -->
 					<div class="main_content">
 						<table class="details">
 							<caption>What</caption>
@@ -155,29 +174,35 @@
 								</tr>
 							</tbody>
 						</table>
-					</div>
-				</article>
-			<!--THING ENDS HERE-->
+					</div>					
+					
+				</article><?php
 			
-			<?php } if($pagefound==0) { ?>
-			<div class="event_absent">
-				<h1>No events planned!</h1>
-				<p>
-			Currently we don't seem to have anything planned. 
-				</p>
-				<p>
-					If you have any suggestions of events you'd like us to do, please email us at <a href="mailto:contact@eventhandler.co.uk">contact@eventhandler.co.uk</a>, we'd love to hear from you.
-				</p>
-			</div>
+			}
+			
+			/* If no event has been rendered (nothing organised at a time),
+			 * render the information about missing events and some contact info.
+			 */
+			if (!$event_count) { ?>
+				<div class="event_absent">
+					<?php echo(kirbytext($page->NoEvents())); ?>
+				</div>
 			<?php } ?>
+			
 			</section>
 		</div>
-		<!-- Global alerts -->
+		
+		<!-- Site-wide alert -->
 		<?php
-			$temp = $page->alert();
-			if ($temp) {
-				?><div class="alert"><?php echo($temp); ?></div><?php
-			}
+		
+			/* Site-wide alerts have been moved to site.txt file and will be
+			 * pulled and rendered from there. Only if there are any specified,
+			 * of course.
+			 */
+			
+			$temp = $site->alert();
+			if ($temp) { echo('<div class="alert">' . $temp . '</div>'); }
+
 		?>
 		
 		<?php echo($infobox); ?>
@@ -187,7 +212,7 @@
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
-		url('/assets/scripts/jquery.easydate-0.2.4.min.js')
+		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
 	'bottom_snippets' => array(
 	<<<EOT
@@ -228,10 +253,10 @@ function map_initialize() {
 					boxStyle: {
 						opacity: 1,
 						width: "280px"
-					},
-					//closeBoxMargin: "12px 4px 2px 2px",
-					//closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
-					//infoBoxClearance: new google.maps.Size(1, 1)
+					}/*,
+					closeBoxMargin: "12px 4px 2px 2px",
+					closeBoxURL: "http://www.google.com/intl/en_us/mapfiles/close.gif",
+					infoBoxClearance: new google.maps.Size(1, 1)*/
 				});
 				
 				google.maps.event.addListener(marker, 'click', function() {
