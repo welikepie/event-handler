@@ -1,0 +1,15 @@
+Title:Arduino and BreakoutJS
+----
+Lecturer:Paul King
+----
+Description:Paul King loves to make stuff. Join him for a full day Arduino workshop in which you will learn all about the Arduino Platform, get an introduction to electronics as a whole and learn how to make things that go "beep!". You'll also be introduced to BreakoutJS in order to get full use out of the Arduino. All you need to have is a basic understanding of Javascript and the rest you'll pick up along the way.
+----
+Learn:
+- Introduction to the Arduino Platform
+- Overview of BreakoutJS
+- Electronics 101
+- Inputs, Switches and Sensors
+- Outputs, Beeps and LEDs
+----
+Requirements:
+- Basic understanding of Javascript 

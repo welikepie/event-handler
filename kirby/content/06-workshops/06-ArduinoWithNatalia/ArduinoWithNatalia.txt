@@ -1,0 +1,13 @@
+Title:An Introduction to Arduino
+----
+Lecturer:Natalia Buckley
+----
+Description:Natalia Buckley is an Interaction designer, web developer and resident at Happenstance. She will be introducing you to Electronics and open your mind to the world of Arduino, ultimately creating a light-controlled theremin. 
+----
+Learn:
+- An introduction to electronics, soldering and circuit bending.
+- How to create Arduino prototypes, starting off with basic structures and moving on to increasingly complex ones. 
+- How to create a light-controlled theremin; where light sensors will produce varying sounds depending on light intensity.
+----
+Requirements:
+- Nothing but a laptop!

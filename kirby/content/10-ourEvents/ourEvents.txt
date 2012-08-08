@@ -1,0 +1,3 @@
+Title: Events page for use of EventHandler staff. Boom.
+----
+Text: All the events in the next 40 days on a rolling callendar. Boom.
