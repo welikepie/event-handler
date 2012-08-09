@@ -10,7 +10,7 @@ Data Visualisation:
     21st May 2012. View event on (link: http://lanyrd.com/2012/londonjs-11/ text: lanyrd popup: yes).
     
     - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/hannah-wolfe-ga-api.m4a text: Hannah Wolfe - Hacking your own UI to the GA API)
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/premasagar-rose-visualisation.m4a text: Premasagar Rose - Anatomy of a Data Visualisation)
+    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/premasagar-rose-visualisation.m4a text: Premasagar Rose - Anatomy of a Data Visualisation) 
 
 Local Storage and ApplicationCache:
   Text: |
@@ -32,3 +32,27 @@ JS Architecture Patterns & APIs:
     27th March 2012. View event on (link: http://lanyrd.com/2012/londonjs-08/ text: lanyrd popup: yes).
 
     - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/michael-mahemoff-patterns.m4a text: Michael Mahemoff - JS Architecture Patterns)
+
+"Mr Mobbles Magical Emporium #2":
+  Text: |
+    29th November 2011. View event on (link: http://lanyrd.com/2011/mmme-november/ text: lanyrd popup: yes).
+    
+    - (vimeo: http://vimeo.com/33314001) (link: http://vimeo.com/33314001 text: Arran Ross-Paterson - Mobile UI and Fried Chicken)
+    - (vimeo: http://vimeo.com/33316225) (link: http://vimeo.com/33316225 text: Antony Ribot - Inclusive design)
+    - (vimeo: http://vimeo.com/33322503) (link: http://vimeo.com/33322503 text: Sandi Wassmer - Meaningful Multimodal & Multisensor)
+
+Web Components & HTML5:
+  Text: |
+    25th November 2011. View event on (link: http://lanyrd.com/2011/ldn07/ text: lanyrd popup: yes).
+    
+    - (vimeo: http://vimeo.com/33661263) (link: http://vimeo.com/33661263 text: Kornel Lesiński - Async JS Loading)
+    - (vimeo: http://vimeo.com/33638717) (link: http://vimeo.com/33638717 text: Alex Russell - Web Components)
+    - (vimeo: http://vimeo.com/33678526) (link: http://vimeo.com/33678526 text: Paul Irish - Developing HTML5 for a cross-browser world)
+
+"Mr Mobbles Magical Emporium #1":
+  Text: |
+    25th October 2011. View event on (link: http://lanyrd.com/2011/mmme-october/ text: lanyrd popup: yes).
+    
+    - (vimeo: http://vimeo.com/31501588) (link: http://vimeo.com/31501588 text: Kornel Lesiński - W3C touch events and gestures)
+    - (vimeo: http://vimeo.com/31501495) (link: http://vimeo.com/31501495 text: Leila Johnston - Hackers, magic and the problem of understanding too much)
+    - (vimeo: http://vimeo.com/31489002) (link: http://vimeo.com/31489002 text: Syd Lawrence - Mobile apps with web tech)
