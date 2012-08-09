@@ -8,5 +8,5 @@ Ideas we have been toying with include Arduino workshops, Paper Prototyping, an 
 and to the D3 framework. Take a look at the descriptions below, if you wish to take part in any of
 them, please register your interest at the appropriate links!
 
-If you have any suggestions for workshops to hold, or would like to do your own, 
-Please contact us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) or on Twitter at (link: https://twitter.com/eventhandleruk text: @eventhandleruk).
+If you have any suggestions for workshops to hold, would like to do your own, or are interested in tuition for your 
+company or event, please contact us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) or on Twitter at (link: https://twitter.com/eventhandleruk text: @eventhandleruk).
