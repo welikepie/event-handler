@@ -152,14 +152,26 @@ article { margin-bottom: @base * 4; }
     }
     //Calendar page
 #calendarheader{
-overflow:auto;
-margin-top:16px;
-margin-bottom:16px;
-        .cal {
-                display:block;
-                float:left;
-                width:14%;
+    margin-top:0px;
+    margin-bottom:0px;
+    .calHead{
+        text-align:center;
+            height:28px;
+            float:left;
+            width:87px;
+            border-bottom:2px solid RGBA(255,255,255,0.3);
+        }
+        .both{
+            border-left:1px solid RGBA(255,255,255,0.3);            
+            border-right:1px solid RGBA(255,255,255,0.3);
             }
+        .left{
+            border-left:1px solid RGBA(255,255,255,0.3);
+            }
+        .right{
+         border-right:1px solid RGBA(255,255,255,0.3);
+        }
+        
     }
 
 
@@ -167,34 +179,40 @@ margin-bottom:16px;
 
 #calendar{
 overflow:auto;
-margin-top:16px;
-margin-bottom:16px;
-#calendarheader{
-    margin-top:0px;
-    margin-bottom:0px;
-    .cal{
-            height:28px;
-            display:block;
-            float:left;
-            width:14%;
-        }
-}
 
 .cal {
-            display:block;
+            display:inline;
             float:left;
-            width:14%;
-            height:80px;
-            margin-bottom:2px;
+            height: 100px;
+            width:87px;
+            padding:2px 6px;
+             border:1px solid RGBA(255,255,255,0.3);
+                a{
+                    color:#000000;
+                    text-decoration:none;
+                    border-bottom: 1px dashed;
+                    }
+                    
+                .today
+                {
+                    font-size:13px;
+                    margin-left:8px;
+                    }
           }
     .currentDay{
-        background-color: RGBA(255,255,255,0.2);
+        background-color: RGBA(255,255,255,0.5);
+        }
+    .ourEvent{
+        background:RGBA(134,159,255,0.3);
+        }
+    .foreignEvent{
+        background:RGBA(54,159,54,0.3);
         }
     #c1{margin-left:0px;}
-    #c2{margin-left:14%;}
-    #c3{margin-left:28%;}
-    #c4{margin-left:42%;}
-    #c5{margin-left:56%;}
+    #c2{margin-left:87px;}
+    #c3{margin-left:174px;}
+    #c4{margin-left:261px;}
+    #c5{margin-left:348px;}
     #c6{margin-left:70%;}
     #c7{margin-left:84%;}
 }
@@ -205,16 +223,20 @@ margin-bottom:16px;
      .hdate, .hevent, .hlocation, .location, .event, .date{
      display:block;
      float:left;
-   margin:8px;
+     margin-bottom:8px;
+   a{
+                    text-decoration:none;
+                    border-bottom: 1px dashed;
+       }
    }
    .hdate, .hevent, .hlocation{
        font-weight:bold;
        }
-     .hdate, .date{ width:16%;
+     .hdate, .date{ width:25%;
          }
-    .hevent, .event{ width:26%;
+    .hevent, .event{ width:25%;
     }
-    .hlocation, .location{ width:46%
+    .hlocation, .location{ width:49%
     }
     
 
@@ -402,7 +424,7 @@ margin-bottom:16px;
 }
 
 // Contact form (mailing list)
-.mailing_list, .speaker_submission {
+.mailing_list, .speaker_submission, #fullcal {
     overflow: hidden;
     margin-bottom: 24px;
     fieldset {

@@ -1,7 +1,4 @@
-Title: Your Form;
+Title: Awesome, you've submitted an idea to us!
 ----
-Text: It was successfully submitted. 
-
-Please feel free to stick around or go somewhere else.
-
-<a href="/">Home</a>
+Text: 
+We'll take a look at it and if we like it or want to know more, we'll be in touch. In the meantime, why not check out what <a href="/calendar">events we’re already working on?</a> 
