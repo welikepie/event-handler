@@ -7,38 +7,45 @@
 			echo $page -> form();
 		?>
 		
-		<h1>Apply to speak at an EventHandler event!</h1>
+		<h1>Submit a talk</h1>
 				<p>
 					Fields denoted with a * are required
 				</p>
 		<div class="speaker_submission">
 				<div class="ss-form">
-					<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dHo5ckpodXpYbzJRelplb2MzN3pOZ2c6MQ&amp;embedded=true&amp;ifq" method="POST" id="ss-form">
+					<script type="text/javascript">var submitted=false;</script> <!-- -->
+						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+						onload="
+						if(submitted)
+							{
+								window.location='/subConfirm';
+							}
+							">
+	
+	</iframe>
+<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dHo5ckpodXpYbzJRelplb2MzN3pOZ2c6MQ&amp;embedded=true&amp;ifq" target="hidden_iframe" id="ss-form" name = "speakerform" method="post"
+target="hidden_iframe" onsubmit="if(formsubmit()==true){submitted=true;}">
 						<fieldset>
+							<script type="text/javascript">
+
+								
+							</script>
 						<div class="errorbox-good">
 							<div class="ss-item ss-item-required ss-text">
 								<div class="ss-form-entry">
-									<?php if (empty($_POST['entry_0'])) 
-										{
-								//		echo("<p class=\"boxLeftEmpty\">Please fill in a speakers name.</p>");
-										} 	
-										?>
 									<label class="ss-q-title" for="entry_0">What is the speakers name? *</label>
 									<input type="text" name="entry.0.single" value="" class="ss-q-short" id="entry_0">
+									<div id = "speaker"></div>								
 								</div>
 							</div>
 						</div>
 						<div class="errorbox-good">
 							<div class="ss-item ss-item-required ss-text">
 								<div class="ss-form-entry">
-									<?php if (empty($_POST['entry_1'])) 
-										{
-								//		echo("<p class=\"boxLeftEmpty\">Please fill in a method of contact.</p>");
-										} 	
-										?>
 									<label class="ss-q-title" for="entry_1">How can we contact them? <span class="ss-required-asterisk">*</span></label>
 									<label class="ss-q-help" for="entry_1">Email, Twitter or IM, however we can get in touch!</label>
 									<input type="text" name="entry.1.single" value="" class="ss-q-short" id="entry_1">
+									<div id = "contactSpeaker"></div>
 								</div>
 							</div>
 						</div>
@@ -48,6 +55,7 @@
 									<label class="ss-q-title" for="entry_2">How do you know the speaker? </label>
 									<label class="ss-q-help" for="entry_2"></label>
 									<select name="entry.2.single" id="entry_2" class="ss-q-short">
+										<option value=""></option>
 										<option value="I saw them speak at an event.">I saw them speak at an event.</option>
 										<option value="They are a friend/colleague.">They are a friend/colleague.</option>
 										<option value="It&#39;s me, the speaker!">It&#39;s me, the speaker!</option>
@@ -80,7 +88,12 @@
 									<label class="ss-q-title" for="entry_5">What should the style of their talk be? </label>
 									<label class="ss-q-help" for="entry_5"></label>
 									<select name="entry.5.single" id="entry_5" class="ss-q-short">
-										<option value="Talk">Talk</option><option value="Lightning Talk">Lightning Talk</option><option value="Panel Discussion">Panel Discussion</option><option value="Tech Demo">Tech Demo</option><option value="Workshop">Workshop</option>
+										<option value = ""></option>
+										<option value="Talk">Talk</option>
+										<option value="Lightning Talk">Lightning Talk</option>
+										<option value="Panel Discussion">Panel Discussion</option>
+										<option value="Tech Demo">Tech Demo</option>
+										<option value="Workshop">Workshop</option>
 									</select>
 								</div>
 							</div>
@@ -91,7 +104,13 @@
 									<label class="ss-q-title" for="entry_6">Preferred Length of Talk? </label>
 									<label class="ss-q-help" for="entry_6"></label>
 									<select name="entry.6.single" id="entry_6" class="ss-q-short">
-										<option value="5-10 Minutes">5-10 Minutes</option><option value="10-20 Minutes">10-20 Minutes</option><option value="20-30 Minutes">20-30 Minutes</option><option value="30-45 Minutes">30-45 Minutes</option><option value="1 Hour+">1 Hour+</option><option value="Full Day Workshop">Full Day Workshop</option>
+										<option value=""></option>
+										<option value="5-10 Minutes">5-10 Minutes</option>
+										<option value="10-20 Minutes">10-20 Minutes</option>
+										<option value="20-30 Minutes">20-30 Minutes</option>
+										<option value="30-45 Minutes">30-45 Minutes</option>
+										<option value="1 Hour+">1 Hour+</option>
+										<option value="Full Day Workshop">Full Day Workshop</option>
 									</select>
 								</div>
 							</div>
@@ -295,6 +314,7 @@
 							</div>
 						</div>
 						</fieldset>
+						<div id = "submitWarning"></div>	
 						<div class="ss-form-entry">
 										<input type="hidden" name="pageNumber" value="0">
 						<input type="hidden" name="backupCache" value="">
@@ -306,4 +326,4 @@
 			
 			</section>
 		</div>
-<?php snippet('footer') ?>
+<?php snippet('speakFooter') ?>

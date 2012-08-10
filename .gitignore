@@ -1,0 +1,9 @@
+# Kirby cache should not end up in repo
+kirby/site/cache
+kirby/site/cache/*
+
+# Aptana/Eclipse project files and junk
+.project
+.metadata
+*.launch
+.settings/

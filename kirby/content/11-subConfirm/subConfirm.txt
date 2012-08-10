@@ -1,0 +1,7 @@
+Title: Your Form;
+----
+Text: It was successfully submitted. 
+
+Please feel free to stick around or go somewhere else.
+
+<a href="/">Home</a>

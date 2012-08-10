@@ -486,7 +486,7 @@ td {
   clear: both;
 }
 html {
-  height: 101%;
+  height: 100%;
   text-rendering: optimizeLegibility;
   font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
@@ -494,6 +494,7 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 body {
+  height: 100%;
   font-family: "pt-serif", Georgia, serif;
   font-size: 16px;
   line-height: 24px;
@@ -597,6 +598,9 @@ article {
   height: 100%;
   height: 170px;
   margin-bottom: 50px;
+}
+.page_container section .tooshort {
+  height: 425px;
 }
 .page_container section a {
   color: white;
@@ -1017,12 +1021,6 @@ article {
   width: 100%;
   float: left;
 }
-.mailing_list fieldset .ss-form-entry p.boxLeftEmpty,
-.speaker_submission fieldset .ss-form-entry p.boxLeftEmpty {
-  color: #FF0000;
-  font-size: 12px;
-  margin-bottom: 0px;
-}
 .mailing_list fieldset .ss-form-entry .ss-q-help,
 .speaker_submission fieldset .ss-form-entry .ss-q-help {
   font-size: 13px;
@@ -1082,6 +1080,29 @@ article {
   clear: both;
   padding-top: 4px;
   color: #A00;
+}
+.mailing_list .ss-form .bottomShove,
+.speaker_submission .ss-form .bottomShove {
+  margin-bottom: 16px;
+}
+.mailing_list .ss-form .boxLeftEmpty,
+.speaker_submission .ss-form .boxLeftEmpty {
+  float: left;
+  width: 100%;
+  height: 36px;
+  padding: 8px 35px 8px 14px;
+  color: #c09853;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.mailing_list .ss-form .boxLeftEmpty .text,
+.speaker_submission .ss-form .boxLeftEmpty .text {
+  font-size: 13px;
+  line-height: 18px;
 }
 .mailing_list .button,
 .speaker_submission .button {
