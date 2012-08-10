@@ -7,7 +7,7 @@
 			echo $page -> form();
 		?>
 		
-		<h1>Submit a Talk!</h1>
+		<h1>Submit a talk</h1>
 				<p>
 					Fields denoted with a * are required
 				</p>
