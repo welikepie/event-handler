@@ -6,53 +6,53 @@ Text: Live recordings from London JS. A monthly community meetup where expert sp
 Profiles:
 
 Data Visualisation:
-  Text: |
+  Description: |
     21st May 2012. View event on (link: http://lanyrd.com/2012/londonjs-11/ text: lanyrd popup: yes).
-    
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/hannah-wolfe-ga-api.m4a text: Hannah Wolfe - Hacking your own UI to the GA API)
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/premasagar-rose-visualisation.m4a text: Premasagar Rose - Anatomy of a Data Visualisation) 
+  Podcasts:
+    "Hannah Wolfe - Hacking your own UI to the GA API": http://londonjs.s3-website-eu-west-1.amazonaws.com/hannah-wolfe-ga-api.m4a
+    "Premasagar Rose - Anatomy of a Data Visualisation": http://londonjs.s3-website-eu-west-1.amazonaws.com/premasagar-rose-visualisation.m4a
 
 Local Storage and ApplicationCache:
-  Text: |
+  Description: |
     16th April 2012. View event on (link: http://lanyrd.com/2012/londonjs-10/ text: lanyrd popup: yes).
-      
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/andrew-betts-localstorage.m4a text: Andrew Betts - Local Storage)
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/jake-archibald-appcache.m4a text: Jake Archibald - ApplicationCache: Douchebag)
+  Podcasts:
+    "Andrew Betts - Local Storage": http://londonjs.s3-website-eu-west-1.amazonaws.com/andrew-betts-localstorage.m4a
+    "Jake Archibald - ApplicationCache: Douchebag": http://londonjs.s3-website-eu-west-1.amazonaws.com/jake-archibald-appcache.m4a
 
 D3.js & SVG/Canvas:
-  Text: |
+  Description: |
     27th March 2012. View event on (link: http://lanyrd.com/2012/londonjs-09/ text: lanyrd popup: yes).
-
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/laurian-gridinoc-d3js.m4a text: Laurian Gridinoc - d3.js)
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/tim-meadowcroft-svg.m4a text: Tim Meadowcroft - The good, bad and ugly of scripting SVG in the browser)
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/joe-parry-canvas.m4a text: Joe Parry - Why Canvas Wins)
+  Podcasts:
+    "Laurian Gridinoc - d3.js": http://londonjs.s3-website-eu-west-1.amazonaws.com/laurian-gridinoc-d3js.m4a
+    "Tim Meadowcroft - The good, bad and ugly of scripting SVG in the browser": http://londonjs.s3-website-eu-west-1.amazonaws.com/tim-meadowcroft-svg.m4a
+    "Joe Parry - Why Canvas Wins": http://londonjs.s3-website-eu-west-1.amazonaws.com/joe-parry-canvas.m4a
 
 JS Architecture Patterns & APIs:
-  Text: |
+  Description: |
     27th March 2012. View event on (link: http://lanyrd.com/2012/londonjs-08/ text: lanyrd popup: yes).
-
-    - (link: http://londonjs.s3-website-eu-west-1.amazonaws.com/michael-mahemoff-patterns.m4a text: Michael Mahemoff - JS Architecture Patterns)
+  Podcasts:
+    "Michael Mahemoff - JS Architecture Patterns": http://londonjs.s3-website-eu-west-1.amazonaws.com/michael-mahemoff-patterns.m4a
 
 "Mr Mobbles Magical Emporium #2":
-  Text: |
+  Description: |
     29th November 2011. View event on (link: http://lanyrd.com/2011/mmme-november/ text: lanyrd popup: yes).
-    
-    - (vimeo: http://vimeo.com/33314001) (link: http://vimeo.com/33314001 text: Arran Ross-Paterson - Mobile UI and Fried Chicken)
-    - (vimeo: http://vimeo.com/33316225) (link: http://vimeo.com/33316225 text: Antony Ribot - Inclusive design)
-    - (vimeo: http://vimeo.com/33322503) (link: http://vimeo.com/33322503 text: Sandi Wassmer - Meaningful Multimodal & Multisensor)
+  Videos:
+    "Arran Ross-Paterson - Mobile UI and Fried Chicken": http://vimeo.com/33314001
+    "Antony Ribot - Inclusive design": http://vimeo.com/33316225
+    "Sandi Wassmer - Meaningful Multimodal & Multisensor": http://vimeo.com/33322503
 
 Web Components & HTML5:
-  Text: |
+  Description: |
     25th November 2011. View event on (link: http://lanyrd.com/2011/ldn07/ text: lanyrd popup: yes).
-    
-    - (vimeo: http://vimeo.com/33661263) (link: http://vimeo.com/33661263 text: Kornel Lesiński - Async JS Loading)
-    - (vimeo: http://vimeo.com/33638717) (link: http://vimeo.com/33638717 text: Alex Russell - Web Components)
-    - (vimeo: http://vimeo.com/33678526) (link: http://vimeo.com/33678526 text: Paul Irish - Developing HTML5 for a cross-browser world)
+  Videos:
+    "Kornel Lesiński - Async JS Loading": http://vimeo.com/33661263
+    "Alex Russell - Web Components": http://vimeo.com/33638717
+    "Paul Irish - Developing HTML5 for a cross-browser world": http://vimeo.com/33678526
 
 "Mr Mobbles Magical Emporium #1":
-  Text: |
+  Description: |
     25th October 2011. View event on (link: http://lanyrd.com/2011/mmme-october/ text: lanyrd popup: yes).
-    
-    - (vimeo: http://vimeo.com/31501588) (link: http://vimeo.com/31501588 text: Kornel Lesiński - W3C touch events and gestures)
-    - (vimeo: http://vimeo.com/31501495) (link: http://vimeo.com/31501495 text: Leila Johnston - Hackers, magic and the problem of understanding too much)
-    - (vimeo: http://vimeo.com/31489002) (link: http://vimeo.com/31489002 text: Syd Lawrence - Mobile apps with web tech)
+  Videos:
+    "Kornel Lesiński - W3C touch events and gestures": http://vimeo.com/31501588
+    "Leila Johnston - Hackers, magic and the problem of understanding too much": http://vimeo.com/31501495
+    "Syd Lawrence - Mobile apps with web tech": http://vimeo.com/31489002

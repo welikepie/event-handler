@@ -896,7 +896,13 @@ article {
 .podcast .profile {
   margin-bottom: 48px;
 }
-.podcast .profile ul li iframe {
+.podcast .profile ul.videos {
+  display: block;
+}
+.podcast .profile ul.videos li {
+  display: block;
+}
+.podcast .profile ul.videos li iframe {
   padding: 16px;
   color: #483B36;
   background-color: #e1e1e1;
@@ -906,10 +912,13 @@ article {
   -moz-box-shadow: 0 2px 4px 0 #123031;
   -webkit-box-shadow: 0 2px 4px 0 #123031;
   display: block;
-  margin: -16px 0 8px;
+  margin: 0 0 8px;
   box-sizing: content-box;
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
+}
+.podcast .profile ul.videos li p {
+  margin-bottom: 8px;
 }
 .about_us .profile {
   overflow: hidden;
