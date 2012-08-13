@@ -84,31 +84,32 @@ header nav{display:block;width:833px;margin:0 0 0 100px;padding:24px 89px 12px 8
 article{margin-bottom:64px;}
 .page_container section{width:655px;text-shadow:0px 2px 4px #123031;}.page_container section .event_absent{height:100%;height:170px;margin-bottom:50px;}
 .page_container section .tooshort{height:425px;}
-.page_container section a{color:white;text-decoration:none;border-bottom:1px dashed;}
+.page_container section a{color:white;}
 .page_container section h1,.page_container section h2{margin-bottom:16px;font-family:"futura-pt-condensed",sans-serif;font-size:36px;}.page_container section h1 a,.page_container section h2 a{text-decoration:none;border-bottom:1px dashed;}
-.page_container section p{margin-bottom:24px;font-size:13px;line-height:24px;}
+.page_container section p{margin-bottom:24px;font-size:13px;line-height:24px;}.page_container section p a{text-decoration:none;border-bottom:1px dashed;}
 .page_container section ul{margin-bottom:24px;padding-left:24px;font-size:13px;line-height:24px;}.page_container section ul li{list-style-type:disc;}
-.page_container section #calendarheader{margin-top:0px;margin-bottom:0px;}.page_container section #calendarheader .calHead{text-align:center;height:28px;float:left;width:87px;border-bottom:2px solid rgba(255, 255, 255, 0.3);}
-.page_container section #calendarheader .both{border-left:1px solid rgba(255, 255, 255, 0.3);border-right:1px solid rgba(255, 255, 255, 0.3);}
-.page_container section #calendarheader .left{border-left:1px solid rgba(255, 255, 255, 0.3);}
-.page_container section #calendarheader .right{border-right:1px solid rgba(255, 255, 255, 0.3);}
-.page_container section #calendar{overflow:auto;}.page_container section #calendar .cal{display:inline;float:left;height:100px;width:87px;padding:2px 6px;border:1px solid rgba(255, 255, 255, 0.3);}.page_container section #calendar .cal a{color:#000000;text-decoration:none;border-bottom:1px dashed;}
-.page_container section #calendar .cal .today{font-size:13px;margin-left:8px;}
-.page_container section #calendar .currentDay{background-color:rgba(255, 255, 255, 0.5);}
-.page_container section #calendar .ourEvent{background:rgba(134, 159, 255, 0.3);}
-.page_container section #calendar .foreignEvent{background:rgba(54, 159, 54, 0.3);}
-.page_container section #calendar #c1{margin-left:0px;}
-.page_container section #calendar #c2{margin-left:87px;}
-.page_container section #calendar #c3{margin-left:174px;}
-.page_container section #calendar #c4{margin-left:261px;}
-.page_container section #calendar #c5{margin-left:348px;}
-.page_container section #calendar #c6{margin-left:70%;}
-.page_container section #calendar #c7{margin-left:84%;}
-.page_container section #acalendar{overflow:auto;margin-top:16px;margin-bottom:16px;}.page_container section #acalendar .hdate,.page_container section #acalendar .hevent,.page_container section #acalendar .hlocation,.page_container section #acalendar .location,.page_container section #acalendar .event,.page_container section #acalendar .date{display:block;float:left;margin-bottom:8px;}.page_container section #acalendar .hdate a,.page_container section #acalendar .hevent a,.page_container section #acalendar .hlocation a,.page_container section #acalendar .location a,.page_container section #acalendar .event a,.page_container section #acalendar .date a{text-decoration:none;border-bottom:1px dashed;}
-.page_container section #acalendar .hdate,.page_container section #acalendar .hevent,.page_container section #acalendar .hlocation{font-weight:bold;}
-.page_container section #acalendar .hdate,.page_container section #acalendar .date{width:25%;}
-.page_container section #acalendar .hevent,.page_container section #acalendar .event{width:25%;}
-.page_container section #acalendar .hlocation,.page_container section #acalendar .location{width:49%;}
+.page_container section ul a{text-decoration:none;border-bottom:1px dashed;}
+.page_container section .calendarheader{margin-top:0px;margin-bottom:0px;}.page_container section .calendarheader .calHead{text-align:center;height:28px;float:left;width:87px;border-bottom:2px solid rgba(255, 255, 255, 0.3);}
+.page_container section .calendarheader .both{border-left:1px solid rgba(255, 255, 255, 0.3);border-right:1px solid rgba(255, 255, 255, 0.3);}
+.page_container section .calendarheader .left{border-left:1px solid rgba(255, 255, 255, 0.3);}
+.page_container section .calendarheader .right{border-right:1px solid rgba(255, 255, 255, 0.3);}
+.page_container section .calendar{overflow:auto;border:4px solid #FFFFFF;padding:16px;background-color:#E1E1E1;text-shadow:none;float:left;color:black;margin-bottom:24px;}.page_container section .calendar .cal{display:inline;float:left;height:100px;width:87px;padding:2px 6px;border:1px solid rgba(255, 255, 255, 0.3);}.page_container section .calendar .cal a{color:#000000;text-decoration:none;border-bottom:1px dashed;}
+.page_container section .calendar .cal .today{font-size:13px;margin-left:8px;}
+.page_container section .calendar .currentDay{background-color:rgba(255, 255, 255, 0.5);}
+.page_container section .calendar .ourEvent{background:rgba(134, 159, 255, 0.3);}
+.page_container section .calendar .foreignEvent{background:rgba(54, 159, 54, 0.3);}
+.page_container section .calendar #c1{margin-left:0px;}
+.page_container section .calendar #c2{margin-left:87px;}
+.page_container section .calendar #c3{margin-left:174px;}
+.page_container section .calendar #c4{margin-left:261px;}
+.page_container section .calendar #c5{margin-left:348px;}
+.page_container section .calendar #c6{margin-left:70%;}
+.page_container section .calendar #c7{margin-left:84%;}
+.page_container section .acalendar{margin-top:16px;margin-bottom:16px;}.page_container section .acalendar .hdate,.page_container section .acalendar .hevent,.page_container section .acalendar .hlocation,.page_container section .acalendar .location,.page_container section .acalendar .event,.page_container section .acalendar .date{display:block;float:left;margin-bottom:8px;}.page_container section .acalendar .hdate a,.page_container section .acalendar .hevent a,.page_container section .acalendar .hlocation a,.page_container section .acalendar .location a,.page_container section .acalendar .event a,.page_container section .acalendar .date a{text-decoration:none;border-bottom:1px dashed;}
+.page_container section .acalendar .hdate,.page_container section .acalendar .hevent,.page_container section .acalendar .hlocation{font-weight:bold;}
+.page_container section .acalendar .hdate,.page_container section .acalendar .date{width:25%;}
+.page_container section .acalendar .hevent,.page_container section .acalendar .event{width:25%;}
+.page_container section .acalendar .hlocation,.page_container section .acalendar .location{width:49%;}
 .page_container section table.details{width:420px;margin:0;border-collapse:collapse;}.page_container section table.details caption,.page_container section table.details th,.page_container section table.details thead td{font-family:"futura-pt-condensed",sans-serif;}
 .page_container section table.details caption{padding:0 4px 8px;font-size:36px;line-height:32px;text-align:left;}
 .page_container section table.details th{width:44px;padding:0 6px;font-weight:normal;font-size:28px;line-height:38px;text-align:left;vertical-align:baseline;}
@@ -130,7 +131,7 @@ article{margin-bottom:64px;}
 .workshops .workshop .details .meta span{width:auto;padding-right:16px;}
 .workshops .workshop .details>img{float:left;margin:0 16px 8px 0;}
 .workshops .workshop .details .description{max-height:none;overflow:visible;}
-.podcast .profile{margin-bottom:48px;}.podcast .profile ul.videos{display:block;}.podcast .profile ul.videos li{display:block;}.podcast .profile ul.videos li iframe{padding:16px;color:#483B36;background-color:#e1e1e1;border:4px solid white;box-shadow:0 2px 4px 0 #123031;-o-box-shadow:0 2px 4px 0 #123031;-moz-box-shadow:0 2px 4px 0 #123031;-webkit-box-shadow:0 2px 4px 0 #123031;display:block;margin:0 0 8px;box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;}
+.podcast .profile{margin-bottom:48px;}.podcast .profile ul.videos{display:block;padding-left:0;}.podcast .profile ul.videos li{display:block;}.podcast .profile ul.videos li iframe{padding:16px;color:#483B36;background-color:#e1e1e1;border:4px solid white;box-shadow:0 2px 4px 0 #123031;-o-box-shadow:0 2px 4px 0 #123031;-moz-box-shadow:0 2px 4px 0 #123031;-webkit-box-shadow:0 2px 4px 0 #123031;display:block;margin:0 0 8px;box-sizing:content-box;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;}
 .podcast .profile ul.videos li p{margin-bottom:8px;}
 .about_us .profile{overflow:hidden;margin-bottom:24px;}.about_us .profile>div{width:391px;float:left;margin-right:16px;}
 .about_us .profile>img{display:block;width:234px;float:right;border:4px solid white;box-shadow:0 2px 4px 0 #123031;-moz-box-shadow:0 2px 4px 0 #123031;-webkit-box-shadow:0 2px 4px 0 #123031;-o-box-shadow:0 2px 4px 0 #123031;}
@@ -176,4 +177,4 @@ article{margin-bottom:64px;}
 .alert{padding:16px;color:#483B36;background-color:#e1e1e1;border:4px solid white;box-shadow:0 2px 4px 0 #123031;-o-box-shadow:0 2px 4px 0 #123031;-moz-box-shadow:0 2px 4px 0 #123031;-webkit-box-shadow:0 2px 4px 0 #123031;width:100%;float:left;margin-bottom:32px;}.alert .central_image img{display:block;margin:0 auto;}
 .infobox_wrapper{display:none !important;visibility:hidden;}
 #infobox{font-family:"futura-pt-condensed",sans-serif;color:white;}#infobox h1{display:block;float:left;font-weight:bold;}#infobox h1 span,#infobox h1 abbr,#infobox h1 a{display:block;float:left;clear:left;clear:left;font-size:58px;line-height:58px;white-space:nowrap;text-shadow:0px 2px 4px #000;text-decoration:none;text-transform:capitalize;border-bottom:none;}
-#infobox h1 a{padding:16px 24px;margin:4px 0 0;background:#d62236 -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);background:#d62236 -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.09)));background:#d62236 -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);background:#d62236 -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);background:#d62236 -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);background:#d62236 linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);border-radius:5px;box-shadow:0 1px 4px 0 #000;-o-box-shadow:0 1px 4px 0 #000;-moz-box-shadow:0 1px 4px 0 #000;-webkit-box-shadow:0 1px 4px 0 #000;color:white;line-height:36px;text-align:center;text-shadow:none;text-decoration:none;border-bottom:1px dashed;}
+#infobox h1 a{padding:16px 24px;margin:4px 0 0;background:#d62236 -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);background:#d62236 -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.09)));background:#d62236 -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);background:#d62236 -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);background:#d62236 -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);background:#d62236 linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.09) 100%);border-radius:5px;box-shadow:0 1px 4px 0 #000;-o-box-shadow:0 1px 4px 0 #000;-moz-box-shadow:0 1px 4px 0 #000;-webkit-box-shadow:0 1px 4px 0 #000;color:white;line-height:36px;text-align:center;text-shadow:none;text-decoration:none;}

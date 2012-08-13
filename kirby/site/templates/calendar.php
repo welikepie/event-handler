@@ -1,4 +1,4 @@
-<?php snippet('header')
+<?php snippet('header');
 ?>
 
 <div class="page_container calendar">
@@ -42,11 +42,10 @@ $comparison = date('Y-m-%02\d');
 $offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 			?>
 			<!-- Calendar of events -->
-			<div id="fullcal">
+			<div class="fullcal">
 				<h1><?php echo($today['month']); ?></h1>
-				<fieldset>
-				<div id="calendar">
-					<div id="calendarheader">
+				<div class="calendar">
+					<div class="calendarheader">
 						<div class="calHead right">Monday</div>
 						<div class="calHead both">Tuesday</div>
 						<div class="calHead both">Wednesday</div>
@@ -54,7 +53,7 @@ $offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 						<div class="calHead both">Friday</div>
 						<div class="calHead both">Saturday</div>
 						<div class="calHead left">Sunday</div>
-					</div>
+					</div>
 
 					<?php
 
@@ -111,7 +110,7 @@ $offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 				</fieldset>
 			</div>
 
-			<div id="acalendar">
+			<div class="acalendar">
 				<fieldset><h1>Agenda</h1>
 				
 				<div class = "hdate" >Date</div>
@@ -128,11 +127,6 @@ foreach ($eventArray as $event) {
 		}
 	}
 }
-?>
-
-				</fieldset>
-			</div>
-
-		</section>
-	</div>
+?>			</div>		</section>
+	</div>
 <?php snippet('footer'); ?>
