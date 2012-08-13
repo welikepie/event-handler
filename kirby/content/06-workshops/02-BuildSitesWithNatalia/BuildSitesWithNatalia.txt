@@ -2,7 +2,7 @@ Title: Build your own Website
 ----
 Lecturer: Natalia Buckley
 ----
-Description: Natalia Buckley is an Interaction designer, web developer and resident at Happenstance. She will be showing you how to create, host and manage your own website from the ground up, without having previous knowledge. 
+Description: Natalia Buckley is an independent creative technologist, interaction designer and developer. She will be showing you how to create, host and manage your own website from the ground up, without having previous knowledge. 
 ----
 Learn:
 - A introduction to HTML (Hyper Text Mark-Up Language), the backbone of any website. 

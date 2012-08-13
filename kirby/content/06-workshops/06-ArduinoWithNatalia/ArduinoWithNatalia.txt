@@ -2,7 +2,7 @@ Title:An Introduction to Arduino
 ----
 Lecturer:Natalia Buckley
 ----
-Description:Natalia Buckley is an Interaction designer, web developer and resident at Happenstance. She will be introducing you to Electronics and open your mind to the world of Arduino, ultimately creating a light-controlled theremin. 
+Description: Natalia Buckley is an independent creative technologist, interaction designer and developer. She will be introducing you to Electronics and open your mind to the world of Arduino, ultimately creating a light-controlled theremin. 
 ----
 Learn:
 - An introduction to electronics, soldering and circuit bending.
