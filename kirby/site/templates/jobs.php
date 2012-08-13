@@ -59,5 +59,5 @@
 	</section>
 </div>
 
-<script type="text/javascript" src="/assets/scripts/jobs.js"></script>
-<?php snippet('footer') ?>
+<script type="text/javascript" src="<?php echo(url('assets/scripts/jobs.js')); ?>"></script>
+<?php snippet('footer'); ?>

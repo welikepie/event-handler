@@ -130,8 +130,6 @@ article { margin-bottom: @base * 4; }
     
     a {
         color: white;
-        text-decoration: none;
-        border-bottom: 1px dashed;
     }
     h1, h2 {
         margin-bottom: @base;
@@ -146,6 +144,10 @@ article { margin-bottom: @base * 4; }
         margin-bottom: @base * 1.5;
     	font-size: @base * 0.8125;
     	line-height: @base * 1.5;
+        a {
+            text-decoration: none; 
+            border-bottom: 1px dashed;
+        }
     }
     ul {
         margin-bottom: 24px;
@@ -153,6 +155,10 @@ article { margin-bottom: @base * 4; }
     	font-size: 13px;
     	line-height: 24px;
         li { list-style-type: disc; }
+        a {
+            text-decoration: none; 
+            border-bottom: 1px dashed;
+        }
     }
     //Calendar page
 #calendarheader{
@@ -394,6 +400,7 @@ margin-bottom:16px;
     margin-bottom: 48px;
     ul.videos {
         display: block;
+        padding-left: 0;
         li {
             display: block;
             iframe {
@@ -845,7 +852,6 @@ margin-bottom:16px;
         	text-align: center;
             text-shadow: none;
             text-decoration: none;
-            border-bottom: 1px dashed;
         }
     }
 }
