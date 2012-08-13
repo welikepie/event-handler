@@ -62,7 +62,7 @@
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $event->booking_link();
-							if ($booking) { echo('<a href="' . $booking . '" class="booking button">View Tickets</a>'); }
+							if ($booking) { echo('<a href="' . $booking . '" class="booking button">Tickets</a>'); }
 						?>
 					
 					</div>
@@ -136,7 +136,7 @@
 										'<div class="speaker_heading">' . $speaker_tracks . '</div>' .
 										'<div class="speaker_notes">' . $speaker_times . '</div>' .
 										'<div class="speaker_grid">' . $speaker_grid . '</div>' .
-										($booking ? '<a href="' . $booking . '" class="booking button">View Tickets</a>' : '') .
+										($booking ? '<a href="' . $booking . '" class="booking button">Tickets</a>' : '') .
 									'</div>' .
 								'</div>'
 							);

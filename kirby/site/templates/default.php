@@ -21,7 +21,7 @@
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $page->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">View Tickets</a><?php }
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">Tickets</a><?php }
 						?>
 					</div>
 					
@@ -82,7 +82,7 @@
 									<div class="speaker_heading"><?php echo $speaker_tracks; ?></div>
 									<div class="speaker_notes"><?php echo $speaker_times; ?></div>
 									<div class="speaker_grid"><?php echo $speaker_grid; ?></div>
-									<?php if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">View Tickets</a><?php } ?> 
+									<?php if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">Tickets</a><?php } ?> 
 								</div>
 							</div><?php
 						
