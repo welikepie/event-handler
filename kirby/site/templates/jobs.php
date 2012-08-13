@@ -9,21 +9,22 @@
 		
 		<?php
 		
-		$jobs = $pages->find('jobs');
-		$jobs = $jobs->children()->visible();
-		$jobs = $jobs->sortBy('date', 'desc');
+		$jobs = $pages->find('jobs')
+			->children()
+			->visible()
+			->sortBy('date', 'desc');
 		
 		foreach ($jobs as $job) {
 		
 			// Don't list of older than 3 months
-			$job_date = $job->date();
+			/*$job_date = $job->date();
 			$current_date = mktime(
 				0, 0, 0,
 				date('n'), date('j'), date('Y')
 			);
 			
 			$adjusted_date = $current_date - (3 * 30 * 24 * 60 * 60);
-			if ($adjusted_date > $job_date) { continue; }
+			if ($adjusted_date > $job_date) { continue; }*/
 			
 			?><div class="job">
 				<h1><?php echo html($job->title()); ?></h1>
@@ -58,5 +59,5 @@
 	</section>
 </div>
 
-<script type="text/javascript" src="/assets/scripts/jobs.js"></script>
-<?php snippet('footer') ?>
+<script type="text/javascript" src="<?php echo(url('assets/scripts/jobs.js')); ?>"></script>
+<?php snippet('footer'); ?>

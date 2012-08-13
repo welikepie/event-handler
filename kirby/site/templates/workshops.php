@@ -8,6 +8,7 @@
 			<div class="description"><?php echo kirbytext($page->text()); ?></div>
 		</div>
 
+
 		<form action="http://eventhandler.us2.list-manage.com/subscribe/post?u=b76886bab37470b1e293804f6&id=799f4da2e1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" onsubmit="return formsubmit()" target="_blank">
 			<?php
 		$fieldName=64;

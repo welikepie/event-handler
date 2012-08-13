@@ -1,10 +1,10 @@
+<<<<<<< HEAD
 <?php snippet('header')
-?>
-<div class = "page_container calendar">
-<section class="content">
-<h1><?php echo html($page -> title()); ?></h1>
+?>
+<div class = "page_container calendar">
+<section class="content">
+<h1><?php echo html($page -> title()); ?></h1>
 <?php echo kirbytext($page -> text()); ?>
-
 <?php
 snippet('page_sort');
 $count = 0;
@@ -129,5 +129,4 @@ foreach ($eventArray as $event) {
 
 </section>
 </div>
-<?php snippet('footer')
-?>
+<?php snippet('footer');?>
