@@ -27,8 +27,6 @@
 target="hidden_iframe" onsubmit="if(formsubmit()==true){submitted=true;}">
 						<fieldset>
 							<script type="text/javascript">
-
-								
 							</script>
 						<div class="errorbox-good">
 							<div class="ss-item ss-item-required ss-text">

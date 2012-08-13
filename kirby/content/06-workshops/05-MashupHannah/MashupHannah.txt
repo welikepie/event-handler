@@ -1,4 +1,4 @@
-Title: Mashup crash course with Hannah Wolfe
+﻿Title: Mashup Crash Course
 ----
 Lecturer: Hannah Wolfe
 ----

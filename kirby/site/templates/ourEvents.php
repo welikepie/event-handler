@@ -33,7 +33,11 @@ for ($j = 1; $j < count($eventArray); $j++) {
 	}
 	$eventArray[$i] = $tmp;
 }
+<<<<<<< HEAD
 
+=======
+array_reverse($eventArray);
+>>>>>>> 6710172d7b1fd793c7eb6a456fa441c7b6eba688
 $currentdate = getdate();
 $monthvar = $currentdate['month'];
 $mdayvar = $currentdate['mday'];
@@ -41,15 +45,16 @@ $wdayvar = $currentdate['wday'];
 ?>
 <div id = "fullcal">
 <h1>40 days ahead</h1>
+<fieldset>
 <div id="calendar">
 <div id="calendarheader">
-<div class = "cal">Monday</div>
-<div class = "cal">Tuesday</div>
-<div class = "cal">Wednesday</div>
-<div class = "cal">Thursday</div>
-<div class = "cal">Friday</div>
-<div class = "cal">Saturday</div>
-<div class = "cal">Sunday</div>
+<div class = "calHead right">Monday</div>
+<div class = "calHead both">Tuesday</div>
+<div class = "calHead both">Wednesday</div>
+<div class = "calHead both">Thursday</div>
+<div class = "calHead both">Friday</div>
+<div class = "calHead both">Saturday</div>
+<div class = "calHead left">Sunday</div>
 </div>
 <?php
 $iMax = 40;
@@ -100,6 +105,7 @@ for ($i = 1; $i < $iMax + 1; $i++) {
 ?>
 
 </div>
+</fieldset>
 </div>
 
 <div id = "acalendar">
@@ -114,6 +120,8 @@ for ($i = 1; $i < $iMax + 1; $i++) {
 <div class = "hlocation">Location</div>
 
 <?php
+
+echo($eventArray);
 $monthstart = date(strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 foreach ($eventArray as $event) {
 	if ($event -> date() != 0) {

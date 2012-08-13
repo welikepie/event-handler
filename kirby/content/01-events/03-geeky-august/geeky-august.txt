@@ -8,7 +8,9 @@ What: Geeks & Lightning talks
 ----
 Date: 2012-08-28
 ----
-Where: Forward Internet Group, 19 Mandela Street, NW1 0DU
+Where: Forward Internet Group, 
+19 Mandela Street, 
+NW1 0DU
 ----
 Cost: Free
 ----

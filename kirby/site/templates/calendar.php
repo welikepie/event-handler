@@ -26,7 +26,7 @@ $eventArray = new pages(array_merge(
 
 /* This here is basic array of foreign event pages */
 $pages -> find('foreignevents') -> children() -> visible() -> _));
-$eventArray -> sortBy('date', 'asc');
+$eventArray = $eventArray -> sortBy('date', 'asc');
 
 /**
  * Prepare variables for rendering the calendar.
@@ -44,16 +44,16 @@ $offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 			<!-- Calendar of events -->
 			<div id="fullcal">
 				<h1><?php echo($today['month']); ?></h1>
+				<fieldset>
 				<div id="calendar">
-				
 					<div id="calendarheader">
-						<div class="cal">Monday</div>
-						<div class="cal">Tuesday</div>
-						<div class="cal">Wednesday</div>
-						<div class="cal">Thursday</div>
-						<div class="cal">Friday</div>
-						<div class="cal">Saturday</div>
-						<div class="cal">Sunday</div>
+						<div class="calHead right">Monday</div>
+						<div class="calHead both">Tuesday</div>
+						<div class="calHead both">Wednesday</div>
+						<div class="calHead both">Thursday</div>
+						<div class="calHead both">Friday</div>
+						<div class="calHead both">Saturday</div>
+						<div class="calHead left">Sunday</div>
 					</div>
 
 					<?php
@@ -67,7 +67,7 @@ $offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 						// Add class for the indicator of current day
 						if ($i === intval($today['mday'], 10)) {
 							$classes[] = 'currentDay';
-							$content .= '<p>Today</p>';
+							$content .= '<span class="today">Today</span>';
 						}
 
 						// Iterate over the event and see, which ones
@@ -83,7 +83,7 @@ $offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 									if ($event -> parent() -> uid() === 'events') {
 										$classes[] = 'ourEvent';
 									} elseif ($event -> parent() -> uid() === 'foreignevents') {
-										$classes[] = 'notOurEvent';
+										$classes[] = 'foreignEvent';
 									}
 
 								}
@@ -108,29 +108,29 @@ $offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 					?>
 				
 				</div>
+				</fieldset>
 			</div>
 
 			<div id="acalendar">
-				<h1>Agenda</h1>
+				<fieldset><h1>Agenda</h1>
 				
-				<div class="hdate" >Date</div>
-				<div class="hevent">Event</div>
-				<div class="hlocation">Location</div>
+				<div class = "hdate" >Date</div>
+<div class = "hevent">Event</div>
+<div class = "hlocation">Location</div>
 
-				<?php
-				$month_start = date(strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
+<?php
+$monthstart = date(strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
+foreach ($eventArray as $event) {
+	if ($event -> date() != 0) {
+		if ($event -> date() >= $monthstart) {
+			$event_date = $event -> date();
+			echo("<li class = \"acalendar\"><div class = \"date\">" . date("jS F", $event_date) . "</div><div class = \"event\">" . "<a href=\"" . $event -> url() . "\">" . $event -> title() . "</a>" . "</div><div class=\"location\">" . $event -> where() . "</div>");
+		}
+	}
+}
+?>
 
-				foreach ($eventArray as $event) {
-
-					$event_date = $event -> date();
-					if ($event_date && ($event_date >= $month_start)) {
-
-						echo('<li class="acalendar">' . '<div class="date">' . date('jS F', $event_date) . '</div>' . '<div class="event">' . html($event -> title()) . '</div>' . '<div class="location">' . html($event -> where()) . '</div>' . '</li>');
-
-					}
-
-				}
-				?>
+				</fieldset>
 			</div>
 
 		</section>

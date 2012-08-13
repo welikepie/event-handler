@@ -1,3 +1,3 @@
-Title: A wild 404 Error appears!
+Title: 404 Error
 ----
-Text: Would you like to [F]ight or [R]un?
+Text: Well, that wasn't supposed to happen. Either you've typed in the wrong URL (please check!), we've moved some stuff around or something just isn't working. Whilst we fix this, why not check out our <a href="event-handler/calender">upcoming events</a> or check out some of our other content? We have podcasts from <a href="event-handler/podcasts">previous events</a> and a <a href="event-handler/jobs">jobs</a> page listing work available at companies we like. 
