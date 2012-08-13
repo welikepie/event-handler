@@ -3,3 +3,13 @@
 Lecturer: Hannah Wolfe
 ----
 Description: Be introduced to RESTful API’s and create a mash-ups, making and parsing requests, testing and deploying your projects. 
+----
+Learn:
+
+- About RESTful API's
+- Making and parsing requests
+- How to test projects
+- How to deploy projects
+----
+Requirements:
+- Nothing but a laptop!
