@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php snippet('header')
 ?>
 <div class = "page_container calendar">
