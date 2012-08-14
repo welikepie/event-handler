@@ -1,4 +1,4 @@
-﻿Title: London JS
+Title: London JS
 ----
 Text: 
 
@@ -18,7 +18,7 @@ Evening of Javascript talks about Microframeworks and Require.js.
 ----
 What: Javascript Talks
 ----
-Date: 2012-08-20
+Date: 2012-08-10
 ----
 Where: Poke London: Biscuit Building, 
 10 Redchurch Street, London, 
