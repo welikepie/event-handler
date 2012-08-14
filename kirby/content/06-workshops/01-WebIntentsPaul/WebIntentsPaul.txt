@@ -2,7 +2,9 @@ Title: Web Intents with Paul Kinlan
 ----
 Lecturer: Paul Kinlan
 ----
-Description: A workshop hosted by Paul Kinlan; a developer advocate at Google and creator of the Web Intent Specification. Web Intent is a framework that solves the problem of service integration. It allows inter-application communication, applications request to perform an action such as sharing an image or editing a post and the system will locate the appropriate service to handle such an action depending on the users set preferences. 
+Job: Developer advocate at Google and creator of the Web Intent Specification. 
+----
+Description: Web Intent is a framework that solves the problem of service integration. It allows inter-application communication, applications request to perform an action such as sharing an image or editing a post and the system will locate the appropriate service to handle such an action depending on the users set preferences. 
 So if you're interested in making it so your application will work with a range of services and reach a wider audience, register your interest with the Web Intents workshop and we'll make it so. 
 ----
 Learn: 
@@ -11,3 +13,5 @@ Learn:
 ----
 Requirement:
 Nothing but a laptop!
+----
+Twitter: Paul_Kinlan
