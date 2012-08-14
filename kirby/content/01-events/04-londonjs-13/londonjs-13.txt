@@ -1,4 +1,4 @@
-﻿Title: London JS 13
+﻿Title: London JS
 ----
 Text: 
 
