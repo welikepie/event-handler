@@ -168,7 +168,7 @@ article { margin-bottom: @base * 4; }
         text-align:center;
             height:28px;
             float:left;
-            width:87px;
+            width:92px;
             border-bottom:2px solid RGBA(255,255,255,0.3);
         }
         .both{
@@ -190,17 +190,17 @@ article { margin-bottom: @base * 4; }
 .calendar{
 overflow:auto;
 border:4px solid #FFFFFF;
-padding:16px;
 background-color:#E1E1E1;
 text-shadow:none;
 float:left;
 color:black;
 margin-bottom:24px;
+padding: 0px 1px;
 .cal {
             display:inline;
             float:left;
             height: 100px;
-            width:87px;
+            width:92px;
             padding:2px 6px;
              border:1px solid RGBA(255,255,255,0.3);
                 a{
@@ -225,12 +225,12 @@ margin-bottom:24px;
         background:RGBA(54,159,54,0.3);
         }
     #c1{margin-left:0px;}
-    #c2{margin-left:87px;}
-    #c3{margin-left:174px;}
-    #c4{margin-left:261px;}
-    #c5{margin-left:348px;}
-    #c6{margin-left:70%;}
-    #c7{margin-left:84%;}
+    #c2{margin-left:92px;}
+    #c3{margin-left:184px;}
+    #c4{margin-left:276px;}
+    #c5{margin-left:368px;}
+    #c6{margin-left:460px;}
+    #c7{margin-left:552px;}
 }
     .acalendar{
 margin-top:16px;
@@ -323,7 +323,8 @@ margin-bottom:16px;
 
 .jobs .job, .workshops .workshop {
     margin-bottom: 24px;
-    
+    .rightContainer{
+        }
     .details {
         
         .modal;
@@ -348,7 +349,7 @@ margin-bottom:16px;
 	        border-radius: 3px;
         }
         // Application and "view more" button
-        .contact a, a.extender, .rightFormCheck {
+        .contact a, a.extender{
             display: block;
         	float: left;
         	margin: 0 8px 8px 0;
@@ -362,6 +363,55 @@ margin-bottom:16px;
             
             &:hover, &:focus { text-decoration: underline; }
         }
+        label{float:left; width:179px;}
+            img.selected{
+                float:right;
+                   width:0px;
+                   height:0px;
+            background-image:url('../images/options.png');
+            background-repeat:no-repeat;
+            background-position:left;
+                }
+            img.unselected{
+           //     background-color:pink;
+           float:right;
+           width:0px;
+           height:0px;
+   background-image:url('../images/options.png');
+    background-repeat:no-repeat;
+background-position:right;
+             }
+        .rightFormCheck{
+               input[type="checkbox"]{
+                    //display:block;
+                    //width:0px;
+                    //height:0px;
+                    //overflow:hidden;
+                    float:left;
+                    }
+            //padding: @base (@base * 1.5);
+        	//margin: (@base * 0.25) 0 0;
+        padding:4px 8px 4px 8px;
+        	 background: #d62236 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
+        	background: #d62236 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
+        	background: #d62236 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+        	background: #d62236 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+        	background: #d62236 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+        	background: #d62236 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+            border-radius: 5px;
+        	box-shadow: 0 1px 4px 0 #000;
+            -o-box-shadow: 0 1px 4px 0 #000;
+        	-moz-box-shadow: 0 1px 4px 0 #000;
+        	-webkit-box-shadow: 0 1px 4px 0 #000;
+            
+            
+            color: white;
+            //line-height: 36px;
+        	text-align: center;
+            text-shadow: none;
+            text-decoration: none;
+            }
+        
         a.extender, .rightFormCheck { float: right; cursor: pointer; }
         
         // Description box
@@ -387,15 +437,77 @@ margin-bottom:16px;
 // Workshop-only stuff
 .workshops .workshop {
     .details {
-        .meta span {
-            width: auto;
-            padding-right: 16px;
+        .workshopLeft{
+            padding: 0 32px 0 16px;
+            width:215px;
+            float:left;
+            .meta{
+                padding-right:0px;
+                margin-bottom:0px;
+                }
+                
+             .meta span.jobTwitter {
+                font-size:14px;
+                font-weight:normal;
+               // color: #A19C91;
+                    a{
+                        color:#000000;
+                        }
+            }
+             
+            .meta span {
+                width:100%;
+                text-align:center;
+                font-size:16px;
+                font-weight:bold;
+            }
+            > img {
+           padding:80px 23px 0px 23px;            
+           // padding-top:80px;
+
+            }
         }
-        > img {
-            float: left;
-            margin: 0 16px 8px 0;
+        .gradiented:after{
+            float:left;
+            display:block;
+            clear:left;
+            }
+        .gradiented{
+       background:black;
+       background:  -moz-linear-gradient(top, rgba(72,59,54,0) 0%, rgba(72,59,54,0.3) 5%, rgba(72,59,54,0.3) 95%, rgba(72,59,54,0) 100%);
+       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(72,59,54,0)), color-stop(5%,rgba(72,59,54,0.3)), color-stop(95%,rgba(72,59,54,0.3)),color-stop(100%,rgba(72,59,54,0)));
+       background: -webkit-linear-gradient(top, rgba(72,59,54,0) 0%, rgba(72,59,54,0.3) 5%, rgba(72,59,54,0.3) 95%, rgba(72,59,54,0) 100%);
+	   background: -o-linear-gradient(top, rgba(72,59,54,0) 0%, rgba(72,59,54,0.3) 5%, rgba(72,59,54,0.3) 95%, rgba(72,59,54,0) 100%);
+	   background: -ms-linear-gradient(top, rgba(72,59,54,0) 0%, rgba(72,59,54,0.3) 5%, rgba(72,59,54,0.3) 95%, rgba(72,59,54,0) 100%);
+	   background: linear-gradient(top, rgba(72,59,54,0) 0%, rgba(72,59,54,0.3) 5%, rgba(72,59,54,0.3) 95%, rgba(72,59,54,0) 100%);
+            
+            
+            float:left;
+            width:400px;
+            .workshopRight{
+                background-color:#E1E1E1;
+                padding:0 16px 0 32px;
+                        width:399px;
+                       float:right;
+                .meta span {
+                      width: auto;
+                        padding-right: 16px;
+                        font-size:16px;
+                    }
+                    .description { 
+                        max-height: none; 
+                        overflow: visible; 
+                         margin-bottom:0px;
+                        }
+                    .meta {
+                           margin-bottom:0px;
+                        }
+                        
+                         ul{
+                                margin-top:0px;
+                            }
+               }
         }
-        .description { max-height: none; overflow: visible; }
     }
     
 }

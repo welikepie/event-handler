@@ -1,12 +1,9 @@
 Title: Workshops
 ----
 Text: Since we've started doing events, we've always had the idea of holding workshops at the back of our minds.
-As there is no time like the present, we're excited to say that we are doing just that, we will be organising
-several workshops on all different subjects on a regular basis around London. 
 
-Ideas we have been toying with include Arduino workshops, Paper Prototyping, an introduction to Web Intents 
-and to the D3 framework. Take a look at the descriptions below, if you wish to take part in any of
-them, please register your interest at the appropriate links!
+As there is no time like the present, we're excited to say that we are doing just that, we will be organising several workshops on all different subjects on a regular basis around London. 
 
-If you have any suggestions for workshops to hold, would like to do your own, or are interested in tuition for your 
-company or event, please contact us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) or on Twitter at (link: https://twitter.com/eventhandleruk text: @eventhandleruk).
+Ideas we have been toying with include Arduino workshops, Paper Prototyping, an introduction to Web Intents and to the D3 framework. Take a look at the descriptions below, if you wish to take part in any of them, please register your interest at the appropriate links!
+
+If you have any suggestions for workshops to hold, would like to do your own, or are interested in tuition for your company or event, please contact us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) or on Twitter at (link: https://twitter.com/eventhandleruk text: @eventhandleruk).

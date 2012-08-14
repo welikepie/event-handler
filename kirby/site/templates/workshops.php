@@ -22,7 +22,8 @@
 			
 				<h1><?php echo html($workshop->title()); ?></h1>
 				<div class="details">
-				
+					
+				<div class="workshopLeft">
 					<!-- Workshop image -->
 					<?php
 						$image = $workshop->image();
@@ -30,18 +31,28 @@
 					?><img src="<?php echo($image); ?>" alt="">
 					
 					<!-- Lecturer's name -->
-					<p class="meta"><span>Lecturer:</span> <?php echo html($workshop->lecturer()); ?></p>
-					<div class="description"><?php echo(kirbytext($workshop->description())); ?></div>
+					<p class="meta"><span><?php echo html(strtoupper($workshop->lecturer())); ?></span></p>
+					<p class="meta"><span class = jobTwitter><?php echo html($workshop->job()); ?></span></p>
+					<p class="meta"><span class = jobTwitter><a href="http://www.twitter.com/<?php echo html($workshop->twitter());?>">@<?php echo html($workshop->twitter()); ?></a></span></p>
+				</div>
+				<div class="gradiented">
+				<div class="workshopRight">
+					<div class="description">
+						<?php 
+						echo('<p class ="meta"><span>Workshop Description:</span></p>');
+						echo(kirbytext($workshop->description())); 
+						?>
+					</div>
 					
 					<!-- List of skills obtained -->
 					<div class="skills">
-					<?php
-						$learn = $workshop->learn();
-						if ($learn) {
-							echo('<p class="meta"><span>What you\'ll learn:</span></p>');
-							echo(kirbytext($learn));
-						}
-					?>
+						<?php
+							$learn = $workshop->learn();
+							if ($learn) {
+								echo('<p class="meta"><span>What you\'ll learn:</span></p>');
+								echo(kirbytext($learn));
+							}
+						?>
 					</div>
 					
 					<!-- List of requirements -->
@@ -54,11 +65,20 @@
 						}
 					?>
 					</div>
+						</div>
+			</div>
 					
-					<label class="rightFormCheck">Let Me Know <input type="checkbox" id="<?php echo(str_replace(" ","_",$workshop->title()));?>" name="<?php echo("group[11569][".$fieldName."]"); $fieldName = $fieldName*2; ?>" value="Subscribe" checked></label>
+					<div class=rightContainer>
+						<label class="rightFormCheck" id="<?php echo(str_replace(" ","-",$workshop->title()));?>" >
+							Let Me Know 
+								<input type="checkbox" id="<?php echo(str_replace(" ","_",$workshop->title()));?>" name="<?php echo("group[11569][".$fieldName."]"); $fieldName = $fieldName*2; ?>" value="Subscribe" onclick="checkChange(this.parentNode.id);">
+						<div id = "<?php echo(str_replace(" ","|",$workshop->title()));?>">
+								<img alt="deselected" class = "unselected" id="<?php echo(str_replace(" ","|",$workshop->title()));?>"\>
+						</div>
+						</label>
+					</div>
 				
 				</div>
-			
 			</div>
 			<?php } ?>
 			

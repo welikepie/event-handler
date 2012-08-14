@@ -10,9 +10,15 @@
 		foreach ($bottom_snippets as &$snippet)
 			echo('<script type="text/javascript">' . $snippet . '</script>');
 	?>
-<!--contactSpeaker, speaker, form name  -->
-entry.1.single, entry.0.single , 
+<!--contactSpeaker, speaker, form name  --><!--entry.1.single, entry.0.single , -->
 <script type="text/javascript">
+
+function checkChange(myElem){
+		//myElem=myElem.replace(/-/gi,'|');
+		//alert(myElem);	
+		//start off here tomorrow morning...
+	//	document.getElementById(myElem).innerHTML = <img alt="deselected" class = "unselected" id="<?php echo(str_replace(" ","|",$workshop->title()));?>"\>
+};
 
 function formsubmit() {
 
