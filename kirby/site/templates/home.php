@@ -1,4 +1,7 @@
-<?php snippet('header'); ?>
+<?php
+	snippet('header');
+	snippet('dates');
+?>
 
 		<!-- Event Map Widget -->
 		<div class="map_container">
@@ -166,7 +169,7 @@
 								</tr>
 								<tr>
 									<th scope="row">When</th>
-									<td><?php echo $event->date("jS F Y"); ?></td>
+									<td><?php echo daterange($event); ?></td>
 								</tr>
 								<tr>
 									<th scope="row">Cost</th>

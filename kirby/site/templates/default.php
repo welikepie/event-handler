@@ -1,4 +1,7 @@
-<?php snippet('header'); ?>
+<?php
+	snippet('header');
+	snippet('dates');
+?>
 
 		<!-- Event Map Widget -->
 		<div class="map_container">
@@ -111,7 +114,7 @@
 								</tr>
 								<tr>
 									<th scope="row">When</th>
-									<td><?php echo $page->date("jS F Y"); ?></td>
+									<td><?php echo daterange($page); ?></td>
 								</tr>
 								<tr>
 									<th scope="row">Cost</th>
@@ -150,7 +153,7 @@
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
-		'/assets/scripts/jquery.easydate-0.2.4.min.js'
+		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
 	'bottom_snippets' => array(
 	<<<EOT
