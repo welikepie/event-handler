@@ -1,46 +1,30 @@
 <?php snippet('header'); ?>
+</head>
 <div class="page_container">
-<section>
-
-<?php
-echo("<h1>LOL</h1>");
-$testvalue = 2;
-$year = 2012;
-
-if(isset($_POST['nextMonth'])){
-$testvalue = $_POST['monthUp'];
-}
-if(isset($_POST['prevMonth'])){
-$testvalue = $_POST['monthDown'];
-}
-
-if($testvalue > 12){
-	$testvalue = 1;
-	$year = $year+1;
-}
-if($testvalue < 1){
-	$testvalue = 12;
-	$year = $year-1;
-}
-echo($testvalue.",".$year);?>
-<form action = "test.php" method="post">
-<input type = "number" name="monthUp" value = "<?php echo($testvalue+1)?>">
-<input type="submit" name="nextMonth" value="nextMonth" />
-</form>
-<form action = "test.php" method="post">
-<input type = "number" name="monthDown" value = "<?php echo($testvalue-1)?>">
-<input type="submit" name="prevMonth" value="prevMonth" />
-</form>
-
-
-
-
-
-
-
-
-
-
-</section>
+	<section>
+		<br><br><br><br><br><br>
+	<div>
+	<label class="btn btn-danger" id="example" rel="popover" data-content="" title = "LOL">clicky cliuck</label>
+	</div>
+	</section>
 </div>
+
+<script src="../assets/scripts/jQuery1-8-0.js"></script>
+<script src="../assets/scripts/bootstrap-tooltip.js"></script>
+<script src="../assets/scripts/bootstrap-popover.js"></script>
+
+<script type = "text/javascript">
+jQuery(document).ready(function($) {
+$('#example').popover({
+        html: true,
+        trigger: 'manual',
+        placement: 'top',
+    }).click(function() {
+    	$('#example').attr("data-content", "dis be some dope shizz");
+        $(this).popover('toggle');
+        $(this).load("STRINGSZ AND SHIT");
+        console.log("doing shit!");
+    });
+});
+</script>
 <?php snippet('footer'); ?>

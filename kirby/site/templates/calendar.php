@@ -77,9 +77,9 @@ $trueToday = false;
 			<!-- Calendar of events -->
 			<div class="fullcal">
 				<h1><?php echo(date( 'F', mktime(0, 0, 0, $currentMonth)).", ".$currentYear); ?></h1>
-				<?php echo ($currentMonth.",".$currentYear);
+			<!--	<?php echo ($currentMonth.",".$currentYear);
 				 	 echo(date('n').",".date('Y'));
-				 	 echo($trueToday);?>
+				 	 echo($trueToday);?> -->
 <form action = "calendar.php" method="post">
 <input type = "number" class = "hidden" name="monthUp" value = "<?php echo($currentMonth+1)?>">
 <input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">

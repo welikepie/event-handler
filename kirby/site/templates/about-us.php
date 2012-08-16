@@ -12,7 +12,6 @@
 			<?php
 				$profiles = yaml($page->profiles());
 				foreach ($profiles as $name => &$profile) {
-				
 					?><div class="profile">
 						<div>
 							<h2><?php echo html($name); ?></h2>
