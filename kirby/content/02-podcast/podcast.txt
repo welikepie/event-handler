@@ -1,4 +1,4 @@
-Title: Podcasts
+﻿Title: Podcasts
 ----
 Text: Live recordings from London JS. A monthly community meetup where expert speakers talk on subjects relating to all things JavaScript. Also available on (link: http://itunes.apple.com/gb/podcast/londonjs-podcasts/id520096892 text: iTunes popup: yes)
 
@@ -11,6 +11,10 @@ Data Visualisation:
   Podcasts:
     "Hannah Wolfe - Hacking your own UI to the GA API": http://londonjs.s3-website-eu-west-1.amazonaws.com/hannah-wolfe-ga-api.m4a
     "Premasagar Rose - Anatomy of a Data Visualisation": http://londonjs.s3-website-eu-west-1.amazonaws.com/premasagar-rose-visualisation.m4a
+  Videos:
+    "Hannah Wolfe - Hacking your own UI to the GA API": https://vimeo.com/47438969
+    "Premasagar Rose - Anatomy of a Data Visualisation": https://vimeo.com/47576467
+    "Clare Sutcliffe - Code Club Hacking the Future": https://vimeo.com/47438968
 
 Local Storage and ApplicationCache:
   Description: |
