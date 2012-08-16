@@ -37,7 +37,7 @@
 								
 									// Vimeo embed
 									$temp = array(); 
-									if (preg_match('/^http:\/\/(?:www\.)?vimeo.com\/([0-9]+)/i', $link, $temp)) {
+									if (preg_match('/^https?:\/\/(?:www\.)?vimeo.com\/([0-9]+)/i', $link, $temp)) {
 										$link = 'http://player.vimeo.com/video/' . $temp[1];
 									}
 									
