@@ -2,7 +2,7 @@ Title:An Introduction to Arduino
 ----
 Lecturer:Natalia Buckley
 ----
-Job: Independent creative technologist.
+Job: Independent creative technologist
 ----
 Description: Natalia will be introducing you to Electronics and open your mind to the world of Arduino, ultimately creating a light-controlled theremin. 
 ----

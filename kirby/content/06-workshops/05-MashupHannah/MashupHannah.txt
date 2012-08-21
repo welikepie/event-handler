@@ -2,7 +2,7 @@
 ----
 Lecturer: Hannah Wolfe
 ----
-Job: Developer at MOO.com. 
+Job: Developer at MOO.com
 ----
 Description: Be introduced to RESTful API’s and create a mash-ups, making and parsing requests, testing and deploying your projects. 
 ----
