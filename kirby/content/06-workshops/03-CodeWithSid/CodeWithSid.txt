@@ -1,4 +1,4 @@
-﻿Title: Code along with Syd Lawrence
+﻿Title: Code along
 ----
 Lecturer: Syd Lawrence
 ----

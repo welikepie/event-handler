@@ -118,6 +118,18 @@ article { margin-bottom: @base * 4; }
 // ------------------
 
 .page_container section {
+    .hidden{
+        width:0px;
+        height:0px;
+        overflow:hidden;
+        display:none;
+        }
+    #formReceiver{
+        width:0px;
+        height:0px;
+        overflow:hidden;
+        display:none;
+        }
     .event_absent{
        height:100%;
         height:170px;
@@ -342,28 +354,28 @@ margin-bottom:16px;
   visibility: visible;
 }
 
-.tooltip.in {
+.tooltip .in {
   opacity: 0.8;
   filter: alpha(opacity=80);
 }
 
-.tooltip.top {
+.tooltip .top {
   margin-top: -2px;
 }
 
-.tooltip.right {
+.tooltip .right {
   margin-left: 2px;
 }
 
-.tooltip.bottom {
+.tooltip .bottom {
   margin-top: 2px;
 }
 
-.tooltip.left {
+.tooltip .left {
   margin-left: -2px;
 }
 
-.tooltip.top .tooltip-arrow {
+.tooltip .top .tooltip-arrow {
   bottom: 0;
   left: 50%;
   margin-left: -5px;
@@ -372,7 +384,7 @@ margin-bottom:16px;
   border-left: 5px solid transparent;
 }
 
-.tooltip.left .tooltip-arrow {
+.tooltip .left .tooltip-arrow {
   top: 50%;
   right: 0;
   margin-top: -5px;
@@ -381,7 +393,7 @@ margin-bottom:16px;
   border-left: 5px solid #000000;
 }
 
-.tooltip.bottom .tooltip-arrow {
+.tooltip .bottom .tooltip-arrow {
   top: 0;
   left: 50%;
   margin-left: -5px;
@@ -390,7 +402,7 @@ margin-bottom:16px;
   border-left: 5px solid transparent;
 }
 
-.tooltip.right .tooltip-arrow {
+.tooltip .right .tooltip-arrow {
   top: 50%;
   left: 0;
   margin-top: -5px;
@@ -424,6 +436,7 @@ margin-bottom:16px;
   z-index: 1010;
   display: none;
   padding: 5px;
+  
 }
 
 .popover.top {
@@ -446,7 +459,7 @@ margin-bottom:16px;
   bottom: 0;
   left: 50%;
   margin-left: -5px;
-  border-top: 5px solid #000000;
+  border-top: 5px solid #FFFFFF;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
 }
@@ -486,10 +499,9 @@ margin-bottom:16px;
 
 .popover-inner {
   width: 280px;
-  padding: 3px;
+  padding: 2px;
   overflow: hidden;
-  background: #000000;
-  background: rgba(0, 0, 0, 0.8);
+  background: #FFFFFF;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
@@ -497,7 +509,18 @@ margin-bottom:16px;
      -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
           box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
 }
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+     -moz-transition: opacity 0.15s linear;
+      -ms-transition: opacity 0.15s linear;
+       -o-transition: opacity 0.15s linear;
+          transition: opacity 0.15s linear;
+}
 
+.fade.in {
+  opacity: 1;
+}
 .popover-title {
     display:none;
   padding: 9px 15px;
@@ -509,8 +532,8 @@ margin-bottom:16px;
           border-radius: 3px 3px 0 0;
 }
 
-.popover-content {
-  padding: 14px;
+.popover-content{
+ padding: 7px;
   background-color: #FFFFFF;
   color:#000000;
   -webkit-border-radius: 3px 3px 3px 3px;
@@ -520,13 +543,84 @@ margin-bottom:16px;
   -webkit-background-clip: padding-box;
      -moz-background-clip: padding-box;
           background-clip: padding-box;
+    width:100%;
+    background:#E1E1E1;
+p,ul,ol {
+  margin-bottom: 0;                  
 }
+      //font-family: Helvetica Neue, Helvetica Arial, sans-serif;
+    float:left;
+    label:hover{
+    background: #E1E1E1;
+    border:1px solid #f3f5f6; 
+    }
+    
+    label{
+    text-align:right;
+    float:right;
+    padding:7px;
+    padding-top:4px;
+    line-height:10px;
+    border-radius:4px;
+    background: #f3f5f6;
+    border:1px solid #b8c1cb;   
+    margin-bottom:7px;
+        }
+            
+                .emailInput{
+                    width:100%;
+                    float:left;
+                    margin: 5px 0px;
+                    margin-bottom:14px;
+                    input[type="text"]{
+                        padding: 3px 6px;
+                        border: 1px solid #999;
+                        width:100%;
+                        }
+                    }
+                .error{
+                    float:left;
+                      .boxLeftEmpty{
+                            .text{
+                           font-size:13px;
+                           line-height:18px;
+                                }
+                                float:left;
+                                width:100%;
+                                padding: 8px 35px 8px 14px;
+                                color: #c09853;
+                              text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+                              background-color: #fcf8e3;
+                              border: 1px solid #fbeed5;
+                              -webkit-border-radius: 4px;
+                                 -moz-border-radius: 4px;
+                                      border-radius: 4px;
+                                      margin-bottom:14px;
+                            }        
+                        }
+        .submitButton{
+        float:right;        
+    padding: 7px 8px;
+        border: 1px solid #B8C1CB;
+        border-radius: 3px;
+        background: white -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
+        background: white -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
+        background: white -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+	    background: white -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+	    background: white -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+	    background: white linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+	
+	    box-shadow: 0 1px 2px 0 #123031;
+        -o-box-shadow: 0 1px 2px 0 #123031;
+	    -moz-box-shadow: 0 1px 2px 0 #123031;
+	    -webkit-box-shadow: 0 1px 2px 0 #123031;
+		    text-align: center;
+	    text-shadow: none;
+                }
+        
+  
+    }
 
-.popover-content p,
-.popover-content ul,
-.popover-content ol {
-  margin-bottom: 0;
-}
 
 // Job Boxes (and workshop boxes)s
 // ------------------
@@ -563,11 +657,9 @@ margin-bottom:16px;
         	float: left;
         	margin: 0 8px 8px 0;
         	padding: 0 6px;
-        	
         	color: #483B36;
         	background-color: #AAA;
         	border-radius: 3px;
-        	
         	text-decoration: none;
             
             &:hover, &:focus { text-decoration: underline; }
@@ -589,64 +681,84 @@ margin-bottom:16px;
    background-image:url('../images/options.png');
     background-repeat:no-repeat;
 background-position:right;
-             }
-.rightFormChecked{
-                   input[type="checkbox"]{
-                    //display:block;
-                    //width:0px;
-                    //height:0px;
-                    //overflow:hidden;
-                    float:left;
-                    }
-            //padding: @base (@base * 1.5);
-            //margin: (@base * 0.25) 0 0;
-        padding:4px 8px 4px 8px;
-        	 background: #7DAFFF -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
-        	background: #7DAFFF -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
-        	background: #7DAFFF -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #7DAFFF -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #7DAFFF -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #7DAFFF linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-            border-radius: 5px;
-        	box-shadow: 0 1px 4px 0 #000;
-            -o-box-shadow: 0 1px 4px 0 #000;
-        	-moz-box-shadow: 0 1px 4px 0 #000;
-        	-webkit-box-shadow: 0 1px 4px 0 #000;
+         }
+
+.rightContainer{
+float:right;
+width:315px;
+background: #f3f5f6;
+border-radius:5px;
+border:1px solid #b8c1cb;
+
+.signUpBox{
+    font-family: Helvetica Neue, Helvetica Arial, sans-serif;
+    float:left;
+    //border:1px solid blue;    
+    height:40px;
+    margin: 14px 0px 14px 11px;
+    #buttonHead{
+        font-size:14px;
+        line-height:21px;
+        margin-bottom:0px;
+        }
+    #buttonSub{
+        font-size:10px;
+        line-height:15px;
+  margin-bottom:0px;
+        }
+    }
+    
+    .rightFormChecked{
+    margin: 14px 11px 14px 0px;
+    float:right;
+     div{
+         font-family: Helvetica New, Helvetica Arial, sans-serif;
+         font-size:16px;
+         }
+        padding:7px 8px 7px 8px;
+        width:120px;
+             background: #0563cb -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+        	background: #0563cb -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
+        	background: #0563cb -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background: #0563cb -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background: #0563cb -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background: #0563cb linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+            border-radius:4px;
+            border: 1px solid #40813B;
             color: white;
-            //line-height: 36px;
         	text-align: center;
             text-shadow: none;
             text-decoration: none;
     }
+    
 .rightFormCheck{
-               input[type="checkbox"]{
-                    //display:block;
-                    //width:0px;
-                    //height:0px;
-                    //overflow:hidden;
-                    float:left;
-                    }
-            //padding: @base (@base * 1.5);
-        	//margin: (@base * 0.25) 0 0;
-        padding:4px 8px 4px 8px;
-        	 background: #d62236 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
-        	background: #d62236 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
-        	background: #d62236 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #d62236 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #d62236 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #d62236 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-            border-radius: 5px;
-        	box-shadow: 0 1px 4px 0 #000;
-            -o-box-shadow: 0 1px 4px 0 #000;
-        	-moz-box-shadow: 0 1px 4px 0 #000;
-        	-webkit-box-shadow: 0 1px 4px 0 #000;
+    margin: 14px 11px 14px 0px;
+    float:right;
+     div{
+         font-family: Helvetica New, Helvetica Arial, sans-serif;
+         font-size:16px;
+         }
+        padding:7px 8px 7px 8px;
+        width:120px;
+        	 background: #5FAD5A -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+        	background: #5FAD5A -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
+        	background: #5FAD5A -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background: #5FAD5A -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background: #5FAD5A -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background: #5FAD5A linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+            border-radius:4px;
+            border: 1px solid #40813B;
             color: white;
-            //line-height: 36px;
         	text-align: center;
             text-shadow: none;
             text-decoration: none;
             }
-        
+        .rightFormCheck, .rightFormChecked { float: right; cursor: pointer; }    
+    
+    
+    
+}
+
         a.extender, .rightFormCheck, .rightFormChecked { float: right; cursor: pointer; }
         
         // Description box
@@ -673,7 +785,13 @@ background-position:right;
 .workshops .workshop {
     .details {
         .hiddenMailSubscribe{
-            display:none;
+            .hidden{
+                display:block;
+                width:0px;
+                height:0px;
+                overflow:hidden;
+                }
+            display:none;  
             }
         .workshopLeft{
             padding: 0 32px 0 16px;
@@ -879,6 +997,8 @@ background-position:right;
             float:left;
             overflow: hidden;
             label {
+                
+                //background: #5FAD5A;
                 float: left;
                 margin-right: 32px;
                 color: #483B36;

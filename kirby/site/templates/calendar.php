@@ -139,7 +139,7 @@ $trueToday = false;
 										$eventClass .= 'foreignEvent';
 									}
 								   
-									$content .= '<p class = "'.$eventClass.'">'.'<a href="' . $event -> url() . '">' . html($event -> title()) . '</a></p>';
+									$content .= '<p class = "'.$eventClass.'">'.'<a href="' . $event -> url() . '" id = "eventLink" rel="tooltip" title="'.$event -> blurb().'">' . html($event -> title()) . '</a></p>';
 								}
 
 							}

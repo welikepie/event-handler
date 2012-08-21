@@ -1,13 +1,14 @@
 <?php snippet('header'); ?>
+<head>
+	
+		<?php echo css('assets/styles/main.css'); ?>
+</head>
 <div class="page_container workshops">
 	<section>
 		<div class="introduction">
 			<h1><?php echo html($page -> title()); ?></h1>
 			<div class="description"><?php echo kirbytext($page -> text()); ?></div>
 		</div>
-<script type="text/javascript">var Myvar;</script>
-
-	<!--	<form action="http://eventhandler.us2.list-manage.com/subscribe/post?u=b76886bab37470b1e293804f6&id=799f4da2e1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" onsubmit="return formsubmit()" target="_blank">--></form>
 			<?php
 		$fieldName=64;
 			$workshops = $pages
@@ -17,7 +18,6 @@
 		
 			foreach ($workshops as $workshop) { ?>
 			<div class="workshop">
-			<script type="text/javascript">Myvar="";</script>
 				<h1><?php echo html($workshop -> title()); ?></h1>
 				<div class="details">
 					
@@ -66,7 +66,7 @@
 					</div>
 						</div>
 			</div>
-<!--div is hidden from the user. Intentionally. -->			
+<!--divs are hidden from the user. Intentionally. -->			
 <div class = "hiddenMailSubscribe" id="<?php echo(str_replace(" ", "_", $workshop -> title())); ?>" >
 <?php
 $formUrl = $workshop -> formsite();
@@ -75,25 +75,40 @@ if ($formUrl) {
 $formSite = html($formUrl);
 }
 ?>
-<label onclick="$('#'+this.parentNode.id.replace(/_/gi,'-')).popover('hide');">x</label>
-<form action =	 <?php echo($formSite) ?> method="post" id="<?php echo("FORM" . str_replace(" ", "_", $workshop -> title())); ?>" onsubmit ="return formsubmit(this.parentNode.id)" name = "mc-embedded-subscribe-form" target="blank">
-Email: <input type="text" name = "MERGE0" id="<?php echo("MERGE0" . str_replace(" ", "_", $workshop -> title())); ?>">
+<label onclick="		$('.popover').fadeToggle('fast', function () { $('#'+this.parentNode.id.replace(/_/gi,'-')).popover('hide')});">x</label>
+<form action = "assets/serverside/workshopForm.php" method="post" onsubmit ="return formsubmit(this.id)" id="<?php echo("FORM" . str_replace(" ", "_", $workshop -> title())); ?>" name = "mc-embedded-subscribe-form" target="formReceiver">
+<div class = emailInput><p>What is your email address?</p><input type="text" name = "email" id="<?php echo("EMAIL" . str_replace(" ", "_", $workshop -> title())); ?>"></div>
+<div class = "hidden">InterestedIn: <input type = "text" value = "<?php echo($workshop -> title()." with ".$workshop -> lecturer())?>" name = "interest"></div>
 <div class = "error" id="<?php echo("ERROR" . str_replace(" ", "_", $workshop -> title())); ?>">
 </div>
-<input type="submit" value = "Submit" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
+<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
 </form>
 </div>	 
 
-					<div class=rightContainer>
+<div class = "hidden" id = "<?php echo("THANKS".str_replace(" ", "_", $workshop -> title())); ?>">
+<label onclick="		$('.popover').fadeToggle('fast', function () { $('#'+this.parentNode.id.replace(/_/gi,'-')).popover('hide')});">x</label>
+<div>Thank you for showing interest! We'll get back to you soon!</div>
+</div>
+
+<div class = "hidden" id = "<?php echo("THANKS2".str_replace(" ", "_", $workshop -> title())); ?>">
+<label onclick="		$('.popover').fadeToggle('fast', function () { $('#'+this.parentNode.id.replace(/_/gi,'-')).popover('hide')});">x</label>
+<div>You're Awesome! Have Karma!</div>
+</div>
+<!--ssssh!-->
+					<div class= "rightContainer">
 						<div id = "<?php echo(str_replace(" ", "|", $workshop -> title())); ?>" class = "signUpBox">
-						</div>
-						<label class="rightFormCheck" id="<?php echo(str_replace(" ", "-", $workshop -> title())); ?>" onclick="onInterested(this.id)" data-content= "" title = "Subscription" >
-							Interested?
-						</label>
+							<div><p id = "buttonHead">Sign up for free</p><p id = "buttonSub">For any of our workshops</p></div>
+							</div>
+							
+							<label class="rightFormCheck" id="<?php echo(str_replace(" ", "-", $workshop -> title())); ?>" onclick="onInterested(this.id)" data-content= "" title = "Subscription" >
+								<div>Signup Now</div>
+							</label>
 					</div>
 				</div>
 			</div>
 			<?php } ?>
-	</section>
+			<iframe id="formReceiver" name="formReceiver"></iframe>
+			
+</section>
 </div>
 <?php snippet('workshopFooter'); ?>

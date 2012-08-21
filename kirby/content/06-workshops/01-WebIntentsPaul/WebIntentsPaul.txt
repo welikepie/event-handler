@@ -1,4 +1,4 @@
-Title: Web Intents with Paul Kinlan
+Title: Web Intents
 ----
 Lecturer: Paul Kinlan
 ----
