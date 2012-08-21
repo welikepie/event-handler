@@ -20,5 +20,5 @@ Image: assets/images/paul.png
 ----
 Twitter: nrocy
 ----
-FormSite: http://eventhandler.us2.list-manage.com/subscribe/post?u=b76886bab37470b1e293804f6&id=92f1180550
+InterestGroup: Arduino and BreakoutJS with Paul King
 ----

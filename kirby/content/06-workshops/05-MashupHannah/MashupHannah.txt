@@ -18,5 +18,5 @@ Requirements:
 ----
 Twitter: ErisDS
 ----
-FormSite: http://eventhandler.us2.list-manage.com/subscribe/post?u=b76886bab37470b1e293804f6&id=d748b52b55
+InterestGroup: Mashup Crash Course with Hannah Wolfe
 ----

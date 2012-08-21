@@ -2,7 +2,7 @@ Title: Build your own Website
 ----
 Lecturer: Natalia Buckley
 ----
-Job: An independent creative technologist, interaction designer and developer. 
+Job: Independent creative technologist.. 
 ----
 Description: Natalia will be showing you how to create, host and manage your own website from the ground up, without having previous knowledge. 
 ----
@@ -17,5 +17,5 @@ Requirements:
 ----
 Twitter: ntlk
 ----
-FormSite: http://eventhandler.us2.list-manage.com/subscribe/post?u=b76886bab37470b1e293804f6&id=f83ce246ed
+InterestGroup: Build your own Website with Natalia Buckley
 ----
