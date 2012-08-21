@@ -17,5 +17,5 @@ Requirements:
 ----
 Twitter: ntlk
 ----
-InterestGroup: Build your own Website with Natalia Buckley
+InterestGroup: Build your own website with Natalia Buckley
 ----

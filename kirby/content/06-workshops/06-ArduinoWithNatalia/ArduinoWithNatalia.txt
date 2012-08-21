@@ -16,5 +16,5 @@ Requirements:
 ----
 Twitter: ntlk
 ----
-InterestGroup: Introduction to Arduino with Natalia Buckley
+InterestGroup: An Introduction to Arduino with Natalia Buckley
 ----

@@ -20,5 +20,5 @@ Image: assets/images/paul.png
 ----
 Twitter: nrocy
 ----
-InterestGroup: Arduino and BreakoutJS with Paul King
+InterestGroup: Arduino Workshops with Paul King
 ----

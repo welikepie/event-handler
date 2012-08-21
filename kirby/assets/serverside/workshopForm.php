@@ -17,7 +17,7 @@ if ($api->errorCode){
 	echo "\n\tMsg=".$api->errorMessage."\n";
 } else {
 	
-
+echo($newInterest);
 $userInfo = $api->listMemberInfo($listId, $emailAddress);
 
 if($userInfo['success'] >= 1){
