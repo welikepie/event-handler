@@ -1,0 +1,20 @@
+﻿Title: Code along
+----
+Lecturer: Syd Lawrence
+----
+Job: Part-time lecturer and forefront of "We Make Awesome Sh.it"
+----
+Description: Join Syd on a full-day workshop. Syd will be combining music and javascript to make a music discovery tool that will contain, in his words, "a smörgåsbord of APIs". Watch him work his magic, code along with him and make your own music hacks.
+----
+Learn:
+- How to combine music and JavaScript to create something awesome.
+----
+Requirements:
+- Nothing but a laptop!
+----
+Image: assets/images/slawrence.png
+----
+Twitter: sydlawrence
+----
+InterestGroup: Code along with Syd Lawrence
+----
