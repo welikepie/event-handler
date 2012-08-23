@@ -94,17 +94,16 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 			<?php echo (date("F", strtotime($currentMonth . '/01/' . $currentYear . ' 00:00:00'))." ".$currentYear); ?>
 				</h1>
 <form action = "calendar.php" method="post" class = "calendarButton">
-<input type = "number" class = "hidden" name="monthUp" value = "<?php echo($currentMonth+1)?>">
-<input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
-<input type = "number" class = "hidden" name="yearUp" value = "<?php echo($currentYear+1)?>">
-<input type="submit" name="nextMonth" value="Next" />
-</form>			 	 
-<form action = "calendar.php" method="post" class = "calendarButton">
 <input type = "number" class = "hidden" name="monthDown" value = "<?php echo($currentMonth-1)?>">
 <input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
 <input type = "number" class = "hidden" name="yearDown" value = "<?php echo($currentYear-1)?>">
 <input type="submit" name="prevMonth" value="Previous" />
+<input type = "number" class = "hidden" name="monthUp" value = "<?php echo($currentMonth+1)?>">
+<input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
+<input type = "number" class = "hidden" name="yearUp" value = "<?php echo($currentYear+1)?>">
+<input type="submit" name="nextMonth" value="Next" />
 </form>
+
 </div>
   <!--  $first_of_month = mktime(0, 0, 0, $month, 1, $year);
       $days_in_month = date('t', $first_of_month); -->
@@ -190,7 +189,7 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 					<div class = "hlocation">Location</div>
 
 					<?php
-					$monthstart = date(strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
+					$monthstart = date(strtotime($currentMonthFormatted . '/01/' . $currentYear . ' 00:00:00'));
 					foreach ($eventArray as $event) {
 						if ($event -> date() != 0) {
 							if ($event -> date() >= $monthstart) {
