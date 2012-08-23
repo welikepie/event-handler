@@ -5,7 +5,6 @@
 	var sourceOfActionDashed;
 	function onClose(){
 		$('.popover').fadeTo(750,0, function () {
-			console.log(sourceOfActionUnder+sourceOfActionDashed);
 			$('#'+this.parentNode.id.replace(/_/gi,'-')).popover('hide');
 			$(".popover").remove();
 			});
@@ -26,7 +25,7 @@
 		if (emailAddress) {
 			if (document.getElementById(thisId).innerHTML != "Subscribed") {
 				document.getElementById("EMAIL" + thisId.replace(/-/gi, '_')).value = emailAddress;
-				$('#' + thisId).attr("data-content", '<div id="' + thisId.replace(/-/gi, '_') + '">' + document.getElementById("THANKS2"+thisId.replace(/-/gi, '_')).innerHTML + '</div>');
+				$('#' + thisId).attr("data-content",  document.getElementById("THANKS2"+thisId.replace(/-/gi, '_')).innerHTML );
 				$('#' + thisId).popover('show');
 				$('.popover').fadeTo(250,1, function () {});
 				document.getElementById("FORM" + thisId.replace(/-/gi, '_')).submit();
@@ -40,7 +39,7 @@
 			}
 		}
 		if (!emailAddress) {
-			$('#' + thisId).attr("data-content", '<div id="' + thisId.replace(/-/gi, '_') + '">' + document.getElementById(thisId.replace(/-/gi, '_')).innerHTML + '</div>');
+			$('#' + thisId).attr("data-content",document.getElementById(thisId.replace(/-/gi, '_')).innerHTML);
 			$('#'+thisId).popover('show');
 			$('.popover').fadeTo(250,1, function () {});
 
@@ -54,7 +53,7 @@
 		//underscores with error, EMAIL, Submit and FORM pre-appended,
 		//emailAddress = document.getElementById("EMAIL"+parentId).value;
 		$('#' + parentId.replace(/_/gi, '-')).popover('hide');
-		$('#' + parentId.replace(/_/gi,'-')).attr("data-content", '<div id="' + parentId + '">'+document.getElementById("THANKS"+parentId).innerHTML+ '</div>');
+		$('#' + parentId.replace(/_/gi,'-')).attr("data-content", document.getElementById("THANKS"+parentId).innerHTML);
 		$('#' + parentId.replace(/_/gi, '-')).popover('show');
 		document.getElementById(parentId.replace(/_/gi, '-')).className = "rightFormChecked";
 		document.getElementById(parentId.replace(/_/gi, '-')).innerHTML = "Subscribed";

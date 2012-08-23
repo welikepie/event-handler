@@ -1,9 +1,8 @@
 <?php snippet('header'); ?>
 <head>
-	
-		<?php echo css('assets/styles/main.css'); ?>
 </head>
-<div class="page_container workshops">
+<!--<body  onload='document.getElementById("Code-along").click()'>-->
+	<div class="page_container workshops">
 	<section>
 		<div class="introduction">
 			<h1><?php echo html($page -> title()); ?></h1>
@@ -87,23 +86,26 @@ if ($formUrl) {
 $formSite = html($formUrl);
 }
 ?>
-<label onclick="onClose()">×</label>
+<label class = "close" onclick="onClose()">×</label>
 <form action = "assets/serverside/workshopForm.php" method="post" onsubmit ="return formsubmit(this.id)" id="<?php echo("FORM" . str_replace(" ", "_", $workshop -> title())); ?>" name = "mc-embedded-subscribe-form" target="formReceiver">
-<div class = emailInput><p> Tell us your email address</p><input type="text" name = "email" id="<?php echo("EMAIL" . str_replace(" ", "_", $workshop -> title())); ?>"></div>
+	<label> Tell us your email address</label>
+<div class = emailInput>
+	<input type="text" name = "email" id="<?php echo("EMAIL" . str_replace(" ", "_", $workshop -> title())); ?>">
+	<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
+</div>
 <div class = "hidden">InterestedIn: <input type = "text" value = "<?php echo($workshop -> interestgroup());?>" name = "interest"></div>
-<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
 </form>
 <div class = "error" id="<?php echo("ERROR" . str_replace(" ", "_", $workshop -> title())); ?>">
 </div>
 </div>	 
 
 <div class = "hidden" id = "<?php echo("THANKS".str_replace(" ", "_", $workshop -> title())); ?>">
-<label onclick="onClose()">×</label>
+<label class = "close" onclick="onClose()">×</label>
 <div class = "thanks"><p>Thanks for your interest, we’ll keep you updated.</p></div>
 </div>
 
 <div class = "hidden" id = "<?php echo("THANKS2".str_replace(" ", "_", $workshop -> title())); ?>">
-<label onclick="onClose()">×</label>
+<label class = "close" onclick="onClose()">×</label>
 <div class = "thanks"><p>Thanks!</p><p>We’ve updated your subscription so we can give you information on this workshop too.</p></div>
 </div>
 <!--ssssh!-->

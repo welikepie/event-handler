@@ -20,6 +20,7 @@ $count = 0;
  * event pages, join them, then use them to create new `pages` object and apply
  * date sorting.
  */
+ 
 $eventArray = new pages(array_merge(
 
 /* This here is basic array of event pages */$pages -> find('events') -> children() -> visible() -> _,
@@ -42,9 +43,8 @@ if((!isset($_POST['nextMonth']))&&(!isset($_POST['prevMonth']))){
 $today = getdate();
 $currentMonth = date(n);
 $currentYear = date(Y);
-}
-$comparison = date('Y-m-%02\d');
 $offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
+}
 
 if(isset($_POST['nextMonth'])){
 $currentMonth = $_POST['monthUp'];
@@ -52,6 +52,7 @@ $currentYear = $_POST['Jahr'];
 	if($currentMonth > 12){
 		$currentYear = $_POST['yearUp'];
 		$currentMonth = 1;
+
 	}
 
 }
@@ -69,29 +70,45 @@ $trueToday = false;
 $today = getdate();
 if($currentMonth == date('n') && $currentYear == date('Y') ){
 $trueToday = true;
+$currentMonth = date(n);
+$currentYear = date(Y);
+$days_in_month = date('t', mktime(0, 0, 0, $currentMonth, 1, $currentYear));
+ 
 }
 else{
 $trueToday = false;
+$first_of_month = mktime(0, 0, 0, $currentMonth, 1, $currentYear);
+$days_in_month = date('t', mktime(0, 0, 0, $currentMonth, 1, $currentYear));
 }
+$currentMonthFormatted = date('m', strtotime($currentMonth . '/01/' . $currentYear . ' 00:00:00'));
+$comparison = date(intval($currentYear,10).'-'.$currentMonthFormatted.'-%02\d');
+
+$offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . ' 00:00:00'));
 			?>
 			<!-- Calendar of events -->
 			<div class="fullcal">
-				<h1><?php echo(date( 'F', mktime(0, 0, 0, $currentMonth)).", ".$currentYear); ?></h1>
-			<!--	<?php echo ($currentMonth.",".$currentYear);
-				 	 echo(date('n').",".date('Y'));
-				 	 echo($trueToday);?> -->
-<form action = "calendar.php" method="post">
+<div class="header">
+	
+
+				<h1>
+			<?php echo (date("F", strtotime($currentMonth . '/01/' . $currentYear . ' 00:00:00'))." ".$currentYear); ?>
+				</h1>
+<form action = "calendar.php" method="post" class = "calendarButton">
 <input type = "number" class = "hidden" name="monthUp" value = "<?php echo($currentMonth+1)?>">
 <input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
 <input type = "number" class = "hidden" name="yearUp" value = "<?php echo($currentYear+1)?>">
-<input type="submit" name="nextMonth" value="nextMonth" />
-</form>
-<form action = "calendar.php" method="post">
+<input type="submit" name="nextMonth" value="Next" />
+</form>			 	 
+<form action = "calendar.php" method="post" class = "calendarButton">
 <input type = "number" class = "hidden" name="monthDown" value = "<?php echo($currentMonth-1)?>">
 <input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
 <input type = "number" class = "hidden" name="yearDown" value = "<?php echo($currentYear-1)?>">
-<input type="submit" name="prevMonth" value="prevMonth" />
+<input type="submit" name="prevMonth" value="Previous" />
 </form>
+</div>
+  <!--  $first_of_month = mktime(0, 0, 0, $month, 1, $year);
+      $days_in_month = date('t', $first_of_month); -->
+
 				<div class="calendar">
 					<div class="calendarheader">
 						<div class="calHead right">Monday</div>
@@ -105,7 +122,7 @@ $trueToday = false;
 					<?php
 
 					// Iterate over all days of the current month
-					for ($i = 1; $i <= intval(date('t'), 10); $i += 1) {
+					for ($i = 1; $i <= intval($days_in_month, 10); $i += 1) {
 
 						$classes = array();
 						$content = (string)$i;
@@ -126,7 +143,7 @@ $trueToday = false;
 									 			
 									 $eventClass = "";
 
-								if( intval($event->date('j'),10) < intval($today['mday'],10) )
+								if( intval($event->date('U'),10) < intval($today[0],10) )
 									 {
 									 	$eventClass .= 'past';
 									 }
@@ -139,7 +156,7 @@ $trueToday = false;
 										$eventClass .= 'foreignEvent';
 									}
 								   
-									$content .= '<p class = "'.$eventClass.'">'.'<a href="' . $event -> url() . '" id = "eventLink" rel="tooltip" title="'.$event -> blurb().'">' . html($event -> title()) . '</a></p>';
+									$content .= '<p class = "'.$eventClass.'">'.'<a href="' . $event -> url() . '" rel="tooltip" data-original-title="'.$event -> blurb().'">' . html($event -> title()) . '</a></p>';
 								}
 
 							}
@@ -151,12 +168,12 @@ $trueToday = false;
 						$classes = implode(' ', array_unique($classes));
 
 						if ($i === 1) {
-							$offset = ' id="c' . $offset . '"';
+							$Gridoffset = ' id="c' . $offset . '"';
 						} else {
-							$offset = '';
+							$Gridoffset = '';
 						}
 
-						echo('<div class="' . $classes . '"' . $offset . '>' . $content . '</div>');
+						echo('<div class="' . $classes . '"' . $Gridoffset . '>' . $content . '</div>');
 
 					}
 					?>
@@ -166,22 +183,22 @@ $trueToday = false;
 			</div>
 
 			<div class="acalendar">
-				<fieldset><h1>Agenda</h1>
-				
-				<div class = "hdate" >Date</div>
-<div class = "hevent">Event</div>
-<div class = "hlocation">Location</div>
+				<fieldset>
+					<h1>Agenda</h1>
+					<div class = "hdate" >Date</div>
+					<div class = "hevent">Event</div>
+					<div class = "hlocation">Location</div>
 
-<?php
-$monthstart = date(strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
-foreach ($eventArray as $event) {
-	if ($event -> date() != 0) {
-		if ($event -> date() >= $monthstart) {
-			$event_date = $event -> date();
-			echo("<li class = \"acalendar\"><div class = \"date\">" . date("jS F", $event_date) . "</div><div class = \"event\">" . "<a href=\"" . $event -> url() . "\">" . $event -> title() . "</a>" . "</div><div class=\"location\">" . $event -> where() . "</div>");
-		}
-	}
-}
-?>			</div>		</section>
-	</div>
+					<?php
+					$monthstart = date(strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
+					foreach ($eventArray as $event) {
+						if ($event -> date() != 0) {
+							if ($event -> date() >= $monthstart) {
+								$event_date = $event -> date();
+								echo("<li class = \"acalendar\"><div class = \"date\">" . date("jS F", $event_date) . "</div><div class = \"event\">" . "<a href=\"" . $event -> url() . "\">" . $event -> title() . "</a>" . "</div><div class=\"location\">" . $event -> where() . "</div>");
+							}
+						}
+					}
+					?>			</div>		</section>
+	</div>
 <?php snippet('footer'); ?>

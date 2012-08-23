@@ -15,4 +15,5 @@ if (isset($bottom_snippets))
 <script src="assets/scripts/bootstrap-tooltip.js"></script>
 <script src="assets/scripts/bootstrap-popover.js"></script>
 <script src="assets/scripts/workshopForms.js"></script>
+
 </html>
