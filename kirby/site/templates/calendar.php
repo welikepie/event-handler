@@ -190,9 +190,11 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 
 					<?php
 					$monthstart = date(strtotime($currentMonthFormatted . '/01/' . $currentYear . ' 00:00:00'));
+					$monthend = date(strtotime($currentMonthFormatted+1 . '/01/' . $currentYear . ' 00:00:00'));
+					
 					foreach ($eventArray as $event) {
 						if ($event -> date() != 0) {
-							if ($event -> date() >= $monthstart) {
+							if ($event -> date() >= $monthstart && $event -> date() <= $monthend) {
 								$event_date = $event -> date();
 								echo("<li class = \"acalendar\"><div class = \"date\">" . date("jS F", $event_date) . "</div><div class = \"event\">" . "<a href=\"" . $event -> url() . "\">" . $event -> title() . "</a>" . "</div><div class=\"location\">" . $event -> where() . "</div>");
 							}
