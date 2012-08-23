@@ -110,17 +110,17 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 
 				<div class="calendar">
 					<div class="calendarheader">
-						<div class="calHead right">Monday</div>
+						<div class="calHead left">Monday</div>
 						<div class="calHead both">Tuesday</div>
 						<div class="calHead both">Wednesday</div>
 						<div class="calHead both">Thursday</div>
 						<div class="calHead both">Friday</div>
 						<div class="calHead both">Saturday</div>
-						<div class="calHead left">Sunday</div>
+						<div class="calHead right">Sunday</div>
 					</div>
 					<?php
-
-					// Iterate over all days of the current month
+				$days_on_last = (($offset + $days_in_month)%7) - 1;
+				// Iterate over all days of the current month
 					for ($i = 1; $i <= intval($days_in_month, 10); $i += 1) {
 
 						$classes = array();
@@ -164,6 +164,38 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 
 						// Compile class list and assign offset as needed
 						$classes[] = 'cal';
+						
+						if($i==1 && $offset!=0){
+							$classes[] = 'first';
+						}
+						
+						if($i==intval($days_in_month, 10)){
+							$classes[] = 'last';
+						}
+						
+						if(($offset+$i)%7==1){
+							$classes[] = 'rightNothing';
+						}
+						
+						if(($offset+$i)%7==2){
+							$classes[] = 'leftNothing';
+						}
+						
+						if((($offset)+$i)<=8){
+							$classes[] = 'firstRow';
+						}
+
+						
+						if( $i<=7 && $i > (8-($offset))){
+							$classes[] = 'topDouble';
+						}
+											
+					if((($offset-1)+$days_in_month)%7!=0){
+							 if( $i <= ($days_in_month - $days_on_last) && $i >= (($days_in_month - $days_on_last) - (6 - $days_on_last))){
+									$classes[] = 'bottomDouble';
+								}
+						}
+						
 						$classes = implode(' ', array_unique($classes));
 
 						if ($i === 1) {
@@ -171,7 +203,6 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 						} else {
 							$Gridoffset = '';
 						}
-
 						echo('<div class="' . $classes . '"' . $Gridoffset . '>' . $content . '</div>');
 
 					}

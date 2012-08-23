@@ -183,13 +183,21 @@ article { margin-bottom: @base * 4; }
         text-align:center;
             height:28px;
             float:left;
-            width:93px;
-            border-bottom:1px solid #223B5A;
-            border-left:1px solid #223B5A;            
-            border-right:1px solid #223B5A;
+            width:92px;
+            border-bottom:2px solid rgba(255,255,255,0.5);
+            border-left:1px solid rgba(255,255,255,0.5);            
+            border-right:1px solid rgba(255,255,255,0.5);
 
         }
-        
+    .left{
+        border-left-width:0px;
+        border-left-style:none;
+        }
+    .right{
+        border-right-width:0px;
+        border-right-style:none;
+        }
+
     }
 
 
@@ -200,31 +208,28 @@ article { margin-bottom: @base * 4; }
             margin-bottom:16px;
             }
             .calendarButton{                    
-                width:20px;
-                height:20px;
-                    input[type="button"]{     
-                        float:left;
-                        width:20px;
-                        height:20px;
+                input[type="submit"]{     
+                        width:80px;
+                        height:40px;
                     }
             }
         }
     .calendar{
-        width:100%;
-    overflow:auto;
+     background:#E1E1E1;
+    overflow:hidden;
     text-shadow:none;
     float:left;
     color:black;
     margin-bottom:24px;
-    
+    border:5px solid #FFFFFF;
         .cal {
             background-color:#E1E1E1;
                     display:inline;
                     float:left;
                     height: 100px;
-                    width:93px;
+                    width:92px;
                     padding:2px 6px;
-                     border:1px solid #223B5A;
+                     border:1px solid rgba(255,255,255,0.5);
                         a{
                             color:#000000;
                             text-decoration:none;
@@ -237,6 +242,38 @@ article { margin-bottom: @base * 4; }
                             margin-left:8px;
                             }
                   }
+         .first{
+         width:93px;
+         border-left:2px solid rgba(255,255,255,0.5);
+         }
+        .last{
+            width:93px;
+            border-right:2px solid rgba(255,255,255,0.5);
+        }
+        .rightNothing{
+            border-right:0px;
+            border-right-style:none;
+            width:92px;
+            }
+        .leftNothing{
+            border-left:0px;
+            border-left-style:none;
+            width:92px;
+            }
+        .firstRow{
+            border-top:0px;
+            border-top-style:none;
+            }
+        .topDouble{
+         border-top:2px solid rgba(255,255,255,0.5);
+            margin: -1px 0px 0px 0px;
+            height:101px;
+            }
+        .bottomDouble{
+         border-bottom:2px solid rgba(255,255,255,0.5);   
+         height:101px;
+         margin:0px 0px -1px 0px;
+        }
         .currentDay{
             background-color: RGBA(255,255,255,0.5);
             span{float:right;}
@@ -264,12 +301,14 @@ article { margin-bottom: @base * 4; }
             margin-bottom:0px;
             }
         #c1{margin-left:0px;}
-        #c2{margin-left:93px;}
-        #c3{margin-left:186px;}
-        #c4{margin-left:279px;}
-        #c5{margin-left:372px;}
-        #c6{margin-left:465px;}
-        #c7{margin-left:558px;}
+        #c2{margin-left:91px;} 
+        #c3{margin-left:183px;}
+        #c4{margin-left:275px;}
+        #c5{margin-left:367px;}
+        #c6{margin-left:459px;}
+        #c7{margin-left:551px; 
+        width:93px;
+             margin-right:-1px; }
     }
 }
     .acalendar{
@@ -451,7 +490,7 @@ margin-bottom:16px;
 
 
 .popover {
- transform: rotate(180deg) translateY(58px);
+ transform: rotate(180deg) translateY(63px);
 -ms-transform: rotate(180deg) translateY(63px); /* IE 9 */
 -moz-transform: rotate(180deg) translateY(63px); /* Firefox */
 -webkit-transform: rotate(180deg) translateY(63px); /* Safari and Chrome */
@@ -468,7 +507,7 @@ margin-bottom:16px;
   left: 0;
   z-index: 1010;
   display: none;
-  width: 263px;
+  width: 251px;
   padding: 1px;
   background-color: #fff;
   -webkit-background-clip: padding-box;
@@ -500,8 +539,9 @@ margin-bottom:16px;
 }
 
 .popover-content {
-  padding: 9px 14px;
-  p, ul, ol {
+//  padding: 9px 14px;
+ padding:8px;
+ p, ul, ol {
     margin-bottom: 0;
   }
   
@@ -512,8 +552,7 @@ transform:rotate(180deg);
 -webkit-transform:rotate(180deg); /* Safari and Chrome */
 -o-transform:rotate(180deg); /* Opera */
   color:#000000;
-  
-    padding: 14px;
+
   background-color: #ffffff;
   -webkit-border-radius: 3px 3px 3px 3px;
      -moz-border-radius: 3px 3px 3px 3px;
@@ -525,27 +564,33 @@ transform:rotate(180deg);
     width:100%;
 
 float:left;
-
-    .close:hover{
-        height:18px;
- color: #000000;
-  text-decoration: none;
-  cursor: pointer;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
-}
+.formLabels{
+    width:230px;
+     float:left;
+         label{
+             float:left;
+             }
+         .close:hover{
+                  height:18px;
+                 color: #000000;
+                  text-decoration: none;
+                  cursor: pointer;
+                  opacity: 0.4;
+                  filter: alpha(opacity=40);
+                }
     
-    .close{
-height:18px;
-  float: right;
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 18px;
-  color: #000000;
-  text-shadow: 0 1px 0 #ffffff;
-  opacity: 0.2;
-  filter: alpha(opacity=20);  
-        }
+        .close{
+    height:18px;
+      float: right;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 18px;
+      color: #000000;
+      text-shadow: 0 1px 0 #ffffff;
+      opacity: 0.2;
+      filter: alpha(opacity=20);  
+            }
+}
             .thanks{
                    p{
                        font-family: Helvetica Neue, Helvetica Arial, sans-serif;
@@ -610,7 +655,7 @@ height:18px;
                               -webkit-border-radius: 4px;
                                  -moz-border-radius: 4px;
                                       border-radius: 4px;
-                                      margin-top:14px;
+                                      margin-top:8px;
                             }        
                         }
         .submitButton{
@@ -623,6 +668,7 @@ height:18px;
               -webkit-border-radius: 0px 3px 3px 0px;
              -moz-border-radius: 0px 3px 3px 0px;
             border-radius: 0px 3px 3px 0px;
+            -o-border-radius: 0px 3px 3px 0px;
                 border: 1px solid #BBBBBB;
               //*line-height: 20px;
               text-align: center;

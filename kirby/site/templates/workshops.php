@@ -86,13 +86,15 @@ if ($formUrl) {
 $formSite = html($formUrl);
 }
 ?>
-<label class = "close" onclick="onClose()">×</label>
 <form action = "assets/serverside/workshopForm.php" method="post" onsubmit ="return formsubmit(this.id)" id="<?php echo("FORM" . str_replace(" ", "_", $workshop -> title())); ?>" name = "mc-embedded-subscribe-form" target="formReceiver">
-	<label> Tell us your email address</label>
-<div class = emailInput>
-	<input type="text" name = "email" id="<?php echo("EMAIL" . str_replace(" ", "_", $workshop -> title())); ?>">
-	<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
-</div>
+	<div class="formLabels">
+		<label> Tell us your email address</label>
+		<span class = "close" onclick="onClose()">×</span>
+	</div>
+	<div class = emailInput>
+		<input type="text" name = "email" id="<?php echo("EMAIL" . str_replace(" ", "_", $workshop -> title())); ?>">
+		<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
+	</div>
 <div class = "hidden">InterestedIn: <input type = "text" value = "<?php echo($workshop -> interestgroup());?>" name = "interest"></div>
 </form>
 <div class = "error" id="<?php echo("ERROR" . str_replace(" ", "_", $workshop -> title())); ?>">
