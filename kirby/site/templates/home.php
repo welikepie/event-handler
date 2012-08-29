@@ -188,7 +188,7 @@
 			 */
 			if (!$event_count) { ?>
 				<div class="event_absent">
-					<?php echo(kirbytext($page->NoEvents())); ?>
+					<?php echo(kirbytext($page->noevents())); ?>
 				</div>
 			<?php } ?>
 			

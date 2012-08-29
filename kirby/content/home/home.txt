@@ -10,3 +10,14 @@ Now just give the links in the menu a try to see if URL redirection works as wel
 Check out the docs: <http://getkirby.com/docs> if you run into any problems or send me an email: <bastian@getkirby.com>
 
 Have fun with Kirby!
+
+----
+
+NoEvents:
+
+No Event Planned
+================
+
+Sorry to say, but we have nothing planned at the moment.
+
+Check back soon for more awesome things we've got in mind, or (email: contact@eventhandler.co.uk text: get in touch with us)!
