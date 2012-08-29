@@ -92,30 +92,31 @@ article{margin-bottom:64px;}
 .page_container section .calendarheader{margin-top:0px;margin-bottom:0px;}.page_container section .calendarheader .calHead{background-color:#E1E1E1;text-align:center;height:28px;float:left;width:92px;border-bottom:2px solid rgba(255, 255, 255, 0.5);border-left:1px solid rgba(255, 255, 255, 0.5);border-right:1px solid rgba(255, 255, 255, 0.5);}
 .page_container section .calendarheader .left{border-left-width:0px;border-left-style:none;}
 .page_container section .calendarheader .right{border-right-width:0px;border-right-style:none;}
-.page_container section .fullcal .header{margin-bottom:16px;}.page_container section .fullcal .header h1{margin-bottom:16px;}
-.page_container section .fullcal .header .calendarButton input[type="submit"]{width:80px;height:40px;}
-.page_container section .fullcal .calendar{background:#E1E1E1;overflow:hidden;text-shadow:none;float:left;color:black;margin-bottom:24px;border:5px solid #FFFFFF;}.page_container section .fullcal .calendar .cal{background-color:#E1E1E1;display:inline;float:left;height:100px;width:92px;padding:2px 6px;border:1px solid rgba(255, 255, 255, 0.5);}.page_container section .fullcal .calendar .cal a{color:#000000;text-decoration:none;border-bottom:1px dashed;}
-.page_container section .fullcal .calendar .cal .today{font-size:13px;margin-left:8px;}
-.page_container section .fullcal .calendar .first{width:93px;border-left:2px solid rgba(255, 255, 255, 0.5);}
-.page_container section .fullcal .calendar .last{width:93px;border-right:2px solid rgba(255, 255, 255, 0.5);}
-.page_container section .fullcal .calendar .rightNothing{border-right:0px;border-right-style:none;width:92px;}
-.page_container section .fullcal .calendar .leftNothing{border-left:0px;border-left-style:none;width:92px;}
-.page_container section .fullcal .calendar .firstRow{border-top:0px;border-top-style:none;}
-.page_container section .fullcal .calendar .topDouble{border-top:2px solid rgba(255, 255, 255, 0.5);margin:-1px 0px 0px 0px;height:101px;}
-.page_container section .fullcal .calendar .bottomDouble{border-bottom:2px solid rgba(255, 255, 255, 0.5);height:101px;margin:0px 0px -1px 0px;}
-.page_container section .fullcal .calendar .currentDay{background-color:rgba(255, 255, 255, 0.5);}.page_container section .fullcal .calendar .currentDay span{float:right;}
-.page_container section .fullcal .calendar .pastourEvent{background:rgba(255, 255, 255, 0.75);margin-bottom:0px;}.page_container section .fullcal .calendar .pastourEvent a{color:rgba(0, 0, 0, 0.75);}
-.page_container section .fullcal .calendar .pastforeignEvent{background:rgba(134, 159, 255, 0.225);margin-bottom:0px;}.page_container section .fullcal .calendar .pastforeignEvent a{color:rgba(0, 0, 0, 0.5);}
-.page_container section .fullcal .calendar .ourEvent{background:#ffffff;margin-bottom:0px;}
-.page_container section .fullcal .calendar .foreignEvent{background:rgba(134, 159, 255, 0.3);margin-bottom:0px;}
-.page_container section .fullcal .calendar #c1{margin-left:0px;}
-.page_container section .fullcal .calendar #c2{margin-left:91px;}
-.page_container section .fullcal .calendar #c3{margin-left:183px;}
-.page_container section .fullcal .calendar #c4{margin-left:275px;}
-.page_container section .fullcal .calendar #c5{margin-left:367px;}
-.page_container section .fullcal .calendar #c6{margin-left:459px;}
-.page_container section .fullcal .calendar #c7{margin-left:551px;width:93px;margin-right:-1px;}
-.page_container section .acalendar{margin-top:16px;margin-bottom:16px;}.page_container section .acalendar .hdate,.page_container section .acalendar .hevent,.page_container section .acalendar .hlocation,.page_container section .acalendar .location,.page_container section .acalendar .event,.page_container section .acalendar .date{display:block;float:left;margin-bottom:8px;}.page_container section .acalendar .hdate a,.page_container section .acalendar .hevent a,.page_container section .acalendar .hlocation a,.page_container section .acalendar .location a,.page_container section .acalendar .event a,.page_container section .acalendar .date a{text-decoration:none;border-bottom:1px dashed;}
+.page_container section .fullcal{overflow:hidden;height:100%;}.page_container section .fullcal .header{margin-bottom:16px;}.page_container section .fullcal .header h1{margin-bottom:16px;}
+.page_container section .fullcal .header .calendarButton{display:inline;}.page_container section .fullcal .header .calendarButton input[type="submit"]{width:80px;height:40px;}
+.page_container section .fullcal .ccalendar{background:#E1E1E1;overflow:hidden;text-shadow:none;float:left;color:black;margin-bottom:24px;border:5px solid #FFFFFF;}.page_container section .fullcal .ccalendar .cal{background-color:#E1E1E1;display:inline;float:left;height:100px;width:92px;padding:2px 6px;border:1px solid rgba(255, 255, 255, 0.5);}.page_container section .fullcal .ccalendar .cal a{color:#000000;text-decoration:none;border-bottom:1px dashed;}
+.page_container section .fullcal .ccalendar .cal .today{font-size:13px;margin-left:8px;}
+.page_container section .fullcal .ccalendar .first{width:93px;border-left:2px solid rgba(255, 255, 255, 0.5);}
+.page_container section .fullcal .ccalendar .last{width:93px;border-right:2px solid rgba(255, 255, 255, 0.5);}
+.page_container section .fullcal .ccalendar .rightNothing{border-right:0px;border-right-style:none;width:92px;}
+.page_container section .fullcal .ccalendar .leftNothing{border-left:0px;border-left-style:none;width:92px;}
+.page_container section .fullcal .ccalendar .firstRow{border-top:0px;border-top-style:none;}
+.page_container section .fullcal .ccalendar .topDouble{border-top:2px solid rgba(255, 255, 255, 0.5);margin:-1px 0px 0px 0px;height:101px;}
+.page_container section .fullcal .ccalendar .bottomDouble{border-bottom:2px solid rgba(255, 255, 255, 0.5);height:101px;margin:0px 0px -1px 0px;}
+.page_container section .fullcal .ccalendar .currentDay{background-color:rgba(255, 255, 255, 0.5);}.page_container section .fullcal .ccalendar .currentDay span{float:right;}
+.page_container section .fullcal .ccalendar .pastourEvent{background:rgba(255, 255, 255, 0.75);margin-bottom:0px;}.page_container section .fullcal .ccalendar .pastourEvent a{color:rgba(0, 0, 0, 0.75);}
+.page_container section .fullcal .ccalendar .pastforeignEvent{background:rgba(134, 159, 255, 0.225);margin-bottom:0px;}.page_container section .fullcal .ccalendar .pastforeignEvent a{color:rgba(0, 0, 0, 0.5);}
+.page_container section .fullcal .ccalendar .ourEvent{background:#ffffff;margin-bottom:0px;}
+.page_container section .fullcal .ccalendar .foreignEvent{background:rgba(134, 159, 255, 0.3);margin-bottom:0px;}
+.page_container section .fullcal .ccalendar #c1{margin-left:0px;}
+.page_container section .fullcal .ccalendar #c2{margin-left:91px;}
+.page_container section .fullcal .ccalendar #c3{margin-left:183px;}
+.page_container section .fullcal .ccalendar #c4{margin-left:275px;}
+.page_container section .fullcal .ccalendar #c5{margin-left:367px;}
+.page_container section .fullcal .ccalendar #c6{margin-left:459px;}
+.page_container section .fullcal .ccalendar #c7{margin-left:551px;width:93px;margin-right:-1px;}
+.page_container section .acalendar:after{float:left;display:block;clear:left;}
+.page_container section .acalendar{overflow:hidden;height:100%;width:655px;margin-top:16px;margin-bottom:16px;}.page_container section .acalendar .hdate,.page_container section .acalendar .hevent,.page_container section .acalendar .hlocation,.page_container section .acalendar .location,.page_container section .acalendar .event,.page_container section .acalendar .date{display:block;float:left;margin-bottom:8px;}.page_container section .acalendar .hdate a,.page_container section .acalendar .hevent a,.page_container section .acalendar .hlocation a,.page_container section .acalendar .location a,.page_container section .acalendar .event a,.page_container section .acalendar .date a{text-decoration:none;border-bottom:1px dashed;}
 .page_container section .acalendar .hdate,.page_container section .acalendar .hevent,.page_container section .acalendar .hlocation{font-weight:bold;}
 .page_container section .acalendar .hdate,.page_container section .acalendar .date{width:25%;}
 .page_container section .acalendar .hevent,.page_container section .acalendar .event{width:25%;}
