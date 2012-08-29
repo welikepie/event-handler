@@ -5,6 +5,15 @@ Text: Live recordings from London JS. A monthly community meetup where expert sp
 ----
 Profiles:
 
+London JS School Trip:
+  Description: |
+    30th June 2012. View event on (link: http://lanyrd.com/2012/london-js-school-trip/ text: lanyrd popup: yes).
+  Videos:
+    "Steph Troeth - Key Note: What can you make?": https://vimeo.com/47456625
+    "Irene Ros - Building Client-Side Data-Driven Web Applications": https://vimeo.com/48376998
+    "Kornel Lesinski - Getting a web site to load in one secon": https://vimeo.com/47591733
+    
+
 Data Visualisation:
   Description: |
     21st May 2012. View event on (link: http://lanyrd.com/2012/londonjs-11/ text: lanyrd popup: yes).
