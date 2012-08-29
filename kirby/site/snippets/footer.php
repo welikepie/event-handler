@@ -9,5 +9,14 @@
 	if (isset($bottom_snippets))
 		foreach ($bottom_snippets as &$snippet)
 			echo('<script type="text/javascript">' . $snippet . '</script>');
-	?>
+?>
+<script src="assets/scripts/jQuery1-8-0.js"></script>
+<script src="assets/scripts/bootstrap-tooltip.js"></script>
+<script type="text/javascript">
+	
+$(document).ready(function () {
+    $("[rel=tooltip]").tooltip();
+  });
+	
+</script>  
 </html>

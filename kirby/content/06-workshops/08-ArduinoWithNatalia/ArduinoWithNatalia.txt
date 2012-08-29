@@ -14,6 +14,8 @@ Learn:
 Requirements:
 - Nothing but a laptop!
 ----
+Image: assets/images/nbuckley.png
+----
 Twitter: ntlk
 ----
 InterestGroup: An Introduction to Arduino with Natalia Buckley

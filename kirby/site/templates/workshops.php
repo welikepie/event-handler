@@ -1,9 +1,8 @@
 <?php snippet('header'); ?>
 <head>
-	
-		<?php echo css('assets/styles/main.css'); ?>
 </head>
-<div class="page_container workshops">
+<!--<body  onload='document.getElementById("Code-along").click()'>-->
+	<div class="page_container workshops">
 	<section>
 		<div class="introduction">
 			<h1><?php echo html($page -> title()); ?></h1>
@@ -64,6 +63,18 @@
 					}
 					?>
 					</div>
+					
+					
+					<div class= "rightContainer">
+						<div id = "<?php echo(str_replace(" ", "|", $workshop -> title())); ?>" class = "signUpBox">
+							<div><p id = "buttonHead">Want to hear more?</p><p id = "buttonSub">Click now</p></div>
+							</div>
+							
+							<label class="rightFormCheck" id="<?php echo(str_replace(" ", "-", $workshop -> title())); ?>" onclick="onInterested(this.id)" data-content= "" title = "Subscription" >
+								<div>Subscribe</div>
+							</label>
+					</div>
+					
 						</div>
 			</div>
 <!--divs are hidden from the user. Intentionally. -->			
@@ -75,35 +86,32 @@ if ($formUrl) {
 $formSite = html($formUrl);
 }
 ?>
-<label onclick="		$('.popover').fadeToggle('fast', function () { $('#'+this.parentNode.id.replace(/_/gi,'-')).popover('hide')});">x</label>
 <form action = "assets/serverside/workshopForm.php" method="post" onsubmit ="return formsubmit(this.id)" id="<?php echo("FORM" . str_replace(" ", "_", $workshop -> title())); ?>" name = "mc-embedded-subscribe-form" target="formReceiver">
-<div class = emailInput><p>What is your email address?</p><input type="text" name = "email" id="<?php echo("EMAIL" . str_replace(" ", "_", $workshop -> title())); ?>"></div>
-<div class = "hidden">InterestedIn: <input type = "text" value = "<?php echo($workshop -> title()." with ".$workshop -> lecturer())?>" name = "interest"></div>
+	<div class="formLabels">
+		<label> Tell us your email address</label>
+		<span class = "close" onclick="onClose()">×</span>
+	</div>
+	<div class = emailInput>
+		<input type="text" name = "email" id="<?php echo("EMAIL" . str_replace(" ", "_", $workshop -> title())); ?>">
+		<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
+	</div>
+<div class = "hidden">InterestedIn: <input type = "text" value = "<?php echo($workshop -> interestgroup());?>" name = "interest"></div>
+</form>
 <div class = "error" id="<?php echo("ERROR" . str_replace(" ", "_", $workshop -> title())); ?>">
 </div>
-<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
-</form>
 </div>	 
 
 <div class = "hidden" id = "<?php echo("THANKS".str_replace(" ", "_", $workshop -> title())); ?>">
-<label onclick="		$('.popover').fadeToggle('fast', function () { $('#'+this.parentNode.id.replace(/_/gi,'-')).popover('hide')});">x</label>
-<div>Thank you for showing interest! We'll get back to you soon!</div>
+<label class = "close" onclick="onClose()">×</label>
+<div class = "thanks"><p>Thanks for your interest, we’ll keep you updated.</p></div>
 </div>
 
 <div class = "hidden" id = "<?php echo("THANKS2".str_replace(" ", "_", $workshop -> title())); ?>">
-<label onclick="		$('.popover').fadeToggle('fast', function () { $('#'+this.parentNode.id.replace(/_/gi,'-')).popover('hide')});">x</label>
-<div>You're Awesome! Have Karma!</div>
+<label class = "close" onclick="onClose()">×</label>
+<div class = "thanks"><p>Thanks!</p><p>We’ve updated your subscription so we can give you information on this workshop too.</p></div>
 </div>
 <!--ssssh!-->
-					<div class= "rightContainer">
-						<div id = "<?php echo(str_replace(" ", "|", $workshop -> title())); ?>" class = "signUpBox">
-							<div><p id = "buttonHead">Sign up for free</p><p id = "buttonSub">For any of our workshops</p></div>
-							</div>
-							
-							<label class="rightFormCheck" id="<?php echo(str_replace(" ", "-", $workshop -> title())); ?>" onclick="onInterested(this.id)" data-content= "" title = "Subscription" >
-								<div>Signup Now</div>
-							</label>
-					</div>
+
 				</div>
 			</div>
 			<?php } ?>

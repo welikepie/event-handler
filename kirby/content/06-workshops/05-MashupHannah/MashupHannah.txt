@@ -16,6 +16,8 @@ Learn:
 Requirements:
 - Nothing but a laptop!
 ----
+Image: assets/images/hwolfe.png
+----
 Twitter: ErisDS
 ----
 InterestGroup: Mashup Crash Course with Hannah Wolfe
