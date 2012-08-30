@@ -200,21 +200,23 @@ article { margin-bottom: @base * 4; }
 
     }
 
-
 .fullcal{
+    overflow:hidden;
+        height:100%;
     .header{
         margin-bottom:16px;
         h1{
             margin-bottom:16px;
             }
             .calendarButton{                    
+                 display:inline;   
                 input[type="submit"]{     
                         width:80px;
                         height:40px;
                     }
             }
         }
-    .calendar{
+    .ccalendar{
      background:#E1E1E1;
     overflow:hidden;
     text-shadow:none;
@@ -311,7 +313,15 @@ article { margin-bottom: @base * 4; }
              margin-right:-1px; }
     }
 }
+.acalendar:after{
+                float:left;
+            display:block;
+            clear:left;
+    }
     .acalendar{
+        overflow:hidden;
+        height:100%;
+        width:655px;
 margin-top:16px;
 margin-bottom:16px;
      .hdate, .hevent, .hlocation, .location, .event, .date{
