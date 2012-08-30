@@ -8,8 +8,8 @@ London JS will (try and) meet on a Monday of each month to hear a couple of talk
 
 This months, the talks will be:
 
-* Glyn laughing evilly whilst talking about security - Glyn Wintle (link: https://twitter.com/glynwintle text: @glynwintle)
-* AI - James Thomas (link: https://twitter.com/thomasj text: @thomasj)
+* Glyn laughing evilly whilst telling you about security - Glyn Wintle (link: https://twitter.com/glynwintle text: @glynwintle)
+* Artificial Intelligence - James Thomas (link: https://twitter.com/thomasj text: @thomasj)
 
 ----
 Blurb:
@@ -20,7 +20,7 @@ What: Javascript Talks
 ----
 Date: 2012-09-17 19:00
 ----
-End_Date: 2012-09-17 22:00
+End_Date: 2012-09-17 21:00
 ----
 Where: Poke London: Biscuit Building, 
 10 Redchurch Street, London, 
