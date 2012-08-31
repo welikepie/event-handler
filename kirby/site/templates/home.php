@@ -51,7 +51,7 @@
 					<div class="main_content">
 					
 						<!-- Page title -->
-						<h1><a href="<?php echo $event->url(); ?>"><?php echo html($event->title()) ?></a></h1>
+						<h1><a href="<?php echo $event->url(); ?>"rel="tooltip" data-original-title="Click here to email us."><?php echo html($event->title()) ?></a></h1>
 						
 						<!-- Page Description -->
 						<div class="description">
@@ -65,9 +65,8 @@
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $event->booking_link();
-							if ($booking) { echo('<a href="' . $booking . '" class="booking button">Tickets</a>'); }
+							if ($booking) { echo('<a href="' . $booking . '" rel = "tooltip" data-original-title = "Click here to get a ticket!" class="booking button">Tickets</a>'); }
 						?>
-					
 					</div>
 						
 					<!-- Speakers grid -->
@@ -178,8 +177,44 @@
 							</tbody>
 						</table>
 					</div>					
-					
-				</article><?php
+						<div class = "main_content">
+						<?php
+						if ($event -> lanyard()) {
+							//https://api.twitter.com/1/users/profile_image/ TWITTER USERNAME
+							$data = file_get_contents($event -> lanyard());
+							$dom = new DOMDocument;
+							@$dom -> loadHTML($data);
+							$speakers = $dom -> getElementById("speaker-list");
+							$organisers = $dom -> getElementsByTagName("ul");
+							$organisersOut = "";
+							$speakersOut = "";
+							$finder = new DomXPath($dom);
+							$classname="people";
+							$nodes = $finder->query("//*[contains(@class, '$classname')]");
+							
+							foreach($speakers -> childNodes as $element)
+							{
+									$speakersOut .= $element->ownerDocument->saveXML($element);
+							}
+							
+							foreach($nodes as $key => $element)
+							{
+										
+								if($key == ($nodes -> length)-1){
+
+									$organisersOut .= $element->ownerDocument->saveXML($element);	
+								}
+							}
+							echo('<div class="heads">Speakers</div>');
+							echo (('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>')); 
+							echo('<div class="heads">Organisers & Hosts</div>');
+							echo(('<div class="fullwidth">'.$organisersOut.'</div>'));
+						
+						}
+						?>
+					</div>
+				</article>
+				<?php
 			
 			}
 			
@@ -215,6 +250,7 @@
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
+		url('assets/scripts/scrapeFormatter.js'),
 		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
 	'bottom_snippets' => array(

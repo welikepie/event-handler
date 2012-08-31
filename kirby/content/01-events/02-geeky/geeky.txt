@@ -15,4 +15,6 @@ Cost: Free
 Map: 19 Mandela Street, London, NW1 0DU, United Kingdom
 ----
 Booking_link: http://geeky-may.eventbrite.com/
-
+----
+Lanyard: http://www.lanyrd.com/2012/geekynight-may/
+----

@@ -30,4 +30,7 @@ Infobox:
 </h1>
 ----
 Booking_link: http://geeky-august.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2012/geekynight-august/
+----
 

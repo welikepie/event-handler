@@ -40,4 +40,6 @@ Infobox:
 </h1>
 ----
 Booking_link: http://londonjs-14.eventbrite.com/
-
+----
+Lanyard: http://www.lanyrd.com/2012/londonjs-14/
+----

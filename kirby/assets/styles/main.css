@@ -80,7 +80,16 @@ header nav{z-index:1020;display:block;width:833px;margin:0 0 0 100px;padding:24p
 .main_content:after,.additional_content_wrapper:after{clear:both;}
 .additional_content_wrapper{margin-bottom:32px;}
 article{margin-bottom:64px;}
-.page_container section{width:655px;text-shadow:0px 2px 4px #123031;}.page_container section .hidden{width:0px;height:0px;overflow:hidden;display:none;}
+.page_container section{width:655px;text-shadow:0px 2px 4px #123031;}.page_container section .main_content #colwrap{width:100%;}.page_container section .main_content #colwrap .column{width:218px;float:left;display:block;}
+.page_container section .main_content .fullwidth{width:420px;display:block;float:left;clear:left;border-bottom:2px solid #FFFFFF;}.page_container section .main_content .fullwidth .people li{width:56px;margin-left:7px;margin-right:7px;margin-bottom:14px;}.page_container section .main_content .fullwidth .people li div{background:rgba(255, 255, 255, 0.5);padding:3px;width:56px;height:56px;border:1px solid #CDFCEC;}
+.page_container section .main_content .fullwidth .people li .name{display:none;}
+.page_container section .main_content .fullwidth .people li .handle{display:none;}
+.page_container section .main_content .heads{float:left;clear:left;font-family:"futura-pt-condensed",sans-serif;font-size:28px;line-height:38px;padding:0px 0px 0px 6px;margin:0px 0px 6px 0px;}
+.page_container section .main_content .people{margin:0;padding:0;}.page_container section .main_content .people li{float:left;list-style-type:none;width:100%;margin-bottom:20px;}.page_container section .main_content .people li div{background:rgba(255, 255, 255, 0.5);padding:3px;width:56px;height:56px;border:1px solid #CDFCEC;}
+.page_container section .main_content .people li .name{float:left;width:100%;}
+.page_container section .main_content .people li .handle{float:left;width:100%;}
+.page_container section .main_content .people li .role{display:none;}
+.page_container section .hidden{width:0px;height:0px;overflow:hidden;display:none;}
 .page_container section #formReceiver{width:0px;height:0px;overflow:hidden;display:none;}
 .page_container section .event_absent{height:100%;height:170px;margin-bottom:50px;}
 .page_container section .tooshort{height:425px;}

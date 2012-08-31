@@ -20,6 +20,8 @@ Priority: 1
 ----
 Map: Cowper Street, London, EC2A 4SH, United Kingdom
 ----
+Lanyard: http://www.lanyrd.com/2012/london-js-school-trip/
+----
 Infobox:
 
 <h1>

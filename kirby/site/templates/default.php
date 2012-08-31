@@ -1,8 +1,8 @@
 <?php
-	snippet('header');
-	snippet('dates');
-?>
+snippet('header');
+snippet('dates');
 
+?>
 		<!-- Event Map Widget -->
 		<div class="map_container">
 			<div id="map" style="width:100%; height:100%"></div>
@@ -16,16 +16,15 @@
 						
 						<!-- Page Description -->
 						<?php
-							$html = kirbytext($page->text());
-							$html = preg_replace('/<p>/i', '<p><span class="figure">Fig. 1 </span>', $html, 1);
-							echo $html;
+						$html = kirbytext($page -> text());
+						$html = preg_replace('/<p>/i', '<p><span class="figure">Fig. 1 </span>', $html, 1);
+						echo $html;
 						?>
 						
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $page->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">Tickets</a><?php }
-						?>
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button" rel = "tooltip" data-original-title = "Click here to get a ticket!">Tickets</a><?php } ?>
 					</div>
 					
 					<?php
@@ -85,18 +84,18 @@
 									<div class="speaker_heading"><?php echo $speaker_tracks; ?></div>
 									<div class="speaker_notes"><?php echo $speaker_times; ?></div>
 									<div class="speaker_grid"><?php echo $speaker_grid; ?></div>
-									<?php if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external" class="booking">Tickets</a><?php } ?> 
+									<?php if ($booking) { ?><a href="<?php echo $booking; ?>" rel="external tooltip" data-original-title="Click here to get a ticket!" class="booking">Tickets</a><?php } ?> 
 								</div>
 							</div><?php
-						
-						}
+
+							}
 					?>
 					
 					<!-- Event-wide alerts -->
 					<?php
 						$temp = $page->alert(); if ($temp) {
 							?><div class="alert"><?php echo($temp); ?></div><?php
-						} unset($temp);
+							} unset($temp);
 					?>
 					
 					<div class="main_content">
@@ -104,13 +103,13 @@
 							<caption>What</caption>
 							<thead>
 								<tr>
-									<td colspan="2"><?php echo html($page->what()); ?></td>
+									<td colspan="2"><?php echo html($page -> what()); ?></td>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
 									<th scope="row">Where</th>
-									<td><?php echo html($page->where()); ?></td>
+									<td><?php echo html($page -> where()); ?></td>
 								</tr>
 								<tr>
 									<th scope="row">When</th>
@@ -118,31 +117,77 @@
 								</tr>
 								<tr>
 									<th scope="row">Cost</th>
-									<td><?php echo html($page->cost()); ?></td>
+									<td><?php echo html($page -> cost()); ?></td>
 								</tr>
 							</tbody>
 						</table>
+						
+						
+						
+						
 					</div>
 					
 					<!-- Global alerts -->
 					<?php
-					
-						/* Site-wide alerts have been moved to site.txt file and will be
-						 * pulled and rendered from there. Only if there are any specified,
-						 * of course.
-						 */
-						
-						$temp = $site->alert();
-						if ($temp) { echo('<div class="alert">' . $temp . '</div>'); }
 
+					/* Site-wide alerts have been moved to site.txt file and will be
+					 * pulled and rendered from there. Only if there are any specified,
+					 * of course.
+					 */
+
+					$temp = $site -> alert();
+					if ($temp) { echo('<div class="alert">' . $temp . '</div>');
+					}
 					?>
-					
+					<div class = "main_content">
+						<?php
+						if ($page -> lanyard()) {
+							//https://api.twitter.com/1/users/profile_image/ TWITTER USERNAME
+							$data = file_get_contents($page -> lanyard());
+							$dom = new DOMDocument;
+							@$dom -> loadHTML($data);
+							$speakers = $dom -> getElementById("speaker-list");
+							$organisers = $dom -> getElementsByTagName("ul");
+							$organisersOut = "";
+							$speakersOut = "";
+							
+$finder = new DomXPath($dom);
+$classname="people";
+$nodes = $finder->query("//*[contains(@class, '$classname')]");
+
+							$classname = 'secondary';
+							
+							foreach($speakers -> childNodes as $element)
+							{
+					    		$speakersOut .= $element->ownerDocument->saveXML($element);
+							}
+							
+							foreach($nodes as $key => $element)
+							{
+								if($key == ($nodes -> length)-1){
+					    			$organisersOut .= $element->ownerDocument->saveXML($element);	
+								}
+							}
+							echo('<div class="heads">Speakers</div>');
+							echo ('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>'); 
+							echo('<div class="heads">Organisers & Hosts</div>');
+							echo('<div class="fullwidth">'.$organisersOut.'</div>');
+							
+						//echo end($nodes);
+							//$organisers = $dom->getElementeByTagName('ul');
+						/*	foreach($organisers as $organiser){
+								if($speaker->getAttribute('class')=='people'){
+								    echo $organiser;
+								}*/
+						}
+						?>
+					</div>
 				</article>
 			</section>
 		</div>
 		
 		<!-- Infobox render -->
-		<div class="infobox-wrapper" data-loc="<?php echo h($page->map()); ?>">
+		<div class="infobox-wrapper" data-loc="<?php echo h($page -> map()); ?>">
 			<?php $temp = $page->infobox(); if ($temp) { ?>
 			<div id="infobox"><?php echo $temp; ?></div>
 			<?php } ?>
@@ -153,6 +198,8 @@
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
+		url('assets/scripts/scrapeFormatter.js'),
+		url('assets/scripts/bootstrap-tooltip.js'),
 		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
 	'bottom_snippets' => array(
