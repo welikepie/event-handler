@@ -24,7 +24,7 @@ snippet('dates');
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $page->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button" rel = "tooltip" data-original-title = "Click here to get a ticket!">Tickets</a><?php } ?>
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">Tickets</a><?php } ?>
 					</div>
 					
 					<?php
@@ -168,10 +168,10 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 					    			$organisersOut .= $element->ownerDocument->saveXML($element);	
 								}
 							}
-							echo('<div class="heads">Speakers</div>');
-							echo ('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>'); 
-							echo('<div class="heads">Organisers & Hosts</div>');
-							echo('<div class="fullwidth">'.$organisersOut.'</div>');
+							//echo('<div class="heads">Speakers</div>');
+							//echo ('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>'); 
+							//echo('<div class="heads">Organisers & Hosts</div>');
+							//echo('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>');
 							
 						//echo end($nodes);
 							//$organisers = $dom->getElementeByTagName('ul');

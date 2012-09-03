@@ -6,15 +6,16 @@
 	<div>
 	
 	<div>
-	<a href="#" id="tooltiplulz" rel="tooltip" data-original-title="first tooltip">lol</a> <br>
+	<a class ="siteLeadsLong" href="http://twitter.com/Zenmaster13">	<img src="http://api.twitter.com/1/users/profile_image/Zenmaster13"></a> <br>
+<?php
+
+$xml = simplexml_load_file('http://wizardsoweb.com/feed');
+print_r($xml->channel->item[0]);
+?>
 </div>
 	</div>
 	</section>
 </div>
-
-<script src="../assets/scripts/jQuery1-8-0.js"></script>
-<script src="../assets/scripts/bootstrap-tooltip.js"></script>
-<script src="../assets/scripts/bootstrap-popover.js"></script>
 
 <script type = "text/javascript">
  </script>

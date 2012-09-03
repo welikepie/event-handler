@@ -51,7 +51,7 @@
 					<div class="main_content">
 					
 						<!-- Page title -->
-						<h1><a href="<?php echo $event->url(); ?>"rel="tooltip" data-original-title="Click here to email us."><?php echo html($event->title()) ?></a></h1>
+						<h1><a href="<?php echo $event->url(); ?>"><?php echo html($event->title()) ?></a></h1>
 						
 						<!-- Page Description -->
 						<div class="description">
@@ -65,7 +65,7 @@
 						<!-- Booking link (if available) -->
 						<?php
 							$booking = $event->booking_link();
-							if ($booking) { echo('<a href="' . $booking . '" rel = "tooltip" data-original-title = "Click here to get a ticket!" class="booking button">Tickets</a>'); }
+							if ($booking) { echo('<a href="' . $booking . '"class="booking button">Tickets</a>'); }
 						?>
 					</div>
 						
@@ -201,14 +201,13 @@
 							{
 										
 								if($key == ($nodes -> length)-1){
-
 									$organisersOut .= $element->ownerDocument->saveXML($element);	
 								}
 							}
-							echo('<div class="heads">Speakers</div>');
-							echo (('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>')); 
-							echo('<div class="heads">Organisers & Hosts</div>');
-							echo(('<div class="fullwidth">'.$organisersOut.'</div>'));
+							//echo('<div class="heads">Speakers</div>');
+							//echo (('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>')); 
+							//echo('<div class="heads">Organisers & Hosts</div>');
+							//echo(('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>'));
 						
 						}
 						?>

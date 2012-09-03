@@ -70,7 +70,7 @@
 							<div><p id = "buttonHead">Want to hear more?</p><p id = "buttonSub">Click now</p></div>
 							</div>
 							
-							<label class="rightFormCheck" id="<?php echo(str_replace(" ", "-", $workshop -> title())); ?>" onclick="onInterested(this.id)" data-content= "" title = "Subscription" >
+							<label class="rightFormCheck" id="<?php echo(str_replace(" ", "-", $workshop -> title())); ?>" onclick="onInterested(this.id)" >
 								<div>Subscribe</div>
 							</label>
 					</div>
