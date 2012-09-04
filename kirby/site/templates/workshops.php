@@ -67,7 +67,7 @@
 					
 					<div class= "rightContainer">
 						<div id = "<?php echo(str_replace(" ", "|", $workshop -> title())); ?>" class = "signUpBox">
-							<div><p id = "buttonHead">Want to hear more?</p><p id = "buttonSub">Click now</p></div>
+							<div><p class = "buttonHead">Want to hear more?</p><p class = "buttonSub">Click now</p></div>
 							</div>
 							
 							<label class="rightFormCheck" id="<?php echo(str_replace(" ", "-", $workshop -> title())); ?>" onclick="onInterested(this.id)" >
@@ -93,8 +93,8 @@ $formSite = html($formUrl);
 	</div>
 	<div class = emailInput>
 		<input type="text" name = "email" id="<?php echo("EMAIL" . str_replace(" ", "_", $workshop -> title())); ?>">
-		<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>></button> 
-	</div>
+		<input type="submit" value = "Submit" class = "submitButton" id = <?php echo("SUBMIT" . str_replace(" ", "_", $workshop -> title())); ?>>
+		</div>
 <div class = "hidden">InterestedIn: <input type = "text" value = "<?php echo($workshop -> interestgroup());?>" name = "interest"></div>
 </form>
 <div class = "error" id="<?php echo("ERROR" . str_replace(" ", "_", $workshop -> title())); ?>">
@@ -102,12 +102,10 @@ $formSite = html($formUrl);
 </div>	 
 
 <div class = "hidden" id = "<?php echo("THANKS".str_replace(" ", "_", $workshop -> title())); ?>">
-<label class = "close" onclick="onClose()">×</label>
 <div class = "thanks"><p>Thanks for your interest, we’ll keep you updated.</p></div>
 </div>
 
 <div class = "hidden" id = "<?php echo("THANKS2".str_replace(" ", "_", $workshop -> title())); ?>">
-<label class = "close" onclick="onClose()">×</label>
 <div class = "thanks"><p>Thanks!</p><p>We’ve updated your subscription so we can give you information on this workshop too.</p></div>
 </div>
 <!--ssssh!-->
