@@ -173,12 +173,6 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 							//echo('<div class="heads">Organisers & Hosts</div>');
 							//echo('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>');
 							
-						//echo end($nodes);
-							//$organisers = $dom->getElementeByTagName('ul');
-						/*	foreach($organisers as $organiser){
-								if($speaker->getAttribute('class')=='people'){
-								    echo $organiser;
-								}*/
 						}
 						?>
 					</div>
@@ -198,7 +192,6 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
-		url('assets/scripts/scrapeFormatter.js'),
 		url('assets/scripts/bootstrap-tooltip.js'),
 		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
