@@ -21,7 +21,6 @@ var replacerHTML = "";
 var organisers = document.getElementById("organiserField").getElementsByClassName("name");
 var replaceOrganisers = "";
 	for (i = 0; i < organisers.length; i++){
-console.log(organisers.length);
 		var contains=false;
 		for(n=0;n < forbid.length; n++){
 			if(organisers[i].firstChild.getAttribute('href').indexOf(forbid[n]) != -1){				

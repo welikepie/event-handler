@@ -204,10 +204,10 @@
 									$organisersOut .= $element->ownerDocument->saveXML($element);	
 								}
 							}
-							//echo('<div class="heads">Speakers</div>');
-							//echo (('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>')); 
-							//echo('<div class="heads">Organisers & Hosts</div>');
-							//echo(('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>'));
+							echo('<div class="heads">Speakers</div>');
+							echo (('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>')); 
+							echo('<div class="heads">Organisers & Hosts</div>');
+							echo(('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>'));
 						
 						}
 						?>
@@ -249,7 +249,8 @@
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
-
+		url('assets/scripts/bootstrap-tooltip.js'),
+		url('assets/scripts/scrapeFormatter.js'),
 		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
 	'bottom_snippets' => array(

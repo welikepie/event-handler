@@ -136,6 +136,45 @@ if ($banners) {
 							</tbody>
 						</table>
 						
+						<div class="geeklates_speakers" style="overflow: hidden;">
+						<?php
+						if ($page -> lanyard()) {
+							//https://api.twitter.com/1/users/profile_image/ TWITTER USERNAME
+							$data = file_get_contents($page -> lanyard());
+							$dom = new DOMDocument;
+							@$dom -> loadHTML($data);
+							$speakers = $dom -> getElementById("speaker-list");
+							$organisers = $dom -> getElementsByTagName("ul");
+							$organisersOut = "";
+							$speakersOut = "";
+							
+							$finder = new DomXPath($dom);
+							$classname="people";
+							$nodes = $finder->query("//*[contains(@class, '$classname')]");
+
+							$classname = 'secondary';
+							
+							foreach($speakers -> childNodes as $element)
+							{
+					    		$speakersOut .= $element->ownerDocument->saveXML($element);
+							}
+							
+							foreach($nodes as $key => $element)
+							{
+								if($key == ($nodes -> length)-1){
+					    			$organisersOut .= $element->ownerDocument->saveXML($element);	
+								}
+							}
+							
+							echo('<div class="heads">Speakers</div>');
+							echo ('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>'); 
+							echo('<div class="heads">Organisers & Hosts</div>');
+							echo('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>');
+							
+						}
+						?>
+						</div>
+						
 						<?php if ($banners) { ?>
 						<div class="map_wrapper" style="padding: 0;">
 							<div id="map" style="width: 100%; height: 100%;"></div>
@@ -163,37 +202,7 @@ if ($banners) {
 					}
 					?>
 					<div class = "main_content">
-						<?php
-						if ($page -> lanyard()) {
-							//https://api.twitter.com/1/users/profile_image/ TWITTER USERNAME
-							$data = file_get_contents($page -> lanyard());
-							$dom = new DOMDocument;
-							@$dom -> loadHTML($data);
-							$speakers = $dom -> getElementById("speaker-list");
-							$organisers = $dom -> getElementsByTagName("ul");
-							$organisersOut = "";
-							$speakersOut = "";
-							
-$finder = new DomXPath($dom);
-$classname="people";
-$nodes = $finder->query("//*[contains(@class, '$classname')]");
-
-							$classname = 'secondary';
-							
-							foreach($speakers -> childNodes as $element)
-							{
-					    		$speakersOut .= $element->ownerDocument->saveXML($element);
-							}
-							
-							foreach($nodes as $key => $element)
-							{
-								if($key == ($nodes -> length)-1){
-					    			$organisersOut .= $element->ownerDocument->saveXML($element);	
-								}
-							}
-							
-						}
-						?>
+						
 					</div>
 				</article>
 			</section>
@@ -204,6 +213,7 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		url('assets/scripts/bootstrap-tooltip.js'),
+		url('assets/scripts/scrapeFormatter.js'),
 		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
 	'bottom_snippets' => array(
