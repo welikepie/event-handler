@@ -1,0 +1,53 @@
+﻿Template: geeklates
+----
+Title: Geek Lates
+----
+Text: 
+
+This is a test event to demonstrate how responsive banners might work and all that.
+
+'You have the right to kill me, but you do not have the right to judge me.' Boom. That's the whole movie. That's life .... That's life. There's nobility in that. There's focus. It's genuine. It's crystal and it's pure and it's available to everybody.
+
+## Speakers
+
+(image: Paul King.png class: full-width)
+
+### Paul King
+
+An Arduino aficionado and professional tinkerer who likes things that go "beep". He will be holding an arduino workshop and "is most definitely not a robot".
+
+(image: Eva Lotta Lamm.png class: full-width)
+
+### Eva Lotta Lamm
+
+A UX designer currently working for Google. She has published a book of beautiful sketch notes on UX and Design events and will show us how to do these ourselves.
+
+(image: Jude Pullen.png class: full-width)
+
+### Jude Pullen
+
+An award winning designer and engineer at Dyson UK, he will be showing us how to build cardboard prototypes, getting the idea off of the paper and into 3D.
+
+----
+What: Test Stuff
+----
+Date: 2012-11-01 18:00
+----
+End_Date: 2012-11-01 23:00
+----
+Where: Central Foundation Boys School,
+Cowper Street,
+London, EC2A 4SH,
+United Kingdom
+----
+Cost: Free
+----
+Map: Cowper Street, London, EC2A 4SH, United Kingdom
+----
+Booking_link: http://geeklates.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2012/geek-lates/
+----
+Banners:
+- banner-480.png
+- banner-840.png

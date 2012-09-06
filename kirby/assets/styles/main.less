@@ -21,6 +21,7 @@ font-family:"pt-serif",sans-serif;
 
 html {
     height: 100%;
+    background: @pageBackground;
     text-rendering: optimizeLegibility;
     font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
@@ -106,6 +107,7 @@ header {
 .page_container {
     position: relative;
 	top: 64px;
+    width: 100%;
     z-index: 100;
 	padding: 72px @pagePadding;
 	background: @pageBackground;
@@ -265,6 +267,7 @@ article { margin-bottom: @base * 4; }
             /*border-bottom: 1px dashed;*/
         }
     }
+    h3 { font-weight: bold; }
     p {
         margin-bottom: @base * 1.5;
     	font-size: @base * 0.8125;
@@ -283,6 +286,12 @@ article { margin-bottom: @base * 4; }
         a {
             text-decoration: none; 
             border-bottom: 1px dashed;
+        }
+    }
+    img {
+        &.full-width {
+            .modal;
+            padding: 0;
         }
     }
     //Calendar page
@@ -516,7 +525,17 @@ margin-bottom:16px;
         margin-right: 8px;
     }
     
+    // Map wrapper (for putting map inline in case the event
+    // has reponsive banners included).
+    .map_wrapper {
+        width: 100%; height: 400px;
+        margin-top: @base * 2;
+        .modal;
+    }
+    
 }
+.page_container.extended { min-width: 1138px; }
+.page_container.extended section { width: 960px; }
 //popover and tooltip stylings, yo.
 .tooltip {
   position: absolute;
@@ -1601,7 +1620,59 @@ border:1px solid #b8c1cb;
 }
 
 // Infobox
-.infobox_wrapper { .hidden; }
+.wrapper.geeklates {
+    width: 1049px;
+    height: 100%;
+    position: relative;
+    &:after {
+        content: ''; display: block;
+        width: 0; height: 0;
+        clear: both;
+    }
+}
+
+.geeklates-button {
+    display: block;
+    padding: @base;
+    margin: 24px 0 0;
+        
+    background: #d62236 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
+    background: #d62236 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
+    background: #d62236 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+    background: #d62236 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+    background: #d62236 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+    background: #d62236 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 #000;
+    -o-box-shadow: 0 1px 4px 0 #000;
+    -moz-box-shadow: 0 1px 4px 0 #000;
+    -webkit-box-shadow: 0 1px 4px 0 #000;
+            
+    color: white;
+    line-height: 36px;
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+.infobox_wrapper {
+    .hidden;
+    &.geeklates {
+        display: block !important;
+        visibility: visible;
+        position: absolute;
+        bottom: 24px; right: 0;
+        &:after {
+            content: ''; display: block;
+            width: 0; height: 0;
+            clear: both;
+        }
+    }
+}
 #infobox {
     font-family: "futura-pt-condensed", sans-serif;
 	color: white;

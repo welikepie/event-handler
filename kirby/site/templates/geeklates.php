@@ -18,12 +18,18 @@ if ($banners) {
 
 		<!-- Event Map Widget -->
 		<div class="map_container">
-			<?php if (!$banners) { ?><div id="map" style="width:100%; height:100%;"></div><?php } ?>
+			<div class="wrapper geeklates">
+				<div class="infobox_wrapper geeklates" data-loc="<?php echo h($page -> map()); ?>">
+					<div id="infobox">
+						<h1><a href="<?php echo($page->booking_link()); ?>" target="_blank">View Tickets</a></h1>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="page_container">
+		<div class="page_container extended">
 			<section class="event_list">
 				<article>		
-					<div class="main_content">
+					<div class="main_content" style="float: left; width: 655px;">
 						<!-- Page Title -->
 						<h1><?php echo html($page->title()) ?></h1>
 						
@@ -33,11 +39,6 @@ if ($banners) {
 						$html = preg_replace('/<p>/i', '<p><span class="figure">Fig. 1 </span>', $html, 1);
 						echo $html;
 						?>
-						
-						<!-- Booking link (if available) -->
-						<?php
-							$booking = $page->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">Tickets</a><?php } ?>
 					</div>
 					
 					<?php
@@ -111,8 +112,8 @@ if ($banners) {
 							} unset($temp);
 					?>
 					
-					<div class="main_content">
-						<table class="details">
+					<div class="main_content" style="float: right; width: 281px;">
+						<table class="details" style="width: 281px;">
 							<caption>What</caption>
 							<thead>
 								<tr>
@@ -136,10 +137,16 @@ if ($banners) {
 						</table>
 						
 						<?php if ($banners) { ?>
-						<div class="map_wrapper">
+						<div class="map_wrapper" style="padding: 0;">
 							<div id="map" style="width: 100%; height: 100%;"></div>
 						</div>
 						<?php } ?>
+						
+						<!-- Booking link (if available) -->
+						<?php
+							$booking = $page->booking_link();
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="geeklates-button">View Tickets</a><?php
+						} ?>
 						
 					</div>
 					
@@ -192,18 +199,10 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 			</section>
 		</div>
 		
-		<!-- Infobox render -->
-		<div class="infobox-wrapper" data-loc="<?php echo h($page -> map()); ?>">
-			<?php $temp = $page->infobox(); if ($temp) { ?>
-			<div id="infobox"><?php echo $temp; ?></div>
-			<?php } ?>
-		</div>
-		
 <?php snippet('footer', array(
 	'bottom_scripts' => array(
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
-		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
 		url('assets/scripts/bootstrap-tooltip.js'),
 		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
@@ -221,7 +220,7 @@ function map_initialize() {
          mapTypeId: google.maps.MapTypeId.ROADMAP
     });
 	
-	event_map = document.getElementById("infobox");
+	event_map = document.getElementById("infobox-bak");
 	if (event_map) {
 	
 		geocoder = new google.maps.Geocoder();
@@ -235,7 +234,7 @@ function map_initialize() {
 				marker = new google.maps.Marker({
 					map: map,
 					position: location,
-					visible: false
+					visible: true
 				});
 				infobox = new InfoBox({
 					content: event_map,
@@ -267,7 +266,7 @@ function map_initialize() {
 	} else {
 	
 		geocoder = new google.maps.Geocoder();
-		geocoder.geocode({'address': $('div.infobox-wrapper').get(0).getAttribute('data-loc')}, function (results, status) {
+		geocoder.geocode({'address': $('div.infobox_wrapper').get(0).getAttribute('data-loc')}, function (results, status) {
 		
 			var marker, location;
 			if (status === google.maps.GeocoderStatus.OK) {
@@ -275,7 +274,7 @@ function map_initialize() {
 				marker = new google.maps.Marker({
 					map: map,
 					position: results[0].geometry.location,
-					visible: false
+					visible: true
 				});
 				google.maps.event.addListener(marker, 'click', function() { map.panTo(location); });
 				map.panTo(location);
