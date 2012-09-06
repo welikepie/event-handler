@@ -12,6 +12,7 @@ London JS School Trip:
     "Steph Troeth - Key Note: What can you make?": https://vimeo.com/47456625
     "Irene Ros - Building Client-Side Data-Driven Web Applications": https://vimeo.com/48376998
     "Kornel Lesinski - Getting a web site to load in one secon": https://vimeo.com/47591733
+    "Syd Lawrence - Using the internet as your database": https://vimeo.com/47486308
     
 
 Data Visualisation:
