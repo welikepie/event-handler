@@ -4,4 +4,4 @@ Author: Arran Ross-Paterson & Mikołaj Banasik
 ----
 Keywords-SPECIFYSOME: kirby, cms, kirbycms, php, filesystem
 ----
-Copyright: © 2012-(date: Year) Arran Ross-Paterson
+Copyright: © 2012-(date: Year) Event Handler

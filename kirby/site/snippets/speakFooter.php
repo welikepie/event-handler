@@ -1,5 +1,6 @@
 		<footer>
-			<!--<?php echo kirbytext($site->copyright()) ?>-->
+			<div><?php echo kirbytext($site->copyright()) ?></div>
+			<a href="<?php echo ($pages->find('terms')->url()); ?>">Terms &amp; Conditions</a>
 		</footer>
 	</body>
 	<?php
@@ -11,7 +12,6 @@
 			echo('<script type="text/javascript">' . $snippet . '</script>');
 	?>
 <!--contactSpeaker, speaker, form name  -->
-entry.1.single, entry.0.single , 
 <script type="text/javascript">
 
 function formsubmit() {

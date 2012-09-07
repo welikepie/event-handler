@@ -29,12 +29,18 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 body {
-	height: 100%;
+    height: 100%;
     font-family: "pt-serif", Georgia, serif;
 	font-size: @base;
 	line-height: @base * 1.5;
 	background: @pageBackground;
 	color: white;
+    
+    &:after {
+        content: '';
+        width: 0; height: 0;
+        clear: both; float: none;
+    }
 }
 
 
@@ -90,6 +96,26 @@ header {
     }
 }
 
+footer {
+    display: block;
+    position: relative;
+    bottom: 0; left: 0;
+    clear: both; float: none;
+    z-index: 9999;
+    padding: @base 89px;
+    overflow: hidden;
+    
+    color: white;
+    background: black;
+    
+    > * {
+        display: block;
+        float: left;
+        margin-right: @base * 2;
+        color: white;
+    }
+}
+
 // Containers
 // ------------------
 
@@ -104,8 +130,10 @@ header {
 // General page container
 .page_container {
     position: relative;
-	top: 64px;
-    width: 100%;
+    // Changed 'top' to 'margin-top' - works just as fine for what it is intended,
+    // but doesn't break the layout measurements for the footer position
+    margin-top: 64px;
+    width: 100%; min-height: 100%;
     z-index: 100;
 	padding: 72px @pagePadding;
 	background: @pageBackground;
@@ -113,7 +141,9 @@ header {
 
 // Adjustments for map container
 .map_container + .page_container {
-    top: 384px;
+    // Changed 'top' to 'margin-top' - works just as fine for what it is intended,
+    // but doesn't break the layout measurements for the footer position
+    margin-top: 384px;
     padding-top: 32px;
     box-shadow: 0 0 16px 0 #333;
     -o-box-shadow: 0 0 16px 0 #333;
@@ -1622,7 +1652,7 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
     text-shadow: none;
 }
 
-.infobox_wrapper {
+.infobox_wrapper, .infobox-wrapper {
     .hidden;
     &.geeklates {
         display: block !important;

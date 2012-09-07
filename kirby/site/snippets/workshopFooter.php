@@ -1,7 +1,8 @@
-<footer>
-	<!--<?php echo kirbytext($site->copyright()) ?>-->
-</footer>
-</body>
+		<footer>
+			<div><?php echo kirbytext($site->copyright()) ?></div>
+			<a href="<?php echo ($pages->find('terms')->url()); ?>">Terms &amp; Conditions</a>
+		</footer>
+	</body>
 <?php
 if (isset($bottom_scripts))
 	foreach ($bottom_scripts as &$script)
