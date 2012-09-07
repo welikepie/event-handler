@@ -2,7 +2,7 @@
 
 	$mq = '@media all and (max-width: %dpx) { %s }';
 	$style ='.map_container + .page_container { ' .
-				'top: %dpx; ' .
+				'margin-top: %dpx; ' .
 			'} ' .
 			'.map_container { ' .
 				'height: %dpx; ' .
