@@ -31,7 +31,7 @@ if ($banners) {
 				<article>		
 					<div class="main_content" style="float: left; width: 655px;">
 						<!-- Page Title -->
-						<h1><?php echo html($page->title()) ?></h1>
+						<h1><!--<?php echo html($page->title()) ?>-->Introduction</h1>
 						
 						<!-- Page Description -->
 						<?php
@@ -136,6 +136,12 @@ if ($banners) {
 							</tbody>
 						</table>
 						
+						<?php if ($banners) { ?>
+						<div class="map_wrapper" style="padding: 0;">
+							<div id="map" style="width: 100%; height: 100%;"></div>
+						</div>
+						<?php } ?>
+						
 						<div class="geeklates_speakers" style="overflow: hidden;">
 						<?php
 						if ($page -> lanyard()) {
@@ -174,12 +180,6 @@ if ($banners) {
 						}
 						?>
 						</div>
-						
-						<?php if ($banners) { ?>
-						<div class="map_wrapper" style="padding: 0;">
-							<div id="map" style="width: 100%; height: 100%;"></div>
-						</div>
-						<?php } ?>
 						
 						<!-- Booking link (if available) -->
 						<?php

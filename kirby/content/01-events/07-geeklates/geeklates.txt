@@ -4,9 +4,7 @@ Title: Geek Lates
 ----
 Text: 
 
-This is a test event to demonstrate how responsive banners might work and all that.
-
-'You have the right to kill me, but you do not have the right to judge me.' Boom. That's the whole movie. That's life .... That's life. There's nobility in that. There's focus. It's genuine. It's crystal and it's pure and it's available to everybody.
+We've been planning this event for quite some time now and we're ready to finally tell you about it! Geek Lates is an evening of geeky entertainment and insight. Held in the hall of Central Foundation School just off of Old Street; there will be workshops, talks and other stands dotted around the place. We have a sketch notes workshop from Eva Lotta Lamm, (very) short story writing from James Wallis, Domestic Science with Helen Arney, Arduino workshops with Paul King and many more to be announced.
 
 ## Speakers
 
@@ -29,18 +27,18 @@ A UX designer currently working for Google. She has published a book of beautifu
 An award winning designer and engineer at Dyson UK, he will be showing us how to build cardboard prototypes, getting the idea off of the paper and into 3D.
 
 ----
-What: Test Stuff
+What: All Things Geeky
 ----
 Date: 2012-11-01 18:00
 ----
-End_Date: 2012-11-01 23:00
+End_Date: 2012-11-01 22:00
 ----
 Where: Central Foundation Boys School,
 Cowper Street,
 London, EC2A 4SH,
 United Kingdom
 ----
-Cost: Free
+Cost: £5 - £25
 ----
 Map: Cowper Street, London, EC2A 4SH, United Kingdom
 ----
@@ -48,6 +46,17 @@ Booking_link: http://geeklates.eventbrite.com/
 ----
 Lanyard: http://lanyrd.com/2012/geek-lates/
 ----
+Infobox:
+
+<h1>
+	<span>Geek Lates</span>
+	<span>1st November 2012</span>
+	<abbr class="easydate">Thu, 1 November 2012 18:00 +0000</abbr>
+	<a href="http://geeklates.eventbrite.com/" rel="external" target="_blank">View Tickets</a>
+</h1>
+----
 Banners:
 - banner-480.png
 - banner-840.png
+----
+Priority: 1
