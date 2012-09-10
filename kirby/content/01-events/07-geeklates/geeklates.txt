@@ -14,6 +14,8 @@ We've been planning this event for quite some time now and we're ready to finall
 
 An Arduino aficionado and professional tinkerer who likes things that go "beep". He will be holding an arduino workshop and "is most definitely not a robot".
 
+If you'd like to join in with this workshop but don't have your own kit, you'll be able to buy a workshop ready arduino kit from us on the day.
+
 (image: Eva Lotta Lamm.png class: full-width)
 
 ### Eva Lotta Lamm
@@ -40,7 +42,7 @@ United Kingdom
 ----
 Cost: £5 - £25
 ----
-Map: Cowper Street, London, EC2A 4SH, United Kingdom
+Map: Cowper Street, London, EC2A 4SH
 ----
 Booking_link: http://geeklates.eventbrite.com/
 ----
