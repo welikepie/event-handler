@@ -1,5 +1,4 @@
 		<footer>
-			<div><?php echo kirbytext($site->copyright()) ?></div>
 			<a href="<?php echo ($pages->find('terms')->url()); ?>">Terms &amp; Conditions</a>
 		</footer>
 	</body>

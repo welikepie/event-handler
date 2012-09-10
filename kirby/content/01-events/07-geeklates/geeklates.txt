@@ -26,6 +26,12 @@ A UX designer currently working for Google. She has published a book of beautifu
 
 An award winning designer and engineer at Dyson UK, he will be showing us how to build cardboard prototypes, getting the idea off of the paper and into 3D.
 
+(image: Giddy-Up-Coffee.png class: full-width)
+
+### Giddy Up Coffee
+
+These guys seem to have endless ways of making coffee, a staple in the tech community. They will be teaching others how to brew the good stuff as well as catering for the event.
+
 ----
 What: All Things Geeky
 ----
@@ -35,8 +41,7 @@ End_Date: 2012-11-01 22:00
 ----
 Where: Central Foundation Boys School,
 Cowper Street,
-London, EC2A 4SH,
-United Kingdom
+London, EC2A 4SH
 ----
 Cost: £5 - £25
 ----
