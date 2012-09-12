@@ -42,8 +42,8 @@ $eventArray = $eventArray -> sortBy('date', 'asc');
  */
 if (!isset($_POST['monthUp']) && !isset($_POST['monthDown'])){
 	$today = getdate();
-	$currentMonth = date(n);
-	$currentYear = date(Y);
+	$currentMonth = date('n');
+	$currentYear = date('Y');
 	$offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 }
 
@@ -70,8 +70,8 @@ $trueToday = false;
 $today = getdate();
 if ($currentMonth == date('n') && $currentYear == date('Y')) {
 	$trueToday = true;
-	$currentMonth = date(n);
-	$currentYear = date(Y);
+	$currentMonth = date('n');
+	$currentYear = date('Y');
 	$days_in_month = date('t', mktime(0, 0, 0, $currentMonth, 1, $currentYear));
 
 } else {

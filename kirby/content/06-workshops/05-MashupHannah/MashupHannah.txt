@@ -22,3 +22,5 @@ Twitter: ErisDS
 ----
 InterestGroup: Mashup Crash Course with Hannah Wolfe
 ----
+hashLink: mashupHannah
+----

@@ -24,3 +24,5 @@ Twitter: JamesWallis
 ----
 InterestGroup: Short Story workshop with James Wallis
 ----
+HashLink: shortWithJamesWallis
+----
