@@ -353,14 +353,40 @@ article { margin-bottom: @base * 4; }
         overflow:hidden;
         height:100%;
         .header{
-            margin-bottom:16px;
-            h1{
-                margin-bottom:16px;
+            margin-bottom:24px;
+            float:left;
+            #month{
+                width:170px;
+                float:left;
+                h1{
+                margin-top:6px;
+                   margin-bottom:0px;
                 }
-            .calendarButton{                    
-                 display:inline;   
+            }
+            #buttonLeft{
+                padding-right:16px;
+                    input[type="submit"]{
+                        background : url("../images/pointerPrev.png") no-repeat center center;
+                        border : none;
+                    	color : transparent;
+                    	font-size : 0
+                    }
+                }
+            #buttonRight{
+                padding-left:16px;
+                    input[type="submit"]{
+                        background : url("../images/pointerNext.png") no-repeat center center;
+                    	border : none;
+                    	color : transparent;
+                    	font-size : 0
+                    }
+                }
+            #buttonLeft, #buttonRight{
+                float:left;
                 input[type="submit"]{     
-                        width:80px;
+                    font-size:32px;
+                        border-radius:5px;
+                        width:40px;
                         height:40px;
                     }
               }
@@ -569,48 +595,89 @@ article { margin-bottom: @base * 4; }
 .page_container.extended { min-width: 1138px; }
 .page_container.extended section { width: 960px; }
 //popover and tooltip stylings, yo.
+
+// Wrapper for the tooltip content
+.tooltip-inner-wrapper{
+      padding:2px;
+      border:2px solid #FFFFFF;
+      width: 166px;
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      background-color: #343434;
+      border-radius:2px;
+      -o-border-radius:2px;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+      -o-box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+      -moz-box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+      -webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+
+    .tooltip-inner {
+    color:#343434;
+    font-size:16px;
+     line-height:18px;
+     font-family: "League Gothic","futura-pt-condensed", sans-serif;
+     padding: 10px 10px;
+     background-color:#FFFFFF;
+        }
+}
+// Arrows
+.tooltip-arrow-outer{
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+    .tooltip-arrow {
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+            .arrow {
+              width: 0;
+              height: 0;
+              border-color: transparent;
+              border-style: solid;
+            }    
+    }
+}
+
 .tooltip {
   position: absolute;
   z-index: 1030;
   display: block;
   visibility: visible;
-  padding: 5px;
-  font-size: 11px;
   opacity:0;
   &.in     { opacity:80; }
-  &.top    { margin-top:  -3px; }
-  &.right  { margin-left:  3px; }
-  &.bottom { margin-top:   3px; }
-  &.left   { margin-left: -3px; }
-}
+  &.top    { margin-top:  -20px; }
+  &.right  { margin-left:  20px; }
+  &.bottom { margin-top:   20px; }
+  &.left   { margin-left: -20px; }
 
-// Wrapper for the tooltip content
-.tooltip-inner {
-  max-width: 200px;
-  padding: 3px 8px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  background-color: #000000;
-  border-radius:4px;
-}
-
-// Arrows
-.tooltip-arrow {
+  &.top .tooltip-arrow-outer{
   position: absolute;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-.tooltip {
-  &.top .tooltip-arrow {
     bottom: 0;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px 5px 0;
-    border-top-color: #000000;
+    top: 100%;
+    left: 83px;
+    margin-left: -23px; 
+    border-width: 23px 23px 0;
+    border-top-color: #FFFFFF;
+    .tooltip-arrow{
+          bottom: 0;
+         margin-top:-27px;
+        margin-left: -23px; 
+        border-width: 23px 23px 0;
+        border-top-color: #343434;    
+          .arrow {
+              margin-top: -26px;
+                margin-left: -23px;
+                border-width: 23px 23px 0;
+                border-top-color: #FFFFFF;
+                    }  
+        }
   }
+        
   &.right .tooltip-arrow {
     top: 50%;
     left: 0;
