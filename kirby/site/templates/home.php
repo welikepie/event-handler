@@ -179,35 +179,39 @@
 					</div>					
 						<div class = "main_content">
 						<?php
+						//ini_set("display_errors","1");
+						//ERROR_REPORTING(E_ALL);
 						if ($event -> lanyard()) {
 							//https://api.twitter.com/1/users/profile_image/ TWITTER USERNAME
 							$data = file_get_contents($event -> lanyard());
 							$dom = new DOMDocument;
 							@$dom -> loadHTML($data);
-							$speakers = $dom -> getElementById("speaker-list");
-							$organisers = $dom -> getElementsByTagName("ul");
 							$organisersOut = "";
 							$speakersOut = "";
 							$finder = new DomXPath($dom);
 							$classname="people";
-							$nodes = $finder->query("//*[contains(@class, '$classname')]");
-							
-							foreach($speakers -> childNodes as $element)
-							{
-									$speakersOut .= $element->ownerDocument->saveXML($element);
-							}
+							$nodes = $finder->query("//ul[contains(@class, '$classname')]"); 
+							//returns domNodeList. All speakers lists and organisers lists are contained in <ul class="people">
 							
 							foreach($nodes as $key => $element)
 							{
-										
+								if($key < ($nodes -> length)-1){ //get childnodes of element, dipshit.
+								$LIarr = $element->childNodes;
+									foreach($LIarr as $LIchild){
+										$speakersOut .= $element->ownerDocument->saveXML($LIchild); //everything before last must be speakers.
+									}
+								}			
 								if($key == ($nodes -> length)-1){
-									$organisersOut .= $element->ownerDocument->saveXML($element);	
+								$LIarr = $element->childNodes;
+									foreach($LIarr as $LIchild){
+										$organisersOut .= $element->ownerDocument->saveXML($LIchild); //everything before last must be speakers.
+									}	
 								}
 							}
 							echo('<div class="heads">Speakers</div>');
-							echo (('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>')); 
+							echo (('<div class="fullwidth" id = "speakerField"><ul class="people">'.$speakersOut.'</ul></div>')); 
 							echo('<div class="heads">Organisers & Hosts</div>');
-							echo(('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>'));
+							echo(('<div class="fullwidth" id = "organiserField"><ul class="people">'.$organisersOut.'</ul></div>'));
 						
 						}
 						?>

@@ -9,7 +9,7 @@ Text:
 We've been planning this event for quite some time now and we're ready to finally tell you about it! Geek Lates is an evening of geeky entertainment and insight. Held in the hall of Central Foundation School just off of Old Street; there will be workshops, talks and other stands dotted around the place. We have a sketch notes workshop from Eva Lotta Lamm, (very) short story writing from James Wallis, Domestic Science with Helen Arney, Arduino workshops with Paul King and many more to be announced.
 
 ## Speakers
-<a name="paulKing"></a>(image: Paul King.png class: full-width)
+<a name="paulKing"></a>(image: Paul-King.png class: full-width)
 
 ### Paul King
 
@@ -17,18 +17,23 @@ An Arduino aficionado and professional tinkerer who likes things that go "beep".
 
 If you'd like to join in with this workshop but don't have your own kit, you'll be able to buy a workshop ready arduino kit from us on the day.
 
-<a name="evaLottaLamm"></a>(image: Eva Lotta Lamm.png class: full-width)
+<a name="evaLottaLamm"></a>(image: Eva-Lotta-Lamm.png class: full-width)
 
 ### Eva Lotta Lamm
 
 A UX designer currently working for Google. She has published a book of beautiful sketch notes on UX and Design events and will show us how to do these ourselves.
 
-<a name="judePullen"></a>(image: Jude Pullen.png class: full-width)
+<a name="judePullen"></a>(image: Jude-Pullen.png class: full-width)
 
 ### Jude Pullen
 
 An award winning designer and engineer at Dyson UK, he will be showing us how to build physical prototypes, getting the idea off of the paper and into 3D.
 
+<a name="jamesWallis"></a>(image: James-Wallis.png class: full-width)
+
+### James Wallis
+
+A games designer and writer who created the cult geek game "Once upon a time". His workshop will be on how to outline and write short stories that will fit on a postcard. 
 ----
 What: All Things Geeky
 ----
