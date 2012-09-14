@@ -91,7 +91,7 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 			<input type = "number" class = "hidden" name="monthDown" value = "<?php echo($currentMonth-1)?>">
 			<input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
 			<input type = "number" class = "hidden" name="yearDown" value = "<?php echo($currentYear-1)?>">
-			<input type = "submit" name="prevMonth" value="Previous Month">
+			<input type = "submit" name="prevMonth" value="">
 		</form>
 	</div>
 			<div id = "month">
@@ -104,7 +104,7 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 			<input type = "number" class = "hidden" name="monthUp" value = "<?php echo($currentMonth+1)?>">
 			<input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
 			<input type = "number" class = "hidden" name="yearUp" value = "<?php echo($currentYear+1)?>">
-			<input type = "submit" id = "up" name="nextMonth" value="Next Month">
+			<input type = "submit" id = "up" name="nextMonth" value="">
 		</form>
 	</div>
 

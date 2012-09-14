@@ -9,14 +9,15 @@ if(String(links[i]).indexOf("/profile") != -1){
 	}
 }
 (function(){
-var organisers = document.getElementsByClassName("fullwidth");
+//var organisers = document.getElementsByClassName("fullwidth");
+var organisers = document.querySelectorAll('.fullwidth');
 var returnArr = new Array(organisers.length);
 	for (i = 0; i < organisers.length; i++){
 	if(i%2 == 0){
 		var replaceSpeakers = "";
 		var organiserList = organisers[i].getElementsByTagName("li");
 				for(j = 0; j < organiserList.length; j ++){
-					var innerList = organiserList[j].getElementsByClassName("avatar avatar-med");
+					var innerList = organiserList[j].querySelectorAll(".avatar.avatar-med");
 					for(k=0; k < innerList.length; k++){
 						if(innerList[k].innerHTML.length == 12){
 							innerList[k].innerHTML = "<img src = 'assets/images/spareAvatar.png'>";	//spareAvatar.png needs to be 40*40.
