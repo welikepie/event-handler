@@ -20,7 +20,7 @@ var returnArr = new Array(organisers.length);
 					var innerList = organiserList[j].querySelectorAll(".avatar.avatar-med");
 					for(k=0; k < innerList.length; k++){
 						if(innerList[k].innerHTML.length == 12){
-							innerList[k].innerHTML = "<img src = 'assets/images/spareAvatar.png'>";	//spareAvatar.png needs to be 40*40.
+							innerList[k].innerHTML = "<img src = '/assets/images/spareAvatar.png'>";	//spareAvatar.png needs to be 40*40.
 						}
 					}
 				}
