@@ -18,3 +18,5 @@ Twitter: sydlawrence
 ----
 InterestGroup: Code along with Syd Lawrence
 ----
+HashLink: sydLawrenceCode
+----

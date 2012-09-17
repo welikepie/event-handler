@@ -22,3 +22,5 @@ Twitter: nrocy
 ----
 InterestGroup: Arduino Workshops with Paul King
 ----
+HashLink: arduinoPaulKing
+----

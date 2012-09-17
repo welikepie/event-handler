@@ -17,7 +17,7 @@
 		
 			foreach ($workshops as $workshop) { ?>
 			<div class="workshop">
-				<h1><?php echo html($workshop -> title()); ?></h1>
+				<h1><a name="<?php echo html($workshop -> hashlink());?>"></a><?php echo html($workshop -> title()); ?></h1>
 				<div class="details">
 					
 				<div class="workshopLeft">

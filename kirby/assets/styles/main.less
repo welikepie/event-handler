@@ -10,6 +10,16 @@
 // LAYOUT DEFINITIONS
 // -----------------------------
 
+@font-face {
+    font-family: 'League Gothic';
+    src: url('leaguegothic.eot');
+    src: url('leaguegothic.eot?#iefix') format('embedded-opentype'),
+         url('leaguegothic.woff') format('woff'),
+         url('leaguegothic.ttf') format('truetype'),
+         url('leaguegothic.svg#league_gothicregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
 
 .header,.tk-futura-pt-condensed,header,nav{
 font-family:"futura-pt-condensed",sans-serif;
@@ -209,12 +219,24 @@ article { margin-bottom: @base * 4; }
                                     overflow:hidden;
                                     text-overflow: ellipsis;
                                     display:inline;            
+                                           -ms-hyphens:none;
+                                            -o-hyphens:none;
+                                            -moz-hyphens: none;
+                                            hyphens: none;
+                                          margin-top:3px;
+                                            display:block;
+                                            overflow:hidden;
+                                            height:30px;
+                                            text-overflow: ellipsis;
+                                            line-height:15px;
+                                            font-size:11px;
+                                            border-bottom:none;
+                                            padding-top: 3px;
                                         a{
                                             -ms-hyphens:none;
                                             -o-hyphens:none;
                                             -moz-hyphens: none;
                                             hyphens: none;
-                                          margin-top:3px;
                                             display:block;
                                             overflow:hidden;
                                             height:30px;
@@ -340,15 +362,46 @@ article { margin-bottom: @base * 4; }
         overflow:hidden;
         height:100%;
         .header{
-            margin-bottom:16px;
-            h1{
-                margin-bottom:16px;
+            margin-bottom:24px;
+            float:left;
+            #month{
+                text-align:center;
+                width:180px;
+                float:left;
+                h1{
+                margin-top:0px;
+                   margin-bottom:0px;
                 }
-            .calendarButton{                    
-                 display:inline;   
+            }
+            #buttonLeft{
+                padding-right:16px;
+                    input[type="submit"]{
+                        background : url("../images/pointerPrev.png") no-repeat center center;
+                        border : none;
+                    	color : transparent;
+                    	font-size : 0px;
+                    }
+                }
+            #buttonRight{
+                padding-left:16px;
+                    input[type="submit"]{
+                        background : url("../images/pointerNext.png") no-repeat center center;
+                    	border : none;
+                    	color : transparent;
+                    	font-size : 0
+                    }
+                }
+            #buttonLeft, #buttonRight{
+                float:left;
                 input[type="submit"]{     
-                        width:80px;
-                        height:40px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      -o-box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+      -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+                        font-size:32px;
+                        border-radius:2px;
+                        width:25px;
+                        height:25px;
                     }
               }
            }
@@ -382,7 +435,7 @@ article { margin-bottom: @base * 4; }
                       }
              .first{
              width:93px;
-             border-left:2px solid rgba(255,255,255,0.5);
+             border-left:2px solid rgba(255,255,255,0.5);            
              }
             .last{
                 width:93px;
@@ -452,11 +505,13 @@ article { margin-bottom: @base * 4; }
         }
     }
     .acalendar:after{
+    display:none;
     float:left;
     display:block;
     clear:left;
     }
     .acalendar{
+    display:none;
     overflow:hidden;
     height:100%;
     width:655px;
@@ -539,7 +594,7 @@ article { margin-bottom: @base * 4; }
     }
     // Placement of the booking button
     .booking {
-        width: 185px;
+    //    width: 185px;
         float: right;
         margin-right: 8px;
     }
@@ -556,48 +611,89 @@ article { margin-bottom: @base * 4; }
 .page_container.extended { min-width: 1138px; }
 .page_container.extended section { width: 960px; }
 //popover and tooltip stylings, yo.
+
+// Wrapper for the tooltip content
+.tooltip-inner-wrapper{
+      padding:2px;
+      border:2px solid #FFFFFF;
+      width: 166px;
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      background-color: #343434;
+      border-radius:2px;
+      -o-border-radius:2px;
+      -moz-border-radius:2px;
+      -webkit-border-radius:2px;
+      box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+      -o-box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+      -moz-box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+      -webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+
+    .tooltip-inner {
+    color:#343434;
+    font-size:12px;
+     line-height:14px;
+     font-family: Helvetica New, Helvetica, sans-serif;
+     padding: 10px 10px;
+     background-color:#FFFFFF;
+        }
+}
+// Arrows
+.tooltip-arrow-outer{
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+    .tooltip-arrow {
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+            .arrow {
+              width: 0;
+              height: 0;
+              border-color: transparent;
+              border-style: solid;
+            }    
+    }
+}
+
 .tooltip {
   position: absolute;
   z-index: 1030;
   display: block;
   visibility: visible;
-  padding: 5px;
-  font-size: 11px;
   opacity:0;
-  &.in     { opacity:80; }
-  &.top    { margin-top:  -3px; }
-  &.right  { margin-left:  3px; }
-  &.bottom { margin-top:   3px; }
-  &.left   { margin-left: -3px; }
-}
+  &.in     { opacity: 80; }
+  &.top    { margin-top:  -8px; }
+  &.right  { margin-left:  8px; }
+  &.bottom { margin-top:   8px; }
+  &.left   { margin-left: -8px; }
 
-// Wrapper for the tooltip content
-.tooltip-inner {
-  max-width: 200px;
-  padding: 3px 8px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  background-color: #000000;
-  border-radius:4px;
-}
-
-// Arrows
-.tooltip-arrow {
+  &.top .tooltip-arrow-outer{
   position: absolute;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-}
-.tooltip {
-  &.top .tooltip-arrow {
     bottom: 0;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px 5px 0;
-    border-top-color: #000000;
+    top: 100%;
+    left: 83px;
+    margin-left: -23px; 
+    border-width: 23px 23px 0;
+    border-top-color: #FFFFFF;
+    .tooltip-arrow{
+          bottom: 0;
+         margin-top:-27px;
+        margin-left: -23px; 
+        border-width: 23px 23px 0;
+        border-top-color: #343434;    
+          .arrow {
+              margin-top: -26px;
+                margin-left: -23px;
+                border-width: 23px 23px 0;
+                border-top-color: #FFFFFF;
+                    }  
+        }
   }
+        
   &.right .tooltip-arrow {
     top: 50%;
     left: 0;
@@ -1029,46 +1125,62 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
                 margin: 14px 11px 14px 0px;
                 float:right;
                      div{
-                         font-family: Helvetica New, Helvetica Arial, sans-serif;
-                         font-size:16px;
+                         font-family:"League Gothic","futura-pt-condensed", sans-serif;
+                         font-size:25px;
+                         line-height:30px;
+                         padding: auto auto;
                          }
-                padding:7px 8px 7px 8px;
-                width:120px;
-                 background: #0563cb -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
-                background: #0563cb -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
-                background: #0563cb -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
-                background: #0563cb -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
-                background: #0563cb -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
-                background: #0563cb linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
-                border-radius:4px;
-                border: 1px solid #40813B;
-                color: white;
-                text-align: center;
-                text-shadow: none;
-                text-decoration: none;
+                    padding:7px 8px 7px 8px;
+                    width:140px;
+                    height:45px;
+                    background:  #556256;
+                     background:  #556256 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+                    background:  #556256 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
+                    background:  #556256 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+                    background:  #556256 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+                    background:  #556256 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+                    background:  #556256 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+                    border-radius:5px;
+                    border: 1px solid #40813B;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-shadow: none;
+                    text-decoration: none;
+                    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+                    -o-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+            	    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+            	    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+            	
                 }   
                 .rightFormCheck{
                 margin: 14px 11px 14px 0px;
                 float:right;
                      div{
-                         font-family: Helvetica New, Helvetica Arial, sans-serif;
-                         font-size:16px;
+                         font-family:"League Gothic","futura-pt-condensed", sans-serif;
+                         font-size:25px;
+                         line-height:30px;
+                         padding: auto auto;
                          }
                     padding:7px 8px 7px 8px;
-                    width:120px;
-                    background: #5FAD5A;
-                     background: #5FAD5A -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
-                    background: #5FAD5A -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
-                    background: #5FAD5A -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
-                    background: #5FAD5A -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
-                    background: #5FAD5A -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
-                    background: #5FAD5A linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
-                    border-radius:4px;
+                    width:140px;
+                    height:45px;
+                    background:  #3e9f39;
+                     background:  #3e9f39 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+                    background:  #3e9f39 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
+                    background:  #3e9f39 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+                    background:  #3e9f39 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+                    background:  #3e9f39 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+                    background:  #3e9f39 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+                    border-radius:5px;
                     border: 1px solid #40813B;
-                    color: white;
+                    color: #FFFFFF;
                     text-align: center;
                     text-shadow: none;
                     text-decoration: none;
+                    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+                    -o-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+            	    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+            	    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
                     }
                     .rightFormCheck, .rightFormChecked { 
                     float: right; 
@@ -1385,26 +1497,30 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
 }
 
 .button {
-    width: 185px;
-    height: 42px;
-    float: right;
-    border: 1px solid #333;
-    border-radius: 5px;
-    background: white -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
-    background: white -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
-    background: white -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-    background: white -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-    background: white -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-    background: white linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-    box-shadow: 0 1px 2px 0 #123031;
-    -o-box-shadow: 0 1px 2px 0 #123031;
-    -moz-box-shadow: 0 1px 2px 0 #123031;
-    -webkit-box-shadow: 0 1px 2px 0 #123031;
-    color: #483b36 !important;
-    font: bold 16px/40px Helvetica Neue, Helvetica, Arial, sans-serif;
-    text-align: center;
-    text-decoration: none !important;
-    text-shadow: none;
+    float:right;
+        width:125px;
+        height:35px;
+        border: 1px solid #333;
+        border-radius: 5px;
+        background: #e5e5e5;
+        background: #e5e5e5 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+        background: #e5e5e5 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2)));
+	    background: #e5e5e5 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+	    background: #e5e5e5 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+	    background: #e5e5e5 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+	    background: #e5e5e5 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+	
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+        -o-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+	    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+	    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+	
+	    color: #223b5a !important;        
+        font: 20px "League Gothic","futura-pt-condensed", sans-serif;
+        line-height:33px;
+        text-align: center;
+	    text-decoration: none !important;
+	    text-shadow: none;
     }
 }
 
@@ -1412,24 +1528,27 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
 // ------------------
     // General button styling
     .button {
+        width:125px;
+        height:35px;
         border: 1px solid #333;
         border-radius: 5px;
-
-        background: white -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
-	    background: white -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
-	    background: white -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-	    background: white -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-	    background: white -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-	    background: white linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
+        background: #e5e5e5;
+        background: #e5e5e5 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+	    background: #e5e5e5 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2)));
+	    background: #e5e5e5 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+	    background: #e5e5e5 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+	    background: #e5e5e5 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+	    background: #e5e5e5 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
 	
-	    box-shadow: 0 1px 2px 0 #123031;
-        -o-box-shadow: 0 1px 2px 0 #123031;
-	    -moz-box-shadow: 0 1px 2px 0 #123031;
-	    -webkit-box-shadow: 0 1px 2px 0 #123031;
+	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+        -o-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+	    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
+	    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);
 	
-	    color: #483b36 !important;
-        font: bold 16px/40px Helvetica Neue, Helvetica, Arial, sans-serif;
-	    text-align: center;
+	    color: #223b5a !important;        
+        font: 20px "League Gothic","futura-pt-condensed", sans-serif;
+        line-height:33px;
+        text-align: center;
 	    text-decoration: none !important;
 	    text-shadow: none;
     }
@@ -1676,7 +1795,6 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
         span,  abbr, a {
             display: block;
             float: left; clear: left;
-        	
         	clear: left;
         	font-size: 58px;
         	line-height: 58px;
@@ -1686,22 +1804,26 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
         	text-transform: capitalize;
             border-bottom: none;
         }
-        a {
+        a {        
+            font-size:40px;
+            line-height:42px;
+            font-family:"League Gothic","futura-pt-condensed", sans-serif;
         	padding: @base (@base * 1.5);
         	margin: (@base * 0.25) 0 0;
-        
-        	background: #d62236 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.09) 100%);
-        	background: #d62236 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.09)));
-        	background: #d62236 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #d62236 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #d62236 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-        	background: #d62236 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.09) 100%);
-            border-radius: 5px;
-        	box-shadow: 0 1px 4px 0 #000;
-            -o-box-shadow: 0 1px 4px 0 #000;
-        	-moz-box-shadow: 0 1px 4px 0 #000;
-        	-webkit-box-shadow: 0 1px 4px 0 #000;
-            
+        width:290px;
+        height:70px;
+            background: #d02134;
+        	background: #d02134 -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 100%);
+        	background: #d02134 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.2)));
+        	background: #d02134 -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background: #d02134 -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background: #d02134 -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+        	background:  #d02134 linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 100%);
+            border-radius: 10px;
+        	box-shadow: 0 2px 5px 0px rgba(0,0,0,0.3);
+            -o-box-shadow:  0 2px 5px 0px rgba(0,0,0,0.3);
+        	-moz-box-shadow:  0 2px 5px 0px rgba(0,0,0,0.3);
+        	-webkit-box-shadow:  0 2px 5px 0px rgba(0,0,0,0.3);
             color: white;
             line-height: 36px;
         	text-align: center;

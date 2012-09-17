@@ -14,7 +14,7 @@ This months, the talks will be:
 ----
 Blurb:
 
-Evening of Javascript talks about Microframeworks and Require.js.
+Evening of Javascript talks by developers, for developers.
 ----
 What: Javascript Talks
 ----

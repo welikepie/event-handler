@@ -73,7 +73,8 @@ if ($banners) {
 									
 										$temp = '<div class="wide_box speaker_box"><figure>';
 										if (isset($speaker['Image'])) { $temp .= '<img src="' . $speaker['Image'] . '" alt="">'; }
-										$temp .= '<h1>' . $speaker['Name'] . '</h1>' .
+										$temp .= ''.
+												 '<h1>' . $speaker['Name'] . '</h1>' .
 												 '<h2>' . $speaker['Title'] . '</h2>' .
 												 '</figure><div>' .
 												 '<h2>' . $speaker['Title'] . '</h2>' .

@@ -5,7 +5,7 @@
 <h1><?php echo html($page -> title()); ?></h1>
 <div class="description"><?php echo kirbytext($page -> text()); ?></div>
 
-			<!-- Calendar of events -->
+<!-- Calendar of events -->
 <div id = "calendarWrapper">
 <div class="fullcal">
 <?php
@@ -40,10 +40,10 @@ $eventArray = $eventArray -> sortBy('date', 'asc');
  * will put the day of the calendar into the string for comparing with event's date.
  * $offset is used to offset the calendar fields so that they align with weekdays.
  */
-if (!isset($_POST['monthUp']) && !isset($_POST['monthDown'])){
+if (!isset($_POST['monthUp']) && !isset($_POST['monthDown'])) {
 	$today = getdate();
-	$currentMonth = date(n);
-	$currentYear = date(Y);
+	$currentMonth = date('n');
+	$currentYear = date('Y');
 	$offset = date("N", strtotime(date('m') . '/01/' . date('Y') . ' 00:00:00'));
 }
 
@@ -70,8 +70,8 @@ $trueToday = false;
 $today = getdate();
 if ($currentMonth == date('n') && $currentYear == date('Y')) {
 	$trueToday = true;
-	$currentMonth = date(n);
-	$currentYear = date(Y);
+	$currentMonth = date('n');
+	$currentYear = date('Y');
 	$days_in_month = date('t', mktime(0, 0, 0, $currentMonth, 1, $currentYear));
 
 } else {
@@ -86,22 +86,27 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 ?>
 
 <div class="header">
-				<h1>
-			<?php echo(date("F", strtotime($currentMonth . '/01/' . $currentYear . ' 00:00:00')) . " " . $currentYear); ?>
-				</h1>
-
-<form action = "calendar.php" method="post" class = "calendarButton" id="monthSub">
-<input type = "number" class = "hidden" name="monthDown" value = "<?php echo($currentMonth-1)?>">
-<input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
-<input type = "number" class = "hidden" name="yearDown" value = "<?php echo($currentYear-1)?>">
-<input type = "submit" name="prevMonth" value="Previous">
-</form>
-<form action = "calendar.php" method="post" class = "calendarButton" id="monthAdd">
-<input type = "number" class = "hidden" name="monthUp" value = "<?php echo($currentMonth+1)?>">
-<input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
-<input type = "number" class = "hidden" name="yearUp" value = "<?php echo($currentYear+1)?>">
-<input type = "submit" id = "up" name="nextMonth" value="Next">
-</form>
+	<div id = "buttonLeft">
+		<form action = "calendar.php" method="post" class = "calendarButton" id="monthSub">
+			<input type = "number" class = "hidden" name="monthDown" value = "<?php echo($currentMonth-1)?>">
+			<input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
+			<input type = "number" class = "hidden" name="yearDown" value = "<?php echo($currentYear-1)?>">
+			<input type = "submit" name="prevMonth" value="">
+		</form>
+	</div>
+			<div id = "month">
+					<h1>
+				<?php echo(date("F", strtotime($currentMonth . '/01/' . $currentYear . ' 00:00:00')) . " " . $currentYear); ?>
+					</h1>
+			</div>
+	<div id = "buttonRight">
+		<form action = "calendar.php" method="post" class = "calendarButton" id="monthAdd">
+			<input type = "number" class = "hidden" name="monthUp" value = "<?php echo($currentMonth+1)?>">
+			<input type = "number" class = "hidden" name="Jahr" value = "<?php echo($currentYear)?>">
+			<input type = "number" class = "hidden" name="yearUp" value = "<?php echo($currentYear+1)?>">
+			<input type = "submit" id = "up" name="nextMonth" value="">
+		</form>
+	</div>
 
 </div>
   <!--  $first_of_month = mktime(0, 0, 0, $month, 1, $year);
@@ -228,7 +233,8 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 			</div>		</section>
 	</div>
 		<footer>
-			<!--<?php echo kirbytext($site->copyright()) ?>-->
+			<div><?php echo kirbytext($site->copyright()) ?></div>
+			<a href="<?php echo ($pages->find('terms')->url()); ?>">Terms &amp; Conditions</a>
 		</footer>
 	</body>
 	<?php
@@ -246,45 +252,46 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 	$(document).ready(function() {
 		$("[rel=tooltip]").tooltip();
 	});
-	
-	$('#monthAdd').live('submit', function() { // catch the form's submit event
-	//event.preventDefault();
-	console.log($("#monthAdd :input"));
-	console.log($(this).attr('action')+$(this).serialize());
-    $.ajax({ // create an AJAX call...
-        data: $(this).serialize(), // get the form data
-        type: 'POST', // GET or POST
-        url: $(this).attr('action'),
-        success: function(response) { // on success..
-    //console.log(response);
-    //console.log(response);
-    var responder = $(response);
-    $('#calendarWrapper').html(responder.contents().find('#calendarWrapper').contents());
-    $("[rel=tooltip]").tooltip();
-        }
-    });
-    console.log("action stopped");
-    return false; // cancel original event to prevent form submitting
-});
 
+	$('#monthAdd').live('submit', function() {// catch the form's submit event
+		//event.preventDefault();
+		//console.log($("#monthAdd :input"));
+		//console.log($(this).attr('action') + $(this).serialize());
+		$.ajax({// create an AJAX call...
+			data : $(this).serialize(), // get the form data
+			type : 'POST', // GET or POST
+			url : $(this).attr('action'),
+			success : function(response) {// on success..
+				//console.log(response);
+				//console.log(response);
+				var responder = $(response);
+				$('#calendarWrapper').html(responder.contents().find('#calendarWrapper').contents());
+				$("[rel=tooltip]").tooltip();
+			}
+		});
+		//console.log("action stopped");
+		return false;
+		// cancel original event to prevent form submitting
+	});
 
-$('#monthSub').live('submit', function() { // catch the form's submit event
-	console.log($("#monthSub :input"));
-	console.log($(this).attr('action')+$(this).serialize());
-    $.ajax({ // create an AJAX call...
-        data: $(this).serialize(), // get the form data
-        type: 'POST', // GET or POST
-        url: $(this).attr('action'),
-        success: function(response) { // on success..
-    //console.log(response);
-    //console.log(response);
-    var responder = $(response);
-   $('#calendarWrapper').html(responder.contents().find('#calendarWrapper').contents());
-	$("[rel=tooltip]").tooltip();
-        }
-    });
-    console.log("action stopped");
-    return false; // cancel original event to prevent form submitting
-});
+	$('#monthSub').live('submit', function() {// catch the form's submit event
+		//console.log($("#monthSub :input"));
+		//console.log($(this).attr('action') + $(this).serialize());
+		$.ajax({// create an AJAX call...
+			data : $(this).serialize(), // get the form data
+			type : 'POST', // GET or POST
+			url : $(this).attr('action'),
+			success : function(response) {// on success..
+				//console.log(response);
+				//console.log(response);
+				var responder = $(response);
+				$('#calendarWrapper').html(responder.contents().find('#calendarWrapper').contents());
+				$("[rel=tooltip]").tooltip();
+			}
+		});
+		//console.log("action stopped");
+		return false;
+		// cancel original event to prevent form submitting
+	}); 
 </script>
 </html>
