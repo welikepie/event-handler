@@ -157,7 +157,7 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 										$eventClass .= 'foreignEvent';
 									}
 
-									$content .= '<p class = "' . $eventClass . '">' . '<a href="' . $event -> url() . '" rel="tooltip" data-original-title="' . $event -> blurb() . '">' . html($event -> title()) . '</a></p>';
+									$content .= '<div class = "' . $eventClass . '" rel="tooltip" data-original-title="' . $event -> blurb() . '">' . '<p><a href="' . $event -> url() . '" >' . html($event -> title()) . '</a></p></div>';
 								}
 
 							}
@@ -247,7 +247,7 @@ $offset = date("N", strtotime($currentMonthFormatted . '/01/' . $currentYear . '
 ?>
 
 <script src="assets/scripts/jQuery1-8-0.js"></script>
-<script src="assets/scripts/bootstrap-tooltip.js"></script>
+<script src="assets/scripts/tooltipMod.js"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$("[rel=tooltip]").tooltip();

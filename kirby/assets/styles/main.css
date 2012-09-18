@@ -111,6 +111,7 @@ article{margin-bottom:64px;}
 .page_container section .fullcal .header #buttonLeft,.page_container section .fullcal .header #buttonRight{float:left;}.page_container section .fullcal .header #buttonLeft input[type="submit"],.page_container section .fullcal .header #buttonRight input[type="submit"]{box-shadow:0 2px 5px rgba(0, 0, 0, 0.5);-o-box-shadow:0 2px 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 2px 5px rgba(0, 0, 0, 0.5);-webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.5);font-size:32px;border-radius:2px;width:25px;height:25px;}
 .page_container section .fullcal .ccalendar{background:#E1E1E1;overflow:hidden;text-shadow:none;float:left;color:black;margin-bottom:24px;border:5px solid #FFFFFF;}.page_container section .fullcal .ccalendar .cal{background-color:#E1E1E1;display:inline;float:left;height:100px;width:92px;padding:2px 6px;border:1px solid rgba(255, 255, 255, 0.5);}.page_container section .fullcal .ccalendar .cal a{color:#000000;text-decoration:none;border-bottom:1px dashed;}
 .page_container section .fullcal .ccalendar .cal .today{font-size:13px;margin-left:8px;}
+.page_container section .fullcal .ccalendar p{margin-bottom:0px;}
 .page_container section .fullcal .ccalendar .first{width:93px;border-left:2px solid rgba(255, 255, 255, 0.5);}
 .page_container section .fullcal .ccalendar .last{width:93px;border-right:2px solid rgba(255, 255, 255, 0.5);}
 .page_container section .fullcal .ccalendar .rightNothing{border-right:0px;border-right-style:none;width:92px;}
@@ -150,16 +151,17 @@ article{margin-bottom:64px;}
 .page_container.extended section{width:960px;}
 .tooltip-inner-wrapper{padding:2px;border:2px solid #FFFFFF;width:166px;color:#ffffff;text-align:center;text-decoration:none;background-color:#343434;border-radius:2px;-o-border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;box-shadow:0 5px 5px rgba(0, 0, 0, 0.3);-o-box-shadow:0 5px 5px rgba(0, 0, 0, 0.3);-moz-box-shadow:0 5px 5px rgba(0, 0, 0, 0.3);-webkit-box-shadow:0 5px 5px rgba(0, 0, 0, 0.3);}.tooltip-inner-wrapper .tooltip-inner{color:#343434;font-size:12px;line-height:14px;font-family:Helvetica New,Helvetica,sans-serif;padding:10px 10px;background-color:#FFFFFF;}
 .tooltip-arrow-outer{width:0;height:0;border-color:transparent;border-style:solid;}.tooltip-arrow-outer .tooltip-arrow{width:0;height:0;border-color:transparent;border-style:solid;}.tooltip-arrow-outer .tooltip-arrow .arrow{width:0;height:0;border-color:transparent;border-style:solid;}
-.tooltip{position:absolute;z-index:1030;display:block;visibility:visible;opacity:0;}.tooltip.in{opacity:80;}
-.tooltip.top{margin-top:-14px;}
+.tooltip{position:absolute;z-index:1030;display:none;visibility:visible;opacity:1;-webkit-transition:opacity 0.5s;-moz-transition:opacity 0.5s ;-ms-transition:opacity 0.5s ;-o-transition:opacity 0.5s ;transition:opacity 0.5s ;}.tooltip.in{opacity:1;}
+.tooltip.top{margin-top:-5px;}
 .tooltip.right{margin-left:14px;}
 .tooltip.bottom{margin-top:14px;}
 .tooltip.left{margin-left:-14px;}
-.tooltip.top .tooltip-arrow-outer{position:absolute;bottom:0;top:100%;left:83px;margin-left:-23px;border-width:23px 23px 0;border-top-color:#FFFFFF;}.tooltip.top .tooltip-arrow-outer .tooltip-arrow{bottom:0;margin-top:-27px;margin-left:-23px;border-width:23px 23px 0;border-top-color:#343434;}.tooltip.top .tooltip-arrow-outer .tooltip-arrow .arrow{margin-top:-26px;margin-left:-23px;border-width:23px 23px 0;border-top-color:#FFFFFF;}
+.tooltip.top .tooltip-arrow-outer{bottom:0;top:100%;margin-left:60px;border-width:23px 23px 0;border-top-color:#FFFFFF;}.tooltip.top .tooltip-arrow-outer .tooltip-arrow{bottom:0;margin-top:-27px;margin-left:-23px;border-width:23px 23px 0;border-top-color:#343434;}.tooltip.top .tooltip-arrow-outer .tooltip-arrow .arrow{margin-top:-26px;margin-left:-23px;border-width:23px 23px 0;border-top-color:#FFFFFF;}
 .tooltip.right .tooltip-arrow{top:50%;left:0;margin-top:-5px;border-width:5px 5px 5px 0;border-right-color:#000000;}
 .tooltip.left .tooltip-arrow{top:50%;right:0;margin-top:-5px;border-width:5px 0 5px 5px;border-left-color:#000000;}
 .tooltip.bottom .tooltip-arrow{top:0;left:50%;margin-left:-5px;border-width:0 5px 5px;border-bottom-color:#000000;}
-.fade{opacity:0;}
+.fade{opacity:0;-webkit-transition:opacity 0.5s linear;-moz-transition:opacity 0.5s linear;-ms-transition:opacity 0.5s linear;-o-transition:opacity 0.5s linear;transition:opacity 0.5s linear;}
+.fade.in{opacity:1;}
 .popover{transform:rotate(180deg) translatey(63px);-ms-transform:rotate(180deg) translatey(63px);-moz-transform:rotate(180deg) translatey(63px);-webkit-transform:rotate(180deg) translatey(63px);-o-transform:rotate(180deg) translatey(63px);transform-origin:50% 0%;-webkit-transform-origin:50% 0%;-moz-transform-origin:50% 0%;-ms-transform-origin:50% 0%;-o-transform-origin:50% 0%;position:absolute;top:0;left:0;z-index:1010;display:none;width:251px;padding:1px;background-color:#fff;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;border:1px solid #ccc;border:1px solid rgba(0, 0, 0, 0.2);border-radius:6px;box-shadow:0 5px 10px rgba(0, 0, 0, 0.2);}.popover.top{margin-bottom:10px;}
 .popover.right{margin-left:10px;}
 .popover.bottom{margin-top:10px;box-shadow:0 -5px 10px rgba(0, 0, 0, 0.2);}
