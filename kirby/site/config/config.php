@@ -40,7 +40,7 @@ Make sure to write the url without a trailing slash.
  
 */
 
-c::set('url', 'http://localhost:8080/event-handler/kirby'); //reset on commit
+c::set('url', false); //reset on commit
 
 /* 
 
@@ -80,8 +80,8 @@ RewriteBase /subfolder
  
 */
 
-c::set('subfolder', 'event-handler/kirby');
-//c::set('subfolder', 'aptana/event-handler/kirby');
+c::set('subfolder', false);
+
 /* 
 
 ---------------------------------------

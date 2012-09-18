@@ -22,7 +22,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # 
 # RewriteBase /mysite
 # 
-RewriteBase /event-handler/kirby
+#RewriteBase /
 
 # redirect everything to index.php
 RewriteRule ^(.*) index.php [L]

@@ -35,11 +35,18 @@ An award winning designer and engineer at Dyson UK, he will be showing us how to
 
 A games designer and writer who created the cult geek game "Once upon a time". His workshop will be on how to outline and write short stories that will fit on a postcard. 
 
-(image: Giddy-Up-Coffee.png class: full-width)
+<a name="giddyUpCoffee"></a>(image: Giddy-Up-Coffee.png class: full-width)
 
 ### Giddy Up Coffee
 
 These guys seem to have endless ways of making coffee, a staple in the tech community. They will be teaching others how to brew the good stuff as well as catering for the event.
+
+<a name="laurianGridinoc"></a>(image: Laurian-Gridinoc.png class: full-width)
+
+### Laurian Gridinoc
+
+A mad scientist currently working with BBC News. He plays with geiger counters and the human anatomy and will be teaching us how to analyse bone fractures and do anatomical sketches.
+
 ----
 What: All Things Geeky
 ----

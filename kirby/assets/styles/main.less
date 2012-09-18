@@ -433,6 +433,11 @@ article { margin-bottom: @base * 4; }
                                 margin-left:8px;
                                 }
                       }
+                p{
+                    margin-bottom:0px;
+                        a{
+                        }
+                    }      
              .first{
              width:93px;
              border-left:2px solid rgba(255,255,255,0.5);            
@@ -486,6 +491,7 @@ article { margin-bottom: @base * 4; }
             .ourEvent{
                 background:RGBA(255,255,255,1);
                 margin-bottom:0px;
+                    
                 }
             .foreignEvent{
                 background:RGBA(134,159,255,0.3);
@@ -641,6 +647,7 @@ article { margin-bottom: @base * 4; }
 }
 // Arrows
 .tooltip-arrow-outer{
+  //  float:left;
   width: 0;
   height: 0;
   border-color: transparent;
@@ -658,25 +665,26 @@ article { margin-bottom: @base * 4; }
             }    
     }
 }
-
 .tooltip {
   position: absolute;
   z-index: 1030;
-  display: block;
+  display: none;
   visibility: visible;
-  opacity:0;
+
+  opacity: 0;
   &.in     { opacity: 80; }
   &.top    { margin-top:  -8px; }
   &.right  { margin-left:  8px; }
   &.bottom { margin-top:   8px; }
   &.left   { margin-left: -8px; }
 
+
   &.top .tooltip-arrow-outer{
-  position: absolute;
+  //position: absolute;
     bottom: 0;
     top: 100%;
-    left: 83px;
-    margin-left: -23px; 
+    margin-left: 60px;
+    //margin-left: -23px; 
     border-width: 23px 23px 0;
     border-top-color: #FFFFFF;
     .tooltip-arrow{
@@ -719,15 +727,15 @@ article { margin-bottom: @base * 4; }
 
 .fade {
   opacity: 0;
- /* -webkit-transition: opacity 0.25s linear;
-     -moz-transition: opacity 0.25s linear;
-      -ms-transition: opacity 0.25s linear;
-       -o-transition: opacity 0.25s linear;
-          transition: opacity 0.25s linear;*/
+  -webkit-transition: opacity 0.5s linear;
+     -moz-transition: opacity 0.5s linear;
+      -ms-transition: opacity 0.5s linear;
+       -o-transition: opacity 0.5s linear;
+          transition: opacity 0.5s linear;
 }
 
 .fade.in {
- // opacity: 1;
+  opacity: 1;
 }
 
 
