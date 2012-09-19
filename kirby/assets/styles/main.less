@@ -665,15 +665,35 @@ article { margin-bottom: @base * 4; }
             }    
     }
 }
+.in     { opacity: 1; 
+    -webkit-transition: opacity 1s linear;
+     -moz-transition: opacity 1s linear;
+      -ms-transition: opacity 1s linear;
+       -o-transition: opacity 1s linear;
+          transition: opacity 1s linear;
+  }
 .tooltip {
   position: absolute;
   z-index: 1030;
   display: none;
   visibility: visible;
 
-  opacity: 0;
-  &.in     { opacity: 80; }
-  &.top    { margin-top:  -8px; }
+opacity: 0;    
+    -webkit-transition: opacity 0.5s linear;
+     -moz-transition: opacity 0.5s linear;
+      -ms-transition: opacity 0.5s linear;
+       -o-transition: opacity 0.5s linear;
+          transition: opacity 0.5s linear;
+
+  &.in     { opacity: 1; 
+    -webkit-transition: opacity 0.5s linear;
+     -moz-transition: opacity 0.5s linear;
+      -ms-transition: opacity 0.5s linear;
+       -o-transition: opacity 0.5s linear;
+          transition: opacity 0.5s linear;
+  }
+  &.top    { //margin-top:   0px; 
+  }
   &.right  { margin-left:  8px; }
   &.bottom { margin-top:   8px; }
   &.left   { margin-left: -8px; }

@@ -18,7 +18,8 @@
  * limitations under the License.
  * ========================================================== */
 
-var transitionOut = 500;
+var transitionOut = 1000;
+var transitionIn = 500;
 !function ($) {
 
   "use strict"; // jshint ;_;
@@ -114,10 +115,9 @@ var transitionOut = 500;
           this.options.placement
 
         inside = /in/.test(placement)
-
         $tip
           .remove() //removes old instances
-          .css({ top: 0, left: 0, display: 'block', }); //adds new instance
+          .css({ top: 0, left: 0, display: 'block'}); //adds new instance
           $tip.appendTo(inside ? this.$element : this.$element[0]); //appends tooltip to element
 
 		console.log(this.$element[0]);
@@ -132,7 +132,7 @@ var transitionOut = 500;
             tp = {top: pos.top + pos.height, left: pos.left + pos.width / 2 - actualWidth / 2}
             break
           case 'top':
-             tp = {top: pos.top - 3*pos.height - actualHeight, left: pos.left - actualWidth/2 + pos.width/2}
+             tp = {top: pos.top - 3*pos.height - actualHeight + actualHeight,marginTop:actualHeight*-1,left: pos.left - actualWidth/2 + pos.width/2}
             break
           case 'left':
             tp = {top: pos.top + pos.height / 2 - actualHeight / 2, left: pos.left - actualWidth}
@@ -141,12 +141,16 @@ var transitionOut = 500;
             tp = {top: pos.top + pos.height / 2 - actualHeight / 2, left: pos.left + pos.width}
             break
         }
-
+//remove opacity setting here. Just do it here. Good reasons.
+var thing = document.getElementsByClassName('tooltip');
+for(var i = 0; i < thing.length; i++){
+thing[i].style.opacity = null;
+}
         $tip
-          .css(tp) //applies CSS
+          .css(tp) //applies CSS        
           .addClass(placement)
-          .addClass('in') //actual fade in command
-          .slideDown()
+          .slideDown(transitionIn)
+           .addClass('in') //actual fade in command
       }
     }
 
@@ -170,10 +174,18 @@ var transitionOut = 500;
   , hide: function () {
       var that = this
         , $tip = this.tip()
-//delay tip remove. Somehow.
-      $tip.removeClass('in')
+//delay tip remove. Somehow.  
+
+      $tip.animate({
+	      opacity: -2,
+	      top:0,
+      },
+      transitionOut,
+      function(){
+ $tip.removeClass('in');
+      });
+          
       //if move manually, make it happen here for out.
-      $tip.slideUp();
       function removeWithAnimation() {
         var timeout = setTimeout(function () {
           $tip.off($.support.transition.end).remove()
@@ -272,7 +284,7 @@ var transitionOut = 500;
     animation: false
   , placement: 'top'
   , selector: false
-  , template: '<div class="tooltip"><div class="tooltip-inner-wrapper"><div class="tooltip-inner"></div></div><div class ="tooltip-arrow-outer"><div class="tooltip-arrow"><div class="arrow"></div></div></div></div>'
+  , template: '<div class="tooltip" id="tool"><div class="tooltip-inner-wrapper"><div class="tooltip-inner"></div></div><div class ="tooltip-arrow-outer"><div class="tooltip-arrow"><div class="arrow"></div></div></div></div>'
   , trigger: 'hover'
   , title: ''
   , delay:''
