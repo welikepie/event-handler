@@ -17,8 +17,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * ========================================================== */
-
-var transitionOut = 1000;
+var pimpHeight;
+var transitionOut = 500;
 var transitionIn = 500;
 !function ($) {
 
@@ -120,19 +120,22 @@ var transitionIn = 500;
           .css({ top: 0, left: 0, display: 'block'}); //adds new instance
           $tip.appendTo(inside ? this.$element : this.$element[0]); //appends tooltip to element
 
-		console.log(this.$element[0]);
+		//console.log(this.$element[0]);
         pos = this.getPosition(inside)//gets position of div
-		console.log(pos);
-        actualWidth = $tip[0].offsetWidth 
-        actualHeight = $tip[0].offsetHeight
+		//console.log(pos);
+		console.log($tip[0].offsetHeight);
+        actualWidth = $tip[0].offsetWidth ;
+        actualHeight = $tip[0].offsetHeight;
+        pimpHeight = this.$element[0].offsetTop;
         $tip.css({ top: 0, left: 0, display: 'none', });
         console.log(actualWidth +","+actualHeight);
+        console.log("pos:"+(this.$element[0].offsetHeight)*0.375);
         switch (inside ? placement.split(' ')[1] : placement) {
           case 'bottom':
             tp = {top: pos.top + pos.height, left: pos.left + pos.width / 2 - actualWidth / 2}
             break
           case 'top':
-             tp = {top: pos.top - 3*pos.height - actualHeight + actualHeight,marginTop:actualHeight*-1,left: pos.left - actualWidth/2 + pos.width/2}
+             tp = {top: this.$element[0].offsetTop - (this.$element[0].offsetHeight)*0.3 , marginTop:actualHeight*-1,left: pos.left - actualWidth/2 + pos.width/2}
             break
           case 'left':
             tp = {top: pos.top + pos.height / 2 - actualHeight / 2, left: pos.left - actualWidth}
@@ -175,14 +178,14 @@ thing[i].style.opacity = null;
       var that = this
         , $tip = this.tip()
 //delay tip remove. Somehow.  
-
+ $tip.removeClass('in');
       $tip.animate({
-	      opacity: -2,
-	      top:0,
+	      top: pimpHeight - 200,
       },
       transitionOut,
+      "linear",
       function(){
- $tip.removeClass('in');
+
       });
           
       //if move manually, make it happen here for out.

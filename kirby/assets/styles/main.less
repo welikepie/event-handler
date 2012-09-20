@@ -637,6 +637,7 @@ article { margin-bottom: @base * 4; }
       -webkit-box-shadow: 0 5px 5px rgba(0,0,0,0.3);
 
     .tooltip-inner {
+        text-shadow:none;
     color:#343434;
     font-size:12px;
      line-height:14px;
@@ -744,14 +745,16 @@ opacity: 0;
     border-bottom-color: #000000;
   }
 }
-
+.buttonContainer{
+    float:right;
+    }
 .fade {
   opacity: 0;
-  -webkit-transition: opacity 0.5s linear;
-     -moz-transition: opacity 0.5s linear;
-      -ms-transition: opacity 0.5s linear;
-       -o-transition: opacity 0.5s linear;
-          transition: opacity 0.5s linear;
+  -webkit-transition: opacity 0.2s linear;
+     -moz-transition: opacity 0.2s linear;
+      -ms-transition: opacity 0.2s linear;
+       -o-transition: opacity 0.2s linear;
+          transition: opacity 0.2s linear;
 }
 
 .fade.in {

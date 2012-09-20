@@ -11,7 +11,8 @@
 			echo('<script type="text/javascript">' . $snippet . '</script>');
 ?>
 <script src="assets/scripts/jQuery1-8-0.js"></script>
-<script src="assets/scripts/bootstrap-tooltip.js"></script>
+<script src="assets/scripts/tooltipAdd.js"></script>
+<script src="assets/scripts/tooltipMod.js"></script>
 <script type="text/javascript">
 	
 $(document).ready(function () {
