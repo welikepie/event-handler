@@ -47,6 +47,27 @@ These guys seem to have endless ways of making coffee, a staple in the tech comm
 
 A mad scientist currently working with BBC News. He plays with geiger counters and the human anatomy and will be teaching us how to analyse bone fractures and do anatomical sketches.
 
+<a name ="helenArney"</a>(image: Helen-Arney.png class: full-width)
+
+###Helen Arney
+
+A self proclaimed “comedian and geek songstress” currently touring at Edinburgh Fringe. She will be performing her “culinary science” workshop. 
+
+<a name ="frankieRoberto"</a>(image: Frankie-Roberto.png class: full-width)
+<a name="jimmyHatherley">
+
+###Frankie Roberto
+
+A UX designer and LEGO enthusiast. He will be holding a discussion about the famous plastic blocks whilst our attendees construct their own masterpieces.
+
+<a name="paulusDreibholz">
+###Jimmy Hatherley of London Fields Brewery
+
+He will be taking us through a world of beer, holding a tasting session and informing us about the process of making the good stuff. 
+
+###Paulus Dreibholz of TeachingType.com
+
+He will be teaching us how to design our own typefaces, sketching them out and building them up. 
 ----
 What: All Things Geeky
 ----
