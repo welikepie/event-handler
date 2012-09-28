@@ -21,7 +21,7 @@
 						<?php
 						
 							// Podcasts list
-							if (count($profile['Podcasts'])) {
+							if (isset($profile['Podcasts']) && count($profile['Podcasts'])) {
 								echo('<!-- '); var_dump($profile['Podcasts']); echo(' -->');
 								echo('<ul class="podcasts">');
 								foreach ($profile['Podcasts'] as $title => $link) {
@@ -31,7 +31,7 @@
 							}
 							
 							// Videos list
-							if (count($profile['Videos'])) {
+							if (isset($profile['Videos']) && count($profile['Videos'])) {
 								echo('<ul class="videos">');
 								foreach ($profile['Videos'] as $title => $link) {
 								
