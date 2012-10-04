@@ -2,15 +2,15 @@
 ----
 Text: 
 
-Lightning talks celebrating geekiness. With talks ranging from board games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).
+Lightning talks celebrating geekiness, with talks ranging from board games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).
 ----
 Blurb:
 
-Lightning talks celebrating geekiness. With talks ranging from board games and zombies to Lego and 4sq.
+Lightning talks celebrating geekiness, with talks ranging from board games and zombies to Lego and 4sq.
 ----
-What: Geeks & Lightning talks
+What: Geeks & Lightning Talks
 ----
-Date: 2012-11-22
+Date: 2012-10-22
 ----
 Where: Forward Internet Group, 
 19 Mandela Street, 
@@ -26,7 +26,7 @@ Infobox:
 	<span>Geeky</span>
 	<span>22nd October 2012</span>
 	<abbr class="easydate">Mon, 22 October 2012 18:00:00 +0000</abbr>
-	<a href="http://geeky-august.eventbrite.com/" target="_blank">View Tickets</a>
+	<a href="http://geeky-october.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
 ----
 Booking_link: http://geeky-october.eventbrite.com/
