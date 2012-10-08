@@ -49,23 +49,23 @@ A mad scientist currently working with BBC News. He plays with geiger counters a
 
 <a name="helenArney"</a>(image: Helen-Arney.png class: full-width)
 
-###Helen Arney
+### Helen Arney & Rob Wells: Domestic Science
 
-A self proclaimed “comedian and geek songstress” currently touring at Edinburgh Fringe. She will be performing her “culinary science” workshop. 
+Comedians Helen Arney & Rob Wells, fresh back from the Edinburgh Fringe, will be performing their "culinary science" workshop. "Highly entertaining… Surprisingly educational" - <i>Broadway Baby</i>"
 
 <a name="frankieRoberto"</a>(image: Frankie-Roberto.png class: full-width)
 
-###Frankie Roberto
+### Frankie Roberto
 
 A UX designer and LEGO enthusiast. He will be holding a discussion about the famous plastic blocks whilst our attendees construct their own masterpieces.
 
 <a name="jimmyHatherley"></a>
-###Jimmy Hatherley of London Fields Brewery
+### Jimmy Hatherley of London Fields Brewery
 
 He will be taking us through a world of beer, holding a tasting session and informing us about the process of making the good stuff. 
 
 <a name="paulusDreibholz"></a>
-###Paulus Dreibholz of TeachingType.com
+### Paulus Dreibholz of TeachingType.com
 
 He will be teaching us how to design our own typefaces, sketching them out and building them up. 
 ----

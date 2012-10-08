@@ -10,7 +10,7 @@ Lightning talks celebrating geekiness, with talks ranging from board games and z
 ----
 What: Geeks & Lightning Talks
 ----
-Date: 2012-10-22
+Date: 2012-10-23
 ----
 Where: Forward Internet Group, 
 19 Mandela Street, 
@@ -24,8 +24,8 @@ Infobox:
 
 <h1>
 	<span>Geeky</span>
-	<span>22nd October 2012</span>
-	<abbr class="easydate">Mon, 22 October 2012 18:00:00 +0000</abbr>
+	<span>23rd October 2012</span>
+	<abbr class="easydate">Tue, 23 October 2012 18:00:00 +0000</abbr>
 	<a href="http://geeky-october.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
 ----
