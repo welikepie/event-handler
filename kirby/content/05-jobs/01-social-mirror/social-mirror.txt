@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red43\green43\blue43;\red0\green0\blue233;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Title: Lead Developer\
+----\
+Text:\
+\
+\pard\pardeftab720\sa160
+\cf2 Want to work on a ground-breaking project in health service delivery, together with the Royal Society of Arts and MIT Center for Civic Media? Social Mirror, an open source project, is looking for a London-based, part-time consultant experienced in tablet client design in javascript and HTML to work on Social Mirror.\
+The developer will be working closely with the Royal Society of Arts and health practitioners, in conjunction with a developer at the MIT Media Lab, to refactor an existing prototype and bring it through several working, tested iterations, with the possibility of further work afterwards. Social Mirror is open source under the MIT license.\
+The ideal candidate will have experience in Backbone.js and PhoneGap, with some knowledge of server-side development. Especially good candidates will be able to apply lessons from Agile and Test Driven Development techniques to this project where applicable.\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+## About us\
+\
+\pard\pardeftab720\sa160
+\cf2 The Social Mirror project is a collaboration between the Royal Society of Arts Connected Communities project and the MIT Media Lab Center for Civic Media to build digital tools for network thinking in public services and health delivery.\cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+\
+----\
+Company: The Social Mirror \
+----\
+Type: Part-time\
+----\
+Location: London, UK\
+----\
+Tags: JavaScript, Node.js, Backbone.js, Phone Gap, Server-Side\
+----\
+Application: {\field{\*\fldinst{HYPERLINK "mailto:natematias@gmail.com"}}{\fldrslt 
+\f1\fs22 \cf3 \ul \ulc3 natematias@gmail.com}}\
+----\
+Date: 2012-10-08\
+----\
+Template: job\
+----}

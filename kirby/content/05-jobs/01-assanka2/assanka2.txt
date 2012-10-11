@@ -1,0 +1,52 @@
+Title: JavaScript Developer
+----
+Text:
+
+FT Labs is a brand new emerging web technologies group within the Financial Times, one of the world’s leading business news and information organisations.  We build web applications using exciting new web technologies, and are looking for new JavaScript developers to join our team.
+
+## Responsibilities may include:
+
+* Operational management of Linux servers running Apache, MySQL, PHP and associated technologies
+* Building developer VMs and configuring new server platforms
+* Testing, debugging and troubleshooting of platform level problems, identifying and isolating problematic software to assist the development team and systems administrators with fault resolution.
+* Monitoring and optimising server and application performance
+* Supporting the development team with deployment and production config for their applications
+* Sharing on-call duties
+
+## Required skills
+
+* Experience managing linux servers for high availability
+* Server monitoring, Zabbix/Nagios etc
+* Shared storage
+* MySQL database deployment, monitoring and optimisation
+* Proxy strategies for website acceleration
+* Configuration management using cfengine or puppet
+* Package management using RPM
+* PHP, SQL and JavaScript to an advanced level
+* Technical problem solving abilities
+
+## Desirable skills
+
+* Data protection compliant backup strategy
+* System performance tuning and capacity planning
+* CCNA/CCNP
+
+## Salary
+
+We offer salaries of £30,000 – £50,000 for webops roles
+
+----
+Company: FT Labs
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: JavaScript, Developer, Publishing, Content, HTML5
+----
+Application: http://labs.ft.com/jobs/app
+----
+Date: 2012-10-08
+----
+Template: job
+----

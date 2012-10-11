@@ -1,0 +1,126 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Tahoma;\f2\fnil\fcharset0 TrebuchetMS;
+}
+{\colortbl;\red255\green255\blue255;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Title: Senior Software Developer\
+----\
+Text:\
+\
+\pard\pardeftab720
+
+\f1 \cf0 The 20 strong development team is split into smaller teams, each with it's own dedicated product manager and always on hand, in-line QA. Each of these teams operate like their own start-up - empowered to make any decisions needed to get the job done.
+\f0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+## About MOO:\
+\
+* We make life a little less virtual (we love the web, but you can't put it in your pocket).\
+* We help our customers create products like Business Cards, Postcards and MiniCards, making it easy for them to share information about themselves or their business in the real world.\
+* Unlike many tech companies, we make physical products, and they are used every day by hundreds of thousands of people around the world.\
+* We work with amazing partners including Facebook, Flickr, Etsy, LinkedIn, and YouTube.\
+\
+## Responsibilities\
+\
+\pard\pardeftab720
+
+\f1 \cf0 Wondering what you would work on?
+\f2 \
+\'a0\
+
+\f1 Well, it's difficult to say since the scope of our work is so varied. The work changes depending on the priority set by our product team.
+\f2 \
+
+\f1 To provide you with a taste of what the work may involve: had you joined the team back in January you would have worked on some (or all of) the following:
+\f2 \
+* 
+\f1 Designing and delivering our new data model and PDF rendering process
+\f2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls1\ilvl0
+\f1 \cf0 * Creating and coding a brand spanking new "Accounts" section of the website
+\f2 \
+\ls1\ilvl0
+\f1 * Researching and releasing a custom algorithm to detect whether JPEGs are photographs or artwork
+\f2 \
+\ls1\ilvl0
+\f1 * Imagining and implementing the new version of the MOO API
+\f2 \
+\pard\pardeftab720
+\cf0 \'a0\
+\pard\pardeftab720
+
+\f1 \cf0 We're currently working on something pretty interesting that involves CouchDB, and something else with Flash (sandwiched between a table football tournament or two).
+\f2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0 \cf0 \
+\
+## About you\
+\
+\pard\pardeftab720
+
+\f1 \cf0 We'd be over the moon if you:
+\f2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0
+\f1 \cf0 * have a strong work ethic (whilst making time to have fun at the end of the day)
+\f2 \
+\ls2\ilvl0
+\f1 * know your interfaces from your abstract classes
+\f2 \
+\ls2\ilvl0
+\f1 * can draw an abstract factory on a whiteboard without breaking sweat
+\f2 \
+\ls2\ilvl0
+\f1 * hand on your heart, can honestly say you really understand the basics of HTTP and maybe what an RFC is
+\f2 \
+\ls2\ilvl0
+\f1 * search for that last line to get 100% code coverage with your unit tests
+\f2 \
+\ls2\ilvl0
+\f1 * have ever looked to see what the cyclometric complexity of your code is, just for fun
+\f2 \
+\ls2\ilvl0
+\f1 * can explain what CSRF is, and how to stop it\
+\ls2\ilvl0
+\f2 \
+\pard\pardeftab720
+
+\f1 \cf0 It wouldn't hurt if you:
+\f2 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0
+\f1 \cf0 * know a bit of PHP
+\f2 \
+\ls3\ilvl0
+\f1 * have dabbled with JQuery
+\f2 \
+\ls3\ilvl0
+\f1 * have written something in ActionScript
+\f2 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0 \cf0 \
+\
+----\
+Company: MOO.com\
+----\
+Type: Permanent\
+----\
+Location: London, UK\
+----\
+Tags: API, PHP, CSRF, Software, Developer, Full-Time\
+----\
+Application: https://jobs-moo.icims.com/jobs/1077/job\
+----\
+Date: 2012-10-11\
+----\
+Template: job\
+----}
