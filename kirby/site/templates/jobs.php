@@ -32,21 +32,23 @@
 					<p class="meta"><span>Company:</span> <?php echo html($job->company()); ?></p>
 					<p class="meta"><span>Location:</span> <?php echo html($job->location()); ?></p>
 					<p class="meta"><span>Job type:</span> <?php echo html($job->type()); ?></p>
-					<div class="tags"><span>Tags:</span> <?php
+					<?php
 					
-						$tags = $job->tags();
-						if ($tags) {
-							$tags = explode(",", $tags);
-							foreach($tags as $tag) {
-							
-								$tag = trim($tag);
-								if (!$tag) { continue; }
-								echo('<p class="tag">' . $tag . '</p>');
-							
-							}
+					$tags = $job->tags();
+					if ($tags) {
+						?><div class="tags"><span>Tags:</span> <?php
+						$tags = explode(",", $tags);
+						foreach($tags as $tag) {
+						
+							$tag = trim($tag);
+							if (!$tag) { continue; }
+							echo('<p class="tag">' . $tag . '</p>');
+						
 						}
+						?></div><?php
+					}
 					
-					?></div>
+					?>
 					<div class="contact"><span>Contact:</span> <a href="<?php snippet('universal_link', array('link' => $job->application())); ?>" rel="external" class="application">Contact the Employer</a></div>
 					<div class="description"><?php echo kirbytext($job->text()); ?></div>
 					<a class="extender">View More</a>

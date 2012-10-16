@@ -50,7 +50,7 @@ Company: MOO.com
 Type: Permanent
 ----
 Location: London, UK
-----\
+----
 Tags: API, PHP, CSRF, Software, Developer, Full-Time
 ----
 Application: https://jobs-moo.icims.com/jobs/1077/job
