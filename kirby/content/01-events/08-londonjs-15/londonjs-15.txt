@@ -18,7 +18,7 @@ Evening of Javascript talks about Microframeworks and Require.js.
 ----
 What: Javascript Talks
 ----
-Date: 2012-10-15 6:30
+Date: 2012-10-15 18:30
 ----
 End_Date: 2012-10-15 21:00
 ----
