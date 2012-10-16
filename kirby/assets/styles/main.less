@@ -7,6 +7,7 @@
 @sideWidth: 833px;
 @pagePadding: 89px;
 @pageBackground: #223B5A;
+
 // LAYOUT DEFINITIONS
 // -----------------------------
 
@@ -102,7 +103,6 @@ header {
         	text-decoration: none;
             &:hover, &:focus { color: #333; }
         }
-        
     }
 }
 
@@ -271,6 +271,24 @@ article { margin-bottom: @base * 4; }
             padding:0px 0px 0px 6px;
             margin:0px 0px 6px 0px;
             }
+		.sponsors {
+			clear: left;
+			padding: 24px 0 0;
+			.sponsorship {
+				margin-bottom: 16px;
+				.title {
+					font-family: "futura-pt-condensed", sans-serif;
+					font-size: 28px;
+					line-height: 28px;
+					margin: -4px 0 12px;
+				}
+				.banners {
+					.modal;
+					a { display: block; width: 100%; text-align: center; }
+					img { max-width: 100%; max-height: 120px; }
+				}
+			}
+		}
     }
     .hidden{
         width:0px;
@@ -614,7 +632,30 @@ article { margin-bottom: @base * 4; }
     }
     
 }
-.page_container.extended { min-width: 1138px; }
+.page_container.extended {
+    min-width: 1138px;
+    overflow: hidden;
+    section { width: 960px; }
+    article {
+        overflow: hidden;
+        .main_content {
+            float: left;
+            width: 655px;
+            + .main_content {
+                float: right;
+                clear: right;
+                width: 281px;
+                .details { width: 281px; }
+                .lanyrd_speakers {
+                    width: 100%;
+                    margin: 16px 0 0;
+                    overflow: hidden;
+                    .fullwidth { width: 100%; }
+                }
+            }
+        }
+    }
+}
 .page_container.extended section { width: 960px; }
 //popover and tooltip stylings, yo.
 
@@ -1773,7 +1814,7 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
     }
 }
 
-.geeklates-button {
+.geeklates-button, .red-button {
     display: block;
     padding: @base;
     margin: 24px 0 0;

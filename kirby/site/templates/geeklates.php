@@ -175,7 +175,7 @@ if ($banners) {
 							
 							echo('<div class="heads">Speakers</div>');
 							echo ('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>'); 
-							echo('<div class="heads">Organisers & Hosts</div>');
+							echo('<div class="heads">Organisers &amp; Hosts</div>');
 							echo('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>');
 							
 						}
@@ -187,6 +187,33 @@ if ($banners) {
 							$booking = $page->booking_link();
 							if ($booking) { ?><a href="<?php echo $booking; ?>" class="geeklates-button">View Tickets</a><?php
 						} ?>
+						
+						<?php
+							$sponsors = $page->sponsors();
+							if ($sponsors) {
+							
+								?><div class="sponsors"><?php
+								
+								$sponsors = yaml($sponsors);
+								foreach ($sponsors as &$sponsorship) {
+								
+									echo('<div class="sponsorship">');
+										if (isset($sponsorship['title'])) { echo('<div class="title">' . $sponsorship['title'] . '</div>'); }
+										echo('<div class="banners">');
+										foreach ($sponsorship['sponsors'] as &$item) {
+											if (isset($item['url'])) { echo('<a href="' . $item['url'] . '">'); }
+											echo('<img src="' . $item['image'] . '" alt="' . (isset($item['title']) ? $item['title'] : '') . '">');
+											if (isset($item['url'])) { echo('</a>'); }
+										}
+										echo('</div>');
+									echo('</div>');
+								
+								}
+								
+								?></div><?php
+							
+							}
+						?>
 						
 					</div>
 					

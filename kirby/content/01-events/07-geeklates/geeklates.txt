@@ -87,6 +87,20 @@ Booking_link: http://geeklates.eventbrite.com/
 ----
 Lanyard: http://lanyrd.com/2012/geek-lates/
 ----
+Sponsors:
+
+- title: Golden Sponsor
+  sponsors:
+    - image: https://mailchimp.com/downloads/new-brand-assets/Logo_Light-Background.png
+      url: https://mailchimp.com/
+- title: Silver Sponsors
+  sponsors:
+    - image: http://www.twilio.com/packages/company/img/logos_downloadable_logobrand.png
+      url: http://www.twilio.com/
+    - image: http://i.imgur.com/Frtfr.png
+      url: http://rosenfeldmedia.com/
+  
+----
 Infobox:
 
 <h1>

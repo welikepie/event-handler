@@ -20,7 +20,7 @@ if ($banners) {
 		<div class="map_container">
 			<?php if (!$banners) { ?><div id="map" style="width:100%; height:100%;"></div><?php } ?>
 		</div>
-		<div class="page_container">
+		<div class="page_container extended">
 			<section class="event_list">
 				<article>		
 					<div class="main_content">
@@ -35,9 +35,9 @@ if ($banners) {
 						?>
 						
 						<!-- Booking link (if available) -->
-						<?php
+						<!--<?php
 							$booking = $page->booking_link();
-							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">Tickets</a><?php } ?>
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="booking button">Tickets</a><?php } ?>-->
 					</div>
 					
 					<?php
@@ -185,12 +185,47 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 								}
 							}
 							
-							echo('<div class="heads">Speakers</div>');
-							echo ('<div class="fullwidth" id = "speakerField">'.$speakersOut.'</div>'); 
-							echo('<div class="heads">Organisers & Hosts</div>');
-							echo('<div class="fullwidth" id = "organiserField">'.$organisersOut.'</div>');
+							echo('<div class="lanyrd_speakers">');
+								echo('<div class="heads">Speakers</div>');
+								echo (('<div class="fullwidth" id = "speakerField"><ul class="people">'.$speakersOut.'</ul></div>')); 
+								echo('<div class="heads">Organisers & Hosts</div>');
+								echo(('<div class="fullwidth" id = "organiserField"><ul class="people">'.$organisersOut.'</ul></div>'));
+							echo('</div>');
 							
 						}
+						?>
+						
+						<!-- Booking link (if available) -->
+						<?php
+							$booking = $page->booking_link();
+							if ($booking) { ?><a href="<?php echo $booking; ?>" class="red-button">View Tickets</a><?php
+						} ?>
+						
+						<?php
+							$sponsors = $page->sponsors();
+							if ($sponsors) {
+							
+								?><div class="sponsors"><?php
+								
+								$sponsors = yaml($sponsors);
+								foreach ($sponsors as &$sponsorship) {
+								
+									echo('<div class="sponsorship">');
+										if (isset($sponsorship['title'])) { echo('<div class="title">' . $sponsorship['title'] . '</div>'); }
+										echo('<div class="banners">');
+										foreach ($sponsorship['sponsors'] as &$item) {
+											if (isset($item['url'])) { echo('<a href="' . $item['url'] . '">'); }
+											echo('<img src="' . $item['image'] . '" alt="' . (isset($item['title']) ? $item['title'] : '') . '">');
+											if (isset($item['url'])) { echo('</a>'); }
+										}
+										echo('</div>');
+									echo('</div>');
+								
+								}
+								
+								?></div><?php
+							
+							}
 						?>
 					</div>
 				</article>
