@@ -7,3 +7,6 @@ kirby/site/cache/*
 .metadata
 *.launch
 .settings/
+kirby/content/01-events/10-londonjs-16/londonjs-16.txt
+
+.DS_Store
