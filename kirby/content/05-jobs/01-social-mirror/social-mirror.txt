@@ -1,23 +1,54 @@
-Title: Lead Developer
+Title: Touchscreen JavaScript Developer
 ----
 Text:
 
-Want to work on a ground-breaking project in health service delivery, together with the Royal Society of Arts and MIT Center for Civic Media? Social Mirror, an open source project, is looking for a London-based, part-time consultant experienced in tablet client design in javascript and HTML to work on Social Mirror.
-The developer will be working closely with the Royal Society of Arts and health practitioners, in conjunction with a developer at the MIT Media Lab, to refactor an existing prototype and bring it through several working, tested iterations, with the possibility of further work afterwards. Social Mirror is open source under the MIT license.
-The ideal candidate will have experience in Backbone.js and PhoneGap, with some knowledge of server-side development. Especially good candidates will be able to apply lessons from Agile and Test Driven Development techniques to this project where applicable.
+Want to work on a ground-breaking project in health service delivery, together with the Royal Society of Arts and MIT Center for Civic Media? Social Mirror, an open source project, is looking for a three month part-time consultant experienced in tablet client design in javascript and HTML to work on a network survey app for tablets. The ideal candidate would be able to access both London and Bristol.
+
+## About social mirror
+
+The Social Mirror project is a collaboration between the Royal Society of Arts Connected Communities project and the MIT Media Lab Center for Civic Media to build digital tools for network thinking in public services and health delivery. Social Mirror is a tablet application that you can use to measure and visualise real-life social and community networks.
+
+Social Prescribing: Social prescribing is the linking of patients to resources in their community by primary healthcare practitioners. By responding to a series of questions on Social Mirror, users can receive a GP-guided analysis of their online and offline social connections, as well as advice about how they could use their connections to improve their mental wellbeing.
+
+By testing the software’s effectiveness in different contexts – such as administered by GPs or other health practitioners, or on a self-administered basis – the RSA will evaluate the impact of social prescriptions on people’s mental wellbeing, their sense of attachment to and participation in the local community, and their use of public services.
+
+## About the role
+
+Starting in mid-late November, the developer will be working closely with the Royal Society of Arts and health practitioners, in conjunction with a developer at the MIT Media Lab, to refactor an existing prototype and bring it through several working, tested iterations. The part-time project is expected to end in February, with the possibility of further work afterwards.
+
+The basic Social Mirror tool is open source (MIT License). The developer will be expected to contribute to the core open source project in the course of customising a proprietary version for the RSA. As part of the role, the developer will:
+
+* Participate in community co-development events 
+* Design the survey user experience 
+* Design visualisations of personal networks 
+* Develop a version one app, incorporating community testing feedback
+
+## Experience 
+The ideal candidate will have some experience in Backbone.js and PhoneGap, or related experience with touchscreen development on the web. Some knowledge of server-side development will be helpful. Outstanding candidates will be able to apply lessons from Agile and Test Driven Development techniques to this project where applicable.
+
+## Budget
+This part-time consultant position will be funded from £8-10k, depending on experience.
+
+## What to send
+
+* A cover letter explaining your interest, relevant skills and experience 
+* Links to any projects or portfolio 
+* A description of the values and style that defines your preferred approach
 
 ## About us
 
-The Social Mirror project is a collaboration between the Royal Society of Arts Connected Communities project and the MIT Media Lab Center for Civic Media to build digital tools for network thinking in public services and health delivery.
+The RSA: The RSA’s mission is to promote positive social change. We believe that progress happens when concerned citizens find new ways to collaborate in solving the problems society faces. The RSA seeks to encourage the process of civic innovation through its network of 27,000 Fellows inspired and facilitated by a programme of projects that combine ideas and practice.
+
+Connected Communities: The Connected Communities project team sits in the RSA’s in-house think-tank, the Action Research Centre. We work on issues including public services, communities and social exclusion. At the moment the team is working on projects to gain a better understanding of community and social connections, and the ways in which they can be both positive and negative for our health, wellbeing and other life outcomes.
 
 ----
-Company: The Social Mirror
+Company: The RSA
 ----
-Type: Part-time
+Type: Consultant
 ----
-Location: London, UK
+Location: London / Bristol
 ----
-Tags: JavaScript, Node.js, Backbone.js, Phone Gap, Server-Side
+Tags: JavaScript, Backbone.js, PhoneGap, Touchscreen UX
 ----
 Application: mailto:natematias@gmail.com
 ----
