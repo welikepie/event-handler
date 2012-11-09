@@ -1,0 +1,45 @@
+Title: Design Modelling Workshop
+----
+Text: 
+
+Join (link https://twitter.com/jude_pullen text: Jude Pullen), award winning designer and engineer at Dyson UK on a full day design modelling workshop. Working from sketches; Jude will teach you how to make physical prototypes out of card, foam and plastic. Learn how to make joints & curves, folds & cuts and how to put it all together.
+
+What you'll learn:
+* How to turn your ideas into a final prototype
+* Techniques to handle cardboard, foam and plastic
+* The score and snap technique for modelling with acrylic
+* How to make curves, joints, folds and cuts. 
+* How to use a glue gun to piece your work together
+
+----
+Blurb:
+
+A full day Design Modelling workshop
+----
+What: Design Modelling Workshop
+----
+Date: 2013-01-26 09:00
+----
+End_Date: 2013-01-26 18:00
+----
+Where: Google Campus, 4-5 Bonhill Street, 
+London,
+EC2A 4BX
+----
+Cost: £60
+----
+Map: 4-5 Bonhill Street, London, EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>Design Modelling Workshop</span>
+	<span>26th January 2013</span>
+	<abbr class="easydate">Sat, 26 January 2013 09:00:00 +0000</abbr>
+	<a href="http://eventhandler-designmodelling-01.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://eventhandler-designmodelling-01.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2012/eventhandler-designmodelling-01/
+----
