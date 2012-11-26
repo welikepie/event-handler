@@ -1,4 +1,4 @@
-Title: EventHandler Games Night
+Title: Event Handler Games Night
 ----
 Text: 
 
@@ -34,12 +34,14 @@ Map:  336 Old Street, London, EC1V 9DR
 Infobox:
 
 <h1>
-	<span>Game</span>
+	<span>Event Handler Games Night</span>
 	<span>17th December 2012</span>
 	<abbr class="easydate">Mon, 17 December 2012 18:30:00 +0000</abbr>
+	<a href="http://eventhandler-gamesnight-01.eventbrite.com/" target="_blank">View Tickets</a>
+
 </h1>
 ----
-Booking_link:
+Booking_link: http://eventhandler-gamesnight-01.eventbrite.com/
 ----
 Lanyard: http://www.lanyrd.com/2012/eventhandler-gamesnight-01/
 ----
