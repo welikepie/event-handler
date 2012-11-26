@@ -5,6 +5,7 @@ Text:
 Join us in the pub for an evening of board games! Head down after work to relax with a drink and some of your favourites.
 
 Games we're bringing:
+
 * Carrcassone
 * Settlers of Catan
 * Once upon a time
@@ -25,7 +26,7 @@ End_Date: 2012-12-17 22:30
 ----
 Where: The Reliance, 
 336 Old Street,
-London, EC1V 9DR.
+London, EC1V 9DR
 ----
 Cost: Free
 ----

@@ -2,16 +2,17 @@ Title: Design Modelling Workshop
 ----
 Text: 
 
-Join (link https://twitter.com/jude_pullen text: Jude Pullen), award winning designer and engineer at Dyson UK on a full day design modelling workshop. Working from sketches; Jude will teach you how to make physical prototypes out of card, foam and plastic. Learn how to make joints & curves, folds & cuts and how to put it all together.
+Join (link: https://twitter.com/jude_pullen text: Jude Pullen), award winning designer and engineer at Dyson UK on a full day design modelling workshop. Working from sketches; Jude will teach you how to make physical prototypes out of card, foam and plastic. Learn how to make joints & curves, folds & cuts and how to put it all together.
 
 What you'll learn:
+
 * How to turn your ideas into a final prototype
 * Techniques to handle cardboard, foam and plastic
 * The score and snap technique for modelling with acrylic
 * How to make curves, joints, folds and cuts. 
 * How to use a glue gun to piece your work together
 
-If you have a particular idea of what you'd like to prototype at the workshop, then you can email us at contact@eventhandler.co.uk and let us know!
+If you have a particular idea of what you'd like to prototype at the workshop, then you can email us at (email: contact@eventhandler.co.uk) and let us know!
 
 ----
 Blurb:
@@ -42,5 +43,5 @@ Infobox:
 ----
 Booking_link: http://eventhandler-designmodelling-01.eventbrite.com/
 ----
-Lanyard: http://www.lanyrd.com/2012/eventhandler-designmodelling-01/
+Lanyard: http://lanyrd.com/2013/eventhandler-designmodelling-01/
 ----
