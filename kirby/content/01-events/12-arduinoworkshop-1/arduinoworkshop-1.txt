@@ -17,6 +17,8 @@ Requirements:
 * Basic understanding of Javascript
 * You will be provided with an Arduino to use, but please make sure to bring a laptop with you!
 
+(image: arduinofinal.jpg class: full-width)
+
 ----
 Blurb:
 
