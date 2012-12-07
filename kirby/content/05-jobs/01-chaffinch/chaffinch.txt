@@ -1,0 +1,25 @@
+Title: Junior Web Developer
+----
+Text:
+
+Chaffinch is hiring a junior web developer. 
+
+Our current eco-system includes: Backbone, Coffeescript, Jade, Stylus, Handlebars, Node, Express, WebSockets, Git, Mocha, Google Maps API and Facebook API among other things. If you're familiar with any of these, or looking to learn them, we'd love to hear from you.
+
+Please apply via our API, details here: http://chaffin.ch/careers
+
+----
+Company: Chaffin.ch
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: JavaScript, Backbone, Coffeescript, Jade, Stylus, Handlebars, Node, Express, Websockets, Git, Mocha, API
+----
+Application: http://chaffin.ch/careers
+----
+Date: 2012-07-12
+----
+Template: job
+----
