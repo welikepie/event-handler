@@ -1,4 +1,4 @@
-Title: Arduino One-Day Workshop
+Title: Arduino Workshop
 ----
 Text: 
 

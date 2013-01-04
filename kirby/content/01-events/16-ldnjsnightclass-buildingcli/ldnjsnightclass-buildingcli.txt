@@ -1,4 +1,4 @@
-Title: London JS Night Class: Building Command Line Tools with Node.js
+Title: Command Line Tools
 ----
 Text: 
 Join (link: https://twitter.com/jack_franklin text: Jack Franklin) for a London JS Night Class. In this workshop we'll see how Node.js can be used to build Command Line tools, look at the packages available on Node Package Manager (npm) and publish our own tools to npm, for anyone to use.

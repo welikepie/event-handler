@@ -1,4 +1,4 @@
-Title: London JS Night Class: Modern Tooling on the Command Line
+Title: Modern Tooling
 ----
 Text: 
 
