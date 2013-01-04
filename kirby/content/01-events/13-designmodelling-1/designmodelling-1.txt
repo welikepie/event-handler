@@ -1,4 +1,4 @@
-Title: Design Modelling
+Title: Design Modelling Workshop
 ----
 Text: 
 
@@ -37,7 +37,7 @@ Map:  Cowper Street, London, EC2A 4SH
 Infobox:
 
 <h1>
-	<span>Design Modelling Workshop</span>
+	<span>Design Modelling</span>
 	<span>26th January 2013</span>
 	<abbr class="easydate">Sat, 26 January 2013 10:00:00 +0000</abbr>
 	<a href="http://eventhandler-designmodelling-01.eventbrite.com/" target="_blank">View Tickets</a>

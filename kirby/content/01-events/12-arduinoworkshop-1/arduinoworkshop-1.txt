@@ -41,7 +41,7 @@ Map: 4-5 Bonhill Street, London, EC2A 4BX
 Infobox:
 
 <h1>
-	<span>Arduino One-Day Workshop </span>
+	<span>Arduino Workshop </span>
 	<span>13th February 2013</span>
 	<abbr class="easydate">Wed, 13 February 2013 10:00:00 +0000</abbr>
 	<a href="http://eventhandler-arduino-01.eventbrite.com/" target="_blank">View Tickets</a>

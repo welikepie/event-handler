@@ -1,4 +1,4 @@
-Title: Modern Tooling
+Title: London JS Night Classes: Modern Tooling on the Command Line
 ----
 Text: 
 
@@ -35,7 +35,7 @@ Map:  4-5 Bonhill Street London EC2A 4BX
 Infobox:
 
 <h1>
-	<span>Modern Tooling on the Command Line</span>
+	<span>Modern Tooling</span>
 	<span>6th March 2013</span>
 	<abbr class="easydate">Wed, 6 March 2013 18:30:00 +0000</abbr>
 	<a href="http://ldnjsnightclass-toolingcli.eventbrite.com/" target="_blank">View Tickets</a>
