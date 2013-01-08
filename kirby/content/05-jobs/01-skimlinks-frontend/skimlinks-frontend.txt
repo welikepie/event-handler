@@ -1,0 +1,48 @@
+Title: Front-End Developer / Team Lead
+----
+Text:
+
+Skimlinks is looking for a programmer (we're language agnostic) who's interested in joining and leading our front-end team. Skimlinks is one of the most well-known UK-originated startups in the internet space, founded in London in 2007 and now with offices in San Francisco and New York. We have been described by Techcrunch as one of London's leading startups, and voted in the top 10 of the Guardian Tech Media Invest.
+
+Skimlinks offers blogs, forums and websites the ability to earn an income from their content, by paying them a commission if readers click through and make an online purchase.We consider ourselves a company that sells innovations, and in the last few years we have conceived and built a range of unique, compelling products that have shaken up the online monetization space.
+
+# What will I be working on?
+We're building a single page analytics suite to give web publishers actionable information on how they are monetizing and how they can better monetize (hey you’re helping keep the Internet’s lights on) . Its powered with Backbone.js, require.js, Highcharts and SASS. We're open minded about trying new tools and technologies (any ClosureScript fans out there?). It's very Javascript focussed, built around our API, and we're out to make a fast, reliable (testing + CI) web app that feels of the web, rather than a Flash RIA circa 2003.
+
+While it's obviously simplest for someone who knows Javascript already, if you've never seen a === (some equality operators require more equality than others ;) ) but love picking up new technologies we'd like to hear from you.
+
+# What it’s like to work @Skimlinks?
+
+* Big screens and fast computers (Linux, OSX or PC, up to you)
+* Sociable company - Friday drinks and regular team lunches
+* Office right on Old Street roundabout - more hipster coffeeshops that you could possibly need
+* Unix platform on AWS
+* Standups and a lightweight process
+* Testing and Jenkins CI
+* QA team - ever had someone on your team to whose job it is to double check your end product and catch any errors before release? It's good.
+* A product team that understands why you might want to spend a sprint refactoring
+* Hackdays, big data access on what millions of people are clicking on and buying
+
+
+We'll be most interested in reading your code, regardless of experience. If you've not got some code we can read, either bash out that project you've been meaning to work on or ask us and we'll put together a quick project for you (it'll be something fun, maybe involving d3.js) which will take an hour or so.
+
+If you'd like to come in and have a look around and meet the team pre-interview, get in touch.
+
+We look forward to meeting you!
+
+
+----
+Company: Skimlinks
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: JavaScript, d3.js, Backbone.js, require.js, Highcharts, SASS
+----
+Application: http://jobs.skimlinks.com/apply/jobs/details/OLlfN4?
+----
+Date: 2012-08-01
+----
+Template: job
+----

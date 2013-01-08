@@ -1,0 +1,55 @@
+Title: Senior Software Developer / Team Lead
+----
+Text:
+
+An exciting opportunity for an experienced developer to join an award-winning VC-backed start-up during its rapid growth phase. The role is based in Shoreditch, London right in the middle of the Silicon Roundabout. Our digs have a strong technology culture, lots of space and a high-spec setup.
+
+# About the company
+
+Skimlinks is one of the most well-known UK-originated startups in the internet space, founded in London in 2007 and now with offices in San Francisco and New York. We have been described by Techcrunch as one of London's leading startups, and voted in the top 10 of the Guardian Tech Media Invest. Skimlinks offers blogs, forums and websites the ability to earn an income from their content, by paying them a commission if readers click through and make an online purchase.
+
+We consider ourselves a company that sells innovations, and in the last few years we have conceived and built a range of unique, compelling products that have shaken up the online monetization space.
+
+# About the role
+
+Skimlinks prides ourselves on our fast rate of innovation and our clever products that solve real business problems. Although we have offices in San Francisco and New York, our core technology team is based in our London offices, where we are seeking a talented engineer to be involved in building ground-breaking and compelling products.
+
+# Skills Required:
+
+* Substantial experience building web applications with a broad interest in programming languages
+* API experience, including integration and API design would be very impressive (we are a bit fanatical about APIs)
+* Experience developing scalable web applications for high-volume sites on cloud-based infrastructure such as AWS is also highly desirable
+* On the back-end - noSQL, MapReduce – experience working with huge datasets
+* Hands on experience with big data technologies: Hadoop, Hbase, Flume
+* Experience leading teams or projects with a heavy data science element: recommendation engines, clustering algorithms, classifiers
+* Experience in affiliate marketing, online advertising or other B2B advertising related platform would make you stand out
+* Version control with Git (or SVN)
+* Demonstrable experience working with product managers to plan the development of complex products
+* Experience leading and mentoring less experienced colleagues within an Agile environment
+* Experience developing modular, scalable web applications for high-volume sites and cloud-based infrastructure such as Amazon Web Services
+
+# About you
+
+We are looking for someone who simply loves to code, someone who thinks of it as recreation rather than work, and who has a stream of projects going on just for fun.
+
+* You understand the importance of being data-driven, but you can also rely on your gut and intuition. You thrive in a lean, fast-paced environment that iterates quickly and love the thrill and madness of working in a start-up environment. You have a sense of humour, are ambitious and love pushing the boundaries as much as we do.
+* You will be leading a dev team alongside three other teams, working closely with our CTO and the Product team. 
+* You will be leading projects from start to finish - from idea brainstorming through to planning, guiding and implementation.
+
+
+
+----
+Company: Skimlinks
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: API, Datasets, Hadoop, Hbase, Flume, Affiliate Marketing
+----
+Application: http://jobs.skimlinks.com/apply/jobs/details/WnwYHN?
+----
+Date: 2012-08-01
+----
+Template: job
+----
