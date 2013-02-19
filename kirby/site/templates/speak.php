@@ -13,21 +13,12 @@
 				</p>
 		<div class="speaker_submission">
 				<div class="ss-form">
-					<script type="text/javascript">var submitted=false;</script> <!-- -->
-						<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
-						onload="
-						if(submitted)
-							{
-								window.location='/subConfirm';
-							}
-							">
-	
-	</iframe>
-<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dHo5ckpodXpYbzJRelplb2MzN3pOZ2c6MQ&amp;embedded=true&amp;ifq" target="hidden_iframe" id="ss-form" name = "speakerform" method="post"
-target="hidden_iframe" onsubmit="if(formsubmit()==true){submitted=true;}">
+					<iframe name="hidden_iframe" id="hidden_iframe">
+					</iframe>
+<form action="http://docs.google.com/spreadsheet/formResponse?formkey=dHo5ckpodXpYbzJRelplb2MzN3pOZ2c6MQ&amp;embedded=true&amp;ifq" target="hidden_iframe" id="ss-form" name = "speakerform" method="post"
+target="hidden_iframe" onsubmit="(function(){if(formsubmit()){submitted=true;}})();">
 						<fieldset>
-							<script type="text/javascript">
-							</script>
+							<script type="text/javascript"></script>
 						<div class="errorbox-good">
 							<div class="ss-item ss-item-required ss-text">
 								<div class="ss-form-entry">

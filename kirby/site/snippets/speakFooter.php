@@ -12,6 +12,15 @@
 	?>
 <!--contactSpeaker, speaker, form name  -->
 <script type="text/javascript">
+var submitted=false;
+setTimeout(function() { //onload element doesn't trigger properly in iframes in chrome. (maybe webkit). onReady is set before anything is loaded, causing this.
+       document.getElementById("hidden_iframe").onload = function() {
+         if(submitted == true)
+							{
+								window.location='/subConfirm';
+							}
+       }
+}, 2);
 
 function formsubmit() {
 
