@@ -18,10 +18,10 @@ What you'll need:
 * Proficiency in JavaScript
 * A Laptop
 
-Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)
-Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)
-Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)
-Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)
+Week One: (link: events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)
+Week Two: (link: events/ldnjsnightclass-webgames2 text: 2D Web Physics)
+Week Three: (link: events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)
+Weeks Four and Five: (link: events/ldnjsnightclass-webgames4 text: How to Structure a Game)
 
 (image: webgame3.png class: full-width)
 ----
