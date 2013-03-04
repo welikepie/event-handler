@@ -1,0 +1,53 @@
+Title: London JS Night Class: Git Workshop
+----
+Text: 
+
+An evening workshop hosted by Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski); for those who want to learn all the things they should have learned when they started out with Git. Go from being a complete beginner to highly proficient; learning the theory behind Git, all the necessary commands you need to get by and more advanced things like publishing patches and creating Git hooks. 
+
+What you'll learn:
+
+* The theory of Git: How it works and basic terms & concepts.
+* How to commit, push, pull and move files. 
+* How to undo mistakes
+* How to recover from the “strange and stupid” situations that arise when using Git
+* How to accept and publish patches
+* How to deploy your changes to your live server. 
+* How to create Git Hooks; where Git will perform an action of your choice upon receiving a new commit (send an email notification of changes, deploy to website)
+
+What you'll need:
+
+* A Laptop
+
+(image: gitworkshop.png class: full-width)
+
+----
+Blurb:
+
+An evening workshop dedicated to learning Git. 
+----
+What: Git Workshop
+----
+Date: 2013-05-14 18:30
+----
+End_Date: 2013-05-14 21:30
+----
+Where: Google Campus, 
+4-5 Bonhill Street, London, EC2A 4BX
+----
+Cost: £50
+----
+Map: 4-5 Bonhill Street, London, EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>Git Workshop</span>
+	<span>14th May 2013</span>
+	<abbr class="easydate">Tue, 14 May 2013 18:30:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-git.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-git.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2013/ldnjsnightclass-git/
+----

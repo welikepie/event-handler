@@ -1,0 +1,56 @@
+Title: London JS Night Class: 2D Web Physics
+----
+Text: 
+
+We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game.  
+
+Week Two: 2D Web Physics
+
+* Learn how to create your own physics engine; animating and exerting forces on your game sprites. 
+* Learn how to animate objects
+* Learn how to define the velocity and mass of your object, as well as the force of gravity acting upon it.
+* Learn about bonding box-collisions; investigating whether game objects are colliding/overlapping. 
+* Learn about fixed and variable frame-rates. 
+
+What you'll need:
+
+* Proficiency in JavaScript
+* A Laptop
+
+Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)
+Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)
+Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)
+Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)
+
+(image: webgame2.png class: full-width)
+----
+Blurb:
+
+A 5 workshop series dedicated to building web-based games. 
+----
+What: Building web-based games
+----
+Date: 2013-06-11 18:30
+----
+End_Date: 2013-06-11 21:30
+----
+Where: Google Campus, 
+4-5 Bonhill Street, London, EC2A 4BX
+----
+Cost: £50
+----
+Map: 4-5 Bonhill Street, London, EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>2D Web Physics</span>
+	<span>11th June 2013</span>
+	<abbr class="easydate">Tues, 18 June 2013 18:30:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-webgames2.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-webgames2.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2013/ldnjsnightclass-webgames2
+----
