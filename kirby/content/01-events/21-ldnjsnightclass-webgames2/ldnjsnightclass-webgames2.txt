@@ -4,7 +4,7 @@ Text:
 
 We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game.  
 
-Week Two: 2D Web Physics
+### Week Two: 2D Web Physics
 
 * Learn how to create your own physics engine; animating and exerting forces on your game sprites. 
 * Learn how to animate objects
@@ -12,15 +12,17 @@ Week Two: 2D Web Physics
 * Learn about bonding box-collisions; investigating whether game objects are colliding/overlapping. 
 * Learn about fixed and variable frame-rates. 
 
-What you'll need:
+### What you'll need:
 
 * Proficiency in JavaScript
 * A Laptop
 
-Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)
-Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)
-Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)
-Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)
+### Building Web-Based Games:
+
+* Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)
+* Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)
+* Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)
+* Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)
 
 (image: webgame2.png class: full-width)
 ----

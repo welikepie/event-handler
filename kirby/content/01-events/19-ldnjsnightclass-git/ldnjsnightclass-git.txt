@@ -4,7 +4,7 @@ Text:
 
 An evening workshop hosted by Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski); for those who want to learn all the things they should have learned when they started out with Git. Go from being a complete beginner to highly proficient; learning the theory behind Git, all the necessary commands you need to get by and more advanced things like publishing patches and creating Git hooks. 
 
-What you'll learn:
+#### What you'll learn:
 
 * The theory of Git: How it works and basic terms & concepts.
 * How to commit, push, pull and move files. 
@@ -14,7 +14,7 @@ What you'll learn:
 * How to deploy your changes to your live server. 
 * How to create Git Hooks; where Git will perform an action of your choice upon receiving a new commit (send an email notification of changes, deploy to website)
 
-What you'll need:
+### What you'll need:
 
 * A Laptop
 

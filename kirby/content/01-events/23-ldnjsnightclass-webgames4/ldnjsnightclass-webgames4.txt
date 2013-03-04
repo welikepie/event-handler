@@ -2,11 +2,9 @@ Title: London JS Night Class: How to Structure a Game
 ----
 Text: 
 
-Please Note: This Workshop is Week 4 and 5 of the Building Web-Based Games Workshop. Week 5 will be going ahead on the 2nd of July 2013, 6.30pm to 9.30pm. Tickets purchased on the EventBrite link covers both Week 4 and Week 5. 
-
 We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game. 
 
-Week Four: How to Structure a Game
+### Week Four: How to Structure a Game
 Learn how to put what you have learned in the first 3 weeks together, creating a web-based game.
 
 * How to architect a game
@@ -15,16 +13,21 @@ Learn how to put what you have learned in the first 3 weeks together, creating a
 * How to structure games to make network-games or split screen multiplayer options.
 * How to use MVC for a game.
 
-What You'll Need:
+### What You'll Need:
 
 * Proficiency in JavaScript
 * Understanding of Canvas, Canvas Animation and 2D Web Physics
 * A Laptop
 
-Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)
-Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)
-Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)
-Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)
+### Please Note: 
+This Workshop is Week 4 and 5 of the Building Web-Based Games Workshop. Week 5 will be going ahead on the 2nd of July 2013, 6.30pm to 9.30pm. Tickets purchased on the EventBrite link covers both Week 4 and Week 5. 
+
+### Building Web-Based Games:
+
+* Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)
+* Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)
+* Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)
+* Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)
 
 (image: webgame4.png class: full-width)
 
