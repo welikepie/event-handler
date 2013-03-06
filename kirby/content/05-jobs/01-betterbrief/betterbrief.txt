@@ -1,0 +1,45 @@
+Title: Front-End Developer
+----
+Text:
+
+We are a small, close-knit team of motivated, passionate professionals who demonstrate our skills in web development, user experience and design through the creation of websites, web applications and online tools. We started just under 5 years ago purely as a consultancy house and have since grown steadily to a team of 6. Both Directors have programming backgrounds and our key output is technical.
+
+## Required skills
+
+* Proven, professional experience working as a frontend web developer
+* Someone who knows their DOM, pseudo classes, tablet nuances and everything in between
+* An eye for detail and an interest in new technologies (with an understanding of their limitations)
+* Experience with responsive, HTML5, building for tablets, etc
+* Experience with JavaScript. If you're a JS guru, even betterlevel
+
+## Who are we looking for?
+
+* A passionate, talented person
+* Good communication skills - be able to talk to clients and internally get your point across
+* Someone who loves working with frontend technology
+* Someone who enjoys challenging, varied work
+
+## Job Details
+
+* Annual salary: up to £30k dependent on experience
+* Probationary period: 3 months
+* Performance review: 6 months continuously
+* Holiday entitlement: 28 days including Christmas + bank holidays
+* Full health cover including subsidised gym membership
+* Fun through the year: we go to conferences, meetups, on days out (go-karting, paintballing etc) and trips away (in the past narrow-boating and to a villa in Tuscany)
+
+----
+Company: Better Brief
+----
+Type: Permanent
+----
+Location: London, UK
+----
+Tags: JavaScript, Developer, HTML5, CSS, Photoshop
+----
+Application: http://www.betterbrief.co.uk/hiring/?r=eventhandler
+----
+Date: 2013-03-06
+----
+Template: job
+----
