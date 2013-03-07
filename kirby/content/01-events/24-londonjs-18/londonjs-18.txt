@@ -9,7 +9,7 @@ London JS will (try and) meet on a Monday of each month to hear a couple of talk
 This months, the talks will be:
 
 * Javascript & Kinect - Mairead Buchan (link: https://twitter.com/tiny_m text: @tiny_m)
-* Web GL - Paul Lewis (link: https://twitter.com/aerotwist text: @aerotwist)
+* Shaders & Filters - Paul Lewis (link: https://twitter.com/aerotwist text: @aerotwist)
 
 ----
 Blurb:
