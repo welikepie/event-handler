@@ -10,6 +10,7 @@ This months, the talks will be:
 
 * Javascript & Kinect - Mairead Buchan (link: https://twitter.com/tiny_m text: @tiny_m)
 * Shaders & Filters - Paul Lewis (link: https://twitter.com/aerotwist text: @aerotwist)
+* Regular Expressions - Remy Bach (link: https://twitter.com/remybach text: @remybach)
 
 ----
 Blurb:
