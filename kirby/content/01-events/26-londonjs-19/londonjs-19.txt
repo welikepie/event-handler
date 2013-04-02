@@ -14,7 +14,7 @@ This month, the talks will be:
 ----
 Blurb:
 
-Evening of Javascript talks about JavaScript Engines and Frameworks
+An evening of JavaScript talks
 ----
 What: Javascript Talks
 ----
