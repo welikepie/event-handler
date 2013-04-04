@@ -4,9 +4,11 @@ Text:
 
 With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer.
 
+(image: londonjseh.png class: full-width)
+
 London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.
 
-This month, the talks will be:
+## Talks This Month
 
 * Chrome Extensions for Hackers - Cristiano Betta (link: http://twitter.com/cbetta text: @cbetta)
 * Building Firefox OS Apps - Ruth John (link: http://twitter.com/rumyra text: @rumyra)
