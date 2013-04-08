@@ -1,0 +1,67 @@
+Title: London JS Night Classes: An Introduction to JavaScript
+----
+Text: 
+
+**Please Note: This is a five week course!
+Each workshop will be held at Google Campus from 6.30 - 9.30pm (BST).**
+
+(image: introjseh.png class: full-width)
+
+Have you been meaning to learn JavaScript but have had difficulty setting aside time to do so, or just don't know where to start? Every Tuesday from the 24th of September to the 22nd of October,  (link: http://www.twitter.com/danielknell text: Daniel Knell ) will be holding an "Introduction to JavaScript" course. 
+
+In this course, for a few hours each week, you will be given a hands on approach to JavaScript with Daniel taking you through each core aspect of the language. You will cover the fundamentals of the JavaScript programming language, starting with the basics and moving on to more advanced concepts with an end goal of creating a simple game purely in JavaScript.
+
+## Things you will Learn
+* Basic Data Types (Strings, Numbers, etc.)
+* Maths in JavaScript
+* Classes
+* Objects
+* Arrays
+* Functions
+* Basic DOM (Document Object Model) operations
+* How to build a simple game solely with JavaScript
+
+## Things you will need
+* A Modern Browser
+* A Text Editor
+* A Laptop (please bring this with you!)
+
+## Workshop Dates:
+
+* Week 1 - Tuesday 24th September 2013
+* Week 2 - Tuesday 1st October 2013
+* Week 3 - Tuesday 8th October 2013
+* Week 4 - Tuesday 15th October 2013
+* Week 5 - Tuesday 22nd October 2013
+
+----
+Blurb:
+
+A five week course on learning JavaScript. 
+----
+What: JavaScript Course
+----
+Date: 2013-09-24 18:30
+----
+End_Date: 2013-09-24 21:30
+----
+Where: Google Campus, 
+4-5 Bonhill Street, London, EC2A 4BX
+----
+Cost: £200
+----
+Map: 4-5 Bonhill Street, London, EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>Intro to JavaScript</span>
+	<span>24th September 2013</span>
+	<abbr class="easydate">Tue, 24 Sep 2013 18:30:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-introtojs.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-introtojs.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2013/ldnjsnightclass-introtojs/
+----
