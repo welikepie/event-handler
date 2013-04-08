@@ -7,7 +7,7 @@ Each workshop will be held at Google Campus from 6.30 - 9.30pm (BST).**
 
 (image: introjseh.png class: full-width)
 
-Have you been meaning to learn JavaScript but have had difficulty setting aside time to do so, or just don't know where to start? Every Tuesday from the 24th of September to the 22nd of October,  (link: http://www.twitter.com/danielknell text: Daniel Knell ) will be holding an "Introduction to JavaScript" course. 
+Have you been meaning to learn JavaScript but have had difficulty setting aside time to do so, or just don't know where to start? Join us for five weeks every Tuesday from the 24th of September to the 22nd of October, (link: http://www.twitter.com/danielknell text: Daniel Knell ) will be holding an "Introduction to JavaScript" course. 
 
 In this course, for a few hours each week, you will be given a hands on approach to JavaScript with Daniel taking you through each core aspect of the language. You will cover the fundamentals of the JavaScript programming language, starting with the basics and moving on to more advanced concepts with an end goal of creating a simple game purely in JavaScript.
 
