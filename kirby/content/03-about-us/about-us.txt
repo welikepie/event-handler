@@ -12,7 +12,7 @@ To talk to us about speaking at an event, sponsorship or any other question send
 
 ## Subscribe to our mailing list
 
-<form action="http://welikepie.us2.list-manage1.com/subscribe/post?u=b76886bab37470b1e293804f6&amp;id=801bc2e5e9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" target="_blank">
+<form action="/assets/serverside/listSubscribe.php" method="post" onsubmit="return formSubmit();" target="formSubmission"id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate mailing_list" target="_blank">
 	<fieldset>
 		<input type="email" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
 		<div class="categories">
@@ -25,7 +25,7 @@ To talk to us about speaking at an event, sponsorship or any other question send
 	</fieldset>
 	<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 </form>
-		
+<iframe id="formSubmission"class="hidden"></iframe>
 ## Be excellent to each other
 
 We are dedicated to producing the best events. To make the experience enjoyable for everyone – regardless of age, gender, sexuality, religious or ethnic identity – we expect our speakers and attendees to remember about these simple rules;

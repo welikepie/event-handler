@@ -26,7 +26,6 @@
 		</section>
 	</div>
   </article>
-
 </section>
 
 <?php snippet('footer', array(
@@ -40,6 +39,8 @@
 		var error_message = document.getElementById('mc-embedded-subscribe-form')
 		                    .getElementsByTagName('div');
 		error_message = error_message[error_message.length - 1];
+		
+		
 		
 		var form_submit = function (ev) {
 			var i, temp = false;
