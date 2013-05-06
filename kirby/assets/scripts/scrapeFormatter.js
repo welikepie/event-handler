@@ -3,9 +3,11 @@ var forbid=["eventhandleruk"]; //add people to the blacklist based on their twit
 var links = document.getElementsByTagName("a");
 
 for(i=0; i< links.length; i++){
-
+links[i].setAttribute('target','_blank');
 if(String(links[i]).indexOf("/profile") != -1){	
 	links[i].setAttribute('href',links[i].getAttribute('href').replace('/profile','http://www.twitter.com'));
+	links[i].setAttribute('href',links[i].getAttribute('href').replace('http://lanyrd.com',''));
+	
 	}
 }
 (function(){

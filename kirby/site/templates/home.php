@@ -195,7 +195,7 @@
 							
 							foreach($nodes as $key => $element)
 							{
-								if($key < ($nodes -> length)-1){ //get childnodes of element, dipshit.
+								if($key < ($nodes -> length)-1){ //get childnodes of elements.
 								$LIarr = $element->childNodes;
 									foreach($LIarr as $LIchild){
 										$speakersOut .= $element->ownerDocument->saveXML($LIchild); //everything before last must be speakers.
@@ -210,9 +210,9 @@
 							}
 							echo('<div class="lanyrd_speakers">');
 								echo('<div class="heads">Speakers</div>');
-								echo (('<div class="fullwidth" id = "speakerField"><ul class="people">'.$speakersOut.'</ul></div>')); 
+								echo (('<div class="fullwidth" id = "speakerField"><ul class="people">'.utf8_decode($speakersOut).'</ul></div>')); 
 								echo('<div class="heads">Organisers & Hosts</div>');
-								echo(('<div class="fullwidth" id = "organiserField"><ul class="people">'.$organisersOut.'</ul></div>'));
+								echo(('<div class="fullwidth" id = "organiserField"><ul class="people">'.utf8_decode($organisersOut).'</ul></div>'));
 							echo('</div>');
 						
 						}
