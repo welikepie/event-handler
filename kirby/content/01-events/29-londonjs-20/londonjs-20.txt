@@ -14,8 +14,7 @@ London JS will (try and) meet on a Monday of each month to hear a couple of talk
 * Mobile Development - Paul Kinlan (link: http://twitter.com/paul_kinlan text: @paul_kinlan)
 
 ## Sponsors
-(image: pusherlogo.png class: rmboxshad full-width link:http://www.pusher.com)
-(image: yammer.png class: rmboxshad full-width link:http://www.yammer.com) (image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)
+(image: pusherlogo.png class: rmboxshad full-width link:http://www.pusher.com)(image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image: yammer.png class: rmboxshad full-width link:http://www.yammer.com)
 
 ----
 Blurb:
