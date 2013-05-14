@@ -2,7 +2,7 @@ Title: London JS Night Class: Canvas & Canvas Animation
 ----
 Text: 
 
-We are working with Kornel Lesiński (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game. 
+We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game. 
 
 ### Week One: Canvas and Canvas Animation;
 An evening of building fast and efficient image-based animations in Canvas

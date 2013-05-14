@@ -2,7 +2,7 @@ Title: London JS Night Class: How to Structure a Game
 ----
 Text: 
 
-We are working with Kornel Lesiński (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game. 
+We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game. 
 
 ### Week Four: How to Structure a Game
 Learn how to put what you have learned in the first 3 weeks together, creating a web-based game.
