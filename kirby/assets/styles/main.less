@@ -332,6 +332,13 @@ article { margin-bottom: @base * 4; }
             text-decoration: none; 
             border-bottom: 1px dashed;
         }
+
+        .rmboxshad {
+                      box-shadow: none;
+                      border-style: none;
+                      border-width: 0;
+                      float: left;
+                }
     }
     ul {
         margin-bottom: 24px;
@@ -348,6 +355,8 @@ article { margin-bottom: @base * 4; }
         &.full-width {
             .modal;
             padding: 0;
+            margin-bottom: 8px;
+            margin-right: 8px;
         }
     }
     //Calendar page
@@ -1601,6 +1610,7 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
 
 // Extras
 // ------------------
+    
     // General button styling
     .button {
         width:125px;

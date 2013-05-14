@@ -7,11 +7,22 @@ Each workshop will be held at Google Campus from 6.30 - 9.30pm (BST).**
 
 (image: introjseh.png class: full-width)
 
-Have you been meaning to learn JavaScript but have had difficulty setting aside time to do so, or just don't know where to start? Join us for five weeks every Tuesday from the 24th of September to the 22nd of October, (link: http://www.twitter.com/danielknell text: Daniel Knell ) will be holding an "Introduction to JavaScript" course. 
+## Who's it for?
 
-In this course, for a few hours each week, you will be given a hands on approach to JavaScript with Daniel taking you through each core aspect of the language. You will cover the fundamentals of the JavaScript programming language, starting with the basics and moving on to more advanced concepts with an end goal of creating a simple game purely in JavaScript.
+Have you been meaning to learn JavaScript but have had difficulty setting aside time to do so or just don't know where to start? This workshop is for people who are interested in learning JavaScript but have no/little previous experience with it. 
 
-## Things you will Learn
+In this course, for a few hours each week, you will be given a hands on approach to JavaScript with Daniel taking you through each core aspect of the language. 
+
+If you have any questions about the course, get in touch at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).
+
+## Who's teaching?
+
+This workshop is being run by Daniel Knell (link: http://www.twitter.com/danielknell text: Daniel Knell ), a Senior Developer proficient in several languages, of which JavaScript is just one. Daniel has created many interesting things at a number of hackdays, winning both (link: http://envhack.com text: env[:hack]) and (link: http://rewiredstate.org/hacks/national-hack-the-government-2013 text: National Hack the Government Day). He also speaks regularly at a number of meet-ups across London. 
+
+## What you will learn:
+
+You will cover the fundamentals of the JavaScript programming language, starting with the basics and moving on to more advanced concepts with an end goal of creating a simple game purely in JavaScript.
+
 * Basic Data Types (Strings, Numbers, etc.)
 * Maths in JavaScript
 * Classes
@@ -21,10 +32,9 @@ In this course, for a few hours each week, you will be given a hands on approach
 * Basic DOM (Document Object Model) operations
 * How to build a simple game solely with JavaScript
 
-## Things you will need
-* A Modern Browser
-* A Text Editor
-* A Laptop (please bring this with you!)
+## Preparation
+
+* Please bring a laptop with a odern browser and good text editor installed.
 
 ## Workshop Dates:
 
@@ -33,6 +43,12 @@ In this course, for a few hours each week, you will be given a hands on approach
 * Week 3 - Tuesday 8th October 2013
 * Week 4 - Tuesday 15th October 2013
 * Week 5 - Tuesday 22nd October 2013
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
 
 ----
 Blurb:

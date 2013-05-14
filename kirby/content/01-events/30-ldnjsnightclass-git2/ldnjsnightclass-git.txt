@@ -1,0 +1,66 @@
+Title: London JS Night Class: Git Workshop
+----
+Text: 
+
+Due to the success of our first Git workshop, we are happy to announce a second one!
+
+(image: gitworkshop.png class: full-width)
+
+### Who is it for?
+This workshop is for those who want to learn all the things they should have learned when they started out with Git. Go from being a complete beginner to highly proficient; learning the theory behind Git, all the necessary commands you need to get by and more advanced things like publishing patches and creating Git hooks. 
+
+### Who is taught by?
+
+This workshop is being taught by Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski), Senior Developer at BazaarVoice. Kornel is a developer with many languages in his toolset including PHP, HTML5, CSS & JavaScript. He has created many popular image compression tools: (link: http://www.imageoptim.com text: ImageOptim), (link: http://www.pngmini.com text: ImageAlpha) & (link: http://www.pngquant.org text: pngquant) and is a big fan of web-based game development and web standards. You'll find Kornel talking at meet-ups, events and international conferences. 
+
+### What you'll learn
+
+* The theory of Git: How it works and basic terms & concepts.
+* How to commit, push, pull and move files. 
+* How to undo mistakes
+* How to recover from the “strange and stupid” situations that arise when using Git
+* How to accept and publish patches
+* How to deploy your changes to your live server. 
+* How to create Git Hooks; where Git will perform an action of your choice upon receiving a new commit (send an email notification of changes, deploy to website)
+
+### Preparation
+
+* Please bring your laptop
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+An evening workshop dedicated to learning Git. 
+----
+What: Git Workshop
+----
+Date: 2013-09-03 18:30
+----
+End_Date: 2013-09-03 21:30
+----
+Where: Google Campus, 
+4-5 Bonhill Street, London, EC2A 4BX
+----
+Cost: £50
+----
+Map: 4-5 Bonhill Street, London, EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>Git Workshop</span>
+	<span>3rd September 2013</span>
+	<abbr class="easydate">Tue, 03 September 2013 18:30:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-git2.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-git2.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2013/ldnjsnightclass-git2/
+----
