@@ -17,7 +17,7 @@ If you have any questions about the course, get in touch at (email: contact@even
 
 ## Who's teaching?
 
-This workshop is being run by Daniel Knell (link: http://www.twitter.com/danielknell text: Daniel Knell ), a Senior Developer proficient in several languages, of which JavaScript is just one. Daniel has created many interesting things at a number of hackdays, winning both (link: http://envhack.com text: env[:hack]) and (link: http://rewiredstate.org/hacks/national-hack-the-government-2013 text: National Hack the Government Day). He also speaks regularly at a number of meet-ups across London. 
+This workshop is being run by (link: http://www.twitter.com/danielknell text: Daniel Knell), a Senior Developer proficient in several languages, of which JavaScript is just one. Daniel has created many interesting things at a number of hackdays, winning both (link: http://envhack.com text: env[:hack]) and (link: http://rewiredstate.org/hacks/national-hack-the-government-2013 text: National Hack the Government Day). He also speaks regularly at a number of meet-ups across London. 
 
 ## What you will learn:
 
