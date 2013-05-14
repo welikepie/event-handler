@@ -187,9 +187,9 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 							
 							echo('<div class="lanyrd_speakers">');
 								echo('<div class="heads">Speakers</div>');
-								echo (('<div class="fullwidth" id = "speakerField"><ul class="people">'.$speakersOut.'</ul></div>')); 
+								echo (('<div class="fullwidth" id = "speakerField"><ul class="people">'.utf8_decode($speakersOut).'</ul></div>')); 
 								echo('<div class="heads">Organisers & Hosts</div>');
-								echo(('<div class="fullwidth" id = "organiserField"><ul class="people">'.$organisersOut.'</ul></div>'));
+								echo(('<div class="fullwidth" id = "organiserField"><ul class="people">'.utf8_decode($organisersOut).'</ul></div>'));
 							echo('</div>');
 							
 						}

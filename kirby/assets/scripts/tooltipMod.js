@@ -17,7 +17,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * ========================================================== */
-var pimpHeight;
+var elementHeight;
 var transitionOut = 500;
 var transitionIn = 500;
 !function ($) {
@@ -126,7 +126,7 @@ var transitionIn = 500;
 		console.log($tip[0].offsetHeight);
         actualWidth = $tip[0].offsetWidth ;
         actualHeight = $tip[0].offsetHeight;
-        pimpHeight = this.$element[0].offsetTop;
+        elementHeight = this.$element[0].offsetTop;
         $tip.css({ top: 0, left: 0, display: 'none', });
         console.log(actualWidth +","+actualHeight);
         console.log("pos:"+(this.$element[0].offsetHeight)*0.375);
@@ -180,7 +180,7 @@ thing[i].style.opacity = null;
 //delay tip remove. Somehow.  
  $tip.removeClass('in');
       $tip.animate({
-	      top: pimpHeight - 200,
+	      top: elementHeight - 200,
       },
       transitionOut,
       "linear",
