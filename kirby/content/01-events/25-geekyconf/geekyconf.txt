@@ -4,11 +4,30 @@ Text:
 
 GeekyConf is a conference with an aim to inspire and entertain all those that attend. Over twenty speakers will be coming together to present lightning talks (ten minutes long) on that which they are passionate about. 
 
+(image: geekyconfeh.png class: full-width)
+
 Talk topics range from design to the morality and politics of Pirates and there will be mini workshops and other activities spread throughout the day. Coffee and Food will be provided and there will be an after-party! We hope we can keep your creativity brimming with this unique event for the broader web community.
+
+## Speakers
+
+Helen Arney & Rob Wells (link: http://twitter.com/domesticscience text: @domesticscience) - Domestic Science
+James Wallis (link: http://twitter.com/jameswallis text: @jameswallis) - Scandinavians hitting you with sticks
+Luke Murphy Wearmouth (link: http://twitter.com/lurkmoophy text: @lurkmoophy) - Clouds in the dust
+Sarah Warman (link: http://twitter.com/brewdogsarah text: @brewdogsarah) - The truth about pirates
+Jimmy Hatherley (link: http://twitter.com/jimmyhatherley text: @jimmyhatherley) - Principles of Beer & Food Matching
+Ketan Majmudar (link: http://twitter.com/ketan text: @ketan) - Stereoscopocalypse Now in 3D
+Dr. Esther MacCaullum-Stewart (link: http://twitter.com/neveahfs text: @neveahfs) - Sex, Love, Dwarves, Bacon
+Edd Sowden (link: http://twitter.com/edds text: @edds) - Determining the fastest person on two wheels
+Peter Fletcher (link: http://twitter.com/joyfeed text: @joyfeed) - On the Counting of Sneezes
+Tom Scott (link: http://twitter.com/tomscott text: @tomscott) - To be announced
+Layton Reid (link: http://desitecture.blogspot.co.uk/ text: Website) - To be announced
+Alice Bartlett (link: http://twitter.com/alicebartlett text: @alicebartlett) - To be announced
+James Wickham (link: http://twitter.com/jameswickham text: @jameswickham) - To be announced
+Evgenia Grinblo (link: http://twitter.com/grinblo text: @grinblo) - To be announced
 
 If you are interested in sponsoring the event or have any questions about GeekyConf, feel free to get in touch at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
 
-(image: geekyconfeh.png class: full-width)
+
 
 ----
 Blurb:
