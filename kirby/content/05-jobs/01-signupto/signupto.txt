@@ -1,0 +1,57 @@
+Title: Junior Front-End Developer
+----
+Text:
+
+Sign-Up.to are looking for a Junior Front-end Web Developer to conceptualise, design and build interfaces across our suite of web applications. You will be joining our Interaction team on a full-time basis, working as part of a larger Engineering team. We are a small, friendly and knowledgeable team, where training and personal development are actively encouraged.
+
+## What you will need:
+
+* A passion for innovation is user interface design, web development and all things 'tech'
+* Good communication. An energy for idea sharing and knowledge sharing amongst the team and the wider company.
+* The ability to work closely with other team members to a very high standard, manage your time efficiently and maintain best practices whilst under pressure from deadlines.
+* Demonstrable experience (preferably by portfolio) developing web applications driven by HTML5, CSS3 and JavaScript (including jQuery).
+* Knowledge and experience of JavaScript libraries and their daily use.
+* Experience debugging issues with HTML, CSS and JS with the appropriate developer tools.
+* Experience in Adobe’s Creative Suite, particularly Photoshop.
+
+## Ideally you will:
+
+* Have experience with OO design and best practices.
+* Be well versed in conceptualising, building mock-ups and wireframing.
+* Be familiar with the RESTful idiom and API documentation.
+* Have contributed to a large scale web development from conception through to deployment (and beyond).
+* Know how to work with different browsers, their versions, varied operating systems (including mobile) and their nuances.
+* Use Git (or another form of content versioning).
+* Have exposure to and preferably experience in using AJAX.
+* Know a little PHP 5+ and MySQL.
+* Be used to working with legacy code in a continuous integration environment.
+* Understand the Linux environment and use command line tools to improve your workflow.
+
+## Qualifications:
+* Three years of experience.
+* A passion for innovating in front-end web technologies
+
+## Job Details
+
+* Salary competitive, dependant on experience
+* BUPA Health Cover
+* Regular social events
+* Your choice of Windows, Mac or Linux OS
+* Free fruit, tea, coffee and soft drinks
+* The chance to join a fast-growing, friendly team and make a big difference!
+
+----
+Company: Sign-Up Technologies Ltd (Sign-Up.to)
+----
+Type: Permanent
+----
+Location: Woking, Surrey (GU22 7PY)
+----
+Tags: JavaScript, Developer, HTML5, CSS, Photoshop, RESTful API
+----
+Application: mailto:jobs@sign-up.to?subject=Junior Front-end Web Developer application
+----
+Date: 2013-06-03
+----
+Template: job
+----
