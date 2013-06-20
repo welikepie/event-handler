@@ -19,13 +19,20 @@ Ketan Majmudar (link: http://twitter.com/ketan text: @ketan) - Stereoscopocalyps
 Dr. Esther MacCaullum-Stewart (link: http://twitter.com/neveahfs text: @neveahfs) - Sex, Love, Dwarves, Bacon
 Edd Sowden (link: http://twitter.com/edds text: @edds) - Determining the fastest person on two wheels
 Peter Fletcher (link: http://twitter.com/joyfeed text: @joyfeed) - On the Counting of Sneezes
+Zoe Laughlin (link: http://twiter.com/zoelaughlin text: @zoelaughlin) - The Wonder of Stuff
 Tom Scott (link: http://twitter.com/tomscott text: @tomscott) - To be announced
 Layton Reid (link: http://desitecture.blogspot.co.uk/ text: Website) - To be announced
 Alice Bartlett (link: http://twitter.com/alicebartlett text: @alicebartlett) - To be announced
 James Wickham (link: http://twitter.com/jameswickham text: @jameswickham) - To be announced
 Evgenia Grinblo (link: http://twitter.com/grinblo text: @grinblo) - To be announced
+Simon T Abernethy (link: http://twitter.com/pirateomnibus text: @pirateomnibus) - To be announced
+
+## Sponsors
 
 If you are interested in sponsoring the event or have any questions about GeekyConf, feel free to get in touch at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+
+(image: rosenfeld.png class: rmboxshad full-width link:http://www.rosenfeldmedia.com)(image: abookapart.png class: rmboxshad full-width link:http://www.abookapart.com)(image: tattly.png class: rmboxshad full-width link:http://www.tattly.com)(image: github.png class: rmboxshad full-width link:http://www.github.com)(image: sendgrid.png class: rmboxshad full-width link:http://www.sendgrid.com)(image: 10gen.png class: rmboxshad full-width link:http://www.10gen.com)
+
 
 
 
