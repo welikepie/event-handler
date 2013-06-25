@@ -25,7 +25,7 @@ EOT;
 	<script type="text/javascript">
 		
 	$(document).ready(function () {
-		$("[rel=tooltip]").tooltip();
+		//$("[rel=tooltip]").tooltip();
 	  });
 		
 	</script>

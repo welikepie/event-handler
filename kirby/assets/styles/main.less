@@ -1455,9 +1455,18 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
         margin-bottom: 16px;
         text-shadow: none;
         // E-mail field
-            input[type="email"]{
+            #mce-EMAIL{
                 width:100%;
                 }
+                #successSubmit{
+                    display:none;
+                    }
+                #email{
+                    display:none;
+                    }
+                #cat{
+                    display:none;
+                    }
         textarea{
             padding:6px 4px;
             height:6em;
@@ -1548,11 +1557,14 @@ box-shadow:0 5px 10px rgba(0,0,0,.2);
                 }   
         // Error message
     .error {
-        display: none;
     	clear: both;
     	padding-top: 4px;
     	color: #A00;
-    }        
+    }
+    .success{
+        clear:both;
+        padding-top:4px;
+        }
 }
 
 .ss-form{

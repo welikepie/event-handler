@@ -31,6 +31,23 @@
 <?php snippet('footer', array(
 	'bottom_snippets' => array(
 <<<EOT
+var formSubmitted = false;
+var errorFree = false;
+
+function formSubmit(){
+	var regex = /[a-z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/;
+	if(document.getElementById("mce-EMAIL").value.match(regex)!=null){	
+		document.getElementById("email").style.display = "none";
+		formSubmitted = true;
+		return true;
+	}
+	else{
+		document.getElementById("successSubmit").style.display = "none";
+		document.getElementById("email").style.display = "block";
+		formSubmitted = false;
+		return false;
+	}	
+}
 	(function () { 
 	
 		var form = document.getElementById('mc-embedded-subscribe-form');
@@ -38,7 +55,7 @@
 		var category_boxes = [form.DEV, form.DESIGN, form.SOCIAL];
 		var error_message = document.getElementById('mc-embedded-subscribe-form')
 		                    .getElementsByTagName('div');
-		error_message = error_message[error_message.length - 1];
+		error_message = document.getElementById("cat");
 		
 		
 		
@@ -49,8 +66,19 @@
 					temp = true;
 			if (!temp) {
 				ev.preventDefault();
+				document.getElementById("successSubmit").style.display = "none";
+				errorFree = false;
 				error_message.style.display = 'block';
 			}
+			else{
+				errorFree = true;
+				error_message.style.display = 'none';
+			}
+		if(errorFree == true && formSubmitted == true){
+			document.getElementById("successSubmit").style.display = "block";
+			errorFree == false;
+			formSubmitted == false;
+		}
 		};
 		
 		var everything_toggle = function (ev) {
