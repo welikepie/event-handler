@@ -2,7 +2,7 @@ Title: London JS
 ----
 Text:
 
-With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer. **Tickets will be released on Monday the 2nd of July at 2PM.**
+With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer. **Tickets will be released on Thursday the 4th of July at 2PM.**
 
 (image: londonjseh.png class: full-width)
 
