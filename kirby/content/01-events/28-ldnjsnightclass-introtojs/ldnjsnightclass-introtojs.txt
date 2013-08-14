@@ -34,7 +34,7 @@ You will cover the fundamentals of the JavaScript programming language, starting
 
 ## Preparation
 
-* Please bring a laptop with a odern browser and good text editor installed.
+* Please bring a laptop with a modern browser and good text editor installed.
 
 ## Workshop Dates:
 
