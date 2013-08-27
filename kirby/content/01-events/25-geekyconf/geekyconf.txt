@@ -21,18 +21,19 @@ Edd Sowden (link: http://twitter.com/edds text: @edds) - Determining the fastest
 Peter Fletcher (link: http://twitter.com/joyfeed text: @joyfeed) - On the Counting of Sneezes
 Zoe Laughlin (link: http://twiter.com/zoelaughlin text: @zoelaughlin) - The Wonder of Stuff
 Mr. Bingo (link: http://twiter.com/mr_bingo text: @mr_bingo) - How to turn Drunk Ideas into Books
+Layton Reid (link: http://desitecture.blogspot.co.uk/ text: - Website) - Desitecture
+Simon T Abernethy (link: http://twitter.com/pirateomnibus text: @pirateomnibus) - Omnibus Racing for Beginners
+The Gloves Team (link: http://imogenheap.com/thegloves/ text: - Website) - Gloves for Music Creation and Performance
+Alice Bartlett (link: http://twitter.com/alicebartlett text: @alicebartlett) - Anosmia: Some Stinky Truths
 Tom Scott (link: http://twitter.com/tomscott text: @tomscott) - To be announced
-Layton Reid (link: http://desitecture.blogspot.co.uk/ text: Website) - To be announced
-Alice Bartlett (link: http://twitter.com/alicebartlett text: @alicebartlett) - To be announced
 James Wickham (link: http://twitter.com/jameswickham text: @jameswickham) - To be announced
 Evgenia Grinblo (link: http://twitter.com/grinblo text: @grinblo) - To be announced
-Simon T Abernethy (link: http://twitter.com/pirateomnibus text: @pirateomnibus) - To be announced
 
 ## Sponsors
 
 If you are interested in sponsoring the event or have any questions about GeekyConf, feel free to get in touch at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
 
-(image: rosenfeld.png class: rmboxshad full-width link:http://www.rosenfeldmedia.com)(image: abookapart.png class: rmboxshad full-width link:http://www.abookapart.com)(image: tattly.png class: rmboxshad full-width link:http://www.tattly.com)(image: github.png class: rmboxshad full-width link:http://www.github.com)(image: sendgrid.png class: rmboxshad full-width link:http://www.sendgrid.com)(image: 10gen.png class: rmboxshad full-width link:http://www.10gen.com)
+(image: rosenfeld.png class: rmboxshad full-width link:http://www.rosenfeldmedia.com)(image: abookapart.png class: rmboxshad full-width link:http://www.abookapart.com)(image: tattly.png class: rmboxshad full-width link:http://www.tattly.com)(image: github.png class: rmboxshad full-width link:http://www.github.com)(image: sendgrid.png class: rmboxshad full-width link:http://www.sendgrid.com)(image: 10gen.png class: rmboxshad full-width link:http://www.10gen.com)(image: paypal.png class: rmboxshad full-width link:http://www.paypal.com)(image: techsmith.png class: rmboxshad full-width link:http://www.techsmith.com)(image: twilio.png class: rmboxshad full-width link:http://www.twilio.com)
 
 
 
