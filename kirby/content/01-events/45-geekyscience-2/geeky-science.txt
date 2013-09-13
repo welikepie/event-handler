@@ -7,9 +7,9 @@ GeekyScience is an exciting evening of learning and entertainment. Each month, e
 (image: geekyscience.png class: full-width)
 
 
-## Septembers' Theme: Fire
+## Octobers' Theme: Ice & Fire
 
-Who invented the firework? How do you make special effects? What on earth is Victorian fire science? All these questions and more will be answered at this edition of GeekyScience. Not only that, there'll be some fantastic demos to experience. (link: http://www.twitter.com/simonwerrett text: Dr. Simon Werrett), Lecturer at University of London, will be taking us through the history of fireworks and (link: http://www.twitter.com/pyroclaire text: Dr. Claire Benson) will be demonstrating the world of Victorian fire science. **And there's more to be announced**.
+Who invented the firework? How do you make special effects? What on earth is Victorian fire science? All these questions and more will be answered at this edition of GeekyScience. Not only that, there'll be some fantastic demos to experience. (link: http://www.twitter.com/simon_werrett text: Dr. Simon Werrett) will be taking us through the history of fireworks, (link: http://www.twitter.com/pyroclaire text: Dr. Claire Benson) will be demonstrating the world of Victorian fire science, (link: http://www.twitter.com/matthewtosh text: Matthew Tosh) will be enlightening us with special effects and (link: http://www.twitter.com/russss text: Russ Garrett) from the (link: https://london.hackspace.org.uk text: London Hackspace) will be making something awesome with liquid nitrogen.
 
 
 ## Refund Policy
@@ -40,7 +40,7 @@ Map: Central Foundation Boys School, Cowper Street, EC2A 4SH
 Infobox:
 
 <h1>
-	<span>GeekyScience: Fire</span>
+	<span>GeekyScience: Ice & Fire</span>
 	<span>3rd October 2013</span>
 	<abbr class="easydate">Thurs, 03 October 2013 19:00:00 +0000</abbr>
 	<a href="http://geekyscience-october.eventbrite.com/" target="_blank">View Tickets</a>
