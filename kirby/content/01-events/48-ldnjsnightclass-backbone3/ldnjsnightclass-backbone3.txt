@@ -1,9 +1,7 @@
 Title: London JS Night Class: Backbone.js
 ----
 Text: 
-On the 30th of October, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a workshop in which you can learn to use Backbone.js to create web applications. 
-
-<p class="soldout"> This workshop has sold out. However; we have another (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-backbone3 text: Backbone workshop here!)</p>
+On the 29th of January, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a workshop in which you can learn to use Backbone.js to create web applications. 
 
 (image: backbone.png class: full-width)
 
@@ -47,9 +45,9 @@ An evening workshop dedicated to learning Backbone
 ----
 What: Backbone.js Workshop 
 ----
-Date: 2013-10-30 19:00
+Date: 2014-01-29 19:00
 ----
-End_Date: 2013-10-30 22:00
+End_Date: 2014-01-29 22:00
 ----
 Where: Hub Westminster, 
 1st floor, New Zealand House 
@@ -63,12 +61,12 @@ Infobox:
 
 <h1>
 	<span>Backbone.js Workshop</span>
-	<span>30th October 2013</span>
-	<abbr class="easydate">Wed, 30 October 2013 19:00:00 +0000</abbr>
-	<a href="http://ldnjsnightclass-backbone2.eventbrite.com/" target="_blank">View Tickets</a>
+	<span>29th January 2013</span>
+	<abbr class="easydate">Wed, 29 January 2014 19:00:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-backbone3.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
 ----
-Booking_link: http://ldnjsnightclass-backbone2.eventbrite.com/
+Booking_link: http://ldnjsnightclass-backbone3.eventbrite.com/
 ----
-Lanyard: http://www.lanyrd.com/2013/ldnjsnightclass-backbone2
+Lanyard: http://www.lanyrd.com/2014/ldnjsnightclass-backbone3
 ----
