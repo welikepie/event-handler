@@ -11,7 +11,7 @@ With all the new HTML5 APIs and node.js making waves in the backend, it's never 
 ## Talks This Month
 
 * Using D3.js to Visualise Your Analytics Data - Edd Sowden (link: http://twitter.com/edds text: @edds)
-* Data Visualisation with WebGL - Rob Hawkes (link: http://twitter.com/robhawkes text: @robhawkes)
+* 3D Cities and Data Visualisation with WebGL - Robin Hawkes (link: http://twitter.com/robhawkes text: @robhawkes)
 
 ## Sponsors
 (image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)
