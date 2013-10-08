@@ -14,7 +14,7 @@ With all the new HTML5 APIs and node.js making waves in the backend, it's never 
 * 3D Cities and Data Visualisation with WebGL - Robin Hawkes (link: http://twitter.com/robhawkes text: @robhawkes)
 
 ## Sponsors
-(image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image: pearson.png class: rmboxshad full-width link:http://www.pearson.com)
+(image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image: pearson.png class: rmboxshad full-width link:http://www.twitter.com/pearsonlabs)
 
 ----
 Blurb:
