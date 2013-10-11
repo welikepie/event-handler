@@ -7,7 +7,6 @@ On Tuesday the 4th of February, (link: http://www.twitter.com/pornelski text: Ko
 (image: gitworkshop.png class: full-width)
 
 ### Who is it for?
-This workshop is for those who want to learn all the things they should have learned when they started out with Git. Go from being a complete beginner to highly proficient; learning the theory behind Git, all the necessary commands you need to get by and more advanced things like publishing patches and creating Git hooks. 
 
 When git is saying "your working tree is dirty" it's not trying to offend you. Git's messages are written in Gittish and they're quite helpful once you get a Gittish-English dictionary.
 
