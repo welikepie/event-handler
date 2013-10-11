@@ -24,7 +24,7 @@
 			
 				// Skip all other events if we've already
 				// rendered required number of upcoming events
-				if ($event_count >= 10) { break; }
+				if ($event_count >= 30) { break; }
 				
 				// Only render events that are upcoming (event time in the future).
 				// Compare to current date and time at midnight, so that today's events
