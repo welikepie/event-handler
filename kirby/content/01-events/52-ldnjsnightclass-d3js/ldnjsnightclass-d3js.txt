@@ -1,0 +1,70 @@
+Title: London JS Night Class: D3.js
+----
+Text: 
+On the 21st of January, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting an evening workshop in which you can learn to use D3.js
+
+(image: d3js.png class: full-width)
+
+### Who is it for?
+
+This class will give you a firm grasp of the core of D3 and you'll leave knowing enough about D3 to start on any visualisation project you fancy.
+
+### Who is it taught by?
+
+This workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles). Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality tracking tool. You can find him speaking about the web at (link: http://www.lanyrd.com/timruffles text: various events). 
+
+### What you'll learn
+
+* D3 philosophy - why is it this way?
+* D3 DOM API
+* Selections
+* Contexts: update, enter, exit
+* Object constancy
+* Animations
+* Hierarchy
+* Scales
+* Layouts
+
+### Requirements
+
+* Familiarity with JavaScript
+* Please bring your laptop with your text editor of choice installed
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+An evening workshop dedicated to learning D3.js
+----
+What: D3.js Workshop 
+----
+Date: 2014-01-21 19:00
+----
+End_Date: 2014-01-21 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>D3.js Workshop</span>
+	<span>21st January 2014</span>
+	<abbr class="easydate">Tues, 21 January 2014 19:00:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-d3.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-d3.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2014/ldnjsnightclass-d3js
+----

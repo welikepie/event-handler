@@ -1,0 +1,70 @@
+Title: An Introduction to Git
+----
+Text: 
+
+On Tuesday the 4th of February, (link: http://www.twitter.com/pornelski text: Kornel Lesiński) will be holding an evening workshop on how to get started with Git.
+
+(image: gitworkshop.png class: full-width)
+
+### Who is it for?
+This workshop is for those who want to learn all the things they should have learned when they started out with Git. Go from being a complete beginner to highly proficient; learning the theory behind Git, all the necessary commands you need to get by and more advanced things like publishing patches and creating Git hooks. 
+
+When git is saying "your working tree is dirty" it's not trying to offend you. Git's messages are written in Gittish and they're quite helpful once you get a Gittish-English dictionary.
+
+The workshop will explain all operations needed to use git fluently: committing, pushing, pulling, merging and rebasing. Resolving conflicts, moving commits between branches, undoing changes. Advice on best practices and good workflow.
+
+### Who is taught by?
+
+This workshop is being taught by Kornel Lesinski (link: http://twitter.com/pornelski text: @pornelski), Senior Developer at BazaarVoice. Kornel is a developer with many languages in his toolset including PHP, HTML5, CSS & JavaScript. He has created many popular image compression tools: (link: http://www.imageoptim.com text: ImageOptim), (link: http://www.pngmini.com text: ImageAlpha) & (link: http://www.pngquant.org text: pngquant) and is a big fan of web-based game development and web standards. You'll find Kornel talking at meet-ups, events and international conferences. 
+
+### What you'll learn
+
+* The theory of Git: How it works and basic terms & concepts.
+* How to commit, push, pull and move files. 
+* How to undo mistakes
+* How to recover from the “strange and stupid” situations that arise when using Git
+* How to merge
+* How to rebase
+
+### Preparation
+
+* Please bring your laptop
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+An Introduction to Git
+----
+What: Git Workshop
+----
+Date: 2014-02-04 19:00
+----
+End_Date: 2014-02-04 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Introduction to Git</span>
+	<span>4th February 2014</span>
+	<abbr class="easydate">Tues, 04 February 2014 19:00:00 +0000</abbr>
+	<a href="http://eventhandlernightclass-introtogit.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://eventhandlernightclass-introtogit.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2014/ehnightclass-introtogit
+----

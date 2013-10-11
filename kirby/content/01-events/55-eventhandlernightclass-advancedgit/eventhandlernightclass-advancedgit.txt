@@ -1,0 +1,70 @@
+Title: Advanced Git
+----
+Text: 
+
+On Tuesday the 18th of February, (link: http://www.twitter.com/pornelski text: Kornel Lesiński) will be holding an evening workshop on how to get more out of Git and become a power user.
+
+(image: gitworkshop.png class: full-width)
+
+### Who is it for?
+This workshop is for those who already know how to use Git, but would like to become a power user. Learn how to manipulate branches and history to any shape you like, get more information from git and learn how to fix "messed" up repositories, as well as learning to automate Git.  
+
+### Who is taught by?
+
+This workshop is being taught by Kornel Lesinski (link: http://twitter.com/pornelski text: @pornelski), Senior Developer at BazaarVoice. Kornel is a developer with many languages in his toolset including PHP, HTML5, CSS & JavaScript. He has created many popular image compression tools: (link: http://www.imageoptim.com text: ImageOptim), (link: http://www.pngmini.com text: ImageAlpha) & (link: http://www.pngquant.org text: pngquant) and is a big fan of web-based game development and web standards. You'll find Kornel talking at meet-ups, events and international conferences. 
+
+### What you'll learn
+
+* An Overview of git's architecture that explains git's strengths and quirks, e.g. why hashes? What is rebase _really_ doing?
+* Importing code, history and branches from other systems like SVN, CVS, Bazaar.
+* How to recover from screwed up rebases, messed up branches.
+* Power-user options for resolving merge/rebase conflicts.
+* Splitting, filtering and joining git repositories.
+* Automating actions when commits or pushes are made:
+- Enforcing coding standards, running unit tests
+- Deploying code and tagging deployed versions
+** Hidden gems and trips & tricks.
+
+### Preparation
+
+* An understanding of and ability to use the basics of Git
+* Please bring your laptop
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Advanced Git
+----
+What: Advanced Git
+----
+Date: 2014-02-18 19:00
+----
+End_Date: 2014-02-18 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Advanced Git</span>
+	<span>18th February 2014</span>
+	<abbr class="easydate">Tues, 18 February 2014 19:00:00 +0000</abbr>
+	<a href="http://eventhandlernightclass-advancedgit.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://eventhandlernightclass-advancedgit.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2014/ehnightclass-advancedgit
+----
