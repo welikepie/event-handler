@@ -11,6 +11,7 @@ With all the new HTML5 APIs and node.js making waves in the backend, it's never 
 ## Talks This Month
 
 * Using D3.js to Visualise Your Analytics Data - Edd Sowden (link: http://twitter.com/edds text: @edds)
+* 10 things you didn't know about D3.js - Anna Powell-Smith (link: http:/www.twitter.com/darkgreener text: @darkgreener)
 * 3D Cities and Data Visualisation with WebGL - Robin Hawkes (link: http://twitter.com/robhawkes text: @robhawkes)
 
 ## Sponsors
