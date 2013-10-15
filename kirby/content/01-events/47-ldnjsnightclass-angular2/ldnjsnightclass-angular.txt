@@ -3,6 +3,8 @@ Title: London JS Night Class: AngularJS
 Text: 
 On the 5th of November, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a workshop in which you can learn to use AngularJS
 
+<p class="soldout"> This workshop has sold out. However; we have a second (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-angular3 text: AngularJS workshop here!)</p>
+
 (image: angularjs.png class: full-width)
 
 ### Who is it for?

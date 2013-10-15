@@ -3,6 +3,8 @@ Title: Usability Testing How To's for Small Teams (& Little Budgets)
 Text: 
 On the 24th of October, (link: http://www.twitter.com/grinblo text: Evgenia Grinblo) will be a night class on usability testing, showing you how to test products reliably and cheaply.
 
+<p class="soldout"> This workshop has sold out. However; we have a second (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-usability2 text: workshop here!)</p>
+
 (image: usability.png class: full-width)
 
 ### Who is it for?

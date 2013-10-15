@@ -1,9 +1,10 @@
 Title: London JS Night Class: Backbone.js
 ----
 Text: 
+
 On the 17th of September, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a workshop in which you can learn to use Backbone.js to create web applications. 
 
-<p class="soldout"> This workshop has sold out. However; we have a second (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-backbone2 text: Backbone workshop here!)</p>
+<p class="soldout"> This workshop has sold out. However; we have another (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-backbone3 text: Backbone workshop here!)</p>
 
 (image: backbone.png class: full-width)
 
