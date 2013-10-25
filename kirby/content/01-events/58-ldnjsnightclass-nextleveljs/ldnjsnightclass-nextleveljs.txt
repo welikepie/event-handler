@@ -18,7 +18,7 @@ This workshop is being run by (link: http://www.twitter.com/benhowdle text: Ben 
 * Memory Profiling
 * Performance
 * Coding Conventions
-* How to maintain your projects
+* Making your projects maintainable
 
 ### Requirements
 
