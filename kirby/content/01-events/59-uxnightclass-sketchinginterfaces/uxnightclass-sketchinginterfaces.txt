@@ -1,0 +1,78 @@
+Title: Sketching Interfaces
+----
+Text: 
+On the 11th of February, (link: http://www.twitter.com/evalottchen text: Eva-Lotta Lamm) will be hosting a night class on sketching interfaces.
+
+(image: interface.png class: full-width)
+
+### Who is it for?
+
+Sketching is a core skill and tool of any designer. It is a quick and cheap way to ideate, develop and iterate on possible design solutions, both alone and with a group.
+
+We will take a closer look at when and how to use sketching in the design process and how to make your sketches communicate more clearly and efficiently. We will start with basic sketching techniques and build up the pace through a mix of theory, exercises, practise sessions and group critiques.
+
+This workshop is ideal for Designers, Developers, Product Managers or anyone who is involved in creating websites or applications and wants to add sketching to their range of tools. 
+
+**All skill levels are welcome and no previous sketching skills or knowledge are necessary.**
+ 
+
+### Who is it taught by?
+
+(link: http://www.evalotta.net/ text: Eva-Lotta) is a User Experience Designer and Illustrator. She grew up in Germany, worked in Paris for a few years and is now based in London, UK where she works as an Interaction Designer at Google. 
+
+Besides her daytime mission of making the web a more understandable, usable and delightful place, she regularly takes (link: http://www.flickr.com/photos/evalottchen/sets/72157607235674386/with/6848813489/ text: sketchnotes) at all sorts of talks and conferences and has self-published her notes in (link: http://sketchnotesbook.com/ text: several books).
+
+### What you'll learn
+
+* When to use sketching in the design process
+* How to decide on the right level of fidelity for your sketches 
+* Sketching out flows to provide an overview
+* Sketching detailed screen designs
+* Sketching interactions and transitions
+* Labelling and annotating your sketches
+* Tips and tricks to enhance your sketches
+
+### Requirements
+
+* We'll bring the materials, you just need to bring yourself! 
+
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Sketching Interfaces with Eva-Lotta Lamm
+
+----
+What: Sketching Interfaces
+----
+Date: 2014-02-11 19:00
+----
+End_Date: 2014-02-11 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Sketching Interfaces</span>
+	<span>11th February 2013</span>
+	<abbr class="easydate">Tues, 11 February 2014 19:00:00 +0000</abbr>
+	<a href="http://uxnightclass-sketchinginterfaces.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://uxnightclass-sketchinginterfaces.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2014/uxnightclass-sketchinginterfaces
+----
