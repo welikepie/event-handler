@@ -9,7 +9,7 @@ if(String(links[i]).indexOf("/profile") != -1){
 	links[i].setAttribute('href',links[i].getAttribute('href').replace('http://lanyrd.com',''));
 	
 	}
-if(links[i].indexOf("eventhandler")==-1){
+if(links[i].baseURI.indexOf("eventhandler")==-1){
 	links[i].setAttribute('target','_blank');
 }
 }
