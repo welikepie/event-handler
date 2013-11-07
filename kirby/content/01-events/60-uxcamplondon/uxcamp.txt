@@ -69,5 +69,5 @@ Infobox:
 ----
 Booking_link: http://uxcamplondonspring2014.eventbrite.com/
 ----
-Lanyard: http://lanyrd.com/2014/uxcldn14/
+Lanyrd: http://lanyrd.com/2014/uxcldn14/
 ----

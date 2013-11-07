@@ -70,5 +70,5 @@ Infobox:
 ----
 Booking_link: http://eventhandlernightclass-modernlayout.eventbrite.com/
 ----
-Lanyard: http://lanyrd.com/2014/ehnightclass-modernlayout
+Lanyrd: http://lanyrd.com/2014/ehnightclass-modernlayout
 ----

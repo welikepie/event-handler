@@ -25,8 +25,8 @@ Layton Reid (link: http://desitecture.blogspot.co.uk/ text: - Website) - Desitec
 Simon T Abernethy (link: http://twitter.com/pirateomnibus text: @pirateomnibus) - Omnibus Racing for Beginners
 The Gloves Team (link: http://imogenheap.com/thegloves/ text: - Website) - Gloves for Music Creation and Performance
 Alice Bartlett (link: http://twitter.com/alicebartlett text: @alicebartlett) - Anosmia: Some Stinky Truths
-Tom Scott (link: http://twitter.com/tomscott text: @tomscott) - To be announced
-James Wickham (link: http://twitter.com/jameswickham text: @jameswickham) - To be announced
+Tom Scott (link: http://twitter.com/tomscott text: @tomscott) - Single Point of Failure
+James Wickham (link: http://twitter.com/jameswickham text: @jameswickham) - Wireless for Sound
 Helen Scales (link: http://twitter.com/helenscales text: @helenscales) - To be announced
 
 ## Sponsors
@@ -67,5 +67,5 @@ Infobox:
 ----
 Booking_link: http://www.geekyconf.com
 ----
-Lanyard: http://www.lanyrd.com/2013/geekyconf/
+Lanyrd: http://www.lanyrd.com/2013/geekyconf/
 ----

@@ -71,5 +71,5 @@ Infobox:
 ----
 Booking_link: http://ldnjsnightclass-testingjs.eventbrite.com/
 ----
-Lanyard: http://lanyrd.com/2014/ldnjsnightclass-testingjs
+Lanyrd: http://lanyrd.com/2014/ldnjsnightclass-testingjs
 ----

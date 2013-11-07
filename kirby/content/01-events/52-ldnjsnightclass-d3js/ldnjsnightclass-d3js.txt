@@ -66,5 +66,5 @@ Infobox:
 ----
 Booking_link: http://ldnjsnightclass-d3.eventbrite.com/
 ----
-Lanyard: http://lanyrd.com/2014/ldnjsnightclass-d3js
+Lanyrd: http://lanyrd.com/2014/ldnjsnightclass-d3js
 ----

@@ -74,5 +74,5 @@ Infobox:
 ----
 Booking_link: http://uxnightclass-sketchinginterfaces.eventbrite.com/
 ----
-Lanyard: http://www.lanyrd.com/2014/uxnightclass-sketchinginterfaces
+Lanyrd: http://www.lanyrd.com/2014/uxnightclass-sketchinginterfaces
 ----

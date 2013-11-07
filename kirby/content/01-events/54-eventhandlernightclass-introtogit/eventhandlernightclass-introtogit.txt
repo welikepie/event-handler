@@ -65,5 +65,5 @@ Infobox:
 ----
 Booking_link: http://eventhandlernightclass-introtogit.eventbrite.com/
 ----
-Lanyard: http://www.lanyrd.com/2014/ehnightclass-introtogit
+Lanyrd: http://www.lanyrd.com/2014/ehnightclass-introtogit
 ----

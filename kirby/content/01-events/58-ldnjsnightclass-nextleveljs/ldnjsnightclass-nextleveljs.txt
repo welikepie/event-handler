@@ -61,5 +61,5 @@ Infobox:
 ----
 Booking_link: http://ldnjsnightclass-nextleveljs.eventbrite.com/
 ----
-Lanyard: http://lanyrd.com/2014/ldnjsnightclass-nextleveljs
+Lanyrd: http://lanyrd.com/2014/ldnjsnightclass-nextleveljs
 ----

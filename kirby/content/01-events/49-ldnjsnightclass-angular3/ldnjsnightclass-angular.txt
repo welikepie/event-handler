@@ -67,5 +67,5 @@ Infobox:
 ----
 Booking_link: http://ldnjsnightclass-angular3.eventbrite.com/
 ----
-Lanyard: http://lanyrd.com/2014/ldnjsnightclass-angular3
+Lanyrd: http://lanyrd.com/2014/ldnjsnightclass-angular3
 ----
