@@ -38,7 +38,7 @@ function generateHeader($type){
         echo("<description>This is an eventhandler driven event feed.</description>");
         echo("<language>en-gb</language>");
 //		var_dump($site->modified());
-		echo("<lastBuildDate>".date("D, d M Y H:i:s O",mktime(0, 0, 0, date('n'), date('j'), date('Y')))." CET</lastBuildDate>");
+	  	echo("<lastBuildDate>".date("D, d M Y H:i:s O",mktime(0, 0, 0, date('n'), date('j'), date('Y')))." CET</lastBuildDate>");
 }
 
 function generateContent($input){

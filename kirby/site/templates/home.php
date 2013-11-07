@@ -19,9 +19,10 @@
 			
 			$event_count = 0;      // Increased by 1 for every event rendered
 			$infobox = "";         // Holds the infobox HTML
-			
+			$current_date = mktime(0, 0, 0, date('n'), date('j'), date('Y'));
+	
 			foreach ($events as $event) {
-			
+				//break;
 				// Skip all other events if we've already
 				// rendered required number of upcoming events
 				if ($event_count >= 30) { break; }
@@ -30,7 +31,6 @@
 				// Compare to current date and time at midnight, so that today's events
 				// show up regardless of time of day.
 				$event_date = $event->date();
-				$current_date = mktime(0, 0, 0, date('n'), date('j'), date('Y'));
 				if ($current_date > $event_date) { continue; }
 				
 				// Event has passed requirements, will be rendered.
@@ -56,9 +56,8 @@
 						<!-- Page Description -->
 						<div class="description">
 						<?php
-							$html = kirbytext($event->text());
-							$html = preg_replace('/<p>/i', '<p><span class="figure">Fig.' . $event_count . ' </span>', $html, 1);
-							echo $html;
+							
+							echo preg_replace('/<p>/i', '<p><span class="figure">Fig.' . $event_count . ' </span>', kirbytext($event->text()), 1);;
 						?>
 						</div>
 						
@@ -179,42 +178,10 @@
 					</div>					
 						<div class = "main_content">
 						<?php
-						//ini_set("display_errors","1");
-						//ERROR_REPORTING(E_ALL);
 						if ($event -> lanyard()) {
-							//https://api.twitter.com/1/users/profile_image/ TWITTER USERNAME
-							$data = file_get_contents($event -> lanyard());
-							$dom = new DOMDocument;
-							@$dom -> loadHTML($data);
-							$organisersOut = "";
-							$speakersOut = "";
-							$finder = new DomXPath($dom);
-							$classname="people";
-							$nodes = $finder->query("//ul[contains(@class, '$classname')]"); 
-							//returns domNodeList. All speakers lists and organisers lists are contained in <ul class="people">
-							
-							foreach($nodes as $key => $element)
-							{
-								if($key < ($nodes -> length)-1){ //get childnodes of elements.
-								$LIarr = $element->childNodes;
-									foreach($LIarr as $LIchild){
-										$speakersOut .= $element->ownerDocument->saveXML($LIchild); //everything before last must be speakers.
-									}
-								}			
-								if($key == ($nodes -> length)-1){
-								$LIarr = $element->childNodes;
-									foreach($LIarr as $LIchild){
-										$organisersOut .= $element->ownerDocument->saveXML($LIchild); //everything before last must be speakers.
-									}	
-								}
-							}
-							echo('<div class="lanyrd_speakers">');
-								echo('<div class="heads">Speakers</div>');
-								echo (('<div class="fullwidth" id = "speakerField"><ul class="people">'.utf8_decode($speakersOut).'</ul></div>')); 
-								echo('<div class="heads">Organisers & Hosts</div>');
-								echo(('<div class="fullwidth" id = "organiserField"><ul class="people">'.utf8_decode($organisersOut).'</ul></div>'));
-							echo('</div>');
-						
+						?>
+							<div class="lanyrd_speakers" data-lanyrd="<?php echo($event->lanyard());?>"></div>
+						<?php
 						}
 						?>
 						
@@ -287,6 +254,7 @@
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
+		url('assets/scripts/lanyrdLoader.js'),
 		url('assets/scripts/scrapeFormatter.js'),
 		url('assets/scripts/tooltipAdd.js'),
 		url('assets/scripts/tooltipMod.js'),
@@ -380,4 +348,5 @@ EOT
 	$(".easydate").easydate();
 EOT
 	)
-)); ?>
+));
+//echo("<h1 id='suckit'>"+time()+"</h1>");  ?>
