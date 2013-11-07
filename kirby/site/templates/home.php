@@ -180,7 +180,7 @@
 						<?php
 						if ($event -> lanyard()) {
 						?>
-							<div class="lanyrd_speakers" data-lanyrd="<?php echo($event->lanyard());?>"></div>
+							<div class="lanyrd_speakers" data-lanyrd="<?php echo($event->lanyrd());?>"></div>
 						<?php
 						}
 						?>

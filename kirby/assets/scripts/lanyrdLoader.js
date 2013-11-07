@@ -1,38 +1,23 @@
 var lanyrdEls = document.getElementsByClassName("lanyrd_speakers");
 for(var i = 0; i < lanyrdEls.length; i++){
-	populate(lanyrdEls[i],$(lanyrdEls).data("lanyrd"));
+	populate(lanyrdEls[i],$(lanyrdEls[i]).data("lanyrd"));
 }
 function populate(el,url){
-	console.log(url);
-	console.log(el);
-var heads = document.createElement("div");
-heads.className = "heads";
-var heads2 = heads.cloneNode(true);
-heads.innerHTML = "Speakers";
-heads2.innerHTML = "Organisers & Hosts";
-var people = document.createElement("ul");
-people.className="people";
-var people2 = people.cloneNode(true);
-var fullWidth = document.createElement("div");
-var fullWidth2 = fullWidth.cloneNode(true);
-fullWidth.id = "speakerField";
-fullWidth2.id = "organiserField";
-
-$.ajax(url,{
-	
-	headers:{
-		
-	},
-success:function(input,data){
-	console.log(input);
-}});
-
-fullWidth.appendChild(people);
-fullWidth2.appendChild(people2);
-el.appendChild(heads);
-el.appendChild(fullWidth);
-el.appendChild(heads2);
-el.appendChild(fullWidth2);
+	if(url.charAt(url.length-1)!="/"){
+		url+="/";
+	}
+		console.log(url);
+$.ajax({
+			method:"GET",
+			url:"/assets/serverside/getLanyrd.php",
+			contentType:"json",
+			data:"url="+url,
+			success:function(response){
+			//	console.log(response);
+			el.innerHTML = JSON.parse(response).data;
+			sortThrough(el);
+			}
+		})
 }
 /*
 								echo('<div class="heads">Speakers</div>');

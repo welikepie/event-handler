@@ -1,5 +1,5 @@
 <?php
-
+//$start = microtime(1);
 // direct access protection
 if(!isset($root)) die('Direct access is not allowed');
 
@@ -51,6 +51,7 @@ if(c::get('troubleshoot')) {
   require_once(c::get('root.kirby') . '/modals/troubleshoot.php');
   exit();
 }
+//echo($start - microtime(1));
 
 $site = new site();
 $site->load();

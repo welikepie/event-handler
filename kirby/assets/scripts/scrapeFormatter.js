@@ -1,5 +1,4 @@
 var forbid=["eventhandleruk"]; //add people to the blacklist based on their twitter handle. Case sensitive.
-
 var links = document.getElementsByTagName("a");
 
 for(i=0; i< links.length; i++){
@@ -9,13 +8,14 @@ if(String(links[i]).indexOf("/profile") != -1){
 	links[i].setAttribute('href',links[i].getAttribute('href').replace('http://lanyrd.com',''));
 	
 	}
-if(links[i].baseURI.indexOf("eventhandler")==-1){
+if(links[i].baseURI.indexOf("eventhandler")==-1 &&links[i].baseURI.indexOf("localhost")==-1){
 	links[i].setAttribute('target','_blank');
 }
 }
-(function(){
+
+function sortThrough(el){
 //var organisers = document.getElementsByClassName("fullwidth");
-var organisers = document.querySelectorAll('.fullwidth');
+var organisers = el.querySelectorAll('.fullwidth');
 var returnArr = new Array(organisers.length);
 	for (i = 0; i < organisers.length; i++){
 	if(i%2 == 0){
@@ -49,4 +49,4 @@ var returnArr = new Array(organisers.length);
 				organisers[i].innerHTML = "<ul class='people'>"+replaceOrganisers+"</ul>";		
 			}
 	}
-})()
+}

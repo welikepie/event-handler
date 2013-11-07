@@ -238,7 +238,8 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 			<div id="infobox"><?php echo $temp; ?></div>
 			<?php } ?>
 		</div>
-		
+
+
 <?php snippet('footer', array(
 	'bottom_scripts' => array(
 		'http://code.jquery.com/jquery-latest.min.js',
@@ -336,4 +337,5 @@ EOT
 	$(".easydate").easydate();
 EOT
 	)
-)); ?>
+)); 
+?>
