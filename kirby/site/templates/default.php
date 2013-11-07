@@ -157,41 +157,8 @@ if ($banners) {
 					?>
 					<div class = "main_content">
 						<?php
-						if ($page -> lanyard()) {
-							//https://api.twitter.com/1/users/profile_image/ TWITTER USERNAME
-							$data = file_get_contents($page -> lanyard());
-							$dom = new DOMDocument;
-							@$dom -> loadHTML($data);
-							$speakers = $dom -> getElementById("speaker-list");
-							$organisers = $dom -> getElementsByTagName("ul");
-							$organisersOut = "";
-							$speakersOut = "";
-							
-$finder = new DomXPath($dom);
-$classname="people";
-$nodes = $finder->query("//*[contains(@class, '$classname')]");
-
-							$classname = 'secondary';
-							
-							foreach($speakers -> childNodes as $element)
-							{
-					    		$speakersOut .= $element->ownerDocument->saveXML($element);
-							}
-							
-							foreach($nodes as $key => $element)
-							{
-								if($key == ($nodes -> length)-1){
-					    			$organisersOut .= $element->ownerDocument->saveXML($element);	
-								}
-							}
-							
-							echo('<div class="lanyrd_speakers">');
-								echo('<div class="heads">Speakers</div>');
-								echo (('<div class="fullwidth" id = "speakerField"><ul class="people">'.utf8_decode($speakersOut).'</ul></div>')); 
-								echo('<div class="heads">Organisers & Hosts</div>');
-								echo(('<div class="fullwidth" id = "organiserField"><ul class="people">'.utf8_decode($organisersOut).'</ul></div>'));
-							echo('</div>');
-							
+						if ($page -> lanyrd()) {
+							echo('<div class="lanyrd_speakers" data-lanyrd="'.$page -> lanyrd().'"></div>');
 						}
 						?>
 						
@@ -238,15 +205,16 @@ $nodes = $finder->query("//*[contains(@class, '$classname')]");
 			<div id="infobox"><?php echo $temp; ?></div>
 			<?php } ?>
 		</div>
-
-
+		
 <?php snippet('footer', array(
 	'bottom_scripts' => array(
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
-		url('assets/scripts/bootstrap-tooltip.js'),
+		url('assets/scripts/lanyrdLoader.js'),
 		url('assets/scripts/scrapeFormatter.js'),
+		url('assets/scripts/tooltipAdd.js'),
+		url('assets/scripts/tooltipMod.js'),
 		url('assets/scripts/jquery.easydate-0.2.4.min.js')
 	),
 	'bottom_snippets' => array(
@@ -337,5 +305,4 @@ EOT
 	$(".easydate").easydate();
 EOT
 	)
-)); 
-?>
+)); ?>

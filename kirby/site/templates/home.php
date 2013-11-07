@@ -178,10 +178,10 @@
 					</div>					
 						<div class = "main_content">
 						<?php
-						if ($event -> lanyard()) {
-						?>
-							<div class="lanyrd_speakers" data-lanyrd="<?php echo($event->lanyrd());?>"></div>
-						<?php
+						if ($event -> lanyrd()) {
+						
+							echo('<div class="lanyrd_speakers" data-lanyrd="'.$event->lanyrd().'"></div>');
+						
 						}
 						?>
 						

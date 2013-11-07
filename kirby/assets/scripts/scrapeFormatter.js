@@ -1,17 +1,13 @@
 var forbid=["eventhandleruk"]; //add people to the blacklist based on their twitter handle. Case sensitive.
-var links = document.getElementsByTagName("a");
+var targetBlanks = ["eventhandler","localhost"];
 
-for(i=0; i< links.length; i++){
-
-if(String(links[i]).indexOf("/profile") != -1){	
-	links[i].setAttribute('href',links[i].getAttribute('href').replace('/profile','http://www.twitter.com'));
-	links[i].setAttribute('href',links[i].getAttribute('href').replace('http://lanyrd.com',''));
-	
+var linksOne = document.getElementsByTagName("a");
+//	console.log(links);
+	for(i=0; i < linksOne.length; i++){
+		if(linksOne[i].href.toLowerCase().indexOf(targetBlanks[0])==-1&&linksOne[i].href.toLowerCase().indexOf(targetBlanks[1])==-1){
+			linksOne[i].setAttribute('target','_blank');
+		}
 	}
-if(links[i].baseURI.indexOf("eventhandler")==-1 &&links[i].baseURI.indexOf("localhost")==-1){
-	links[i].setAttribute('target','_blank');
-}
-}
 
 function sortThrough(el){
 //var organisers = document.getElementsByClassName("fullwidth");
@@ -48,5 +44,16 @@ var returnArr = new Array(organisers.length);
 				}
 				organisers[i].innerHTML = "<ul class='people'>"+replaceOrganisers+"</ul>";		
 			}
+	}
+	var links = el.getElementsByTagName("a");
+	console.log(links);
+	for(i=0; i < links.length; i++){
+		if(String(links[i]).indexOf("/profile") != -1){	
+			links[i].setAttribute('href',links[i].getAttribute('href').replace('/profile','http://www.twitter.com'));
+			links[i].setAttribute('href',links[i].getAttribute('href').replace('http://lanyrd.com',''));
+		}
+		if(links[i].href.toLowerCase().indexOf(targetBlanks[0])==-1 &&links[i].href.toLowerCase().indexOf(targetBlanks[1])==-1){
+			links[i].setAttribute('target','_blank');
+		}
 	}
 }
