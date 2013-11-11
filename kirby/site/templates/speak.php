@@ -13,10 +13,7 @@
 				</p>
 		<div class="speaker_submission">
 				<div class="ss-form">
-					<iframe name="hidden_iframe" id="hidden_iframe">
-					</iframe>
-<form action="http://docs.google.com/spreadsheet/formResponse?formkey=dHo5ckpodXpYbzJRelplb2MzN3pOZ2c6MQ&amp;embedded=true&amp;ifq" target="hidden_iframe" id="ss-form" name = "speakerform" method="post"
-target="hidden_iframe" onsubmit="(function(){if(formsubmit()){submitted=true;}})();">
+					<form id="ss-form" name = "speakerform"  onsubmit="formsubmit(); return false;">
 						<fieldset>
 							<script type="text/javascript"></script>
 						<div class="errorbox-good">
@@ -142,132 +139,132 @@ target="hidden_iframe" onsubmit="(function(){if(formsubmit()){submitted=true;}})
 										<li class="ss-choice-item">
 										
 											<input type="checkbox" name="entry.7.group" value="Writing" class="ss-q-checkbox" id="group_7_2">	
-												<label class="ss-choice-label" for"group_7_2">Writing</label>
+											<label class="ss-choice-label" for="group_7_2">Writing</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Design" class="ss-q-checkbox" id="group_7_3">
-												<label class="ss-choice-label" for "group_7_3">Design</label>
+												<label class="ss-choice-label" for="group_7_3">Design</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Javascript" class="ss-q-checkbox" id="group_7_4">
-												<label class="ss-choice-label" for "group_7_4">Javascript</label>
+												<label class="ss-choice-label" for="group_7_4">Javascript</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="LEGO" class="ss-q-checkbox" id="group_7_5">
-												<label class="ss-choice-label" for "group_7_5">LEGO</label>
+												<label class="ss-choice-label" for="group_7_5">LEGO</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Illustration" class="ss-q-checkbox" id="group_7_6">
-												<label class="ss-choice-label" for "group_7_6">Illustration</label>
+												<label class="ss-choice-label" for="group_7_6">Illustration</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Web Design" class="ss-q-checkbox" id="group_7_7">
-												<label class="ss-choice-label" for "group_7_7">Web Design</label>
+												<label class="ss-choice-label" for="group_7_7">Web Design</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Development" class="ss-q-checkbox" id="group_7_8">
-												<label class="ss-choice-label" for "group_7_8">Development</label>
+												<label class="ss-choice-label" for="group_7_8">Development</label>
 										</li>
 										<li class="ss-choice-item">
 										
 												<input type="checkbox" name="entry.7.group" value="Libraries" class="ss-q-checkbox" id="group_7_9">
-													<label class="ss-choice-label" for "group_7_9">Libraries</label>
+													<label class="ss-choice-label" for="group_7_9">Libraries</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="APIs" class="ss-q-checkbox" id="group_7_10">
-												<label class="ss-choice-label" for "group_7_10">APIs</label>
+												<label class="ss-choice-label" for="group_7_10">APIs</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Arduino" class="ss-q-checkbox" id="group_7_11">
-												<label class="ss-choice-label" for "group_7_11">Arduino</label>
+												<label class="ss-choice-label" for="group_7_11">Arduino</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Mobile" class="ss-q-checkbox" id="group_7_12">
-												<label class="ss-choice-label" for "group_7_12">Mobile</label>
+												<label class="ss-choice-label" for="group_7_12">Mobile</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Internet of things" class="ss-q-checkbox" id="group_7_13">
-												<label class="ss-choice-label" for "group_7_13">Internet of things</label>
+												<label class="ss-choice-label" for="group_7_13">Internet of things</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Gaming" class="ss-q-checkbox" id="group_7_14">
-												<label class="ss-choice-label" for "group_7_14">Gaming</label>
+												<label class="ss-choice-label" for="group_7_14">Gaming</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Scaling" class="ss-q-checkbox" id="group_7_15">
-												<label class="ss-choice-label" for "group_7_15">Scaling</label>
+												<label class="ss-choice-label" for="group_7_15">Scaling</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Architecture" class="ss-q-checkbox" id="group_7_16">
-												<label class="ss-choice-label" for "group_7_16">Architecture</label>
+												<label class="ss-choice-label" for="group_7_16">Architecture</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Optimisation" class="ss-q-checkbox" id="group_7_17">
-												<label class="ss-choice-label" for "group_7_17">Optimisation</label>
+												<label class="ss-choice-label" for="group_7_17">Optimisation</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Browsers" class="ss-q-checkbox" id="group_7_18">
-												<label class="ss-choice-label" for "group_7_18">Browsers</label>
+												<label class="ss-choice-label" for="group_7_18">Browsers</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Frameworks" class="ss-q-checkbox" id="group_7_19">
-												<label class="ss-choice-label" for "group_7_19">Frameworks</label>
+												<label class="ss-choice-label" for="group_7_19">Frameworks</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Serverside" class="ss-q-checkbox" id="group_7_20">
-												<label class="ss-choice-label" for "group_7_20">Serverside</label>
+												<label class="ss-choice-label" for="group_7_20">Serverside</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Clientside" class="ss-q-checkbox" id="group_7_21">
-												<label class="ss-choice-label" for "group_7_21">Clientside</label>
+												<label class="ss-choice-label" for="group_7_21">Clientside</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="TV" class="ss-q-checkbox" id="group_7_22">
-												<label class="ss-choice-label" for "group_7_22">TV</label>
+												<label class="ss-choice-label" for="group_7_22">TV</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Patterns" class="ss-q-checkbox" id="group_7_23">
-												<label class="ss-choice-label" for "group_7_23">Patterns</label>
+												<label class="ss-choice-label" for="group_7_23">Patterns</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Real time web" class="ss-q-checkbox" id="group_7_24">
-												<label class="ss-choice-label" for "group_7_24">Real time web</label>
+												<label class="ss-choice-label" for="group_7_24">Real time web</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Data" class="ss-q-checkbox" id="group_7_25">
-												<label class="ss-choice-label" for "group_7_25">Data</label>
+												<label class="ss-choice-label" for="group_7_25">Data</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Security" class="ss-q-checkbox" id="group_7_26">
-												<label class="ss-choice-label" for "group_7_26">Security</label>
+												<label class="ss-choice-label" for="group_7_26">Security</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Testing" class="ss-q-checkbox" id="group_7_27">
-												<label class="ss-choice-label" for "group_7_27">Testing</label>
+												<label class="ss-choice-label" for="group_7_27">Testing</label>
 										</li>
 										<li class="ss-choice-item">
 											<label class="ss-choice-label">
@@ -277,17 +274,17 @@ target="hidden_iframe" onsubmit="(function(){if(formsubmit()){submitted=true;}})
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Hacking" class="ss-q-checkbox" id="group_7_29">
-												<label class="ss-choice-label" for "group_7_29">Hacking</label>
+												<label class="ss-choice-label" for="group_7_29">Hacking</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Storytelling" class="ss-q-checkbox" id="group_7_30">
-												<label class="ss-choice-label" for "group_7_30">Storytelling</label>
+												<label class="ss-choice-label" for="group_7_30">Storytelling</label>
 										</li>
 										<li class="ss-choice-item">
 											
 												<input type="checkbox" name="entry.7.group" value="Hardware" class="ss-q-checkbox" id="group_7_31">
-												<label class="ss-choice-label"for "group_7_31">Hardware</label>
+												<label class="ss-choice-label"for="group_7_31">Hardware</label>
 										</li> 
 										<!-- li, first input, label, second.
 										//li, input -->
