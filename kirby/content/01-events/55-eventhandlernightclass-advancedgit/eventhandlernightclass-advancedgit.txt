@@ -68,3 +68,5 @@ Booking_link: http://eventhandlernightclass-advancedgit.eventbrite.com/
 ----
 Lanyrd: http://www.lanyrd.com/2014/ehnightclass-advancedgit
 ----
+LanyrdAPI: http://lanyrd.com/2014/ehnightclass-advancedgit/speakers/a626e1f7a7b38690.v1.json
+----

@@ -315,4 +315,6 @@ target="hidden_iframe" onsubmit="(function(){if(formsubmit()){submitted=true;}})
 			
 			</section>
 		</div>
-<?php snippet('speakFooter') ?>
+<?php snippet('speakFooter',array(
+	'bottom_scripts' => array(
+		'http://code.jquery.com/jquery-latest.min.js')))?>

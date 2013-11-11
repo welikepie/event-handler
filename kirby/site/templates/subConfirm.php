@@ -7,4 +7,6 @@
 		</div>
 	</section>
 </div>
-<?php snippet('footer'); ?>
+<?php snippet('footer', array(
+	'bottom_scripts' => array(
+		'http://code.jquery.com/jquery-latest.min.js')))?>

@@ -71,3 +71,5 @@ Booking_link: http://uxcamplondonspring2014.eventbrite.com/
 ----
 Lanyrd: http://lanyrd.com/2014/uxcldn14/
 ----
+LanyrdAPI: http://lanyrd.com/2014/uxcldnspring14/speakers/44d4bfceda23ec74.v1.json
+----

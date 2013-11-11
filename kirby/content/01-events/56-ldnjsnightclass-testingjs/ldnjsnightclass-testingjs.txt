@@ -73,3 +73,5 @@ Booking_link: http://ldnjsnightclass-testingjs.eventbrite.com/
 ----
 Lanyrd: http://lanyrd.com/2014/ldnjsnightclass-testingjs
 ----
+LanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-testingjs/speakers/19a2e6f87a1c49a8.v1.json
+----

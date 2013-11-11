@@ -69,3 +69,5 @@ Booking_link: http://www.geekyconf.com
 ----
 Lanyrd: http://www.lanyrd.com/2013/geekyconf/
 ----
+LanyrdAPI: http://lanyrd.com/2013/geekyconf/speakers/9ab9ba7f20a67c3c.v1.json
+----

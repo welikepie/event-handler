@@ -178,9 +178,9 @@
 					</div>					
 						<div class = "main_content">
 						<?php
-						if ($event -> lanyrd()) {
+						if ($event -> lanyrd() && $event -> lanyrdapi()) {
 						
-							echo('<div class="lanyrd_speakers" data-lanyrd="'.$event->lanyrd().'"></div>');
+							echo('<div class="lanyrd_speakers" data-lanyrdAPI="'.$event->lanyrdapi().'" data-lanyrd="'.$event->lanyrd().'"></div>');
 						
 						}
 						?>

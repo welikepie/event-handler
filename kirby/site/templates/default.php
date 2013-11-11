@@ -157,8 +157,10 @@ if ($banners) {
 					?>
 					<div class = "main_content">
 						<?php
-						if ($page -> lanyrd()) {
-							echo('<div class="lanyrd_speakers" data-lanyrd="'.$page -> lanyrd().'"></div>');
+						if ($event -> lanyrd() && $event -> lanyrdapi()) {
+						
+							echo('<div class="lanyrd_speakers" data-lanyrdAPI="'.$event->lanyrdapi().'" data-lanyrd="'.$event->lanyrd().'"></div>');
+						
 						}
 						?>
 						

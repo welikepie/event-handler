@@ -68,3 +68,5 @@ Booking_link: http://ldnjsnightclass-d3.eventbrite.com/
 ----
 Lanyrd: http://lanyrd.com/2014/ldnjsnightclass-d3js
 ----
+LanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-d3js/speakers/c58158a23da54329.v1.json
+----

@@ -67,3 +67,5 @@ Booking_link: http://eventhandlernightclass-introtogit.eventbrite.com/
 ----
 Lanyrd: http://www.lanyrd.com/2014/ehnightclass-introtogit
 ----
+LanyrdAPI: http://lanyrd.com/2014/ehnightclass-introtogit/speakers/52982eef3fb185e2.v1.json
+----

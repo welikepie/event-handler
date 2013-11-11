@@ -70,3 +70,5 @@ Booking_link: http://ldnjsnightclass-backbone3.eventbrite.com/
 ----
 Lanyrd: http://www.lanyrd.com/2014/ldnjsnightclass-backbone3
 ----
+LanyrdAPI:  http://lanyrd.com/2014/ldnjsnightclass-backbone3/speakers/347a6bd7b316d66a.v1.json
+----

@@ -76,3 +76,5 @@ Booking_link: http://uxnightclass-sketchinginterfaces.eventbrite.com/
 ----
 Lanyrd: http://www.lanyrd.com/2014/uxnightclass-sketchinginterfaces
 ----
+LanyrdAPI: http://lanyrd.com/2014/uxnightclass-sketchinginterfaces/speakers/0e377429084910af.v1.json
+----

@@ -1,4 +1,4 @@
 Title: Awesome, you've submitted an idea to us!
 ----
 Text: 
-We'll take a look at it and if we like it or want to know more, we'll be in touch. In the meantime, why not check out what <a href="/calendar">events we’re already working on?</a> 
+We'll take a look at it and if we like it or want to know more, we'll be in touch. In the meantime, why not check out what <a href="/">events we’re already working on?</a> 

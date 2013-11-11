@@ -72,3 +72,5 @@ Booking_link: http://eventhandlernightclass-modernlayout.eventbrite.com/
 ----
 Lanyrd: http://lanyrd.com/2014/ehnightclass-modernlayout
 ----
+LanyrdAPI: http://lanyrd.com/2014/ehnightclass-modernlayout/speakers/0e54fb88e317138c.v1.json
+----
