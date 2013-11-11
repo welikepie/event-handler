@@ -46,7 +46,7 @@ var returnArr = new Array(organisers.length);
 			}
 	}
 	var links = el.getElementsByTagName("a");
-	console.log(links);
+//	console.log(links);
 	for(i=0; i < links.length; i++){
 		if(String(links[i]).indexOf("/profile") != -1){	
 			links[i].setAttribute('href',links[i].getAttribute('href').replace('/profile','http://www.twitter.com'));

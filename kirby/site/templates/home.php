@@ -254,8 +254,8 @@
 		'http://code.jquery.com/jquery-latest.min.js',
 		'http://maps.google.com/maps/api/js?sensor=false',
 		'http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js',
-		url('assets/scripts/lanyrdLoader.js'),
 		url('assets/scripts/scrapeFormatter.js'),
+		url('assets/scripts/lanyrdLoader.js'),
 		url('assets/scripts/tooltipAdd.js'),
 		url('assets/scripts/tooltipMod.js'),
 		url('assets/scripts/jquery.easydate-0.2.4.min.js')

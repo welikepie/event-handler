@@ -1,4 +1,4 @@
-var lanyrdEls = document.getElementsByClassName("lanyrd_speakers");
+var lanyrdEls = $(".lanyrd_speakers");
 for(var i = 0; i < lanyrdEls.length; i++){
 	populate(lanyrdEls[i],$(lanyrdEls[i]).data("lanyrdapi"));
 }
@@ -15,7 +15,6 @@ $.ajax({
 }
 
 function createDom(input, element){
-console.log(input);
 	if(input.length>0){
 		var topDiv = document.createElement("div");
 		topDiv.innerHTML = "Speakers";

@@ -1,4 +1,4 @@
-var links = document.getElementsByClassName("button");
+var links = $(".button");
 var falseLinks = ["eventhandler"];
 for (var i = 0; i < links.length; i++) {
 	if (links[i] != undefined) {
