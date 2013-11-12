@@ -67,7 +67,7 @@ Infobox:
 
 <h1>
 	<span>Sketching Interfaces</span>
-	<span>11th February 2013</span>
+	<span>11th February 2014</span>
 	<abbr class="easydate">Tues, 11 February 2014 19:00:00 +0000</abbr>
 	<a href="http://uxnightclass-sketchinginterfaces.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
