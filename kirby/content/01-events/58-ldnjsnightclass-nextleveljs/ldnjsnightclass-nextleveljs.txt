@@ -11,7 +11,7 @@ Comfortable with jQuery but want to go further? Want to be able to build entire 
 
 ### Who is it taught by?
 
-This workshop is being run by (link: http://www.twitter.com/benhowdle text: Ben Howdle. Ben is a software developer for Kashflow and describes himself as a "JavaScript guy at heart". Ben has worked on many projects over the years including (link: http://benhowdle.im/svgeezy/ text: SVGeezy), (link: http://benhowdle.im/cortado/ text: Cortado) and (link: http://heisenbergjs.github.io/heisenberg/ text: Heisenberg.js); whilst also being one half of the (link: http://upfrontpodcast.com/ text: Upfront Podcast) on Front-End Web Development. He also writes a (link: http://benhowdle.im/archive/ text: blog) that covers many things including JS.
+This workshop is being run by (link: http://www.twitter.com/benhowdle text: Ben Howdle). Ben is a software developer for Kashflow and describes himself as a "JavaScript guy at heart". Ben has worked on many projects over the years including (link: http://benhowdle.im/svgeezy/ text: SVGeezy), (link: http://benhowdle.im/cortado/ text: Cortado) and (link: http://heisenbergjs.github.io/heisenberg/ text: Heisenberg.js); whilst also being one half of the (link: http://upfrontpodcast.com/ text: Upfront Podcast) on Front-End Web Development. He also writes a (link: http://benhowdle.im/archive/ text: blog) that covers many things including JS.
 
 ### What you'll learn
 
