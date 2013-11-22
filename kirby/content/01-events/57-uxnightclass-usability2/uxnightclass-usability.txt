@@ -57,7 +57,7 @@ Infobox:
 
 <h1>
 	<span>Usability Testing</span>
-	<span>22nd January 2013</span>
+	<span>22nd January 2014</span>
 	<abbr class="easydate">Weds, 22 January 2014 19:00:00 +0000</abbr>
 	<a href="http://uxnightclass-usability2.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
