@@ -4,7 +4,8 @@ require "YAML"
 
 $devString = "../"
 $substring_from = "_data/";
-$writeObj = {};
+$pathArr = [];
+$fileArr = [];
 def rec_path(path, file= false)
   path.children.collect do |child|
     if file and child.file?
@@ -17,24 +18,30 @@ def rec_path(path, file= false)
 end
 
 def add_folder(path)
-patharr = "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{path}".length].split("/");
-patharr.each do |i|
-	puts i;
-	for a in 0..patharr.index(i);
-		puts "--"+"#{a}"
-	end
-end
-#puts patharr
-#iterate through patharr and create as necessary if not existing. If !exist, create, else not.
+#puts "#{path}";
+patharr = "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{path}".length];
+puts patharr;
+$pathArr <<  patharr
 end
 
 def open_file(path)
-puts YAML.dump_stream(path);
+patharr = "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{path}".length].gsub(".yml","").gsub(".yaml","");
+$fileArr << patharr;
+puts $fileArr
+end
 
-#patharr = "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{path}".length].split("/");
-#puts "--"+"#{path}"
-#puts path
-#puts YAML.load_file(path).inspect();
+def format_things()
+auto_hash = Hash.new{ |h,k| h[k] = Hash.new &h.default_proc }
+
+$pathArr.each{ |path|
+  sub = auto_hash
+  path.split( "/" ).each{ |dir| sub[dir]; sub = sub[dir] }
+}
+$fileArr.each{ |path|
+  sub = auto_hash
+  path.split( "/" ).each{ |dir| sub[dir]; sub = sub[dir] }
+}
+puts auto_hash #At the moment we've got the stuff created here. Now to write the file contents to this here! Woop woop!
 end
 
 #dir = "site/_data";
@@ -43,3 +50,4 @@ dir = "../_data";
 # rec_path(Pathname.new(dir), false)
 # directories and normal files
 rec_path(Pathname.new(dir), true)
+format_things
