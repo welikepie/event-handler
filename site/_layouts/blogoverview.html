@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+        <div class="site">
+          {%include navbar.html %}
+			<div id="home">
+			  <h1>Blog Posts from {{page.time}}</h1>
+			  <ul class="posts">
+			    {% for post in page.posts %}
+			      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+			    {% endfor %}
+			  </ul>
+			</div>
+          {% include footer.html %}
+        </div>
+
+    </body>
+</html>
