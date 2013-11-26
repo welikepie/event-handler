@@ -11,8 +11,8 @@ module Jekyll
     #
     # Returns <ArchivePage>
     def initialize(site, month, posts)
-      puts "initialising!";
-      puts site;
+      puts "Creating page instance for the time period: "+month;
+
       @site = site
       @month = month
 #      @year = year
