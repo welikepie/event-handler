@@ -21,6 +21,7 @@ def rec_path(path, file= false)
 end
 
 def add_folder(path)
+puts "-- Folder found at #{path}";
 $pathArr << "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{path}".length];
 end
 
@@ -32,7 +33,7 @@ patharr = "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{p
 $fileArr << patharr;
 file = YAML.load_file(path)
 if file["date"]
-	puts path;
+	puts "-- File found at #{path}";
 	file["directory_tags"] = patharr.split("/");
 	file["directory_tags"].pop
 	file["epoch_s_date"] = time_to_epoch(file["date"]);
@@ -94,12 +95,12 @@ def time_to_epoch(time)
 end
 
 def sort_events(binary, sorting)
-sorting.sort! {
+sorting = sorting.sort_by {
 	|x|
 	 x["epoch_s_date"] 
 }
-	if(binary == "low")
-		sorting.sort! { |x,y| y <=> x }
+	if(binary == "high")
+		sorting.reverse!;
 	end
 	puts "-- Writing Events to file events.yaml"
 	File.open($path_to_data+"events.yaml", 'w') { |file| 
@@ -107,8 +108,21 @@ sorting.sort! {
 		puts "-- Events have been saved"
 	}
 end
-#dir = "site/_data";
-dir = "../_data";
+
+
+
+
+
+
+
+
+
+
+
+
+
+dir = "site/_data";
+#dir = "../_data";
 files_to_delete = ["data.yaml","events.yaml"];
 files_to_delete.each{
 	|x| File.delete(dir+"/"+x) if File.exist?(dir+"/"+x)
@@ -117,10 +131,15 @@ files_to_delete.each{
 # only directories
 # rec_path(Pathname.new(dir), false)
 # directories and normal files
+puts ""
+puts " == Starting the Event Handler data flattener. =="
+puts " == -- Denotes everything is going okay."
+puts " == ++ Denotes something has gone horribly wrong."
 puts "-- re-creating file structure at "+dir
 rec_path(Pathname.new(dir), true)
 puts "-- Folders scanned."
 create_dump
 puts "-- Events Organised in to a Flat File structure";
-puts "-- Sorting by highest date first.";
-sort_events("high", $dateSortArr)
+puts "-- Sorting by lowest date first.";
+sort_events("low", $dateSortArr)
+puts " == Cave Johnson, we're done here."

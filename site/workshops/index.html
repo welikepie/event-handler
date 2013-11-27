@@ -1,0 +1,15 @@
+---
+layout: default
+title: Events
+---
+<h2> Events List </h2>
+ <ul>
+  {% for events in site.data.events %}
+  {% if events.directory_tags contains "workshops" %}
+  <li>
+      {{ events.title }} 
+   workshops!
+  </li>
+  {% endif %}
+  {% endfor %}
+  </ul>

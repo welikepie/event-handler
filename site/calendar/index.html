@@ -1,0 +1,18 @@
+---
+layout: default
+title: Events
+---
+<h2> Events List </h2>
+ <ul>
+  {% for events in site.data.events %}
+  <li>
+      {{ events.title }} : {{events.epoch_s_date}}
+      <ul>
+      	<li>Category : {{events.directory_tags | last}}</li>
+      	{%for speakers in events.speakerID%}
+      	<li>Speaker : {{site.data.data.speakers[speakers]}}
+      	{% endfor %}
+  	</ul>
+  </li>
+  {% endfor %}
+  </ul>

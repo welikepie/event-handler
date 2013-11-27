@@ -1,0 +1,51 @@
+---
+speakerID: charlotte
+title: "London JS Night Class: Backbone.js"
+text: |
+  On the 29th of January, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a workshop in which you can learn to use Backbone.js to create web applications. 
+
+  (image: backbone.png class: full-width)
+
+  ### Who is it for?
+
+  This workshop is for those who want to learn how to build scalable JavaScript applications.
+
+  In one evening you will discover how to work with Backbone.js to create testable, maintable code with a clear structure. This class will take your existing JS, HTML and CSS skills and allow you to create modern thick-client applications using Backbone. 
+   
+
+  ### Who is it taught by?
+
+  This workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles). Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality tracking tool. You can find him speaking about Sidekick and other aspects of the web at (link: http://www.lanyrd.com/timruffles text: various events). 
+
+  ### What you'll learn
+
+  * Getting started with Backbone.js
+  * Models & Collections
+  * Views
+  * Routers
+  * Application structure
+  * TDD - Test-Driven Development
+  * Plugins, templates and extensions
+  * Extending Backbone.sync
+
+  ### Requirements
+
+  * Please bring your laptop
+  * To take part in this course, you must be well-versed in JavaScript, jQuery (or similar DOM library) and HTML/CSS.
+
+  ### Refund Policy
+
+  If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+  If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+blurb: An evening workshop dedicated to learning Backbone 
+what: Backbone.js Workshop 
+date: 2014-01-29 19:00
+end_date: 2014-01-29 22:00
+where: hubwestminster, 
+cost: £60
+map: 80 Haymarket, London, SW1Y 4TE
+booking_link: http://ldnjsnightclass-backbone3.eventbrite.com/
+lanyrd: http://www.lanyrd.com/2014/ldnjsnightclass-backbone3
+lanyrdAPI:  http://lanyrd.com/2014/ldnjsnightclass-backbone3/speakers/347a6bd7b316d66a.v1.json
+---

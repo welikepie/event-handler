@@ -1,0 +1,17 @@
+---
+layout: default
+title: speakers
+---
+<h2> Speakers List </h2>
+ <ul>
+  {% for speak in site.data.data.speakers %}
+  <li>
+  	{{speak[1].name}}
+  	<ul>
+	  	<li>{{speak[1].title}}</li>
+  		<li><a href="http://www.twitter.com/{{speak[1].twitter}}">Twitter</a></li>
+  		<li><a href="http://www.lanyrd.com/{{speak[1].lanyrd}}">Lanyrd</a></li>
+  	</ul>
+  </li>
+  {% endfor %}
+</ul>
