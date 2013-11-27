@@ -1,0 +1,54 @@
+---
+events:
+  conferences:
+    02event:
+      title: GkConf
+      organisers: EventHandler
+      speakers: Dan Knell
+      speakerID: danknell
+      description: This is an "awesome" conference.
+      date: 2014-06-15 18:30
+      end_date: 2014-06-15 21:00
+    03event:
+      title: GkConf
+      organisers: EventHandler
+      speakers: Dan Knell
+      speakerID: danknell
+      description: This is an "awesome" conference.
+      date: 2012-04-15 18:30
+      end_date: 2012-04-15 21:00
+    event:
+      title: The Great and Awesome
+      organisers: EventHandler
+      speakers: Tim Ruffles
+      speakerID: timruffles
+      date: 2015-04-15 18:30
+      end_date: 2015-04-15 21:00
+  workshops: {}
+  01event:
+    title: The Great and Awesome
+    organisers: EventHandler
+    speakers: Tim Ruffles
+    speakerID: timruffles
+    date: 2013-04-15 18:30
+    end_date: 2013-04-15 21:00
+  02event:
+    title: GkConf
+    organisers: EventHandler
+    speakers: Dan Knell
+    speakerID: danknell
+    description: This is an "awesome" conference.
+    date: 2014-04-16 18:30
+    end_date: 2014-04-16 21:00
+  03event:
+    title: GkConf
+    organisers: EventHandler
+    speakers: Dan Knell
+    speakerID: danknell
+    description: This is an "awesome" conference.
+    date: 2013-04-17 18:30
+    end_date: 2013-04-18 21:00
+promoted:
+  conferences: {}
+  workshops: {}
+speakers: {}

@@ -1,0 +1,68 @@
+---
+- title: The Great and Awesome
+  organisers: EventHandler
+  speakers: Tim Ruffles
+  speakerID: timruffles
+  date: 2015-04-15 18:30
+  end_date: 2015-04-15 21:00
+  directory_tags:
+  - events
+  - conferences
+  epoch_s_date: 1429119000
+  epoch_s_end_date: 1429128000
+- title: GkConf
+  organisers: EventHandler
+  speakers: Dan Knell
+  speakerID: danknell
+  description: This is an "awesome" conference.
+  date: 2014-06-15 18:30
+  end_date: 2014-06-15 21:00
+  directory_tags:
+  - events
+  - conferences
+  epoch_s_date: 1402853400
+  epoch_s_end_date: 1402862400
+- title: The Great and Awesome
+  organisers: EventHandler
+  speakers: Tim Ruffles
+  speakerID: timruffles
+  date: 2013-04-15 18:30
+  end_date: 2013-04-15 21:00
+  directory_tags:
+  - events
+  epoch_s_date: 1366047000
+  epoch_s_end_date: 1366056000
+- title: GkConf
+  organisers: EventHandler
+  speakers: Dan Knell
+  speakerID: danknell
+  description: This is an "awesome" conference.
+  date: 2012-04-15 18:30
+  end_date: 2012-04-15 21:00
+  directory_tags:
+  - events
+  - conferences
+  epoch_s_date: 1334511000
+  epoch_s_end_date: 1334520000
+- title: GkConf
+  organisers: EventHandler
+  speakers: Dan Knell
+  speakerID: danknell
+  description: This is an "awesome" conference.
+  date: 2013-04-17 18:30
+  end_date: 2013-04-18 21:00
+  directory_tags:
+  - events
+  epoch_s_date: 1366219800
+  epoch_s_end_date: 1366315200
+- title: GkConf
+  organisers: EventHandler
+  speakers: Dan Knell
+  speakerID: danknell
+  description: This is an "awesome" conference.
+  date: 2014-04-16 18:30
+  end_date: 2014-04-16 21:00
+  directory_tags:
+  - events
+  epoch_s_date: 1397669400
+  epoch_s_end_date: 1397678400

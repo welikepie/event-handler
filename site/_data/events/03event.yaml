@@ -4,4 +4,6 @@ organisers: EventHandler
 speakers: Dan Knell
 speakerID: danknell
 description: This is an "awesome" conference.
+date: 2013-04-17 18:30
+end_date: 2013-04-18 21:00
 ---
