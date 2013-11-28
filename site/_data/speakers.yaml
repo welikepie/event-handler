@@ -1,0 +1,73 @@
+---
+amroche:
+  picture: http://dev.welikepie.com
+  name: Alex Roche
+  title: Full Stack Developer
+  description: ! 'This is another
+
+    multiline biography
+
+    which is handy, as you can
+
+    write in here in markdown too.
+
+'
+  lanyrd: alexHacked
+  twitter: alexHacked
+  webpage: http://dev.welikepie.com
+  directory_tags:
+  - speakers
+charlotte:
+  picture: http://dev.welikepie.com
+  name: Charlotte Spencer
+  title: Events Co-ordinator
+  description: ! 'This is another
+
+    multiline biography
+
+    which is handy, as you can
+
+    write in here in markdown too.
+
+'
+  lanyrd: charlotteis
+  twitter: charlotteis
+  webpage: http://dev.welikepie.com
+  directory_tags:
+  - speakers
+danknell:
+  picture: http://dev.welikepie.com
+  name: Daniel Knell
+  title: Full Stack Developer
+  description: ! 'This is another
+
+    multiline biography
+
+    which is handy, as you can
+
+    write in here in markdown too.
+
+'
+  lanyrd: dan_knell
+  twitter: dan_knell
+  webpage: http://dev.welikepie.com
+  directory_tags:
+  - speakers
+timruffles:
+  picture: http://dev.welikepie.com
+  name: Tim Ruffles
+  title: Full Stack Developer
+  description: ! 'This is another
+
+    multiline biography
+
+    which is handy, as you can
+
+    write in here in markdown too.
+
+'
+  lanyrd: timRuffles
+  twitter: timRuffles
+  webpage: http://dev.welikepie.com
+  directory_tags:
+  - speakers

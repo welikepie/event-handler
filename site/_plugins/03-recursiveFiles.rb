@@ -9,6 +9,9 @@ $path_to_data = "";
 $pathArr = [];
 $fileArr = [];
 $dateSortArr = [];
+$speakerArr = {};
+$venueArr = {};
+
 def rec_path(path, file= false)
   path.children.collect do |child|
     if file and child.file?
@@ -32,10 +35,16 @@ patharr = "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{p
 	end
 $fileArr << patharr;
 file = YAML.load_file(path)
+file["directory_tags"] = patharr.split("/");
+fileName = file["directory_tags"].pop;
+if (file["directory_tags"].include? "venues")
+ 	$venueArr[fileName.split(".")[0]] = file;
+end
+if (file["directory_tags"].include? "speakers")
+	$speakerArr[fileName.split(".")[0]] = file;
+end
 if file["date"]
 	puts "-- File found at #{path}";
-	file["directory_tags"] = patharr.split("/");
-	file["directory_tags"].pop
 	file["epoch_s_date"] = time_to_epoch(file["date"]);
 	if(file["end_date"])
 		file["epoch_s_end_date"] = time_to_epoch(file["end_date"]);
@@ -102,28 +111,61 @@ sorting = sorting.sort_by {
 	if(binary == "high")
 		sorting.reverse!;
 	end
+	sorting.each{
+		|x| 
+		if( x["series"] && (x["series"] == true || x["series"] == "yes" || x["series"] == 1 ))
+			x["series"] = x["directory_tags"].last
+		else
+			x.delete("series")
+		end
+	}
 	puts "-- Writing Events to file events.yaml"
 	File.open($path_to_data+"events.yaml", 'w') { |file| 
 		file.write(YAML.dump(sorting));
 		puts "-- Events have been saved"
 	}
+	create_series_list(sorting);
 end
 
+def create_series_list(array)
+puts "-- Creating Series listing"
+arr = {};
+array.each{
+	|x|
+	if(x.has_key?("series"))
+	puts "-- Found Event in Series "
+		if(!arr.has_key?(x["series"]))
+			arr[x["series"]]=Array.new;
+		end
+		arr[x["series"]] << x;
+	end
+}
+puts "-- Writing Series listings"
+File.open($path_to_data+"series.yaml", 'w') { |file| 
+		file.write(YAML.dump(arr));
+		puts "-- Series have been saved"
+	}
+end
 
+def write_speakers(array)
+puts "-- Writing Speakers to flat file structure."
+File.open($path_to_data+"speakers.yaml", 'w') { |file| 
+		file.write(YAML.dump($speakerArr));
+		puts "-- Speakers have been saved"
+	}
+end
 
-
-
-
-
-
-
-
-
-
+def write_venues(array)
+puts "-- Writing Venues to flat file structure."
+File.open($path_to_data+"venues.yaml", 'w') { |file| 
+		file.write(YAML.dump($venueArr));
+		puts "-- Venues have been saved"
+	}
+end
 
 dir = "site/_data";
 #dir = "../_data";
-files_to_delete = ["data.yaml","events.yaml"];
+files_to_delete = ["data.yaml","events.yaml", "series.yaml","speakers.yaml", "venues.yaml"];
 files_to_delete.each{
 	|x| File.delete(dir+"/"+x) if File.exist?(dir+"/"+x)
 }
@@ -141,5 +183,7 @@ puts "-- Folders scanned."
 create_dump
 puts "-- Events Organised in to a Flat File structure";
 puts "-- Sorting by lowest date first.";
-sort_events("low", $dateSortArr)
+sort_events("low", $dateSortArr);
+write_speakers($speakerArr);
+write_venues($venueArr);
 puts " == Cave Johnson, we're done here."
