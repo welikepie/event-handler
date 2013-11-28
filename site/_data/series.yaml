@@ -1,4 +1,112 @@
 ---
+londonjs:
+- series: londonjs
+  speakerID:
+  - danknell
+  - timruffles
+  - amroche
+  title: London JS
+  text: ! '
+
+    With all the new HTML5 APIs and node.js making waves in the backend, it''s never
+    been a better time to be a JavaScript developer. **Tickets will be released on
+    Friday the 6th of September at 2PM.**
+
+
+    (image: londonjseh.png class: full-width)
+
+
+    London JS will (try and) meet on a Monday of each month to hear a couple of talks
+    on the exciting new topics that are influencing our field, before retiring to
+    the local pub.
+
+
+    ## Talks This Month
+
+
+    * Nodecopter: JavaScript Flying Robots - Andrew Nesbitt (link: http://twitter.com/teabass
+    text: @teabass)
+
+    * Node and Arduino: Powering the real world with JS - Adam Howard (link: http://twitter.com/skattyadz
+    text: @skattyadz)
+
+    * Hardware Hacking with a Raspberry Pi; What''s JavaScript got to do with it?
+    - Alex Roche (link: http://twitter.com/alexhacked text: @alexhacked)
+
+
+    ## Sponsors
+
+    (image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)
+
+'
+  blurb: An evening of JavaScript talks
+  what: Javascript Talks
+  date: 2013-09-16 18:30
+  end_date: 2013-09-16 21:00
+  where: biscuitbuilding
+  cost: Free
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  booking_link: http://londonjs-24.eventbrite.com/
+  lanyard: http://www.lanyrd.com/2013/londonjs-24/
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-24
+  epoch_s_date: 1379352600
+  epoch_s_end_date: 1379361600
+- series: londonjs
+  speakerID:
+  - amroche
+  - charlotte
+  title: ! 'London JS: Data Visualisation'
+  text: ! 'With all the new HTML5 APIs and node.js making waves in the backend, it''s
+    never been a better time to be a JavaScript developer. London JS will (try and)
+    meet on a Monday of each month to hear a couple of talks on the exciting new topics
+    that are influencing our field, before retiring to the local pub.
+
+
+    **Tickets will be released on Friday the 4th of October at 2PM.**
+
+
+    (image: londonjseh.png class: full-width)
+
+
+    ## Talks This Month
+
+
+    * Using D3.js to Visualise Your Analytics Data - Edd Sowden (link: http://twitter.com/edds
+    text: @edds)
+
+    * 10 things you didn''t know about D3.js - Anna Powell-Smith (link: http:/www.twitter.com/darkgreener
+    text: @darkgreener)
+
+    * 3D Cities and Data Visualisation with WebGL - Robin Hawkes (link: http://twitter.com/robhawkes
+    text: @robhawkes)
+
+
+    ## Sponsors
+
+    (image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image:
+    pearson.png class: rmboxshad full-width link:http://www.twitter.com/pearsonlabs)
+
+'
+  blurb: An evening of JavaScript talks
+  what: Javascript Talks
+  date: 2013-10-21 18:30
+  end_date: 2013-10-21 21:00
+  where: biscuitbuilding
+  cost: Free
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  booking_link: http://londonjs-25.eventbrite.com/
+  lanyard: http://www.lanyrd.com/2013/londonjs-25/
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-25
+  epoch_s_date: 1382376600
+  epoch_s_end_date: 1382385600
 ldnjsnightclass-angular:
 - speakerID: timruffles
   title: ! 'London JS Night Class: AngularJS'
@@ -48,6 +156,7 @@ ldnjsnightclass-angular:
   - events
   - workshops
   - ldnjsnightclass-angular
+  filename: ldnjsnightclass-angular2
   epoch_s_date: 1383678000
 - speakerID: amroche
   title: ! 'London JS Night Class: AngularJS'
@@ -92,5 +201,6 @@ ldnjsnightclass-angular:
   - events
   - workshops
   - ldnjsnightclass-angular
+  filename: ldnjsnightclass-angular3
   epoch_s_date: 1392836400
   epoch_s_end_date: 1392847200

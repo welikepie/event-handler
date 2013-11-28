@@ -17,6 +17,7 @@ amroche:
   webpage: http://dev.welikepie.com
   directory_tags:
   - speakers
+  filename: amroche
 charlotte:
   picture: http://dev.welikepie.com
   name: Charlotte Spencer
@@ -35,6 +36,7 @@ charlotte:
   webpage: http://dev.welikepie.com
   directory_tags:
   - speakers
+  filename: charlotte
 danknell:
   picture: http://dev.welikepie.com
   name: Daniel Knell
@@ -53,6 +55,7 @@ danknell:
   webpage: http://dev.welikepie.com
   directory_tags:
   - speakers
+  filename: danknell
 timruffles:
   picture: http://dev.welikepie.com
   name: Tim Ruffles
@@ -71,3 +74,4 @@ timruffles:
   webpage: http://dev.welikepie.com
   directory_tags:
   - speakers
+  filename: timruffles

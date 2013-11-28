@@ -37,6 +37,7 @@ $fileArr << patharr;
 file = YAML.load_file(path)
 file["directory_tags"] = patharr.split("/");
 fileName = file["directory_tags"].pop;
+file["filename"] = fileName.split(".")[0];
 if (file["directory_tags"].include? "venues")
  	$venueArr[fileName.split(".")[0]] = file;
 end

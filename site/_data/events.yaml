@@ -7,6 +7,7 @@
   end_date: 2013-04-15 21:00
   directory_tags:
   - events
+  filename: 01event
   epoch_s_date: 1366047000
   epoch_s_end_date: 1366056000
 - title: GkConf
@@ -18,9 +19,11 @@
   end_date: 2013-04-18 21:00
   directory_tags:
   - events
+  filename: 03event
   epoch_s_date: 1366219800
   epoch_s_end_date: 1366315200
-- speakerID:
+- series: londonjs
+  speakerID:
   - danknell
   - timruffles
   - amroche
@@ -70,6 +73,8 @@
   directory_tags:
   - events
   - meetups
+  - londonjs
+  filename: londonjs-24
   epoch_s_date: 1379352600
   epoch_s_end_date: 1379361600
 - title: London JS
@@ -117,9 +122,11 @@
   lanyard: http://www.lanyrd.com/2013/londonjs-24/
   directory_tags:
   - events
+  filename: londonjs-24
   epoch_s_date: 1379352600
   epoch_s_end_date: 1379361600
-- speakerID:
+- series: londonjs
+  speakerID:
   - amroche
   - charlotte
   title: ! 'London JS: Data Visualisation'
@@ -166,6 +173,8 @@
   directory_tags:
   - events
   - meetups
+  - londonjs
+  filename: londonjs-25
   epoch_s_date: 1382376600
   epoch_s_end_date: 1382385600
 - title: ! 'GeekyScience: Spaaace'
@@ -210,6 +219,7 @@
   directory_tags:
   - events
   - other
+  filename: geeky-science3
   epoch_s_date: 1383246000
   epoch_s_end_date: 1383256800
 - speakerID: timruffles
@@ -260,6 +270,7 @@
   - events
   - workshops
   - ldnjsnightclass-angular
+  filename: ldnjsnightclass-angular2
   epoch_s_date: 1383678000
 - speakerID: danknell
   title: ! 'London JS Night Class: D3.js'
@@ -299,6 +310,7 @@
   directory_tags:
   - events
   - workshops
+  filename: ldnjsnightclass-d3js
   epoch_s_date: 1390330800
   epoch_s_end_date: 1390341600
 - speakerID: amroche
@@ -344,6 +356,7 @@
   - events
   - workshops
   - ldnjsnightclass-angular
+  filename: ldnjsnightclass-angular3
   epoch_s_date: 1392836400
   epoch_s_end_date: 1392847200
 - title: GkConf
@@ -355,5 +368,6 @@
   end_date: 2014-04-16 21:00
   directory_tags:
   - events
+  filename: 02event
   epoch_s_date: 1397669400
   epoch_s_end_date: 1397678400
