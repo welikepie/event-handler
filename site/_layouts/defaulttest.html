@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+          {%include navbar.html %}
+        <div class="site">
+          {{ page.data.body }}
+          <div>{{page}}</div>
+          {% include footer.html %}
+        </div>
+    </body>
+</html>
