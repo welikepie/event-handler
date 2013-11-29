@@ -55,6 +55,12 @@ londonjs:
   filename: londonjs-24
   epoch_s_date: 1379352600
   epoch_s_end_date: 1379361600
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: London JS
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
 - series: londonjs
   speakerID:
   - amroche
@@ -107,6 +113,12 @@ londonjs:
   filename: londonjs-25
   epoch_s_date: 1382376600
   epoch_s_end_date: 1382385600
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: London JS
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
 ldnjsnightclass-angular:
 - speakerID: timruffles
   title: ! 'London JS Night Class: AngularJS'
@@ -158,6 +170,11 @@ ldnjsnightclass-angular:
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular2
   epoch_s_date: 1383678000
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
+  seriesconfprettyname: London JS Night AngularJS Night Classes
+  seriesconfdescription: LondonJS night classes are classes designed to teach you
+    stuff.
+  url: /workshops/ldnjsnightclass-angular
 - speakerID: amroche
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
@@ -204,3 +221,8 @@ ldnjsnightclass-angular:
   filename: ldnjsnightclass-angular3
   epoch_s_date: 1392836400
   epoch_s_end_date: 1392847200
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
+  seriesconfprettyname: London JS Night AngularJS Night Classes
+  seriesconfdescription: LondonJS night classes are classes designed to teach you
+    stuff.
+  url: /workshops/ldnjsnightclass-angular

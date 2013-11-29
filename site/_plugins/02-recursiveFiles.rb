@@ -4,14 +4,15 @@ require "YAML"
 require "time"
 
 $devString = "../"
-$substring_from = "_data/";
+$substring_from = "site/_data/";
 $path_to_data = "";
 $pathArr = [];
 $fileArr = [];
 $dateSortArr = [];
 $speakerArr = {};
 $venueArr = {};
-
+$categories = [];
+$catLinList = [];
 def rec_path(path, file= false)
   path.children.collect do |child|
     if file and child.file?
@@ -29,6 +30,7 @@ $pathArr << "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#
 end
 
 def open_file(path)
+if !"#{path}".include? "seriesconf.yaml"
 patharr = "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{path}".length]
 	if $path_to_data.length == 0
 		$path_to_data = "#{path}"[0,"#{path}".index($substring_from)+$substring_from.length];
@@ -50,7 +52,14 @@ if file["date"]
 	if(file["end_date"])
 		file["epoch_s_end_date"] = time_to_epoch(file["end_date"]);
 	end
+	if(file["series"])
+	paths = $substring_from;
+	file["directory_tags"].each{|x|
+		paths+= x+"/"}
+	file["seriesconfpath"] = paths
+	end
 	$dateSortArr << file;
+end
 end
 end
 
@@ -116,10 +125,54 @@ sorting = sorting.sort_by {
 		|x| 
 		if( x["series"] && (x["series"] == true || x["series"] == "yes" || x["series"] == 1 ))
 			x["series"] = x["directory_tags"].last
+			file = YAML.load_file(x["seriesconfpath"]+"seriesconf.yaml");
+			file.each{|z|
+				x["seriesconf"+z[0]] = z[1];
+			}
+			#puts file
+
 		else
 			x.delete("series")
 		end
 	}
+
+	 subfolders_to_check_for = ["workshops"];
+        sorting.each {|x|
+        subfolders_to_check_for.each{|y|
+        if(x["directory_tags"].include? y )
+          if(x.key? "series")
+            x["url"] = "/"+y+"/"+x["series"];
+          else
+            x["url"]="/"+y;
+          end
+        else
+          if(x.key? "series")
+            x["url"] = "/events/"+x["series"];
+          else
+            x["url"]="/events";
+          end
+        end
+      }
+
+      if (x.key? "series")
+      	if(!$catLinList.include? x["series"])
+      		#YAMLLOAD
+#      		file = YAML.load_file("/site/_data"+ x["url"]+"/seriesconf.yaml");
+#      		puts file;
+      		$categories <<	{"series" => x["series"], "url" => x["url"], "prettyname" => x["seriesconfprettyname"], "description" => x["seriesconfdescription"]};
+      		$catLinList << x["series"];
+      	end
+      end
+  }
+
+  	puts "-- Writing Categories to series_list.yaml"
+	File.open($path_to_data+"series_list.yaml", 'w') { |file| 
+		puts $categories;
+		file.write(YAML.dump($categories));
+		puts "-- Series_list have been saved"
+	}
+
+
 	puts "-- Writing Events to file events.yaml"
 	File.open($path_to_data+"events.yaml", 'w') { |file| 
 		file.write(YAML.dump(sorting));
@@ -133,9 +186,9 @@ puts "-- Creating Series listing"
 arr = {};
 array.each{
 	|x|
-	if(x.has_key?("series"))
+	if(x.key?("series"))
 	puts "-- Found Event in Series "
-		if(!arr.has_key?(x["series"]))
+		if(!arr.key?(x["series"]))
 			arr[x["series"]]=Array.new;
 		end
 		arr[x["series"]] << x;
@@ -166,7 +219,7 @@ end
 
 dir = "site/_data";
 #dir = "../_data";
-files_to_delete = ["data.yaml","events.yaml", "series.yaml","speakers.yaml", "venues.yaml"];
+files_to_delete = ["data.yaml","events.yaml", "series.yaml","speakers.yaml", "venues.yaml", "series_list.yaml"];
 files_to_delete.each{
 	|x| File.delete(dir+"/"+x) if File.exist?(dir+"/"+x)
 }
@@ -181,7 +234,6 @@ puts " == ++ Denotes something has gone horribly wrong."
 puts "-- re-creating file structure at "+dir
 rec_path(Pathname.new(dir), true)
 puts "-- Folders scanned."
-create_dump
 puts "-- Events Organised in to a Flat File structure";
 puts "-- Sorting by lowest date first.";
 sort_events("low", $dateSortArr);

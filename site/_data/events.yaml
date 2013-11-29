@@ -10,6 +10,7 @@
   filename: 01event
   epoch_s_date: 1366047000
   epoch_s_end_date: 1366056000
+  url: /events
 - title: GkConf
   organisers: EventHandler
   speakers: Dan Knell
@@ -22,6 +23,7 @@
   filename: 03event
   epoch_s_date: 1366219800
   epoch_s_end_date: 1366315200
+  url: /events
 - series: londonjs
   speakerID:
   - danknell
@@ -77,6 +79,12 @@
   filename: londonjs-24
   epoch_s_date: 1379352600
   epoch_s_end_date: 1379361600
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: London JS
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
 - title: London JS
   text: ! '
 
@@ -125,6 +133,7 @@
   filename: londonjs-24
   epoch_s_date: 1379352600
   epoch_s_end_date: 1379361600
+  url: /events
 - series: londonjs
   speakerID:
   - amroche
@@ -177,6 +186,12 @@
   filename: londonjs-25
   epoch_s_date: 1382376600
   epoch_s_end_date: 1382385600
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: London JS
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
 - title: ! 'GeekyScience: Spaaace'
   text: ! "GeekyScience is an exciting evening of learning and entertainment. Each
     month, experts in their field will come together to share what they know, related
@@ -222,6 +237,7 @@
   filename: geeky-science3
   epoch_s_date: 1383246000
   epoch_s_end_date: 1383256800
+  url: /events
 - speakerID: timruffles
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
@@ -272,6 +288,11 @@
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular2
   epoch_s_date: 1383678000
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
+  seriesconfprettyname: London JS Night AngularJS Night Classes
+  seriesconfdescription: LondonJS night classes are classes designed to teach you
+    stuff.
+  url: /workshops/ldnjsnightclass-angular
 - speakerID: danknell
   title: ! 'London JS Night Class: D3.js'
   text: ! "On the 21st of January, (link: http://www.twitter.com/timruffles text:
@@ -313,6 +334,7 @@
   filename: ldnjsnightclass-d3js
   epoch_s_date: 1390330800
   epoch_s_end_date: 1390341600
+  url: /workshops
 - speakerID: amroche
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
@@ -359,6 +381,11 @@
   filename: ldnjsnightclass-angular3
   epoch_s_date: 1392836400
   epoch_s_end_date: 1392847200
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
+  seriesconfprettyname: London JS Night AngularJS Night Classes
+  seriesconfdescription: LondonJS night classes are classes designed to teach you
+    stuff.
+  url: /workshops/ldnjsnightclass-angular
 - title: GkConf
   organisers: EventHandler
   speakers: Dan Knell
@@ -371,3 +398,4 @@
   filename: 02event
   epoch_s_date: 1397669400
   epoch_s_end_date: 1397678400
+  url: /events

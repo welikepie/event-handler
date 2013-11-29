@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+          {%include navbar.html %}
+        <div class="site">
+          <h2> Events List </h2>
+			 <ul>
+			  {% for events in site.data.events %}
+			  <li>
+			      <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }}</a> : 
+			      <ul>
+			      	{%for speakers in events.speakerID%}
+			      	<li>Speaker : {{site.data.speakers[speakers].name}}
+			      	{% endfor %}
+			  	</ul>
+			  </li>
+			  {% endfor %}
+			  </ul>
+			<h2> Category List </h3>
+			<ul>
+			  {% for events in site.data.series_list %}
+				  <li>
+				      <a href="{{events.url}}/">{{ events.prettyname }}</a>
+				      <p>{{events.description}}</p>
+				  </li>
+			  {% endfor %}
+			</ul>
+          {% include footer.html %}
+        </div>
+
+    </body>
+</html>

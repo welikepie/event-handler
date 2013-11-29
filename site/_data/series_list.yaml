@@ -1,0 +1,11 @@
+---
+- series: londonjs
+  url: /events/londonjs
+  prettyname: London JS
+  description: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+- series: ldnjsnightclass-angular
+  url: /workshops/ldnjsnightclass-angular
+  prettyname: London JS Night AngularJS Night Classes
+  description: LondonJS night classes are classes designed to teach you stuff.

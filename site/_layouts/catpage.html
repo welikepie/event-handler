@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+          {%include navbar.html %}
+        <div class="site">
+          
+          <h2> {{page.data.extras.seriesinfo.prettyname}}</h2>
+          <p> {{page.data.extras.seriesinfo.description}}</p>
+          <ul>
+          
+          {% for pages in page.data.iterable %}
+            <li>
+              <a href="{{pages.url}}/{{pages.filename}}.html">{{pages.title}}</a>
+              {{pages.text || markdownify}}
+
+          {%endfor%}
+          </ul>
+          {% include footer.html %}
+        </div>
+    </body>
+</html>

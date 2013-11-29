@@ -1,6 +1,6 @@
 ---
 amroche:
-  picture: http://dev.welikepie.com
+  picture: /assets/img/speakers/amroche.jpg
   name: Alex Roche
   title: Full Stack Developer
   description: ! 'This is another
@@ -19,7 +19,7 @@ amroche:
   - speakers
   filename: amroche
 charlotte:
-  picture: http://dev.welikepie.com
+  picture: https://pbs.twimg.com/profile_images/378800000718110148/393e1407f07a5f08c82d78524b3af556.jpeg
   name: Charlotte Spencer
   title: Events Co-ordinator
   description: ! 'This is another
@@ -38,7 +38,6 @@ charlotte:
   - speakers
   filename: charlotte
 danknell:
-  picture: http://dev.welikepie.com
   name: Daniel Knell
   title: Full Stack Developer
   description: ! 'This is another
@@ -57,7 +56,6 @@ danknell:
   - speakers
   filename: danknell
 timruffles:
-  picture: http://dev.welikepie.com
   name: Tim Ruffles
   title: Full Stack Developer
   description: ! 'This is another

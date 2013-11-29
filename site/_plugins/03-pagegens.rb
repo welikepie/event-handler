@@ -7,16 +7,40 @@ module Jekyll
       @dir = dir
       @name = name
       #self.template = "_layouts/"+template;
+
       
       self.process(@name);
       self.read_yaml(File.join(base, '_layouts'), template)
       #puts self;
-      self.data["data"] = hash;
+
+    self.data["data"] = hash;
+
     end
   end
 
   class CategoryPageGenerator < Generator
     safe true
+def generate_with_end(site,site_source,x_url, array)
+
+
+       hashtopush = {"iterable"=>array,"extras"=>{"seriesinfo"=>{} } } ;
+      $toparseout = "seriesconf";
+    if(array.length > 0)
+      if array[0].key? "series"
+          array[0].each{|c|
+          if c[0].include? $toparseout
+            puts "#{c[0]}".gsub($toparseout,"")
+            hashtopush["extras"]["seriesinfo"]["#{c[0]}".gsub($toparseout,"")] = c[1]
+          end
+        }
+             site.pages << GenericPage.new(site,site_source,x_url,"index.html","catpage.html",hashtopush)
+
+      else
+     site.pages << GenericPage.new(site,site_source,x_url,"index.html","catpage.html",hashtopush)
+      end
+    end
+end
+
     def generate(site)
 #        lists_to_generate = ["events.yaml","speakers.yaml"];
 #        filepaths_to_write_to=["/events","/speakers"];
@@ -24,6 +48,7 @@ module Jekyll
         #subfolders_to_check_for = ["meetups","other","workshops","conferences"];
         dir="site/_data/"
 #       //
+=begin
         hash_of_data =  YAML.load_file(dir+"speakers.yaml");
         end_dir = "/speakers"
         template_to_use = "defaulttest.html"
@@ -31,6 +56,7 @@ module Jekyll
         new_file_name = x[0]+".html"
         site.pages << GenericPage.new(site, site.source, end_dir, new_file_name,template_to_use,x[1])
         }
+=end
 
         subfolders_to_check_for = ["workshops"];
         hash_of_data =  YAML.load_file(dir+"events.yaml");
@@ -41,7 +67,6 @@ module Jekyll
         subfolders_to_check_for.each{|y|
         if(x["directory_tags"].include? y )
           if(x.has_key? "series")
-            end_dir = "/"+y+"/"+x["series"];
               array = [];
               hash_of_data.each{|z| 
                 if(z["series"] == x["series"])
@@ -49,21 +74,21 @@ module Jekyll
                   array << z;
                 end
               }
-              site.pages << GenericPage.new(site,site.source,end_dir,"index.html","defaulttest.html",array)
+              generate_with_end(site,site.source,x["url"],array)
           else
             end_dir="/"+y;
           end
         else
           if(x.has_key? "series")
             end_dir = "/events/"+x["series"];
- array = [];
+              array = [];
               hash_of_data.each{|z| 
                 if(z["series"] == x["series"])
                   puts z["series"]
                   array << z;
                 end
               }
-              site.pages << GenericPage.new(site,site.source,end_dir,"index.html","defaulttest.html",array)
+              generate_with_end(site,site.source,x["url"],array)
           else
             end_dir="/events";
           end
@@ -71,11 +96,10 @@ module Jekyll
       }
 
         new_file_name = x["filename"]+".html"
-        site.pages << GenericPage.new(site, site.source, end_dir, new_file_name,template_to_use,x)
+        site.pages << GenericPage.new(site, site.source, x["url"], new_file_name,template_to_use,x)
         }
 #        //
 
     end
   end
-
 end
