@@ -61,7 +61,7 @@ Infobox:
 <h1>
 	<span>Full-Day AngularJS</span>
 	<span>21st February 2014</span>
-	<abbr class="easydate">Tues, 21 February 2014 10:00:00 +0000</abbr>
+	<abbr class="easydate">Fri, 21 February 2014 10:00:00 +0000</abbr>
 	<a href="http://ldnjsclasses-angularjsfullday.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
 ----
