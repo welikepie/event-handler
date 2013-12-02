@@ -1,0 +1,73 @@
+Title: London JS Classes: AngularJS Full-Day Workshop
+----
+Text: 
+On the 21st of February, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a **full-day workshop** in which you can learn to use AngularJS
+
+(image: angularjs.png class: full-width)
+
+### Who is it for?
+
+AngularJS makes creating rich web-apps easier than ever before. With the philosophy of embracing and extending HTML, powerful data-binding, and decoupling and testability via dependency-injects, it's fast becoming the most popular MVC framework.
+
+This workshop is for anyone unfamiliar with AngularJS. Tim will take you through building your first AngularJS application, and introduce some of the meatier aspects of the framework like directives.
+
+### Who is it taught by?
+
+This workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles). Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality tracking tool. You can find him speaking about the web at (link: http://www.lanyrd.com/timruffles text: various events). 
+
+### What you'll learn
+
+* The philosophy of Angular
+* Booting the app
+* Data-binding
+* Controllers
+* Directives
+* Routing
+* Requesting data
+* Testing
+
+### Requirements
+
+* Familiarity with JavaScript
+* Please bring your laptop with your text editor of choice installed
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Full-day AngularJS Workshop
+----
+What: Full-Day AngularJS
+----
+Date: 2014-02-21 10:00
+----
+End_Date: 2014-02-21 18:00
+----
+Where: Hub Westminster, 
+1st floor New Zealand House, 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £120-150
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Full-Day AngularJS</span>
+	<span>21st February 2014</span>
+	<abbr class="easydate">Tues, 21 February 2014 10:00:00 +0000</abbr>
+	<a href="http://ldnjsclasses-angularjsfullday.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsclasses-angularjsfullday.eventbrite.com/
+----
+Lanyrd: http://lanyrd.com/2014/ldnjsclasses-angularjsfullday
+----
+LanyrdAPI: http://lanyrd.com/2014/ldnjsclasses-angularjsfullday/speakers/3b7b377ea8b95a39.v1.json
+----
