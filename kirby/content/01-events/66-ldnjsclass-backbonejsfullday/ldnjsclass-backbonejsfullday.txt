@@ -9,7 +9,7 @@ On the 7th of February, (link: http://www.twitter.com/timruffles text: Tim Ruffl
 
 This workshop is for those who want to learn how to build scalable JavaScript applications.
 
-In one evening you will discover how to work with Backbone.js to create testable, maintable code with a clear structure. This class will take your existing JS, HTML and CSS skills and allow you to create modern thick-client applications using Backbone. 
+Discover how to work with Backbone.js to create testable, maintable code with a clear structure. This class will take your existing JS, HTML and CSS skills and allow you to create modern thick-client applications using Backbone. 
  
 
 ### Who is it taught by?
