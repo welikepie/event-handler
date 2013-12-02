@@ -1,7 +1,7 @@
 ---
 londonjs:
 - series: londonjs
-  speakerID:
+  speakerid:
   - danknell
   - timruffles
   - amroche
@@ -62,7 +62,7 @@ londonjs:
     awesome Javascript news and technologies'
   url: /events/londonjs
 - series: londonjs
-  speakerID:
+  speakerid:
   - amroche
   - charlotte
   title: ! 'London JS: Data Visualisation'
@@ -120,7 +120,7 @@ londonjs:
     awesome Javascript news and technologies'
   url: /events/londonjs
 ldnjsnightclass-angular:
-- speakerID: timruffles
+- speakerid: timruffles
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
   text: ! "On the 5th of November, (link: http://www.twitter.com/timruffles text:
@@ -155,8 +155,8 @@ ldnjsnightclass-angular:
   blurb: An evening workshop dedicated to learning AngularJS
   what: AngularJS Workshop
   date: 2013-11-05 19:00
-  end_Date: 2013-11-05 22:00
-  where: hubwestminster,
+  end_date: 2013-11-05 22:00
+  where: hubwestminster
   cost: £60
   map: 80 Haymarket, London, SW1Y 4TE
   infobox: ! "<h1>\n\t<span>AngularJS Workshop</span>\n\t<span>5th November 2013</span>\n\t<abbr
@@ -170,12 +170,13 @@ ldnjsnightclass-angular:
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular2
   epoch_s_date: 1383678000
+  epoch_s_end_date: 1383688800
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: London JS Night AngularJS Night Classes
   seriesconfdescription: LondonJS night classes are classes designed to teach you
     stuff.
   url: /workshops/ldnjsnightclass-angular
-- speakerID: amroche
+- speakerid: amroche
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
   text: ! "On the 19th of February, (link: http://www.twitter.com/timruffles text:

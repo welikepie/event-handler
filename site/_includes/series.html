@@ -1,0 +1,112 @@
+<div class="seriesElement">
+	{%assign datenow = {{site.time | date: '%s'}} | times: 1%} <!-- Assigns the compile time date to datenow to compare against. -->
+{%if include.type == "workshop" %} <!--IF TYPE IS A WORKSHOP -->
+	{%for events in site.data.series[include.pagedata.series]%}
+		{%if events.epoch_s_date > datenow%}
+			{%if events != include.pagedata%}
+				<h4>Future Events</h4>
+					<ul>
+					{%for events in site.data.series[include.pagedata.series]%}
+						{%if events.epoch_s_date > datenow%}
+							{%if events != include.pagedata%}
+								<li>{{events.date | date: "%d/%m/%y"}}</li>
+							{%endif%}
+						{%endif%}
+					{%endfor%}
+					</ul>
+				{%continue;%}
+			{%endif%}
+		{%endif%}
+	{%endfor%}
+	{%for events in site.data.series[include.pagedata.series]%}
+		{%if events.epoch_s_date < datenow%}
+			{%if events != include.pagedata%}
+				<h4>Past Events</h4>
+				<ul>
+				{%for events in site.data.series[include.pagedata.series]%}
+					{%if events.epoch_s_date < datenow%}
+						{%if events != include.pagedata%}
+								<li><a href="{{events.url}}/{{events.filename}}.html">{{events.date | date: "%d/%m/%y"}}</a></li>
+						{%endif%}
+					{%endif%}
+				{%endfor%}
+				</ul>
+				{%continue;%}
+			{%endif%}
+		{%endif%}
+	{%endfor%}
+
+{%elsif include.type == "other" %} <!--IF TYPE IS OTHER -->
+	{%for events in site.data.series[include.pagedata.series]%}
+		{%if events.epoch_s_date > datenow%}
+			{%if events != include.pagedata%}
+				<h4>Future Events</h4>
+					<ul>
+					{%for events in site.data.series[include.pagedata.series]%}
+						{%if events.epoch_s_date > datenow%}
+							{%if events != include.pagedata%}
+								<li><a href="{{events.url}}/{{events.filename}}.html">{{events.title}} at {{events.date | date: "%d/%m/%y"}}</a></li>
+							{%endif%}
+						{%endif%}
+					{%endfor%}
+					</ul>
+				{%continue;%}
+			{%endif%}
+		{%endif%}
+	{%endfor%}
+
+	{%for events in site.data.series[include.pagedata.series]%}
+		{%if events.epoch_s_date < datenow%}
+			{%if events != include.pagedata%}
+				<h4>Past Events</h4>
+				<ul>
+				{%for events in site.data.series[include.pagedata.series]%}
+					{%if events.epoch_s_date < datenow%}
+						{%if events != include.pagedata%}
+							<li><a href="{{events.url}}/{{events.filename}}.html">{{events.title}} at {{events.date | date: "%d/%m/%y"}}</a></li>
+						{%endif%}
+					{%endif%}
+				{%endfor%}
+				</ul>
+				{%continue;%}
+			{%endif%}
+		{%endif%}
+	{%endfor%}
+
+{%elsif include.type == "meetup" %} <!--IF TYPE IS AN EVENT -->
+	{%for events in site.data.series[include.pagedata.series]%}
+		{%if events.epoch_s_date > datenow%}
+			{%if events != include.pagedata%}
+				<h4>Future Events</h4>
+					<ul>
+					{%for events in site.data.series[include.pagedata.series]%}
+						{%if events.epoch_s_date > datenow%}
+							{%if events != include.pagedata%}
+							<li><a href="{{events.url}}/{{events.filename}}.html">{{events.title}}, {{events.date | date: "%d/%m/%y"}}</a></li>
+							{%endif%}
+						{%endif%}
+					{%endfor%}
+					</ul>
+				{%continue;%}
+			{%endif%}
+		{%endif%}
+	{%endfor%}
+	{%for events in site.data.series[include.pagedata.series]%}
+		{%if events.epoch_s_date < datenow%}
+			{%if events != include.pagedata%}
+				<h4>Past Events</h4>
+				<ul>
+				{%for events in site.data.series[include.pagedata.series]%}
+					{%if events.epoch_s_date < datenow%}
+						{%if events != include.pagedata%}
+							<li><a href="{{events.url}}/{{events.filename}}.html">{{events.title}}, {{events.date | date: "%d/%m/%y"}}</a></li>
+						{%endif%}
+					{%endif%}
+				{%endfor%}
+				</ul>
+				{%continue;%}
+			{%endif%}
+		{%endif%}
+	{%endfor%}
+{%endif%}
+</div>

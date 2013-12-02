@@ -1,0 +1,39 @@
+--- 
+name: Central Foundation Boys School
+address: |
+    Central Foundation Boys School, 
+    Cowper Street, 
+    EC2A 4SH
+location: 
+  - 32
+  - 50
+closest_stations:
+  - name: Picadilly Circus
+    location: 
+      - 32
+      - 50
+    lines: 
+      - piccadily
+      - northern
+      - etc.
+    type: 
+      - rail
+      - tube
+      - overground
+  - name: test name
+    location: 
+      - 32
+      - 50
+    lines: 
+      - piccadily
+      - northern
+      - etc.
+    type: 
+      - rail
+      - tube
+      - overground
+    description: |
+        This is the New Zealand Embassy.
+        Just think of all of the things that you can do there
+        that you can't do in this country.
+---

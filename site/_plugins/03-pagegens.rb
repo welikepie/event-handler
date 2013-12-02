@@ -21,15 +21,13 @@ module Jekyll
   class CategoryPageGenerator < Generator
     safe true
 def generate_with_end(site,site_source,x_url, array)
-
-
        hashtopush = {"iterable"=>array,"extras"=>{"seriesinfo"=>{} } } ;
       $toparseout = "seriesconf";
     if(array.length > 0)
       if array[0].key? "series"
           array[0].each{|c|
           if c[0].include? $toparseout
-            puts "#{c[0]}".gsub($toparseout,"")
+            #puts "#{c[0]}".gsub($toparseout,"")
             hashtopush["extras"]["seriesinfo"]["#{c[0]}".gsub($toparseout,"")] = c[1]
           end
         }
@@ -57,10 +55,9 @@ end
         site.pages << GenericPage.new(site, site.source, end_dir, new_file_name,template_to_use,x[1])
         }
 =end
-
+        foldersToTemplate = ["meetups","other","workshops"];
         subfolders_to_check_for = ["workshops"];
         hash_of_data =  YAML.load_file(dir+"events.yaml");
-        template_to_use = "defaulttest.html"
         hash_of_data.each {|x|
   
 
@@ -70,7 +67,7 @@ end
               array = [];
               hash_of_data.each{|z| 
                 if(z["series"] == x["series"])
-                  puts z["series"]
+                 # puts z["series"]
                   array << z;
                 end
               }
@@ -84,7 +81,7 @@ end
               array = [];
               hash_of_data.each{|z| 
                 if(z["series"] == x["series"])
-                  puts z["series"]
+                  #puts z["series"]
                   array << z;
                 end
               }
@@ -94,7 +91,10 @@ end
           end
         end
       }
-
+        template_to_use = "event.html"
+        if foldersToTemplate & x["directory_tags"]
+          template_to_use = "#{(foldersToTemplate & x["directory_tags"])[0]}" +"event.html"
+        end
         new_file_name = x["filename"]+".html"
         site.pages << GenericPage.new(site, site.source, x["url"], new_file_name,template_to_use,x)
         }

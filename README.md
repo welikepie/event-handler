@@ -11,10 +11,30 @@ Site is generated from the site folder and put in the RELEASE folder. Plugins re
 
 Comment; YAML with ruby is really finnicky about spacing. Maintain the spaces in the templates.
 Comment; location property is an array which takes two arguments; latitude then longitude.
+
+### Events Template ###
+
+---
+speakerID: timruffles //same speakerID as the file name of the speaker. Can be an array.
+title: "London JS Night Class: AngularJS" 
+series: 1 , yes, true or 0, no, false are accepted values
+text: |
+  So this is a decently interesting example introduction using
+  the high and venerable art of markdown.
+blurb: An evening workshop dedicated to learning AngularJS 
+date: 2013-11-05 19:00
+end_Date: 2013-11-05 22:00
+where: hubwestminster
+cost: £60
+map: 80 Haymarket, London, SW1Y 4TE
+booking_link: http://ldnjsnightclass-angular2.eventbrite.com/
+lanyrd: http://lanyrd.com/2013/ldnjsnightclass-angular2
+---
+
 ### Speaker Template ###
 
 ---
-picture: string for path
+picture: string for path inside the assets folder
 name: AMRoche
 title: Full Stack Developer at We Like Pie
 description: |

@@ -2,7 +2,7 @@
 - title: The Great and Awesome
   organisers: EventHandler
   speakers: Tim Ruffles
-  speakerID: timruffles
+  speakerid: timruffles
   date: 2013-04-15 18:30
   end_date: 2013-04-15 21:00
   directory_tags:
@@ -14,7 +14,7 @@
 - title: GkConf
   organisers: EventHandler
   speakers: Dan Knell
-  speakerID: danknell
+  speakerid: danknell
   description: This is an "awesome" conference.
   date: 2013-04-17 18:30
   end_date: 2013-04-18 21:00
@@ -25,7 +25,7 @@
   epoch_s_end_date: 1366315200
   url: /events
 - series: londonjs
-  speakerID:
+  speakerid:
   - danknell
   - timruffles
   - amroche
@@ -135,7 +135,7 @@
   epoch_s_end_date: 1379361600
   url: /events
 - series: londonjs
-  speakerID:
+  speakerid:
   - amroche
   - charlotte
   title: ! 'London JS: Data Visualisation'
@@ -238,7 +238,7 @@
   epoch_s_date: 1383246000
   epoch_s_end_date: 1383256800
   url: /events
-- speakerID: timruffles
+- speakerid: timruffles
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
   text: ! "On the 5th of November, (link: http://www.twitter.com/timruffles text:
@@ -273,8 +273,8 @@
   blurb: An evening workshop dedicated to learning AngularJS
   what: AngularJS Workshop
   date: 2013-11-05 19:00
-  end_Date: 2013-11-05 22:00
-  where: hubwestminster,
+  end_date: 2013-11-05 22:00
+  where: hubwestminster
   cost: £60
   map: 80 Haymarket, London, SW1Y 4TE
   infobox: ! "<h1>\n\t<span>AngularJS Workshop</span>\n\t<span>5th November 2013</span>\n\t<abbr
@@ -288,12 +288,13 @@
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular2
   epoch_s_date: 1383678000
+  epoch_s_end_date: 1383688800
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: London JS Night AngularJS Night Classes
   seriesconfdescription: LondonJS night classes are classes designed to teach you
     stuff.
   url: /workshops/ldnjsnightclass-angular
-- speakerID: danknell
+- speakerid: danknell
   title: ! 'London JS Night Class: D3.js'
   text: ! "On the 21st of January, (link: http://www.twitter.com/timruffles text:
     Tim Ruffles) will be hosting an evening workshop in which you can learn to use
@@ -335,7 +336,7 @@
   epoch_s_date: 1390330800
   epoch_s_end_date: 1390341600
   url: /workshops
-- speakerID: amroche
+- speakerid: amroche
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
   text: ! "On the 19th of February, (link: http://www.twitter.com/timruffles text:
@@ -389,7 +390,7 @@
 - title: GkConf
   organisers: EventHandler
   speakers: Dan Knell
-  speakerID: danknell
+  speakerid: danknell
   description: This is an "awesome" conference.
   date: 2014-04-16 18:30
   end_date: 2014-04-16 21:00

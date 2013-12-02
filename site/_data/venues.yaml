@@ -1,4 +1,92 @@
 ---
+biscuitbuilding:
+  name: Poke, London
+  address: ! '10 Redchurch Street
+
+    London,
+
+    e2 7dd
+
+'
+  location:
+  - 32
+  - 50
+  closest_stations:
+  - name: Picadilly Circus
+    location:
+    - 32
+    - 50
+    lines:
+    - piccadily
+    - northern
+    - etc.
+    type:
+    - rail
+    - tube
+    - overground
+  - name: test name
+    location:
+    - 32
+    - 50
+    lines:
+    - piccadily
+    - northern
+    - etc.
+    type:
+    - rail
+    - tube
+    - overground
+    description: ! 'This is the New Zealand Embassy.
+
+      Just think of all of the things that you can do there
+
+      that you can''t do in this country.
+
+'
+  directory_tags:
+  - venues
+  filename: biscuitbuilding
+centralfoundation:
+  name: Central Foundation Boys School
+  address: ! "Central Foundation Boys School, \nCowper Street, \nEC2A 4SH\n"
+  location:
+  - 32
+  - 50
+  closest_stations:
+  - name: Picadilly Circus
+    location:
+    - 32
+    - 50
+    lines:
+    - piccadily
+    - northern
+    - etc.
+    type:
+    - rail
+    - tube
+    - overground
+  - name: test name
+    location:
+    - 32
+    - 50
+    lines:
+    - piccadily
+    - northern
+    - etc.
+    type:
+    - rail
+    - tube
+    - overground
+    description: ! 'This is the New Zealand Embassy.
+
+      Just think of all of the things that you can do there
+
+      that you can''t do in this country.
+
+'
+  directory_tags:
+  - venues
+  filename: centralfoundation
 hubwestminster:
   name: Hub Westminister
   address: ! "41 New Zealand House,\n1st floor, New Zealand House \n80 Haymarket,

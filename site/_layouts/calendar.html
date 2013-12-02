@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+          {%include navbar.html %}
+        <div class="site">
+
+<h2> Events List </h2>
+{%assign high = 0 %}
+{%assign low = 999999999999999 %}
+  {% for events in site.data.events %}
+    {% if events.epoch_s_date > high %}
+    {% assign high = events.epoch_s_date %}
+    {%endif%}
+
+    {% if events.epoch_s_date < low %}
+    {% assign low = events.epoch_s_date %}
+    {%endif%}
+  {% endfor %}
+  <h1>High! {{high}}, {{high | date: "%d %B %Y"}}</h1>
+  <h1>Low! {{low}}, {{low | date: "%d %B %Y"}}</h1>
+  {%assign highyear = high | date : "%Y"|times:12 %}
+  {%assign highmonth = | plus:highyear %}
+  {%assign lowyear = low | date : "%Y"|times:12 %}
+  {%assign lowmonth = low | date : "%m"| plus:lowyear%}
+
+{%assign months = highyear | minus: lowyear %}
+
+{% for i in (0...months) %}
+<h3>{{low|current_month_name:i}}, {{low|current_year:i}}</h3>
+<div class="calendarmonth">
+{%assign days = low|days_in_month:i%}
+  {% for j in (1...days) %}
+    <div class="day">
+      <span>
+        {{j}}
+      </span>
+      {% assign p = {{low|add_months_return_unix: i |add_days_return_unix: j}} %}
+      {% assign p = p |times: 1%}
+    {% for event in site.data.events %}
+    {%assign event_epoch = event.epoch_s_date| times: 1 %}
+      {%assign timer = {{event_epoch| minus: p}}%}
+      {%assign timer = timer|times:1%}
+      {%if timer < 86400 %}
+        {%if timer > 0%}
+          <a href="{{event.url}}/{{event.filename}}.html">{{event.title}}</a>
+      {%endif%}
+      {%endif%}
+    {% endfor %}
+  </div>
+  {% endfor %}
+{% endfor %}
+</div>
+
+</div>
+</body>
+{%include footer.html %}
+</html>

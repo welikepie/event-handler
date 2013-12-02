@@ -1,5 +1,5 @@
 ---
-speakerID: timruffles
+speakerid: timruffles
 title: "London JS Night Class: AngularJS"
 series: 1
 text: |
@@ -29,8 +29,8 @@ text: |
 blurb: An evening workshop dedicated to learning AngularJS
 what: AngularJS Workshop 
 date: 2013-11-05 19:00
-end_Date: 2013-11-05 22:00
-where: hubwestminster, 
+end_date: 2013-11-05 22:00
+where: hubwestminster
 cost: £60
 map: 80 Haymarket, London, SW1Y 4TE
 infobox: |

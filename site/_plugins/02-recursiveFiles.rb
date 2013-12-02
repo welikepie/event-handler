@@ -13,6 +13,7 @@ $speakerArr = {};
 $venueArr = {};
 $categories = [];
 $catLinList = [];
+
 def rec_path(path, file= false)
   path.children.collect do |child|
     if file and child.file?
@@ -167,7 +168,7 @@ sorting = sorting.sort_by {
 
   	puts "-- Writing Categories to series_list.yaml"
 	File.open($path_to_data+"series_list.yaml", 'w') { |file| 
-		puts $categories;
+		#puts $categories;
 		file.write(YAML.dump($categories));
 		puts "-- Series_list have been saved"
 	}
@@ -191,6 +192,7 @@ array.each{
 		if(!arr.key?(x["series"]))
 			arr[x["series"]]=Array.new;
 		end
+#		x["index_in_arr"] = arr[x["series"]].length
 		arr[x["series"]] << x;
 	end
 }

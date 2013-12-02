@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+          {%include navbar.html %}
+        <div class = "site">
+          {{page.data}}
+          {%for speaks in page.data.speakerid%}
+          {%assign speaker = site.data.speakers[speaks]%}
+          {%include speaker.html data= speaker %}
+          {%endfor%}
+          {%if page.data.where%}
+	          {%assign where = site.data.venues[page.data.where]%}
+	          {%include venue.html data = where%}
+          {%endif%}
+          {%if page.data.series %}
+            {%assign pagedata = {{page.data}}%}
+            {%include series.html pagedata=pagedata type="meetup"%}
+          {%endif%}
+        </div>
+          {% include footer.html %}
+    </body>
+</html>

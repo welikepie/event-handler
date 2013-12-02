@@ -19,10 +19,10 @@
 			  </ul>
 			<h2> Category List </h3>
 			<ul>
-			  {% for events in site.data.series_list %}
+			  {% for series in site.data.series_list %}
 				  <li>
-				      <a href="{{events.url}}/">{{ events.prettyname }}</a>
-				      <p>{{events.description}}</p>
+				      <a href="{{events.url}}/">{{ series.prettyname }}</a>
+				      <p>{{series.description}}</p>
 				  </li>
 			  {% endfor %}
 			</ul>
