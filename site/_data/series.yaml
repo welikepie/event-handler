@@ -154,8 +154,8 @@ ldnjsnightclass-angular:
     hours before the event goes ahead.\n"
   blurb: An evening workshop dedicated to learning AngularJS
   what: AngularJS Workshop
-  date: 2013-11-05 19:00
-  end_date: 2013-11-05 22:00
+  date: 2013-12-04 19:00
+  end_date: 2013-12-04 22:00
   where: hubwestminster
   cost: £60
   map: 80 Haymarket, London, SW1Y 4TE
@@ -169,8 +169,8 @@ ldnjsnightclass-angular:
   - workshops
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular2
-  epoch_s_date: 1383678000
-  epoch_s_end_date: 1383688800
+  epoch_s_date: 1386183600
+  epoch_s_end_date: 1386194400
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: London JS Night AngularJS Night Classes
   seriesconfdescription: LondonJS night classes are classes designed to teach you

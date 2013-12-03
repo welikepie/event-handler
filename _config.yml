@@ -1,6 +1,6 @@
 name: The New Event Handler site
 pygments: false
-future: true
+future: false
 destination: RELEASE
 source: site
 permalink: /blog/:year/:day_:month_:title/

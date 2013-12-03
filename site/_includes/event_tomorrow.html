@@ -1,0 +1,24 @@
+          	<h3>NOTHING TOMORROW</h3>
+               {%assign posts = site.posts%}
+          	{%assign events = {{site.data.events| is_current}}%}
+          	{%for p in posts%}
+          		{% assign events = events| push: p %}
+          	{%endfor%}
+          	<!-- sort_priorities to -1 renders all events -->
+          	{% assign merged = events| sort_priorities: -1 %}
+          	{% for merge in merged %}
+
+          		<p><h3>{{merge["title"]}}</h3>
+          			{% if merge.epoch_s_date %}
+          			<a href="{{merge["url"]}}/{{merge["filename"]}}.html">{{merge["title"]}} </a>
+          			<p>Not Blog</p>
+          			<p>Size: {{merge["size"]}}</p>
+          			<p>Date: {{merge["date"]}}</p>
+          			{%else%}
+          			<a href="{{merge["url"]}}">{{merge["title"]}} </a>
+          			<p>Blog Post</p>
+         			<p>Size: {{merge["size"]}}</p>
+         			<p>Date: {{merge["date"]}}</p>
+          			{%endif%}
+          		</p>
+          	{%endfor%}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+        {%include navbar.html %}
+          <div class="site">
+          	{% assign m = site.data.events| within_x_days: 1 %}
+          	{%if m == true %}
+          	{%include event_tomorrow.html %}
+          	{%else%}
+          	{%include no_event_tomorrow.html %}
+          	{%endif%}
+          </div>
+        {% include footer.html %}
+    </body>
+</html>
