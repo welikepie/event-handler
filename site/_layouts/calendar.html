@@ -5,7 +5,7 @@
           {%include navbar.html %}
         <div class="site">
 
-<h2> Events List </h2>
+<h2> Event Handler Calendar </h2>
 {%assign high = 0 %}
 {%assign low = 999999999999999 %}
   {% for events in site.data.events %}
@@ -17,8 +17,6 @@
     {% assign low = events.epoch_s_date %}
     {%endif%}
   {% endfor %}
-  <h1>High! {{high}}, {{high | date: "%d %B %Y"}}</h1>
-  <h1>Low! {{low}}, {{low | date: "%d %B %Y"}}</h1>
   {%assign highyear = high | date : "%Y"|times:12 %}
   {%assign highmonth = | plus:highyear %}
   {%assign lowyear = low | date : "%Y"|times:12 %}
@@ -31,18 +29,24 @@
 <div class="calendarmonth">
 {%assign days = low|days_in_month:i%}
   {% for j in (1...days) %}
-    <div class="day">
+      {% assign p = {{low|add_months_return_unix: i |add_days_return_unix: j}} %} <!--iterates through months and days and adds the relevant time to it -->
+      {% assign p = p |times: 1%} <!--cast to number -->
+
+    {%if j == 1%}
+
+    <div class="day indent{{p|day_of_week:0}}">
+      {%else%}
+      <div class="day">
+    {%endif%}
       <span>
         {{j}}
       </span>
-      {% assign p = {{low|add_months_return_unix: i |add_days_return_unix: j}} %}
-      {% assign p = p |times: 1%}
     {% for event in site.data.events %}
-    {%assign event_epoch = event.epoch_s_date| times: 1 %}
-      {%assign timer = {{event_epoch| minus: p}}%}
-      {%assign timer = timer|times:1%}
-      {%if timer < 86400 %}
-        {%if timer > 0%}
+    {%assign event_epoch = event.epoch_s_date| times: 1 %} <!--cast to number -->
+      {%assign timer = {{event_epoch| minus: p}}%} <!-- start time minus beginning of day -->
+      {%assign timer = timer|times:1%} <!-- cast to int -->
+      {%if timer < 86400 %} <!-- if result is less than ammount of seconds in day -->
+        {%if timer > 0%} <!-- and greater than zero -->
           <a href="{{event.url}}/{{event.filename}}.html">{{event.title}}</a>
       {%endif%}
       {%endif%}

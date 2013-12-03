@@ -22,6 +22,10 @@ Liquid::Template.register_filter(Jekyll::ModuloFilter)
 
 module Jekyll 
   module Month_listing
+  	def day_of_week (starting,ending)
+    	Date.civil( (date(starting,"%Y").to_i) , date(starting,"%m").to_i , date(starting,"%-d").to_i ).strftime("%u");
+  	end
+
   	def add_days_return_unix (starting,ending)
     	Date.civil( (date(starting,"%Y").to_i) , date(starting,"%m").to_i , ending.to_i ).strftime("%s");
   	end
