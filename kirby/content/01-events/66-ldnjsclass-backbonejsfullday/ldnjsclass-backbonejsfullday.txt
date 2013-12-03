@@ -62,7 +62,7 @@ Infobox:
 <h1>
 	<span>Full-Day BackboneJS</span>
 	<span>7th February 2014</span>
-	<abbr class="easydate">Fri, 7 February 2014 19:00:00 +0000</abbr>
+	<abbr class="easydate">Fri, 7 February 2014 10:00:00 +0000</abbr>
 	<a href="http://ldnjsclasses-backbonejsfullday.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
 ----
