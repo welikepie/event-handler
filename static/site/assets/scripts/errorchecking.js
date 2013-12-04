@@ -1,23 +1,11 @@
 var init = {
-formElements : ["JS-number-of-rooms", "JS-currency","JS-average-room-rate","JS-occupancy","JS-averageDays"],
-type : ["Integer", "Currency","Float", "Percent","Float"],
-errorMessageEmpty : ["We'd love to know how many rooms you have.",
-"We'd love to know which currency you're using!",
-"We'd love to know the average room rate.",
-"We'd love to know average room occupancy.",
-"We'd love to know how long people stay for."],
+formElements : [],
+type : [],
+errorMessageEmpty : [],
 errorMessageWrongType : [
-"We'd much rather have a number here.",
-"We'd much rather have a currency here.",
-"We'd much rather have a number here.",
-"We'd much rather have a percentage here.",
-"We'd much rather have a number here."],
+],
 onSuccessMessage : [
-"This looks much more like a number of rooms.",
-"This looks just like a currency we can use.",
-"This looks much more like a room rate.",
-"This looks like an average occupancy.",
-"This looks much more like average days."]
+]
 };
 function discreteTest(value, index) {
 	var toTest = value;

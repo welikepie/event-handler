@@ -1,3 +1,4 @@
+var mysql = require('mysql');
 module.exports = {
 	mailchimp: {
 		api:'',  // Change this to your mailchimp API Key

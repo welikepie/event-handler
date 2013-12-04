@@ -17,21 +17,25 @@ try {
 }
 
 http.createServer(function(request, response){
+
     if(request.method.toLowerCase() != "post")
     {
         response.writeHead(403, {"Content-Type": "text/plain"});
         response.end("{GET requests are not allowed to this server.}");
     }
-        else{
+    else{
     var path = url.parse(request.url).pathname;
     if(path=="/writetodb"){
-config.mysql.connection.query('INSERT INTO content SET ? ON DUPLICATE KEY UPDATE hashtag = ?, id = ?, text = ?, user = ?,name = ?, userIMG = ?, time = ?, link = ?, img_large = ?, img_med = ?, img_small = ?, lat = ?, lon = ?', 
+/*config.mysql.connection.query(
+    ''//'INSERT INTO content SET ? ON DUPLICATE KEY UPDATE hashtag = ?, id = ?, text = ?, user = ?,name = ?, userIMG = ?, time = ?, link = ?, img_large = ?, img_med = ?, img_small = ?, lat = ?, lon = ?'
+    , 
     [send, send.hashtag, send.id, send.text, send.user, send.name, send.userIMG, send.time, send.link, send.img_large, send.img_med, send.img_small, send.lat, send.lon], 
         function(err, result) {
             if (err != null) {
                 console.log(result);
                 }
-            });
+            });*/
+        console.log(request);
         response.writeHead(200, {"Content-Type": "text/plain"});
         response.end("");
 //        console.log("string sent");
