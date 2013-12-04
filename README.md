@@ -88,3 +88,62 @@ closest_stations:
         The two spaces at the beginning are mandatory.
         Otherwise Jekyll breaks. It's sad.
 ---
+
+### On sending Form information ###
+Forms are to be send to a NodeJS server, which in turn handles these and depending on the end point writes them to a database or subscribes to Mailchimp.
+
+Each endpoint should be created in the server.js file for the respective form. Setting an endpoint is a simple case of including an additional;
+
+if(path=="/NEW_PATH"){}
+
+block of code and specifying commands inside the block.
+
+The structure of forms that are sent to the server are as follows;
+Single inputs are to have their values encoded with the "name" property of the input.
+
+Example;
+
+<select name="bobbytables">
+  <option> Robert'); DROP TABLE Students --; </option>
+  <option> Robert </option>
+  <option> Bobby </option>
+</select>
+
+Assuming the first option field is selected, the data should be sent thusly;
+
+{
+  "bobbytables" : "Robert'); DROP TABLE Students --;"
+}
+
+Integer or Floating Point responses are to be sent as Integer or Floating Point values.
+
+Multiple inputs that are used as responses to the same question should be concatenated and comma seperated in to one string.
+
+Example;
+
+<ul>
+  <li class="speaker-topic">
+    <input type="checkbox" name="interests.checkbox.group" value="Zombies">
+    <label>Zombies</label>
+  </li>
+  <li class="speaker-topic">
+    <input type="checkbox" name="interests.checkbox.group" value="Javascript">
+    <label> Javascript</label>
+  </li>
+</ul>
+
+assuming both are checked, the data should be serialised thusly;
+
+{
+  "interests" : "Zombies, Javascript"
+}
+
+Naming conventions for each input are loose, as long as data is correctly serialised. 
+
+Suggested naming is as follows; 
+  
+  name_for_value.type_of_input.group
+
+with .group symbolising the fact of more than one input.
+
+(http://xkcd.com/327/)
