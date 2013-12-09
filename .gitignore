@@ -1,2 +1,3 @@
 static/RELEASE/
 server/node_modules/
+server/config.js

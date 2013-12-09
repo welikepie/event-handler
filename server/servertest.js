@@ -4,22 +4,29 @@ var fs = require('fs');
 
 function PostCode() {
   // Build the post string from an object
-  var post_data = querystring.stringify({
+  var post_data = querystring.stringify({ //example for content-type : application/x-www-form-urlencoded
       'compilation_level' : 'ADVANCED_OPTIMIZATIONS',
       'output_format': 'json',
       'output_info': 'compiled_code',
         'warning_level' : 'QUIET',
         'js_code' : 'OHAITHERE'
   });
-
+var post_data = JSON.stringify({ //example for content-type : json
+      'compilation_level' : 'ADVANCED_OPTIMIZATIONS',
+      'output_format': 'json',
+      'output_info': 'compiled_code',
+        'warning_level' : 'QUIET',
+        'js_code' : 'OHAITHERE'
+  });
   // An object of options to indicate where to post to
   var post_options = {
       host: 'localhost',
-      port: '8001',
+      port: '2399',
       path: '/writetodb',
       method: 'POST',
       headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
+          //'Content-Type': 'application/x-www-form-urlencoded',
+          'Content-Type' : 'json',
           'Content-Length': post_data.length
       }
   };
@@ -33,6 +40,7 @@ function PostCode() {
   });
 
   // post the data
+  console.log(post_data)
   post_req.write(post_data);
   post_req.end();
 

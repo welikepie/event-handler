@@ -2,8 +2,11 @@ var http = require('http'),
       fs = require('fs'),
      url = require('url'),
      mysql = require('mysql'),
-     listening = 8001,
-     config = require('./config');
+     listening = 2399,
+     config = require('./config'),
+     queryString = require( 'querystring' ),
+     contenttypes = ["json","jsonp","application/x-www-form-urlencoded"],
+     responseheader = {'Access-Control-Allow-Origin':'*',"Content-Type": "json"};
 
 //SETUP MAILCHIMP API - You must replace your API Key and List ID which you can find in your Mailchimp Account
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
@@ -17,16 +20,55 @@ try {
 }
 
 http.createServer(function(request, response){
-
     if(request.method.toLowerCase() != "post")
     {
-        response.writeHead(403, {"Content-Type": "text/plain"});
-        response.end("{GET requests are not allowed to this server.}");
+        response.writeHead(403, responseheader);
+        response.end(JSON.stringify({"status":"error","error":"GET requests are not allowed to this server."}));
     }
     else{
+    var jsondata;
     var path = url.parse(request.url).pathname;
-    if(path=="/writetodb"){
-/*config.mysql.connection.query(
+        var body = '';
+        request.on('data', function (data) {
+            body += data;
+        });
+        request.on('end', function () {
+            try{
+                if(request.headers["host"].toLowerCase().indexOf("localhost")==-1){
+                    response.writeHead(200, responseheader);
+                    response.end(JSON.stringify({"status":"error","error":"Request does not originate from a website hosted on this server."}));
+                }
+                else if(contenttypes.indexOf(request.headers["content-type"].toLowerCase())==-1){
+                    response.writeHead(200, responseheader);
+                    response.end(JSON.stringify({"status":"error","error":"Request does not have the correct content type specified."}));
+                }
+                console.log("Body: " + body);
+                if(contenttypes.indexOf(request.headers["content-type"].toLowerCase())==2){
+                    jsondata = queryString.parse(body);
+                }else{
+                    jsondata = JSON.parse(body);
+                }
+                console.log(jsondata);
+                if(path=="/writetodb"){
+                    writeToDb(jsondata);
+                }
+                else if(path == "/mailchimp"){
+                     mailchimp(jsondata);
+                }
+            }
+            catch(e){
+                response.writeHead(200, {'Content-Type': 'json'});
+                response.end(JSON.stringify({'Access-Control-Allow-Origin':'*',"status":"error","error":JSON.stringify(e)}));
+            }
+        });
+        response.writeHead(200, responseheader);
+        response.end(JSON.stringify({"status":"success"}));
+}
+}).listen(listening);
+console.log("server initialized on "+listening);
+
+function writeToDb(inputs){
+    /*config.mysql.connection.query(
     ''//'INSERT INTO content SET ? ON DUPLICATE KEY UPDATE hashtag = ?, id = ?, text = ?, user = ?,name = ?, userIMG = ?, time = ?, link = ?, img_large = ?, img_med = ?, img_small = ?, lat = ?, lon = ?'
     , 
     [send, send.hashtag, send.id, send.text, send.user, send.name, send.userIMG, send.time, send.link, send.img_large, send.img_med, send.img_small, send.lat, send.lon], 
@@ -35,17 +77,18 @@ http.createServer(function(request, response){
                 console.log(result);
                 }
             });*/
-        console.log(request);
-        response.writeHead(200, {"Content-Type": "text/plain"});
-        response.end("");
+    console.log("POST");
+    console.log(inputs);
 //        console.log("string sent");
-    }
-    if(path == "/mailchimp"){
-           try{
-            var GROUPINGS = JSON.parse(req.body.GROUPINGS);
-            var EMAIL = JSON.parse(req.body.EMAIL);
-            var listID = config.mailchimp.list[0];
+}
 
+function mailchimp(inputs){
+    console.log(inputs);
+    response.writeHead(200, {'Content-Type': 'json', 'Access-Control-Allow-Origin':'*'});
+    try{
+        var GROUPINGS = JSON.parse(inputs.GROUPINGS);
+        var EMAIL = JSON.parse(inputs.EMAIL);
+        var listID = config.mailchimp.list[0];
         mcApi.listSubscribe({
             id: listID,
             email_address:EMAIL,
@@ -56,16 +99,14 @@ http.createServer(function(request, response){
             },
             function (error, data) {
             if (error){
-                res.end(JSON.stringify({"response":"error","test":false,"error":JSON.stringify(error)}));
+                response.end(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(error)}));
             }
             else {
-                res.end(JSON.stringify({"response":"success","test":true}));
+                response.end(JSON.stringify({"status":"success","test":true}));
             }
         });
-        }catch(e){
-            console.log(e.stack);
-        }
+    }catch(e){
+        response.end(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(e)}));
+        console.log(e.stack);
     }
 }
-}).listen(listening);
-console.log("server initialized on "+listening);
