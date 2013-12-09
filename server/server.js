@@ -5,8 +5,8 @@ var http = require('http'),
      listening = 2399,
      config = require('./config'),
      queryString = require( 'querystring' ),
-     contenttypes = ["json","jsonp","application/x-www-form-urlencoded"],
-     responseheader = {'Access-Control-Allow-Origin':'*',"Content-Type": "json"};
+     contenttypes = ["application/json","application/jsonp","application/x-www-form-urlencoded"],
+     responseheader = {'Access-Control-Allow-Origin':'*','Content-Type': 'json'};
 
 //SETUP MAILCHIMP API - You must replace your API Key and List ID which you can find in your Mailchimp Account
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
@@ -20,8 +20,23 @@ try {
 }
 
 http.createServer(function(request, response){
+    console.log(request.method.toLowerCase());
     if(request.method.toLowerCase() != "post")
     {
+        if(request.method.toLowerCase()== "options"){
+                 console.log('!OPTIONS');
+      var headers = {};
+      // IE8 does not allow domains to be specified, just the *
+      // headers["Access-Control-Allow-Origin"] = req.headers.origin;
+      headers["Access-Control-Allow-Origin"] = "*";
+      headers["Access-Control-Allow-Methods"] = "POST, OPTIONS";
+      headers["Access-Control-Allow-Credentials"] = false;
+      headers["Access-Control-Max-Age"] = '86400'; // 24 hours
+      headers["Access-Control-Allow-Headers"] = "X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept";
+      response.writeHead(200, headers);
+      response.end();
+         }
+
         response.writeHead(403, responseheader);
         response.end(JSON.stringify({"status":"error","error":"GET requests are not allowed to this server."}));
     }
@@ -38,7 +53,7 @@ http.createServer(function(request, response){
                     response.writeHead(200, responseheader);
                     response.end(JSON.stringify({"status":"error","error":"Request does not originate from a website hosted on this server."}));
                 }
-                else if(contenttypes.indexOf(request.headers["content-type"].toLowerCase())==-1){
+                else if(stringcontainsarray(contenttypes,request.headers["content-type"].toLowerCase()) == false){
                     response.writeHead(200, responseheader);
                     response.end(JSON.stringify({"status":"error","error":"Request does not have the correct content type specified."}));
                 }
@@ -48,21 +63,22 @@ http.createServer(function(request, response){
                 }else{
                     jsondata = JSON.parse(body);
                 }
-                console.log(jsondata);
+                console.log(path == "/mailchimp");
+
                 if(path=="/writetodb"){
-                    writeToDb(jsondata);
+                    response.writeHead(200,responseheader);
+                    writeToDb(jsondata,function(input){console.log(input); response.end(input);});
                 }
-                else if(path == "/mailchimp"){
-                     mailchimp(jsondata);
+                if(path == "/mailchimp"){
+                     response.writeHead(200,responseheader);
+                     mailchimp(jsondata,function(input){console.log(input); response.end(input);});
                 }
             }
             catch(e){
-                response.writeHead(200, {'Content-Type': 'json'});
-                response.end(JSON.stringify({'Access-Control-Allow-Origin':'*',"status":"error","error":JSON.stringify(e)}));
+                response.writeHead(200, responseheader);
+                response.end(JSON.stringify({"status":"error","error":JSON.stringify(e)}));
             }
         });
-        response.writeHead(200, responseheader);
-        response.end(JSON.stringify({"status":"success"}));
 }
 }).listen(listening);
 console.log("server initialized on "+listening);
@@ -82,31 +98,45 @@ function writeToDb(inputs){
 //        console.log("string sent");
 }
 
-function mailchimp(inputs){
-    console.log(inputs);
-    response.writeHead(200, {'Content-Type': 'json', 'Access-Control-Allow-Origin':'*'});
+function mailchimp(inputs, callback){
     try{
-        var GROUPINGS = JSON.parse(inputs.GROUPINGS);
-        var EMAIL = JSON.parse(inputs.EMAIL);
+        var GROUPINGS = inputs.GROUPINGS;
+        var EMAIL = inputs.EMAIL;
         var listID = config.mailchimp.list[0];
+        var groupString = "";
+        console.log(EMAIL);
+        for(var x in GROUPINGS){
+            if(GROUPINGS.hasOwnProperty(x)){
+                (GROUPINGS[x]==true)? GROUPINGS[x]="Subscribe" : GROUPINGS[x]="Don't Subscribe";
+            }
+        }
+
         mcApi.listSubscribe({
             id: listID,
             email_address:EMAIL,
-            merge_vars: {
-                "GROUPINGS": GROUPINGS},
+            merge_vars: GROUPINGS,
                 "double_optin": false,
                 "update_existing":true
             },
             function (error, data) {
-            if (error){
-                response.end(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(error)}));
-            }
-            else {
-                response.end(JSON.stringify({"status":"success","test":true}));
-            }
-        });
+                 console.log(error);
+                if (error){
+                    callback(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(error)}));
+                }
+                else {
+                    callback(JSON.stringify({"status":"success","test":true}));
+                }
+            });
     }catch(e){
-        response.end(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(e)}));
-        console.log(e.stack);
+        callback(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(e)}));
     }
+}
+
+function stringcontainsarray(array,string){
+    for(var i = 0; i < array.length; i++){
+        if(string.indexOf(array[i])>-1){
+            return true;
+        }
+    }
+    return false;
 }
