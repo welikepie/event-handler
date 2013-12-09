@@ -1,3 +1,20 @@
+<h1> Writes to Mailchimp </h1>
+  <form id="mc-embedded-subscribe-form2" onsubmit="return false;"name="mc-embedded-subscribe-form" class="validate mailing_list">
+    <fieldset>
+      <input type="text" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
+      <div class="categories">
+        <label><input type="checkbox" id="everything_check" checked> Everything </label>
+        <label><input type="checkbox" name="DEV" value="Subscribe" checked> Development </label>
+        <label><input type="checkbox" name="DESIGN" value="Subscribe" checked> Design </label>
+        <label><input type="checkbox" name="SOCIAL" value="Subscribe" checked> Social </label>
+      </div>
+      <div class="error" id="cat">You need to select at least one category.</div>
+      <div class="error" id="email">The email you typed in seems to be invalid. If this isn't the case, please email contact@eventhandler.com. </div>
+      <div class="success" id="successSubmit">Awesome! You're now subscribed to the Eventhandler mailing list. </div>
+    </fieldset>
+    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+  </form>
+<h1> Writes to a Database </h1>
   <form id="mc-embedded-subscribe-form" onsubmit="return false;"name="mc-embedded-subscribe-form" class="validate mailing_list">
     <fieldset>
       <input type="text" name="EMAIL" class="email" id="mce-EMAIL" value="" placeholder="Your e-mail address" required>
@@ -13,4 +30,5 @@
     </fieldset>
     <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
   </form>
+
 <script src="test.js" type="text/javascript"></script>

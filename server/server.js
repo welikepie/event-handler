@@ -67,7 +67,11 @@ http.createServer(function(request, response){
 
                 if(path=="/writetodb"){
                     response.writeHead(200,responseheader);
-                    writeToDb(jsondata,function(input){console.log(input); response.end(input);});
+                    writeToDb(jsondata,function(input){console.log(input);
+                            response.end(input);
+config.mysql.connection.end();
+                        });
+
                 }
                 if(path == "/mailchimp"){
                      response.writeHead(200,responseheader);
@@ -83,18 +87,27 @@ http.createServer(function(request, response){
 }).listen(listening);
 console.log("server initialized on "+listening);
 
-function writeToDb(inputs){
-    /*config.mysql.connection.query(
-    ''//'INSERT INTO content SET ? ON DUPLICATE KEY UPDATE hashtag = ?, id = ?, text = ?, user = ?,name = ?, userIMG = ?, time = ?, link = ?, img_large = ?, img_med = ?, img_small = ?, lat = ?, lon = ?'
-    , 
-    [send, send.hashtag, send.id, send.text, send.user, send.name, send.userIMG, send.time, send.link, send.img_large, send.img_med, send.img_small, send.lat, send.lon], 
-        function(err, result) {
-            if (err != null) {
-                console.log(result);
-                }
-            });*/
+function writeToDb(inputs,callback){
     console.log("POST");
     console.log(inputs);
+    config.mysql.connection.connect();
+    //design social development
+    (inputs.design == "true")?inputs.design=1:inputs.design=0;
+    (inputs.social == "true")?inputs.design=1:inputs.design=0;
+    (inputs.development == "true")?inputs.design=1:inputs.design=0;
+
+    config.mysql.connection.query(
+    'INSERT INTO new_table SET ? ON DUPLICATE KEY UPDATE Email = ?, Design = ?, Social = ?, Development = ?',[inputs, inputs.email, inputs.design, inputs.social, inputs.development],
+        function(err, result) {
+                console.log(err);
+                if (err){
+                    callback(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(err)}));
+                }
+                else {
+                    callback(JSON.stringify({"status":"success","test":true,"result":JSON.stringify(result)}));
+                }
+
+            });
 //        console.log("string sent");
 }
 
