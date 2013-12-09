@@ -1,35 +1,12 @@
 "use strict";
 
-var speaker = {
-	"elements" : [document.forms["speakerform"].elements[0],document.forms["speakerform"].elements[1]],
-	"errorElements" : [],
-	"submit" : function(){
-		if(speaker.validate() === true){
-			console.log(document.forms["speakerform"]);
-		}
-	},
-	"validate" : function(){
-		var error = false;
-		for(var speak in speaker.elements){
-			if(speaker.elements[speak].value == ""){
-				speaker.displayErrors(speak);
-				error = true;
-			}
-		}
-		if (error === false){
-			return true;
-		}
-		else{
-			return false;
-		}
-	},
-	"displayErrors" : function(index){
-		console.log(index);
-	}
-};
+var x = new ErrorCheck([document.getElementById("testElement")],["Integer"],function(){console.log("LOL");});
 
-function ErrorCheck(array_of_ids, array_of_types,submit_function){
-	this.elements = array_of_ids;
+document.getElementById("button").onclick=x.submit();
+
+
+function ErrorCheck(array_of_els, array_of_types,submit_function){
+	this.elements = array_of_els;
 	this.types = array_of_types;
 	this.responses = new Array(this.elements.length);
 	this.submitfunction = submit_function;
@@ -41,16 +18,31 @@ function ErrorCheck(array_of_ids, array_of_types,submit_function){
 		"4":"Empty Value"
 	};
 	this.submit = function(){
+		console.log(this.responses);
 		if(this.validate()===true){
 			this.submitfunction();
+		}else{
+			for(var i = 0; i < this.elements.length; i++){
+				if(this.responses[i] != 1){
+					console.log(this.elements[i] +"came out to "+this.discreteTextReturns[this.responses[i].toString()]);
+				}
+			}
 		}
 	};
 	this.validate = function(){
+		console.log(this.elements[0].value);
 		var sameLength = (this.elements.length == this.types.length);
-		if(sameLength == false){return false;}
+		if(sameLength == false){console.log("Your Arrays of IDs and Types are not the same length!"); return false;}
 		for(var i = 0; i < this.elements.length; i++){
-			this.responses[i] = this.discreteTest(document.getElementById(this.elements[i]).value,i);
+			console.log(this.elements[i].value);
+			this.responses[i] = this.discreteTest(this.elements[i].value,i);
 		}
+		for(var i = 0; i < this.elements.length; i++){
+			if(this.responses[i] != 1){
+				return false;
+			}
+		}
+		return true;
 	};
 	this.discreteTest = function(value, index) {
         var toTest = value;
@@ -68,7 +60,7 @@ function ErrorCheck(array_of_ids, array_of_types,submit_function){
                 	return 1;
                 }
         }
-        if(this.types[index] == "Percent"){
+        if(this.types[index] == "Percent2"){
                 console.log(parseFloat(toTest.replace("%", "").replace(/\s/g,""),10));
                 if(toTest.length > 0 && /[a-zA-Z]{1,}/.test(toTest) == false){
                         if(toTest.indexOf("%")>0 && parseFloat(toTest.replace("%", "").replace(/\s/g,""),10) >= 0 && parseFloat(toTest.replace("%", "").replace(/\s/g,""),10) <= 100 ){
@@ -128,6 +120,7 @@ function ErrorCheck(array_of_ids, array_of_types,submit_function){
                 }
         } 
         if (this.types[index] == "Integer") {
+        	console.log("TESTING");
                 if (toTest % 1 != 0 || toTest == "" || parseFloat(toTest,10) == 0) {
                         if (toTest == "") {
                             return 4;
@@ -140,7 +133,7 @@ function ErrorCheck(array_of_ids, array_of_types,submit_function){
                 } else {
                         return 1;
                 }
-        } else if (this.types[index] == "Float") {
+        } if (this.types[index] == "Float") {
                 //regex for 0-9 and one .
                 if (/[0-9]{1,}[.]{0,1}[0-9]{0,}/.test(toTest) == false || toTest == "" || /[a-zA-Z]{1,}/.test(toTest) == true || parseFloat(toTest,10)==0) {
                         if (toTest == "") {
