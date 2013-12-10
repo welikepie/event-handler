@@ -11,6 +11,10 @@ CREATE TABLE IF NOT EXISTS`speakerform` (
   `length` text,
   `links` text,
   `lanyrd` varchar(45) DEFAULT NULL,
-  `subjects` text
+  `subjects` text,
+  `order` int(11) NOT NULL AUTO_INCREMENT,
+  `checkedout` tinyint(1) DEFAULT '0',
+  `comments` text,
+  PRIMARY KEY (`order`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1$$
 

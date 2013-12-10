@@ -21,11 +21,11 @@ try {
 try{    config.mysql.connection.connect();
 }catch(error){console.log(error);}
 http.createServer(function(request, response){
+     var path = url.parse(request.url).pathname;
     console.log(request.method.toLowerCase());
     if(request.method.toLowerCase() != "post")
     {
         if(request.method.toLowerCase()== "options"){
-                 console.log('!OPTIONS');
       var headers = {};
       // IE8 does not allow domains to be specified, just the *
       // headers["Access-Control-Allow-Origin"] = req.headers.origin;
@@ -33,17 +33,43 @@ http.createServer(function(request, response){
       headers["Access-Control-Allow-Methods"] = "POST, OPTIONS";
       headers["Access-Control-Allow-Credentials"] = false;
       headers["Access-Control-Max-Age"] = '86400'; // 24 hours
-      headers["Access-Control-Allow-Headers"] = "X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept";
+      headers["Access-Control-Allow-Headers"] = "X-WLPAPI, X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept";
       response.writeHead(200, headers);
       response.end();
          }
+         if(path == "/speaker"){
+            if(request.headers["X-WLPAPI"] !== undefined || request.headers["x-wlpapi"]!==undefined){
+            var headerval;
+            if(request.headers["X-WLPAPI"] !== undefined){
+                headerval = request.headers["X-WLPAPI"];
+            }else{
+                headerval = request.headers["x-wlpapi"];
+            }
+            if(config.verify(headerval)==true){
+            console.log(request.headers.hasOwnProperty("X-WLPAPI"));
+            config.mysql.connection.query('SELECT `order`, UNIX_TIMESTAMP(date) as date, name, contactinfo, association, why, what, style, length, links, lanyrd, subjects, checkedout, comments from speakerform', function(err, rows, fields) {
+              if (err) throw err;
+              response.writeHead(200,responseheader);
+              response.end(JSON.stringify({"status":"success","data":rows}));
+            });
+            }else{
+               response.writeHead(403, responseheader);
+               response.end(JSON.stringify({"status":"error","error":"this GET request is not allowed to this server."}));
+            }
+            }
+            else{
+                response.writeHead(403, responseheader);
+               response.end(JSON.stringify({"status":"error","error":"this GET request is not allowed to this server."}));
 
+            }
+         }else{
         response.writeHead(403, responseheader);
-        response.end(JSON.stringify({"status":"error","error":"GET requests are not allowed to this server."}));
+        response.end(JSON.stringify({"status":"error","error":"this GET request is not allowed to this server."}));
+        }
     }
     else{
     var jsondata;
-    var path = url.parse(request.url).pathname;
+   
         var body = '';
         request.on('data', function (data) {
             body += data;
@@ -89,7 +115,7 @@ http.createServer(function(request, response){
                      mailchimp(jsondata,function(input){console.log(input); response.end(input);});
                 }
             }
-            
+
             catch(e){
                 response.writeHead(200, responseheader);
                 response.end(JSON.stringify({"status":"error","error":JSON.stringify(e)}));
