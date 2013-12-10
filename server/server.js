@@ -18,7 +18,8 @@ try {
 } catch (error) {
     console.log(error.message);
 }
-
+try{    config.mysql.connection.connect();
+}catch(error){console.log(error);}
 http.createServer(function(request, response){
     console.log(request.method.toLowerCase());
     if(request.method.toLowerCase() != "post")
@@ -63,21 +64,32 @@ http.createServer(function(request, response){
                 }else{
                     jsondata = JSON.parse(body);
                 }
-                console.log(path == "/mailchimp");
+                console.log(path);
 
                 if(path=="/writetodb"){
                     response.writeHead(200,responseheader);
+                    console.log(input);
                     writeToDb(jsondata,function(input){console.log(input);
                             response.end(input);
-config.mysql.connection.end();
+                            //config.mysql.connection.end();
                         });
 
                 }
+                if(path == "/writespeakerform"){
+                    console.log("DOING STUFF");
+                    response.writeHead(200,responseheader);
+                    writeToSpeakerTable(jsondata,function(input){console.log(input);
+                            response.end(input);
+                        //config.mysql.connection.end();
+                        });
+                }
                 if(path == "/mailchimp"){
                      response.writeHead(200,responseheader);
+                     console.log(jsondata);
                      mailchimp(jsondata,function(input){console.log(input); response.end(input);});
                 }
             }
+            
             catch(e){
                 response.writeHead(200, responseheader);
                 response.end(JSON.stringify({"status":"error","error":JSON.stringify(e)}));
@@ -90,7 +102,6 @@ console.log("server initialized on "+listening);
 function writeToDb(inputs,callback){
     console.log("POST");
     console.log(inputs);
-    config.mysql.connection.connect();
     //design social development
     (inputs.design == "true")?inputs.design=1:inputs.design=0;
     (inputs.social == "true")?inputs.design=1:inputs.design=0;
@@ -107,6 +118,25 @@ function writeToDb(inputs,callback){
                     callback(JSON.stringify({"status":"success","test":true,"result":JSON.stringify(result)}));
                 }
 
+            });
+//        console.log("string sent");
+}
+
+function writeToSpeakerTable(inputs,callback){
+    console.log("POST");
+    console.log(inputs);
+    //design social development
+    inputs.date = new Date();
+    config.mysql.connection.query(
+    'INSERT INTO speakerform SET ? ',[inputs],
+        function(err, result) {
+                console.log(err);
+                if (err){
+                    callback(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(err)}));
+                }
+                else {
+                    callback(JSON.stringify({"status":"success","test":true,"result":JSON.stringify(result)}));
+                }
             });
 //        console.log("string sent");
 }

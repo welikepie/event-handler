@@ -1,6 +1,6 @@
 		<div class="speaker_submission">
 				<div class="ss-form">
-					<form name = "speakerform"  onsubmit="speaker.submit(); return false;">
+					<form id = "speakerform"  onsubmit="return false;">
 						<div class="formquestion">
 									<label class="formlabel" for="entry_0">What is the speakers name? *</label>
 									<input type="text" name="entry.0.single" value="" class="formsingleinput" id="entry_0">
@@ -209,7 +209,7 @@
 										<li class="speaker-topic">
 											<label class="ss-choice-label">
 												<input type="checkbox" name="entry.7.group" value="Electronics" class="formquestionchecks" id="group_7_28">
-												Electronics</label>
+												<label class="ss-choice-label" for="group_7_28">Electronics</label>
 										</li>
 										<li class="speaker-topic">
 											
@@ -247,5 +247,3 @@
 				</form>
 			</div>
 		</div>
-<script type="text/javascript" src="formJS/speak.js">
-</script>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+          {%include navbar.html %}
+        <div class = "site">
+         {%include speakerform.html%}
+        </div>
+        {%assign x = "/assets/scripts/formJS/form.js|/assets/scripts/speakerform.js" |split:"|"%}
+          {% include footer.html scriptpaths = x%}
+    </body>
+</html>

@@ -5,7 +5,8 @@
           {%include navbar.html %}
         <div class="site">
           {{page.body | markdownify}}
-          {% include footer.html %}
+                {%assign x = "/assets/scripts/formJS/form.js|/assets/scripts/mailchimpform.js" |split:"|"%}
+          {% include footer.html scriptpaths = x%}
         </div>
     </body>
 </html>

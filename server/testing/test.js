@@ -1,9 +1,9 @@
 document.getElementById("mc-embedded-subscribe-form2").addEventListener("submit",function(){
-	var email=document.forms["mc-embedded-subscribe-form"].elements[1].value;
+	var email=document.forms["mc-embedded-subscribe-form2"].elements[1].value;
 var keyArray = {
-"DEV":document.forms["mc-embedded-subscribe-form"].elements[3].checked,
-"DESIGN":document.forms["mc-embedded-subscribe-form"].elements[4].checked,
-"SOCIAL":document.forms["mc-embedded-subscribe-form"].elements[5].checked
+"DEV":document.forms["mc-embedded-subscribe-form2"].elements[3].checked,
+"DESIGN":document.forms["mc-embedded-subscribe-form2"].elements[4].checked,
+"SOCIAL":document.forms["mc-embedded-subscribe-form2"].elements[5].checked
 };
 
 var xmlhttp = new XMLHttpRequest();
