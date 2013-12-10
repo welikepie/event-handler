@@ -1,0 +1,64 @@
+Title: Finding the Fun: Game Design & Iteration at High-speed
+----
+Text: 
+On Tuesday the 11th of February, Award-winning games designer and publisher (link: http://www.twitter.com/jameswallis text: James Wallis) will give you a crash course in creating board-games and card-games.
+
+(image: james.png class: full-width)
+
+In modern design, building stuff fast and getting to a working version are key, but making and testing prototypes (code or physical objects) can be enormously time-consuming. Learning how to work with paper prototypes—meta-versions of your design—to iterate the project quickly can save you days. In this workshop James Wallis will teach you to create and flesh out a concept for a simple multi-user system, build a working prototype, watch as other people test it and critique it, and use that criticism to rework the design towards a finished product.
+
+### Who is it taught by?
+
+This fun evening workshop is being hosted by James Wallis (link: http://www.twitter.com/jameswallis text: @jameswallis). James is a games designer and publisher who is behind popular games such as "Once Upon a Time" and "The Extraordinary Adventures of Baron Munchausen". He runs "Spaaace", a games consultancy, and founded the Diana Jones award for excellence in gaming. Each year he runs (link: http://www.gamecamp.org.uk text: GameCamp).
+
+### What this workshop will cover
+
+* Conceptualising a game
+* Prototyping a game
+* Testing your game with other users
+* Giving and receiving feedback
+* Solving bugs in your design
+
+### Requirements
+
+Just bring yourself! We'll provide all the necessary materials at the workshop.
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+An evening of high-speed games design
+----
+What: Games Design & Prototyping
+----
+Date: 2014-02-11 19:00
+----
+End_Date: 2014-02-11 22:00
+----
+Where: Hub Westminster,
+1st floor New Zealand House, 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Games Design</span>
+	<span>11th February 2014</span>
+	<abbr class="easydate">Tue, 11 February 2014 19:00:00 +0000</abbr>
+	<a href="http://ehnightclass-gamesdesign.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ehnightclass-gamesdesign.eventbrite.com/
+----
+Lanyrd: http://www.lanyrd.com/2014/ehnightclass-gamesdesign
+----
+LanyrdAPI: http://lanyrd.com/2014/ehnightclass-gamesdesign/speakers/724abc90b74fb477.v1.json
