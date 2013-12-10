@@ -3,6 +3,16 @@ var speakdata = {
 	"proposals":[],
 		"topush":{}
 };
+function clone(obj){
+    if(obj == null || typeof(obj) != 'object')
+        return obj;
+
+    var temp = obj.constructor(); // changed
+
+    for(var key in obj)
+        temp[key] = clone(obj[key]);
+    return temp;
+}
 var dom = {
 	"toMonitor" : ["checkedtick","commentsbox"],
 	"toMonitorType" : ["checkbox","textarea"],
@@ -18,6 +28,7 @@ var dom = {
 			alert("Error retrieving data. Credentials not correct.");
 			console.log(dom.loadedJSON);
 		}else{
+			console.log("BEING DONE");
 			speakdata.proposals = dom.loadedJSON.data;
 			for(var i = speakdata.proposals.length-1; i >= 0 ; i--){
 				dom.insertListElement(document.getElementById("data"),speakdata.proposals[i]);
@@ -127,17 +138,16 @@ var dom = {
 				else if(dom.toMonitorType[i] == "textarea"){
 					(elar[j].value == "")?value = null:value = elar[j].value ;
 				}
-				console.log(value+","+speakdata.proposals[parseInt(elar[j].getAttribute("data-order"),10)-1][elar[j].getAttribute("data-correlate")]);
-				if(value!=speakdata.proposals[parseInt(elar[j].getAttribute("data-order"),10)-1][elar[j].getAttribute("data-correlate")]){
-					if(!speakdata.topush.hasOwnProperty(elar[j].getAttribute("data-order"))){
-						speakdata.topush[elar[j].getAttribute("data-order")] = speakdata.proposals[parseInt(elar[j].getAttribute("data-order"),10)-1];
+				var originalvalue = speakdata.proposals[parseInt(elar[j].getAttribute("data-order"),10)-1][elar[j].getAttribute("data-correlate")];
+				console.log(value+","+originalvalue);
+				if(value!=originalvalue){
+					if(speakdata.topush[elar[j].getAttribute("data-order")] == undefined){
+						speakdata.topush[elar[j].getAttribute("data-order")] = clone(speakdata.proposals[parseInt(elar[j].getAttribute("data-order"),10)-1]);
 					}
-					speakdata.topush[elar[j].getAttribute("data-order")][elar[j].getAttribute("data-correlate")] = value;
+					 	speakdata.topush[elar[j].getAttribute("data-order")][elar[j].getAttribute("data-correlate")] = value;
 				}
 			}
 		}
-
-
 		console.log(speakdata.topush);
 	}
 };
