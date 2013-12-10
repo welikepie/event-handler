@@ -11,6 +11,7 @@
           	{%include no_event_tomorrow.html %}
           	{%endif%}
           </div>
-        {% include footer.html %}
+          {%assign x = "assets/test.js|assets/test2.js" | split:"|"%}
+        {% include footer.html scriptpaths = x %}
     </body>
 </html>

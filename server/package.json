@@ -9,5 +9,6 @@
   "dependencies": {
     "mailchimp": "1.1.0",
     "mysql": "2.0.0-rc1"
+    "forever" : "0.10.10"
   }
 }
