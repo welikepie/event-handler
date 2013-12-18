@@ -1,5 +1,7 @@
 ---
-speakerid: timruffles
+speakerid:
+  - timruffles
+  - danknell
 title: "London JS Night Class: AngularJS"
 series: 1
 text: |

@@ -189,7 +189,9 @@
   epoch_s_date: 1383246000
   epoch_s_end_date: 1383256800
   url: /events
-- speakerid: timruffles
+- speakerid:
+  - timruffles
+  - danknell
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
   text: ! "On the 5th of November, (link: http://www.twitter.com/timruffles text:
