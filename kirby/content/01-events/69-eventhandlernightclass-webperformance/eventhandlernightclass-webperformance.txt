@@ -1,7 +1,7 @@
-Title: Building a faster web: How to optimise your websites performance
+Title: Building a faster web: How to optimise your website's performance
 ----
 Text: 
-On Wednesday the 19th of February, Patrick Hamann will be holding an evening class on how to optimise your websites performance.
+On Wednesday the 19th of February, Patrick Hamann will be holding an evening class on how to optimise your website's performance.
 
 (image: webperformance.png class: full-width)
 
@@ -9,7 +9,7 @@ On Wednesday the 19th of February, Patrick Hamann will be holding an evening cla
 This workshop is for any designer or developer wanting to improve the speed of their websites and have a greater understanding of the browser's internals.
 
 ### What you'll learn
-In one evening you will discover what are the common performance bottlenecks in the browser from networking to painting and learn how to best optimise at each stage of the critical path to create fast, jank free websites.
+In one evening you will discover what the common performance bottlenecks are in the browser from networking to painting and learn how to best optimise at each stage of the critical path to create fast, jank free websites.
 
 ### Who is it taught by?
 
