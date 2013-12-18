@@ -73,7 +73,7 @@ var dom = {
 						dt.innerHTML = dttext;
 						var dd = document.createElement("dd");
 						if(i ==="date"){
-							dd.innerHTML = new Date(dataobject[i]);
+							dd.innerHTML = new Date(dataobject[i]*1000);
 						}else{
 							dd.innerHTML = dataobject[i];
 						}
@@ -120,11 +120,13 @@ var dom = {
 		li.appendChild(dl);
 		destination.appendChild(li);
 	},
-	"display" : function(target){
+	"show" : function(target){
 		target.style.display="inline";
+		target.style.visibility="visible";
 	},
 	"hide" : function(target){
 		target.style.display="none";
+		target.style.visibility="hidden";
 	},
 	"parity" : function(){
 		speakdata.topush = {};
@@ -149,5 +151,40 @@ var dom = {
 			}
 		}
 		console.log(speakdata.topush);
+		if(jsonlength(speakdata.topush)>0){
+			dom.show(document.getElementById("savebutton"));
+		}else{
+			dom.hide(document.getElementById("savebutton"));
+		}
 	}
 };
+
+function savedata(){
+	var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open('POST', 'http://localhost:2399/updatespeaker', true);
+		xmlhttp.setRequestHeader('X-WLPAPI', '23456');
+		xmlhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+		xmlhttp.onload = function () {
+			if(JSON.parse(this.responseText)["test"] == true){
+				dom.hide(document.getElementById("savebutton"));
+				console.log(speakdata.proposals);
+				for(var j in speakdata.topush){
+					speakdata.proposals[parseInt(j,10)-1] = speakdata.topush[j];
+				}
+				console.log(speakdata.proposals);
+				speakdata.topush = {};
+			}
+			console.log(this.responseText);
+		};
+		xmlhttp.send(JSON.stringify(speakdata.topush));
+}
+
+function jsonlength(data){
+		var count = 0;
+		for(var key in data){
+			if(data.hasOwnProperty(key)){
+				count++;
+			}
+		}
+		return count;
+	}

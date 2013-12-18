@@ -2,6 +2,7 @@ var http = require('http'),
       fs = require('fs'),
      url = require('url'),
      mysql = require('mysql'),
+     async = require('async'),
      listening = 2399,
      config = require('./config'),
      queryString = require( 'querystring' ),
@@ -38,30 +39,18 @@ http.createServer(function(request, response){
       response.end();
          }
          if(path == "/speaker"){
-            if(request.headers["X-WLPAPI"] !== undefined || request.headers["x-wlpapi"]!==undefined){
-            var headerval;
-            if(request.headers["X-WLPAPI"] !== undefined){
-                headerval = request.headers["X-WLPAPI"];
-            }else{
-                headerval = request.headers["x-wlpapi"];
+           if(wlpapiverify(request,
+           function(){
+                config.mysql.connection.query('SELECT `order`, UNIX_TIMESTAMP(date) as date, name, contactinfo, association, why, what, style, length, links, lanyrd, subjects, checkedout, comments from speakerform', function(err, rows, fields) {
+                  if (err) throw err;
+                  response.writeHead(200,responseheader);
+                  response.end(JSON.stringify({"status":"success","data":rows}));
+                });
             }
-            if(config.verify(headerval)==true){
-            console.log(request.headers.hasOwnProperty("X-WLPAPI"));
-            config.mysql.connection.query('SELECT `order`, UNIX_TIMESTAMP(date) as date, name, contactinfo, association, why, what, style, length, links, lanyrd, subjects, checkedout, comments from speakerform', function(err, rows, fields) {
-              if (err) throw err;
-              response.writeHead(200,responseheader);
-              response.end(JSON.stringify({"status":"success","data":rows}));
-            });
-            }else{
-               response.writeHead(403, responseheader);
-               response.end(JSON.stringify({"status":"error","error":"this GET request is not allowed to this server."}));
-            }
-            }
-            else{
-                response.writeHead(403, responseheader);
-               response.end(JSON.stringify({"status":"error","error":"this GET request is not allowed to this server."}));
-
-            }
+       ) == false){
+                       response.writeHead(403, responseheader);
+               response.end(JSON.stringify({"status":"error","error":"this request is not allowed to this server."}));
+           }
          }else{
         response.writeHead(403, responseheader);
         response.end(JSON.stringify({"status":"error","error":"this GET request is not allowed to this server."}));
@@ -91,7 +80,6 @@ http.createServer(function(request, response){
                     jsondata = JSON.parse(body);
                 }
                 console.log(path);
-
                 if(path=="/writetodb"){
                     response.writeHead(200,responseheader);
                     console.log(input);
@@ -99,10 +87,8 @@ http.createServer(function(request, response){
                             response.end(input);
                             //config.mysql.connection.end();
                         });
-
                 }
                 if(path == "/writespeakerform"){
-                    console.log("DOING STUFF");
                     response.writeHead(200,responseheader);
                     writeToSpeakerTable(jsondata,function(input){console.log(input);
                             response.end(input);
@@ -114,6 +100,15 @@ http.createServer(function(request, response){
                      console.log(jsondata);
                      mailchimp(jsondata,function(input){console.log(input); response.end(input);});
                 }
+                if(path == "/updatespeaker"){
+                    response.writeHead(200,responseheader);
+                    if(wlpapiverify(request,function(){
+                        updatespeaker(jsondata,function(input){console.log(input); response.end(input);});}
+                    ) == false){
+                         response.writeHead(403, responseheader);
+                       response.end(JSON.stringify({"status":"error","error":"this request is not allowed to this server."}));
+                    }
+                }
             }
 
             catch(e){
@@ -124,6 +119,38 @@ http.createServer(function(request, response){
 }
 }).listen(listening);
 console.log("server initialized on "+listening);
+
+function updatespeaker(inputs,callback){
+    console.log("UPDATINGSPEAKER");
+    var errors = [];
+    var objs = [];
+    for(var each in inputs){
+        objs.push(inputs[each]);
+    }
+    console.log(objs);
+    async.eachSeries(objs,function(item,callback){
+        var order = item.order;
+        delete item.order;
+    config.mysql.connection.query(
+        'UPDATE speakerform SET ? WHERE `order`= ?',[item,parseInt(order,10)],
+            function(err,result){
+                if(err){
+                    callback(err);
+                }else{
+                    callback(null);
+                }
+            }
+        );
+    },function(error){
+        if(error!=null){
+            callback(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(error)}));
+        }else{
+            callback(JSON.stringify({"status":"success","test":true,"result":"All queries completed successfully."}));
+        }
+    });
+
+}
+
 
 function writeToDb(inputs,callback){
     console.log("POST");
@@ -209,3 +236,34 @@ function stringcontainsarray(array,string){
     }
     return false;
 }
+
+function wlpapiverify(request,callback){
+     if(request.headers["X-WLPAPI"] !== undefined || request.headers["x-wlpapi"]!==undefined){
+            var headerval;
+            if(request.headers["X-WLPAPI"] !== undefined){
+                headerval = request.headers["X-WLPAPI"];
+            }else{
+                headerval = request.headers["x-wlpapi"];
+            }
+            if(config.verify(headerval)==true){
+                callback();
+            }else{
+                return false;
+            }
+            }
+            else{
+                return false;
+            }
+
+}
+
+
+function jsonlength(data){
+        var count = 0;
+        for(var key in data){
+            if(data.hasOwnProperty(key)){
+                count++;
+            }
+        }
+        return count;
+    }
