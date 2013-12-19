@@ -5,7 +5,7 @@
 - run "jekyll build" from the command line in the same folder as _config.yml to build the site.
 - run "jekyll serve" from the command line in the same folder as _config.yml to build&serve the site. Note; this does not have PHP support and will not run production version of the workshoplist page.
 - **nodeJS** (0.10.13 used in development)
-- run "npm install" in the server folder.
+- run "npm install" in the server folder; it's a bit of a wait, and ignore all the warnings about being on the wrong version of nodeJS.
 - run "npm start" to start the server.
 - **php** (5.3.27 used in development, only in workshoplist for twitter authent.)
 - **mysql** (used for databases)
