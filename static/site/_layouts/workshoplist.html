@@ -4,7 +4,65 @@
     <body>
          {%include navbar.html %}
         <div class="site">
-          {{ content }}
+				<?php
+				session_start();
+				require_once('/assets/php/twitteroauth/twitteroauth.php');
+				require_once('/assets/php/twitteroauth/config.php');
+
+				if (empty($_SESSION['access_token']) || empty($_SESSION['access_token']['oauth_token']) || empty($_SESSION['access_token']['oauth_token_secret'])) {
+				session_unset();
+				session_start();
+				$connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET);
+				 
+				$request_token = $connection->getRequestToken(OAUTH_CALLBACK);
+
+				$_SESSION['access_token']['oauth_token'] = $token = $request_token['oauth_token'];
+				$_SESSION['access_token']['oauth_token_secret'] = $request_token['oauth_token_secret'];
+				 
+				switch ($connection->http_code) {
+				  case 200:
+				    /* Build authorize URL and redirect user to Twitter. */
+				    $url = $connection->getAuthorizeURL($token);
+
+				    header('Location: ' . $url); 
+				    break;
+				  default:
+				    /* Show notification if something went wrong. */
+				    echo 'Could not connect to Twitter. Refresh the page or try again later.';
+				}
+				}
+				else{
+				/* Get user access tokens out of the session. */
+				$access_token = $_SESSION['access_token'];
+
+				/* Create a TwitterOauth object with consumer/user tokens. */
+				$connection = new TwitterOAuth(CONSUMER_KEY, CONSUMER_SECRET, $access_token['oauth_token'], $access_token['oauth_token_secret']);
+				 $credentials = $connection->getAccessToken($_GET["oauth_verifier"]);
+				if(array_key_exists("screen_name",$credentials)){
+
+				if(allowed_in($credentials["screen_name"],$allowed_users)){
+					?>        {{ content }}<?php
+				}else{
+					displayFail();
+				}
+				}else{
+					displayFail();
+				}
+				session_unset();
+				}
+				function displayFail(){
+					?><h1>This died!</h1><?php
+				}
+
+				function allowed_in($username, $compare){
+				$bool = false;
+				foreach ($compare as $key => $value) {
+					if(strcasecmp($username, $value) == 0){$bool = true;}
+				}
+				return $bool;
+				}
+			?>
+
         </div>
         {%assign x = "/assets/scripts/eventbrite.js"%}
           {% include footer.html scriptpaths = x%}

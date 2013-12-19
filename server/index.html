@@ -1,0 +1,15 @@
+<script type="text/javascript">
+	var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open('POST', ' https://api.twitter.com/oauth/request_token', true);
+		xmlhttp.setRequestHeader("oauth_nonce","K7ny27JTpKVsTgdyLdDfmQQWVLERj2zAK5BslRsqyw");
+		xmlhttp.setRequestHeader("oauth_callback","http%3A%2F%2Fmyapp.com%3A3005%2Ftwitter%2Fprocess_callback");
+		xmlhttp.setRequestHeader("oauth_signature_method","HMAC-SHA1");
+		xmlhttp.setRequestHeader("oauth_consumer_key","OqEqJeafRSF11jBMStrZz");
+		xmlhttp.setRequestHeader("oauth_signature","Pc%2BMLdv028fxCErFyi8KXFM%2BddU%3D"); 
+		xmlhttp.setRequestHeader("oauth_version","1.0");
+		//xmlhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+		xmlhttp.onload = function () {
+		  console.log(this.responseText);
+		};
+		xmlhttp.send();
+</script>
