@@ -1,12 +1,17 @@
 ##Dependencies##
-- ruby, obvs. 
+- **ruby** (1.9.3 used in development) 
 - gem install jekyll
 - gem install rdiscount (markdown compilation)
-- gem install pygments.rb --version "=0.5.0" (pygments for syntax highlighting)
-- nodeJS for form submissions
-- npm mailchimp version 1.1.0
-- npm mysql version 2.0.0-rc1
-- npm forever version 0.10.10
+- run "jekyll build" from the command line in the same folder as _config.yml to build the site.
+- run "jekyll serve" from the command line in the same folder as _config.yml to build&serve the site. Note; this does not have PHP support and will not run production version of the workshoplist page.
+- **nodeJS** (0.10.13 used in development)
+- run "npm install" in the server folder.
+- run "npm start" to start the server.
+- **php** (5.3.27 used in development, only in workshoplist for twitter authent.)
+- **mysql** (used for databases)
+- mysql create file is to be found in server/database/neweventhandler.sql
+
+NOTE: Might be best to just run it all through a XAMP/MAMP stack for development.
 
 ##OUTPUT and INPUT folders##
 Site is generated from the site folder and put in the RELEASE folder. Plugins reside in _plugins.
@@ -153,8 +158,17 @@ with .group symbolising the fact of more than one input.
 ####Relevant XKCD####
 ![Why you should sanitise Database Inputs; Little Bobby Tables](http://imgs.xkcd.com/comics/exploits_of_a_mom.png "Her daughter is named Help I'm trapped in a driver's license factory.")
 
-### Form Server ###
-Form server is a basic NodeJS server rigged to receive POST requests only. Will need supplementing with code dependant on what forms you want to receive. To install, running "npm install" from the same folder as the package.json should suffice to install all dependencies listed above. Content Types expected are either application/x-www-form-urlformencoded for flat data structures, or application/json for more rich, nested data structures.
+### Node Server ###
+
+To install, running "npm install" from the same folder as the package.json should suffice to install all dependencies listed above. Content Types expected are either application/x-www-form-urlformencoded for flat data structures, or application/json for more rich, nested data structures.
+
+Is programmed to react to both POST and GET requests. In some cases, the X-WLPAPI header might be necessary in order to retrieve confidential information such as retrieve from the database, update and retrieve speakers, and fetch EventBrite information.
+
+The server is used for the following at present;
+- Retrieving EventBrite information for workshops
+- Retrieving Speaker Submissions
+- Editing Speaker Submissions
+- Recieving any form submissions from the site and forwarding these on to end destinations
 
 ###On Form Validation###
 

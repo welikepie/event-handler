@@ -11,7 +11,6 @@
     "mysql": "2.0.0-rc1",
     "forever" : "0.10.10",
     "async" : "0.2.9",
-    "eventbrite" : "0.1.6",
-    "ntwitter" : "0.5.0"
+    "eventbrite" : "0.1.6"
   }
 }

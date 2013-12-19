@@ -150,7 +150,11 @@ function getevbdata(inputs,callback){
                 if(spaceleft < 0){
                     spaceleft = 0;
                 }
-                dataarr[item] = spaceleft;
+                var percentage = Math.ceil((data.event.num_attendee_rows/data.event.capacity * 100))
+                if(percentage > 100){
+                    percentage = 100;
+                }
+                dataarr[item] = {"spaceleft":spaceleft,"max":data.event.capacity,"current":data.event.num_attendee_rows,"percent":(percentage/100)};
                 callback(null);
             }
             catch(e){

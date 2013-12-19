@@ -1,0 +1,51 @@
+@outerbar : #ebebeb;
+@innerbar : #ffffff;
+@good : #98c429 ;
+@medium : #f8b230 ;
+@poor : #e40812;
+.good{
+	.outerbar{
+		.innerbar{
+			background-color:@good;
+		}
+	}
+	.percentage{
+		color:@good;
+	}
+}
+.medium{
+	.outerbar{
+		.innerbar{
+			background-color:@medium;
+		}
+	}
+	.percentage{
+		color:@medium;
+	}
+}
+.poor{
+	.outerbar{
+		.innerbar{
+			background-color:@poor;
+		}
+	}
+	.percentage{
+		color:@poor;
+	}
+}
+
+.percentagebar{
+	width:500px;
+	.outerbar{
+		float:left;
+    margin: 5px 10px 0px 0px;
+		width:450px;
+		background-color: @outerbar;
+		height:10px;
+		border-radius:6px;
+		.innerbar{
+			height:10px;
+			border-radius:6px;
+		}
+	}
+}
