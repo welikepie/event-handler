@@ -6,8 +6,8 @@
         <div class="site">
 				<?php
 				session_start();
-				require_once('/assets/php/twitteroauth/twitteroauth.php');
-				require_once('/assets/php/twitteroauth/config.php');
+				require_once('../assets/php/twitteroauth/config.php');
+				require_once('../assets/php/twitteroauth/twitteroauth.php');
 
 				if (empty($_SESSION['access_token']) || empty($_SESSION['access_token']['oauth_token']) || empty($_SESSION['access_token']['oauth_token_secret'])) {
 				session_unset();
