@@ -23,9 +23,25 @@ Site is generated from the site folder and put in the RELEASE folder. Plugins re
 Comment; YAML with ruby is really finnicky about spacing. Maintain the spaces in the templates.
 Comment; location property is an array which takes two arguments; latitude then longitude.
 
+##Page Building and Compiling process##
+
+Jekyll has a slightly funny way of doing things to build pages. 
+
+Firstly, you define the rigid site structure in folders in the root of the static/site/ folder. Folders without an underscore (_) before their names will be included and as such will have their contents created as pages. Each folder has its' own index.html file, which can contain the following; 
+- **Headmatter** A bit of yaml at the top of the document denoting which layout from the _layouts folder to use and title of page.
+- **content** HTML content of the page. Note, this isn't a necessity of each index.html file and can also be in the layout relevant to the file.
+
+Now we have the layouts in the _layouts folder. These are what the pages reference to build themselves. Each layout has a name, which is referenced in the respective index.html folder. Can contain liquid templating language, also just normal HTML. Also has the feature of Includes, which mean you can "include" snippets of html (header / footer etc.) in to your document to be added to the page during compile.
+
+During compilation, the base pages are compiled, and all of the ruby in the _plugins folder is ran. What this does in this case is iterates through allof the data files in the data folder, and creates pages for each series of events as well as individual pages for each series.
+
+These created files are copied in to the static/RELEASE/ folder, where the new version of the site lives.
+
+NOTE: For everything to reference properly and css / JS includes to function properly, the root directory of the server needs to be static/RELEASE/.
+
 ##Templates##
 
-These templates are used to create new Events, Speakers and Venues.
+These templates are used to create new Events, Speakers and Venues. They live in the _data folder in a tree structure, with the files that jekyll can use living in the root folder. To add new events, just add a filled out template to the relevant place in the folder structure, and it will automatically be included on the next build and merged in with the files, with pages automatically generated.
 
 ### Events Template ###
 
@@ -183,6 +199,8 @@ The server is used for the following at present;
 - Retrieving Speaker Submissions
 - Editing Speaker Submissions
 - Recieving any form submissions from the site and forwarding these on to end destinations
+
+The server being inactive does mean that content will not be provided, and therefore pages will not render correctly, as they are reliant on Javascript communicating with the Node Server to render correctly.
 
 ###On Form Validation###
 
