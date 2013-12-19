@@ -12,6 +12,18 @@
 - mysql create file is to be found in server/database/neweventhandler.sql
 
 NOTE: Might be best to just run it all through a XAMP/MAMP stack for development.
+##Config files##
+There are two config files. One resides in server/config.js and is a configuration file for the nodeJS server. It contains stubs for;
+- Eventbrite API and User keys
+- Mailchimp API and User keys
+- MYSQL connection information
+- verification function. Should return true on an even number.
+
+The other configuration file is in static/site/assets/php/twitteroauth/config.php. It contains stubs for;
+- Twitter Consumer Key for application
+- Twitter Consumer Secret Key for application
+- Callback URL (This should be a URL to return to after Authentication is successful; should be /workshoplist)
+- allowed users (This is an array with twitter usernames, case insensitive.)
 
 ##OUTPUT and INPUT folders##
 Site is generated from the site folder and put in the RELEASE folder. Plugins reside in _plugins.
@@ -124,7 +136,7 @@ Series are to reside in their own folder with a seriesconf.yaml file. This file 
 
 "prettyname" is the name which is used as the title for the series page while "description" is the description used for the series page.
 
-##Forms, Form Validation and Form Server##
+##Forms and Form Validation##
 
 ### On sending Form information ###
 Forms are to be send to a NodeJS server, which in turn handles these and depending on the end point writes them to a database or subscribes to Mailchimp.
@@ -188,20 +200,6 @@ with .group symbolising the fact of more than one input.
 ####Relevant XKCD####
 ![Why you should sanitise Database Inputs; Little Bobby Tables](http://imgs.xkcd.com/comics/exploits_of_a_mom.png "Her daughter is named Help I'm trapped in a driver's license factory.")
 
-### Node Server ###
-
-To install, running "npm install" from the same folder as the package.json should suffice to install all dependencies listed above. Content Types expected are either application/x-www-form-urlformencoded for flat data structures, or application/json for more rich, nested data structures.
-
-Is programmed to react to both POST and GET requests. In some cases, the X-WLPAPI header might be necessary in order to retrieve confidential information such as retrieve from the database, update and retrieve speakers, and fetch EventBrite information.
-
-The server is used for the following at present;
-- Retrieving EventBrite information for workshops
-- Retrieving Speaker Submissions
-- Editing Speaker Submissions
-- Recieving any form submissions from the site and forwarding these on to end destinations
-
-The server being inactive does mean that content will not be provided, and therefore pages will not render correctly, as they are reliant on Javascript communicating with the Node Server to render correctly.
-
 ###On Form Validation###
 
 Form validation is handled by a javascript file in the assets/scripts/formJS folder.
@@ -219,3 +217,18 @@ The object creation takes three parameters; an array of dom elements which have 
     "4":"Empty Value"
 
 These codes can be used to determine which error messages to display for each value.
+
+
+## NodeJS Server ##
+
+To install, running "npm install" from the same folder as the package.json should suffice to install all dependencies listed above. Content Types expected are either application/x-www-form-urlformencoded for flat data structures, or application/json for more rich, nested data structures.
+
+Is programmed to react to both POST and GET requests. In some cases, the X-WLPAPI header might be necessary in order to retrieve confidential information such as retrieve from the database, update and retrieve speakers, and fetch EventBrite information.
+
+The server is used for the following at present;
+- Retrieving EventBrite information for workshops
+- Retrieving Speaker Submissions
+- Editing Speaker Submissions
+- Recieving any form submissions from the site and forwarding these on to end destinations
+
+The server being inactive does mean that content will not be provided, and therefore pages will not render correctly, as they are reliant on Javascript communicating with the Node Server to render correctly.
