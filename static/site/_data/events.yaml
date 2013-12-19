@@ -194,6 +194,7 @@
   - danknell
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
+  eventbriteid: '9475727155'
   text: ! "On the 5th of November, (link: http://www.twitter.com/timruffles text:
     Tim Ruffles) will be hosting a workshop in which you can learn to use AngularJS\n<p
     class=\"soldout\"> This workshop has sold out. However; we have a second (link:
@@ -249,6 +250,7 @@
   url: /workshops/ldnjsnightclass-angular
 - speakerid: danknell
   title: ! 'London JS Night Class: D3.js'
+  eventbriteid: '8733725809'
   text: ! "On the 21st of January, (link: http://www.twitter.com/timruffles text:
     Tim Ruffles) will be hosting an evening workshop in which you can learn to use
     D3.js\n\n(image: d3js.png class: full-width)\n\n### Who is it for?\n\nThis class
@@ -292,6 +294,7 @@
 - speakerid: amroche
   title: ! 'London JS Night Class: AngularJS'
   series: ldnjsnightclass-angular
+  eventbriteid: haddock
   text: ! "On the 19th of February, (link: http://www.twitter.com/timruffles text:
     Tim Ruffles) will be hosting a workshop in which you can learn to use AngularJS\n(image:
     angularjs.png class: full-width)\n### Who is it for?\nAngularJS makes creating

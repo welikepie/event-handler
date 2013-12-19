@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    {% include header.html title = "homepage" %}
+    <body>
+         {%include navbar.html %}
+        <div class="site">
+          {{ content }}
+        </div>
+        {%assign x = "/assets/scripts/eventbrite.js"%}
+          {% include footer.html scriptpaths = x%}
+    </body>
+</html>

@@ -3,12 +3,14 @@ var http = require('http'),
      url = require('url'),
      mysql = require('mysql'),
      async = require('async'),
+     Eventbrite = require('eventbrite'),
      listening = 2399,
      config = require('./config'),
      queryString = require( 'querystring' ),
      contenttypes = ["application/json","application/jsonp","application/x-www-form-urlencoded"],
      responseheader = {'Access-Control-Allow-Origin':'*','Content-Type': 'json'};
 
+var eb_client = Eventbrite({'app_key':config.eventbrite.api, 'user_key':config.eventbrite.user});
 //SETUP MAILCHIMP API - You must replace your API Key and List ID which you can find in your Mailchimp Account
 var MailChimpAPI = require('mailchimp').MailChimpAPI;
 var apiKey = config.mailchimp.api;  // Change this to your Key
@@ -80,6 +82,7 @@ http.createServer(function(request, response){
                     jsondata = JSON.parse(body);
                 }
                 console.log(path);
+                  console.log(path == "/getevbdata");
                 if(path=="/writetodb"){
                     response.writeHead(200,responseheader);
                     console.log(input);
@@ -88,19 +91,19 @@ http.createServer(function(request, response){
                             //config.mysql.connection.end();
                         });
                 }
-                if(path == "/writespeakerform"){
+                else if(path == "/writespeakerform"){
                     response.writeHead(200,responseheader);
                     writeToSpeakerTable(jsondata,function(input){console.log(input);
                             response.end(input);
                         //config.mysql.connection.end();
                         });
                 }
-                if(path == "/mailchimp"){
+                else if(path == "/mailchimp"){
                      response.writeHead(200,responseheader);
                      console.log(jsondata);
                      mailchimp(jsondata,function(input){console.log(input); response.end(input);});
                 }
-                if(path == "/updatespeaker"){
+                else if(path == "/updatespeaker"){
                     response.writeHead(200,responseheader);
                     if(wlpapiverify(request,function(){
                         updatespeaker(jsondata,function(input){console.log(input); response.end(input);});}
@@ -109,8 +112,18 @@ http.createServer(function(request, response){
                        response.end(JSON.stringify({"status":"error","error":"this request is not allowed to this server."}));
                     }
                 }
+              
+                else if(path == "/getevbdata"){
+                    console.log("GOTHERE");
+                    response.writeHead(200,responseheader);
+                    if(wlpapiverify(request,function(){
+                        getevbdata(jsondata,function(input){console.log(input); response.end(input);});}
+                    ) == false){
+                         response.writeHead(403, responseheader);
+                       response.end(JSON.stringify({"status":"error","error":"this request is not allowed to this server."}));
+                    }
+                }
             }
-
             catch(e){
                 response.writeHead(200, responseheader);
                 response.end(JSON.stringify({"status":"error","error":JSON.stringify(e)}));
@@ -119,9 +132,44 @@ http.createServer(function(request, response){
 }
 }).listen(listening);
 console.log("server initialized on "+listening);
+function getevbdata(inputs,callback){
+    var dataarr = {};
+    async.eachSeries(inputs["data"],function(item,callback){
+    eb_client.event_get( {'id': item }, function(err, data){
+    // render the event as a ticket widget:
+//    var ticket_widget_html = eb_client.widget.ticket( data.event ); 
+    // or, render it as a countdown widget:
+//    var countdown_widget_html = eb_client.widget.countdown( data.event ); 
+ if(err){
+        dataarr[item] = "undefined";
+        callback(null);
+    }
+    else{
+            try{
+                var spaceleft = data.event.capacity - data.event.num_attendee_rows;
+                if(spaceleft < 0){
+                    spaceleft = 0;
+                }
+                dataarr[item] = spaceleft;
+                callback(null);
+            }
+            catch(e){
+                dataarr[item] = "undefined";
+                callback(null);
+            }
+        }
 
+   // console.log( countdown_widget_html + ticket_widget_html );
+});
+    },function(error){
+        if(error!=null){
+            callback(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(error)}));
+        }else{
+            callback(JSON.stringify({"status":"success","test":true,"result":"All queries completed successfully.","data":JSON.stringify(dataarr)}));
+        }
+    });
+}
 function updatespeaker(inputs,callback){
-    console.log("UPDATINGSPEAKER");
     var errors = [];
     var objs = [];
     for(var each in inputs){
