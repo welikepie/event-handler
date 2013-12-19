@@ -15,19 +15,24 @@ NOTE: Might be best to just run it all through a XAMP/MAMP stack for development
 
 ##OUTPUT and INPUT folders##
 Site is generated from the site folder and put in the RELEASE folder. Plugins reside in _plugins.
-- archivegen.rb collates page by specified time value and is a constructor.
 - archivepage.rb generates pages based on that data. In this case, year.
+- recrsiveFiles.rb runs through the data folder and compresses the tree mapping to a flat file structure recursively.
+- liquidfilters expand the functionality of liquid somewhat to include some additional maths and timing operations.
+- pagegens.rb is responsible for creating the custom pages.
 
 Comment; YAML with ruby is really finnicky about spacing. Maintain the spaces in the templates.
 Comment; location property is an array which takes two arguments; latitude then longitude.
 
 ##Templates##
 
+These templates are used to create new Events, Speakers and Venues.
+
 ### Events Template ###
 
     speakerID: timruffles //same speakerID as the file name of the speaker. Can be an array.
     title: "London JS Night Class: AngularJS" 
     series: 1 , yes, true or 0, no, false are accepted values
+    eventbriteid: String
     text: |
       So this is a decently interesting example introduction using
       the high and venerable art of markdown.
@@ -93,6 +98,15 @@ Comment; location property is an array which takes two arguments; latitude then 
             This is multiline markdown.
             The two spaces at the beginning are mandatory.
             Otherwise Jekyll breaks. It's sad.
+
+###On creating Series###
+Series are to reside in their own folder with a seriesconf.yaml file. This file should contain the following;
+
+    prettyname : "London JS Night AngularJS Night Classes"
+    description : |
+      LondonJS night classes are classes designed to teach you stuff.
+
+"prettyname" is the name which is used as the title for the series page while "description" is the description used for the series page.
 
 ##Forms, Form Validation and Form Server##
 
