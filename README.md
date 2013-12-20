@@ -12,6 +12,21 @@
 - mysql create file is to be found in server/database/neweventhandler.sql
 
 NOTE: Might be best to just run it all through a XAMP/MAMP stack for development.
+
+##Starting up the site##
+- Open up two command line terminals
+
+- With one, navigate to the /server folder of the repository and run "node server.js"
+- If, at this point, an error with "EADDRINUSE" is displayed, run "ps aux | grep node" and get the process ID of server.js
+- Now run "kill -9 PID", with PID being the process ID from the previous step.
+- Now run "node server.js" again. It should work this time.
+
+- With the other, navigate to the /static folder of the repository and run "jekyll serve" to start a server and compile the site.
+- Open up localhost:4000 in your browser. This should display the new build of the site.
+
+- NOTE: That any changes made to the source code need to either be saved in the /static/RELEASE folder and copied across to the /static/site , or made in the /static/site folder, at which point the site will need re-compiling.
+- NOTE: config.js and config.php contain API keys. These should not be committed to the repo; there are already dummy files there.
+
 ##Config files##
 There are two config files. One resides in server/config.js and is a configuration file for the nodeJS server. It contains stubs for;
 - Eventbrite API and User keys
