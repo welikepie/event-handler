@@ -21,7 +21,8 @@ document.getElementById("mc-embedded-subscribe-form").addEventListener("submit",
               //xmlhttp.send(serialize(toSend));
               xmlhttp.send(JSON.stringify(toSend));
 },
-"fail_function":function(){alert("something got messed up! Failed to validate.");}
+"fail_function":function(){alert("something got messed up! Failed to validate.");},
+"validation_text":[{"0":"fuckup","2":"fuckup2","3":"fuckup3","4":"fuckup4"}]
 }
 );
 x.submit();

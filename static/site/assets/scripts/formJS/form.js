@@ -43,8 +43,8 @@ function ErrorCheck(input){
     }
     this.returnmessages = undefined;
     if(input.hasOwnProperty("validation_text")){
-        this.returnmessages = input[validation_text];
-        if(this.returnmessages.length != array_of_els.length){
+        this.returnmessages = input["validation_text"];
+        if(this.returnmessages.length != this.elements.length){
             if(this.returnmessages.length > 1){
                 console.error("Error: Error Message length isn't the same as elements array, and is greater than one.");
             }
@@ -61,6 +61,11 @@ function ErrorCheck(input){
 	this.submit = function(){
 		console.log(this.responses);
 		if(this.validate()===true){
+            if(this.returnmessages!==undefined){
+                for(var i = 0; i < this.elements.length; i++){
+                     this.error(this.elements[i].getAttribute("id")+"Error",undefined);
+                }
+            }
 			this.submitfunction();
 		}else{
 			for(var i = 0; i < this.elements.length; i++){
