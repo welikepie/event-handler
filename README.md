@@ -204,11 +204,44 @@ with .group symbolising the fact of more than one input.
 
 Form validation is handled by a javascript file in the assets/scripts/formJS folder.
 
-To validate a form, it is a case of attaching a function to the on click event of the submit button.
+To validate a form, it is a case of attaching a function to the on click event of the submit button, creating a form validation object and calling the submit method of that object.
 
-The object creation takes three parameters; an array of dom elements which have values to test, an array of their intended values, and a callback for if the form passes all validation. At current state (10/12/13), the validation fails by logging to console. These errors can be used differently if the code is supplemented. Also available is an array of codes for each value being tested. 
+The object creation takes up to five parameters with a minimum of three in the form of a JSON object; 
 
-**These codes are as follows;**
+    {
+    "array_of_elements" : [],
+    "array_of_types" : [],
+    "success_function" : function(){},
+    /*optional parameters*/
+    "validation_text" : [],
+    "fail_function" : function(){}
+    }
+
+At current state (20/12/13), the validation fails by logging to console and not completing the submission function (detailed in the "success_function"), in addition to firing off the failure function (detailed in the "fail_function") if it has been provided.
+
+To create an instance of the form tester, pass in an array of elements to test, pass in an array of types and a function to complete upon successful validation. To create a validator correctly, set the "array_of_elements" property to an array filled with the elements in question (retrieved by the document.getElementById method or similar). To set the "array_of_types" property correctly, an array filled with the types that the validator is to test for which is case insensitive. These are as follows;
+
+- percent
+- percent2
+- phone
+- string
+- integer
+- float
+- email
+
+NOTE: percent accepts values between 0 and 100, whereas percent2 attempts to accept all of the following as valid percentages; 
+
+- 69% 
+- 69 
+- 0.69
+
+To specify the "success_function" parameter correctly, all that is necessary is to define a function which can be executed once the form is shown to have verified correctly.
+
+To specify the optional parameter "validation_text" correctly, it is necessary to provide an array of JSON objects which have text for each error code possible returned by the validation. By including this property, the additional inline error reporting is enabled. This inline error reporting assumes both that the input being checked has an id property, and that the error field to be populated has the same ID property as the input, with "Error" appended. In the event the field cannot be found, nothing happens.
+
+In the event that the field is found, then the class "formerror" and "failure" are ascribed to the element for styling purposes. They are also displayed using CSS properties applied through javascript. On a successful submission, these elements receive the classes "formerror" and "success" and are automatically hidden.
+
+**Validation codes are as follows;**
 
     "0":"Wrong for some reason",
     "1":"Passed!",
@@ -216,8 +249,22 @@ The object creation takes three parameters; an array of dom elements which have 
     "3":"Value Unexpected",
     "4":"Empty Value"
 
-These codes can be used to determine which error messages to display for each value.
+These codes can be used to determine which error messages to display for each value by using the key attribute (0-4) in a JSON object for the "validation_text" property, (where HTML is valid and will be parsed in to the dom,) as follows;
 
+    "validation_text":[
+      {
+        "0":"Error corresponding to Validation Code 0.",
+        "2":"Error corresponding to Validation Code 2.",
+        "3":"Error corresponding to Validation Code 3.",
+        "4":"Error corresponding to Validation Code 4."
+      }]
+
+This array can take as many objects as desired by the end user, with some stipulations, which are as follows;
+
+- If only one object is supplied or the validation text array and "array_of_elements" array have different lengths, the error messages in the first object will be used for all errors.
+- Error objects must be in the same order as the position of the respective element in the "array_of_elements" array.
+
+The final optional property is the "fail_function" property, which requires a function to run in the case of the form failing to validate properly.
 
 ## NodeJS Server ##
 
