@@ -22,7 +22,7 @@ document.getElementById("mc-embedded-subscribe-form").addEventListener("submit",
               xmlhttp.send(JSON.stringify(toSend));
 },
 "fail_function":function(){alert("something got messed up! Failed to validate.");},
-"validation_text":[{"0":"fuckup","2":"fuckup2","3":"fuckup3","4":"fuckup4"}]
+"validation_text":[{"0":"Error0","2":"Error2","3":"Error3","4":"Error"}]
 }
 );
 x.submit();

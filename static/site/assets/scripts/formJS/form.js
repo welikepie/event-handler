@@ -26,7 +26,7 @@ function ErrorCheck(input){
         this.submitfunction = input["success_function"];
     }
     if(this.elements == undefined || this.types == undefined || this.submitfunction == undefined){
-        console.log(input);
+        //console.log(input);
         if(this.elements == undefined){
             console.error("You did not supply the elements as the \"array_of_elements\" parameter.");
         }else if(this.types==undefined){
@@ -59,7 +59,6 @@ function ErrorCheck(input){
 		"4":"Empty Value"
 	};
 	this.submit = function(){
-		console.log(this.responses);
 		if(this.validate()===true){
             if(this.returnmessages!==undefined){
                 for(var i = 0; i < this.elements.length; i++){
@@ -109,11 +108,11 @@ function ErrorCheck(input){
         }
     };
 	this.validate = function(){
-		console.log(this.elements[0].value);
+		//console.log(this.elements[0].value);
 		var sameLength = (this.elements.length == this.types.length);
 		if(sameLength == false){console.log("Your Arrays of IDs and Types are not the same length!"); return false;}
 		for(var i = 0; i < this.elements.length; i++){
-			console.log(this.elements[i].value);
+			//console.log(this.elements[i].value);
 			this.responses[i] = this.discreteTest(this.elements[i].value,i);
 		}
 		for(var i = 0; i < this.elements.length; i++){
@@ -140,7 +139,7 @@ function ErrorCheck(input){
                 }
         }
         if(this.types[index].toLowerCase() === "percent2"){
-                console.log(parseFloat(toTest.replace("%", "").replace(/\s/g,""),10));
+               // console.log(parseFloat(toTest.replace("%", "").replace(/\s/g,""),10));
                 if(toTest.length > 0 && /[a-zA-Z]{1,}/.test(toTest) === false){
                         if(toTest.indexOf("%")>0 && parseFloat(toTest.replace("%", "").replace(/\s/g,""),10) >= 0 && parseFloat(toTest.replace("%", "").replace(/\s/g,""),10) <= 100 ){
  						return 1;

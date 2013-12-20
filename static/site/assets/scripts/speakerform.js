@@ -57,7 +57,8 @@ try{
 		};
 		xmlhttp.send(serialize(obj));
 	},
-	"fail_function":function(){alert("your inputs haven't validated.")}
+	"fail_function":function(){alert("your inputs haven't validated.")},
+	"validation_text":[{"0":"Error0","2":"Error2","3":"Error3","4":"Error"}]
 	});
 	x.submit();
 }
