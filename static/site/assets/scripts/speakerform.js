@@ -37,7 +37,9 @@ catch(e){console.log(e.stack);return "ERROR";}
 })()}
 }
 try{
-	var x = new ErrorCheck([obj.name,obj.contactinfo],["String","String"],function(){
+	var x = new ErrorCheck({"array_of_elements":[obj.name,obj.contactinfo],
+		"array_of_types":["String","String"],
+		"success_function":function(){
 		for(var i in obj){
 			if(obj.hasOwnProperty(i)){
 				if(obj[i].value === ""){
@@ -54,6 +56,8 @@ try{
 		    console.log(this.responseText);
 		};
 		xmlhttp.send(serialize(obj));
+	},
+	"fail_function":function(){alert("your inputs haven't validated.")}
 	});
 	x.submit();
 }

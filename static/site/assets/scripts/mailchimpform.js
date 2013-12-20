@@ -1,5 +1,8 @@
 document.getElementById("mc-embedded-subscribe-form").addEventListener("submit",function(){
-  var x = new ErrorCheck([document.forms["mc-embedded-subscribe-form"].elements[1]],["Email"],function(){
+  var x = new ErrorCheck({
+    "array_of_elements": [document.forms["mc-embedded-subscribe-form"].elements[1]],
+    "array_of_types" : ["Email"],
+    "success_function" : function(){
               var email=document.forms["mc-embedded-subscribe-form"].elements[1].value;
               var keyArray = {
               "DEV":document.forms["mc-embedded-subscribe-form"].elements[3].checked,
@@ -17,7 +20,10 @@ document.getElementById("mc-embedded-subscribe-form").addEventListener("submit",
               var toSend = {"EMAIL":email,"GROUPINGS":keyArray};
               //xmlhttp.send(serialize(toSend));
               xmlhttp.send(JSON.stringify(toSend));
-});
+},
+"fail_function":function(){alert("something got messed up! Failed to validate.");}
+}
+);
 x.submit();
 return false;
 

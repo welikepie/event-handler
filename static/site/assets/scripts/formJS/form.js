@@ -1,10 +1,56 @@
 "use strict";
 
-function ErrorCheck(array_of_els, array_of_types,submit_function){
-	this.elements = array_of_els;
-	this.types = array_of_types;
+/*input = {array_of_els : [],
+ array_of_types : [],
+ submit_function : function(){},
+ validation_text : [],
+ fail_function : function(){}
+}; */
+function ErrorCheck(input){
+	if(arguments[1]!=undefined){
+        console.error("Youre using the wrong type of function. Please switch to the JSON formatting documented in the README!");
+        return false;
+    }
+
+    this.elements = undefined;
+    this.types = undefined;
+    this.submitfunction = undefined;
+
+    if(input.hasOwnProperty("array_of_elements")){
+        this.elements = input["array_of_elements"];
+    }
+    if(input.hasOwnProperty("array_of_types")){
+        this.types = input["array_of_types"];
+    }
+    if(input.hasOwnProperty("success_function")){
+        this.submitfunction = input["success_function"];
+    }
+    if(this.elements == undefined || this.types == undefined || this.submitfunction == undefined){
+        console.log(input);
+        if(this.elements == undefined){
+            console.error("You did not supply the elements as the \"array_of_elements\" parameter.");
+        }else if(this.types==undefined){
+            console.error("You did not supply the array of types as the \"array_of_types\" parameter.");
+        }else if(this.submitfunction == undefined){
+            console.error("You did not supply the success function as the \"success_function\" parameter.");
+        }
+        return false;
+    }
 	this.responses = new Array(this.elements.length);
-	this.submitfunction = submit_function;
+    this.failfunction = undefined;
+    if(input.hasOwnProperty("fail_function") != undefined && typeof input["fail_function"] == "function"){
+        this.failfunction = input["fail_function"];
+    }
+    this.returnmessages = undefined;
+    if(input.hasOwnProperty("validation_text")){
+        this.returnmessages = input[validation_text];
+        if(this.returnmessages.length != array_of_els.length){
+            if(this.returnmessages.length > 1){
+                console.error("Error: Error Message length isn't the same as elements array, and is greater than one.");
+            }
+            this.returnmessages = [this.returnmessages[0]];
+        }
+    }
 	this.discreteTextReturns = {
 		"0":"Wrong for some reason",
 		"1":"Passed!",
@@ -19,11 +65,44 @@ function ErrorCheck(array_of_els, array_of_types,submit_function){
 		}else{
 			for(var i = 0; i < this.elements.length; i++){
 				if(this.responses[i] != 1){
-					console.log(this.elements[i] +"came out to "+this.discreteTextReturns[this.responses[i].toString()]);
+					console.log(this.elements[i]);
+                    console.log("came out to "+this.discreteTextReturns[this.responses[i].toString()]);
 				}
+                if(this.returnmessages!==undefined){
+                    if(this.responses[i]!=1){
+                        if(this.returnmessages.length > 1){
+                            this.error(this.elements[i].getAttribute("id")+"Error",this.returnmessages[i][this.responses[i].toString()]);
+                            //console.log(this.elements[i] + "came out to "+this.returnmessages[i][this.responses[i].toString()]);
+                        }else{
+                            this.error(this.elements[i].getAttribute("id")+"Error",this.returnmessages[0][this.responses[i].toString()]);
+                        }
+                    }else{
+                        this.error(this.elements[i].getAttribute("id")+"Error",undefined);
+                    }
+                }
 			}
+            if(this.failfunction!=undefined){
+                this.failfunction();
+            }
 		}
 	};
+    this.error = function(id,message){
+        var element = document.getElementById(id);
+        if(element!=null){
+            if(message == undefined){
+                element.class="formerror success";
+                element.className = "formerror success";
+                element.style.display = "none";
+                element.style.visibility = "hidden";
+            }else{
+                element.class="formerror failure";
+                element.className = "formerror failure";
+                element.innerHTML = message;
+                element.style.display = "inline";
+                element.style.visibility = "visible";
+            }
+        }
+    };
 	this.validate = function(){
 		console.log(this.elements[0].value);
 		var sameLength = (this.elements.length == this.types.length);
