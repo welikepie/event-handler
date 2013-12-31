@@ -1,6 +1,397 @@
 ---
-biscuitbuilding:
+brewdogshepherdsbush:
+  name: BrewDog Shepherd's Bush
+  address: ! '15-19 Goldhawk Road,
+
+    London,
+
+    W12 8QQ
+
+'
+  location:
+  - 51.502893
+  - -0.223889
+  closest_stations:
+  - name: Goldhawk Road
+    location:
+    - 51.502852
+    - -0.228245
+    lines:
+    - Circle
+    - Hammersmith & City
+    type:
+    - rail
+    - tube
+  - name: Shepherd's Bush
+    location:
+    - 51.505243
+    - -0.21771
+    lines:
+    - Central
+    - London Overground
+    type:
+    - tube
+    - overground
+  description: ! "(From the BrewDog Website at http://www.brewdog.com/bars/shepherds-bush)\nKicking
+    back with a few beers is the name of the game at BrewDog Shepherd's Bush.\nIt's
+    a place to chill out and explore beer with a vast menu at your fingertips, \nand
+    when they get a bit restless there's always the plethora of vintage arcade machines
+    and pinball to keep them busy.\n"
+  directory_tags:
+  - venues
+  filename: brewdogshepherdsbush
+brewdogshoreditch:
+  name: BrewDog Shoreditch
+  address: ! '51 bethnal Green Road,
+
+    London,
+
+    E1 6LA
+
+'
+  location:
+  - 51.525193
+  - -0.07191
+  closest_stations:
+  - name: Shoreditch High Street
+    location:
+    - 51.524005
+    - -0.077097
+    lines:
+    - London Overground
+    type:
+    - overground
+  - name: Old Street Station
+    location:
+    - 51.526488
+    - -0.087976
+    lines:
+    - Northern
+    type:
+    - tube
+  - name: Liverpool Street
+    location:
+    - 51.517796
+    - -0.082591
+    lines:
+    - Central
+    - Circle
+    - Hammersmith & City
+    - Metropolitan
+    type:
+    - tube
+    - rail
+  description: ! "(From the BrewDog Website at http://www.brewdog.com/bars/shoreditch)\nOur
+    Bethnal Green Road bar encapsulates the unrelenting, \nunforgiving surge of creativity
+    that continues to fuel the area's journey to reinvention. \nAntique tiles, reclaimed
+    metal and a bar completely exposed by an unforgiving wall of \nglass make this
+    craft beer haven an icon in its own right. \nAll hipsters must be accompanied
+    by an adult.\n"
+  directory_tags:
+  - venues
+  filename: brewdogshoreditch
+centralfoundation:
+  name: Central Foundation Boys School
+  address: ! "Central Foundation Boys School, \nCowper Street, \nEC2A 4SH\n"
+  location:
+  - 32
+  - 50
+  closest_stations:
+  - name: Shoreditch High Street
+    location:
+    - 51.524005
+    - -0.077097
+    lines:
+    - London Overground
+    type:
+    - overground
+  - name: Old Street Station
+    location:
+    - 51.526488
+    - -0.087976
+    lines:
+    - Northern
+    type:
+    - tube
+  - name: Liverpool Street
+    location:
+    - 51.517796
+    - -0.082591
+    lines:
+    - Central
+    - Circle
+    - Hammersmith & City
+    - Metropolitan
+    type:
+    - tube
+    - rail
+  description: ! "(From the Central Foundation website at http://www.centralfoundationboys.co.uk/about)\nAs
+    we approach the celebration of 150 years of Central Foundation, \nwe look to the
+    past with pride and gratitude – and forward, to an exciting \nfuture.\n"
+  directory_tags:
+  - venues
+  filename: centralfoundation
+forward:
+  name: Forward Internet Group
+  address: ! "19 Mandela Street, \nLondon,\nNW1 0DU\n"
+  location:
+  - 51.484802
+  - -0.236574
+  closest_stations:
+  - name: Camden Road
+    location:
+    - 51.542438
+    - -0.139217
+    lines:
+    - London Overground
+    type:
+    - overground
+  - name: Camden Town
+    location:
+    - 51.539009
+    - -0.142565
+    lines:
+    - Northern
+    type:
+    - tube
+  description: ! 'This is a test description. Please note that this needs changing.
+
+'
+  directory_tags:
+  - venues
+  filename: forward
+googlecampus:
+  name: Campus London
+  address: ! "4-5 Bonhill St, \nLondon, \nEC2A 4BX ‎\n"
+  location:
+  - 51.52506
+  - -0.080123
+  closest_stations:
+  - name: Shoreditch High Street
+    location:
+    - 51.524005
+    - -0.077097
+    lines:
+    - London Overground
+    type:
+    - overground
+  - name: Old Street Station
+    location:
+    - 51.526488
+    - -0.087976
+    lines:
+    - Northern
+    type:
+    - tube
+  - name: Liverpool Street
+    location:
+    - 51.517796
+    - -0.082591
+    lines:
+    - Central
+    - Circle
+    - Hammersmith & City
+    - Metropolitan
+    type:
+    - tube
+    - rail
+  description: ! "(From the Campus London website at www.campuslondon.com)\nWelcome
+    to Campus. We’re a co-working space in the heart of East London’s Tech \nCity
+    that’s powered by Google to offer startups the tools they need to succeed. \nThink
+    seven floors of flexible work space, free high-speed internet and support \nto
+    fuel your ideas, from mentoring programmes to networking events and much more.
+    \nWhether you’re a London-based startup or passing through the city, Campus is
+    the \nplace for you.\n"
+  directory_tags:
+  - venues
+  filename: googlecampus
+hubwestminster:
+  name: Hub Westminister
+  address: ! '1st floor, New Zealand House,
+
+    41 New Zealand House,
+
+    80 Haymarket, London SW1Y 4TE
+
+'
+  location:
+  - 51.508342
+  - -0.12748
+  closest_stations:
+  - name: Charing Cross
+    location:
+    - 51.508435
+    - -0.125506
+    lines:
+    - Bakerloo
+    - Northern
+    type:
+    - rail
+    - tube
+  - name: Picadilly Circus
+    location:
+    - 51.510025
+    - -0.135183
+    lines:
+    - Bakerloo
+    - Picadilly
+    type:
+    - tube
+  - name: Leicester Square
+    location:
+    - 51.513016
+    - -0.128725
+    lines:
+    - Northern
+    - Picadilly
+    type:
+    - tube
+  description: ! '(Sourced from the Impact Hub Westminster website at westminster.impacthub.net/about-us/)
+
+    Launched in 2011, Impact Hub Westminster is one of the largest of a global network
+    of locally owned collaborative working spaces.
+
+    Our primary aim is to support organisations with positive social and environmental
+    impact at the heart of their missions. We provide flexible access to workspace
+    and curate a supportive, collaborative environment for these impact makers.
+
+'
+  directory_tags:
+  - venues
+  filename: hubwestminster
+poke:
   name: Poke, London
+  address: ! 'Biscuit Building,
+
+    10 Redchurch Street,
+
+    London,
+
+    E2 7DD
+
+'
+  location:
+  - 51.524405
+  - -0.076454
+  closest_stations:
+  - name: Shoreditch High Street
+    location:
+    - 51.524005
+    - -0.077097
+    lines:
+    - London Overground
+    type:
+    - overground
+  - name: Old Street Station
+    location:
+    - 51.526488
+    - -0.087976
+    lines:
+    - Northern
+    type:
+    - tube
+  - name: Liverpool Street
+    location:
+    - 51.517796
+    - -0.082591
+    lines:
+    - Central
+    - Circle
+    - Hammersmith & City
+    - Metropolitan
+    type:
+    - tube
+    - rail
+  description: ! 'This is a test description. Please note that this needs changing.
+
+'
+  directory_tags:
+  - venues
+  filename: poke
+princecharlescinema:
+  name: Prince Charles Cinema
+  address: ! "7 Leicester Pl, \nLondon, \nWC2H 7BY\n"
+  location:
+  - 51.511934
+  - -0.130205
+  closest_stations:
+  - name: Picadilly Circus
+    location:
+    - 51.510025
+    - -0.135183
+    lines:
+    - Bakerloo
+    - Picadilly
+    type:
+    - tube
+  - name: Leicester Square
+    location:
+    - 51.513016
+    - -0.128725
+    lines:
+    - Northern
+    - Picadilly
+    type:
+    - tube
+  description: ! "(From the Prince Charles Website at http://www.princecharlescinema.com/html/cinema_hire.php)\nLocated
+    50 yards from London's Leicester Square the Prince Charles Cinema \nis \"the countries
+    funkiest cinema\" (Evening Standard) and its most successful \nindependent screen.
+    Its prime West End situation is enhanced by its reputation \nthroughout the Film
+    industry for being quirky, innovative and just a little bit different.\n"
+  directory_tags:
+  - venues
+  filename: princecharlescinema
+richmix:
+  name: Rich Mix
+  address: ! '35-47 Bethnal Green Rd,
+
+    London,
+
+    E1 6LA
+
+'
+  location:
+  - 51.524913
+  - -0.073106
+  closest_stations:
+  - name: Shoreditch High Street
+    location:
+    - 51.524005
+    - -0.077097
+    lines:
+    - London Overground
+    type:
+    - overground
+  - name: Old Street Station
+    location:
+    - 51.526488
+    - -0.087976
+    lines:
+    - Northern
+    type:
+    - tube
+  - name: Liverpool Street
+    location:
+    - 51.517796
+    - -0.082591
+    lines:
+    - Central
+    - Circle
+    - Hammersmith & City
+    - Metropolitan
+    type:
+    - tube
+    - rail
+  description: ! "(From the Rich Mix Website at http://www.richmix.org.uk/about/about-us/)\nRich
+    Mix is a charity and social enterprise that offers live music, film, \ndance,
+    theatre, comedy, spoken word and a range of creative activities for \npeople of
+    all ages and all cultures. All profits go back to support our \neducation, arts
+    and community activities which nurture new and local talent.\n"
+  directory_tags:
+  - venues
+  filename: richmix
+thereliance:
+  name: The Reliance
   address: ! '10 Redchurch Street
 
     London,
@@ -9,123 +400,40 @@ biscuitbuilding:
 
 '
   location:
-  - 32
-  - 50
+  - 51.527609
+  - -0.080853
   closest_stations:
-  - name: Picadilly Circus
+  - name: Shoreditch High Street
     location:
-    - 32
-    - 50
+    - 51.524005
+    - -0.077097
     lines:
-    - piccadily
-    - northern
-    - etc.
+    - London Overground
     type:
-    - rail
-    - tube
     - overground
-  - name: test name
+  - name: Old Street Station
     location:
-    - 32
-    - 50
+    - 51.526488
+    - -0.087976
     lines:
-    - piccadily
-    - northern
-    - etc.
+    - Northern
     type:
-    - rail
     - tube
-    - overground
-    description: ! 'This is the New Zealand Embassy.
-
-      Just think of all of the things that you can do there
-
-      that you can''t do in this country.
+  - name: Liverpool Street
+    location:
+    - 51.517796
+    - -0.082591
+    lines:
+    - Central
+    - Circle
+    - Hammersmith & City
+    - Metropolitan
+    type:
+    - tube
+    - rail
+  description: ! 'This is a test description. Please note that this needs changing.
 
 '
   directory_tags:
   - venues
-  filename: biscuitbuilding
-centralfoundation:
-  name: Central Foundation Boys School
-  address: ! "Central Foundation Boys School, \nCowper Street, \nEC2A 4SH\n"
-  location:
-  - 32
-  - 50
-  closest_stations:
-  - name: Picadilly Circus
-    location:
-    - 32
-    - 50
-    lines:
-    - piccadily
-    - northern
-    - etc.
-    type:
-    - rail
-    - tube
-    - overground
-  - name: test name
-    location:
-    - 32
-    - 50
-    lines:
-    - piccadily
-    - northern
-    - etc.
-    type:
-    - rail
-    - tube
-    - overground
-    description: ! 'This is the New Zealand Embassy.
-
-      Just think of all of the things that you can do there
-
-      that you can''t do in this country.
-
-'
-  directory_tags:
-  - venues
-  filename: centralfoundation
-hubwestminster:
-  name: Hub Westminister
-  address: ! "41 New Zealand House,\n1st floor, New Zealand House \n80 Haymarket,
-    London SW1Y 4TE\n"
-  location:
-  - 32
-  - 50
-  closest_stations:
-  - name: Picadilly Circus
-    location:
-    - 32
-    - 50
-    lines:
-    - piccadily
-    - northern
-    - etc.
-    type:
-    - rail
-    - tube
-    - overground
-  - name: test name
-    location:
-    - 32
-    - 50
-    lines:
-    - piccadily
-    - northern
-    - etc.
-    type:
-    - rail
-    - tube
-    - overground
-    description: ! 'This is the New Zealand Embassy.
-
-      Just think of all of the things that you can do there
-
-      that you can''t do in this country.
-
-'
-  directory_tags:
-  - venues
-  filename: hubwestminster
+  filename: thereliance
