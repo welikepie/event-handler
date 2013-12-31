@@ -1,0 +1,14 @@
+speakerID: ""
+series: 1
+eventbriteid: "9011843667"
+venue: "hubwestminster"
+title: "London JS Night Class: Next Level JavaScript"
+map: "80 Haymarket, London, SW1Y 4TE"
+cost: £60
+text: "<p>On the 12th of February, (link: http://www.twitter.com/benhowdle text: Ben Howdle) will be hosting a workshop in which you can learn to take your JavaScript to the next level.</p><p>(image: nextlevel.png class: full-width)</p><h3>Who is it for?</h3><p>Comfortable with jQuery but want to go further? Want to be able to build entire applications using JavaScript? Struggling to organise and architect your code? After this evening workshop, you&#39;ll have taken your JavaScript to next level! </p><h3>Who is it taught by?</h3><p>This workshop is being run by (link: http://www.twitter.com/benhowdle text: Ben Howdle). Ben is a software developer for Kashflow and describes himself as a &quot;JavaScript guy at heart&quot;. Ben has worked on many projects over the years including (link: http://benhowdle.im/svgeezy/ text: SVGeezy), (link: http://benhowdle.im/cortado/ text: Cortado) and (link: http://heisenbergjs.github.io/heisenberg/ text: Heisenberg.js); whilst also being one half of the (link: http://upfrontpodcast.com/ text: Upfront Podcast) on Front-End Web Development. He also writes a (link: http://benhowdle.im/archive/ text: blog) that covers many things including JS.</p><h3>What you&#39;ll learn</h3><ul><li>Memory Profiling</li><li>Performance</li><li>Coding Conventions</li><li>Making your projects maintainable</li></ul><h3>Requirements</h3><ul><li>Must be familiar with JavaScript</li><li>Please bring your laptop with your text editor of choice installed</li></ul><h3>Refund Policy</h3><p>If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.</p><p>If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.</p>"
+lanyrdAPI: "http://lanyrd.com/2014/ldnjsnightclass-nextleveljs/speakers/256bc88ac2ecd038.v1.json"
+lanyrd: "http://lanyrd.com/2014/ldnjsnightclass-nextleveljs"
+booking_link: "http://ldnjsnightclass-nextleveljs.eventbrite.com/"
+blurb: An evening workshop dedicated to levelling up your JavaScript
+date: "2014-02-12 19:00"
+end_Date: "2014-02-12 22:00"

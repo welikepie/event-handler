@@ -17,13 +17,7 @@
     {% assign low = events.epoch_s_date %}
     {%endif%}
   {% endfor %}
-  {%assign highyear = high | date : "%Y"|times:12 %}
-  {%assign highmonth = | plus:highyear %}
-  {%assign lowyear = low | date : "%Y"|times:12 %}
-  {%assign lowmonth = low | date : "%m"| plus:lowyear%}
-
-{%assign months = highyear | minus: lowyear %}
-
+{%assign months = {{high|minus:low|times:1 | monthcount}} %}
 {% for i in (0...months) %}
 <h3>{{low|current_month_name:i}}, {{low|current_year:i}}</h3>
 <div class="calendarmonth">

@@ -22,6 +22,14 @@ module Jekyll
     	x = Date.strptime(starting.to_s, '%s')>> ending
     	Date.civil((date(x,"%Y").to_i),date(x,"%m").to_i, -1).strftime("%d");
     end
+    def monthcount(starting)
+      x = starting/60/60/24/30.5;
+      if((x - x.floor) > 0.5)
+        x.ceiling;
+      else
+        x.floor;
+      end
+    end
   end
   module Frontpaging
   	def within_x_days(starting, ending)

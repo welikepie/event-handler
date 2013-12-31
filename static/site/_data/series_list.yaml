@@ -1,11 +1,130 @@
 ---
+- series: geeky
+  url: /events/geeky
+  prettyname: ! 'Eventhandler Meetups: Geeky'
+  description: Lightning talks celebrating geekiness, with talks ranging from board
+    games and zombies to Lego and 4sq.
+- series: londonjs-schooltrip
+  url: /events/londonjs-schooltrip
+  prettyname: ! 'Eventhandler Meetups: LondonJS School Trip'
+  description: LondonJS School Trip
 - series: londonjs
   url: /events/londonjs
-  prettyname: London JS
+  prettyname: ! 'Eventhandler Meetups: London JS'
   description: ! 'LondonJS is a monthly meet up for the most
 
     awesome Javascript news and technologies'
+- series: geeklates
+  url: /events/geeklates
+  prettyname: ! 'Eventhandler Meetups: Geek Lates'
+  description: An evening of geeky entertainment and insight with workshops, talks
+    and stands.
+- series: gamesnight
+  url: /events/gamesnight
+  prettyname: ! 'Eventhandler Meetups: Board Games Night'
+  description: A relaxing board game evening
+- series: eventhandlernightclass-designmodelling
+  url: /workshops/eventhandlernightclass-designmodelling
+  prettyname: ! 'Eventhandler Night Classes: Design Modelling'
+  description: A full day Design Modelling workshop
+- series: ldnjsnightclass-arduino
+  url: /workshops/ldnjsnightclass-arduino
+  prettyname: ! 'London JS Classes: Arduino'
+  description: A full day Arduino workshop
+- series: ldnjsnightclass-toolingcli
+  url: /workshops/ldnjsnightclass-toolingcli
+  prettyname: ! 'London JS Night Classes: Tooling Command Line Interfaces'
+  description: A London JS Night Class dedicated to JavaScript and the Command Line
+- series: ldnjsnightclass-buildingcli
+  url: /workshops/ldnjsnightclass-buildingcli
+  prettyname: ! 'London JS Night Classes: Building Command Line Interfaces'
+  description: A London JS Night Class dedicated to building command line tools with
+    Node
+- series: craft
+  url: /events/craft
+  prettyname: ! 'Eventhandler Meetups: Craft'
+  description: An evening of Craft Beer and Tech
+- series: ldnjsnightclass-git
+  url: /workshops/ldnjsnightclass-git
+  prettyname: ! 'London JS Night Classes: Git'
+  description: An evening workshop dedicated to learning Git.
+- series: geekyscience
+  url: /events/geekyscience
+  prettyname: ! 'Eventhandler Meetups: Geeky Science'
+  description: An evening of talks exploring an exciting variety of scientific topics
+- series: ldnjsnightclass-backbone
+  url: /workshops/ldnjsnightclass-backbone
+  prettyname: ! 'London JS Night Classes: Backbone.js'
+  description: An evening workshop dedicated to learning Backbone
+- series: ldnjsnightclass-introtojs
+  url: /workshops/ldnjsnightclass-introtojs
+  prettyname: ! 'London JS Night Classes: Introduction to JS'
+  description: A five week course on learning JavaScript.
+- series: uxnightclass-gamesdesign
+  url: /workshops/uxnightclass-gamesdesign
+  prettyname: ! 'Finding the Fun: Game Design & Iteration at High-speed'
+  description: An evening of high-speed games design
 - series: ldnjsnightclass-angular
   url: /workshops/ldnjsnightclass-angular
-  prettyname: London JS Night AngularJS Night Classes
-  description: LondonJS night classes are classes designed to teach you stuff.
+  prettyname: ! 'London JS Night Classes: AngularJS'
+  description: An evening workshop dedicated to learning AngularJS
+- series: uxnightclass-usability
+  url: /workshops/uxnightclass-usability
+  prettyname: Usability Testing How To's for Small Teams (& Little Budgets)
+  description: Cheap and effective usability testing
+- series: uxnightclass-uxdeliverables
+  url: /workshops/uxnightclass-uxdeliverables
+  prettyname: Best Practice for UX Deliverables
+  description: Best Practice for UX Deliverables
+- series: eventhandlernightclass-introtogit
+  url: /workshops/eventhandlernightclass-introtogit
+  prettyname: ! 'Eventhandler Night Classes: Introduction to Git'
+  description: An Introduction to Git
+- series: eventhandlernightclass-modernlayout
+  url: /workshops/eventhandlernightclass-modernlayout
+  prettyname: ! 'Eventhandler Night Classes: Modern Layout'
+  description: An evening workshop dedicated to learning Modern CSS Layout Techniques
+- series: ldnjsnightclass-backbonefullday
+  url: /workshops/ldnjsnightclass-backbonefullday
+  prettyname: ! 'London JS Classes: Backbone Full Day'
+  description: A full-day BackboneJS Workshop
+- series: eventhandlernightclass-gamesdesign
+  url: /workshops/eventhandlernightclass-gamesdesign
+  prettyname: ! 'Eventhandler Night Classes: Games Design'
+  description: An evening of high-speed games design
+- series: uxnightclass-sketchinginterfaces
+  url: /workshops/uxnightclass-sketchinginterfaces
+  prettyname: ! 'Selling UCD: How to get buy in from clients'
+  description: Sketching Interfaces with Eva-Lotta Lamm
+- series: ldnjsnightclass-nextleveljs
+  url: /workshops/ldnjsnightclass-nextleveljs
+  prettyname: ! 'London JS Night Classes: Next Level JS'
+  description: An evening workshop dedicated to levelling up your JavaScript
+- series: londonjsconf
+  url: /events/londonjsconf
+  prettyname: ! 'Eventhandler Meetups: London JS Conf'
+  description: London JS Conf
+- series: eventhandlernightclass-cssarchitecture
+  url: /workshops/eventhandlernightclass-cssarchitecture
+  prettyname: ! 'Eventhandler Night Classes: CSS Architecture'
+  description: CSS Architecture for Big Front-Ends
+- series: eventhandlernightclass-advancedgit
+  url: /workshops/eventhandlernightclass-advancedgit
+  prettyname: ! 'Eventhandler Night Classes: Advanced Git'
+  description: Advanced Git
+- series: eventhandlernightclass-webperformance
+  url: /workshops/eventhandlernightclass-webperformance
+  prettyname: ! 'Eventhandler Night Classes: Web Performance'
+  description: Optimising Web Performance
+- series: ldnjsnightclass-angularfullday
+  url: /workshops/ldnjsnightclass-angularfullday
+  prettyname: ! 'London JS Classes: AngularJS Full-Day Workshop'
+  description: Full-day AngularJS Workshop
+- series: ldnjsnightclass-testingjs
+  url: /workshops/ldnjsnightclass-testingjs
+  prettyname: 
+  description: An evening workshop dedicated to learning how to test JavaScript
+- series: uxnightclass-sellingucd
+  url: /workshops/uxnightclass-sellingucd
+  prettyname: ! 'Selling UCD: How to get buy in from clients'
+  description: Selling UCD with Anna Dahlstrom

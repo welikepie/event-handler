@@ -1,0 +1,13 @@
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: ""
+title: London JS
+map: "10 Redchurch Street, Biscuit Building, London, E2 7DD"
+cost: Free
+text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><p>This months, the talks will be:</p><ul><li>Glyn laughing evilly whilst telling you about security - Glyn Wintle (link: https://twitter.com/glynwintle text: @glynwintle)</li><li>Artificial Intelligence - James Thomas (link: https://twitter.com/thomasj text: @thomasj)</li></ul>"
+lanyrd: "http://www.lanyrd.com/2012/londonjs-14/"
+booking_link: "http://londonjs-14.eventbrite.com/"
+blurb: "Evening of Javascript talks by developers, for developers."
+date: "2012-09-17 19:00"
+end_Date: "2012-09-17 21:00"

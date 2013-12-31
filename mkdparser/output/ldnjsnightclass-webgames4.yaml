@@ -1,0 +1,13 @@
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: ""
+title: "London JS Night Class: How to Structure a Game"
+map: "4-5 Bonhill Street, London, EC2A 4BX"
+cost: £50
+text: "<p>We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game. </p><h3>Week Four: How to Structure a Game</h3><p>Learn how to put what you have learned in the first 3 weeks together, creating a web-based game.</p><ul><li>How to architect a game</li><li>How to control frame rate</li><li>How to manage different type of objects, players, computers</li><li>How to structure games to make network-games or split screen multiplayer options.</li><li>How to use MVC for a game.</li></ul><h3>What You&#39;ll Need:</h3><ul><li>Proficiency in JavaScript</li><li>Understanding of Canvas, Canvas Animation and 2D Web Physics</li><li>A Laptop</li></ul><h3>Please Note:</h3><p>This Workshop is Week 4 and 5 of the Building Web-Based Games Workshop. Week 5 will be going ahead on the 2nd of July 2013, 6.30pm to 9.30pm. Tickets purchased on the EventBrite link covers both Week 4 and Week 5. </p><h3>Building Web-Based Games:</h3><ul><li>Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)</li><li>Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)</li><li>Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)</li><li>Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)</li></ul><p>(image: webgame4.png class: full-width)</p>"
+lanyrd: "http://www.lanyrd.com/2013/ldnjsnightclass-webgames4/"
+booking_link: "http://ldnjsnightclass-webgames4.eventbrite.com/"
+blurb: A 5 workshop series dedicated to building web-based games.
+date: "2013-06-25 18:30"
+end_Date: "2013-06-25 21:30"

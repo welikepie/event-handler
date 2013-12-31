@@ -1,0 +1,13 @@
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: ""
+title: "London JS Night Class: Canvas & Canvas Animation"
+map: "4-5 Bonhill Street, London, EC2A 4BX"
+cost: £50
+text: "<p>We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game. </p><h3>Week One: Canvas and Canvas Animation;</h3><p>An evening of building fast and efficient image-based animations in Canvas</p><ul><li>Learn how to draw images (sprites) in Canvas.</li><li>Learn how to animate sprites in Canvas</li><li>Learn how to blend images and make images transparent</li><li>Use canvas to create and display game graphics</li></ul><h3>What you&#39;ll need:</h3><ul><li>Proficiency in JavaScript</li><li>A laptop</li></ul><h3>Building Web-Based Games:</h3><ul><li>Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)</li><li>Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)</li><li>Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)</li><li>Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)</li></ul><p>(image: webgame1.png class: full-width)</p>"
+lanyrd: "http://www.lanyrd.com/2013/ldnjsnightclass-webgames1/"
+booking_link: "http://ldnjsnightclass-webgames1.eventbrite.com/"
+blurb: A 5 workshop series dedicated to building web-based games.
+date: "2013-06-04 18:30"
+end_Date: "2013-06-04 21:30"

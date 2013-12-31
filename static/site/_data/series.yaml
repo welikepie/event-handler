@@ -1,233 +1,2520 @@
 ---
-londonjs:
-- series: londonjs
-  speakerid:
-  - danknell
-  - timruffles
-  - amroche
-  title: London JS
-  text: ! '
-
-    With all the new HTML5 APIs and node.js making waves in the backend, it''s never
-    been a better time to be a JavaScript developer. **Tickets will be released on
-    Friday the 6th of September at 2PM.**
-
-
-    (image: londonjseh.png class: full-width)
-
-
-    London JS will (try and) meet on a Monday of each month to hear a couple of talks
-    on the exciting new topics that are influencing our field, before retiring to
-    the local pub.
-
-
-    ## Talks This Month
-
-
-    * Nodecopter: JavaScript Flying Robots - Andrew Nesbitt (link: http://twitter.com/teabass
-    text: @teabass)
-
-    * Node and Arduino: Powering the real world with JS - Adam Howard (link: http://twitter.com/skattyadz
-    text: @skattyadz)
-
-    * Hardware Hacking with a Raspberry Pi; What''s JavaScript got to do with it?
-    - Alex Roche (link: http://twitter.com/alexhacked text: @alexhacked)
-
-
-    ## Sponsors
-
-    (image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)
-
-'
-  blurb: An evening of JavaScript talks
-  what: Javascript Talks
-  date: 2013-09-16 18:30
-  end_date: 2013-09-16 21:00
-  where: biscuitbuilding
+geeky:
+- speakerID: ''
+  series: geeky
+  eventbriteid: ''
+  venue: forward
+  title: Geeky
+  map: 19 Mandela Street, London, NW1 0DU, United Kingdom
   cost: Free
+  text: ! '<p>Lightning talks celebrating geekiness. With talks ranging from board
+    games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email
+    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>'
+  lanyrd: http://www.lanyrd.com/2012/geekynight-may/
+  booking_link: http://geeky-may.eventbrite.com/
+  blurb: Lightning talks celebrating geekiness. With talks ranging from board games
+    and zombies to Lego and 4sq.
+  date: 2012-05-14 18:30
+  end_Date: 2012-05-14 21:00
+  directory_tags:
+  - events
+  - meetups
+  - geeky
+  filename: geeky
+  epoch_s_date: 1337016600
+  seriesconfpath: site/_data/events/meetups/geeky/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
+  seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
+    from board games and zombies to Lego and 4sq.
+  url: /events/geeky
+- speakerID: ''
+  series: geeky
+  eventbriteid: ''
+  venue: forward
+  title: Geeky
+  map: 19 Mandela Street, London, NW1 0DU, United Kingdom
+  cost: Free
+  text: ! '<p>Lightning talks celebrating geekiness. With talks ranging from board
+    games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email
+    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>'
+  lanyrd: http://lanyrd.com/2012/geekynight-august/
+  booking_link: http://geeky-august.eventbrite.com/
+  blurb: Lightning talks celebrating geekiness. With talks ranging from board games
+    and zombies to Lego and 4sq.
+  date: 2012-08-28 18:30
+  end_Date: 2012-08-28 21:00
+  directory_tags:
+  - events
+  - meetups
+  - geeky
+  filename: geeky-august
+  epoch_s_date: 1346175000
+  seriesconfpath: site/_data/events/meetups/geeky/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
+  seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
+    from board games and zombies to Lego and 4sq.
+  url: /events/geeky
+- speakerID: ''
+  series: geeky
+  eventbriteid: ''
+  venue: forward
+  title: Geeky
+  map: 19 Mandela Street, London, NW1 0DU, United Kingdom
+  cost: Free
+  text: ! '<p>Lightning talks celebrating geekiness, with talks ranging from board
+    games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email
+    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>'
+  lanyrd: http://lanyrd.com/2012/geekynight-october/
+  booking_link: http://geeky-october.eventbrite.com/
+  blurb: Lightning talks celebrating geekiness, with talks ranging from board games
+    and zombies to Lego and 4sq.
+  date: 2012-10-23 18:30
+  end_Date: 2012-10-23 21:00
+  directory_tags:
+  - events
+  - meetups
+  - geeky
+  filename: geeky-october
+  epoch_s_date: 1351013400
+  seriesconfpath: site/_data/events/meetups/geeky/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
+  seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
+    from board games and zombies to Lego and 4sq.
+  url: /events/geeky
+- speakerID: ''
+  series: geeky
+  eventbriteid: ''
+  venue: forward
+  title: Geeky
+  map: 19 Mandela Street, London, NW1 0DU, United Kingdom
+  cost: Free
+  text: ! '<p>Lightning talks celebrating geekiness, with talks ranging from board
+    games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email
+    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p><p>(image:
+    geeky.png class: full-width)</p>'
+  lanyrd: http://lanyrd.com/2013/geekynight-february/
+  booking_link: http://geeky-february.eventbrite.com/
+  blurb: Lightning talks celebrating geekiness, with talks ranging from board games
+    and zombies to Lego and 4sq.
+  date: 2013-02-26 18:30
+  directory_tags:
+  - events
+  - meetups
+  - geeky
+  filename: geeky-february
+  epoch_s_date: 1361903400
+  seriesconfpath: site/_data/events/meetups/geeky/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
+  seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
+    from board games and zombies to Lego and 4sq.
+  url: /events/geeky
+- speakerID: ''
+  series: geeky
+  eventbriteid: ''
+  venue: forward
+  title: Geeky
+  map: 19 Mandela Street, London, NW1 0DU, United Kingdom
+  cost: Free
+  text: ! '<p><strong>The first batch of tickets will be available on Friday the 5th
+    of April at 2pm, The second batch will be available on Monday the 8th of April
+    at 2pm and the third on Monday the 15th at 2pm.</strong></p><p>Lightning talks
+    celebrating geekiness, with talks ranging from board games and zombies to Lego
+    and 4sq.Come and embrace your inner geek. Why not email us about speaking at (email:
+    contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p><h2>Talks</h2><ul><li>I&#39;m
+    sorry but you&#39;re talking bollocks - Paul Adam Davis (link: http://twitter.com/pauladamdavis
+    text: @pauladamdavis)</li><li>D.I.Y Screen Printing - Nikki Sherry (link: http://twitter.com/smallsherry
+    text: @smallsherry)</li><li>Wiffle-free Productivity - Alex Pounds (link: http://twitter.com/acreature
+    text: @acreature)</li><li>The Missing Ingredient - Jane Austin (link: http://twitter.com/msjaneaustin
+    text: @msjaneaustin)</li><li>Sometimes I&#39;m a Chicken - Anna Pickard (link:
+    http://twitter.com/annapickard text: @annapickard)</li><li>Once Upon a Time, in
+    WebGL - Benjamin Blundell (link: http://twitter.com/secti0n9 text: @secti0n9)</li></ul><p>(image:
+    geeky.png class: full-width)</p>'
+  lanyrd: http://lanyrd.com/2013/geekynight-april/
+  booking_link: http://geeky-april.eventbrite.com/
+  blurb: Lightning talks celebrating geekiness, with talks ranging from board games
+    and zombies to Lego and 4sq.
+  date: 2013-04-23 18:30
+  end_Date: 2013-04-23 21:00
+  directory_tags:
+  - events
+  - meetups
+  - geeky
+  filename: geeky-april
+  epoch_s_date: 1366738200
+  seriesconfpath: site/_data/events/meetups/geeky/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
+  seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
+    from board games and zombies to Lego and 4sq.
+  url: /events/geeky
+- speakerID: ''
+  series: geeky
+  eventbriteid: ''
+  venue: forward
+  title: Geeky
+  map: 19 Mandela Street, London, NW1 0DU, United Kingdom
+  cost: Free
+  text: ! '<p><strong>The first batch of tickets will be available on Monday the 10th
+    of June at 2pm, The second batch will be available on Friday the 14th of June
+    at 2pm and the third on Monday the 17th of June at 2pm.</strong></p><p>Lightning
+    talks celebrating geekiness, with talks ranging from board games and zombies to
+    Lego and 4sq.Come and embrace your inner geek. Why not email us about speaking
+    at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p><h2>Talks</h2><ul><li>OH
+    GOD! WHAT AM I DOING? - Jonti Picking (link: http://twitter.com/theweebl text:
+    @theweebl)</li><li>The Zombie Apocalypse and You - Fearn Bishop (link: http://twitter.com/ipodling
+    text: @ipodling)</li><li>My Life as a Cyborg - Rachel Graves (link: http://twitter.com/didlix
+    text: @didlix)</li><li>Writing Music for Gamers - Daniel Hough (link: http://twitter.com/basicallydan
+    text: @basicallydan)</li><li>When is a Zombie not a Zombie? - Charlotte Spencer
+    (link: http://twitter.com/charlotteis text: @charlotteis)</li><li>Building Interactive
+    Installations in Five Days - Mark Wubben (link: http://twitter.com/novemberborn
+    text: @novemberborn)</li></ul><p>(image: geeky.png class: full-width)</p><h2>Supporters</h2><p>(image:
+    forward.png class: rmboxshad full-width link:http://www.forwardtechnology.co.uk)</p>'
+  lanyrd: http://lanyrd.com/2013/geekynight-june/
+  booking_link: http://geeky-june.eventbrite.com/
+  blurb: Lightning talks celebrating geekiness, with talks ranging from board games
+    and zombies to Lego and 4sq.
+  date: 2013-06-24 18:30
+  end_Date: 2013-06-24 21:00
+  directory_tags:
+  - events
+  - meetups
+  - geeky
+  filename: geeky-june
+  epoch_s_date: 1372095000
+  seriesconfpath: site/_data/events/meetups/geeky/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
+  seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
+    from board games and zombies to Lego and 4sq.
+  url: /events/geeky
+londonjs-schooltrip:
+- speakerID: ''
+  series: londonjs-schooltrip
+  eventbriteid: ''
+  venue: centralfoundation
+  title: London JS School Trip
+  map: Cowper Street, London, EC2A 4SH, United Kingdom
+  cost: £75 per person
+  text: ! '<p>After a successful year bringing you respected industry experts from
+    around the world, we listened to your feedback and decided to take it a step further
+    with talks that are bigger, more technical, and more hands-on. We think there
+    should be more discussion and more idea sharing. We think there should be more
+    WiFi and better coffee.</p><p>So this is our plan: 1 hour talks, projects to code
+    along with, resources available online. Long breaks between talks to coffee up,
+    network, carry on hacking and meet with speakers. No rubbish conference centre
+    WiFi – we&#39;re building our own network just for you.</p>'
+  lanyrd: http://www.lanyrd.com/2012/london-js-school-trip/
+  booking_link: http://ldnjs-school-trip.eventbrite.com/
+  date: 2012-06-30 10:00
+  end_Date: 2012-06-30 19:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs-schooltrip
+  filename: londonjs-schooltrip
+  epoch_s_date: 1341046800
+  seriesconfpath: site/_data/events/meetups/londonjs-schooltrip/
+  seriesconfprettyname: ! 'Eventhandler Meetups: LondonJS School Trip'
+  seriesconfdescription: LondonJS School Trip
+  url: /events/londonjs-schooltrip
+londonjs:
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
+    will (try and) meet on a Monday of each month to hear a couple of talks on the
+    exciting new topics that are influencing our field, before retiring to the local
+    pub.</p><p>This months, the talks will be:</p><ul><li>Microframeworks - Dan Knell
+    (link: https://twitter.com/danielknell text: @danielknell)</li><li>Require.js
+    - Tim Ruffles (link: https://twitter.com/timruffles text: @timruffles)</li></ul>'
+  lanyrd: http://www.lanyrd.com/2012/londonjs-13/
+  booking_link: http://londonjs-13.eventbrite.com/
+  blurb: Evening of Javascript talks about Microframeworks and Require.js.
+  date: 2012-08-20 19:00
+  end_Date: 2012-08-20 22:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-13
+  epoch_s_date: 1345485600
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
+    will (try and) meet on a Monday of each month to hear a couple of talks on the
+    exciting new topics that are influencing our field, before retiring to the local
+    pub.</p><p>This months, the talks will be:</p><ul><li>Glyn laughing evilly whilst
+    telling you about security - Glyn Wintle (link: https://twitter.com/glynwintle
+    text: @glynwintle)</li><li>Artificial Intelligence - James Thomas (link: https://twitter.com/thomasj
+    text: @thomasj)</li></ul>'
+  lanyrd: http://www.lanyrd.com/2012/londonjs-14/
+  booking_link: http://londonjs-14.eventbrite.com/
+  blurb: Evening of Javascript talks by developers, for developers.
+  date: 2012-09-17 19:00
+  end_Date: 2012-09-17 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-14
+  epoch_s_date: 1347904800
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
+    will (try and) meet on a Monday of each month to hear a couple of talks on the
+    exciting new topics that are influencing our field, before retiring to the local
+    pub.</p><p>This months, the talks will be:</p><ul><li>Dart - Chris Buckett (link:
+    https://twitter.com/chrisbuckett text: @chrisbuckett)</li><li>JavaScript and Test
+    Driven Development - Ricky Clegg (link: https://twitter.com/ricky<em>clegg text:
+    @ricky</em>clegg)</li></ul>'
+  lanyrd: http://www.lanyrd.com/2012/londonjs-15/
+  booking_link: http://londonjs-15.eventbrite.com/
+  blurb: Evening of Javascript talks about Microframeworks and Require.js.
+  date: 2012-10-15 18:30
+  end_Date: 2012-10-15 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-15
+  epoch_s_date: 1350322200
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: forward
+  title: London JS Create the Web
+  map: 19 Mandela Street, London, NW1 0DU
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
+    will (try and) meet on a Monday of each month to hear a couple of talks on the
+    exciting new topics that are influencing our field, before retiring to the local
+    pub.</p><p>This month, the talks will be:</p><ul><li>Create the Web - Michael
+    Chaize (link: https://twitter.com/mchaize text: @mchaize) and Terrence Ryan (link:
+    https://twitter.com/tpryan text: @tpryan)</li><li>WebRTC - Sam Dutton (link: https://twitter.com/sw12
+    text: @sw12)</li></ul>'
+  lanyrd: http://www.lanyrd.com/2012/londonjs-createtheweb/
+  booking_link: http://londonjs-createtheweb.eventbrite.com/
+  blurb: Evening of Javascript talks about Create the Web and WebRTC
+  date: 2012-11-12 18:30
+  end_Date: 2012-11-12 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-createtheweb
+  epoch_s_date: 1352745000
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
+    will (try and) meet on a Monday of each month to hear a couple of talks on the
+    exciting new topics that are influencing our field, before retiring to the local
+    pub.</p><p>This months, the talks will be:</p><ul><li>Dojo Promises - Mark Wubben
+    (link: https://twitter.com/novemberborn text: @novemberborn)</li><li>JavaScript
+    Engines - Peter Beverloo (link: https://twitter.com/beverloo text: @beverloo)</li><li>jQuery
+    - Addy Osmani (link: https://twitter.com/addyosmani text: @addyosmani)</li></ul>'
+  lanyrd: http://www.lanyrd.com/2012/londonjs-16/
+  booking_link: http://londonjs-16.eventbrite.com/
+  blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
+  date: 2012-11-19 18:30
+  end_Date: 2012-11-19 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-16
+  epoch_s_date: 1353349800
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
+    will (try and) meet on a Monday of each month to hear a couple of talks on the
+    exciting new topics that are influencing our field, before retiring to the local
+    pub.</p><p>This months, the talks will be:</p><ul><li>Puppet for developers -
+    Daniel Knell (link: https://twitter.com/danielknell text: @danielknell)</li><li>Playing
+    with binary data in JavaScript - Kornel Lesinski (link: https://twitter.com/pornelski
+    text: @pornelski)</li></ul>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-17/
+  booking_link: http://londonjs-17.eventbrite.com/
+  blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
+  date: 2013-02-18 18:30
+  end_Date: 2013-02-18 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-17
+  epoch_s_date: 1361212200
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
+    will (try and) meet on a Monday of each month to hear a couple of talks on the
+    exciting new topics that are influencing our field, before retiring to the local
+    pub.</p><p>This months, the talks will be:</p><ul><li>Javascript &amp; Kinect
+    - Mairead Buchan (link: https://twitter.com/tiny<em>m text: @tiny</em>m)</li><li>Shaders
+    &amp; Filters - Paul Lewis (link: https://twitter.com/aerotwist text: @aerotwist)</li><li>Regular
+    Expressions - Remy Bach (link: https://twitter.com/remybach text: @remybach)</li></ul>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-18/
+  booking_link: http://londonjs-18.eventbrite.com/
+  blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
+  date: 2013-03-18 18:30
+  end_Date: 2013-03-18 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-18
+  epoch_s_date: 1363631400
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>(image:
+    londonjseh.png class: full-width)</p><p>London JS will (try and) meet on a Monday
+    of each month to hear a couple of talks on the exciting new topics that are influencing
+    our field, before retiring to the local pub.</p><h2>Talks This Month</h2><ul><li>Chrome
+    Extensions for Hackers - Cristiano Betta (link: http://twitter.com/cbetta text:
+    @cbetta)</li><li>Building Firefox OS Apps - Ruth John (link: http://twitter.com/rumyra
+    text: @rumyra)</li></ul>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-19/
+  booking_link: http://londonjs-19.eventbrite.com/
+  blurb: An evening of JavaScript talks
+  date: 2013-04-15 18:30
+  end_Date: 2013-04-15 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-19
+  epoch_s_date: 1366047000
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer.</p><p>(image:
+    londonjseh.png class: full-width)</p><p>London JS will (try and) meet on a Monday
+    of each month to hear a couple of talks on the exciting new topics that are influencing
+    our field, before retiring to the local pub.</p><h2>Talks This Month</h2><ul><li>BDD
+    - Daniel Knell (link: http://twitter.com/danielknell text: @danielknell)</li><li>Mobile
+    Development - Paul Kinlan (link: http://twitter.com/paul<em>kinlan text: @paul</em>kinlan)</li></ul><h2>Sponsors</h2><p>(image:
+    pusherlogo.png class: rmboxshad full-width link:http://www.pusher.com)(image:
+    pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image:
+    yammer.png class: rmboxshad full-width link:http://www.yammer.com)</p>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-20/
+  booking_link: http://londonjs-20.eventbrite.com/
+  blurb: An evening of JavaScript talks
+  date: 2013-05-20 18:30
+  end_Date: 2013-05-20 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-20
+  epoch_s_date: 1369071000
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer. <strong>Tickets
+    will be released on Monday the 3rd of June at 2PM.</strong></p><p>(image: londonjseh.png
+    class: full-width)</p><p>London JS will (try and) meet on a Monday of each month
+    to hear a couple of talks on the exciting new topics that are influencing our
+    field, before retiring to the local pub.</p><h2>Talks This Month</h2><ul><li>Sometimes
+    WebSockets don&#39;t work - Pawel Ledwon (link: http://twitter.com/pawel<em>ledwon
+    text: @pawel</em>ledwon)</li><li>Mobile Development - Paul Kinlan (link: http://twitter.com/paul<em>kinlan
+    text: @paul</em>kinlan)</li></ul><h2>Sponsors</h2><p>(image: pokelogo.png class:
+    rmboxshad full-width link:http://www.pokelondon.com)(image: pusherlogo.png class:
+    rmboxshad full-width link:http://www.pusher.com)</p>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-21/
+  booking_link: http://londonjs-21.eventbrite.com/
+  blurb: An evening of JavaScript talks
+  date: 2013-06-17 18:30
+  end_Date: 2013-06-17 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-21
+  epoch_s_date: 1371490200
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer. <strong>Tickets
+    will be released on Thursday the 4th of July at 2PM.</strong></p><p>(image: londonjseh.png
+    class: full-width)</p><p>London JS will (try and) meet on a Monday of each month
+    to hear a couple of talks on the exciting new topics that are influencing our
+    field, before retiring to the local pub.</p><h2>Talks This Month</h2><ul><li>Grunt
+    your way to Glory - Shaun Dunne (link: http://twitter.com/shaundunne text: @shaundunne)</li><li>Meteor.js
+    - Chris Waring (link: http://twitter.com/cwaring text: @cwaring)</li></ul><h2>Sponsors</h2><p>(image:
+    pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image:
+    pusherlogo.png class: rmboxshad full-width link:http://www.pusher.com)</p>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-22/
+  booking_link: http://londonjs-22.eventbrite.com/
+  blurb: An evening of JavaScript talks
+  date: 2013-07-15 18:30
+  end_Date: 2013-07-15 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-22
+  epoch_s_date: 1373909400
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer. <strong>Tickets
+    will be released on Thursday the 25th of July at 2PM.</strong></p><p>(image: londonjseh.png
+    class: full-width)</p><p>London JS will (try and) meet on a Monday of each month
+    to hear a couple of talks on the exciting new topics that are influencing our
+    field, before retiring to the local pub.</p><h2>Talks This Month</h2><ul><li>Visual
+    Regression Testing with PhantomCSS - James Cryer (link: http://twitter.com/jamescryer
+    text: @jamescryer)</li><li>DAFT: Deploy all the F*ing time - Adam Rogers (link:
+    http://twitter.com/rodreegez text: @rodreegez)</li><li>SidekickJS - Tim Ruffles
+    (link: http://twitter.com/timrufflestext: @timruffles)</li></ul><h2>Sponsors</h2><p>(image:
+    pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image:
+    pusherlogo.png class: rmboxshad full-width link:http://www.pusher.com)</p>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-23/
+  booking_link: http://londonjs-23.eventbrite.com/
+  blurb: An evening of JavaScript talks
+  date: 2013-08-19 18:30
+  end_Date: 2013-08-19 21:00
+  directory_tags:
+  - events
+  - meetups
+  - londonjs
+  filename: londonjs-23
+  epoch_s_date: 1376933400
+  seriesconfpath: site/_data/events/meetups/londonjs/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
+  seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
+
+    awesome Javascript news and technologies'
+  url: /events/londonjs
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
+  title: London JS
+  map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer. <strong>Tickets
+    will be released on Friday the 6th of September at 2PM.</strong></p><p>(image:
+    londonjseh.png class: full-width)</p><p>London JS will (try and) meet on a Monday
+    of each month to hear a couple of talks on the exciting new topics that are influencing
+    our field, before retiring to the local pub.</p><h2>Talks This Month</h2><ul><li>Nodecopter:
+    JavaScript Flying Robots - Andrew Nesbitt (link: http://twitter.com/teabass text:
+    @teabass)</li><li>Node and Arduino: Powering the real world with JS - Adam Howard
+    (link: http://twitter.com/skattyadz text: @skattyadz)</li><li>Hardware Hacking
+    with a Raspberry Pi; What&#39;s JavaScript got to do with it? - Alex Roche (link:
+    http://twitter.com/alexhacked text: @alexhacked)</li></ul><h2>Sponsors</h2><p>(image:
+    pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)</p>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-24/
   booking_link: http://londonjs-24.eventbrite.com/
-  lanyard: http://www.lanyrd.com/2013/londonjs-24/
+  blurb: An evening of JavaScript talks
+  date: 2013-09-16 18:30
+  end_Date: 2013-09-16 21:00
   directory_tags:
   - events
   - meetups
   - londonjs
   filename: londonjs-24
   epoch_s_date: 1379352600
-  epoch_s_end_date: 1379361600
   seriesconfpath: site/_data/events/meetups/londonjs/
-  seriesconfprettyname: London JS
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
 
     awesome Javascript news and technologies'
   url: /events/londonjs
-- series: londonjs
-  speakerid:
-  - amroche
-  - charlotte
+- speakerID: ''
+  series: londonjs
+  eventbriteid: ''
+  venue: poke
   title: ! 'London JS: Data Visualisation'
-  text: ! 'With all the new HTML5 APIs and node.js making waves in the backend, it''s
-    never been a better time to be a JavaScript developer. London JS will (try and)
-    meet on a Monday of each month to hear a couple of talks on the exciting new topics
-    that are influencing our field, before retiring to the local pub.
-
-
-    **Tickets will be released on Friday the 4th of October at 2PM.**
-
-
-    (image: londonjseh.png class: full-width)
-
-
-    ## Talks This Month
-
-
-    * Using D3.js to Visualise Your Analytics Data - Edd Sowden (link: http://twitter.com/edds
-    text: @edds)
-
-    * 10 things you didn''t know about D3.js - Anna Powell-Smith (link: http:/www.twitter.com/darkgreener
-    text: @darkgreener)
-
-    * 3D Cities and Data Visualisation with WebGL - Robin Hawkes (link: http://twitter.com/robhawkes
-    text: @robhawkes)
-
-
-    ## Sponsors
-
-    (image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image:
-    pearson.png class: rmboxshad full-width link:http://www.twitter.com/pearsonlabs)
-
-'
-  blurb: An evening of JavaScript talks
-  what: Javascript Talks
-  date: 2013-10-21 18:30
-  end_date: 2013-10-21 21:00
-  where: biscuitbuilding
-  cost: Free
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+  cost: Free
+  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+    it&#39;s never been a better time to be a JavaScript developer. London JS will
+    (try and) meet on a Monday of each month to hear a couple of talks on the exciting
+    new topics that are influencing our field, before retiring to the local pub.</p><p><strong>Tickets
+    will be released on Friday the 4th of October at 2PM.</strong></p><p>(image: londonjseh.png
+    class: full-width)</p><h2>Talks This Month</h2><ul><li>Using D3.js to Visualise
+    Your Analytics Data - Edd Sowden (link: http://twitter.com/edds text: @edds)</li><li>10
+    things you didn&#39;t know about D3.js - Anna Powell-Smith (link: http:/www.twitter.com/darkgreener
+    text: @darkgreener)</li><li>3D Cities and Data Visualisation with WebGL - Robin
+    Hawkes (link: http://twitter.com/robhawkes text: @robhawkes)</li></ul><h2>Sponsors</h2><p>(image:
+    pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image:
+    pearson.png class: rmboxshad full-width link:http://www.twitter.com/pearsonlabs)</p>'
+  lanyrd: http://www.lanyrd.com/2013/londonjs-25/
   booking_link: http://londonjs-25.eventbrite.com/
-  lanyard: http://www.lanyrd.com/2013/londonjs-25/
+  blurb: An evening of JavaScript talks
+  date: 2013-10-21 18:30
+  end_Date: 2013-10-21 21:00
   directory_tags:
   - events
   - meetups
   - londonjs
   filename: londonjs-25
   epoch_s_date: 1382376600
-  epoch_s_end_date: 1382385600
   seriesconfpath: site/_data/events/meetups/londonjs/
-  seriesconfprettyname: London JS
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
 
     awesome Javascript news and technologies'
   url: /events/londonjs
-ldnjsnightclass-angular:
-- speakerid:
-  - timruffles
-  - danknell
-  title: ! 'London JS Night Class: AngularJS'
-  series: ldnjsnightclass-angular
-  eventbriteid: '9475727155'
-  text: ! "On the 5th of November, (link: http://www.twitter.com/timruffles text:
-    Tim Ruffles) will be hosting a workshop in which you can learn to use AngularJS\n<p
-    class=\"soldout\"> This workshop has sold out. However; we have a second (link:
-    http://www.eventhandler.co.uk/events/ldnjsnightclass-angular3 text: AngularJS
-    workshop here!)</p>\n(image: angularjs.png class: full-width)\n### Who is it for?\nAngularJS
-    makes creating rich web-apps easier than ever before. With the philosophy of embracing
-    and extending HTML, powerful data-binding, and decoupling and testability via
-    dependency-injects, it's fast becoming the most popular MVC framework.\nThis workshop
-    is for anyone unfamiliar with AngularJS. Tim will take you through building your
-    first AngularJS application, and introduce some of the meatier aspects of the
-    framework like directives.\n### Who is it taught by?\nThis workshop is being run
-    by (link: http://www.twitter.com/timruffles text: Tim Ruffles). Tim is a Ruby
-    & JavaScript Developer living and working in London. Having previously worked
-    for Skimlinks as their tech lead, he now spends time mentoring others and working
-    on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality tracking
-    tool. You can find him speaking about the web at (link: http://www.lanyrd.com/timruffles
-    text: various events). \n### What you'll learn\n* The philosophy of Angular\n*
-    Booting the app\n* Data-binding\n* Controllers\n* Directives\n* Routing\n* Requesting
-    data\n* Testing\n### Requirements\n* Familiarity with JavaScript\n* Please bring
-    your laptop with your text editor of choice installed\n### Refund Policy\nIf you
-    discover that you are unable to attend the event you bought tickets for, we are
-    happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+geeklates:
+- speakerID: ''
+  series: geeklates
+  eventbriteid: ''
+  venue: centralfoundation
+  title: Geek Lates
+  map: Cowper Street, London, EC2A 4SH
+  cost: £5 - £25
+  text: ! '<p>We&#39;ve been planning this event for quite some time now and we&#39;re
+    ready to finally tell you about it! Geek Lates is an evening of geeky entertainment
+    and insight. Held in the hall of Central Foundation School just off of Old Street;
+    there will be workshops, talks and other stands dotted around the place. We have
+    a sketch notes workshop from Eva Lotta Lamm, (very) short story writing from James
+    Wallis, Domestic Science with Helen Arney, Arduino workshops with Paul King and
+    many more to be announced.</p><h2>Speakers</h2><p>&lt;a name=&quot;paulKing&quot;&gt;&lt;/a&gt;(image:
+    Paul-King.png class: full-width)</p><h3>Paul King</h3><p>An Arduino aficionado
+    and professional tinkerer who likes things that go &quot;beep&quot;. He will be
+    holding an arduino workshop and &quot;is most definitely not a robot&quot;.</p><p>If
+    you&#39;d like to join in with this workshop but don&#39;t have your own kit,
+    you&#39;ll be able to buy a workshop ready arduino kit from us on the day.</p><p>&lt;a
+    name=&quot;evaLottaLamm&quot;&gt;&lt;/a&gt;(image: Eva-Lotta-Lamm.png class: full-width)</p><h3>Eva
+    Lotta Lamm</h3><p>A UX designer currently working for Google. She has published
+    a book of beautiful sketch notes on UX and Design events and will show us how
+    to do these ourselves.</p><p>&lt;a name=&quot;judePullen&quot;&gt;&lt;/a&gt;(image:
+    Jude-Pullen.png class: full-width)</p><h3>Jude Pullen</h3><p>An award winning
+    designer and engineer at Dyson UK, he will be showing us how to build physical
+    prototypes, getting the idea off of the paper and into 3D.</p><p>&lt;a name=&quot;giddyUpCoffee&quot;&gt;&lt;/a&gt;(image:
+    Giddy-Up-Coffee.png class: full-width)</p><h3>Giddy Up Coffee</h3><p>These guys
+    seem to have endless ways of making coffee, a staple in the tech community. They
+    will be teaching others how to brew the good stuff as well as catering for the
+    event.</p><p>&lt;a name=&quot;laurianGridinoc&quot;&gt;&lt;/a&gt;(image: Laurian-Gridinoc.png
+    class: full-width)</p><h3>Laurian Gridinoc</h3><p>A mad scientist currently working
+    with BBC News. He plays with geiger counters and the human anatomy and will be
+    teaching us how to analyse bone fractures and do anatomical sketches.</p><p>&lt;a
+    name=&quot;helenArney&quot;&lt;/a&gt;(image: Helen-Arney.png class: full-width)</p><h3>Helen
+    Arney &amp; Rob Wells: Domestic Science</h3><p>Comedians Helen Arney &amp; Rob
+    Wells, fresh back from the Edinburgh Fringe, will be performing their &quot;culinary
+    science&quot; workshop. &quot;Highly entertaining… Surprisingly educational&quot;
+    - &lt;i&gt;Broadway Baby&lt;/i&gt;&quot;</p><p>&lt;a name=&quot;frankieRoberto&quot;&lt;/a&gt;(image:
+    Frankie-Roberto.png class: full-width)</p><h3>Frankie Roberto</h3><p>A UX designer
+    and LEGO enthusiast. He will be holding a discussion about the famous plastic
+    blocks whilst our attendees construct their own masterpieces.</p><p>&lt;a name=&quot;jimmyHatherley&quot;&gt;&lt;/a&gt;(image:
+    Jimmy-Hatherley.png class: full-width)</p><h3>Jimmy Hatherley of London Fields
+    Brewery</h3><p>He will be taking us through a world of beer, holding a tasting
+    session and informing us about the process of making the good stuff. </p><p>&lt;a
+    name=&quot;paulusDreibholz&quot;&gt;&lt;/a&gt;(image: Paulus-Dreibholz.png class:
+    full-width)</p><h3>Paulus Dreibholz of TeachingType.com</h3><p>He will be teaching
+    us how to design our own typefaces, sketching them out and building them up. </p><p>&lt;a
+    name=&quot;rozMorris&quot;&gt;&lt;/a&gt;</p><h3>Roz Morris</h3><p>A writer and
+    ghostwriter with 8 best selling novels; Roz is going to be teaching us how to
+    write short stories with a twist, they have to fit on a postcard.</p>'
+  lanyrd: http://lanyrd.com/2012/geek-lates/
+  booking_link: http://geeklates.eventbrite.com/
+  blurb: An evening of geeky entertainment and insight with workshops, talks and stands.
+  date: 2012-11-01 18:00
+  end_Date: 2012-11-01 22:00
+  directory_tags:
+  - events
+  - meetups
+  - geeklates
+  filename: geeklates
+  epoch_s_date: 1351792800
+  seriesconfpath: site/_data/events/meetups/geeklates/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geek Lates'
+  seriesconfdescription: An evening of geeky entertainment and insight with workshops,
+    talks and stands.
+  url: /events/geeklates
+gamesnight:
+- speakerID: ''
+  series: gamesnight
+  eventbriteid: ''
+  venue: thereliance
+  title: Event Handler Games Night
+  map: 336 Old Street, London, EC1V 9DR
+  cost: Free
+  text: <p>Join us in the pub for an evening of board games! Head down after work
+    to relax with a drink and some of your favourites.</p><p>Games we&#39;re bringing:</p><ul><li>Carrcassone</li><li>Settlers
+    of Catan</li><li>Once upon a time</li><li>Gloom</li></ul><p>Feel free to bring
+    your own, the more the merrier!</p>
+  lanyrd: http://www.lanyrd.com/2012/eventhandler-gamesnight-01/
+  booking_link: http://eventhandler-gamesnight-01.eventbrite.com/
+  blurb: A relaxing board game evening
+  date: 2012-12-17 18:30
+  end_Date: 2012-12-17 22:30
+  directory_tags:
+  - events
+  - meetups
+  - gamesnight
+  filename: eventhandler-gamesnight-1
+  epoch_s_date: 1355769000
+  seriesconfpath: site/_data/events/meetups/gamesnight/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Board Games Night'
+  seriesconfdescription: A relaxing board game evening
+  url: /events/gamesnight
+eventhandlernightclass-designmodelling:
+- speakerID: ''
+  series: eventhandlernightclass-designmodelling
+  eventbriteid: ''
+  venue: centralfoundation
+  title: Design Modelling Workshop
+  map: Cowper Street, London, EC2A 4SH
+  cost: £100
+  text: ! '<p>Join (link: https://twitter.com/jude_pullen text: Jude Pullen), award
+    winning designer and engineer at Dyson UK on a full day design modelling workshop.
+    Working from sketches; Jude will teach you how to make physical prototypes out
+    of card, foam and plastic sheet.</p><p>Whether you&#39;re a table-top gamer, model
+    railway builder, teacher, engineer, architect, set designer or product designer
+    - we all need to communicate our ideas. Even more so when working with other people,
+    we may need to adapt models quickly, often in mid-discussion. Like iterative sketches
+    in pen and paper, much progress can be made with quick and effective sketch-model
+    making, before finalising an idea. </p><p>You&#39;ll be provided with some case
+    studies to work with to make a prototype, but please feel free to bring your own
+    ideas, sketches or components to use. If you&#39;d like to know more about Jude&#39;s
+    process and what may be covered in the workshop, you can take a look at his work
+    here: (link: http://www.judepullen.com/designmodelling text: Design Modelling).
+    </p><p>What you&#39;ll learn:</p><ul><li>How to turn your ideas into a final prototype</li><li>Techniques
+    to handle cardboard, foam and plastic</li><li>The score and snap technique for
+    modelling with acrylic</li><li>How to make curves, joints, folds and cuts. </li><li>How
+    to use a glue gun to piece your work together</li></ul><p>If you have an idea
+    of what you&#39;d like to prototype but have some questions or just want to know
+    more, you can email us at (email: contact@eventhandler.co.uk). </p><p>(image:
+    dm2.jpg class: full-width)</p><p>(image: dmevent.jpg class: full-width)</p><p>(image:
+    dm3.jpg class: full-width)</p>'
+  lanyrd: http://lanyrd.com/2013/eventhandler-designmodelling-01/
+  booking_link: http://eventhandler-designmodelling-01.eventbrite.com/
+  blurb: A full day Design Modelling workshop
+  date: 2013-01-26 10:00
+  end_Date: 2013-01-26 17:30
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-designmodelling
+  filename: designmodelling
+  epoch_s_date: 1359194400
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-designmodelling/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Design Modelling'
+  seriesconfdescription: A full day Design Modelling workshop
+  url: /workshops/eventhandlernightclass-designmodelling
+ldnjsnightclass-arduino:
+- speakerID: ''
+  series: ldnjsnightclass-arduino
+  eventbriteid: ''
+  venue: googlecampus
+  title: Arduino Workshop
+  map: 4-5 Bonhill Street, London, EC2A 4BX
+  cost: £75
+  text: ! '<p>(link: https://twitter.com/nrocy text: Paul King) loves to make stuff.
+    Join him for a full day Arduino workshop in which you will learn all about the
+    Arduino Platform, get an introduction to electronics as a whole and learn how
+    to make things that go &quot;beep!&quot;. You&#39;ll also be introduced to BreakoutJS
+    in order to get full use out of the Arduino. All you need to have is a basic understanding
+    of Javascript and the rest you&#39;ll pick up along the way.</p><p>What you&#39;ll
+    learn:</p><ul><li>Introduction to the Arduino Platform</li><li>Overview of BreakoutJS</li><li>Electronics
+    101</li><li>Inputs, Switches and Sensors</li><li>Outputs, Beeps and LEDs</li></ul><p>Requirements:</p><ul><li>Basic
+    understanding of Javascript</li><li>You will be provided with an Arduino to use,
+    but please make sure to bring a laptop with you!</li></ul><p>(image: arduinofinal.jpg
+    class: full-width)</p>'
+  lanyrd: http://lanyrd.com/2013/eventhandler-arduino-01/
+  booking_link: http://eventhandler-arduino-01.eventbrite.com/
+  blurb: A full day Arduino workshop
+  date: 2013-02-13 10:00
+  end_Date: 2013-02-13 17:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-arduino
+  filename: arduinoworkshop-1
+  epoch_s_date: 1360749600
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-arduino/
+  seriesconfprettyname: ! 'London JS Classes: Arduino'
+  seriesconfdescription: A full day Arduino workshop
+  url: /workshops/ldnjsnightclass-arduino
+ldnjsnightclass-toolingcli:
+- speakerID: ''
+  series: ldnjsnightclass-toolingcli
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Classes: Modern Tooling on the Command Line'
+  map: 4-5 Bonhill Street London EC2A 4BX
+  cost: £40
+  text: ! '<p>Join (link: https://www.twitter.com/jack_franklin text: Jack Franklin)
+    in a London JS Night Class dedicated to exploring the possibilities of utilising
+    JavaScript and speeding up development on the Command Line.</p><p>There are so
+    many great JS tools and utilities that are exclusively available on the command
+    line. In this workshop we will look at how to set up a command line, including
+    initial configuration, installing useful tools like Node and Node Package Manager
+    (npm), and then delve into more detail into a few of the most popular tools, including
+    Grunt, Yeoman, Mocha, Bower and others.</p><p>If you want to take part in this
+    workshop, here&#39;s what you&#39;ll need:</p><ul><li>A Unix Laptop; a Mac or
+    something that runs Linux.</li><li>You must be an experienced JavaScript developer.
+    Experience with TDD/BDD libraries like Jasmine (or similar) and MV frameworks
+    like Backbone is recommended.</li><li>Node (V0.8 and upwards) and Node Package
+    Manager (npm) installed on your computer.</li><li>Basic knowledge of the command
+    line is preferable but not required.</li></ul>'
+  lanyrd: http://lanyrd.com/2013/ldnjsnightclass-toolingcli/
+  booking_link: http://ldnjsnightclass-toolingcli.eventbrite.com/
+  blurb: A London JS Night Class dedicated to JavaScript and the Command Line
+  date: 2013-03-06 18:30
+  end_Date: 2013-03-06 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-toolingcli
+  filename: ldnjsnightclass-toolingcli
+  epoch_s_date: 1362594600
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-toolingcli/
+  seriesconfprettyname: ! 'London JS Night Classes: Tooling Command Line Interfaces'
+  seriesconfdescription: A London JS Night Class dedicated to JavaScript and the Command
+    Line
+  url: /workshops/ldnjsnightclass-toolingcli
+ldnjsnightclass-buildingcli:
+- speakerID: ''
+  series: ldnjsnightclass-buildingcli
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Classes: Building Command Line Tools with Node.js'
+  map: 4-5 Bonhill Street London EC2A 4BX
+  cost: £40
+  text: ! '<p>Join (link: https://twitter.com/jack_franklin text: Jack Franklin) for
+    a London JS Night Class. In this workshop we&#39;ll see how Node.js can be used
+    to build Command Line tools, look at the packages available on Node Package Manager
+    (npm) and publish our own tools to npm, for anyone to use.</p><p>Node.js is a
+    fantastic tool that was originally intended for server side JS but has grown to
+    serve a number of purposes. With the Node Package Manager, it&#39;s a rich environment
+    for developing command line tools that you can use to make your job easier. If
+    you spot yourself performing the same mundane tasks over and over again, that&#39;s
+    a great chance to abstract those into a small command line utility. Node is a
+    great platform for doing this.</p><p>If you want to take part in this workshop,
+    here&#39;s what you&#39;ll need:</p><ul><li>A Unix Laptop; a Mac or something
+    that runs Linux</li><li>You need to be comfortable with basic JavaScript (variables,
+    functions, conditionals, loops)</li><li>You need to be comfortable using the command
+    line</li><li>Have Node (V0.8 and upwards) and Node Package Manager (npm) installed</li><li>Having
+    experience writing scripts with Node.js is preferable but not essential</li></ul>'
+  lanyrd: http://lanyrd.com/2013/ldnjsnightclass-buildingcli/
+  booking_link: http://ldnjsnightclass-buildingcli.eventbrite.com/
+  blurb: A London JS Night Class dedicated to building command line tools with Node
+  date: 2013-03-27 18:30
+  end_Date: 2013-03-27 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-buildingcli
+  filename: ldnjsnightclass-buildingcli
+  epoch_s_date: 1364409000
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-buildingcli/
+  seriesconfprettyname: ! 'London JS Night Classes: Building Command Line Interfaces'
+  seriesconfdescription: A London JS Night Class dedicated to building command line
+    tools with Node
+  url: /workshops/ldnjsnightclass-buildingcli
+craft:
+- speakerID: ''
+  series: craft
+  eventbriteid: ''
+  venue: brewdogshoreditch
+  title: Craft
+  map: 51-55 Bethnal Green Road, London, E1 6LA, United Kingdom
+  cost: Free
+  text: ! '<p>An evening dedicated to the skill and knowledge that goes in to creating
+    the finest beverages and digital products. Craft is hosted in BrewDogs&#39; Underdog
+    Bar in Redchurch Street and supported by the BrewDog Shoreditch Team.</p><p><strong>Tickets
+    will be released at 2pm on May 20th and 2pm on May 24th</strong></p><h2>Talks
+    by:</h2><p>Ian Fenn (link: http://twitter.com/ifenn text: @ifenn) - Designing
+    your UX PortfolioEvgenia Grinblo (link: http://twitter.com/grinblo text: @grinblo)
+    - What Craft and War Have in Common</p><h2>Beer Tasting:</h2><p>Punk IPA Vermouth</p><h2>Supported
+    by:</h2><p>(image: brewdog.png class: rmboxshad full-width link:http://www.brewdog.co.uk)</p>'
+  lanyrd: http://lanyrd.com/2013/craft-01/
+  booking_link: http://craft-1.eventbrite.com/
+  blurb: An evening of Craft Beer and Tech
+  date: 2013-06-03 18:00
+  end_Date: 2013-06-03 22:00
+  directory_tags:
+  - events
+  - meetups
+  - craft
+  filename: craft
+  epoch_s_date: 1370278800
+  seriesconfpath: site/_data/events/meetups/craft/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Craft'
+  seriesconfdescription: An evening of Craft Beer and Tech
+  url: /events/craft
+ldnjsnightclass-git:
+- speakerID: ''
+  series: ldnjsnightclass-git
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Class: Git Workshop'
+  map: 4-5 Bonhill Street, London, EC2A 4BX
+  cost: £50
+  text: ! '<p>Due to the success of our first Git workshop, we are happy to announce
+    a second one!</p><p>(image: gitworkshop.png class: full-width)</p><h3>Who is it
+    for?</h3><p>This workshop is for those who want to learn all the things they should
+    have learned when they started out with Git. Go from being a complete beginner
+    to highly proficient; learning the theory behind Git, all the necessary commands
+    you need to get by and more advanced things like publishing patches and creating
+    Git hooks. </p><h3>Who is taught by?</h3><p>This workshop is being taught by Kornel
+    Lesinski (link: https://twitter.com/pornelski text: @pornelski), Senior Developer
+    at BazaarVoice. Kornel is a developer with many languages in his toolset including
+    PHP, HTML5, CSS &amp; JavaScript. He has created many popular image compression
+    tools: (link: http://www.imageoptim.com text: ImageOptim), (link: http://www.pngmini.com
+    text: ImageAlpha) &amp; (link: http://www.pngquant.org text: pngquant) and is
+    a big fan of web-based game development and web standards. You&#39;ll find Kornel
+    talking at meet-ups, events and international conferences. </p><h3>What you&#39;ll
+    learn</h3><ul><li>The theory of Git: How it works and basic terms &amp; concepts.</li><li>How
+    to commit, push, pull and move files. </li><li>How to undo mistakes</li><li>How
+    to recover from the “strange and stupid” situations that arise when using Git</li><li>How
+    to accept and publish patches</li><li>How to deploy your changes to your live
+    server. </li><li>How to create Git Hooks; where Git will perform an action of
+    your choice upon receiving a new commit (send an email notification of changes,
+    deploy to website)</li></ul><h3>Preparation</h3><ul><li>Please bring your laptop</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-git2/
+  booking_link: http://ldnjsnightclass-git2.eventbrite.com/
+  blurb: An evening workshop dedicated to learning Git.
+  date: 2013-09-03 18:30
+  end_Date: 2013-09-03 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-git
+  filename: ldnjsnightclass-git
+  epoch_s_date: 1378229400
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-git/
+  seriesconfprettyname: ! 'London JS Night Classes: Git'
+  seriesconfdescription: An evening workshop dedicated to learning Git.
+  url: /workshops/ldnjsnightclass-git
+geekyscience:
+- speakerID: ''
+  series: geekyscience
+  eventbriteid: ''
+  venue: ''
+  title: ! 'GeekyScience: Evolution'
+  map: 35-47 Bethnal Green Rd London, E1 6LA
+  cost: £12-15
+  text: ! '<p>We&#39;re excited to announce a brand new monthly event, GeekyScience!</p><p>(image:
+    geekyscience.png class: full-width)</p><p>GeekyScience is an exciting evening
+    of learning and entertainment. Each month, experts in their field will come together
+    to share what they know, related to an overarching scientific theme that will
+    change each month. GeekyScience is both curated and hosted by (link: http://www.twitter.com/helenarney
+    text: Helen Arney), award-winning comedian and physics graduate. If you want to
+    learn about the things that live deep within the ocean, how to make an asteroid
+    or what an explosion scientist gets up to day-to-day; GeekyScience is something
+    you don’t want to miss. </p><h2>Septembers&#39; Theme: Evolution</h2><p>From Mendel&#39;s
+    discoveries on inheritance to Darwin&#39;s theory of natural selection, the theory
+    of evolution has led to an immense amount of scientific research and discovery.
+    (link: http://www.twitter.com/harpistkat text: Dr. Kat Arney), Science Information
+    Manager at Cancer Research UK, will be joining us to share her insights into the
+    evolution of Cancer and (link: http://www.twitter.com/adamrutherford text: Dr.
+    Adam Rutherford), journalist and presenter, will be using hip hop in his exploration
+    of evolution and synthetic biology.</p><h2>Refund Policy</h2><p>If you discover
+    that you are unable to attend the event you bought tickets for, we are happy to
+    arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
     text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
-    the event in question.\nIf you cannot attend the event you bought tickets for
-    but have a friend or coworker that you would like to go in your place, send an
-    email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
-    with your name and the name of the person you'd like to transfer to the ticket
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
     to. We will transfer your ticket as long as you notify us of this at least 24
-    hours before the event goes ahead.\n"
-  blurb: An evening workshop dedicated to learning AngularJS
-  what: AngularJS Workshop
-  date: 2013-12-04 19:00
-  end_date: 2013-12-04 22:00
-  where: hubwestminster
+    hours before the event goes ahead.</p>'
+  lanyrd: http://lanyrd.com/2013/geekyscience-september/
+  booking_link: http://geekyscience-september.eventbrite.com/
+  blurb: An evening of talks exploring an exciting variety of scientific topics.
+  date: 2013-09-05 19:00
+  end_Date: 2013-09-05 22:00
+  directory_tags:
+  - events
+  - meetups
+  - geekyscience
+  filename: geekyscience1
+  epoch_s_date: 1378404000
+  seriesconfpath: site/_data/events/meetups/geekyscience/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
+  seriesconfdescription: An evening of talks exploring an exciting variety of scientific
+    topics
+  url: /events/geekyscience
+- speakerID: ''
+  series: geekyscience
+  eventbriteid: ''
+  venue: ''
+  title: ! 'GeekyScience: Fire'
+  map: Central Foundation Boys School, Cowper Street, EC2A 4SH
+  cost: £6-10
+  text: ! '<p>GeekyScience is an exciting evening of learning and entertainment. Each
+    month, experts in their field will come together to share what they know, related
+    to an overarching scientific theme that will change each month. GeekyScience is
+    both curated and hosted by (link: http://www.twitter.com/helenarney text: Helen
+    Arney), award-winning comedian and physics graduate. If you want to learn about
+    the things that live deep within the ocean, how to make an asteroid or what an
+    explosion scientist gets up to day-to-day; GeekyScience is something you don’t
+    want to miss. </p><p>(image: geekyscience.png class: full-width)</p><h2>Octobers&#39;
+    Theme: Ice &amp; Fire</h2><p>Who invented the firework? How do you make special
+    effects? What on earth is Victorian fire science? All these questions and more
+    will be answered at this edition of GeekyScience. Not only that, there&#39;ll
+    be some fantastic demos to experience. (link: http://www.twitter.com/simon_werrett
+    text: Dr. Simon Werrett) will be taking us through the history of fireworks, (link:
+    http://www.twitter.com/pyroclaire text: Claire Benson) will be demonstrating the
+    world of Victorian fire science, (link: http://www.twitter.com/matthewtosh text:
+    Matthew Tosh) will be enlightening us with special effects, (link: http://www.twitter.com/helenscales
+    text: Helen Scales) will be teaching us about antarctic fish and antifreeze and
+    (link: http://www.twitter.com/russss text: Russ Garrett) from the (link: https://london.hackspace.org.uk
+    text: London Hackspace) will be making something awesome with liquid nitrogen.</p><h2>Refund
+    Policy</h2><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrd: http://lanyrd.com/2013/geekyscience-october/
+  booking_link: http://geekyscience-october.eventbrite.com/
+  blurb: An evening of talks exploring an exciting variety of scientific topics.
+  date: 2013-10-03 19:00
+  end_Date: 2013-10-03 22:00
+  directory_tags:
+  - events
+  - meetups
+  - geekyscience
+  filename: geeky-science2
+  epoch_s_date: 1380823200
+  seriesconfpath: site/_data/events/meetups/geekyscience/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
+  seriesconfdescription: An evening of talks exploring an exciting variety of scientific
+    topics
+  url: /events/geekyscience
+- speakerID: ''
+  series: geekyscience
+  eventbriteid: ''
+  venue: ''
+  title: ! 'GeekyScience: Spaaace'
+  map: Central Foundation Boys School, Cowper Street, EC2A 4SH
+  cost: £6-10
+  text: ! '<p>GeekyScience is an exciting evening of learning and entertainment. Each
+    month, experts in their field will come together to share what they know, related
+    to an overarching scientific theme that will change each month. GeekyScience is
+    both curated and hosted by (link: http://www.twitter.com/helenarney text: Helen
+    Arney), award-winning comedian and physics graduate. If you want to learn about
+    the things that live deep within the ocean, how to make an asteroid or what an
+    explosion scientist gets up to day-to-day; GeekyScience is something you don’t
+    want to miss. </p><p>(image: geekyscience.png class: full-width)</p><h2>Theme:
+    Space</h2><p>&quot;Space is big. You just won&#39;t believe how vastly, hugely,
+    mind- bogglingly big it is. I mean, you may think it&#39;s a long way down the
+    road to the chemist&#39;s, but that&#39;s just peanuts to space.&quot;- Douglas
+    Adams, The Hitchhikers Guide to the Galaxy</p><p>Our third edition of GeekyScience
+    is all about SPACE! (link: http://www.twitter.com/saturnsheila text: Sheila Kenani)
+    will be doing a whistle stop tour of the solar system, (link: http://www.twitter.com/skyponderer
+    text: Colin Stuart) will be teaching us all about black holes and (link: http://www.twitter.com/lewis_dartnell
+    text: Lewis Dartnell) will be informing us of what an Alien might look like. There
+    will be asteroids! And more to be announced.</p><p><strong>Doors will open at
+    6PM, with talks starting at 7PM</strong></p><h2>Refund Policy</h2><p>If you discover
+    that you are unable to attend the event you bought tickets for, we are happy to
+    arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrd: http://lanyrd.com/2013/geekyscience-november/
+  booking_link: http://geekyscience-november.eventbrite.com/
+  blurb: An evening of talks exploring an exciting variety of scientific topics.
+  date: 2013-10-31 19:00
+  end_Date: 2013-10-31 22:00
+  directory_tags:
+  - events
+  - meetups
+  - geekyscience
+  filename: geeky-science3
+  epoch_s_date: 1383246000
+  seriesconfpath: site/_data/events/meetups/geekyscience/
+  seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
+  seriesconfdescription: An evening of talks exploring an exciting variety of scientific
+    topics
+  url: /events/geekyscience
+ldnjsnightclass-backbone:
+- speakerID: ''
+  series: ldnjsnightclass-backbone
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Class: Backbone.js'
+  map: 4-5 Bonhill Street, London, EC2A 4BX
   cost: £60
+  text: ! '<p>On the 17th of September, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a workshop in which you can learn to use Backbone.js
+    to create web applications. </p><p>&lt;p class=&quot;soldout&quot;&gt; This workshop
+    has sold out. However; we have another (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-backbone3
+    text: Backbone workshop here!)&lt;/p&gt;</p><p>(image: backbone.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for those who want to learn how to build scalable
+    JavaScript applications.</p><p>In one evening you will discover how to work with
+    Backbone.js to create testable, maintable code with a clear structure. This class
+    will take your existing JS, HTML and CSS skills and allow you to create modern
+    thick-client applications using Backbone. </p><h3>Who is it taught by?</h3><p>This
+    workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles).
+    Tim is a Ruby &amp; JavaScript Developer living and working in London. Having
+    previously worked for Skimlinks as their tech lead, he now spends time mentoring
+    others and working on (link: http://www.sidekickjs.com text: SidekickJS), his
+    code-quality tracking tool. You can find him speaking about Sidekick and other
+    aspects of the web at (link: http://www.lanyrd.com/timruffles text: various events).
+    </p><h3>What you&#39;ll learn</h3><ul><li>Getting started with Backbone.js</li><li>Models
+    &amp; Collections</li><li>Views</li><li>Routers</li><li>Application structure</li><li>TDD
+    - Test-Driven Development</li><li>Plugins, templates and extensions</li><li>Extending
+    Backbone.sync</li></ul><h3>Requirements</h3><ul><li>Please bring your laptop</li><li>To
+    take part in this course, you must be well-versed in JavaScript, jQuery (or similar
+    DOM library) and HTML/CSS.</li></ul><h3>Refund Policy</h3><p>If you discover that
+    you are unable to attend the event you bought tickets for, we are happy to arrange
+    a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-backbone
+  booking_link: http://ldnjsnightclass-backbone.eventbrite.com/
+  blurb: An evening workshop dedicated to learning Backbone
+  date: 2013-09-17 18:30
+  end_Date: 2013-09-17 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-backbone
+  filename: ldnjsnightclass-backbone
+  epoch_s_date: 1379439000
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
+  seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
+  seriesconfdescription: An evening workshop dedicated to learning Backbone
+  url: /workshops/ldnjsnightclass-backbone
+- speakerID: ''
+  series: ldnjsnightclass-backbone
+  eventbriteid: ''
+  venue: hubwestminster
+  title: ! 'London JS Night Class: Backbone.js'
   map: 80 Haymarket, London, SW1Y 4TE
-  infobox: ! "<h1>\n\t<span>AngularJS Workshop</span>\n\t<span>5th November 2013</span>\n\t<abbr
-    class=\"easydate\">Tues, 05 November 2013 19:00:00 +0000</abbr>\n\t<a href=\"http://ldnjsnightclass-angular2.eventbrite.com/\"
-    target=\"_blank\">View Tickets</a>\n</h1>\n"
-  booking_link: http://ldnjsnightclass-angular2.eventbrite.com/
+  cost: £60
+  text: ! '<p>On the 30th of October, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a workshop in which you can learn to use Backbone.js
+    to create web applications. </p><p>&lt;p class=&quot;soldout&quot;&gt; This workshop
+    has sold out. However; we have another (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-backbone3
+    text: Backbone workshop here!)&lt;/p&gt;</p><p>(image: backbone.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for those who want to learn how to build scalable
+    JavaScript applications.</p><p>In one evening you will discover how to work with
+    Backbone.js to create testable, maintable code with a clear structure. This class
+    will take your existing JS, HTML and CSS skills and allow you to create modern
+    thick-client applications using Backbone. </p><h3>Who is it taught by?</h3><p>This
+    workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles).
+    Tim is a Ruby &amp; JavaScript Developer living and working in London. Having
+    previously worked for Skimlinks as their tech lead, he now spends time mentoring
+    others and working on (link: http://www.sidekickjs.com text: SidekickJS), his
+    code-quality tracking tool. You can find him speaking about Sidekick and other
+    aspects of the web at (link: http://www.lanyrd.com/timruffles text: various events).
+    </p><h3>What you&#39;ll learn</h3><ul><li>Getting started with Backbone.js</li><li>Models
+    &amp; Collections</li><li>Views</li><li>Routers</li><li>Application structure</li><li>TDD
+    - Test-Driven Development</li><li>Plugins, templates and extensions</li><li>Extending
+    Backbone.sync</li></ul><h3>Requirements</h3><ul><li>Please bring your laptop</li><li>To
+    take part in this course, you must be well-versed in JavaScript, jQuery (or similar
+    DOM library) and HTML/CSS.</li></ul><h3>Refund Policy</h3><p>If you discover that
+    you are unable to attend the event you bought tickets for, we are happy to arrange
+    a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-backbone2
+  booking_link: http://ldnjsnightclass-backbone2.eventbrite.com/
+  blurb: An evening workshop dedicated to learning Backbone
+  date: 2013-10-30 19:00
+  end_Date: 2013-10-30 22:00
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-backbone
+  filename: ldnjsnightclass-backbone2
+  epoch_s_date: 1383159600
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
+  seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
+  seriesconfdescription: An evening workshop dedicated to learning Backbone
+  url: /workshops/ldnjsnightclass-backbone
+- speakerID: ''
+  series: ldnjsnightclass-backbone
+  eventbriteid: '8490975737'
+  venue: hubwestminster
+  title: ! 'London JS Night Class: Backbone.js'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 29th of January, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a workshop in which you can learn to use Backbone.js
+    to create web applications. </p><p>(image: backbone.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for those who want to learn how to build scalable
+    JavaScript applications.</p><p>In one evening you will discover how to work with
+    Backbone.js to create testable, maintable code with a clear structure. This class
+    will take your existing JS, HTML and CSS skills and allow you to create modern
+    thick-client applications using Backbone. </p><h3>Who is it taught by?</h3><p>This
+    workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles).
+    Tim is a Ruby &amp; JavaScript Developer living and working in London. Having
+    previously worked for Skimlinks as their tech lead, he now spends time mentoring
+    others and working on (link: http://www.sidekickjs.com text: SidekickJS), his
+    code-quality tracking tool. You can find him speaking about Sidekick and other
+    aspects of the web at (link: http://www.lanyrd.com/timruffles text: various events).
+    </p><h3>What you&#39;ll learn</h3><ul><li>Getting started with Backbone.js</li><li>Models
+    &amp; Collections</li><li>Views</li><li>Routers</li><li>Application structure</li><li>TDD
+    - Test-Driven Development</li><li>Plugins, templates and extensions</li><li>Extending
+    Backbone.sync</li></ul><h3>Requirements</h3><ul><li>Please bring your laptop</li><li>To
+    take part in this course, you must be well-versed in JavaScript, jQuery (or similar
+    DOM library) and HTML/CSS.</li></ul><h3>Refund Policy</h3><p>If you discover that
+    you are unable to attend the event you bought tickets for, we are happy to arrange
+    a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-backbone3/speakers/347a6bd7b316d66a.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ldnjsnightclass-backbone3
+  booking_link: http://ldnjsnightclass-backbone3.eventbrite.com/
+  blurb: An evening workshop dedicated to learning Backbone
+  date: 2014-01-29 19:00
+  end_Date: 2014-01-29 22:00
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-backbone
+  filename: ldnjsnightclass-backbone3
+  epoch_s_date: 1391022000
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
+  seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
+  seriesconfdescription: An evening workshop dedicated to learning Backbone
+  url: /workshops/ldnjsnightclass-backbone
+ldnjsnightclass-introtojs:
+- speakerID: ''
+  series: ldnjsnightclass-introtojs
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Classes: An Introduction to JavaScript'
+  map: 4-5 Bonhill Street, London, EC2A 4BX
+  cost: £200
+  text: ! '<p><strong>Please Note: This is a five week course!Each workshop will be
+    held at Google Campus from 6.30 - 9.30pm (BST).</strong></p><p>(image: introjseh.png
+    class: full-width)</p><h2>Who&#39;s it for?</h2><p>Have you been meaning to learn
+    JavaScript but have had difficulty setting aside time to do so or just don&#39;t
+    know where to start? This workshop is for people who are interested in learning
+    JavaScript but have no/little previous experience with it. </p><p>In this course,
+    for a few hours each week, you will be given a hands on approach to JavaScript
+    with Daniel taking you through each core aspect of the language. </p><p>If you
+    have any questions about the course, get in touch at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk).</p><h2>Who&#39;s teaching?</h2><p>This workshop
+    is being run by (link: http://www.twitter.com/danielknell text: Daniel Knell),
+    a Senior Developer proficient in several languages, of which JavaScript is just
+    one. Daniel has created many interesting things at a number of hackdays, winning
+    both (link: http://envhack.com text: env[:hack]) and (link: http://rewiredstate.org/hacks/national-hack-the-government-2013
+    text: National Hack the Government Day). He also speaks regularly at a number
+    of meet-ups across London. </p><h2>What you will learn:</h2><p>You will cover
+    the fundamentals of the JavaScript programming language, starting with the basics
+    and moving on to more advanced concepts with an end goal of creating a simple
+    game purely in JavaScript.</p><ul><li>Basic Data Types (Strings, Numbers, etc.)</li><li>Maths
+    in JavaScript</li><li>Classes</li><li>Objects</li><li>Arrays</li><li>Functions</li><li>Basic
+    DOM (Document Object Model) operations</li><li>How to build a simple game solely
+    with JavaScript</li></ul><h2>Preparation</h2><ul><li>Please bring a laptop with
+    a modern browser and good text editor installed.</li></ul><h2>Workshop Dates:</h2><ul><li>Week
+    1 - Tuesday 24th September 2013</li><li>Week 2 - Tuesday 1st October 2013</li><li>Week
+    3 - Tuesday 8th October 2013</li><li>Week 4 - Tuesday 15th October 2013</li><li>Week
+    5 - Tuesday 22nd October 2013</li></ul><h3>Refund Policy</h3><p>If you discover
+    that you are unable to attend the event you bought tickets for, we are happy to
+    arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-introtojs/
+  booking_link: http://ldnjsnightclass-introtojs.eventbrite.com/
+  blurb: A five week course on learning JavaScript.
+  date: 2013-09-24 18:30
+  end_Date: 2013-09-24 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-introtojs
+  filename: ldnjsnightclass-introtojs
+  epoch_s_date: 1380043800
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-introtojs/
+  seriesconfprettyname: ! 'London JS Night Classes: Introduction to JS'
+  seriesconfdescription: A five week course on learning JavaScript.
+  url: /workshops/ldnjsnightclass-introtojs
+uxnightclass-gamesdesign:
+- speakerID: ''
+  series: uxnightclass-gamesdesign
+  eventbriteid: '9076166057'
+  venue: hubwestminster
+  title: ! 'Finding the Fun: Game Design & Iteration at High-speed'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 15th of October, Award-winning games designer and publisher
+    (link: http://www.twitter.com/jameswallis text: James Wallis) will give you a
+    crash course in creating board-games and card-games.</p><p>(image: james.png class:
+    full-width)</p><p>In modern design, building stuff fast and getting to a working
+    version are key, but making and testing prototypes (code or physical objects)
+    can be enormously time-consuming. Learning how to work with paper prototypes—meta-versions
+    of your design—to iterate the project quickly can save you days. In this workshop
+    James Wallis will teach you to create and flesh out a concept for a simple multi-user
+    system, build a working prototype, watch as other people test it and critique
+    it, and use that criticism to rework the design towards a finished product.</p><h3>Who
+    is it taught by?</h3><p>This fun evening workshop is being hosted by James Wallis
+    (link: http://www.twitter.com/jameswallis text: @jameswallis). James is a games
+    designer and publisher who is behind popular games such as &quot;Once Upon a Time&quot;
+    and &quot;The Extraordinary Adventures of Baron Munchausen&quot;. He runs &quot;Spaaace&quot;,
+    a games consultancy, and founded the Diana Jones award for excellence in gaming.
+    Each year he runs (link: http://www.gamecamp.org.uk text: GameCamp).</p><h3>What
+    this workshop will cover</h3><ul><li>Conceptualising a game</li><li>Prototyping
+    a game</li><li>Testing your game with other users</li><li>Giving and receiving
+    feedback</li><li>Solving bugs in your design</li></ul><h3>Requirements</h3><p>Just
+    bring yourself! We&#39;ll provide all the necessary materials at the workshop.</p><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrd: http://www.lanyrd.com/2013/uxnightclass-gamesdesign
+  booking_link: http://uxnightclass-gamesdesign.eventbrite.com/
+  blurb: An evening of high-speed games design
+  date: 2013-10-15 19:00
+  end_Date: 2013-10-15 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-gamesdesign
+  filename: uxnightclass-gamesdesign
+  epoch_s_date: 1381860000
+  seriesconfpath: site/_data/events/workshops/uxnightclass-gamesdesign/
+  seriesconfprettyname: ! 'Finding the Fun: Game Design & Iteration at High-speed'
+  seriesconfdescription: An evening of high-speed games design
+  url: /workshops/uxnightclass-gamesdesign
+ldnjsnightclass-angular:
+- speakerID: ''
+  series: ldnjsnightclass-angular
+  eventbriteid: ''
+  venue: hubwestminster
+  title: ! 'London JS Night Class: AngularJS'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 16th of October, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a workshop in which you can learn to use AngularJS</p><p>&lt;p
+    class=&quot;soldout&quot;&gt; This workshop has sold out. However; we have another
+    (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-angular3 text: AngularJS
+    workshop here!)&lt;/p&gt;</p><p>(image: angularjs.png class: full-width)</p><h3>Who
+    is it for?</h3><p>AngularJS makes creating rich web-apps easier than ever before.
+    With the philosophy of embracing and extending HTML, powerful data-binding, and
+    decoupling and testability via dependency-injects, it&#39;s fast becoming the
+    most popular MVC framework.</p><p>This workshop is for anyone unfamiliar with
+    AngularJS. Tim will take you through building your first AngularJS application,
+    and introduce some of the meatier aspects of the framework like directives.</p><h3>Who
+    is it taught by?</h3><p>This workshop is being run by (link: http://www.twitter.com/timruffles
+    text: Tim Ruffles). Tim is a Ruby &amp; JavaScript Developer living and working
+    in London. Having previously worked for Skimlinks as their tech lead, he now spends
+    time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS),
+    his code-quality tracking tool. You can find him speaking about the web at (link:
+    http://www.lanyrd.com/timruffles text: various events). </p><h3>What you&#39;ll
+    learn</h3><ul><li>The philosophy of Angular</li><li>Booting the app</li><li>Data-binding</li><li>Controllers</li><li>Directives</li><li>Routing</li><li>Requesting
+    data</li><li>Testing</li></ul><h3>Requirements</h3><ul><li>Familiarity with JavaScript</li><li>Please
+    bring your laptop with your text editor of choice installed</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrd: http://lanyrd.com/2013/ldnjsnightclass-angular
+  booking_link: http://ldnjsnightclass-angularjs.eventbrite.com/
+  blurb: An evening workshop dedicated to learning AngularJS
+  date: 2013-10-16 19:00
+  end_Date: 2013-10-16 22:00
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-angular
+  filename: ldnjsnightclass-angular
+  epoch_s_date: 1381946400
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
+  seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
+  seriesconfdescription: An evening workshop dedicated to learning AngularJS
+  url: /workshops/ldnjsnightclass-angular
+- speakerID: ''
+  series: ldnjsnightclass-angular
+  eventbriteid: ''
+  venue: hubwestminster
+  title: ! 'London JS Night Class: AngularJS'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 5th of November, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a workshop in which you can learn to use AngularJS</p><p>&lt;p
+    class=&quot;soldout&quot;&gt; This workshop has sold out. However; we have a second
+    (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-angular3 text: AngularJS
+    workshop here!)&lt;/p&gt;</p><p>(image: angularjs.png class: full-width)</p><h3>Who
+    is it for?</h3><p>AngularJS makes creating rich web-apps easier than ever before.
+    With the philosophy of embracing and extending HTML, powerful data-binding, and
+    decoupling and testability via dependency-injects, it&#39;s fast becoming the
+    most popular MVC framework.</p><p>This workshop is for anyone unfamiliar with
+    AngularJS. Tim will take you through building your first AngularJS application,
+    and introduce some of the meatier aspects of the framework like directives.</p><h3>Who
+    is it taught by?</h3><p>This workshop is being run by (link: http://www.twitter.com/timruffles
+    text: Tim Ruffles). Tim is a Ruby &amp; JavaScript Developer living and working
+    in London. Having previously worked for Skimlinks as their tech lead, he now spends
+    time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS),
+    his code-quality tracking tool. You can find him speaking about the web at (link:
+    http://www.lanyrd.com/timruffles text: various events). </p><h3>What you&#39;ll
+    learn</h3><ul><li>The philosophy of Angular</li><li>Booting the app</li><li>Data-binding</li><li>Controllers</li><li>Directives</li><li>Routing</li><li>Requesting
+    data</li><li>Testing</li></ul><h3>Requirements</h3><ul><li>Familiarity with JavaScript</li><li>Please
+    bring your laptop with your text editor of choice installed</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
   lanyrd: http://lanyrd.com/2013/ldnjsnightclass-angular2
+  booking_link: http://ldnjsnightclass-angular2.eventbrite.com/
+  blurb: An evening workshop dedicated to learning AngularJS
+  date: 2013-11-05 19:00
+  end_Date: 2013-11-05 22:00
   directory_tags:
   - events
   - workshops
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular2
-  epoch_s_date: 1386183600
-  epoch_s_end_date: 1386194400
+  epoch_s_date: 1383678000
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
-  seriesconfprettyname: London JS Night AngularJS Night Classes
-  seriesconfdescription: LondonJS night classes are classes designed to teach you
-    stuff.
+  seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
+  seriesconfdescription: An evening workshop dedicated to learning AngularJS
   url: /workshops/ldnjsnightclass-angular
-- speakerid: amroche
-  title: ! 'London JS Night Class: AngularJS'
+- speakerID: ''
   series: ldnjsnightclass-angular
-  eventbriteid: haddock
-  text: ! "On the 19th of February, (link: http://www.twitter.com/timruffles text:
-    Tim Ruffles) will be hosting a workshop in which you can learn to use AngularJS\n(image:
-    angularjs.png class: full-width)\n### Who is it for?\nAngularJS makes creating
-    rich web-apps easier than ever before. With the philosophy of embracing and extending
-    HTML, powerful data-binding, and decoupling and testability via dependency-injects,
-    it's fast becoming the most popular MVC framework.\nThis workshop is for anyone
-    unfamiliar with AngularJS. Tim will take you through building your first AngularJS
-    application, and introduce some of the meatier aspects of the framework like directives.\n###
-    Who is it taught by?\nThis workshop is being run by (link: http://www.twitter.com/timruffles
-    text: Tim Ruffles). Tim is a Ruby & JavaScript Developer living and working in
-    London. Having previously worked for Skimlinks as their tech lead, he now spends
-    time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS),
-    his code-quality tracking tool. You can find him speaking about the web at (link:
-    http://www.lanyrd.com/timruffles text: various events). \n### What you'll learn\n*
-    The philosophy of Angular\n* Booting the app\n* Data-binding\n* Controllers\n*
-    Directives\n* Routing\n* Requesting data\n* Testing\n### Requirements\n* Familiarity
-    with JavaScript\n* Please bring your laptop with your text editor of choice installed\n###
-    Refund Policy\nIf you discover that you are unable to attend the event you bought
+  eventbriteid: '8563727339'
+  venue: hubwestminster
+  title: ! 'London JS Night Class: AngularJS'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 19th of February, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a workshop in which you can learn to use AngularJS</p><p>(image:
+    angularjs.png class: full-width)</p><h3>Who is it for?</h3><p>AngularJS makes
+    creating rich web-apps easier than ever before. With the philosophy of embracing
+    and extending HTML, powerful data-binding, and decoupling and testability via
+    dependency-injects, it&#39;s fast becoming the most popular MVC framework.</p><p>This
+    workshop is for anyone unfamiliar with AngularJS. Tim will take you through building
+    your first AngularJS application, and introduce some of the meatier aspects of
+    the framework like directives.</p><h3>Who is it taught by?</h3><p>This workshop
+    is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles). Tim
+    is a Ruby &amp; JavaScript Developer living and working in London. Having previously
+    worked for Skimlinks as their tech lead, he now spends time mentoring others and
+    working on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality
+    tracking tool. You can find him speaking about the web at (link: http://www.lanyrd.com/timruffles
+    text: various events). </p><h3>What you&#39;ll learn</h3><ul><li>The philosophy
+    of Angular</li><li>Booting the app</li><li>Data-binding</li><li>Controllers</li><li>Directives</li><li>Routing</li><li>Requesting
+    data</li><li>Testing</li></ul><h3>Requirements</h3><ul><li>Familiarity with JavaScript</li><li>Please
+    bring your laptop with your text editor of choice installed</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
     tickets for, we are happy to arrange a 100% refund for you as long as you notify
     us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
-    your need for a refund, up to a month before the event in question.\nIf you cannot
-    attend the event you bought tickets for but have a friend or coworker that you
-    would like to go in your place, send an email to (email: contact@eventhandler.co.uk
-    text: contact@eventhandler.co.uk) with your name and the name of the person you'd
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
     like to transfer to the ticket to. We will transfer your ticket as long as you
-    notify us of this at least 24 hours before the event goes ahead.\n"
-  blurb: An evening workshop dedicated to learning AngularJS
-  what: AngularJS Workshop
-  date: 2014-02-19 19:00
-  end_date: 2014-02-19 22:00
-  where: hubwestminster
-  cost: £60
-  map: 80 Haymarket, London, SW1Y 4TE
-  booking_link: http://ldnjsnightclass-angular3.eventbrite.com/
-  lanyrd: http://lanyrd.com/2014/ldnjsnightclass-angular3
+    notify us of this at least 24 hours before the event goes ahead.</p>'
   lanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-angular3/speakers/094b36a609944855.v1.json
+  lanyrd: http://lanyrd.com/2014/ldnjsnightclass-angular3
+  booking_link: http://ldnjsnightclass-angular3.eventbrite.com/
+  blurb: An evening workshop dedicated to learning AngularJS
+  date: 2014-02-19 19:00
+  end_Date: 2014-02-19 22:00
   directory_tags:
   - events
   - workshops
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular3
   epoch_s_date: 1392836400
-  epoch_s_end_date: 1392847200
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
-  seriesconfprettyname: London JS Night AngularJS Night Classes
-  seriesconfdescription: LondonJS night classes are classes designed to teach you
-    stuff.
+  seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
+  seriesconfdescription: An evening workshop dedicated to learning AngularJS
   url: /workshops/ldnjsnightclass-angular
+uxnightclass-usability:
+- speakerID: ''
+  series: uxnightclass-usability
+  eventbriteid: ''
+  venue: hubwestminster
+  title: Usability Testing How To's for Small Teams (& Little Budgets)
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 24th of October, (link: http://www.twitter.com/grinblo text:
+    Evgenia Grinblo) will be a night class on usability testing, showing you how to
+    test products reliably and cheaply.</p><p>&lt;p class=&quot;soldout&quot;&gt;
+    This workshop has sold out. However; we have a second (link: http://www.eventhandler.co.uk/events/uxnightclass-usability2
+    text: workshop here!)&lt;/p&gt;</p><p>(image: usability.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for those who want to create products that
+    will be easy to use. Usability testing is an important part of the process of
+    designing digital products, but it can often be overlooked due to time, money,
+    and training constraints. In this workshop you&#39;ll learn how to test any product&#39;s
+    usability without spending a large amount of time and money. And how to use what
+    you&#39;ve learned to improve the product. </p><h3>Who is it taught by?</h3><p>This
+    workshop is being taught by Evgenia Grinblo (link: http://www.twitter.com/grinblo
+    text: @grinblo), User Experience Specialist at mobile agency, (link: http://www.futureworkshops.com
+    text: Future Workshops). Born in Siberia, Jenny freelanced and trained in ethnographic
+    research in Israel and the USA, before bringing her talent to the UK. Her pet
+    peeve is badly written error-messages and she has a (link: http://errorwallofshame.tumblr.com/
+    text: growing collection of them). You&#39;ll find her (link: http://www.lanyrd.com/grinblo
+    text: speaking) on empathy, UX, and other passions.</p><h3>What you&#39;ll learn</h3><ul><li>An
+    introduction to usability testing - what is it?</li><li>Who should you test your
+    product on? </li><li>What do you test?</li><li>How to facilitate a test and get
+    reliable results</li><li>How to manage data and act on your findings with your
+    team</li><li>Tools: Cheap, quick and effective testing tools for mobile and the
+    web. </li></ul><h3>Requirements</h3><ul><li>Please bring a laptop or mobile device
+    on which to test a website or app</li></ul><h3>Refund Policy</h3><p>If you discover
+    that you are unable to attend the event you bought tickets for, we are happy to
+    arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrd: http://www.lanyrd.com/2013/uxnightclass-usability
+  booking_link: http://uxnightclass-usability.eventbrite.com/
+  blurb: Cheap and effective usability testing
+  date: 2013-10-24 19:00
+  end_Date: 2013-10-24 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-usability
+  filename: uxnightclass-usability
+  epoch_s_date: 1382637600
+  seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
+  seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
+  seriesconfdescription: Cheap and effective usability testing
+  url: /workshops/uxnightclass-usability
+- speakerID: ''
+  series: uxnightclass-usability
+  eventbriteid: '8813855479'
+  venue: hubwestminster
+  title: Usability Testing How To's for Small Teams (& Little Budgets)
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 22nd of January, (link: http://www.twitter.com/grinblo text:
+    Evgenia Grinblo) will be a night class on usability testing, showing you how to
+    test products reliably and cheaply.</p><p>(image: usability.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for those who want to create products that
+    will be easy to use. Usability testing is an important part of the process of
+    designing digital products, but it can often be overlooked due to time, money,
+    and training constraints. In this workshop you&#39;ll learn how to test any product&#39;s
+    usability without spending a large amount of time and money. And how to use what
+    you&#39;ve learned to improve the product. </p><h3>Who is it taught by?</h3><p>This
+    workshop is being taught by Evgenia Grinblo (link: http://www.twitter.com/grinblo
+    text: @grinblo), User Experience Specialist at mobile agency, (link: http://www.futureworkshops.com
+    text: Future Workshops). Born in Siberia, Jenny freelanced and trained in ethnographic
+    research in Israel and the USA, before bringing her talent to the UK. Her pet
+    peeve is badly written error-messages and she has a (link: http://errorwallofshame.tumblr.com/
+    text: growing collection of them). You&#39;ll find her (link: http://www.lanyrd.com/grinblo
+    text: speaking) on empathy, UX, and other passions.</p><h3>What you&#39;ll learn</h3><ul><li>An
+    introduction to usability testing - what is it?</li><li>Who should you test your
+    product on? </li><li>What do you test?</li><li>How to facilitate a test and get
+    reliable results</li><li>How to manage data and act on your findings with your
+    team</li><li>Tools: Cheap, quick and effective testing tools for mobile and the
+    web. </li></ul><h3>Requirements</h3><ul><li>Please bring a laptop or mobile device
+    on which to test a website or app</li></ul><h3>Refund Policy</h3><p>If you discover
+    that you are unable to attend the event you bought tickets for, we are happy to
+    arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-usability2/speakers/ad3a51671826c033.v1.json
+  lanyrd: http://www.lanyrd.com/2014/uxnightclass-usability2
+  booking_link: http://uxnightclass-usability2.eventbrite.com/
+  blurb: Cheap and effective usability testing
+  date: 2014-01-22 19:00
+  end_Date: 2014-01-22 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-usability
+  filename: uxnightclass-usability2
+  epoch_s_date: 1390417200
+  seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
+  seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
+  seriesconfdescription: Cheap and effective usability testing
+  url: /workshops/uxnightclass-usability
+- speakerID: ''
+  series: uxnightclass-usability
+  eventbriteid: '9479853497'
+  venue: hubwestminster
+  title: Usability Testing How To's for Small Teams (& Little Budgets)
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 18th of February, (link: http://www.twitter.com/grinblo text:
+    Evgenia Grinblo) will be a night class on usability testing, showing you how to
+    test products reliably and cheaply.</p><p>(image: usability.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for those who want to create products that
+    will be easy to use. Usability testing is an important part of the process of
+    designing digital products, but it can often be overlooked due to time, money,
+    and training constraints. In this workshop you&#39;ll learn how to test any product&#39;s
+    usability without spending a large amount of time and money. And how to use what
+    you&#39;ve learned to improve the product. </p><h3>Who is it taught by?</h3><p>This
+    workshop is being taught by Evgenia Grinblo (link: http://www.twitter.com/grinblo
+    text: @grinblo), User Experience Specialist at mobile agency, (link: http://www.futureworkshops.com
+    text: Future Workshops). Born in Siberia, Jenny freelanced and trained in ethnographic
+    research in Israel and the USA, before bringing her talent to the UK. Her pet
+    peeve is badly written error-messages and she has a (link: http://errorwallofshame.tumblr.com/
+    text: growing collection of them). You&#39;ll find her (link: http://www.lanyrd.com/grinblo
+    text: speaking) on empathy, UX, and other passions.</p><h3>What you&#39;ll learn</h3><ul><li>An
+    introduction to usability testing - what is it?</li><li>Who should you test your
+    product on? </li><li>What do you test?</li><li>How to facilitate a test and get
+    reliable results</li><li>How to manage data and act on your findings with your
+    team</li><li>Tools: Cheap, quick and effective testing tools for mobile and the
+    web. </li></ul><h3>Requirements</h3><ul><li>Please bring a laptop or mobile device
+    on which to test a website or app</li></ul><h3>Refund Policy</h3><p>If you discover
+    that you are unable to attend the event you bought tickets for, we are happy to
+    arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-usability3/speakers/8233f67417ae23e3.v1.json
+  lanyrd: http://www.lanyrd.com/2014/uxnightclass-usability3
+  booking_link: http://uxnightclass-usability3.eventbrite.com/
+  blurb: Cheap and effective usability testing
+  date: 2014-02-18 19:00
+  end_Date: 2014-02-18 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-usability
+  filename: uxnightclass-usability3
+  epoch_s_date: 1392750000
+  seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
+  seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
+  seriesconfdescription: Cheap and effective usability testing
+  url: /workshops/uxnightclass-usability
+uxnightclass-uxdeliverables:
+- speakerID: ''
+  series: uxnightclass-uxdeliverables
+  eventbriteid: '9475727155'
+  venue: hubwestminster
+  title: Best Practice for UX Deliverables
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 28th of January, Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom) will be holding an evening class on creating well presented
+    deliverables to communicate your work.</p><p>(image: uxforux.png class: full-width)</p><p>Whilst
+    the work we do is not meant to be hanged on a wall for people to admire, nor is
+    meant to be put in a drawer and forgotten about. Just as we make the products
+    and services we design easy to use, the UX of UX is about communicating your thinking
+    in a way that ensures that what you&#39;ve defined is easy to understand for the
+    reader. It&#39;s about adapting the work you do to the project in question and
+    finding the right balance of making people want to look through your work whilst
+    not spending unnecessary time on making it pretty.</p><h3>Who is it for?</h3><p>This
+    workshop is suitable for anyone starting out in UX, or who&#39;s worked with it
+    for a while but is looking to improve the way they present their work. </p><h3>Who
+    is it taught by?</h3><p>The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom), an Information Architecure and User Experience consultant.
+    Originally from Sweden, Anna lives and works in London. Having previously worked
+    for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances
+    part-time.</p><h3>What you&#39;ll learn</h3><p>In this hands on workshop we&#39;ll
+    walk through real life examples of why the UX of UX deliverables matter. We&#39;ll
+    cover how who the reader is effects the way we should present our work, both on
+    paper and verbally, and how to ensure that the work you do adds value. Coming
+    out of the workshop you&#39;ll have practical examples and hands on experience
+    with:</p><ul><li>How to adapt and sell your UX deliverable to the reader (from
+    clients, your team, in house and outsourced developers)</li><li>Guiding principles
+    for creating good UX deliverables (both low and high fidelity)</li><li>Best practice
+    for presentations, personas, user journeys, flows, sitemaps, wireframes and other
+    documents</li><li>Simple, low effort but big impact tools for improving the visual
+    presentation of your UX deliverables</li></ul><h3>Requirements</h3><ul><li>Please
+    bring your laptop</li></ul><h3>Refund Policy</h3><p>If you discover that you are
+    unable to attend the event you bought tickets for, we are happy to arrange a 100%
+    refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-uxdeliverables2/speakers/df72083b7c6b6956.v1.json
+  lanyrd: http://www.lanyrd.com/2014/uxnightclass-uxdeliverables2
+  booking_link: http://uxnightclass-uxdeliverables2.eventbrite.com/
+  blurb: Best Practice for UX Deliverables
+  date: 2014-01-28 19:00
+  end_Date: 2013-01-28 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-uxdeliverables
+  filename: uxnightclass-uxdeliverables
+  epoch_s_date: 1390935600
+  seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
+  seriesconfprettyname: Best Practice for UX Deliverables
+  seriesconfdescription: Best Practice for UX Deliverables
+  url: /workshops/uxnightclass-uxdeliverables
+eventhandlernightclass-introtogit:
+- speakerID: ''
+  series: eventhandlernightclass-introtogit
+  eventbriteid: '8775073481'
+  venue: hubwestminster
+  title: An Introduction to Git
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 4th of February, (link: http://www.twitter.com/pornelski
+    text: Kornel Lesiński) will be holding an evening workshop on how to get started
+    with Git.</p><p>(image: gitworkshop.png class: full-width)</p><h3>Who is it for?</h3><p>When
+    git is saying &quot;your working tree is dirty&quot; it&#39;s not trying to offend
+    you. Git&#39;s messages are written in Gittish and they&#39;re quite helpful once
+    you get a Gittish-English dictionary.</p><p>The workshop will explain all operations
+    needed to use git fluently: committing, pushing, pulling, merging and rebasing.
+    Resolving conflicts, moving commits between branches, undoing changes. Advice
+    on best practices and good workflow.</p><h3>Who is taught by?</h3><p>This workshop
+    is being taught by Kornel Lesinski (link: http://twitter.com/pornelski text: @pornelski),
+    Senior Developer at BazaarVoice. Kornel is a developer with many languages in
+    his toolset including PHP, HTML5, CSS &amp; JavaScript. He has created many popular
+    image compression tools: (link: http://www.imageoptim.com text: ImageOptim), (link:
+    http://www.pngmini.com text: ImageAlpha) &amp; (link: http://www.pngquant.org
+    text: pngquant) and is a big fan of web-based game development and web standards.
+    You&#39;ll find Kornel talking at meet-ups, events and international conferences.
+    </p><h3>What you&#39;ll learn</h3><ul><li>The theory of Git: How it works and
+    basic terms &amp; concepts.</li><li>How to commit, push, pull and move files.
+    </li><li>How to undo mistakes</li><li>How to recover from the “strange and stupid”
+    situations that arise when using Git</li><li>How to merge</li><li>How to rebase</li></ul><h3>Preparation</h3><ul><li>Please
+    bring your laptop</li></ul><h3>Refund Policy</h3><p>If you discover that you are
+    unable to attend the event you bought tickets for, we are happy to arrange a 100%
+    refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-introtogit/speakers/52982eef3fb185e2.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ehnightclass-introtogit
+  booking_link: http://eventhandlernightclass-introtogit.eventbrite.com/
+  blurb: An Introduction to Git
+  date: 2014-02-04 19:00
+  end_Date: 2014-02-04 22:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-introtogit
+  filename: eventhandlernightclass-introtogit
+  epoch_s_date: 1391540400
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-introtogit/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Introduction to Git'
+  seriesconfdescription: An Introduction to Git
+  url: /workshops/eventhandlernightclass-introtogit
+eventhandlernightclass-modernlayout:
+- speakerID: ''
+  series: eventhandlernightclass-modernlayout
+  eventbriteid: '8774371381'
+  venue: hubwestminster
+  title: ! 'Modern Layout: CSS Flexbox, CSS Regions and more'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 5th of February, (link: http://www.twitter.com/razvancaliman
+    text: Razvan Caliman) will be hosting an evening workshop in which you can learn
+    to use modern CSS Features.</p><p>(image: modernlayout.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for web designers and developers looking to
+    learn how to use the latest CSS features for layout. Prior experience of CSS is
+    necessary; this is not an introduction.</p><p>Layout on the web is hard! Over
+    time, web designers have developed tricks to bend <code>display: table</code>,
+    <code>position: absolute</code> and floats to achieve layouts as desired. Often
+    times this brings great pain, frustration and the responsive design approach makes
+    work even harder.</p><p>Modern features for layout such as CSS Flexbox and CSS
+    Regions significantly improve productivity and they&#39;re now becoming available
+    in mainstream browsers and on devices. This workshop will prepare you to use the
+    latest CSS features for layout to get great looking results with cleaner code.</p><h3>Who
+    is it taught by?</h3><p>This workshop is being hosted by Razvan Caliman. Razvan
+    is an engineer for the Adobe Web Platform, helping to build CSS Regions, CSS Shaders,
+    CSS Shapes and more. His preferred title is &quot;web developer with a burning
+    passion for open web technologies&quot;. He has given a number of talks at events
+    and conferences (link: https://speakerdeck.com/razvancaliman text: about HTML5
+    &amp; CSS3).</p><h3>What you&#39;ll learn</h3><ul><li>Visualising markup</li><li>Using
+    CSS Flexbox for common layout use cases</li><li>Responsive layouts without media
+    queries</li><li>Using CSS Regions for newspaper-like layout</li><li>Introduction
+    to CSS Shapes</li><li>Browser &amp; device support</li></ul><h3>Requirements</h3><ul><li>Having
+    experienced pain from using CSS</li><li>Laptop with code editor of choice</li><li>Google
+    Chrome browser</li></ul><p><strong>Optional:</strong> Apple device with iOS 7
+    or Android with Google Chrome Beta installed. Mobile devices are not required
+    but you can bring yours to see how the features work on them.</p><h3>Refund Policy</h3><p>If
+    you discover that you are unable to attend the event you bought tickets for, we
+    are happy to arrange a 100% refund for you as long as you notify us at (email:
+    contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for
+    a refund, up to a month before the event in question.</p><p>If you cannot attend
+    the event you bought tickets for but have a friend or coworker that you would
+    like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-modernlayout/speakers/0e54fb88e317138c.v1.json
+  lanyrd: http://lanyrd.com/2014/ehnightclass-modernlayout
+  booking_link: http://eventhandlernightclass-modernlayout.eventbrite.com/
+  blurb: An evening workshop dedicated to learning Modern CSS Layout Techniques
+  date: 2014-02-05 19:00
+  end_Date: 2014-02-05 22:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-modernlayout
+  filename: eventhandlernightclass-modernlayout
+  epoch_s_date: 1391626800
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-modernlayout/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Modern Layout'
+  seriesconfdescription: An evening workshop dedicated to learning Modern CSS Layout
+    Techniques
+  url: /workshops/eventhandlernightclass-modernlayout
+ldnjsnightclass-backbonefullday:
+- speakerID: ''
+  series: ldnjsnightclass-backbonefullday
+  eventbriteid: '9608951633'
+  venue: hubwestminster
+  title: ! 'London JS Class: BackboneJS Full-Day Workshop'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £120 - £150
+  text: ! '<p>On the 7th of February, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a <strong>full-day</strong> workshop in which you
+    can learn to use Backbone.js to create web applications. </p><p>(image: backbone.png
+    class: full-width)</p><h3>Who is it for?</h3><p>This workshop is for those who
+    want to learn how to build scalable JavaScript applications.</p><p>Discover how
+    to work with Backbone.js to create testable, maintable code with a clear structure.
+    This class will take your existing JS, HTML and CSS skills and allow you to create
+    modern thick-client applications using Backbone. </p><h3>Who is it taught by?</h3><p>This
+    workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles).
+    Tim is a Ruby &amp; JavaScript Developer living and working in London. Having
+    previously worked for Skimlinks as their tech lead, he now spends time mentoring
+    others and working on (link: http://www.sidekickjs.com text: SidekickJS), his
+    code-quality tracking tool. You can find him speaking about Sidekick and other
+    aspects of the web at (link: http://www.lanyrd.com/timruffles text: various events).
+    </p><h3>What you&#39;ll learn</h3><ul><li>Getting started with Backbone.js</li><li>Models
+    &amp; Collections</li><li>Views</li><li>Routers</li><li>Application structure</li><li>TDD
+    - Test-Driven Development</li><li>Plugins, templates and extensions</li><li>Extending
+    Backbone.sync</li></ul><h3>Requirements</h3><ul><li>Please bring your laptop</li><li>To
+    take part in this course, you must be well-versed in JavaScript, jQuery (or similar
+    DOM library) and HTML/CSS.</li></ul><h3>Refund Policy</h3><p>If you discover that
+    you are unable to attend the event you bought tickets for, we are happy to arrange
+    a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ldnjsclasses-backbonejsfullday/speakers/9cdccad95fc9a4d8.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ldnjsclasses-backbonejsfullday
+  booking_link: http://ldnjsclasses-backbonejsfullday.eventbrite.com/
+  blurb: A full-day BackboneJS Workshop
+  date: 2014-02-07 10:00
+  end_Date: 2014-02-07 18:00
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-backbonefullday
+  filename: ldnjsclass-backbonejsfullday
+  epoch_s_date: 1391767200
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbonefullday/
+  seriesconfprettyname: ! 'London JS Classes: Backbone Full Day'
+  seriesconfdescription: A full-day BackboneJS Workshop
+  url: /workshops/ldnjsnightclass-backbonefullday
+eventhandlernightclass-gamesdesign:
+- speakerID: ''
+  series: eventhandlernightclass-gamesdesign
+  eventbriteid: '9744005583'
+  venue: hubwestminster
+  title: ! 'Finding the Fun: Game Design & Iteration at High-speed'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 11th of February, Award-winning games designer and publisher
+    (link: http://www.twitter.com/jameswallis text: James Wallis) will give you a
+    crash course in creating board-games and card-games.</p><p>(image: james.png class:
+    full-width)</p><p>In modern design, building stuff fast and getting to a working
+    version are key, but making and testing prototypes (code or physical objects)
+    can be enormously time-consuming. Learning how to work with paper prototypes—meta-versions
+    of your design—to iterate the project quickly can save you days. In this workshop
+    James Wallis will teach you to create and flesh out a concept for a simple multi-user
+    system, build a working prototype, watch as other people test it and critique
+    it, and use that criticism to rework the design towards a finished product.</p><h3>Who
+    is it taught by?</h3><p>This fun evening workshop is being hosted by James Wallis
+    (link: http://www.twitter.com/jameswallis text: @jameswallis). James is a games
+    designer and publisher who is behind popular games such as &quot;Once Upon a Time&quot;
+    and &quot;The Extraordinary Adventures of Baron Munchausen&quot;. He runs &quot;Spaaace&quot;,
+    a games consultancy, and founded the Diana Jones award for excellence in gaming.
+    Each year he runs (link: http://www.gamecamp.org.uk text: GameCamp).</p><h3>What
+    this workshop will cover</h3><ul><li>Conceptualising a game</li><li>Prototyping
+    a game</li><li>Testing your game with other users</li><li>Giving and receiving
+    feedback</li><li>Solving bugs in your design</li></ul><h3>Requirements</h3><p>Just
+    bring yourself! We&#39;ll provide all the necessary materials at the workshop.</p><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-gamesdesign/speakers/724abc90b74fb477.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ehnightclass-gamesdesign
+  booking_link: http://ehnightclass-gamesdesign.eventbrite.com/
+  blurb: An evening of high-speed games design
+  date: 2014-02-11 19:00
+  end_Date: 2014-02-11 22:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-gamesdesign
+  filename: eventhandlernightclass-gamesdesign
+  epoch_s_date: 1392145200
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-gamesdesign/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Games Design'
+  seriesconfdescription: An evening of high-speed games design
+  url: /workshops/eventhandlernightclass-gamesdesign
+uxnightclass-sketchinginterfaces:
+- speakerID: ''
+  series: uxnightclass-sketchinginterfaces
+  eventbriteid: ''
+  venue: hubwestminster
+  title: Sketching Interfaces
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 11th of February, (link: http://www.twitter.com/evalottchen text:
+    Eva-Lotta Lamm) will be hosting a night class on sketching interfaces.</p><p>(image:
+    interface.png class: full-width)</p><h3>Who is it for?</h3><p>Sketching is a core
+    skill and tool of any designer. It is a quick and cheap way to ideate, develop
+    and iterate on possible design solutions, both alone and with a group.</p><p>We
+    will take a closer look at when and how to use sketching in the design process
+    and how to make your sketches communicate more clearly and efficiently. We will
+    start with basic sketching techniques and build up the pace through a mix of theory,
+    exercises, practise sessions and group critiques.</p><p>This workshop is ideal
+    for Designers, Developers, Product Managers or anyone who is involved in creating
+    websites or applications and wants to add sketching to their range of tools. </p><p><strong>All
+    skill levels are welcome and no previous sketching skills or knowledge are necessary.</strong></p><h3>Who
+    is it taught by?</h3><p>(link: http://www.evalotta.net/ text: Eva-Lotta) is a
+    User Experience Designer and Illustrator. She grew up in Germany, worked in Paris
+    for a few years and is now based in London, UK where she works as an Interaction
+    Designer at Google. </p><p>Besides her daytime mission of making the web a more
+    understandable, usable and delightful place, she regularly takes (link: http://www.flickr.com/photos/evalottchen/sets/72157607235674386/with/6848813489/
+    text: sketchnotes) at all sorts of talks and conferences and has self-published
+    her notes in (link: http://sketchnotesbook.com/ text: several books).</p><h3>What
+    you&#39;ll learn</h3><ul><li>When to use sketching in the design process</li><li>How
+    to decide on the right level of fidelity for your sketches </li><li>Sketching
+    out flows to provide an overview</li><li>Sketching detailed screen designs</li><li>Sketching
+    interactions and transitions</li><li>Labelling and annotating your sketches</li><li>Tips
+    and tricks to enhance your sketches</li></ul><h3>Requirements</h3><ul><li>We&#39;ll
+    bring the materials, you just need to bring yourself! </li></ul><h3>Refund Policy</h3><p>If
+    you discover that you are unable to attend the event you bought tickets for, we
+    are happy to arrange a 100% refund for you as long as you notify us at (email:
+    contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for
+    a refund, up to a month before the event in question.</p><p>If you cannot attend
+    the event you bought tickets for but have a friend or coworker that you would
+    like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-sketchinginterfaces/speakers/0e377429084910af.v1.json
+  lanyrd: http://www.lanyrd.com/2014/uxnightclass-sketchinginterfaces
+  booking_link: http://uxnightclass-sketchinginterfaces.eventbrite.com/
+  blurb: Sketching Interfaces with Eva-Lotta Lamm
+  date: 2014-02-11 19:00
+  end_Date: 2014-02-11 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-sketchinginterfaces
+  filename: uxnightclass-sketchinginterfaces
+  epoch_s_date: 1392145200
+  seriesconfpath: site/_data/events/workshops/uxnightclass-sketchinginterfaces/
+  seriesconfprettyname: ! 'Selling UCD: How to get buy in from clients'
+  seriesconfdescription: Sketching Interfaces with Eva-Lotta Lamm
+  url: /workshops/uxnightclass-sketchinginterfaces
+ldnjsnightclass-nextleveljs:
+- speakerID: ''
+  series: ldnjsnightclass-nextleveljs
+  eventbriteid: '9011843667'
+  venue: hubwestminster
+  title: ! 'London JS Night Class: Next Level JavaScript'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 12th of February, (link: http://www.twitter.com/benhowdle text:
+    Ben Howdle) will be hosting a workshop in which you can learn to take your JavaScript
+    to the next level.</p><p>(image: nextlevel.png class: full-width)</p><h3>Who is
+    it for?</h3><p>Comfortable with jQuery but want to go further? Want to be able
+    to build entire applications using JavaScript? Struggling to organise and architect
+    your code? After this evening workshop, you&#39;ll have taken your JavaScript
+    to next level! </p><h3>Who is it taught by?</h3><p>This workshop is being run
+    by (link: http://www.twitter.com/benhowdle text: Ben Howdle). Ben is a software
+    developer for Kashflow and describes himself as a &quot;JavaScript guy at heart&quot;.
+    Ben has worked on many projects over the years including (link: http://benhowdle.im/svgeezy/
+    text: SVGeezy), (link: http://benhowdle.im/cortado/ text: Cortado) and (link:
+    http://heisenbergjs.github.io/heisenberg/ text: Heisenberg.js); whilst also being
+    one half of the (link: http://upfrontpodcast.com/ text: Upfront Podcast) on Front-End
+    Web Development. He also writes a (link: http://benhowdle.im/archive/ text: blog)
+    that covers many things including JS.</p><h3>What you&#39;ll learn</h3><ul><li>Memory
+    Profiling</li><li>Performance</li><li>Coding Conventions</li><li>Making your projects
+    maintainable</li></ul><h3>Requirements</h3><ul><li>Must be familiar with JavaScript</li><li>Please
+    bring your laptop with your text editor of choice installed</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-nextleveljs/speakers/256bc88ac2ecd038.v1.json
+  lanyrd: http://lanyrd.com/2014/ldnjsnightclass-nextleveljs
+  booking_link: http://ldnjsnightclass-nextleveljs.eventbrite.com/
+  blurb: An evening workshop dedicated to levelling up your JavaScript
+  date: 2014-02-12 19:00
+  end_Date: 2014-02-12 22:00
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-nextleveljs
+  filename: ldnjsnightclass-nextleveljs
+  epoch_s_date: 1392231600
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-nextleveljs/
+  seriesconfprettyname: ! 'London JS Night Classes: Next Level JS'
+  seriesconfdescription: An evening workshop dedicated to levelling up your JavaScript
+  url: /workshops/ldnjsnightclass-nextleveljs
+londonjsconf:
+- speakerID: ''
+  series: londonjsconf
+  eventbriteid: '9510017719'
+  venue: princecharlescinema
+  title: London JS Conf
+  map: 7 Leicester Place, London, WC2H 7BY
+  cost: £100
+  text: ! '<p>London JS Conf is our brand new JavaScript Conference.</p><p>(image:
+    londonjsconf.png class: full-width)</p><p>Through running our monthly meet-up
+    London JS: we&#39;ve worked with some fantastic speakers, met some amazing people
+    and learnt a whole lot about JavaScript. The community that you&#39;ve all helped
+    to build up is wonderful and as a way of saying thank you and celebrating JavaScript,
+    we&#39;d like to bring you all together for London JS Conf.</p><p>On the 13th
+    of February 2014, we&#39;ll be descending on the Prince Charles Cinema for a one-day
+    two-track JavaScript focused day of learning and discovery. We&#39;ve also planned
+    a range of special events around the conference and we hope you can join us for
+    them.</p><p><strong>The first batch of tickets go on sale on Thursday the 28th
+    of November at 1PM</strong></p><h3>Refund Policy</h3><p>If you discover that you
+    are unable to attend the event you bought tickets for, we are happy to arrange
+    a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/londonjsconf/speakers/80c64ca14f1a1449.v1.json
+  lanyrd: http://www.lanyrd.com/2014/londonjsconf
+  booking_link: http://londonjsconf.eventbrite.co.uk/
+  blurb: London JS Conf
+  date: 2014-02-13 09:00
+  end_Date: 2014-02-13 18:30
+  directory_tags:
+  - events
+  - meetups
+  - londonjsconf
+  filename: londonjsconf
+  epoch_s_date: 1392282000
+  seriesconfpath: site/_data/events/meetups/londonjsconf/
+  seriesconfprettyname: ! 'Eventhandler Meetups: London JS Conf'
+  seriesconfdescription: London JS Conf
+  url: /events/londonjsconf
+eventhandlernightclass-cssarchitecture:
+- speakerID: ''
+  series: eventhandlernightclass-cssarchitecture
+  eventbriteid: '9633334563'
+  venue: hubwestminster
+  title: CSS Architecture For Big Front-Ends
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £120 - £150
+  text: ! '<p>On the 14th of February, (link: http://www.twitter.com/csswizardry text:
+    Harry Roberts) will be hosting a <strong>full-day</strong> workshop in which you
+    can learn to use architecte big-front ends. </p><p>(image: cssarchitecture.png
+    class: full-width)</p><p>Ten years ago most websites were small affairs, with
+    perhaps a handful of pages and very simple designs. Today, however, the majority
+    of websites are very different beasts…</p><p>There’s no denying that web-sites,
+    services and apps are getting much bigger; more views, more pages, more layouts,
+    more browsers on more devices… It’s time we levelled up our CSS.</p><h3>Who is
+    it taught by?</h3><p>Harry is a Consultant Front-end Architect, designer, developer,
+    writer and speaker from the UK. Previously a Senior Developer at BSkyB, he now
+    helps tech teams all over the world build better products.</p><p>He specialises
+    in authoring and scaling large front-ends; he writes on the subjects of maintainability,
+    architecture, performance, OOCSS and more at (link: http://csswizardry.com text:
+    csswizardry.com); he is the lead and sole developer of (link: http://inuitcss.com
+    text: inuit.css), a powerful, scalable, Sass-based, BEM, OOCSS framework; he Tweets
+    at (link: http://www.twitter.com/csswizardry text: @csswizardry).</p><h3>What
+    you&#39;ll learn</h3><p>This full-day workshop shall give a whirlwind overview
+    of:</p><ul><li>How to assess, normalise and rationalise designs.</li><li>How to
+    split designs up into discrete objects, abstractions and components.</li><li>The
+    ever pesky task of naming things.</li><li>How to shear your codebase into flexible,
+    extensible and manageable layers.</li><li>The optimal architecture for a robust,
+    extensible, scalable CSS codebase.</li><li>How to use Sass’ more humble features
+    to tie things together.</li><li>How to effectively manage layout.</li><li>And
+    anything more you think of on the day.</li></ul><p>So much to cover, and such
+    little time! Bring your laptop and your best CSS-game and let’s get cracking.
+    It’s gonna be fun!</p><h3>Requirements</h3><p>Your <strong>laptop</strong> with:</p><ul><li>Text
+    editor</li><li>Sass</li><li>Git(Hub) (optional)</li><li>Photoshop (optional)</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehclass-cssarchitecture/speakers/1848b6b1a034109b.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ehclass-cssarchitecture
+  booking_link: http://ehclass-cssarchitecture.eventbrite.co.uk
+  blurb: CSS Architecture for Big Front-Ends
+  date: 2014-02-14 10:00
+  end_Date: 2014-02-14 18:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-cssarchitecture
+  filename: eventhandlerclass-cssarchitecture
+  epoch_s_date: 1392372000
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-cssarchitecture/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: CSS Architecture'
+  seriesconfdescription: CSS Architecture for Big Front-Ends
+  url: /workshops/eventhandlernightclass-cssarchitecture
+eventhandlernightclass-advancedgit:
+- speakerID: ''
+  series: eventhandlernightclass-advancedgit
+  eventbriteid: ''
+  venue: hubwestminster
+  title: Advanced Git
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 18th of February, (link: http://www.twitter.com/pornelski
+    text: Kornel Lesiński) will be holding an evening workshop on how to get more
+    out of Git and become a power user.</p><p>(image: gitworkshop.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for those who already know how to use Git,
+    but would like to become a power user. Learn how to manipulate branches and history
+    to any shape you like, get more information from git and learn how to fix &quot;messed&quot;
+    up repositories, as well as learning to automate Git.  </p><h3>Who is taught by?</h3><p>This
+    workshop is being taught by Kornel Lesinski (link: http://twitter.com/pornelski
+    text: @pornelski), Senior Developer at BazaarVoice. Kornel is a developer with
+    many languages in his toolset including PHP, HTML5, CSS &amp; JavaScript. He has
+    created many popular image compression tools: (link: http://www.imageoptim.com
+    text: ImageOptim), (link: http://www.pngmini.com text: ImageAlpha) &amp; (link:
+    http://www.pngquant.org text: pngquant) and is a big fan of web-based game development
+    and web standards. You&#39;ll find Kornel talking at meet-ups, events and international
+    conferences. </p><h3>What you&#39;ll learn</h3><ul><li>An Overview of git&#39;s
+    architecture that explains git&#39;s strengths and quirks, e.g. why hashes? What
+    is rebase <em>really</em> doing?</li><li>Importing code, history and branches
+    from other systems like SVN, CVS, Bazaar.</li><li>How to recover from screwed
+    up rebases, messed up branches.</li><li>Power-user options for resolving merge/rebase
+    conflicts.</li><li>Splitting, filtering and joining git repositories.</li><li>Automating
+    actions when commits or pushes are made:</li><li>Enforcing coding standards, running
+    unit tests</li><li>Deploying code and tagging deployed versions** Hidden gems
+    and trips &amp; tricks.</li></ul><h3>Preparation</h3><ul><li>An understanding
+    of and ability to use the basics of Git</li><li>Please bring your laptop</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-advancedgit/speakers/a626e1f7a7b38690.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ehnightclass-advancedgit
+  booking_link: http://eventhandlernightclass-advancedgit.eventbrite.com/
+  blurb: Advanced Git
+  date: 2014-02-18 19:00
+  end_Date: 2014-02-18 22:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-advancedgit
+  filename: eventhandlernightclass-advancedgit
+  epoch_s_date: 1392750000
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-advancedgit/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Advanced Git'
+  seriesconfdescription: Advanced Git
+  url: /workshops/eventhandlernightclass-advancedgit
+eventhandlernightclass-webperformance:
+- speakerID: ''
+  series: eventhandlernightclass-webperformance
+  eventbriteid: '9876892050'
+  venue: hubwestminster
+  title: ! 'Building a faster web: How to optimise your website''s performance'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £50-60
+  text: ! '<p>On Wednesday the 19th of February, Patrick Hamann will be holding an
+    evening class on how to optimise your website&#39;s performance.</p><p>(image:
+    webperformance.png class: full-width)</p><h3>Who is it for?</h3><p>This workshop
+    is for any designer or developer wanting to improve the speed of their websites
+    and have a greater understanding of the browser&#39;s internals.</p><h3>What you&#39;ll
+    learn</h3><p>In one evening you will discover what the common performance bottlenecks
+    are in the browser from networking to painting and learn how to best optimise
+    at each stage of the critical path to create fast, jank free websites.</p><h3>Who
+    is it taught by?</h3><p>Patrick is a senior client-side developer at the (link:
+    http://www.theguardian.com/view=mobile text: Guardian) in London, where amongst
+    other things, he is helping to engineer the next generation of their web platform.
+    When not (link: http://lanyrd.com/profile/patrickhamann/ text: speaking) or ranting
+    about performance or CSS architecture on (link: http://twitter.com/patrickhamann
+    text: twitter) he enjoys spends his spare time discovering new food and craft
+    beer.</p><h3>What this workshop will cover</h3><ul><li>Why performance matters</li><li>Networking</li><li>Render
+    tree construction</li><li>Measuring performance using browser developer tools</li><li>Hardware
+    acceleration</li><li>Optimising load time</li><li>Optimising paint</li><li>Practice
+    on working examples</li><li>Testing and monitoring</li><li>Tips, tricks and best
+    practices</li><li>The future</li></ul><h3>Requirements</h3><p>Please bring your
+    laptop with your text editor and browser of choice installed.</p><h3>Refund Policy</h3><p>If
+    you discover that you are unable to attend the event you bought tickets for, we
+    are happy to arrange a 100% refund for you as long as you notify us at (email:
+    contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for
+    a refund, up to a month before the event in question.</p><p>If you cannot attend
+    the event you bought tickets for but have a friend or coworker that you would
+    like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-webperformance/speakers/f30c9c0cba979576.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ehnightclass-webperformance
+  booking_link: http://ehnightclass-webperformance.eventbrite.com/
+  blurb: Optimising Web Performance
+  date: 2014-02-19 19:00
+  end_Date: 2014-02-19 22:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-webperformance
+  filename: eventhandlernightclass-webperformance
+  epoch_s_date: 1392836400
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-webperformance/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Web Performance'
+  seriesconfdescription: Optimising Web Performance
+  url: /workshops/eventhandlernightclass-webperformance
+ldnjsnightclass-angularfullday:
+- speakerID: ''
+  series: ldnjsnightclass-angularfullday
+  eventbriteid: '9608554445'
+  venue: hubwestminster
+  title: ! 'London JS Classes: AngularJS Full-Day Workshop'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £120-150
+  text: ! '<p>On the 21st of February, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a <strong>full-day workshop</strong> in which you
+    can learn to use AngularJS</p><p>(image: angularjs.png class: full-width)</p><h3>Who
+    is it for?</h3><p>AngularJS makes creating rich web-apps easier than ever before.
+    With the philosophy of embracing and extending HTML, powerful data-binding, and
+    decoupling and testability via dependency-injects, it&#39;s fast becoming the
+    most popular MVC framework.</p><p>This workshop is for anyone unfamiliar with
+    AngularJS. Tim will take you through building your first AngularJS application,
+    and introduce some of the meatier aspects of the framework like directives.</p><h3>Who
+    is it taught by?</h3><p>This workshop is being run by (link: http://www.twitter.com/timruffles
+    text: Tim Ruffles). Tim is a Ruby &amp; JavaScript Developer living and working
+    in London. Having previously worked for Skimlinks as their tech lead, he now spends
+    time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS),
+    his code-quality tracking tool. You can find him speaking about the web at (link:
+    http://www.lanyrd.com/timruffles text: various events). </p><h3>What you&#39;ll
+    learn</h3><ul><li>The philosophy of Angular</li><li>Booting the app</li><li>Data-binding</li><li>Controllers</li><li>Directives</li><li>Routing</li><li>Requesting
+    data</li><li>Testing</li></ul><h3>Requirements</h3><ul><li>Familiarity with JavaScript</li><li>Please
+    bring your laptop with your text editor of choice installed</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ldnjsclasses-angularjsfullday/speakers/3b7b377ea8b95a39.v1.json
+  lanyrd: http://lanyrd.com/2014/ldnjsclasses-angularjsfullday
+  booking_link: http://ldnjsclasses-angularjsfullday.eventbrite.com/
+  blurb: Full-day AngularJS Workshop
+  date: 2014-02-21 10:00
+  end_Date: 2014-02-21 18:00
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-angularfullday
+  filename: ldnjsclass-angularjsfullday
+  epoch_s_date: 1392976800
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angularfullday/
+  seriesconfprettyname: ! 'London JS Classes: AngularJS Full-Day Workshop'
+  seriesconfdescription: Full-day AngularJS Workshop
+  url: /workshops/ldnjsnightclass-angularfullday
+ldnjsnightclass-testingjs:
+- speakerID: ''
+  series: ldnjsnightclass-testingjs
+  eventbriteid: '8810802347'
+  venue: hubwestminster
+  title: ! 'London JS Night Class: Testing JavaScript'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 25th of February, (link: http://www.twitter.com/timruffles text:
+    Tim Ruffles) will be hosting a workshop in which you can learn to test JavaScript.
+    </p><p>(image: testingjs.png class: full-width)</p><h3>Who is it for?</h3><p>Testing
+    lets you ship better code with less doubt. It&#39;s a fantastic feeling to have
+    a good level of testing in your team&#39;s code. This class will give you all
+    the tools you need to create and run a test suite on Javascript projects in the
+    browser, or in node.js.</p><h3>Who is it taught by?</h3><p>This workshop is being
+    run by (link: http://www.twitter.com/timruffles text: Tim Ruffles). Tim is a Ruby
+    &amp; JavaScript Developer living and working in London. Having previously worked
+    for Skimlinks as their tech lead, he now spends time mentoring others and working
+    on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality tracking
+    tool. You can find him speaking about the web at (link: http://www.lanyrd.com/timruffles
+    text: various events). </p><h3>What you&#39;ll learn</h3><ul><li>Your first test</li><li>Core
+    idea of testing</li><li>Assertion technique</li><li>Setup/tear down</li><li>Contexts
+    and test groups</li><li>Testing DOM</li><li>Testing async</li><li>Testing OO code
+    + Javascript&#39;s testing secret</li><li>Mocking</li><li>Stubbing</li><li>Stubbing
+    an API</li><li>Integration testing</li><li>Continuous integration with Jenkins</li><li>Testing
+    on many browsers with Karma</li></ul><h3>Requirements</h3><ul><li>Must have a
+    competency with JavaScript</li><li>Please bring your laptop with your text editor
+    of choice installed</li></ul><h3>Refund Policy</h3><p>If you discover that you
+    are unable to attend the event you bought tickets for, we are happy to arrange
+    a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-testingjs/speakers/19a2e6f87a1c49a8.v1.json
+  lanyrd: http://lanyrd.com/2014/ldnjsnightclass-testingjs
+  booking_link: http://ldnjsnightclass-testingjs.eventbrite.com/
+  blurb: An evening workshop dedicated to learning how to test JavaScript
+  date: 2014-02-25 19:00
+  end_Date: 2014-02-25 22:00
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-testingjs
+  filename: ldnjsnightclass-testingjs
+  epoch_s_date: 1393354800
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-testingjs/
+  seriesconfprettyname :"London JS Night Classes: Testing Javascript"
+  seriesconfdescription: An evening workshop dedicated to learning how to test JavaScript
+  url: /workshops/ldnjsnightclass-testingjs
+uxnightclass-sellingucd:
+- speakerID: ''
+  series: uxnightclass-sellingucd
+  eventbriteid: '9296248329'
+  venue: hubwestminster
+  title: ! 'Selling UCD: How to get buy in from clients'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 26th of February, (link: http://www.twitter.com/annadahlstrom
+    text: Anna Dahlström) will be hosting a night class on learning to sell the idea
+    of user-centered design.</p><p>(image: sellingucd.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is suitable for anyone who wants to improve or
+    learn about how to position and demonstrate the value of User-Centred Design (UCD)
+    and User Experience (UX) in general. It suits both the novice and the more experienced
+    practitioner, and though part of the class will cover how to present our work,
+    this will also be of use for non-UX people, like product owners and account management.</p><h3>Who
+    is it taught by?</h3><p>The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom), an Information Architecture and User Experience consultant.
+    Originally from Sweden, Anna lives and works in London. Having previously worked
+    for Dare; she now works for Byflock and freelances part-time.</p><h3>What you&#39;ll
+    learn</h3><p>In this hands on workshop we&#39;ll walk through practical examples
+    as well as how to demonstrate and position the value that UCD and continuous UX
+    involvement brings, both to clients and internal stakeholder.</p><p>We&#39;ll
+    look at how to tackle companies that still work in a waterfall approach where
+    UX is seen as one stage and then handed over, as well as companies that are so
+    development focused that UX and UCD comes in as an afterthought. We&#39;ll also
+    look at some typical client situations related to selling in UCD and how to address
+    them.</p><p><strong>Coming out of this workshop you will:</strong></p><ul><li>Know
+    how to demonstrate the value of UCD and UX in general</li><li>Know where UCD and
+    UX should sit in the project process</li><li>How to communicate the above to clients
+    and the internal team</li><li>Know how to adapt process and the work you do to
+    the project and client in question</li><li>Be equipped with tools for how to deal
+    with tricky clients</li><li>Learn the tools used to present your work and why
+    this matters</li></ul><h3>Requirements</h3><ul><li>Just bring yourself!</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-sellingucd/speakers/6b358a5b64d95e22.v1.json
+  lanyrd: http://www.lanyrd.com/2014/uxnightclass-sellingucd
+  booking_link: http://uxnightclass-sellingucd.eventbrite.com/
+  blurb: Selling UCD with Anna Dahlstrom
+  date: 2014-02-26 19:00
+  end_Date: 2014-02-26 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-sellingucd
+  filename: uxnightclass-sellingucd
+  epoch_s_date: 1393441200
+  seriesconfpath: site/_data/events/workshops/uxnightclass-sellingucd/
+  seriesconfprettyname: ! 'Selling UCD: How to get buy in from clients'
+  seriesconfdescription: Selling UCD with Anna Dahlstrom
+  url: /workshops/uxnightclass-sellingucd

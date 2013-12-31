@@ -1,0 +1,38 @@
+--- 
+name: Oval Space
+address: |
+    29-32 The Oval, 
+    London,
+    E2 9DT
+location: 
+  - 51.53367
+  - -0.059223
+closest_stations:
+  - name: Cambridge Heath
+    location: 
+      - 51.5321
+      - 0.0572
+    lines: 
+      - West Anglia
+    type: 
+      - rail
+  - name: Bethnal Green
+    location: 
+      - 51.5272
+      - 0.0556
+    lines: 
+      - Central
+    type: 
+      - tube
+  - name: Hoxton
+    location:
+      - 51.5318
+      - 0.0754
+    lines:
+      - London Overground
+    type:
+      - overground
+description: |
+    (From the Oval Space website at www.ovalspace.co.uk)
+    In the heart of fashionable East London, Oval Space is an amazing warehouse-style venue finished to a very high standard that offers 5,000 square feet of unobstructed event space, with the iconic backdrop of the Bethnal Green Gas Holders lending an authentic, industrial flavour to the location. 
+---
