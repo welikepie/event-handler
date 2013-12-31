@@ -1,0 +1,36 @@
+--- 
+name: BrewDog Shepherd's Bush
+address: |
+    15-19 Goldhawk Road,
+    London,
+    W12 8QQ
+location: 
+  - 51.502893
+  - -0.223889
+closest_stations:
+  - name: Goldhawk Road
+    location: 
+      - 51.502852
+      - -0.228245
+    lines: 
+      - Circle
+      - Hammersmith & City
+    type: 
+      - rail
+      - tube
+  - name: Shepherd's Bush
+    location: 
+      - 51.505243
+      - -0.21771
+    lines: 
+      - Central
+      - London Overground
+    type: 
+      - tube
+      - overground
+description: |
+    (From the BrewDog Website at http://www.brewdog.com/bars/shepherds-bush)
+    Kicking back with a few beers is the name of the game at BrewDog Shepherd's Bush.
+    It's a place to chill out and explore beer with a vast menu at your fingertips, 
+    and when they get a bit restless there's always the plethora of vintage arcade machines and pinball to keep them busy.
+---

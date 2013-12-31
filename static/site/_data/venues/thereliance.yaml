@@ -1,12 +1,12 @@
 --- 
-name: Central Foundation Boys School
+name: The Reliance
 address: |
-    Central Foundation Boys School, 
-    Cowper Street, 
-    EC2A 4SH
+    10 Redchurch Street
+    London,
+    e2 7dd
 location: 
-  - 32
-  - 50
+  - 51.527609
+  - -0.080853
 closest_stations:
   - name: Shoreditch High Street
     location: 
@@ -37,8 +37,5 @@ closest_stations:
       - tube
       - rail    
 description: |
-    (From the Central Foundation website at http://www.centralfoundationboys.co.uk/about)
-    As we approach the celebration of 150 years of Central Foundation, 
-    we look to the past with pride and gratitude – and forward, to an exciting 
-    future.
+    This is a test description. Please note that this needs changing.
 ---

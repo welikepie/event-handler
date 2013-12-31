@@ -1,39 +1,43 @@
 --- 
 name: Hub Westminister
 address: |
+    1st floor, New Zealand House,
     41 New Zealand House,
-    1st floor, New Zealand House 
     80 Haymarket, London SW1Y 4TE
 location: 
-  - 32
-  - 50
+  - 51.508342
+  - -0.12748
 closest_stations:
+  - name: Charing Cross
+    location: 
+      - 51.508435
+      - -0.125506
+    lines: 
+      - Bakerloo
+      - Northern
+    type: 
+      - rail
+      - tube
   - name: Picadilly Circus
     location: 
-      - 32
-      - 50
+      - 51.510025
+      - -0.135183
     lines: 
-      - piccadily
-      - northern
-      - etc.
+      - Bakerloo
+      - Picadilly
     type: 
-      - rail
       - tube
-      - overground
-  - name: test name
+  - name: Leicester Square
     location: 
-      - 32
-      - 50
+      - 51.513016
+      - -0.128725
     lines: 
-      - piccadily
-      - northern
-      - etc.
+      - Northern
+      - Picadilly
     type: 
-      - rail
       - tube
-      - overground
-    description: |
-        This is the New Zealand Embassy.
-        Just think of all of the things that you can do there
-        that you can't do in this country.
+description: |
+    (Sourced from the Impact Hub Westminster website at westminster.impacthub.net/about-us/)
+    Launched in 2011, Impact Hub Westminster is one of the largest of a global network of locally owned collaborative working spaces.
+    Our primary aim is to support organisations with positive social and environmental impact at the heart of their missions. We provide flexible access to workspace and curate a supportive, collaborative environment for these impact makers.
 ---

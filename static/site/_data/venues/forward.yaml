@@ -1,0 +1,29 @@
+--- 
+name: Forward Internet Group
+address: |
+    19 Mandela Street, 
+    London,
+    NW1 0DU
+location: 
+  - 51.484802
+  - -0.236574
+closest_stations:
+  - name: Camden Road
+    location: 
+      - 51.542438
+      - -0.139217
+    lines: 
+      - London Overground
+    type: 
+      - overground
+  - name: Camden Town
+    location: 
+      - 51.539009
+      - -0.142565
+    lines: 
+      - Northern
+    type: 
+      - tube
+description: |
+    This is a test description. Please note that this needs changing.
+---

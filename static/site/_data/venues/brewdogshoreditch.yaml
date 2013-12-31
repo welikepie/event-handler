@@ -1,0 +1,46 @@
+---
+name: BrewDog Shoreditch
+address: |
+    51 bethnal Green Road,
+    London,
+    E1 6LA
+location: 
+  - 51.525193
+  - -0.07191
+closest_stations:
+  - name: Shoreditch High Street
+    location: 
+      - 51.524005
+      - -0.077097
+    lines: 
+      - London Overground
+    type: 
+      - overground
+  - name: Old Street Station
+    location: 
+      - 51.526488
+      - -0.087976
+    lines: 
+      - Northern
+    type: 
+      - tube
+  - name: Liverpool Street
+    location:
+      - 51.517796
+      - -0.082591
+    lines:
+      - Central
+      - Circle
+      - Hammersmith & City
+      - Metropolitan
+    type:
+      - tube
+      - rail
+description: |
+    (From the BrewDog Website at http://www.brewdog.com/bars/shoreditch)
+    Our Bethnal Green Road bar encapsulates the unrelenting, 
+    unforgiving surge of creativity that continues to fuel the area's journey to reinvention. 
+    Antique tiles, reclaimed metal and a bar completely exposed by an unforgiving wall of 
+    glass make this craft beer haven an icon in its own right. 
+    All hipsters must be accompanied by an adult.
+---

@@ -1,0 +1,47 @@
+--- 
+name: Campus London
+address: |
+    4-5 Bonhill St, 
+    London, 
+    EC2A 4BX ‎
+location: 
+  - 51.52506
+  - -0.080123
+closest_stations:
+  - name: Shoreditch High Street
+    location: 
+      - 51.524005
+      - -0.077097
+    lines: 
+      - London Overground
+    type: 
+      - overground
+  - name: Old Street Station
+    location: 
+      - 51.526488
+      - -0.087976
+    lines: 
+      - Northern
+    type: 
+      - tube
+  - name: Liverpool Street
+    location:
+      - 51.517796
+      - -0.082591
+    lines:
+      - Central
+      - Circle
+      - Hammersmith & City
+      - Metropolitan
+    type:
+      - tube
+      - rail
+description: |
+    (From the Campus London website at www.campuslondon.com)
+    Welcome to Campus. We’re a co-working space in the heart of East London’s Tech 
+    City that’s powered by Google to offer startups the tools they need to succeed. 
+    Think seven floors of flexible work space, free high-speed internet and support 
+    to fuel your ideas, from mentoring programmes to networking events and much more. 
+    Whether you’re a London-based startup or passing through the city, Campus is the 
+    place for you.
+---

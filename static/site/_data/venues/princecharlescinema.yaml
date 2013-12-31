@@ -1,0 +1,35 @@
+--- 
+name: Prince Charles Cinema
+address: |
+    7 Leicester Pl, 
+    London, 
+    WC2H 7BY
+location: 
+  - 51.511934
+  - -0.130205
+closest_stations:
+  - name: Picadilly Circus
+    location: 
+      - 51.510025
+      - -0.135183
+    lines: 
+      - Bakerloo
+      - Picadilly
+    type: 
+      - tube
+  - name: Leicester Square
+    location: 
+      - 51.513016
+      - -0.128725
+    lines: 
+      - Northern
+      - Picadilly
+    type: 
+      - tube
+description: |
+    (From the Prince Charles Website at http://www.princecharlescinema.com/html/cinema_hire.php)
+    Located 50 yards from London's Leicester Square the Prince Charles Cinema 
+    is "the countries funkiest cinema" (Evening Standard) and its most successful 
+    independent screen. Its prime West End situation is enhanced by its reputation 
+    throughout the Film industry for being quirky, innovative and just a little bit different.
+---
