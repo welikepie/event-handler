@@ -1,0 +1,45 @@
+Title: London JS
+----
+Text: 
+
+With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer.
+
+London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.
+
+This months, the talks will be:
+
+* Dart - Chris Buckett (link: https://twitter.com/chrisbuckett text: @chrisbuckett)
+* JavaScript and Test Driven Development - Ricky Clegg (link: https://twitter.com/ricky_clegg text: @ricky_clegg)
+
+----
+Blurb:
+
+Evening of Javascript talks about Microframeworks and Require.js.
+----
+What: Javascript Talks
+----
+Date: 2012-10-15 18:30
+----
+End_Date: 2012-10-15 21:00
+----
+Where: Poke London: Biscuit Building, 
+10 Redchurch Street, London, 
+E2 7DD
+----
+Cost: Free
+----
+Map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+----
+Infobox:
+
+<h1>
+	<span>London JS</span>
+	<span>15th October 2012</span>
+	<abbr class="easydate">Mon, 15 October 2012 19:00:00 +0000</abbr>
+	<a href="http://londonjs-15.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://londonjs-15.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2012/londonjs-15/
+----

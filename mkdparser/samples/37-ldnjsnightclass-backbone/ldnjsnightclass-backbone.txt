@@ -1,0 +1,74 @@
+Title: London JS Night Class: Backbone.js
+----
+Text: 
+
+On the 17th of September, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a workshop in which you can learn to use Backbone.js to create web applications. 
+
+<p class="soldout"> This workshop has sold out. However; we have another (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-backbone3 text: Backbone workshop here!)</p>
+
+(image: backbone.png class: full-width)
+
+### Who is it for?
+
+This workshop is for those who want to learn how to build scalable JavaScript applications.
+
+In one evening you will discover how to work with Backbone.js to create testable, maintable code with a clear structure. This class will take your existing JS, HTML and CSS skills and allow you to create modern thick-client applications using Backbone. 
+ 
+
+### Who is it taught by?
+
+This workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles). Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality tracking tool. You can find him speaking about Sidekick and other aspects of the web at (link: http://www.lanyrd.com/timruffles text: various events). 
+
+### What you'll learn
+
+* Getting started with Backbone.js
+* Models & Collections
+* Views
+* Routers
+* Application structure
+* TDD - Test-Driven Development
+* Plugins, templates and extensions
+* Extending Backbone.sync
+
+### Requirements
+
+* Please bring your laptop
+* To take part in this course, you must be well-versed in JavaScript, jQuery (or similar DOM library) and HTML/CSS.
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+An evening workshop dedicated to learning Backbone 
+----
+What: Backbone.js Workshop 
+----
+Date: 2013-09-17 18:30
+----
+End_Date: 2013-09-17 21:30
+----
+Where: Google Campus, 
+4-5 Bonhill Street, London, EC2A 4BX
+----
+Cost: £60
+----
+Map: 4-5 Bonhill Street, London, EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>Backbone.js Workshop</span>
+	<span>17th September 2013</span>
+	<abbr class="easydate">Tue, 17 September 2013 18:30:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-backbone.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-backbone.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2013/ldnjsnightclass-backbone
+----

@@ -1,0 +1,13 @@
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: "poke"
+title: London JS
+map: "10 Redchurch Street, Biscuit Building, London, E2 7DD"
+cost: Free
+text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer. <strong>Tickets will be released on Thursday the 4th of July at 2PM.</strong></p><p>(image: londonjseh.png class: full-width)</p><p>London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><h2>Talks This Month</h2><ul><li>Grunt your way to Glory - Shaun Dunne (link: http://twitter.com/shaundunne text: @shaundunne)</li><li>Meteor.js - Chris Waring (link: http://twitter.com/cwaring text: @cwaring)</li></ul><h2>Sponsors</h2><p>(image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image: pusherlogo.png class: rmboxshad full-width link:http://www.pusher.com)</p>"
+lanyrd: "http://www.lanyrd.com/2013/londonjs-22/"
+booking_link: "http://londonjs-22.eventbrite.com/"
+blurb: An evening of JavaScript talks
+date: "2013-07-15 18:30"
+end_Date: "2013-07-15 21:00"

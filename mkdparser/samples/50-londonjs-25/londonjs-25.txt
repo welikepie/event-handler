@@ -1,0 +1,51 @@
+Title: London JS: Data Visualisation
+----
+Text:
+
+With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer. London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.
+
+**Tickets will be released on Friday the 4th of October at 2PM.**
+
+(image: londonjseh.png class: full-width)
+
+## Talks This Month
+
+* Using D3.js to Visualise Your Analytics Data - Edd Sowden (link: http://twitter.com/edds text: @edds)
+* 10 things you didn't know about D3.js - Anna Powell-Smith (link: http:/www.twitter.com/darkgreener text: @darkgreener)
+* 3D Cities and Data Visualisation with WebGL - Robin Hawkes (link: http://twitter.com/robhawkes text: @robhawkes)
+
+## Sponsors
+(image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image: pearson.png class: rmboxshad full-width link:http://www.twitter.com/pearsonlabs)
+
+----
+Blurb:
+
+An evening of JavaScript talks
+----
+What: Javascript Talks
+----
+Date: 2013-10-21 18:30
+----
+End_Date: 2013-10-21 21:00
+----
+Where: Biscuit Building, 
+10 Redchurch Street, London, 
+E2 7DD
+----
+Cost: Free
+----
+Map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+----
+Infobox:
+
+<h1>
+	<span>London JS</span>
+	<span>21st October 2013</span>
+	<abbr class="easydate">Mon, 21 October 2013 18:30:00 +0000</abbr>
+	<a href="http://londonjs-25.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://londonjs-25.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2013/londonjs-25/
+----

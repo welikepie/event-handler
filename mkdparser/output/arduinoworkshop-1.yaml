@@ -1,0 +1,13 @@
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: "googlecampus"
+title: Arduino Workshop
+map: "4-5 Bonhill Street, London, EC2A 4BX"
+cost: £75
+text: "<p>(link: https://twitter.com/nrocy text: Paul King) loves to make stuff. Join him for a full day Arduino workshop in which you will learn all about the Arduino Platform, get an introduction to electronics as a whole and learn how to make things that go &quot;beep!&quot;. You&#39;ll also be introduced to BreakoutJS in order to get full use out of the Arduino. All you need to have is a basic understanding of Javascript and the rest you&#39;ll pick up along the way.</p><p>What you&#39;ll learn:</p><ul><li>Introduction to the Arduino Platform</li><li>Overview of BreakoutJS</li><li>Electronics 101</li><li>Inputs, Switches and Sensors</li><li>Outputs, Beeps and LEDs</li></ul><p>Requirements:</p><ul><li>Basic understanding of Javascript</li><li>You will be provided with an Arduino to use, but please make sure to bring a laptop with you!</li></ul><p>(image: arduinofinal.jpg class: full-width)</p>"
+lanyrd: "http://lanyrd.com/2013/eventhandler-arduino-01/"
+booking_link: "http://eventhandler-arduino-01.eventbrite.com/"
+blurb: A full day Arduino workshop
+date: "2013-02-13 10:00"
+end_Date: "2013-02-13 17:30"

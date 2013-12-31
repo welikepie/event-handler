@@ -1,0 +1,45 @@
+﻿Title: London JS
+----
+Text: 
+
+With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer.
+
+London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.
+
+This months, the talks will be:
+
+* Microframeworks - Dan Knell (link: https://twitter.com/danielknell text: @danielknell)
+* Require.js - Tim Ruffles (link: https://twitter.com/timruffles text: @timruffles)
+
+----
+Blurb:
+
+Evening of Javascript talks about Microframeworks and Require.js.
+----
+What: Javascript Talks
+----
+Date: 2012-08-20 19:00
+----
+End_Date: 2012-08-20 22:00
+----
+Where: Poke London: Biscuit Building, 
+10 Redchurch Street, London, 
+E2 7DD
+----
+Cost: Free
+----
+Map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+----
+Infobox:
+
+<h1>
+	<span>London JS</span>
+	<span>20th August 2012</span>
+	<abbr class="easydate">Mon, 20 August 2012 19:00:00 +0000</abbr>
+	<a href="http://londonjs-13.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://londonjs-13.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2012/londonjs-13/
+----

@@ -1,0 +1,14 @@
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: "princecharlescinema"
+title: London JS Conf
+map: "7 Leicester Place, London, WC2H 7BY"
+cost: £100
+text: "<p>London JS Conf is our brand new JavaScript Conference.</p><p>(image: londonjsconf.png class: full-width)</p><p>Through running our monthly meet-up London JS: we&#39;ve worked with some fantastic speakers, met some amazing people and learnt a whole lot about JavaScript. The community that you&#39;ve all helped to build up is wonderful and as a way of saying thank you and celebrating JavaScript, we&#39;d like to bring you all together for London JS Conf.</p><p>On the 13th of February 2014, we&#39;ll be descending on the Prince Charles Cinema for a one-day two-track JavaScript focused day of learning and discovery. We&#39;ve also planned a range of special events around the conference and we hope you can join us for them.</p><p><strong>The first batch of tickets go on sale on Thursday the 28th of November at 1PM</strong></p><h3>Refund Policy</h3><p>If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.</p><p>If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.</p>"
+lanyrdAPI: "http://lanyrd.com/2014/londonjsconf/speakers/80c64ca14f1a1449.v1.json"
+lanyrd: "http://www.lanyrd.com/2014/londonjsconf"
+booking_link: "http://londonjsconf.eventbrite.co.uk/"
+blurb: London JS Conf
+date: "2014-02-13 09:00"
+end_Date: "2014-02-13 18:30"

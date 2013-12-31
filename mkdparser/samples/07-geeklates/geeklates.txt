@@ -1,0 +1,117 @@
+Template: geeklates
+----
+Title: Geek Lates
+----
+Blurb: An evening of geeky entertainment and insight with workshops, talks and stands.
+----
+Text: 
+
+We've been planning this event for quite some time now and we're ready to finally tell you about it! Geek Lates is an evening of geeky entertainment and insight. Held in the hall of Central Foundation School just off of Old Street; there will be workshops, talks and other stands dotted around the place. We have a sketch notes workshop from Eva Lotta Lamm, (very) short story writing from James Wallis, Domestic Science with Helen Arney, Arduino workshops with Paul King and many more to be announced.
+
+## Speakers
+<a name="paulKing"></a>(image: Paul-King.png class: full-width)
+
+### Paul King
+
+An Arduino aficionado and professional tinkerer who likes things that go "beep". He will be holding an arduino workshop and "is most definitely not a robot".
+
+If you'd like to join in with this workshop but don't have your own kit, you'll be able to buy a workshop ready arduino kit from us on the day.
+
+<a name="evaLottaLamm"></a>(image: Eva-Lotta-Lamm.png class: full-width)
+
+### Eva Lotta Lamm
+
+A UX designer currently working for Google. She has published a book of beautiful sketch notes on UX and Design events and will show us how to do these ourselves.
+
+<a name="judePullen"></a>(image: Jude-Pullen.png class: full-width)
+
+### Jude Pullen
+
+An award winning designer and engineer at Dyson UK, he will be showing us how to build physical prototypes, getting the idea off of the paper and into 3D.
+
+<a name="giddyUpCoffee"></a>(image: Giddy-Up-Coffee.png class: full-width)
+
+### Giddy Up Coffee
+
+These guys seem to have endless ways of making coffee, a staple in the tech community. They will be teaching others how to brew the good stuff as well as catering for the event.
+
+<a name="laurianGridinoc"></a>(image: Laurian-Gridinoc.png class: full-width)
+
+### Laurian Gridinoc
+
+A mad scientist currently working with BBC News. He plays with geiger counters and the human anatomy and will be teaching us how to analyse bone fractures and do anatomical sketches.
+
+<a name="helenArney"</a>(image: Helen-Arney.png class: full-width)
+
+### Helen Arney & Rob Wells: Domestic Science
+
+Comedians Helen Arney & Rob Wells, fresh back from the Edinburgh Fringe, will be performing their "culinary science" workshop. "Highly entertaining… Surprisingly educational" - <i>Broadway Baby</i>"
+
+<a name="frankieRoberto"</a>(image: Frankie-Roberto.png class: full-width)
+
+### Frankie Roberto
+
+A UX designer and LEGO enthusiast. He will be holding a discussion about the famous plastic blocks whilst our attendees construct their own masterpieces.
+
+<a name="jimmyHatherley"></a>(image: Jimmy-Hatherley.png class: full-width)
+### Jimmy Hatherley of London Fields Brewery
+
+He will be taking us through a world of beer, holding a tasting session and informing us about the process of making the good stuff. 
+
+<a name="paulusDreibholz"></a>(image: Paulus-Dreibholz.png class: full-width)
+### Paulus Dreibholz of TeachingType.com
+
+He will be teaching us how to design our own typefaces, sketching them out and building them up. 
+
+<a name="rozMorris"></a>
+
+### Roz Morris
+
+A writer and ghostwriter with 8 best selling novels; Roz is going to be teaching us how to write short stories with a twist, they have to fit on a postcard.
+----
+What: All Things Geeky
+----
+Date: 2012-11-01 18:00
+----
+End_Date: 2012-11-01 22:00
+----
+Where: Central Foundation Boys School,
+Cowper Street,
+London, EC2A 4SH
+----
+Cost: £5 - £25
+----
+Map: Cowper Street, London, EC2A 4SH
+----
+Booking_link: http://geeklates.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2012/geek-lates/
+----
+Sponsors:
+
+- title: Golden Sponsor
+  sponsors:
+    - image: https://mailchimp.com/downloads/new-brand-assets/Logo_Light-Background.png
+      url: https://mailchimp.com/
+- title: Silver Sponsors
+  sponsors:
+    - image: http://www.twilio.com/packages/company/img/logos_downloadable_logobrand.png
+      url: http://www.twilio.com/
+    - image: http://i.imgur.com/Frtfr.png
+      url: http://rosenfeldmedia.com/
+  
+----
+Infobox:
+
+<h1>
+	<span>Geek Lates</span>
+	<span>1st November 2012</span>
+	<abbr class="easydate">Thu, 1 November 2012 18:00 +0000</abbr>
+	<a href="http://geeklates.eventbrite.com/" rel="external" target="_blank">View Tickets</a>
+</h1>
+----
+Banners:
+- banner-480.png
+- banner-840.png
+----
+Priority: 1

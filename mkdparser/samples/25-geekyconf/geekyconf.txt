@@ -1,0 +1,73 @@
+Title: GeekyConf
+----
+Text: 
+
+GeekyConf is a conference with an aim to inspire and entertain all those that attend. Over twenty speakers will be coming together to present lightning talks (ten minutes long) on that which they are passionate about. 
+
+(image: geekyconfeh.png class: full-width)
+
+Talk topics range from design to the morality and politics of Pirates and there will be mini workshops and other activities spread throughout the day. Coffee and Food will be provided and there will be an after-party! We hope we can keep your creativity brimming with this unique event for the broader web community.
+
+## Speakers
+
+Helen Arney & Rob Wells (link: http://twitter.com/domesticscience text: @domesticscience) - Domestic Science
+James Wallis (link: http://twitter.com/jameswallis text: @jameswallis) - Scandinavians hitting you with sticks
+Luke Murphy Wearmouth (link: http://twitter.com/lurkmoophy text: @lurkmoophy) - Clouds in the dust
+Sarah Warman (link: http://twitter.com/brewdogsarah text: @brewdogsarah) - The truth about pirates
+Jimmy Hatherley (link: http://twitter.com/jimmyhatherley text: @jimmyhatherley) - Principles of Beer & Food Matching
+Ketan Majmudar (link: http://twitter.com/ketan text: @ketan) - Stereoscopocalypse Now in 3D
+Dr. Esther MacCaullum-Stewart (link: http://twitter.com/neveahfs text: @neveahfs) - Sex, Love, Dwarves, Bacon
+Edd Sowden (link: http://twitter.com/edds text: @edds) - Determining the fastest person on two wheels
+Peter Fletcher (link: http://twitter.com/joyfeed text: @joyfeed) - On the Counting of Sneezes
+Zoe Laughlin (link: http://twiter.com/zoelaughlin text: @zoelaughlin) - The Wonder of Stuff
+Mr. Bingo (link: http://twiter.com/mr_bingo text: @mr_bingo) - How to turn Drunk Ideas into Books
+Layton Reid (link: http://desitecture.blogspot.co.uk/ text: - Website) - Desitecture
+Simon T Abernethy (link: http://twitter.com/pirateomnibus text: @pirateomnibus) - Omnibus Racing for Beginners
+The Gloves Team (link: http://imogenheap.com/thegloves/ text: - Website) - Gloves for Music Creation and Performance
+Alice Bartlett (link: http://twitter.com/alicebartlett text: @alicebartlett) - Five Facts About Smell
+Tom Scott (link: http://twitter.com/tomscott text: @tomscott) - Single Point of Failure
+James Wickham (link: http://twitter.com/jameswickham text: @jameswickham) - Wireless for Sound
+Helen Scales (link: http://twitter.com/helenscales text: @helenscales) - To be announced
+
+## Sponsors
+
+If you are interested in sponsoring the event or have any questions about GeekyConf, feel free to get in touch at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+
+(image: rosenfeld.png class: rmboxshad full-width link:http://www.rosenfeldmedia.com)(image: abookapart.png class: rmboxshad full-width link:http://www.abookapart.com)(image: tattly.png class: rmboxshad full-width link:http://www.tattly.com)(image: github.png class: rmboxshad full-width link:http://www.github.com)(image: sendgrid.png class: rmboxshad full-width link:http://www.sendgrid.com)(image: 10gen.png class: rmboxshad full-width link:http://www.10gen.com)(image: paypal.png class: rmboxshad full-width link:http://www.paypal.com)(image: techsmith.png class: rmboxshad full-width link:http://www.techsmith.com)(image: twilio.png class: rmboxshad full-width link:http://www.twilio.com)
+
+
+
+
+----
+Blurb:
+
+A day of lightning talks with an aim to inspire and entertain. 
+----
+What: Lightning Talks
+----
+Date: 2013-11-21 10:30
+----
+End_Date: 2013-11-21 18:00
+----
+Where: Oval Space, 29-32,
+London, E2 9DT
+----
+Cost: £50-70
+----
+Map: 29-32 Oval Space, London, E2 9DT
+----
+Infobox:
+
+<h1>
+	<span>GeekyConf</span>
+	<span>21st November 2013</span>
+	<abbr class="easydate">Thurs, 21 November 2013 10:30:00 +0000</abbr>
+	<a href="http://www.geekyconf.com" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://www.geekyconf.com
+----
+Lanyrd: http://www.lanyrd.com/2013/geekyconf/
+----
+LanyrdAPI: http://lanyrd.com/2013/geekyconf/speakers/9ab9ba7f20a67c3c.v1.json
+----

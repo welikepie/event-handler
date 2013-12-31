@@ -1,0 +1,69 @@
+Title: Best Practice for UX Deliverables
+----
+Text: 
+On Tuesday the 22nd of October, Anna Dahlström (link: http://www.twitter.com/annadahlstrom text: @annadahlstrom) will be holding an evening class on creating well presented deliverables to communicate your work.
+
+(image: uxforux.png class: full-width)
+
+Whilst the work we do is not meant to be hanged on a wall for people to admire, nor is meant to be put in a drawer and forgotten about. Just as we make the products and services we design easy to use, the UX of UX is about communicating your thinking in a way that ensures that what you've defined is easy to understand for the reader. It's about adapting the work you do to the project in question and finding the right balance of making people want to look through your work whilst not spending unnecessary time on making it pretty.
+
+### Who is it for?
+
+This workshop is suitable for anyone starting out in UX, or who's worked with it for a while but is looking to improve the way they present their work. 
+ 
+
+### Who is it taught by?
+
+The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom text: @annadahlstrom), an Information Architecure and User Experience consultant. Originally from Sweden, Anna lives and works in London. Having previously worked for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances part-time.
+
+### What you'll learn
+
+In this hands on workshop we'll walk through real life examples of why the UX of UX deliverables matter. We'll cover how who the reader is effects the way we should present our work, both on paper and verbally, and how to ensure that the work you do adds value. Coming out of the workshop you'll have practical examples and hands on experience with:
+
+* How to adapt and sell your UX deliverable to the reader (from clients, your team, in house and outsourced developers)
+* Guiding principles for creating good UX deliverables (both low and high fidelity)
+* Best practice for presentations, personas, user journeys, flows, sitemaps, wireframes and other documents
+* Simple, low effort but big impact tools for improving the visual presentation of your UX deliverables
+
+### Requirements
+
+* Please bring your laptop
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Best Practice for UX Deliverables
+----
+What: Creating UX Deliverables
+----
+Date: 2013-10-22 19:00
+----
+End_Date: 2013-10-22 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>UX Deliverables</span>
+	<span>22nd October 2013</span>
+	<abbr class="easydate">Tue, 22 October 2013 19:00:00 +0000</abbr>
+	<a href="http://uxnightclass-uxdeliverables.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://uxnightclass-uxdeliverables.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2013/uxnightclass-uxofux
+----

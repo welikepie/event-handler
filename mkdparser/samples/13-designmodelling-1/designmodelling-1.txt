@@ -1,0 +1,57 @@
+Title: Design Modelling Workshop
+----
+Text: 
+
+Join (link: https://twitter.com/jude_pullen text: Jude Pullen), award winning designer and engineer at Dyson UK on a full day design modelling workshop. Working from sketches; Jude will teach you how to make physical prototypes out of card, foam and plastic sheet.
+
+Whether you're a table-top gamer, model railway builder, teacher, engineer, architect, set designer or product designer - we all need to communicate our ideas. Even more so when working with other people, we may need to adapt models quickly, often in mid-discussion. Like iterative sketches in pen and paper, much progress can be made with quick and effective sketch-model making, before finalising an idea. 
+
+You'll be provided with some case studies to work with to make a prototype, but please feel free to bring your own ideas, sketches or components to use. If you'd like to know more about Jude's process and what may be covered in the workshop, you can take a look at his work here: (link: http://www.judepullen.com/designmodelling text: Design Modelling). 
+
+What you'll learn:
+
+* How to turn your ideas into a final prototype
+* Techniques to handle cardboard, foam and plastic
+* The score and snap technique for modelling with acrylic
+* How to make curves, joints, folds and cuts. 
+* How to use a glue gun to piece your work together
+
+If you have an idea of what you'd like to prototype but have some questions or just want to know more, you can email us at (email: contact@eventhandler.co.uk). 
+
+(image: dm2.jpg class: full-width)
+
+(image: dmevent.jpg class: full-width)
+
+(image: dm3.jpg class: full-width)
+
+----
+Blurb:
+
+A full day Design Modelling workshop
+----
+What: Design Modelling Workshop
+----
+Date: 2013-01-26 10:00
+----
+End_Date: 2013-01-26 17:30
+----
+Where: Central Foundation Boys School,
+Cowper Street, London, EC2A 4SH
+----
+Cost: £100
+----
+Map:  Cowper Street, London, EC2A 4SH
+----
+Infobox:
+
+<h1>
+	<span>Design Modelling</span>
+	<span>26th January 2013</span>
+	<abbr class="easydate">Sat, 26 January 2013 10:00:00 +0000</abbr>
+	<a href="http://eventhandler-designmodelling-01.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://eventhandler-designmodelling-01.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2013/eventhandler-designmodelling-01/
+----

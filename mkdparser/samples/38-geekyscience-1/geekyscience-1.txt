@@ -1,0 +1,53 @@
+﻿Title: GeekyScience: Evolution
+----
+Text: 
+
+We're excited to announce a brand new monthly event, GeekyScience!
+
+(image: geekyscience.png class: full-width)
+
+GeekyScience is an exciting evening of learning and entertainment. Each month, experts in their field will come together to share what they know, related to an overarching scientific theme that will change each month. GeekyScience is both curated and hosted by (link: http://www.twitter.com/helenarney text: Helen Arney), award-winning comedian and physics graduate. If you want to learn about the things that live deep within the ocean, how to make an asteroid or what an explosion scientist gets up to day-to-day; GeekyScience is something you don’t want to miss. 
+
+## Septembers' Theme: Evolution
+
+From Mendel's discoveries on inheritance to Darwin's theory of natural selection, the theory of evolution has led to an immense amount of scientific research and discovery. (link: http://www.twitter.com/harpistkat text: Dr. Kat Arney), Science Information Manager at Cancer Research UK, will be joining us to share her insights into the evolution of Cancer and (link: http://www.twitter.com/adamrutherford text: Dr. Adam Rutherford), journalist and presenter, will be using hip hop in his exploration of evolution and synthetic biology.
+
+## Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+An evening of talks exploring an exciting variety of scientific topics. 
+----
+What: Science & Discovery
+----
+Date: 2013-09-05 19:00
+----
+End_Date: 2013-09-05 22:00
+----
+Where: Rich Mix, 
+35-47 Bethnal Green Rd 
+London, E1 6LA
+----
+Cost: £12-15
+----
+Map: 35-47 Bethnal Green Rd London, E1 6LA
+----
+Infobox:
+
+<h1>
+	<span>GeekyScience: Evolution</span>
+	<span>5th September 2013</span>
+	<abbr class="easydate">Thurs, 05 September 2013 19:00:00 +0000</abbr>
+	<a href="http://geekyscience-september.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://geekyscience-september.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2013/geekyscience-september/
+----
+

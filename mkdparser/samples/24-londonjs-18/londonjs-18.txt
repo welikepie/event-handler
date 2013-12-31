@@ -1,0 +1,46 @@
+Title: London JS
+----
+Text: 
+
+With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer.
+
+London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.
+
+This months, the talks will be:
+
+* Javascript & Kinect - Mairead Buchan (link: https://twitter.com/tiny_m text: @tiny_m)
+* Shaders & Filters - Paul Lewis (link: https://twitter.com/aerotwist text: @aerotwist)
+* Regular Expressions - Remy Bach (link: https://twitter.com/remybach text: @remybach)
+
+----
+Blurb:
+
+Evening of Javascript talks about JavaScript Engines and Frameworks
+----
+What: Javascript Talks
+----
+Date: 2013-03-18 18:30
+----
+End_Date: 2013-03-18 21:00
+----
+Where: Poke London: Biscuit Building, 
+10 Redchurch Street, London, 
+E2 7DD
+----
+Cost: Free
+----
+Map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
+----
+Infobox:
+
+<h1>
+	<span>London JS</span>
+	<span>18th March 2013</span>
+	<abbr class="easydate">Mon, 18 March 2013 18:30:00 +0000</abbr>
+	<a href="http://londonjs-18.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://londonjs-18.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2013/londonjs-18/
+----

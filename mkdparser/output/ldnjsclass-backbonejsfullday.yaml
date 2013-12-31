@@ -1,0 +1,14 @@
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: "hubwestminster"
+title: "London JS Class: BackboneJS Full-Day Workshop"
+map: "80 Haymarket, London, SW1Y 4TE"
+cost: £120 - £150
+text: "<p>On the 7th of February, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a <strong>full-day</strong> workshop in which you can learn to use Backbone.js to create web applications. </p><p>(image: backbone.png class: full-width)</p><h3>Who is it for?</h3><p>This workshop is for those who want to learn how to build scalable JavaScript applications.</p><p>Discover how to work with Backbone.js to create testable, maintable code with a clear structure. This class will take your existing JS, HTML and CSS skills and allow you to create modern thick-client applications using Backbone. </p><h3>Who is it taught by?</h3><p>This workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles). Tim is a Ruby &amp; JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality tracking tool. You can find him speaking about Sidekick and other aspects of the web at (link: http://www.lanyrd.com/timruffles text: various events). </p><h3>What you&#39;ll learn</h3><ul><li>Getting started with Backbone.js</li><li>Models &amp; Collections</li><li>Views</li><li>Routers</li><li>Application structure</li><li>TDD - Test-Driven Development</li><li>Plugins, templates and extensions</li><li>Extending Backbone.sync</li></ul><h3>Requirements</h3><ul><li>Please bring your laptop</li><li>To take part in this course, you must be well-versed in JavaScript, jQuery (or similar DOM library) and HTML/CSS.</li></ul><h3>Refund Policy</h3><p>If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.</p><p>If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.</p>"
+lanyrdAPI: "http://lanyrd.com/2014/ldnjsclasses-backbonejsfullday/speakers/9cdccad95fc9a4d8.v1.json"
+lanyrd: "http://www.lanyrd.com/2014/ldnjsclasses-backbonejsfullday"
+booking_link: "http://ldnjsclasses-backbonejsfullday.eventbrite.com/"
+blurb: A full-day BackboneJS Workshop
+date: "2014-02-07 10:00"
+end_Date: "2014-02-07 18:00"

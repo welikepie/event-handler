@@ -1,0 +1,69 @@
+Title: Usability Testing How To's for Small Teams (& Little Budgets)
+----
+Text: 
+On the 22nd of January, (link: http://www.twitter.com/grinblo text: Evgenia Grinblo) will be a night class on usability testing, showing you how to test products reliably and cheaply.
+
+(image: usability.png class: full-width)
+
+### Who is it for?
+
+This workshop is for those who want to create products that will be easy to use. Usability testing is an important part of the process of designing digital products, but it can often be overlooked due to time, money, and training constraints. In this workshop you'll learn how to test any product's usability without spending a large amount of time and money. And how to use what you've learned to improve the product. 
+ 
+
+### Who is it taught by?
+
+This workshop is being taught by Evgenia Grinblo (link: http://www.twitter.com/grinblo text: @grinblo), User Experience Specialist at mobile agency, (link: http://www.futureworkshops.com text: Future Workshops). Born in Siberia, Jenny freelanced and trained in ethnographic research in Israel and the USA, before bringing her talent to the UK. Her pet peeve is badly written error-messages and she has a (link: http://errorwallofshame.tumblr.com/ text: growing collection of them). You'll find her (link: http://www.lanyrd.com/grinblo text: speaking) on empathy, UX, and other passions.
+
+### What you'll learn
+
+* An introduction to usability testing - what is it?
+* Who should you test your product on? 
+* What do you test?
+* How to facilitate a test and get reliable results
+* How to manage data and act on your findings with your team
+* Tools: Cheap, quick and effective testing tools for mobile and the web. 
+
+### Requirements
+
+* Please bring a laptop or mobile device on which to test a website or app
+
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Cheap and effective usability testing
+----
+What: Usability Testing
+----
+Date: 2014-01-22 19:00
+----
+End_Date: 2014-01-22 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Usability Testing</span>
+	<span>22nd January 2014</span>
+	<abbr class="easydate">Weds, 22 January 2014 19:00:00 +0000</abbr>
+	<a href="http://uxnightclass-usability2.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://uxnightclass-usability2.eventbrite.com/
+----
+Lanyrd: http://www.lanyrd.com/2014/uxnightclass-usability2
+----
+LanyrdAPI: http://lanyrd.com/2014/uxnightclass-usability2/speakers/ad3a51671826c033.v1.json

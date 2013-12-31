@@ -1,0 +1,13 @@
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: "googlecampus"
+title: "London JS Night Class: 2D Web Physics"
+map: "4-5 Bonhill Street, London, EC2A 4BX"
+cost: £50
+text: "<p>We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game.  </p><h3>Week Two: 2D Web Physics</h3><ul><li>Learn how to create your own physics engine; animating and exerting forces on your game sprites. </li><li>Learn how to animate objects</li><li>Learn how to define the velocity and mass of your object, as well as the force of gravity acting upon it.</li><li>Learn about bonding box-collisions; investigating whether game objects are colliding/overlapping. </li><li>Learn about fixed and variable frame-rates. </li></ul><h3>What you&#39;ll need:</h3><ul><li>Proficiency in JavaScript</li><li>A Laptop</li></ul><h3>Building Web-Based Games:</h3><ul><li>Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)</li><li>Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)</li><li>Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)</li><li>Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)</li></ul><p>(image: webgame2.png class: full-width)</p>"
+lanyrd: "http://lanyrd.com/2013/ldnjsnightclass-webgames2"
+booking_link: "http://ldnjsnightclass-webgames2.eventbrite.com/"
+blurb: A 5 workshop series dedicated to building web-based games.
+date: "2013-06-11 18:30"
+end_Date: "2013-06-11 21:30"

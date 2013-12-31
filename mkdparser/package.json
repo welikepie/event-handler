@@ -1,0 +1,13 @@
+{
+  "name": "eventhandler_events_converter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node convert.js",
+    "foreverstart" : "forever start convert.js"
+  },
+  "dependencies": {
+    "marked": "0.3.0",
+    "js-yaml" : "3.0.1"
+  }
+}

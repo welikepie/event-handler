@@ -1,0 +1,53 @@
+Title: London JS Conf
+----
+Text: 
+
+London JS Conf is our brand new JavaScript Conference.
+
+(image: londonjsconf.png class: full-width)
+
+Through running our monthly meet-up London JS: we've worked with some fantastic speakers, met some amazing people and learnt a whole lot about JavaScript. The community that you've all helped to build up is wonderful and as a way of saying thank you and celebrating JavaScript, we'd like to bring you all together for London JS Conf.
+
+On the 13th of February 2014, we'll be descending on the Prince Charles Cinema for a one-day two-track JavaScript focused day of learning and discovery. We've also planned a range of special events around the conference and we hope you can join us for them.
+
+**The first batch of tickets go on sale on Thursday the 28th of November at 1PM**
+
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+London JS Conf
+----
+What: London JS Conf
+----
+Date: 2014-02-13 09:00
+----
+End_Date: 2014-02-13 18:30
+----
+Where: Prince Charles Cinema,
+7 Leceister Place, London WC2H 7BY
+----
+Cost: £100
+----
+Map: 	7 Leicester Place, London, WC2H 7BY
+----
+Infobox:
+
+<h1>
+	<span>London JS Conf</span>
+	<span>13th February 2014</span>
+	<abbr class="easydate">Thurs, 13 February 2014 09:00:00 +0000</abbr>
+	<a href="http://londonjsconf.eventbrite.co.uk/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://londonjsconf.eventbrite.co.uk/
+----
+Lanyrd: http://www.lanyrd.com/2014/londonjsconf
+----
+LanyrdAPI: http://lanyrd.com/2014/londonjsconf/speakers/80c64ca14f1a1449.v1.json

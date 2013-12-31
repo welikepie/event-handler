@@ -1,31 +1,13 @@
----
-series: yes
-speakerid: 
-  - amroche
-  - charlotte
+speakerID: ""
+series: 0
+eventbriteid: ""
+venue: "poke"
 title: "London JS: Data Visualisation"
-text: |
-  With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer. London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.
-
-  **Tickets will be released on Friday the 4th of October at 2PM.**
-
-  (image: londonjseh.png class: full-width)
-
-  ## Talks This Month
-
-  * Using D3.js to Visualise Your Analytics Data - Edd Sowden (link: http://twitter.com/edds text: @edds)
-  * 10 things you didn't know about D3.js - Anna Powell-Smith (link: http:/www.twitter.com/darkgreener text: @darkgreener)
-  * 3D Cities and Data Visualisation with WebGL - Robin Hawkes (link: http://twitter.com/robhawkes text: @robhawkes)
-
-  ## Sponsors
-  (image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image: pearson.png class: rmboxshad full-width link:http://www.twitter.com/pearsonlabs)
-blurb: An evening of JavaScript talks
-what: Javascript Talks
-date: 2013-10-21 18:30
-end_date: 2013-10-21 21:00
-where: biscuitbuilding 
+map: "10 Redchurch Street, Biscuit Building, London, E2 7DD"
 cost: Free
-map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
-booking_link: http://londonjs-25.eventbrite.com/
-lanyard: http://www.lanyrd.com/2013/londonjs-25/
----
+text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer. London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><p><strong>Tickets will be released on Friday the 4th of October at 2PM.</strong></p><p>(image: londonjseh.png class: full-width)</p><h2>Talks This Month</h2><ul><li>Using D3.js to Visualise Your Analytics Data - Edd Sowden (link: http://twitter.com/edds text: @edds)</li><li>10 things you didn&#39;t know about D3.js - Anna Powell-Smith (link: http:/www.twitter.com/darkgreener text: @darkgreener)</li><li>3D Cities and Data Visualisation with WebGL - Robin Hawkes (link: http://twitter.com/robhawkes text: @robhawkes)</li></ul><h2>Sponsors</h2><p>(image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)(image: pearson.png class: rmboxshad full-width link:http://www.twitter.com/pearsonlabs)</p>"
+lanyrd: "http://www.lanyrd.com/2013/londonjs-25/"
+booking_link: "http://londonjs-25.eventbrite.com/"
+blurb: An evening of JavaScript talks
+date: "2013-10-21 18:30"
+end_Date: "2013-10-21 21:00"

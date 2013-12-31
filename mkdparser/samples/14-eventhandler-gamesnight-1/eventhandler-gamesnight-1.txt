@@ -1,0 +1,48 @@
+Title: Event Handler Games Night
+----
+Text: 
+
+Join us in the pub for an evening of board games! Head down after work to relax with a drink and some of your favourites.
+
+Games we're bringing:
+
+* Carrcassone
+* Settlers of Catan
+* Once upon a time
+* Gloom
+
+Feel free to bring your own, the more the merrier!
+
+----
+Blurb:
+
+A relaxing board game evening
+----
+What: A night of board games
+----
+Date: 2012-12-17 18:30
+----
+End_Date: 2012-12-17 22:30
+----
+Where: The Reliance, 
+336 Old Street,
+London, EC1V 9DR
+----
+Cost: Free
+----
+Map:  336 Old Street, London, EC1V 9DR
+----
+Infobox:
+
+<h1>
+	<span>Event Handler Games Night</span>
+	<span>17th December 2012</span>
+	<abbr class="easydate">Mon, 17 December 2012 18:30:00 +0000</abbr>
+	<a href="http://eventhandler-gamesnight-01.eventbrite.com/" target="_blank">View Tickets</a>
+
+</h1>
+----
+Booking_link: http://eventhandler-gamesnight-01.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2012/eventhandler-gamesnight-01/
+----

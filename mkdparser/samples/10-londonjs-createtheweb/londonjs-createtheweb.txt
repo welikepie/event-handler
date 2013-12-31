@@ -1,0 +1,45 @@
+Title: London JS Create the Web
+----
+Text:
+
+With all the new HTML5 APIs and node.js making waves in the backend, it's never been a better time to be a JavaScript developer.
+
+London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.
+
+This month, the talks will be:
+
+* Create the Web - Michael Chaize (link: https://twitter.com/mchaize text: @mchaize) and Terrence Ryan (link: https://twitter.com/tpryan text: @tpryan)
+* WebRTC - Sam Dutton (link: https://twitter.com/sw12 text: @sw12)
+
+----
+Blurb:
+
+Evening of Javascript talks about Create the Web and WebRTC
+----
+What: Javascript Talks
+----
+Date: 2012-11-12 18:30
+----
+End_Date: 2012-11-12 21:00
+----
+Where: Forward Technology: Floor 2, Centro 3
+10 Mandela Street, London, 
+NW1 0DU
+----
+Cost: Free
+----
+Map: 19 Mandela Street, London, NW1 0DU
+----
+Infobox:
+
+<h1>
+	<span>London JS Create the Web</span>
+	<span>12th November 2012</span>
+	<abbr class="easydate">Mon, 12 November 2012 18:30:00 +0000</abbr>
+	<a href="http://londonjs-createtheweb.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://londonjs-createtheweb.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2012/londonjs-createtheweb/
+----

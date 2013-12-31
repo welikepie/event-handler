@@ -1,0 +1,52 @@
+﻿Title: Craft
+----
+Text: 
+
+An evening dedicated to the skill and knowledge that goes in to creating the finest beverages and digital products. Craft is hosted in BrewDogs' Underdog Bar in Redchurch Street and supported by the BrewDog Shoreditch Team.
+
+**Tickets will be released at 2pm on May 20th and 2pm on May 24th**
+
+## Talks by:
+
+Ian Fenn (link: http://twitter.com/ifenn text: @ifenn) - Designing your UX Portfolio
+Evgenia Grinblo (link: http://twitter.com/grinblo text: @grinblo) - What Craft and War Have in Common
+
+## Beer Tasting:
+Punk IPA Vermouth
+
+## Supported by:
+(image: brewdog.png class: rmboxshad full-width link:http://www.brewdog.co.uk)
+
+----
+Blurb:
+
+An evening of Craft Beer and Tech
+----
+What: Craft Beer & Tech Talks
+----
+Date: 2013-06-03 18:00
+----
+End_Date: 2013-06-03 22:00
+----
+Where: Underdog at BrewDog Shoreditch,
+55 Bethnal Green Road,
+E1 5LA
+----
+Cost: Free
+----
+Map: 51-55 Bethnal Green Road, London, E1 6LA, United Kingdom
+----
+Infobox:
+
+<h1>
+	<span>Craft</span>
+	<span>3rd June 2013</span>
+	<abbr class="easydate">Mon, 03 June 2013 18:00:00 +0000</abbr>
+	<a href="http://craft-1.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://craft-1.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2013/craft-01/
+----
+

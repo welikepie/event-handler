@@ -1,0 +1,59 @@
+Title: London JS Night Class: Web Sockets & Multi-user Networks
+----
+Text: 
+
+We are working with Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski) to bring you a five week course on building web-based games. The first three weeks will be based on stand-alone things you need to learn such as building game graphics, animation and creating multiplayer networks. Weeks four and five will work on taking what you learned previously and putting it to work in creating your first web game. 
+
+### Week Three: Web Sockets and Multi-User Applications
+
+* Learn how to send information to clients and create multi-user networks. 
+* Learn how to deploy web sockets
+* Learn to connect to clients and send information over to them. 
+* Learn how to talk to multiple clients at once, from one server.
+* Explore the use of server-sent events
+* Measure Lag/Ping time and learn to avoid overwhelming the client with too much information.
+
+### What you'll need:
+
+* Proficiency in JavaScript
+* A Laptop
+
+### Building Web-Based Games:
+
+* Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text: Canvas and Canvas Animation)
+* Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2 text: 2D Web Physics)
+* Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3 text: Web Sockets and Multi-User Applications)
+* Weeks Four and Five: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure a Game)
+
+(image: webgame3.png class: full-width)
+----
+Blurb:
+
+A 5 workshop series dedicated to building web-based games. 
+----
+What: Building web-based games
+----
+Date: 2013-06-18 18:30
+----
+End_Date: 2013-06-18 21:30
+----
+Where: Google Campus, 
+4-5 Bonhill Street, London, EC2A 4BX
+----
+Cost: £50
+----
+Map: 4-5 Bonhill Street, London, EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>Web Sockets</span>
+	<span>18th June 2013</span>
+	<abbr class="easydate">Tue, 18 June 2013 18:30:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-webgames3.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-webgames3.eventbrite.com/
+----
+Lanyard: http://www.lanyrd.com/2013/ldnjsnightclass-webgames3/
+----

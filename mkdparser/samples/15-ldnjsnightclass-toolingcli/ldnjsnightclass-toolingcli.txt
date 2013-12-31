@@ -1,0 +1,47 @@
+Title: London JS Night Classes: Modern Tooling on the Command Line
+----
+Text: 
+
+Join (link: https://www.twitter.com/jack_franklin text: Jack Franklin) in a London JS Night Class dedicated to exploring the possibilities of utilising JavaScript and speeding up development on the Command Line.
+
+There are so many great JS tools and utilities that are exclusively available on the command line. In this workshop we will look at how to set up a command line, including initial configuration, installing useful tools like Node and Node Package Manager (npm), and then delve into more detail into a few of the most popular tools, including Grunt, Yeoman, Mocha, Bower and others.
+
+If you want to take part in this workshop, here's what you'll need:
+
+* A Unix Laptop; a Mac or something that runs Linux.
+* You must be an experienced JavaScript developer. Experience with TDD/BDD libraries like Jasmine (or similar) and MV frameworks like Backbone is recommended.
+* Node (V0.8 and upwards) and Node Package Manager (npm) installed on your computer.
+* Basic knowledge of the command line is preferable but not required.
+
+
+----
+Blurb:
+
+A London JS Night Class dedicated to JavaScript and the Command Line
+----
+What: A London JS Night Class
+----
+Date: 2013-03-06 18:30
+----
+End_Date: 2013-03-06 21:30
+----
+Where: Google Campus, 
+4-5 Bonhill Street, London, EC2A 4BX
+----
+Cost: £40
+----
+Map:  4-5 Bonhill Street London EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>Modern Tooling</span>
+	<span>6th March 2013</span>
+	<abbr class="easydate">Wed, 6 March 2013 18:30:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-toolingcli.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-toolingcli.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2013/ldnjsnightclass-toolingcli/
+----

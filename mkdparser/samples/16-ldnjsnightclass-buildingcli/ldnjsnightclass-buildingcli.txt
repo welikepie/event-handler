@@ -1,0 +1,46 @@
+Title: London JS Night Classes: Building Command Line Tools with Node.js
+----
+Text: 
+Join (link: https://twitter.com/jack_franklin text: Jack Franklin) for a London JS Night Class. In this workshop we'll see how Node.js can be used to build Command Line tools, look at the packages available on Node Package Manager (npm) and publish our own tools to npm, for anyone to use.
+
+Node.js is a fantastic tool that was originally intended for server side JS but has grown to serve a number of purposes. With the Node Package Manager, it's a rich environment for developing command line tools that you can use to make your job easier. If you spot yourself performing the same mundane tasks over and over again, that's a great chance to abstract those into a small command line utility. Node is a great platform for doing this.
+
+If you want to take part in this workshop, here's what you'll need:
+
+* A Unix Laptop; a Mac or something that runs Linux
+* You need to be comfortable with basic JavaScript (variables, functions, conditionals, loops)
+* You need to be comfortable using the command line
+* Have Node (V0.8 and upwards) and Node Package Manager (npm) installed
+* Having experience writing scripts with Node.js is preferable but not essential
+
+----
+Blurb:
+
+A London JS Night Class dedicated to building command line tools with Node
+----
+What: A London JS Night Class
+----
+Date: 2013-03-27 18:30
+----
+End_Date: 2013-03-27 21:30
+----
+Where: Google Campus, 
+4-5 Bonhill Street, London, EC2A 4BX
+----
+Cost: £40
+----
+Map:  4-5 Bonhill Street London EC2A 4BX
+----
+Infobox:
+
+<h1>
+	<span>Command Line Tools</span>
+	<span>27th March 2013</span>
+	<abbr class="easydate">Wed, 27 March 2013 18:30:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-buildingcli.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-buildingcli.eventbrite.com/
+----
+Lanyard: http://lanyrd.com/2013/ldnjsnightclass-buildingcli/
+----
