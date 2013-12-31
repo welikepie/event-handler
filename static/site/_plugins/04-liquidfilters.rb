@@ -1,6 +1,16 @@
 module Jekyll 
   module Calendar_functions
-  	def day_of_week (starting)
+    def afterToday(starting)
+      starting = (starting-Time.now.to_i) >= 0;
+    end
+  	def isNotEmpty(starting)
+      if (starting == "")
+        starting = false;
+      else
+        starting = true;
+      end
+    end
+    def day_of_week (starting)
     	Date.civil( (date(starting,"%Y").to_i) , date(starting,"%m").to_i , date(starting,"%-d").to_i ).strftime("%u");
   	end
   	def add_days_return_unix (starting,ending)

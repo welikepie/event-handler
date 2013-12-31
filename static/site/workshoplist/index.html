@@ -5,32 +5,38 @@ title: Events
 <h2> Workshops Listing </h2>
  <ul id="eventslist">
   {% for events in site.data.events %}
-  {% if events.directory_tags contains "workshops" %}
-  <li {%if events.eventbriteid%}data-evb="{{events.eventbriteid}}"{%endif%} >
-      <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }} </a>
-      <div>{{events.date}}</div>
-      <div>
-	      {% for speaks in events.speakerid %}
-	      	{{site.data.speakers[speaks].name}}
-	      	{% if forloop.rindex0 > 0%}
-		      	,
-	      	{%endif%}
-	      {%endfor%}
-      </div>
-      <div>
-      	{%if events.where %}
-      		{{site.data.venues[events.where].name}}
-      	{%endif%}
-      </div>
-      {%if events.eventbriteid%}
-      <div>Spaces remaining: 
-      	<span id="{{events.eventbriteid}}">
-      		<img src="/assets/img/tempspinnersmall.gif"></img>
-      	</span>
-      </div>
-      <div class="percentagebar" id="{{events.eventbriteid}}percentbar"></div>
-      {%endif%}
-  </li>
-  {% endif %}
+    {% if events.directory_tags contains "workshops" %}
+      {%assign zeds = {{events.epoch_s_date|afterToday}}%}
+      {%if zeds%}
+      {%assign x = {{events.eventbriteid|isNotEmpty}} %}
+      <li {%if x%}data-evb="{{events.eventbriteid}}"{%endif%} >
+          <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }} </a>
+          <div>{{events.date}}</div>
+          <div>
+    	      {% for speaks in events.speakerid %}
+    	      	{{site.data.speakers[speaks].name}}
+    	      	{% if forloop.rindex0 > 0%}
+    		      	,
+    	      	{%endif%}
+    	      {%endfor%}
+          </div>
+          <div>
+          	{%if events.where %}
+          		{{site.data.venues[events.where].name}}
+          	{%endif%}
+          </div>
+          {%if x%}
+          <div>Spaces remaining: 
+          	<span id="{{events.eventbriteid}}">
+          		<img src="/assets/img/tempspinnersmall.gif"></img>
+          	</span>
+          </div>
+          <div class="percentagebar" id="{{events.eventbriteid}}percentbar"></div>
+          {%endif%}
+      </li>
+      {% endif %}
+    {%endif%}
+
+
   {% endfor %}
   </ul>
