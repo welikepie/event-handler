@@ -13,7 +13,7 @@ title: Events
           <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }} </a>
           <div>{{events.date}}</div>
           <div>
-    	      {% for speaks in events.speakerid %}
+    	      {% for speaks in events.speakerID %}
     	      	{{site.data.speakers[speaks].name}}
     	      	{% if forloop.rindex0 > 0%}
     		      	,

@@ -1,12 +1,10 @@
 ---
+picture: /assets/img/speakers/timruffles.png
 name: Tim Ruffles
-title: Full Stack Developer
+title: Web Developer and Teacher
 description: |
-  This is another
-  multiline biography
-  which is handy, as you can
-  write in here in markdown too.
-lanyrd: timRuffles
-twitter: timRuffles
-webpage: http://dev.welikepie.com
+  Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on SidekickJS, his code-quality tracking tool. You can find him speaking about the web at various events.
+lanyrd: timruffles
+twitter: timruffles
+webpage: http://truffles.me.uk/
 ---

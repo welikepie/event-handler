@@ -962,8 +962,171 @@ craft:
   seriesconfprettyname: ! 'Eventhandler Meetups: Craft'
   seriesconfdescription: An evening of Craft Beer and Tech
   url: /events/craft
+ldnjsnightclass-webgames:
+- speakerID: kornellesinski
+  series: ldnjsnightclass-webgames
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Class: Canvas & Canvas Animation'
+  map: 4-5 Bonhill Street, London, EC2A 4BX
+  cost: £50
+  text: ! '<p>We are working with Kornel Lesinski (link: https://twitter.com/pornelski
+    text: @pornelski) to bring you a five week course on building web-based games.
+    The first three weeks will be based on stand-alone things you need to learn such
+    as building game graphics, animation and creating multiplayer networks. Weeks
+    four and five will work on taking what you learned previously and putting it to
+    work in creating your first web game. </p><h3>Week One: Canvas and Canvas Animation;</h3><p>An
+    evening of building fast and efficient image-based animations in Canvas</p><ul><li>Learn
+    how to draw images (sprites) in Canvas.</li><li>Learn how to animate sprites in
+    Canvas</li><li>Learn how to blend images and make images transparent</li><li>Use
+    canvas to create and display game graphics</li></ul><h3>What you&#39;ll need:</h3><ul><li>Proficiency
+    in JavaScript</li><li>A laptop</li></ul><h3>Building Web-Based Games:</h3><ul><li>Week
+    One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1 text:
+    Canvas and Canvas Animation)</li><li>Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2
+    text: 2D Web Physics)</li><li>Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3
+    text: Web Sockets and Multi-User Applications)</li><li>Weeks Four and Five: (link:
+    https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure
+    a Game)</li></ul><p>(image: webgame1.png class: full-width)</p>'
+  lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-webgames1/
+  booking_link: http://ldnjsnightclass-webgames1.eventbrite.com/
+  blurb: A 5 workshop series dedicated to building web-based games.
+  date: 2013-06-04 18:30
+  end_Date: 2013-06-04 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-webgames
+  filename: ldnjsnightclass-webgames1
+  epoch_s_date: 1370367000
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
+  seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
+  seriesconfdescription: A 5 workshop series dedicated to building web-based games.
+  url: /workshops/ldnjsnightclass-webgames
+- speakerID: kornellesinski
+  series: ldnjsnightclass-webgames
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Class: 2D Web Physics'
+  map: 4-5 Bonhill Street, London, EC2A 4BX
+  cost: £50
+  text: ! '<p>We are working with Kornel Lesinski (link: https://twitter.com/pornelski
+    text: @pornelski) to bring you a five week course on building web-based games.
+    The first three weeks will be based on stand-alone things you need to learn such
+    as building game graphics, animation and creating multiplayer networks. Weeks
+    four and five will work on taking what you learned previously and putting it to
+    work in creating your first web game.  </p><h3>Week Two: 2D Web Physics</h3><ul><li>Learn
+    how to create your own physics engine; animating and exerting forces on your game
+    sprites. </li><li>Learn how to animate objects</li><li>Learn how to define the
+    velocity and mass of your object, as well as the force of gravity acting upon
+    it.</li><li>Learn about bonding box-collisions; investigating whether game objects
+    are colliding/overlapping. </li><li>Learn about fixed and variable frame-rates.
+    </li></ul><h3>What you&#39;ll need:</h3><ul><li>Proficiency in JavaScript</li><li>A
+    Laptop</li></ul><h3>Building Web-Based Games:</h3><ul><li>Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1
+    text: Canvas and Canvas Animation)</li><li>Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2
+    text: 2D Web Physics)</li><li>Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3
+    text: Web Sockets and Multi-User Applications)</li><li>Weeks Four and Five: (link:
+    https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure
+    a Game)</li></ul><p>(image: webgame2.png class: full-width)</p>'
+  lanyrd: http://lanyrd.com/2013/ldnjsnightclass-webgames2
+  booking_link: http://ldnjsnightclass-webgames2.eventbrite.com/
+  blurb: A 5 workshop series dedicated to building web-based games.
+  date: 2013-06-11 18:30
+  end_Date: 2013-06-11 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-webgames
+  filename: ldnjsnightclass-webgames2
+  epoch_s_date: 1370971800
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
+  seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
+  seriesconfdescription: A 5 workshop series dedicated to building web-based games.
+  url: /workshops/ldnjsnightclass-webgames
+- speakerID: kornellesinski
+  series: ldnjsnightclass-webgames
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Class: Web Sockets & Multi-user Networks'
+  map: 4-5 Bonhill Street, London, EC2A 4BX
+  cost: £50
+  text: ! '<p>We are working with Kornel Lesinski (link: https://twitter.com/pornelski
+    text: @pornelski) to bring you a five week course on building web-based games.
+    The first three weeks will be based on stand-alone things you need to learn such
+    as building game graphics, animation and creating multiplayer networks. Weeks
+    four and five will work on taking what you learned previously and putting it to
+    work in creating your first web game. </p><h3>Week Three: Web Sockets and Multi-User
+    Applications</h3><ul><li>Learn how to send information to clients and create multi-user
+    networks. </li><li>Learn how to deploy web sockets</li><li>Learn to connect to
+    clients and send information over to them. </li><li>Learn how to talk to multiple
+    clients at once, from one server.</li><li>Explore the use of server-sent events</li><li>Measure
+    Lag/Ping time and learn to avoid overwhelming the client with too much information.</li></ul><h3>What
+    you&#39;ll need:</h3><ul><li>Proficiency in JavaScript</li><li>A Laptop</li></ul><h3>Building
+    Web-Based Games:</h3><ul><li>Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1
+    text: Canvas and Canvas Animation)</li><li>Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2
+    text: 2D Web Physics)</li><li>Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3
+    text: Web Sockets and Multi-User Applications)</li><li>Weeks Four and Five: (link:
+    https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure
+    a Game)</li></ul><p>(image: webgame3.png class: full-width)</p>'
+  lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-webgames3/
+  booking_link: http://ldnjsnightclass-webgames3.eventbrite.com/
+  blurb: A 5 workshop series dedicated to building web-based games.
+  date: 2013-06-18 18:30
+  end_Date: 2013-06-18 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-webgames
+  filename: ldnjsnightclass-webgames3
+  epoch_s_date: 1371576600
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
+  seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
+  seriesconfdescription: A 5 workshop series dedicated to building web-based games.
+  url: /workshops/ldnjsnightclass-webgames
+- speakerID: kornellesinski
+  series: ldnjsnightclass-webgames
+  eventbriteid: ''
+  venue: googlecampus
+  title: ! 'London JS Night Class: How to Structure a Game'
+  map: 4-5 Bonhill Street, London, EC2A 4BX
+  cost: £50
+  text: ! '<p>We are working with Kornel Lesinski (link: https://twitter.com/pornelski
+    text: @pornelski) to bring you a five week course on building web-based games.
+    The first three weeks will be based on stand-alone things you need to learn such
+    as building game graphics, animation and creating multiplayer networks. Weeks
+    four and five will work on taking what you learned previously and putting it to
+    work in creating your first web game. </p><h3>Week Four: How to Structure a Game</h3><p>Learn
+    how to put what you have learned in the first 3 weeks together, creating a web-based
+    game.</p><ul><li>How to architect a game</li><li>How to control frame rate</li><li>How
+    to manage different type of objects, players, computers</li><li>How to structure
+    games to make network-games or split screen multiplayer options.</li><li>How to
+    use MVC for a game.</li></ul><h3>What You&#39;ll Need:</h3><ul><li>Proficiency
+    in JavaScript</li><li>Understanding of Canvas, Canvas Animation and 2D Web Physics</li><li>A
+    Laptop</li></ul><h3>Please Note:</h3><p>This Workshop is Week 4 and 5 of the Building
+    Web-Based Games Workshop. Week 5 will be going ahead on the 2nd of July 2013,
+    6.30pm to 9.30pm. Tickets purchased on the EventBrite link covers both Week 4
+    and Week 5. </p><h3>Building Web-Based Games:</h3><ul><li>Week One: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames1
+    text: Canvas and Canvas Animation)</li><li>Week Two: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames2
+    text: 2D Web Physics)</li><li>Week Three: (link: https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames3
+    text: Web Sockets and Multi-User Applications)</li><li>Weeks Four and Five: (link:
+    https://www.eventhandler.co.uk/events/ldnjsnightclass-webgames4 text: How to Structure
+    a Game)</li></ul><p>(image: webgame4.png class: full-width)</p>'
+  lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-webgames4/
+  booking_link: http://ldnjsnightclass-webgames4.eventbrite.com/
+  blurb: A 5 workshop series dedicated to building web-based games.
+  date: 2013-06-25 18:30
+  end_Date: 2013-06-25 21:30
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-webgames
+  filename: ldnjsnightclass-webgames4
+  epoch_s_date: 1372181400
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
+  seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
+  seriesconfdescription: A 5 workshop series dedicated to building web-based games.
+  url: /workshops/ldnjsnightclass-webgames
 ldnjsnightclass-git:
-- speakerID: ''
+- speakerID: kornellesinski
   series: ldnjsnightclass-git
   eventbriteid: ''
   venue: googlecampus
@@ -1166,7 +1329,7 @@ geekyscience:
     topics
   url: /events/geekyscience
 ldnjsnightclass-backbone:
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-backbone
   eventbriteid: ''
   venue: googlecampus
@@ -1219,7 +1382,7 @@ ldnjsnightclass-backbone:
   seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
   seriesconfdescription: An evening workshop dedicated to learning Backbone
   url: /workshops/ldnjsnightclass-backbone
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-backbone
   eventbriteid: ''
   venue: hubwestminster
@@ -1272,7 +1435,7 @@ ldnjsnightclass-backbone:
   seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
   seriesconfdescription: An evening workshop dedicated to learning Backbone
   url: /workshops/ldnjsnightclass-backbone
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-backbone
   eventbriteid: '8490975737'
   venue: hubwestminster
@@ -1382,9 +1545,9 @@ ldnjsnightclass-introtojs:
   seriesconfprettyname: ! 'London JS Night Classes: Introduction to JS'
   seriesconfdescription: A five week course on learning JavaScript.
   url: /workshops/ldnjsnightclass-introtojs
-uxnightclass-gamesdesign:
-- speakerID: ''
-  series: uxnightclass-gamesdesign
+eventhandlernightclass-gamesdesign:
+- speakerID: jameswallis
+  series: eventhandlernightclass-gamesdesign
   eventbriteid: '9076166057'
   venue: hubwestminster
   title: ! 'Finding the Fun: Game Design & Iteration at High-speed'
@@ -1427,15 +1590,67 @@ uxnightclass-gamesdesign:
   directory_tags:
   - events
   - workshops
-  - uxnightclass-gamesdesign
-  filename: uxnightclass-gamesdesign
+  - eventhandlernightclass-gamesdesign
+  filename: eventhandlernightclass-gamesdesign1
   epoch_s_date: 1381860000
-  seriesconfpath: site/_data/events/workshops/uxnightclass-gamesdesign/
-  seriesconfprettyname: ! 'Finding the Fun: Game Design & Iteration at High-speed'
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-gamesdesign/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Games Design'
   seriesconfdescription: An evening of high-speed games design
-  url: /workshops/uxnightclass-gamesdesign
+  url: /workshops/eventhandlernightclass-gamesdesign
+- speakerID: jameswallis
+  series: eventhandlernightclass-gamesdesign
+  eventbriteid: '9744005583'
+  venue: hubwestminster
+  title: ! 'Finding the Fun: Game Design & Iteration at High-speed'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 11th of February, Award-winning games designer and publisher
+    (link: http://www.twitter.com/jameswallis text: James Wallis) will give you a
+    crash course in creating board-games and card-games.</p><p>(image: james.png class:
+    full-width)</p><p>In modern design, building stuff fast and getting to a working
+    version are key, but making and testing prototypes (code or physical objects)
+    can be enormously time-consuming. Learning how to work with paper prototypes—meta-versions
+    of your design—to iterate the project quickly can save you days. In this workshop
+    James Wallis will teach you to create and flesh out a concept for a simple multi-user
+    system, build a working prototype, watch as other people test it and critique
+    it, and use that criticism to rework the design towards a finished product.</p><h3>Who
+    is it taught by?</h3><p>This fun evening workshop is being hosted by James Wallis
+    (link: http://www.twitter.com/jameswallis text: @jameswallis). James is a games
+    designer and publisher who is behind popular games such as &quot;Once Upon a Time&quot;
+    and &quot;The Extraordinary Adventures of Baron Munchausen&quot;. He runs &quot;Spaaace&quot;,
+    a games consultancy, and founded the Diana Jones award for excellence in gaming.
+    Each year he runs (link: http://www.gamecamp.org.uk text: GameCamp).</p><h3>What
+    this workshop will cover</h3><ul><li>Conceptualising a game</li><li>Prototyping
+    a game</li><li>Testing your game with other users</li><li>Giving and receiving
+    feedback</li><li>Solving bugs in your design</li></ul><h3>Requirements</h3><p>Just
+    bring yourself! We&#39;ll provide all the necessary materials at the workshop.</p><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-gamesdesign/speakers/724abc90b74fb477.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ehnightclass-gamesdesign
+  booking_link: http://ehnightclass-gamesdesign.eventbrite.com/
+  blurb: An evening of high-speed games design
+  date: 2014-02-11 19:00
+  end_Date: 2014-02-11 22:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-gamesdesign
+  filename: eventhandlernightclass-gamesdesign2
+  epoch_s_date: 1392145200
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-gamesdesign/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Games Design'
+  seriesconfdescription: An evening of high-speed games design
+  url: /workshops/eventhandlernightclass-gamesdesign
 ldnjsnightclass-angular:
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-angular
   eventbriteid: ''
   venue: hubwestminster
@@ -1486,7 +1701,7 @@ ldnjsnightclass-angular:
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
   seriesconfdescription: An evening workshop dedicated to learning AngularJS
   url: /workshops/ldnjsnightclass-angular
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-angular
   eventbriteid: ''
   venue: hubwestminster
@@ -1537,7 +1752,7 @@ ldnjsnightclass-angular:
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
   seriesconfdescription: An evening workshop dedicated to learning AngularJS
   url: /workshops/ldnjsnightclass-angular
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-angular
   eventbriteid: '8563727339'
   venue: hubwestminster
@@ -1588,7 +1803,7 @@ ldnjsnightclass-angular:
   seriesconfdescription: An evening workshop dedicated to learning AngularJS
   url: /workshops/ldnjsnightclass-angular
 uxnightclass-usability:
-- speakerID: ''
+- speakerID: evgeniagrinblo
   series: uxnightclass-usability
   eventbriteid: ''
   venue: hubwestminster
@@ -1643,7 +1858,7 @@ uxnightclass-usability:
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
   seriesconfdescription: Cheap and effective usability testing
   url: /workshops/uxnightclass-usability
-- speakerID: ''
+- speakerID: evgeniagrinblo
   series: uxnightclass-usability
   eventbriteid: '8813855479'
   venue: hubwestminster
@@ -1697,7 +1912,7 @@ uxnightclass-usability:
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
   seriesconfdescription: Cheap and effective usability testing
   url: /workshops/uxnightclass-usability
-- speakerID: ''
+- speakerID: evgeniagrinblo
   series: uxnightclass-usability
   eventbriteid: '9479853497'
   venue: hubwestminster
@@ -1752,7 +1967,7 @@ uxnightclass-usability:
   seriesconfdescription: Cheap and effective usability testing
   url: /workshops/uxnightclass-usability
 uxnightclass-uxdeliverables:
-- speakerID: ''
+- speakerID: annadahlstrom
   series: uxnightclass-uxdeliverables
   eventbriteid: '9475727155'
   venue: hubwestminster
@@ -1813,7 +2028,7 @@ uxnightclass-uxdeliverables:
   seriesconfdescription: Best Practice for UX Deliverables
   url: /workshops/uxnightclass-uxdeliverables
 eventhandlernightclass-introtogit:
-- speakerID: ''
+- speakerID: kornellesinski
   series: eventhandlernightclass-introtogit
   eventbriteid: '8775073481'
   venue: hubwestminster
@@ -1867,7 +2082,7 @@ eventhandlernightclass-introtogit:
   seriesconfdescription: An Introduction to Git
   url: /workshops/eventhandlernightclass-introtogit
 eventhandlernightclass-modernlayout:
-- speakerID: ''
+- speakerID: razvancaliman
   series: eventhandlernightclass-modernlayout
   eventbriteid: '8774371381'
   venue: hubwestminster
@@ -1927,7 +2142,7 @@ eventhandlernightclass-modernlayout:
     Techniques
   url: /workshops/eventhandlernightclass-modernlayout
 ldnjsnightclass-backbonefullday:
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-backbonefullday
   eventbriteid: '9608951633'
   venue: hubwestminster
@@ -1979,63 +2194,10 @@ ldnjsnightclass-backbonefullday:
   seriesconfprettyname: ! 'London JS Classes: Backbone Full Day'
   seriesconfdescription: A full-day BackboneJS Workshop
   url: /workshops/ldnjsnightclass-backbonefullday
-eventhandlernightclass-gamesdesign:
-- speakerID: ''
-  series: eventhandlernightclass-gamesdesign
-  eventbriteid: '9744005583'
-  venue: hubwestminster
-  title: ! 'Finding the Fun: Game Design & Iteration at High-speed'
-  map: 80 Haymarket, London, SW1Y 4TE
-  cost: £60
-  text: ! '<p>On Tuesday the 11th of February, Award-winning games designer and publisher
-    (link: http://www.twitter.com/jameswallis text: James Wallis) will give you a
-    crash course in creating board-games and card-games.</p><p>(image: james.png class:
-    full-width)</p><p>In modern design, building stuff fast and getting to a working
-    version are key, but making and testing prototypes (code or physical objects)
-    can be enormously time-consuming. Learning how to work with paper prototypes—meta-versions
-    of your design—to iterate the project quickly can save you days. In this workshop
-    James Wallis will teach you to create and flesh out a concept for a simple multi-user
-    system, build a working prototype, watch as other people test it and critique
-    it, and use that criticism to rework the design towards a finished product.</p><h3>Who
-    is it taught by?</h3><p>This fun evening workshop is being hosted by James Wallis
-    (link: http://www.twitter.com/jameswallis text: @jameswallis). James is a games
-    designer and publisher who is behind popular games such as &quot;Once Upon a Time&quot;
-    and &quot;The Extraordinary Adventures of Baron Munchausen&quot;. He runs &quot;Spaaace&quot;,
-    a games consultancy, and founded the Diana Jones award for excellence in gaming.
-    Each year he runs (link: http://www.gamecamp.org.uk text: GameCamp).</p><h3>What
-    this workshop will cover</h3><ul><li>Conceptualising a game</li><li>Prototyping
-    a game</li><li>Testing your game with other users</li><li>Giving and receiving
-    feedback</li><li>Solving bugs in your design</li></ul><h3>Requirements</h3><p>Just
-    bring yourself! We&#39;ll provide all the necessary materials at the workshop.</p><h3>Refund
-    Policy</h3><p>If you discover that you are unable to attend the event you bought
-    tickets for, we are happy to arrange a 100% refund for you as long as you notify
-    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
-    your need for a refund, up to a month before the event in question.</p><p>If you
-    cannot attend the event you bought tickets for but have a friend or coworker that
-    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
-    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
-    like to transfer to the ticket to. We will transfer your ticket as long as you
-    notify us of this at least 24 hours before the event goes ahead.</p>'
-  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-gamesdesign/speakers/724abc90b74fb477.v1.json
-  lanyrd: http://www.lanyrd.com/2014/ehnightclass-gamesdesign
-  booking_link: http://ehnightclass-gamesdesign.eventbrite.com/
-  blurb: An evening of high-speed games design
-  date: 2014-02-11 19:00
-  end_Date: 2014-02-11 22:00
-  directory_tags:
-  - events
-  - workshops
-  - eventhandlernightclass-gamesdesign
-  filename: eventhandlernightclass-gamesdesign
-  epoch_s_date: 1392145200
-  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-gamesdesign/
-  seriesconfprettyname: ! 'Eventhandler Night Classes: Games Design'
-  seriesconfdescription: An evening of high-speed games design
-  url: /workshops/eventhandlernightclass-gamesdesign
 uxnightclass-sketchinginterfaces:
-- speakerID: ''
+- speakerID: evalottalamm
   series: uxnightclass-sketchinginterfaces
-  eventbriteid: ''
+  eventbriteid: '9076166057'
   venue: hubwestminster
   title: Sketching Interfaces
   map: 80 Haymarket, London, SW1Y 4TE
@@ -2091,7 +2253,7 @@ uxnightclass-sketchinginterfaces:
   seriesconfdescription: Sketching Interfaces with Eva-Lotta Lamm
   url: /workshops/uxnightclass-sketchinginterfaces
 ldnjsnightclass-nextleveljs:
-- speakerID: ''
+- speakerID: benhowdle
   series: ldnjsnightclass-nextleveljs
   eventbriteid: '9011843667'
   venue: hubwestminster
@@ -2141,6 +2303,56 @@ ldnjsnightclass-nextleveljs:
   seriesconfprettyname: ! 'London JS Night Classes: Next Level JS'
   seriesconfdescription: An evening workshop dedicated to levelling up your JavaScript
   url: /workshops/ldnjsnightclass-nextleveljs
+- speakerID: benhowdle
+  series: ldnjsnightclass-nextleveljs
+  eventbriteid: '9986673409'
+  venue: hubwestminster
+  title: ! 'London JS Night Class: Next Level JavaScript'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 19th of March, (link: http://www.twitter.com/benhowdle text:
+    Ben Howdle) will be hosting a workshop in which you can learn to take your JavaScript
+    to the next level.</p><p>(image: nextlevel.png class: full-width)</p><h3>Who is
+    it for?</h3><p>Comfortable with jQuery but want to go further? Want to be able
+    to build entire applications using JavaScript? Struggling to organise and architect
+    your code? After this evening workshop, you&#39;ll have taken your JavaScript
+    to next level! </p><h3>Who is it taught by?</h3><p>This workshop is being run
+    by (link: http://www.twitter.com/benhowdle text: Ben Howdle). Ben is a software
+    developer for Kashflow and describes himself as a &quot;JavaScript guy at heart&quot;.
+    Ben has worked on many projects over the years including (link: http://benhowdle.im/svgeezy/
+    text: SVGeezy), (link: http://benhowdle.im/cortado/ text: Cortado) and (link:
+    http://heisenbergjs.github.io/heisenberg/ text: Heisenberg.js); whilst also being
+    one half of the (link: http://upfrontpodcast.com/ text: Upfront Podcast) on Front-End
+    Web Development. He also writes a (link: http://benhowdle.im/archive/ text: blog)
+    that covers many things including JS.</p><h3>What you&#39;ll learn</h3><ul><li>Memory
+    Profiling</li><li>Performance</li><li>Coding Conventions</li><li>Making your projects
+    maintainable</li></ul><h3>Requirements</h3><ul><li>Must be familiar with JavaScript</li><li>Please
+    bring your laptop with your text editor of choice installed</li></ul><h3>Refund
+    Policy</h3><p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of
+    your need for a refund, up to a month before the event in question.</p><p>If you
+    cannot attend the event you bought tickets for but have a friend or coworker that
+    you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-nextleveljs2/speakers/680d3df5e7108ca5.v1.json
+  lanyrd: http://lanyrd.com/2014/ldnjsnightclass-nextleveljs2/
+  booking_link: http://ldnjsnightclass-nextleveljs2.eventbrite.com/
+  blurb: An evening workshop dedicated to levelling up your JavaScript
+  date: 2014-03-19 19:00
+  end_Date: 2014-03-19 22:00
+  directory_tags:
+  - events
+  - workshops
+  - ldnjsnightclass-nextleveljs
+  filename: ldnjsnightclass-nextleveljs2
+  epoch_s_date: 1395255600
+  seriesconfpath: site/_data/events/workshops/ldnjsnightclass-nextleveljs/
+  seriesconfprettyname: ! 'London JS Night Classes: Next Level JS'
+  seriesconfdescription: An evening workshop dedicated to levelling up your JavaScript
+  url: /workshops/ldnjsnightclass-nextleveljs
 londonjsconf:
 - speakerID: ''
   series: londonjsconf
@@ -2186,7 +2398,7 @@ londonjsconf:
   seriesconfdescription: London JS Conf
   url: /events/londonjsconf
 eventhandlernightclass-cssarchitecture:
-- speakerID: ''
+- speakerID: harryroberts
   series: eventhandlernightclass-cssarchitecture
   eventbriteid: '9633334563'
   venue: hubwestminster
@@ -2246,9 +2458,9 @@ eventhandlernightclass-cssarchitecture:
   seriesconfdescription: CSS Architecture for Big Front-Ends
   url: /workshops/eventhandlernightclass-cssarchitecture
 eventhandlernightclass-advancedgit:
-- speakerID: ''
+- speakerID: kornellesinski
   series: eventhandlernightclass-advancedgit
-  eventbriteid: ''
+  eventbriteid: '8775556927'
   venue: hubwestminster
   title: Advanced Git
   map: 80 Haymarket, London, SW1Y 4TE
@@ -2303,7 +2515,7 @@ eventhandlernightclass-advancedgit:
   seriesconfdescription: Advanced Git
   url: /workshops/eventhandlernightclass-advancedgit
 eventhandlernightclass-webperformance:
-- speakerID: ''
+- speakerID: patrickhamann
   series: eventhandlernightclass-webperformance
   eventbriteid: '9876892050'
   venue: hubwestminster
@@ -2356,7 +2568,7 @@ eventhandlernightclass-webperformance:
   seriesconfdescription: Optimising Web Performance
   url: /workshops/eventhandlernightclass-webperformance
 ldnjsnightclass-angularfullday:
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-angularfullday
   eventbriteid: '9608554445'
   venue: hubwestminster
@@ -2407,7 +2619,7 @@ ldnjsnightclass-angularfullday:
   seriesconfdescription: Full-day AngularJS Workshop
   url: /workshops/ldnjsnightclass-angularfullday
 ldnjsnightclass-testingjs:
-- speakerID: ''
+- speakerID: timruffles
   series: ldnjsnightclass-testingjs
   eventbriteid: '8810802347'
   venue: hubwestminster
@@ -2460,7 +2672,7 @@ ldnjsnightclass-testingjs:
   seriesconfdescription: An evening workshop dedicated to learning how to test JavaScript
   url: /workshops/ldnjsnightclass-testingjs
 uxnightclass-sellingucd:
-- speakerID: ''
+- speakerID: annadahlstrom
   series: uxnightclass-sellingucd
   eventbriteid: '9296248329'
   venue: hubwestminster

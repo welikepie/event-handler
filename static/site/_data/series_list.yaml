@@ -44,6 +44,10 @@
   url: /events/craft
   prettyname: ! 'Eventhandler Meetups: Craft'
   description: An evening of Craft Beer and Tech
+- series: ldnjsnightclass-webgames
+  url: /workshops/ldnjsnightclass-webgames
+  prettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
+  description: A 5 workshop series dedicated to building web-based games.
 - series: ldnjsnightclass-git
   url: /workshops/ldnjsnightclass-git
   prettyname: ! 'London JS Night Classes: Git'
@@ -60,9 +64,9 @@
   url: /workshops/ldnjsnightclass-introtojs
   prettyname: ! 'London JS Night Classes: Introduction to JS'
   description: A five week course on learning JavaScript.
-- series: uxnightclass-gamesdesign
-  url: /workshops/uxnightclass-gamesdesign
-  prettyname: ! 'Finding the Fun: Game Design & Iteration at High-speed'
+- series: eventhandlernightclass-gamesdesign
+  url: /workshops/eventhandlernightclass-gamesdesign
+  prettyname: ! 'Eventhandler Night Classes: Games Design'
   description: An evening of high-speed games design
 - series: ldnjsnightclass-angular
   url: /workshops/ldnjsnightclass-angular
@@ -88,10 +92,6 @@
   url: /workshops/ldnjsnightclass-backbonefullday
   prettyname: ! 'London JS Classes: Backbone Full Day'
   description: A full-day BackboneJS Workshop
-- series: eventhandlernightclass-gamesdesign
-  url: /workshops/eventhandlernightclass-gamesdesign
-  prettyname: ! 'Eventhandler Night Classes: Games Design'
-  description: An evening of high-speed games design
 - series: uxnightclass-sketchinginterfaces
   url: /workshops/uxnightclass-sketchinginterfaces
   prettyname: ! 'Selling UCD: How to get buy in from clients'

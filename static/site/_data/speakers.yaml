@@ -1,75 +1,160 @@
 ---
-amroche:
-  picture: /assets/img/speakers/amroche.jpg
-  name: Alex Roche
-  title: Full Stack Developer
-  description: ! 'This is another
-
-    multiline biography
-
-    which is handy, as you can
-
-    write in here in markdown too.
+annadahlstrom:
+  picture: https://pbs.twimg.com/profile_images/378800000371437455/4be1ec6f2b6b52a1871618fbbfd6825a.jpeg
+  name: Anna Dahlström
+  title: Information Architecture and UX consultant
+  description: ! 'Information Architecure and User Experience consultant. Originally
+    from Sweden, Anna lives and works in London. Having previously worked for Dare;
+    she now works for Byflock and freelances part-time.
 
 '
-  lanyrd: alexHacked
-  twitter: alexHacked
-  webpage: http://dev.welikepie.com
+  lanyrd: annadahlstrom
+  twitter: annadahlstrom
+  webpage: http://www.annadahlstrom.com
   directory_tags:
   - speakers
-  filename: amroche
-charlotte:
-  picture: https://pbs.twimg.com/profile_images/378800000718110148/393e1407f07a5f08c82d78524b3af556.jpeg
-  name: Charlotte Spencer
-  title: Events Co-ordinator
-  description: ! 'This is another
-
-    multiline biography
-
-    which is handy, as you can
-
-    write in here in markdown too.
+  filename: annadahlstrom
+benhowdle:
+  picture: https://pbs.twimg.com/profile_images/378800000597657654/827d87fac78cb29c8dd3c261b9ee25c6.jpeg
+  name: Ben Howdle
+  title: Software Developer
+  description: ! 'Ben is a software developer for Kashflow and describes himself as
+    a "JavaScript guy at heart". Ben has worked on many projects over the years including
+    SVGeezy, Cortado and Heisenberg.js; whilst also being one half of the Upfront
+    Podcast on Front-End Web Development. He also writes a blog that covers many things
+    including JS.
 
 '
-  lanyrd: charlotteis
-  twitter: charlotteis
-  webpage: http://dev.welikepie.com
+  lanyrd: benhowdle
+  twitter: benhowdle
+  webpage: http://benhowdle.im
   directory_tags:
   - speakers
-  filename: charlotte
-danknell:
-  name: Daniel Knell
-  title: Full Stack Developer
-  description: ! 'This is another
-
-    multiline biography
-
-    which is handy, as you can
-
-    write in here in markdown too.
+  filename: benhowdle
+evalottalamm:
+  picture: https://d8142femxnlg1.cloudfront.net/cropped-profile-photos/034848b8e23fbe34485c576b1090fd45cb292ef7-t640.jpg
+  name: Eva-Lotta Lamm
+  title: User Experience Designer and Illustrator
+  description: ! 'User Experience Designer and Illustrator. She grew up in Germany,
+    worked in Paris for a few years and is now based in London, UK where she works
+    as an Interaction Designer at Google.
 
 '
-  lanyrd: dan_knell
-  twitter: dan_knell
-  webpage: http://dev.welikepie.com
+  lanyrd: evalottchen
+  twitter: evalottchen
+  webpage: http://sketchnotebooks.com
   directory_tags:
   - speakers
-  filename: danknell
+  filename: evalottalamm
+evgeniagrinblo:
+  picture: https://pbs.twimg.com/profile_images/2789054701/22b47f146551fdcc7e9abbdc793d5092.jpeg
+  name: Evgenia Grinblo
+  title: User Experience Specialist
+  description: ! 'User Experience Specialist at mobile agency, Future Workshops. Born
+    in Siberia, Jenny freelanced and trained in ethnographic research in Israel and
+    the USA, before bringing her talent to the UK. Her pet peeve is badly written
+    error-messages and she has a growing collection of them. You''ll find her speaking
+    on empathy, UX, and other passions.
+
+'
+  lanyrd: grinblo
+  twitter: grinblo
+  webpage: http://grinblo.com/
+  directory_tags:
+  - speakers
+  filename: evgeniagrinblo
+harryroberts:
+  picture: https://d8142femxnlg1.cloudfront.net/cropped-profile-photos/8d49a9da0697f85e78d3f5371483550052a9207d-t640.jpeg
+  name: Harry Roberts
+  title: Consultant Front-end Architect
+  description: ! 'Consultant Front-end Architect, designer, developer, writer and
+    speaker from the UK. Previously a Senior Developer at BSkyB, he now helps tech
+    teams all over the world build better products.
+
+'
+  lanyrd: csswizardry
+  twitter: csswizardry
+  webpage: http://csswizardry.com
+  directory_tags:
+  - speakers
+  filename: harryroberts
+jameswallis:
+  picture: https://d8142femxnlg1.cloudfront.net/cropped-profile-photos/df44664afab9ab89c7b1cf666952856b42285d31-t640.jpg
+  name: James Wallis
+  title: Games Designer and Publisher
+  description: ! 'Games designer and publisher who is behind popular games such as
+    "Once Upon a Time" and "The Extraordinary Adventures of Baron Munchausen". He
+    runs "Spaaace", a games consultancy, and founded the Diana Jones award for excellence
+    in gaming. Each year he runs GameCamp.
+
+'
+  lanyrd: jameswallis
+  twitter: jameswallis
+  webpage: http://jameswallis.com/
+  directory_tags:
+  - speakers
+  filename: jameswallis
+kornellesinski:
+  picture: https://pbs.twimg.com/profile_images/2553871671/ku8xb72ymmy184y5arv7.jpeg
+  name: Kornel Lesiński
+  title: Senior Developer
+  description: ! 'Senior Developer at the Financial Times. Kornel is a developer with
+    many languages in his toolset including PHP, HTML5, CSS & JavaScript. He has created
+    many popular image compression tools: ImageOptim, ImageAlpha & pngquant and is
+    a big fan of web-based game development and web standards. You''ll find Kornel
+    talking at meet-ups, events and international conferences.
+
+'
+  lanyrd: pornelski
+  twitter: pornelski
+  webpage: http://pornel.net
+  directory_tags:
+  - speakers
+  filename: kornellesinski
+patrickhamann:
+  picture: https://pbs.twimg.com/profile_images/1764506030/twitter-profile.png
+  name: Patrick Hamann
+  title: Senior Developer
+  description: ! 'Senior client-side developer at the Guardian in London, where amongst
+    other things, he is helping to engineer the next generation of their web platform.
+    When not speaking or ranting about performance or CSS architecture on twitter
+    he enjoys spends his spare time discovering new food and craft beer.
+
+'
+  lanyrd: patrickhamann
+  twitter: patrickhamann
+  directory_tags:
+  - speakers
+  filename: patrickhamann
+razvancaliman:
+  picture: https://pbs.twimg.com/profile_images/1824404379/razvan_full.jpg
+  name: Razvan Caliman
+  title: CSS Engineer
+  description: ! 'Engineer for the Adobe Web Platform, helping to build CSS Regions,
+    CSS Shaders, CSS Shapes and more. His preferred title is "web developer with a
+    burning passion for open web technologies". He has given a number of talks at
+    events and conferences about HTML5 & CSS3.
+
+'
+  lanyrd: razvancaliman
+  twitter: razvancaliman
+  webpage: https://github.com/oslego
+  directory_tags:
+  - speakers
+  filename: razvancaliman
 timruffles:
+  picture: /assets/img/speakers/timruffles.png
   name: Tim Ruffles
-  title: Full Stack Developer
-  description: ! 'This is another
-
-    multiline biography
-
-    which is handy, as you can
-
-    write in here in markdown too.
+  title: Web Developer and Teacher
+  description: ! 'Tim is a Ruby & JavaScript Developer living and working in London.
+    Having previously worked for Skimlinks as their tech lead, he now spends time
+    mentoring others and working on SidekickJS, his code-quality tracking tool. You
+    can find him speaking about the web at various events.
 
 '
-  lanyrd: timRuffles
-  twitter: timRuffles
-  webpage: http://dev.welikepie.com
+  lanyrd: timruffles
+  twitter: timruffles
+  webpage: http://truffles.me.uk/
   directory_tags:
   - speakers
   filename: timruffles
