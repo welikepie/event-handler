@@ -1,0 +1,76 @@
+Title: Modern Layout: CSS Flexbox, CSS Regions and more
+----
+Text: 
+On the 19th of March, (link: http://www.twitter.com/razvancaliman text: Razvan Caliman) will be hosting an evening workshop in which you can learn to use modern CSS Features.
+
+(image: modernlayout.png class: full-width)
+
+### Who is it for?
+
+This workshop is for web designers and developers looking to learn how to use the latest CSS features for layout. Prior experience of CSS is necessary; this is not an introduction.
+
+Layout on the web is hard! Over time, web designers have developed tricks to bend `display: table`, `position: absolute` and floats to achieve layouts as desired. Often times this brings great pain, frustration and the responsive design approach makes work even harder.
+
+Modern features for layout such as CSS Flexbox and CSS Regions significantly improve productivity and they're now becoming available in mainstream browsers and on devices. This workshop will prepare you to use the latest CSS features for layout to get great looking results with cleaner code.
+
+### Who is it taught by?
+
+This workshop is being hosted by Razvan Caliman. Razvan is an engineer for the Adobe Web Platform, helping to build CSS Regions, CSS Shaders, CSS Shapes and more. His preferred title is "web developer with a burning passion for open web technologies". He has given a number of talks at events and conferences (link: https://speakerdeck.com/razvancaliman text: about HTML5 & CSS3).
+
+### What you'll learn
+
+* Visualising markup
+* Using CSS Flexbox for common layout use cases
+* Responsive layouts without media queries
+* Using CSS Regions for newspaper-like layout
+* Introduction to CSS Shapes
+* Browser & device support
+
+### Requirements
+
+* Having experienced pain from using CSS
+* Laptop with code editor of choice
+* Google Chrome browser
+
+**Optional:** Apple device with iOS 7 or Android with Google Chrome Beta installed. Mobile devices are not required but you can bring yours to see how the features work on them.
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+An evening workshop dedicated to learning Modern CSS Layout Techniques
+----
+What: Modern Layout Workshop 
+----
+Date: 2014-03-19 19:00
+----
+End_Date: 2014-03-19 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £50 - £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Modern Layouts with CSS</span>
+	<span>19th March 2014</span>
+	<abbr class="easydate">Weds, 19 March 2014 19:00:00 +0000</abbr>
+	<a href="http://eventhandlernightclass-modernlayout2.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://eventhandlernightclass-modernlayout2.eventbrite.com/
+----
+Lanyrd: http://lanyrd.com/2014/ehnightclass-modernlayout2
+----
+LanyrdAPI: http://lanyrd.com/2014/ehnightclass-modernlayout2/speakers/01e1f0347c931dad.v1.json
+----
