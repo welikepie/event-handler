@@ -11,7 +11,11 @@ title: Events
       {%assign x = {{events.eventbriteid|isNotEmpty}} %}
       <li {%if x%}data-evb="{{events.eventbriteid}}"{%endif%} >
           <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }} </a>
-          <div>{{events.date}}</div>
+          {%if events.epoch_s_end_date%}
+          <div>{{events.epoch_s_date | prettyDate : events.epoch_s_end_date}}</div>
+          {%else%}
+          <div>{{events.epoch_s_date | prettyDate : "null"}}</div>
+          {%endif%}
           <div>
     	      {% for speaks in events.speakerID %}
     	      	{{site.data.speakers[speaks].name}}

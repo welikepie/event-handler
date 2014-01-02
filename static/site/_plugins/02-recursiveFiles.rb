@@ -50,8 +50,8 @@ end
 if file["date"]
 	puts "-- File found at #{path}";
 	file["epoch_s_date"] = time_to_epoch(file["date"]);
-	if(file["end_date"])
-		file["epoch_s_end_date"] = time_to_epoch(file["end_date"]);
+	if(file["end_Date"])
+		file["epoch_s_end_date"] = time_to_epoch(file["end_Date"]);
 	end
 	puts file["date"];
 	now = DateTime.parse(file["date"])
