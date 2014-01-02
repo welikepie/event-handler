@@ -2130,7 +2130,7 @@ uxnightclass-uxdeliverables:
   - events
   - workshops
   - uxnightclass-uxdeliverables
-  filename: uxnightclass-uxdeliverables1
+  filename: uxnightclass-uxdeliverables3
   epoch_s_date: 1394046000
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
