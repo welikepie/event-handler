@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ldnjsnightclass-d3js/speakers/c58158a23da5432
 lanyrd: "http://lanyrd.com/2014/ldnjsnightclass-d3js"
 booking_link: "http://ldnjsnightclass-d3.eventbrite.com/"
 blurb: An evening workshop dedicated to learning D3.js
+time_zone: GMT
 date: "2014-01-21 19:00"
 end_Date: "2014-01-21 22:00"

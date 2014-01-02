@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ldnjsnightclass-testingjs/speakers/19a2e6f87a
 lanyrd: "http://lanyrd.com/2014/ldnjsnightclass-testingjs"
 booking_link: "http://ldnjsnightclass-testingjs.eventbrite.com/"
 blurb: An evening workshop dedicated to learning how to test JavaScript
+time_zone: GMT
 date: "2014-02-25 19:00"
 end_Date: "2014-02-25 22:00"

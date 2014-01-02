@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/uxnightclass-sellingucd/speakers/6b358a5b64d9
 lanyrd: "http://www.lanyrd.com/2014/uxnightclass-sellingucd"
 booking_link: "http://uxnightclass-sellingucd.eventbrite.com/"
 blurb: Selling UCD with Anna Dahlstrom
+time_zone: GMT
 date: "2014-02-26 19:00"
 end_Date: "2014-02-26 22:00"

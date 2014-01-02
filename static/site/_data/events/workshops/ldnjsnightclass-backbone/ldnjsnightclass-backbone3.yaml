@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ldnjsnightclass-backbone3/speakers/347a6bd7b3
 lanyrd: "http://www.lanyrd.com/2014/ldnjsnightclass-backbone3"
 booking_link: "http://ldnjsnightclass-backbone3.eventbrite.com/"
 blurb: An evening workshop dedicated to learning Backbone
+time_zone: GMT
 date: "2014-01-29 19:00"
 end_Date: "2014-01-29 22:00"

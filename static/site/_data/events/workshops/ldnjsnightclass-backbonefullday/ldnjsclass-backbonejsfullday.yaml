@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ldnjsclasses-backbonejsfullday/speakers/9cdcc
 lanyrd: "http://www.lanyrd.com/2014/ldnjsclasses-backbonejsfullday"
 booking_link: "http://ldnjsclasses-backbonejsfullday.eventbrite.com/"
 blurb: A full-day BackboneJS Workshop
+time_zone: GMT
 date: "2014-02-07 10:00"
 end_Date: "2014-02-07 18:00"

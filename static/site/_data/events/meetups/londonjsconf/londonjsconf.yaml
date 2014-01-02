@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/londonjsconf/speakers/80c64ca14f1a1449.v1.jso
 lanyrd: "http://www.lanyrd.com/2014/londonjsconf"
 booking_link: "http://londonjsconf.eventbrite.co.uk/"
 blurb: London JS Conf
+time_zone: GMT
 date: "2014-02-13 09:00"
 end_Date: "2014-02-13 18:30"

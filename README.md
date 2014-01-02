@@ -80,6 +80,7 @@ These templates are used to create new Events, Speakers and Venues. They live in
       So this is a decently interesting example introduction using
       the high and venerable art of markdown.
     blurb: An evening workshop dedicated to learning AngularJS 
+    time_zone : Any time zone represented as string. Will parse as a text label.
     date: 2013-11-05 19:00
     end_Date: 2013-11-05 22:00
     where: hubwestminster

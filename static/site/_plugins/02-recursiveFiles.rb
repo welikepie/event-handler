@@ -53,6 +53,9 @@ if file["date"]
 	if(file["end_date"])
 		file["epoch_s_end_date"] = time_to_epoch(file["end_date"]);
 	end
+	if(!file["time_zone"])
+		file["time_zone"] = "GMT";
+	end
 	if(file["series"])
 	paths = $substring_from;
 	file["directory_tags"].each{|x|

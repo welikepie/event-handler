@@ -8,5 +8,6 @@ cost: £75 per person
 text: "<p>After a successful year bringing you respected industry experts from around the world, we listened to your feedback and decided to take it a step further with talks that are bigger, more technical, and more hands-on. We think there should be more discussion and more idea sharing. We think there should be more WiFi and better coffee.</p><p>So this is our plan: 1 hour talks, projects to code along with, resources available online. Long breaks between talks to coffee up, network, carry on hacking and meet with speakers. No rubbish conference centre WiFi – we&#39;re building our own network just for you.</p>"
 lanyrd: "http://www.lanyrd.com/2012/london-js-school-trip/"
 booking_link: "http://ldnjs-school-trip.eventbrite.com/"
+time_zone: GMT
 date: "2012-06-30 10:00"
 end_Date: "2012-06-30 19:00"

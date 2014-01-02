@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ehnightclass-modernlayout/speakers/0e54fb88e3
 lanyrd: "http://lanyrd.com/2014/ehnightclass-modernlayout"
 booking_link: "http://eventhandlernightclass-modernlayout.eventbrite.com/"
 blurb: An evening workshop dedicated to learning Modern CSS Layout Techniques
+time_zone: GMT
 date: "2014-02-05 19:00"
 end_Date: "2014-02-05 22:00"

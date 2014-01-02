@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ldnjsnightclass-angular3/speakers/094b36a6099
 lanyrd: "http://lanyrd.com/2014/ldnjsnightclass-angular3"
 booking_link: "http://ldnjsnightclass-angular3.eventbrite.com/"
 blurb: An evening workshop dedicated to learning AngularJS
+time_zone: GMT
 date: "2014-02-19 19:00"
 end_Date: "2014-02-19 22:00"

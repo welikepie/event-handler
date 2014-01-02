@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ldnjsnightclass-nextleveljs/speakers/256bc88a
 lanyrd: "http://lanyrd.com/2014/ldnjsnightclass-nextleveljs"
 booking_link: "http://ldnjsnightclass-nextleveljs.eventbrite.com/"
 blurb: An evening workshop dedicated to levelling up your JavaScript
+time_zone: GMT
 date: "2014-02-12 19:00"
 end_Date: "2014-02-12 22:00"

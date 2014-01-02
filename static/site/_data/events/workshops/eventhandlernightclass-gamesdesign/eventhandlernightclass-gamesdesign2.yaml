@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ehnightclass-gamesdesign/speakers/724abc90b74
 lanyrd: "http://www.lanyrd.com/2014/ehnightclass-gamesdesign"
 booking_link: "http://ehnightclass-gamesdesign.eventbrite.com/"
 blurb: An evening of high-speed games design
+time_zone: GMT
 date: "2014-02-11 19:00"
 end_Date: "2014-02-11 22:00"

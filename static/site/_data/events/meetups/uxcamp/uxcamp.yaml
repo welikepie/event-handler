@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/uxcldnspring14/speakers/44d4bfceda23ec74.v1.j
 lanyrd: "http://lanyrd.com/2014/uxcldn14/"
 booking_link: "http://uxcamplondonspring2014.eventbrite.com/"
 blurb: "UX Learning & Discovery"
+time_zone: GMT
 date: "2014-03-22 09:30"
 end_Date: "2014-03-22 18:30"

@@ -9,5 +9,6 @@ text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, i
 lanyrd: "http://www.lanyrd.com/2012/londonjs-createtheweb/"
 booking_link: "http://londonjs-createtheweb.eventbrite.com/"
 blurb: Evening of Javascript talks about Create the Web and WebRTC
+time_zone: GMT
 date: "2012-11-12 18:30"
 end_Date: "2012-11-12 21:00"

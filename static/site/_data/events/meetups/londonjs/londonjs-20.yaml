@@ -9,5 +9,6 @@ text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, i
 lanyrd: "http://www.lanyrd.com/2013/londonjs-20/"
 booking_link: "http://londonjs-20.eventbrite.com/"
 blurb: An evening of JavaScript talks
+time_zone: GMT
 date: "2013-05-20 18:30"
 end_Date: "2013-05-20 21:00"

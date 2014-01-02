@@ -9,5 +9,6 @@ text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, i
 lanyrd: "http://www.lanyrd.com/2012/londonjs-13/"
 booking_link: "http://londonjs-13.eventbrite.com/"
 blurb: Evening of Javascript talks about Microframeworks and Require.js.
+time_zone: GMT
 date: "2012-08-20 19:00"
 end_Date: "2012-08-20 22:00"

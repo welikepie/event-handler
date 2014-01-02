@@ -10,5 +10,6 @@ lanyrdAPI: "http://lanyrd.com/2014/ehnightclass-introtogit/speakers/52982eef3fb1
 lanyrd: "http://www.lanyrd.com/2014/ehnightclass-introtogit"
 booking_link: "http://eventhandlernightclass-introtogit.eventbrite.com/"
 blurb: An Introduction to Git
+time_zone: GMT
 date: "2014-02-04 19:00"
 end_Date: "2014-02-04 22:00"
