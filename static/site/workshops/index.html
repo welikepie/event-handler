@@ -1,22 +1,4 @@
 ---
-layout: default
+layout: workshops
 title: Events
 ---
-	{%assign datenow = {{site.time | date: '%s'}} | times: 1%} <!-- Assigns the compile time date to datenow to compare against. -->
-<h2> Workshops Listing </h2>
- <ul>
-  {% for events in site.data.events %}
-  {% if events.directory_tags contains "workshops" %}
-  {% if events.epoch_s_date > datenow%}
-  <li>
-      <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }} </a>
-      <span>{%if events.epoch_s_end_date%}
-      {{events.epoch_s_date | prettyDate : events.epoch_s_end_date}}
-      {%else%}
-      {{events.epoch_s_date | prettyDate : "null"}}
-      {%endif%}</span>
-  </li>
-  {%endif%}
-  {% endif %}
-  {% endfor %}
-  </ul>
