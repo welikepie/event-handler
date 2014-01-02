@@ -1,0 +1,74 @@
+Title: Building a faster web: How to optimise your website's performance
+----
+Text: 
+On Tuesday the 11th of March, Patrick Hamann will be holding an evening class on how to optimise your website's performance.
+
+(image: webperformance.png class: full-width)
+
+### Who is it for?
+This workshop is for any designer or developer wanting to improve the speed of their websites and have a greater understanding of the browser's internals.
+
+### What you'll learn
+In one evening you will discover what the common performance bottlenecks are in the browser from networking to painting and learn how to best optimise at each stage of the critical path to create fast, jank free websites.
+
+### Who is it taught by?
+
+Patrick is a senior client-side developer at the (link: http://www.theguardian.com/view=mobile text: Guardian) in London, where amongst other things, he is helping to engineer the next generation of their web platform. When not (link: http://lanyrd.com/profile/patrickhamann/ text: speaking) or ranting about performance or CSS architecture on (link: http://twitter.com/patrickhamann text: twitter) he enjoys spends his spare time discovering new food and craft beer.
+
+### What this workshop will cover
+
+* Why performance matters
+* Networking
+* Render tree construction
+* Measuring performance using browser developer tools
+* Hardware acceleration
+* Optimising load time
+* Optimising paint
+* Practice on working examples
+* Testing and monitoring
+* Tips, tricks and best practices
+* The future
+
+### Requirements
+
+Please bring your laptop with your text editor and browser of choice installed.
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Optimising Web Performance
+----
+What: Building a faster web
+----
+Date: 2014-03-11 19:00
+----
+End_Date: 2014-03-11 22:00
+----
+Where: Hub Westminster,
+1st floor New Zealand House, 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £50 - £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+        <span>Web Performance</span>
+        <span>11th March 2014</span>
+        <abbr class="easydate">Tue, 11 March 2014 19:00:00 +0000</abbr>
+        <a href="http://ehnightclass-webperformance2.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ehnightclass-webperformance2.eventbrite.com/
+----
+Lanyrd: http://www.lanyrd.com/2014/ehnightclass-webperformance2
+----
+LanyrdAPI: http://lanyrd.com/2014/ehnightclass-webperformance2/speakers/173a4a6693ee0b50.v1.json
