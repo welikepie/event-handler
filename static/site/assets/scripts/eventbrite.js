@@ -42,7 +42,7 @@ function createPercentBar(id){
 var element = document.getElementById(id);
 var baseclass = "percentagebar";
 var percent = element.getAttribute("data-percentage");
-var percentString = (percent*100) + "%";
+var percentString = Math.floor(percent*100) + "%";
 if(percent*100>75){
 	baseclass+= " good";
 }
