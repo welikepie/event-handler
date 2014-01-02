@@ -19,16 +19,18 @@ console.log(lis);
 		    var results = JSON.parse(this.responseText);
 		    console.log(results);
 		    if(results.test == false){
-		    	alert("Data could not be retrieved: "+JSON.parse(results.data));
+		    	alert(results.data);
 		    }else{
 				var data = JSON.parse(results.data);
 				for(var id in data){
-					if(data[id]!="undefined"){
-						document.getElementById(id).innerHTML = data[id].spaceleft;
-					document.getElementById(id+"percentbar").setAttribute("data-percentage",data[id].percent);
-					createPercentBar(id+"percentbar");
-					}else{
-						document.getElementById(id).innerHTML = "No information could be retrieved for this event. Check eventbriteid.";
+					if(document.getElementById(id)!=null){
+						if(data[id]!="undefined"){
+							document.getElementById(id).innerHTML = data[id].spaceleft;
+							document.getElementById(id+"percentbar").setAttribute("data-percentage",data[id].percent);
+							createPercentBar(id+"percentbar");
+						}else{
+							document.getElementById(id).innerHTML = "No information could be retrieved for this event. Check eventbriteid.";
+						}
 					}
 				}
 			}

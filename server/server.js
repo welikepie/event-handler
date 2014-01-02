@@ -3,26 +3,25 @@ var http = require('http'),
      url = require('url'),
      mysql = require('mysql'),
      async = require('async'),
+     MailChimpAPI = require('mailchimp').MailChimpAPI,
      Eventbrite = require('eventbrite'),
      listening = 2399,
+     pollTime = 120000,
      config = require('./config'),
      queryString = require( 'querystring' ),
      contenttypes = ["application/json","application/jsonp","application/x-www-form-urlencoded"],
-     responseheader = {'Access-Control-Allow-Origin':'*','Content-Type': 'json'};
-
-var eb_client = Eventbrite({'app_key':config.eventbrite.api, 'user_key':config.eventbrite.user});
-//SETUP MAILCHIMP API - You must replace your API Key and List ID which you can find in your Mailchimp Account
-var MailChimpAPI = require('mailchimp').MailChimpAPI;
-var apiKey = config.mailchimp.api;  // Change this to your Key
-var listID = config.mailchimp.list;  // Change this to your List ID
-
-try {
-    var mcApi = new MailChimpAPI(apiKey, { version : '1.3', secure : false });
-} catch (error) {
-    console.log(error.message);
+     responseheader = {'Access-Control-Allow-Origin':'*','Content-Type': 'json'},
+     eb_client = Eventbrite({'app_key':config.eventbrite.api, 'user_key':config.eventbrite.user}),
+     mcApi = new MailChimpAPI(config.mailchimp.api, { version : '1.3', secure : false }),
+     listID = config.mailchimp.list,
+     eventscontent = getevbdata();
+try{
+    config.mysql.connection.connect();
 }
-try{    config.mysql.connection.connect();
-}catch(error){console.log(error);}
+catch(error){
+    console.log(error);
+}
+
 http.createServer(function(request, response){
      var path = url.parse(request.url).pathname;
     console.log(request.method.toLowerCase());
@@ -81,8 +80,6 @@ http.createServer(function(request, response){
                 }else{
                     jsondata = JSON.parse(body);
                 }
-                console.log(path);
-                  console.log(path == "/getevbdata");
                 if(path=="/writetodb"){
                     response.writeHead(200,responseheader);
                     console.log(input);
@@ -117,10 +114,25 @@ http.createServer(function(request, response){
                     console.log("GOTHERE");
                     response.writeHead(200,responseheader);
                     if(wlpapiverify(request,function(){
-                        getevbdata(jsondata,function(input){console.log(input); response.end(input);});}
+                        console.log("stuff");
+                        console.log(eventscontent);
+                        if(eventscontent!=undefined){
+                            response.end(JSON.stringify(eventscontent));
+                        }
+                        else{
+                            response.end(JSON.stringify(
+                                    {"timestamp":Date.now(),
+                                    "status":"error",
+                                    "test":false,
+                                    "result":"Data not returned yet. Please refresh the page!",
+                                    "data":"Our server is just starting. Please refresh the page!"
+                                    }
+                                ));
+                        }
+                        }
                     ) == false){
-                         response.writeHead(403, responseheader);
-                       response.end(JSON.stringify({"status":"error","error":"this request is not allowed to this server."}));
+                        response.writeHead(403, responseheader);
+                        response.end(JSON.stringify({"status":"error","error":"this request is not allowed to this server."}));
                     }
                 }
             }
@@ -132,47 +144,66 @@ http.createServer(function(request, response){
 }
 }).listen(listening);
 console.log("server initialized on "+listening);
-function getevbdata(inputs,callback){
-    var dataarr = {};
-    async.eachSeries(inputs["data"],function(item,callback){
-    eb_client.event_get( {'id': item }, function(err, data){
-    // render the event as a ticket widget:
-//    var ticket_widget_html = eb_client.widget.ticket( data.event ); 
-    // or, render it as a countdown widget:
-//    var countdown_widget_html = eb_client.widget.countdown( data.event ); 
- if(err){
-        dataarr[item] = "undefined";
-        callback(null);
-    }
-    else{
-            try{
-                var spaceleft = data.event.capacity - data.event.num_attendee_rows;
-                if(spaceleft < 0){
-                    spaceleft = 0;
-                }
-                var percentage = Math.ceil((data.event.num_attendee_rows/data.event.capacity * 100))
-                if(percentage > 100){
-                    percentage = 100;
-                }
-                dataarr[item] = {"spaceleft":spaceleft,"max":data.event.capacity,"current":data.event.num_attendee_rows,"percent":(percentage/100)};
-                callback(null);
-            }
-            catch(e){
-                dataarr[item] = "undefined";
-                callback(null);
-            }
-        }
+setInterval(getevbdata,pollTime);
+console.log("Intermittent EventBrite data polling set to "+(pollTime/1000/60)+" minutes and started.");
 
-   // console.log( countdown_widget_html + ticket_widget_html );
-});
-    },function(error){
-        if(error!=null){
-            callback(JSON.stringify({"status":"error","test":false,"error":JSON.stringify(error)}));
+function getevbdata(){//,callback){
+    var idarr = [];
+    var dataarr = {};
+
+    eb_client.user_list_events({"user":config.eventbrite.username,
+        "only_display":"id",
+        "event_statuses":"live",
+    },function(error,data){
+        if(!error){
+            for(var i in data["events"]){
+                idarr.push(data["events"][i]["event"]["id"]);
+            }
+            async.each(idarr,function(item,callback){
+                eb_client.event_get( {'id': item }, function(err, data){
+                    if(err){
+                        dataarr[item] = "undefined";
+                        callback(null);
+                    }
+                    else{
+                        try{
+                            var spaceleft = data.event.capacity - data.event.num_attendee_rows;
+                            if(spaceleft < 0){
+                                spaceleft = 0;
+                            }
+                            var percentage = Math.ceil((data.event.num_attendee_rows/data.event.capacity * 100))
+                            if(percentage > 100){
+                                percentage = 100;
+                            }
+                            dataarr[item] = {"spaceleft":spaceleft,"max":data.event.capacity,"current":data.event.num_attendee_rows,"percent":(percentage/100)};
+                            callback(null);
+                        }
+                        catch(e){
+                            dataarr[item] = "undefined";
+                            callback(null);
+                        }
+                    }
+                   // console.log( countdown_widget_html + ticket_widget_html );
+                });
+            },function(error){
+                if(error!=null){
+                    console.error("ALERT: EVENTBRITE DATA RETRIEVAL FAILED AT "+Date.now()+" .");
+                    console.log("----------");
+                    console.log(error);
+                    console.log("----------");
+                }else{
+                    eventscontent = {"timestamp":Date.now(),"status":"success","test":true,"result":"All queries completed successfully.","data":JSON.stringify(dataarr)};
+                }       
+            });
         }else{
-            callback(JSON.stringify({"status":"success","test":true,"result":"All queries completed successfully.","data":JSON.stringify(dataarr)}));
+            console.error("ALERT: EVENTBRITE USER EVENT DATA RETRIEVAL FAILED AT "+Date.now()+" .");
+            console.log("----------");
+            console.log(error);
+            console.log("----------");
         }
     });
 }
+
 function updatespeaker(inputs,callback){
     var errors = [];
     var objs = [];
@@ -180,7 +211,7 @@ function updatespeaker(inputs,callback){
         objs.push(inputs[each]);
     }
     console.log(objs);
-    async.eachSeries(objs,function(item,callback){
+    async.each(objs,function(item,callback){
         var order = item.order;
         delete item.order;
     config.mysql.connection.query(
