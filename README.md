@@ -1,6 +1,9 @@
 ##Dependencies##
-- **ruby** (1.9.3 used in development) 
+- **ruby** (1.9.3 used in development, use RVM to install it if necessary)
+- Make sure rubygems and ruby are up to date. 
 - gem install jekyll
+- [Mac] If this fails with "gcc-4.2: No such file or directory" or similar, run brew install apple-gcc42
+- [Mac] If it still fails, run xcode-select --install to install xcode command line tools (Needed in Mavericks)
 - gem install rdiscount (markdown compilation)
 - run "jekyll build" from the command line in the same folder as _config.yml to build the site.
 - run "jekyll serve" from the command line in the same folder as _config.yml to build&serve the site. Note; this does not have PHP support and will not run production version of the workshoplist page.
