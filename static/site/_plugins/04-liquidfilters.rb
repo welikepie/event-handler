@@ -42,6 +42,9 @@ module Jekyll
     end
   end
   module Frontpaging
+    def alphasort(starting)
+      starting.sort_by!{ |m| m["prettyname"].downcase }
+    end
   	def within_x_days(starting, ending)
   		starting.each{|x|
   			if ((x["epoch_s_date"].to_i - Time.now().to_i) > 0 && (x["epoch_s_date"].to_i - Time.now().to_i) <(86400 * ending))

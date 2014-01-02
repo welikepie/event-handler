@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+	{%assign datenow = {{site.time | date: '%s'}} | times: 1%} <!-- Assigns the compile time date to datenow to compare against. -->
     {% include header.html title = "homepage" %}
     <body>
           {%include navbar.html %}
@@ -7,23 +8,31 @@
           <h2> Events List </h2>
 			 <ul>
 			  {% for events in site.data.events %}
+			  {%if events.epoch_s_date > datenow%}
 			  <li>
-			      <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }}</a> : 
+			      <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }}</a>
 			      <ul>
 			      	{%for speakers in events.speakerID%}
 			      	<li>Speaker : {{site.data.speakers[speakers].name}}
 			      	{% endfor %}
 			  	</ul>
 			  </li>
+			  {% endif %}
 			  {% endfor %}
 			  </ul>
 			<h2> Category List </h3>
 			<ul>
-			  {% for series in site.data.series_list %}
-				  <li>
-				      <a href="{{events.url}}/">{{ series.prettyname }}</a>
-				      <p>{{series.description}}</p>
-				  </li>
+			{%assign series_sorted_alpha = site.data.series_list | alphasort %}
+			  {% for seriess in series_sorted_alpha%}
+			  	{%for seri in site.data.series[seriess.series]%}
+				  {%if seri.epoch_s_date > datenow%}
+					  <li>
+					      <a href="{{seriess.url}}/">{{seriess.prettyname}}</a>
+					      <p>{{seriess.description}}</p>
+					  </li>
+					{%break%}
+			  	  {%endif%}
+			  	{%endfor%}
 			  {% endfor %}
 			</ul>
           {% include footer.html %}

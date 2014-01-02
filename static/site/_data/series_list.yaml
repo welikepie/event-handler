@@ -122,7 +122,7 @@
   description: Full-day AngularJS Workshop
 - series: ldnjsnightclass-testingjs
   url: /workshops/ldnjsnightclass-testingjs
-  prettyname: 
+  prettyname: ! 'London JS Night Classes: Testing Javascript'
   description: An evening workshop dedicated to learning how to test JavaScript
 - series: uxnightclass-sellingucd
   url: /workshops/uxnightclass-sellingucd

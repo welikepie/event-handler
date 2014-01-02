@@ -2752,7 +2752,7 @@
   epoch_s_date: 1393354800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-testingjs/
-  seriesconfprettyname :"London JS Night Classes: Testing Javascript"
+  seriesconfprettyname: ! 'London JS Night Classes: Testing Javascript'
   seriesconfdescription: An evening workshop dedicated to learning how to test JavaScript
   url: /workshops/ldnjsnightclass-testingjs
 - speakerID: annadahlstrom
