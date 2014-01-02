@@ -6,7 +6,7 @@ var http = require('http'),
      MailChimpAPI = require('mailchimp').MailChimpAPI,
      Eventbrite = require('eventbrite'),
      listening = 2399,
-     pollTime = 120000,
+     pollTime = 15 * 60 * 1000,
      config = require('./config'),
      queryString = require( 'querystring' ),
      contenttypes = ["application/json","application/jsonp","application/x-www-form-urlencoded"],
@@ -152,39 +152,29 @@ function getevbdata(){//,callback){
     var dataarr = {};
 
     eb_client.user_list_events({"user":config.eventbrite.username,
-        "only_display":"id",
         "event_statuses":"live",
+        "do_not_display":"decription"
     },function(error,data){
         if(!error){
-            for(var i in data["events"]){
-                idarr.push(data["events"][i]["event"]["id"]);
-            }
+            idarr = data["events"];
             async.each(idarr,function(item,callback){
-                eb_client.event_get( {'id': item }, function(err, data){
-                    if(err){
-                        dataarr[item] = "undefined";
-                        callback(null);
-                    }
-                    else{
                         try{
-                            var spaceleft = data.event.capacity - data.event.num_attendee_rows;
+                            var spaceleft = item.event.capacity - item.event.num_attendee_rows;
                             if(spaceleft < 0){
                                 spaceleft = 0;
                             }
-                            var percentage = Math.ceil((data.event.num_attendee_rows/data.event.capacity * 100))
+                            var percentage = Math.ceil((item.event.num_attendee_rows/item.event.capacity * 100))
                             if(percentage > 100){
                                 percentage = 100;
                             }
-                            dataarr[item] = {"spaceleft":spaceleft,"max":data.event.capacity,"current":data.event.num_attendee_rows,"percent":(percentage/100)};
+                            dataarr[item["event"]["id"]] = {"spaceleft":spaceleft,"max":item.event.capacity,"current":item.event.num_attendee_rows,"percent":(percentage/100)};
                             callback(null);
                         }
                         catch(e){
-                            dataarr[item] = "undefined";
+                            dataarr[item["event"]["id"]] = "undefined";
                             callback(null);
                         }
-                    }
-                   // console.log( countdown_widget_html + ticket_widget_html );
-                });
+                
             },function(error){
                 if(error!=null){
                     console.error("ALERT: EVENTBRITE DATA RETRIEVAL FAILED AT "+Date.now()+" .");
