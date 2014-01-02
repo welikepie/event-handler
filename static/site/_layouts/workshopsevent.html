@@ -4,6 +4,12 @@
     <body>
           {%include navbar.html %}
         <div class = "site">
+            <span>{%if page.data.epoch_s_end_date%}
+                  {{page.data.epoch_s_date | prettyDate : page.data.epoch_s_end_date}}
+                {%else%}
+                  {{page.data.epoch_s_date | prettyDate : ""}}
+                {%endif%}
+            </span>
           {{page.data}}
           {%for speaks in page.data.speakerid%}
           {%assign speaker = site.data.speakers[speaks]%}

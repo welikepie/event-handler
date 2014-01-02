@@ -13,12 +13,22 @@
           			<a href="{{merge["url"]}}/{{merge["filename"]}}.html">{{merge["title"]}} </a>
           			<p>Not Blog</p>
           			<p>Size: {{merge["size"]}}</p>
-          			<p>Date: {{merge["date"]}}</p>
+          			<p>Date:             <span>{%if merge.epoch_s_end_date%}
+                                 {{merge.epoch_s_date | prettyDate : merge.epoch_s_end_date}}
+                               {%else%}
+                                 {{merge.epoch_s_date | prettyDate : ""}}
+                               {%endif%}
+                           </span>
+                         </p>
           			{%else%}
           			<a href="{{merge["url"]}}">{{merge["title"]}} </a>
           			<p>Blog Post</p>
          			<p>Size: {{merge["size"]}}</p>
-         			<p>Date: {{merge["date"]}}</p>
-          			{%endif%}
-          		</p>
+         			<p>Date:             <span>{%if merge.epoch_s_end_date%}
+                                 {{merge.epoch_s_date | prettyDate : merge.epoch_s_end_date}}
+                               {%else%}
+                                 {{merge.epoch_s_date | prettyDate : ""}}
+                               {%endif%}
+                           </span>
+                    </p>
           	{%endfor%}
