@@ -13,7 +13,6 @@
   booking_link: http://geeky-may.eventbrite.com/
   blurb: Lightning talks celebrating geekiness. With talks ranging from board games
     and zombies to Lego and 4sq.
-  time_zone: GMT
   date: 2012-05-14 18:30
   end_Date: 2012-05-14 21:00
   directory_tags:
@@ -22,6 +21,7 @@
   - geeky
   filename: geeky
   epoch_s_date: 1337016600
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
   seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
@@ -44,7 +44,6 @@
     WiFi – we&#39;re building our own network just for you.</p>'
   lanyrd: http://www.lanyrd.com/2012/london-js-school-trip/
   booking_link: http://ldnjs-school-trip.eventbrite.com/
-  time_zone: GMT
   date: 2012-06-30 10:00
   end_Date: 2012-06-30 19:00
   directory_tags:
@@ -53,6 +52,7 @@
   - londonjs-schooltrip
   filename: londonjs-schooltrip
   epoch_s_date: 1341046800
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs-schooltrip/
   seriesconfprettyname: ! 'Eventhandler Meetups: LondonJS School Trip'
   seriesconfdescription: LondonJS School Trip
@@ -74,7 +74,6 @@
   lanyrd: http://www.lanyrd.com/2012/londonjs-13/
   booking_link: http://londonjs-13.eventbrite.com/
   blurb: Evening of Javascript talks about Microframeworks and Require.js.
-  time_zone: GMT
   date: 2012-08-20 19:00
   end_Date: 2012-08-20 22:00
   directory_tags:
@@ -83,6 +82,7 @@
   - londonjs
   filename: londonjs-13
   epoch_s_date: 1345485600
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -103,7 +103,6 @@
   booking_link: http://geeky-august.eventbrite.com/
   blurb: Lightning talks celebrating geekiness. With talks ranging from board games
     and zombies to Lego and 4sq.
-  time_zone: GMT
   date: 2012-08-28 18:30
   end_Date: 2012-08-28 21:00
   directory_tags:
@@ -112,6 +111,7 @@
   - geeky
   filename: geeky-august
   epoch_s_date: 1346175000
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
   seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
@@ -135,7 +135,6 @@
   lanyrd: http://www.lanyrd.com/2012/londonjs-14/
   booking_link: http://londonjs-14.eventbrite.com/
   blurb: Evening of Javascript talks by developers, for developers.
-  time_zone: GMT
   date: 2012-09-17 19:00
   end_Date: 2012-09-17 21:00
   directory_tags:
@@ -144,6 +143,7 @@
   - londonjs
   filename: londonjs-14
   epoch_s_date: 1347904800
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -168,7 +168,6 @@
   lanyrd: http://www.lanyrd.com/2012/londonjs-15/
   booking_link: http://londonjs-15.eventbrite.com/
   blurb: Evening of Javascript talks about Microframeworks and Require.js.
-  time_zone: GMT
   date: 2012-10-15 18:30
   end_Date: 2012-10-15 21:00
   directory_tags:
@@ -177,6 +176,7 @@
   - londonjs
   filename: londonjs-15
   epoch_s_date: 1350322200
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -205,7 +205,7 @@
   - geeky
   filename: geeky-october
   epoch_s_date: 1351013400
-  time_zone: GMT
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
   seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
@@ -264,7 +264,6 @@
   lanyrd: http://lanyrd.com/2012/geek-lates/
   booking_link: http://geeklates.eventbrite.com/
   blurb: An evening of geeky entertainment and insight with workshops, talks and stands.
-  time_zone: GMT
   date: 2012-11-01 18:00
   end_Date: 2012-11-01 22:00
   directory_tags:
@@ -273,6 +272,7 @@
   - geeklates
   filename: geeklates
   epoch_s_date: 1351792800
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/geeklates/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geek Lates'
   seriesconfdescription: An evening of geeky entertainment and insight with workshops,
@@ -296,7 +296,6 @@
   lanyrd: http://www.lanyrd.com/2012/londonjs-createtheweb/
   booking_link: http://londonjs-createtheweb.eventbrite.com/
   blurb: Evening of Javascript talks about Create the Web and WebRTC
-  time_zone: GMT
   date: 2012-11-12 18:30
   end_Date: 2012-11-12 21:00
   directory_tags:
@@ -305,6 +304,7 @@
   - londonjs
   filename: londonjs-createtheweb
   epoch_s_date: 1352745000
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -329,7 +329,6 @@
   lanyrd: http://www.lanyrd.com/2012/londonjs-16/
   booking_link: http://londonjs-16.eventbrite.com/
   blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
-  time_zone: GMT
   date: 2012-11-19 18:30
   end_Date: 2012-11-19 21:00
   directory_tags:
@@ -338,6 +337,7 @@
   - londonjs
   filename: londonjs-16
   epoch_s_date: 1353349800
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -358,7 +358,6 @@
   lanyrd: http://www.lanyrd.com/2012/eventhandler-gamesnight-01/
   booking_link: http://eventhandler-gamesnight-01.eventbrite.com/
   blurb: A relaxing board game evening
-  time_zone: GMT
   date: 2012-12-17 18:30
   end_Date: 2012-12-17 22:30
   directory_tags:
@@ -367,6 +366,7 @@
   - gamesnight
   filename: eventhandler-gamesnight-1
   epoch_s_date: 1355769000
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/gamesnight/
   seriesconfprettyname: ! 'Eventhandler Meetups: Board Games Night'
   seriesconfdescription: A relaxing board game evening
@@ -402,7 +402,6 @@
   lanyrd: http://lanyrd.com/2013/eventhandler-designmodelling-01/
   booking_link: http://eventhandler-designmodelling-01.eventbrite.com/
   blurb: A full day Design Modelling workshop
-  time_zone: GMT
   date: 2013-01-26 10:00
   end_Date: 2013-01-26 17:30
   directory_tags:
@@ -411,6 +410,7 @@
   - eventhandlernightclass-designmodelling
   filename: designmodelling
   epoch_s_date: 1359194400
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-designmodelling/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Design Modelling'
   seriesconfdescription: A full day Design Modelling workshop
@@ -436,7 +436,6 @@
   lanyrd: http://lanyrd.com/2013/eventhandler-arduino-01/
   booking_link: http://eventhandler-arduino-01.eventbrite.com/
   blurb: A full day Arduino workshop
-  time_zone: GMT
   date: 2013-02-13 10:00
   end_Date: 2013-02-13 17:30
   directory_tags:
@@ -445,6 +444,7 @@
   - ldnjsnightclass-arduino
   filename: arduinoworkshop-1
   epoch_s_date: 1360749600
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-arduino/
   seriesconfprettyname: ! 'London JS Classes: Arduino'
   seriesconfdescription: A full day Arduino workshop
@@ -467,7 +467,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-17/
   booking_link: http://londonjs-17.eventbrite.com/
   blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
-  time_zone: GMT
   date: 2013-02-18 18:30
   end_Date: 2013-02-18 21:00
   directory_tags:
@@ -476,6 +475,7 @@
   - londonjs
   filename: londonjs-17
   epoch_s_date: 1361212200
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -497,7 +497,6 @@
   booking_link: http://geeky-february.eventbrite.com/
   blurb: Lightning talks celebrating geekiness, with talks ranging from board games
     and zombies to Lego and 4sq.
-  time_zone: GMT
   date: 2013-02-26 18:30
   directory_tags:
   - events
@@ -505,6 +504,7 @@
   - geeky
   filename: geeky-february
   epoch_s_date: 1361903400
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
   seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
@@ -534,7 +534,6 @@
   lanyrd: http://lanyrd.com/2013/ldnjsnightclass-toolingcli/
   booking_link: http://ldnjsnightclass-toolingcli.eventbrite.com/
   blurb: A London JS Night Class dedicated to JavaScript and the Command Line
-  time_zone: GMT
   date: 2013-03-06 18:30
   end_Date: 2013-03-06 21:30
   directory_tags:
@@ -543,6 +542,7 @@
   - ldnjsnightclass-toolingcli
   filename: ldnjsnightclass-toolingcli
   epoch_s_date: 1362594600
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-toolingcli/
   seriesconfprettyname: ! 'London JS Night Classes: Tooling Command Line Interfaces'
   seriesconfdescription: A London JS Night Class dedicated to JavaScript and the Command
@@ -566,7 +566,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-18/
   booking_link: http://londonjs-18.eventbrite.com/
   blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
-  time_zone: GMT
   date: 2013-03-18 18:30
   end_Date: 2013-03-18 21:00
   directory_tags:
@@ -575,6 +574,7 @@
   - londonjs
   filename: londonjs-18
   epoch_s_date: 1363631400
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -606,7 +606,6 @@
   lanyrd: http://lanyrd.com/2013/ldnjsnightclass-buildingcli/
   booking_link: http://ldnjsnightclass-buildingcli.eventbrite.com/
   blurb: A London JS Night Class dedicated to building command line tools with Node
-  time_zone: GMT
   date: 2013-03-27 18:30
   end_Date: 2013-03-27 21:30
   directory_tags:
@@ -615,6 +614,7 @@
   - ldnjsnightclass-buildingcli
   filename: ldnjsnightclass-buildingcli
   epoch_s_date: 1364409000
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-buildingcli/
   seriesconfprettyname: ! 'London JS Night Classes: Building Command Line Interfaces'
   seriesconfdescription: A London JS Night Class dedicated to building command line
@@ -638,7 +638,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-19/
   booking_link: http://londonjs-19.eventbrite.com/
   blurb: An evening of JavaScript talks
-  time_zone: GMT
   date: 2013-04-15 18:30
   end_Date: 2013-04-15 21:00
   directory_tags:
@@ -647,6 +646,7 @@
   - londonjs
   filename: londonjs-19
   epoch_s_date: 1366047000
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -678,7 +678,6 @@
   booking_link: http://geeky-april.eventbrite.com/
   blurb: Lightning talks celebrating geekiness, with talks ranging from board games
     and zombies to Lego and 4sq.
-  time_zone: GMT
   date: 2013-04-23 18:30
   end_Date: 2013-04-23 21:00
   directory_tags:
@@ -687,6 +686,7 @@
   - geeky
   filename: geeky-april
   epoch_s_date: 1366738200
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
   seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
@@ -712,7 +712,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-20/
   booking_link: http://londonjs-20.eventbrite.com/
   blurb: An evening of JavaScript talks
-  time_zone: GMT
   date: 2013-05-20 18:30
   end_Date: 2013-05-20 21:00
   directory_tags:
@@ -721,6 +720,7 @@
   - londonjs
   filename: londonjs-20
   epoch_s_date: 1369071000
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -745,7 +745,6 @@
   lanyrd: http://lanyrd.com/2013/craft-01/
   booking_link: http://craft-1.eventbrite.com/
   blurb: An evening of Craft Beer and Tech
-  time_zone: GMT
   date: 2013-06-03 18:00
   end_Date: 2013-06-03 22:00
   directory_tags:
@@ -754,6 +753,7 @@
   - craft
   filename: craft
   epoch_s_date: 1370278800
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/craft/
   seriesconfprettyname: ! 'Eventhandler Meetups: Craft'
   seriesconfdescription: An evening of Craft Beer and Tech
@@ -785,7 +785,6 @@
   lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-webgames1/
   booking_link: http://ldnjsnightclass-webgames1.eventbrite.com/
   blurb: A 5 workshop series dedicated to building web-based games.
-  time_zone: GMT
   date: 2013-06-04 18:30
   end_Date: 2013-06-04 21:30
   directory_tags:
@@ -794,6 +793,7 @@
   - ldnjsnightclass-webgames
   filename: ldnjsnightclass-webgames1
   epoch_s_date: 1370367000
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
   seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
   seriesconfdescription: A 5 workshop series dedicated to building web-based games.
@@ -826,7 +826,6 @@
   lanyrd: http://lanyrd.com/2013/ldnjsnightclass-webgames2
   booking_link: http://ldnjsnightclass-webgames2.eventbrite.com/
   blurb: A 5 workshop series dedicated to building web-based games.
-  time_zone: GMT
   date: 2013-06-11 18:30
   end_Date: 2013-06-11 21:30
   directory_tags:
@@ -835,6 +834,7 @@
   - ldnjsnightclass-webgames
   filename: ldnjsnightclass-webgames2
   epoch_s_date: 1370971800
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
   seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
   seriesconfdescription: A 5 workshop series dedicated to building web-based games.
@@ -860,7 +860,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-21/
   booking_link: http://londonjs-21.eventbrite.com/
   blurb: An evening of JavaScript talks
-  time_zone: GMT
   date: 2013-06-17 18:30
   end_Date: 2013-06-17 21:00
   directory_tags:
@@ -869,6 +868,7 @@
   - londonjs
   filename: londonjs-21
   epoch_s_date: 1371490200
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -903,7 +903,6 @@
   lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-webgames3/
   booking_link: http://ldnjsnightclass-webgames3.eventbrite.com/
   blurb: A 5 workshop series dedicated to building web-based games.
-  time_zone: GMT
   date: 2013-06-18 18:30
   end_Date: 2013-06-18 21:30
   directory_tags:
@@ -912,6 +911,7 @@
   - ldnjsnightclass-webgames
   filename: ldnjsnightclass-webgames3
   epoch_s_date: 1371576600
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
   seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
   seriesconfdescription: A 5 workshop series dedicated to building web-based games.
@@ -942,7 +942,6 @@
   booking_link: http://geeky-june.eventbrite.com/
   blurb: Lightning talks celebrating geekiness, with talks ranging from board games
     and zombies to Lego and 4sq.
-  time_zone: GMT
   date: 2013-06-24 18:30
   end_Date: 2013-06-24 21:00
   directory_tags:
@@ -951,6 +950,7 @@
   - geeky
   filename: geeky-june
   epoch_s_date: 1372095000
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
   seriesconfdescription: Lightning talks celebrating geekiness, with talks ranging
@@ -987,7 +987,6 @@
   lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-webgames4/
   booking_link: http://ldnjsnightclass-webgames4.eventbrite.com/
   blurb: A 5 workshop series dedicated to building web-based games.
-  time_zone: GMT
   date: 2013-06-25 18:30
   end_Date: 2013-06-25 21:30
   directory_tags:
@@ -996,6 +995,7 @@
   - ldnjsnightclass-webgames
   filename: ldnjsnightclass-webgames4
   epoch_s_date: 1372181400
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
   seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
   seriesconfdescription: A 5 workshop series dedicated to building web-based games.
@@ -1020,7 +1020,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-22/
   booking_link: http://londonjs-22.eventbrite.com/
   blurb: An evening of JavaScript talks
-  time_zone: GMT
   date: 2013-07-15 18:30
   end_Date: 2013-07-15 21:00
   directory_tags:
@@ -1029,6 +1028,7 @@
   - londonjs
   filename: londonjs-22
   epoch_s_date: 1373909400
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -1057,7 +1057,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-23/
   booking_link: http://londonjs-23.eventbrite.com/
   blurb: An evening of JavaScript talks
-  time_zone: GMT
   date: 2013-08-19 18:30
   end_Date: 2013-08-19 21:00
   directory_tags:
@@ -1066,6 +1065,7 @@
   - londonjs
   filename: londonjs-23
   epoch_s_date: 1376933400
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -1112,7 +1112,6 @@
   lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-git2/
   booking_link: http://ldnjsnightclass-git2.eventbrite.com/
   blurb: An evening workshop dedicated to learning Git.
-  time_zone: GMT
   date: 2013-09-03 18:30
   end_Date: 2013-09-03 21:30
   directory_tags:
@@ -1121,6 +1120,7 @@
   - ldnjsnightclass-git
   filename: ldnjsnightclass-git
   epoch_s_date: 1378229400
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-git/
   seriesconfprettyname: ! 'London JS Night Classes: Git'
   seriesconfdescription: An evening workshop dedicated to learning Git.
@@ -1160,7 +1160,6 @@
   lanyrd: http://lanyrd.com/2013/geekyscience-september/
   booking_link: http://geekyscience-september.eventbrite.com/
   blurb: An evening of talks exploring an exciting variety of scientific topics.
-  time_zone: GMT
   date: 2013-09-05 19:00
   end_Date: 2013-09-05 22:00
   directory_tags:
@@ -1169,6 +1168,7 @@
   - geekyscience
   filename: geekyscience1
   epoch_s_date: 1378404000
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/geekyscience/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
   seriesconfdescription: An evening of talks exploring an exciting variety of scientific
@@ -1196,7 +1196,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-24/
   booking_link: http://londonjs-24.eventbrite.com/
   blurb: An evening of JavaScript talks
-  time_zone: GMT
   date: 2013-09-16 18:30
   end_Date: 2013-09-16 21:00
   directory_tags:
@@ -1205,6 +1204,7 @@
   - londonjs
   filename: londonjs-24
   epoch_s_date: 1379352600
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -1251,7 +1251,6 @@
     hours before the event goes ahead.</p>'
   lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-backbone
   booking_link: http://ldnjsnightclass-backbone.eventbrite.com/
-  time_zone: GMT
   date: 2013-09-17 18:30
   blurb: An evening workshop dedicated to learning Backbone
   end_Date: 2013-09-17 21:30
@@ -1261,6 +1260,7 @@
   - ldnjsnightclass-backbone
   filename: ldnjsnightclass-backbone
   epoch_s_date: 1379439000
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
   seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
   seriesconfdescription: An evening workshop dedicated to learning Backbone
@@ -1310,7 +1310,6 @@
   lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-introtojs/
   booking_link: http://ldnjsnightclass-introtojs.eventbrite.com/
   blurb: A five week course on learning JavaScript.
-  time_zone: GMT
   date: 2013-09-24 18:30
   end_Date: 2013-09-24 21:30
   directory_tags:
@@ -1319,6 +1318,7 @@
   - ldnjsnightclass-introtojs
   filename: ldnjsnightclass-introtojs
   epoch_s_date: 1380043800
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-introtojs/
   seriesconfprettyname: ! 'London JS Night Classes: Introduction to JS'
   seriesconfdescription: A five week course on learning JavaScript.
@@ -1361,7 +1361,6 @@
   lanyrd: http://lanyrd.com/2013/geekyscience-october/
   booking_link: http://geekyscience-october.eventbrite.com/
   blurb: An evening of talks exploring an exciting variety of scientific topics.
-  time_zone: GMT
   date: 2013-10-03 19:00
   end_Date: 2013-10-03 22:00
   directory_tags:
@@ -1370,6 +1369,7 @@
   - geekyscience
   filename: geeky-science2
   epoch_s_date: 1380823200
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/geekyscience/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
   seriesconfdescription: An evening of talks exploring an exciting variety of scientific
@@ -1414,7 +1414,6 @@
   lanyrd: http://www.lanyrd.com/2013/uxnightclass-gamesdesign
   booking_link: http://uxnightclass-gamesdesign.eventbrite.com/
   blurb: An evening of high-speed games design
-  time_zone: GMT
   date: 2013-10-15 19:00
   end_Date: 2013-10-15 22:00
   directory_tags:
@@ -1423,6 +1422,7 @@
   - eventhandlernightclass-gamesdesign
   filename: eventhandlernightclass-gamesdesign1
   epoch_s_date: 1381860000
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-gamesdesign/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Games Design'
   seriesconfdescription: An evening of high-speed games design
@@ -1466,7 +1466,6 @@
   lanyrd: http://lanyrd.com/2013/ldnjsnightclass-angular
   booking_link: http://ldnjsnightclass-angularjs.eventbrite.com/
   blurb: An evening workshop dedicated to learning AngularJS
-  time_zone: GMT
   date: 2013-10-16 19:00
   end_Date: 2013-10-16 22:00
   directory_tags:
@@ -1475,6 +1474,7 @@
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular
   epoch_s_date: 1381946400
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
   seriesconfdescription: An evening workshop dedicated to learning AngularJS
@@ -1501,7 +1501,6 @@
   lanyrd: http://www.lanyrd.com/2013/londonjs-25/
   booking_link: http://londonjs-25.eventbrite.com/
   blurb: An evening of JavaScript talks
-  time_zone: GMT
   date: 2013-10-21 18:30
   end_Date: 2013-10-21 21:00
   directory_tags:
@@ -1510,6 +1509,7 @@
   - londonjs
   filename: londonjs-25
   epoch_s_date: 1382376600
+  time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
   seriesconfdescription: ! 'LondonJS is a monthly meet up for the most
@@ -1559,7 +1559,6 @@
   lanyrd: http://www.lanyrd.com/2013/uxnightclass-usability
   booking_link: http://uxnightclass-usability.eventbrite.com/
   blurb: Cheap and effective usability testing
-  time_zone: GMT
   date: 2013-10-24 19:00
   end_Date: 2013-10-24 22:00
   directory_tags:
@@ -1568,6 +1567,7 @@
   - uxnightclass-usability
   filename: uxnightclass-usability
   epoch_s_date: 1382637600
+  time_zone: BST
   seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
   seriesconfdescription: Cheap and effective usability testing
@@ -1613,7 +1613,6 @@
   lanyrd: http://www.lanyrd.com/2013/ldnjsnightclass-backbone2
   booking_link: http://ldnjsnightclass-backbone2.eventbrite.com/
   blurb: An evening workshop dedicated to learning Backbone
-  time_zone: GMT
   date: 2013-10-30 19:00
   end_Date: 2013-10-30 22:00
   directory_tags:
@@ -1622,6 +1621,7 @@
   - ldnjsnightclass-backbone
   filename: ldnjsnightclass-backbone2
   epoch_s_date: 1383159600
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
   seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
   seriesconfdescription: An evening workshop dedicated to learning Backbone
@@ -1663,7 +1663,6 @@
   lanyrd: http://lanyrd.com/2013/geekyscience-november/
   booking_link: http://geekyscience-november.eventbrite.com/
   blurb: An evening of talks exploring an exciting variety of scientific topics.
-  time_zone: GMT
   date: 2013-10-31 19:00
   end_Date: 2013-10-31 22:00
   directory_tags:
@@ -1672,6 +1671,7 @@
   - geekyscience
   filename: geeky-science3
   epoch_s_date: 1383246000
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/geekyscience/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
   seriesconfdescription: An evening of talks exploring an exciting variety of scientific
@@ -1716,7 +1716,6 @@
   lanyrd: http://lanyrd.com/2013/ldnjsnightclass-angular2
   booking_link: http://ldnjsnightclass-angular2.eventbrite.com/
   blurb: An evening workshop dedicated to learning AngularJS
-  time_zone: GMT
   date: 2013-11-05 19:00
   end_Date: 2013-11-05 22:00
   directory_tags:
@@ -1725,6 +1724,7 @@
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular2
   epoch_s_date: 1383678000
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
   seriesconfdescription: An evening workshop dedicated to learning AngularJS
@@ -1778,7 +1778,6 @@
   lanyrd: http://www.lanyrd.com/2013/geekyconf/
   booking_link: http://www.geekyconf.com
   blurb: A day of lightning talks with an aim to inspire and entertain.
-  time_zone: GMT
   date: 2013-11-21 10:30
   end_Date: 2013-11-21 18:00
   directory_tags:
@@ -1787,6 +1786,7 @@
   - geekyconf
   filename: geekyconf
   epoch_s_date: 1385029800
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/geekyconf/
   url: /events
 - speakerID: timruffles
@@ -1822,7 +1822,6 @@
   lanyrd: http://lanyrd.com/2014/ldnjsnightclass-d3js
   booking_link: http://ldnjsnightclass-d3.eventbrite.com/
   blurb: An evening workshop dedicated to learning D3.js
-  time_zone: GMT
   date: 2014-01-21 19:00
   end_Date: 2014-01-21 22:00
   directory_tags:
@@ -1831,6 +1830,7 @@
   - ldnjsnightclass-d3js
   filename: ldnjsnightclass-d3js
   epoch_s_date: 1390330800
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-d3js/
   url: /workshops
 - speakerID: evgeniagrinblo
@@ -1875,7 +1875,6 @@
   lanyrd: http://www.lanyrd.com/2014/uxnightclass-usability2
   booking_link: http://uxnightclass-usability2.eventbrite.com/
   blurb: Cheap and effective usability testing
-  time_zone: GMT
   date: 2014-01-22 19:00
   end_Date: 2014-01-22 22:00
   directory_tags:
@@ -1884,6 +1883,7 @@
   - uxnightclass-usability
   filename: uxnightclass-usability2
   epoch_s_date: 1390417200
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
   seriesconfdescription: Cheap and effective usability testing
@@ -1936,7 +1936,6 @@
   lanyrd: http://www.lanyrd.com/2014/uxnightclass-uxdeliverables2
   booking_link: http://uxnightclass-uxdeliverables2.eventbrite.com/
   blurb: Best Practice for UX Deliverables
-  time_zone: GMT
   date: 2014-01-28 19:00
   end_Date: 2013-01-28 22:00
   directory_tags:
@@ -1945,6 +1944,7 @@
   - uxnightclass-uxdeliverables
   filename: uxnightclass-uxdeliverables
   epoch_s_date: 1390935600
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
   seriesconfprettyname: Best Practice for UX Deliverables
   seriesconfdescription: Best Practice for UX Deliverables
@@ -1989,7 +1989,6 @@
   lanyrd: http://www.lanyrd.com/2014/ldnjsnightclass-backbone3
   booking_link: http://ldnjsnightclass-backbone3.eventbrite.com/
   blurb: An evening workshop dedicated to learning Backbone
-  time_zone: GMT
   date: 2014-01-29 19:00
   end_Date: 2014-01-29 22:00
   directory_tags:
@@ -1998,6 +1997,7 @@
   - ldnjsnightclass-backbone
   filename: ldnjsnightclass-backbone3
   epoch_s_date: 1391022000
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
   seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
   seriesconfdescription: An evening workshop dedicated to learning Backbone
@@ -2043,7 +2043,6 @@
   lanyrd: http://www.lanyrd.com/2014/ehnightclass-introtogit
   booking_link: http://eventhandlernightclass-introtogit.eventbrite.com/
   blurb: An Introduction to Git
-  time_zone: GMT
   date: 2014-02-04 19:00
   end_Date: 2014-02-04 22:00
   directory_tags:
@@ -2052,6 +2051,7 @@
   - eventhandlernightclass-introtogit
   filename: eventhandlernightclass-introtogit
   epoch_s_date: 1391540400
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-introtogit/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Introduction to Git'
   seriesconfdescription: An Introduction to Git
@@ -2102,7 +2102,6 @@
   lanyrd: http://lanyrd.com/2014/ehnightclass-modernlayout
   booking_link: http://eventhandlernightclass-modernlayout.eventbrite.com/
   blurb: An evening workshop dedicated to learning Modern CSS Layout Techniques
-  time_zone: GMT
   date: 2014-02-05 19:00
   end_Date: 2014-02-05 22:00
   directory_tags:
@@ -2111,6 +2110,7 @@
   - eventhandlernightclass-modernlayout
   filename: eventhandlernightclass-modernlayout
   epoch_s_date: 1391626800
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-modernlayout/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Modern Layout'
   seriesconfdescription: An evening workshop dedicated to learning Modern CSS Layout
@@ -2156,7 +2156,6 @@
   lanyrd: http://www.lanyrd.com/2014/ldnjsclasses-backbonejsfullday
   booking_link: http://ldnjsclasses-backbonejsfullday.eventbrite.com/
   blurb: A full-day BackboneJS Workshop
-  time_zone: GMT
   date: 2014-02-07 10:00
   end_Date: 2014-02-07 18:00
   directory_tags:
@@ -2165,6 +2164,7 @@
   - ldnjsnightclass-backbonefullday
   filename: ldnjsclass-backbonejsfullday
   epoch_s_date: 1391767200
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbonefullday/
   seriesconfprettyname: ! 'London JS Classes: Backbone Full Day'
   seriesconfdescription: A full-day BackboneJS Workshop
@@ -2214,7 +2214,6 @@
   lanyrd: http://www.lanyrd.com/2014/uxnightclass-sketchinginterfaces
   booking_link: http://uxnightclass-sketchinginterfaces.eventbrite.com/
   blurb: Sketching Interfaces with Eva-Lotta Lamm
-  time_zone: GMT
   date: 2014-02-11 19:00
   end_Date: 2014-02-11 22:00
   directory_tags:
@@ -2223,6 +2222,7 @@
   - uxnightclass-sketchinginterfaces
   filename: uxnightclass-sketchinginterfaces
   epoch_s_date: 1392145200
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-sketchinginterfaces/
   seriesconfprettyname: ! 'Selling UCD: How to get buy in from clients'
   seriesconfdescription: Sketching Interfaces with Eva-Lotta Lamm
@@ -2267,7 +2267,6 @@
   lanyrd: http://www.lanyrd.com/2014/ehnightclass-gamesdesign
   booking_link: http://ehnightclass-gamesdesign.eventbrite.com/
   blurb: An evening of high-speed games design
-  time_zone: GMT
   date: 2014-02-11 19:00
   end_Date: 2014-02-11 22:00
   directory_tags:
@@ -2276,6 +2275,7 @@
   - eventhandlernightclass-gamesdesign
   filename: eventhandlernightclass-gamesdesign2
   epoch_s_date: 1392145200
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-gamesdesign/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Games Design'
   seriesconfdescription: An evening of high-speed games design
@@ -2318,7 +2318,6 @@
   lanyrd: http://lanyrd.com/2014/ldnjsnightclass-nextleveljs
   booking_link: http://ldnjsnightclass-nextleveljs.eventbrite.com/
   blurb: An evening workshop dedicated to levelling up your JavaScript
-  time_zone: GMT
   date: 2014-02-12 19:00
   end_Date: 2014-02-12 22:00
   directory_tags:
@@ -2327,6 +2326,7 @@
   - ldnjsnightclass-nextleveljs
   filename: ldnjsnightclass-nextleveljs
   epoch_s_date: 1392231600
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-nextleveljs/
   seriesconfprettyname: ! 'London JS Night Classes: Next Level JS'
   seriesconfdescription: An evening workshop dedicated to levelling up your JavaScript
@@ -2362,7 +2362,6 @@
   lanyrd: http://www.lanyrd.com/2014/londonjsconf
   booking_link: http://londonjsconf.eventbrite.co.uk/
   blurb: London JS Conf
-  time_zone: GMT
   date: 2014-02-13 09:00
   end_Date: 2014-02-13 18:30
   directory_tags:
@@ -2371,6 +2370,7 @@
   - londonjsconf
   filename: londonjsconf
   epoch_s_date: 1392282000
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjsconf/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS Conf'
   seriesconfdescription: London JS Conf
@@ -2422,7 +2422,6 @@
   lanyrd: http://www.lanyrd.com/2014/ehclass-cssarchitecture
   booking_link: http://ehclass-cssarchitecture.eventbrite.co.uk
   blurb: CSS Architecture for Big Front-Ends
-  time_zone: GMT
   date: 2014-02-14 10:00
   end_Date: 2014-02-14 18:00
   directory_tags:
@@ -2431,6 +2430,7 @@
   - eventhandlernightclass-cssarchitecture
   filename: eventhandlerclass-cssarchitecture
   epoch_s_date: 1392372000
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-cssarchitecture/
   seriesconfprettyname: ! 'Eventhandler Night Classes: CSS Architecture'
   seriesconfdescription: CSS Architecture for Big Front-Ends
@@ -2477,7 +2477,6 @@
   lanyrd: http://www.lanyrd.com/2014/uxnightclass-usability3
   booking_link: http://uxnightclass-usability3.eventbrite.com/
   blurb: Cheap and effective usability testing
-  time_zone: GMT
   date: 2014-02-18 19:00
   end_Date: 2014-02-18 22:00
   directory_tags:
@@ -2486,6 +2485,7 @@
   - uxnightclass-usability
   filename: uxnightclass-usability3
   epoch_s_date: 1392750000
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
   seriesconfdescription: Cheap and effective usability testing
@@ -2587,7 +2587,6 @@
   lanyrd: http://www.lanyrd.com/2014/ehnightclass-webperformance
   booking_link: http://ehnightclass-webperformance.eventbrite.com/
   blurb: Optimising Web Performance
-  time_zone: GMT
   date: 2014-02-19 19:00
   end_Date: 2014-02-19 22:00
   directory_tags:
@@ -2596,6 +2595,7 @@
   - eventhandlernightclass-webperformance
   filename: eventhandlernightclass-webperformance
   epoch_s_date: 1392836400
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-webperformance/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Web Performance'
   seriesconfdescription: Optimising Web Performance
@@ -2638,7 +2638,6 @@
   lanyrd: http://lanyrd.com/2014/ldnjsnightclass-angular3
   booking_link: http://ldnjsnightclass-angular3.eventbrite.com/
   blurb: An evening workshop dedicated to learning AngularJS
-  time_zone: GMT
   date: 2014-02-19 19:00
   end_Date: 2014-02-19 22:00
   directory_tags:
@@ -2647,6 +2646,7 @@
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular3
   epoch_s_date: 1392836400
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
   seriesconfdescription: An evening workshop dedicated to learning AngularJS
@@ -2689,7 +2689,6 @@
   lanyrd: http://lanyrd.com/2014/ldnjsclasses-angularjsfullday
   booking_link: http://ldnjsclasses-angularjsfullday.eventbrite.com/
   blurb: Full-day AngularJS Workshop
-  time_zone: GMT
   date: 2014-02-21 10:00
   end_Date: 2014-02-21 18:00
   directory_tags:
@@ -2698,6 +2697,7 @@
   - ldnjsnightclass-angularfullday
   filename: ldnjsclass-angularjsfullday
   epoch_s_date: 1392976800
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angularfullday/
   seriesconfprettyname: ! 'London JS Classes: AngularJS Full-Day Workshop'
   seriesconfdescription: Full-day AngularJS Workshop
@@ -2742,7 +2742,6 @@
   lanyrd: http://lanyrd.com/2014/ldnjsnightclass-testingjs
   booking_link: http://ldnjsnightclass-testingjs.eventbrite.com/
   blurb: An evening workshop dedicated to learning how to test JavaScript
-  time_zone: GMT
   date: 2014-02-25 19:00
   end_Date: 2014-02-25 22:00
   directory_tags:
@@ -2751,6 +2750,7 @@
   - ldnjsnightclass-testingjs
   filename: ldnjsnightclass-testingjs
   epoch_s_date: 1393354800
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-testingjs/
   seriesconfprettyname :"London JS Night Classes: Testing Javascript"
   seriesconfdescription: An evening workshop dedicated to learning how to test JavaScript
@@ -2801,7 +2801,6 @@
   lanyrd: http://www.lanyrd.com/2014/uxnightclass-sellingucd
   booking_link: http://uxnightclass-sellingucd.eventbrite.com/
   blurb: Selling UCD with Anna Dahlstrom
-  time_zone: GMT
   date: 2014-02-26 19:00
   end_Date: 2014-02-26 22:00
   directory_tags:
@@ -2810,6 +2809,7 @@
   - uxnightclass-sellingucd
   filename: uxnightclass-sellingucd
   epoch_s_date: 1393441200
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-sellingucd/
   seriesconfprettyname: ! 'Selling UCD: How to get buy in from clients'
   seriesconfdescription: Selling UCD with Anna Dahlstrom
@@ -2862,7 +2862,6 @@
   lanyrd: http://www.lanyrd.com/2014/uxnightclass-uxdeliverables2
   booking_link: http://uxnightclass-uxdeliverables2.eventbrite.com/
   blurb: Best Practice for UX Deliverables
-  time_zone: GMT
   date: 2014-03-05 19:00
   end_Date: 2013-03-05 22:00
   directory_tags:
@@ -2871,6 +2870,7 @@
   - uxnightclass-uxdeliverables
   filename: uxnightclass-uxdeliverables1
   epoch_s_date: 1394046000
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
   seriesconfprettyname: Best Practice for UX Deliverables
   seriesconfdescription: Best Practice for UX Deliverables
@@ -2921,7 +2921,6 @@
   lanyrd: http://lanyrd.com/2014/ehnightclass-modernlayout
   booking_link: http://eventhandlernightclass-modernlayout.eventbrite.com/
   blurb: An evening workshop dedicated to learning Modern CSS Layout Techniques
-  time_zone: GMT
   date: 2014-03-19 19:00
   end_Date: 2014-03-19 22:00
   directory_tags:
@@ -2930,6 +2929,7 @@
   - eventhandlernightclass-modernlayout
   filename: eventhandlernightclass-modernlayout2
   epoch_s_date: 1395255600
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-modernlayout/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Modern Layout'
   seriesconfdescription: An evening workshop dedicated to learning Modern CSS Layout
@@ -2973,7 +2973,6 @@
   lanyrd: http://lanyrd.com/2014/ldnjsnightclass-nextleveljs2/
   booking_link: http://ldnjsnightclass-nextleveljs2.eventbrite.com/
   blurb: An evening workshop dedicated to levelling up your JavaScript
-  time_zone: GMT
   date: 2014-03-19 19:00
   end_Date: 2014-03-19 22:00
   directory_tags:
@@ -2982,6 +2981,7 @@
   - ldnjsnightclass-nextleveljs
   filename: ldnjsnightclass-nextleveljs2
   epoch_s_date: 1395255600
+  time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-nextleveljs/
   seriesconfprettyname: ! 'London JS Night Classes: Next Level JS'
   seriesconfdescription: An evening workshop dedicated to levelling up your JavaScript
@@ -3042,7 +3042,6 @@
   lanyrd: http://lanyrd.com/2014/uxcldn14/
   booking_link: http://uxcamplondonspring2014.eventbrite.com/
   blurb: UX Learning & Discovery
-  time_zone: GMT
   date: 2014-03-22 09:30
   end_Date: 2014-03-22 18:30
   directory_tags:
@@ -3051,5 +3050,6 @@
   - uxcamp
   filename: uxcamp
   epoch_s_date: 1395480600
+  time_zone: GMT
   seriesconfpath: site/_data/events/meetups/uxcamp/
   url: /events

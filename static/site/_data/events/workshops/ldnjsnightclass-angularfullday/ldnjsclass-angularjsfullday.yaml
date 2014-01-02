@@ -10,6 +10,5 @@ lanyrdAPI: "http://lanyrd.com/2014/ldnjsclasses-angularjsfullday/speakers/3b7b37
 lanyrd: "http://lanyrd.com/2014/ldnjsclasses-angularjsfullday"
 booking_link: "http://ldnjsclasses-angularjsfullday.eventbrite.com/"
 blurb: Full-day AngularJS Workshop
-time_zone: GMT
 date: "2014-02-21 10:00"
 end_Date: "2014-02-21 18:00"

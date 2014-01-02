@@ -53,9 +53,25 @@ if file["date"]
 	if(file["end_date"])
 		file["epoch_s_end_date"] = time_to_epoch(file["end_date"]);
 	end
-	if(!file["time_zone"])
+	puts file["date"];
+	now = DateTime.parse(file["date"])
+	d = Date.new(now.year, 3, 31)
+	first_sunday = Date.new(now.year, 3, (31-d.wday)).strftime("%s").to_i;
+	puts "first"
+	puts first_sunday
+
+	e = Date.new(now.year, 10, 31)
+	last_sunday = Date.new(now.year, 10, (31-e.wday)).strftime("%s").to_i;
+	puts "last"
+	puts last_sunday
+
+	puts "middle"
+	if(file["epoch_s_date"].to_i >= first_sunday && file["epoch_s_date"].to_i <= last_sunday)
+		file["time_zone"] = "BST";
+	else 
 		file["time_zone"] = "GMT";
 	end
+	
 	if(file["series"])
 	paths = $substring_from;
 	file["directory_tags"].each{|x|
