@@ -2,7 +2,7 @@
 layout: workshoplistnoauth
 title: Events
 ---
-<h2> Workshops Listing </h2>
+<h2> Event Handler Workshops </h2>
  <ul id="eventslist">
   {% for events in site.data.events %}
     {% if events.directory_tags contains "workshops" %}
@@ -10,9 +10,10 @@ title: Events
       {%if zeds%}
       {%assign x = {{events.eventbriteid|isNotEmpty}} %}
       <li {%if x%}data-evb="{{events.eventbriteid}}"{%endif%} >
-          <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }} </a>
-          <div>{{events.date}}</div>
-          <div>
+          <a href="{{events.booking_link}}">{{ events.title }} </a>
+          <div class="eventdate">{{events.date}}</div>
+          <div class="speakername">
+            <span>Speaker: </span>
     	      {% for speaks in events.speakerID %}
     	      	{{site.data.speakers[speaks].name}}
     	      	{% if forloop.rindex0 > 0%}
@@ -20,13 +21,13 @@ title: Events
     	      	{%endif%}
     	      {%endfor%}
           </div>
-          <div>
+          <div class="eventvenue">
           	{%if events.where %}
           		{{site.data.venues[events.where].name}}
           	{%endif%}
           </div>
           {%if x%}
-          <div>Spaces remaining: 
+          <div class="eventspaces">Spaces remaining: 
           	<span id="{{events.eventbriteid}}">
           		<img src="/assets/img/tempspinnersmall.gif"></img>
           	</span>

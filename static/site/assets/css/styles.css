@@ -1,1 +1,55 @@
-.good .outerbar .innerbar{background-color:#98c429}.good .percentage{color:#98c429}.middle .outerbar .innerbar{background-color:#f8b230}.middle .percentage{color:#f8b230}.poor .outerbar .innerbar{background-color:#e40812}.poor .percentage{color:#e40812}.percentagebar{width:500px}.percentagebar .outerbar{float:left;margin:5px 10px 0 0;width:450px;background-color:#ebebeb;height:10px;border-radius:6px}.percentagebar .outerbar .innerbar{height:10px;border-radius:6px}
+* {
+  margin: 0;
+  padding: 0;
+}
+.site {
+  margin: 25px 0;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+h2 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+#eventslist {
+  width: 500px;
+  margin: 0 auto;
+}
+#eventslist li {
+  list-style-type: none;
+  margin: 30px 0;
+}
+.good .outerbar .innerbar {
+  background-color: #98c429;
+}
+.good .percentage {
+  color: #98c429;
+}
+.middle .outerbar .innerbar {
+  background-color: #f8b230;
+}
+.middle .percentage {
+  color: #f8b230;
+}
+.poor .outerbar .innerbar {
+  background-color: #e40812;
+}
+.poor .percentage {
+  color: #e40812;
+}
+.percentagebar {
+  width: 500px;
+}
+.percentagebar .outerbar {
+  float: left;
+  margin: 5px 10px 0px 0px;
+  width: 450px;
+  background-color: #ebebeb;
+  height: 10px;
+  border-radius: 6px;
+}
+.percentagebar .outerbar .innerbar {
+  height: 10px;
+  border-radius: 6px;
+}
