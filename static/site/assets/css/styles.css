@@ -16,9 +16,25 @@ h2 {
   width: 500px;
   margin: 0 auto;
 }
+#eventslist div {
+  margin-bottom: 10px;
+}
+#eventslist a {
+  color: #000000;
+  font-size: 16px;
+}
+#eventslist a :visited {
+  color: #000000;
+}
 #eventslist li {
   list-style-type: none;
   margin: 30px 0;
+}
+.eventdate {
+  margin-top: 10px;
+}
+.spacesremaining {
+  font-weight: bold;
 }
 .good .outerbar .innerbar {
   background-color: #98c429;

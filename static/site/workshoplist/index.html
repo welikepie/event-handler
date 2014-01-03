@@ -4,14 +4,25 @@ title: Events
 ---
 <h2> Event Handler Workshops </h2>
  <ul id="eventslist">
+
+  <!-- Fetches all events listed in the 'workshops' directory -->
+
   {% for events in site.data.events %}
     {% if events.directory_tags contains "workshops" %}
       {%assign zeds = {{events.epoch_s_date|afterToday}}%}
       {%if zeds%}
       {%assign x = {{events.eventbriteid|isNotEmpty}} %}
+
       <li {%if x%}data-evb="{{events.eventbriteid}}"{%endif%} >
+
           <a href="{{events.booking_link}}">{{ events.title }} </a>
-          <div class="eventdate">{{events.date}}</div>
+          <div class="eventdate">
+
+            <!-- Are Date & Time Part of the same thing?-->
+            <span>Date: </span>
+            {{events.date}} <!-- - {{events.end_Date}} -->
+
+          </div>
           <div class="speakername">
             <span>Speaker: </span>
     	      {% for speaks in events.speakerID %}
@@ -21,13 +32,16 @@ title: Events
     	      	{%endif%}
     	      {%endfor%}
           </div>
+
+          <!-- Event Venue does not seem to be coming in, ask Alex -->
           <div class="eventvenue">
+            <span>Venue: </span>
           	{%if events.where %}
           		{{site.data.venues[events.where].name}}
           	{%endif%}
           </div>
           {%if x%}
-          <div class="eventspaces">Spaces remaining: 
+          <div class="eventspaces"><span class="spacesremaining">Spaces remaining:</span>
           	<span id="{{events.eventbriteid}}">
           		<img src="/assets/img/tempspinnersmall.gif"></img>
           	</span>
