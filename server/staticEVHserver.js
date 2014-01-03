@@ -40,7 +40,7 @@ http.createServer(function(request, response){
       response.end();
          }
          if(path == "/speaker"){
-           if(wlpapiverify(request,
+           if(wlpapiverify(request,{},
            function(){
                 config.mysql.connection.query('SELECT `order`, UNIX_TIMESTAMP(date) as date, name, contactinfo, association, why, what, style, length, links, lanyrd, subjects, checkedout, comments from speakerform', function(err, rows, fields) {
                   if (err) throw err;
@@ -66,18 +66,38 @@ http.createServer(function(request, response){
         });
         request.on('end', function () {
             try{
-                if(request.headers["host"].toLowerCase().indexOf("localhost")==-1){
+                /*if(request.headers["host"].toLowerCase().indexOf("localhost")==-1){
                     response.writeHead(200, responseheader);
                     response.end(JSON.stringify({"status":"error","error":"Request does not originate from a website hosted on this server."}));
+                }*/
+                var served = JSON.parse(body);
+                console.log(body);
+                try{
+                    served = request.headers["content-type"].toLowerCase();
                 }
-                else if(stringcontainsarray(contenttypes,request.headers["content-type"].toLowerCase()) == false){
+                catch(e){
+                    for(var i in served){
+                        if(served.hasOwnProperty(i)){
+                            console.log(i);
+                            if(i.toLowerCase()=="content-type"){
+                                served = served[i];
+                            }
+                        }
+                    }
+                }
+                if(stringcontainsarray(contenttypes,served) == false){
                     response.writeHead(200, responseheader);
                     response.end(JSON.stringify({"status":"error","error":"Request does not have the correct content type specified."}));
                 }
                 console.log("Body: " + body);
-                if(contenttypes.indexOf(request.headers["content-type"].toLowerCase())==2){
+                console.log(served);
+                console.log(contenttypes.indexOf(served));
+                if(contenttypes.indexOf(served)==2){
+                    console.log("FORSOMEREASONQUERYSTRINGWAT?")
                     jsondata = queryString.parse(body);
                 }else{
+console.log("JSONPARSINGHERE");
+                    console.log(body);
                     jsondata = JSON.parse(body);
                 }
                 if(path=="/writetodb"){
@@ -85,7 +105,6 @@ http.createServer(function(request, response){
                     console.log(input);
                     writeToDb(jsondata,function(input){console.log(input);
                             response.end(input);
-                            //config.mysql.connection.end();
                         });
                 }
                 else if(path == "/writespeakerform"){
@@ -102,7 +121,7 @@ http.createServer(function(request, response){
                 }
                 else if(path == "/updatespeaker"){
                     response.writeHead(200,responseheader);
-                    if(wlpapiverify(request,function(){
+                    if(wlpapiverify(request,jsondata,function(){
                         updatespeaker(jsondata,function(input){console.log(input); response.end(input);});}
                     ) == false){
                          response.writeHead(403, responseheader);
@@ -113,7 +132,7 @@ http.createServer(function(request, response){
                 else if(path == "/getevbdata"){
                     console.log("GOTHERE");
                     response.writeHead(200,responseheader);
-                    if(wlpapiverify(request,function(){
+                    if(wlpapiverify(request,jsondata,function(){
                         console.log("stuff");
                         console.log(eventscontent);
                         if(eventscontent!=undefined){
@@ -137,6 +156,7 @@ http.createServer(function(request, response){
                 }
             }
             catch(e){
+                console.log(e.stack);
                 response.writeHead(200, responseheader);
                 response.end(JSON.stringify({"status":"error","error":JSON.stringify(e)}));
             }
@@ -310,24 +330,34 @@ function stringcontainsarray(array,string){
     return false;
 }
 
-function wlpapiverify(request,callback){
-     if(request.headers["X-WLPAPI"] !== undefined || request.headers["x-wlpapi"]!==undefined){
+function wlpapiverify(request,data,callback){
+    var d = {};
+    try{
+        d = JSON.parse(data);
+    }catch(e){
+        d = data;
+    }
+     if(request.headers["X-WLPAPI"] !== undefined || request.headers["x-wlpapi"]!==undefined || d.hasOwnProperty("nocors")){
             var headerval;
             if(request.headers["X-WLPAPI"] !== undefined){
                 headerval = request.headers["X-WLPAPI"];
-            }else{
+            }else if(request.headers["x-wlpapi"]!==undefined){
                 headerval = request.headers["x-wlpapi"];
+            }else if(d.hasOwnProperty("X-WLPAPI")){
+                headerval = d["X-WLPAPI"];
+            }else{
+                headerval = d["x-wlpapi"];
             }
             if(config.verify(headerval)==true){
                 callback();
             }else{
                 return false;
             }
-            }
-            else{
-                return false;
-            }
-
+    }
+     else{
+        console.log(data);
+        return false;
+    }
 }
 
 

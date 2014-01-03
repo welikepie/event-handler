@@ -1,41 +1,67 @@
 "use strict";
 window.onload = function(){
 var list = document.getElementById("eventslist").childNodes;
-console.log(list);
+//console.log(list);
 var lis = [];
 for(var elements in list){
 	if(list[elements].nodeName=="LI" && list[elements].getAttribute("data-evb")!=null){
-		console.log(list[elements].getAttribute("data-evb"));
+		//console.log(list[elements].getAttribute("data-evb"));
 		lis.push(list[elements].getAttribute("data-evb"));
 	}
 }
 
-console.log(lis);
+//console.log(lis);
 	var xmlhttp = new XMLHttpRequest();
-		xmlhttp.open('POST', 'http://localhost:2399/getevbdata', true);
-		xmlhttp.setRequestHeader('X-WLPAPI', '23458');
-		xmlhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+	if(typeof XDomainRequest!="undefined"){
+		//console.log("GOTCHA!");
+		xmlhttp = new XDomainRequest();
+		xmlhttp.onprogress = function() {};
+	}else{
+		//console.log("CORS not supported in this browser!");
+	}
+		xmlhttp.open('POST', 'http://dev.welikepie.com:2399/getevbdata', true);
+		if(typeof XDomainRequest=="undefined"){
+			xmlhttp.setRequestHeader('X-WLPAPI', '23458');
+			xmlhttp.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+		}
 		xmlhttp.onload = function () {
-		    var results = JSON.parse(this.responseText);
-		    console.log(results);
-		    if(results.test == false){
-		    	alert(results.data);
-		    }else{
-				var data = JSON.parse(results.data);
-				for(var id in data){
-					if(document.getElementById(id)!=null){
-						if(data[id]!="undefined"){
-							document.getElementById(id).innerHTML = data[id].spaceleft;
-							document.getElementById(id+"percentbar").setAttribute("data-percentage",data[id].percent);
-							createPercentBar(id+"percentbar");
-						}else{
-							document.getElementById(id).innerHTML = "No information could be retrieved for this event. Check eventbriteid.";
-						}
+				//console.log("WAT!");
+			
+			    var results = JSON.parse(this.responseText);
+			    //console.log(results);
+			    if(results.test == false){
+			    	alert(results.data);
+			    }else{
+			    	var data = {};
+			    	try{
+						data = JSON.parse(results.data);
+					}catch(e){
+						data = results.data;
+					}for(var id in data){
+						if(document.getElementById(id)!=null){
+							if(data[id]!="undefined"){
+								document.getElementById(id).innerHTML = data[id].spaceleft;
+								document.getElementById(id+"percentbar").setAttribute("data-percentage",data[id].percent);
+								createPercentBar(id+"percentbar");
+							}else{
+								document.getElementById(id).innerHTML = "No information could be retrieved for this event. Check eventbriteid.";
+							}
 					}
 				}
 			}
 		};
-		xmlhttp.send(JSON.stringify({"data":lis}));
+		var toSend = {};
+		if(typeof XDomainRequest!="undefined"){
+			toSend = {
+				"data":lis,
+				"X-WLPAPI":23458,
+				"nocors":true,
+				"Content-Type":"application/json;charset=UTF-8"
+			};
+		}else{
+			toSend = {"data":lis};
+		}
+		xmlhttp.send(JSON.stringify(toSend));
 }
 
 function createPercentBar(id){
