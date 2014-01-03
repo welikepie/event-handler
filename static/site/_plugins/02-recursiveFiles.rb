@@ -31,7 +31,9 @@ $pathArr << "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#
 end
 
 def open_file(path)
-if !"#{path}".include? "seriesconf.yaml"
+puts "#{path}".downcase
+if !"#{path}".downcase.include? "seriesconf.yaml"
+if !"#{path}".downcase.include? "ds_store"
 patharr = "#{path}"["#{path}".index($substring_from)+$substring_from.length,"#{path}".length]
 	if $path_to_data.length == 0
 		$path_to_data = "#{path}"[0,"#{path}".index($substring_from)+$substring_from.length];
@@ -79,6 +81,7 @@ if file["date"]
 	file["seriesconfpath"] = paths
 	end
 	$dateSortArr << file;
+end
 end
 end
 end
