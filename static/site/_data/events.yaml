@@ -1554,6 +1554,68 @@
 
     awesome Javascript news and technologies'
   url: /events/londonjs
+- speakerID: annadahlstrom
+  series: uxnightclass-uxdeliverables
+  eventbriteid: '7993975195'
+  venue: hubwestminster
+  title: Best Practice for UX Deliverables
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 22nd of October, Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom) will be holding an evening class on creating well presented
+    deliverables to communicate your work.</p><p>(image: uxforux.png class: full-width)</p><p>Whilst
+    the work we do is not meant to be hanged on a wall for people to admire, nor is
+    meant to be put in a drawer and forgotten about. Just as we make the products
+    and services we design easy to use, the UX of UX is about communicating your thinking
+    in a way that ensures that what you&#39;ve defined is easy to understand for the
+    reader. It&#39;s about adapting the work you do to the project in question and
+    finding the right balance of making people want to look through your work whilst
+    not spending unnecessary time on making it pretty.</p><h3>Who is it for?</h3><p>This
+    workshop is suitable for anyone starting out in UX, or who&#39;s worked with it
+    for a while but is looking to improve the way they present their work. </p><h3>Who
+    is it taught by?</h3><p>The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom), an Information Architecure and User Experience consultant.
+    Originally from Sweden, Anna lives and works in London. Having previously worked
+    for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances
+    part-time.</p><h3>What you&#39;ll learn</h3><p>In this hands on workshop we&#39;ll
+    walk through real life examples of why the UX of UX deliverables matter. We&#39;ll
+    cover how who the reader is effects the way we should present our work, both on
+    paper and verbally, and how to ensure that the work you do adds value. Coming
+    out of the workshop you&#39;ll have practical examples and hands on experience
+    with:</p><ul><li>How to adapt and sell your UX deliverable to the reader (from
+    clients, your team, in house and outsourced developers)</li><li>Guiding principles
+    for creating good UX deliverables (both low and high fidelity)</li><li>Best practice
+    for presentations, personas, user journeys, flows, sitemaps, wireframes and other
+    documents</li><li>Simple, low effort but big impact tools for improving the visual
+    presentation of your UX deliverables</li></ul><h3>Requirements</h3><ul><li>Please
+    bring your laptop</li></ul><h3>Refund Policy</h3><p>If you discover that you are
+    unable to attend the event you bought tickets for, we are happy to arrange a 100%
+    refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2013/uxnightclass-uxofux/speakers/c0d066262a5ac81d.v1.json
+  lanyrd: http://www.lanyrd.com/2013/uxnightclass-uxforux
+  booking_link: http://uxnightclass-uxdeliverables.eventbrite.com/
+  blurb: Best Practice for UX Deliverables
+  date: 2013-10-22 19:00
+  end_Date: 2013-10-22 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-uxdeliverables
+  filename: uxnightclass-uxdeliverables2
+  epoch_s_date: 1382464800
+  epoch_s_end_date: 1382475600
+  time_zone: BST
+  seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
+  seriesconfprettyname: Best Practice for UX Deliverables
+  seriesconfdescription: Best Practice for UX Deliverables
+  url: /workshops/uxnightclass-uxdeliverables
 - speakerID: evgeniagrinblo
   series: uxnightclass-usability
   eventbriteid: ''
@@ -2490,62 +2552,6 @@
   seriesconfprettyname: ! 'Eventhandler Night Classes: CSS Architecture'
   seriesconfdescription: CSS Architecture for Big Front-Ends
   url: /workshops/eventhandlernightclass-cssarchitecture
-- speakerID: evgeniagrinblo
-  series: uxnightclass-usability
-  eventbriteid: '9479853497'
-  venue: hubwestminster
-  title: Usability Testing How To's for Small Teams (& Little Budgets)
-  map: 80 Haymarket, London, SW1Y 4TE
-  cost: £60
-  text: ! '<p>On the 18th of February, (link: http://www.twitter.com/grinblo text:
-    Evgenia Grinblo) will be a night class on usability testing, showing you how to
-    test products reliably and cheaply.</p><p>(image: usability.png class: full-width)</p><h3>Who
-    is it for?</h3><p>This workshop is for those who want to create products that
-    will be easy to use. Usability testing is an important part of the process of
-    designing digital products, but it can often be overlooked due to time, money,
-    and training constraints. In this workshop you&#39;ll learn how to test any product&#39;s
-    usability without spending a large amount of time and money. And how to use what
-    you&#39;ve learned to improve the product. </p><h3>Who is it taught by?</h3><p>This
-    workshop is being taught by Evgenia Grinblo (link: http://www.twitter.com/grinblo
-    text: @grinblo), User Experience Specialist at mobile agency, (link: http://www.futureworkshops.com
-    text: Future Workshops). Born in Siberia, Jenny freelanced and trained in ethnographic
-    research in Israel and the USA, before bringing her talent to the UK. Her pet
-    peeve is badly written error-messages and she has a (link: http://errorwallofshame.tumblr.com/
-    text: growing collection of them). You&#39;ll find her (link: http://www.lanyrd.com/grinblo
-    text: speaking) on empathy, UX, and other passions.</p><h3>What you&#39;ll learn</h3><ul><li>An
-    introduction to usability testing - what is it?</li><li>Who should you test your
-    product on? </li><li>What do you test?</li><li>How to facilitate a test and get
-    reliable results</li><li>How to manage data and act on your findings with your
-    team</li><li>Tools: Cheap, quick and effective testing tools for mobile and the
-    web. </li></ul><h3>Requirements</h3><ul><li>Please bring a laptop or mobile device
-    on which to test a website or app</li></ul><h3>Refund Policy</h3><p>If you discover
-    that you are unable to attend the event you bought tickets for, we are happy to
-    arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
-    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
-    the event in question.</p><p>If you cannot attend the event you bought tickets
-    for but have a friend or coworker that you would like to go in your place, send
-    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
-    with your name and the name of the person you&#39;d like to transfer to the ticket
-    to. We will transfer your ticket as long as you notify us of this at least 24
-    hours before the event goes ahead.</p>'
-  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-usability3/speakers/8233f67417ae23e3.v1.json
-  lanyrd: http://www.lanyrd.com/2014/uxnightclass-usability3
-  booking_link: http://uxnightclass-usability3.eventbrite.com/
-  blurb: Cheap and effective usability testing
-  date: 2014-02-18 19:00
-  end_Date: 2014-02-18 22:00
-  directory_tags:
-  - events
-  - workshops
-  - uxnightclass-usability
-  filename: uxnightclass-usability3
-  epoch_s_date: 1392750000
-  epoch_s_end_date: 1392760800
-  time_zone: GMT
-  seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
-  seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
-  seriesconfdescription: Cheap and effective usability testing
-  url: /workshops/uxnightclass-usability
 - speakerID: kornellesinski
   series: eventhandlernightclass-advancedgit
   eventbriteid: '8775556927'
@@ -2604,6 +2610,62 @@
   seriesconfprettyname: ! 'Eventhandler Night Classes: Advanced Git'
   seriesconfdescription: Advanced Git
   url: /workshops/eventhandlernightclass-advancedgit
+- speakerID: evgeniagrinblo
+  series: uxnightclass-usability
+  eventbriteid: '9479853497'
+  venue: hubwestminster
+  title: Usability Testing How To's for Small Teams (& Little Budgets)
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 18th of February, (link: http://www.twitter.com/grinblo text:
+    Evgenia Grinblo) will be a night class on usability testing, showing you how to
+    test products reliably and cheaply.</p><p>(image: usability.png class: full-width)</p><h3>Who
+    is it for?</h3><p>This workshop is for those who want to create products that
+    will be easy to use. Usability testing is an important part of the process of
+    designing digital products, but it can often be overlooked due to time, money,
+    and training constraints. In this workshop you&#39;ll learn how to test any product&#39;s
+    usability without spending a large amount of time and money. And how to use what
+    you&#39;ve learned to improve the product. </p><h3>Who is it taught by?</h3><p>This
+    workshop is being taught by Evgenia Grinblo (link: http://www.twitter.com/grinblo
+    text: @grinblo), User Experience Specialist at mobile agency, (link: http://www.futureworkshops.com
+    text: Future Workshops). Born in Siberia, Jenny freelanced and trained in ethnographic
+    research in Israel and the USA, before bringing her talent to the UK. Her pet
+    peeve is badly written error-messages and she has a (link: http://errorwallofshame.tumblr.com/
+    text: growing collection of them). You&#39;ll find her (link: http://www.lanyrd.com/grinblo
+    text: speaking) on empathy, UX, and other passions.</p><h3>What you&#39;ll learn</h3><ul><li>An
+    introduction to usability testing - what is it?</li><li>Who should you test your
+    product on? </li><li>What do you test?</li><li>How to facilitate a test and get
+    reliable results</li><li>How to manage data and act on your findings with your
+    team</li><li>Tools: Cheap, quick and effective testing tools for mobile and the
+    web. </li></ul><h3>Requirements</h3><ul><li>Please bring a laptop or mobile device
+    on which to test a website or app</li></ul><h3>Refund Policy</h3><p>If you discover
+    that you are unable to attend the event you bought tickets for, we are happy to
+    arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-usability3/speakers/8233f67417ae23e3.v1.json
+  lanyrd: http://www.lanyrd.com/2014/uxnightclass-usability3
+  booking_link: http://uxnightclass-usability3.eventbrite.com/
+  blurb: Cheap and effective usability testing
+  date: 2014-02-18 19:00
+  end_Date: 2014-02-18 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-usability
+  filename: uxnightclass-usability3
+  epoch_s_date: 1392750000
+  epoch_s_end_date: 1392760800
+  time_zone: GMT
+  seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
+  seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
+  seriesconfdescription: Cheap and effective usability testing
+  url: /workshops/uxnightclass-usability
 - speakerID: patrickhamann
   series: eventhandlernightclass-webperformance
   eventbriteid: '9876892050'
@@ -2925,19 +2987,72 @@
   booking_link: http://uxnightclass-uxdeliverables2.eventbrite.com/
   blurb: Best Practice for UX Deliverables
   date: 2014-03-05 19:00
-  end_Date: 2013-03-05 22:00
+  end_Date: 2014-03-05 22:00
   directory_tags:
   - events
   - workshops
   - uxnightclass-uxdeliverables
   filename: uxnightclass-uxdeliverables3
   epoch_s_date: 1394046000
-  epoch_s_end_date: 1362520800
+  epoch_s_end_date: 1394056800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
   seriesconfprettyname: Best Practice for UX Deliverables
   seriesconfdescription: Best Practice for UX Deliverables
   url: /workshops/uxnightclass-uxdeliverables
+- speakerID: patrickhamann
+  series: eventhandlernightclass-webperformance
+  eventbriteid: '10001973171'
+  venue: hubwestminster
+  title: ! 'Building a faster web: How to optimise your website''s performance'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £50-60
+  text: ! '<p>On Tuesday the 11th of March, Patrick Hamann will be holding an evening
+    class on how to optimise your website&#39;s performance.</p><p>(image: webperformance.png
+    class: full-width)</p><h3>Who is it for?</h3><p>This workshop is for any designer
+    or developer wanting to improve the speed of their websites and have a greater
+    understanding of the browser&#39;s internals.</p><h3>What you&#39;ll learn</h3><p>In
+    one evening you will discover what the common performance bottlenecks are in the
+    browser from networking to painting and learn how to best optimise at each stage
+    of the critical path to create fast, jank free websites.</p><h3>Who is it taught
+    by?</h3><p>Patrick is a senior client-side developer at the (link: http://www.theguardian.com/view=mobile
+    text: Guardian) in London, where amongst other things, he is helping to engineer
+    the next generation of their web platform. When not (link: http://lanyrd.com/profile/patrickhamann/
+    text: speaking) or ranting about performance or CSS architecture on (link: http://twitter.com/patrickhamann
+    text: twitter) he enjoys spends his spare time discovering new food and craft
+    beer.</p><h3>What this workshop will cover</h3><ul><li>Why performance matters</li><li>Networking</li><li>Render
+    tree construction</li><li>Measuring performance using browser developer tools</li><li>Hardware
+    acceleration</li><li>Optimising load time</li><li>Optimising paint</li><li>Practice
+    on working examples</li><li>Testing and monitoring</li><li>Tips, tricks and best
+    practices</li><li>The future</li></ul><h3>Requirements</h3><p>Please bring your
+    laptop with your text editor and browser of choice installed.</p><h3>Refund Policy</h3><p>If
+    you discover that you are unable to attend the event you bought tickets for, we
+    are happy to arrange a 100% refund for you as long as you notify us at (email:
+    contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for
+    a refund, up to a month before the event in question.</p><p>If you cannot attend
+    the event you bought tickets for but have a friend or coworker that you would
+    like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-webperformance2/speakers/173a4a6693ee0b50.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ehnightclass-webperformance2
+  booking_link: http://ehnightclass-webperformance2.eventbrite.com/
+  blurb: Optimising Web Performance
+  date: 2014-03-11 19:00
+  end_Date: 2014-03-11 22:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-webperformance
+  filename: eventhandlernightclass-webperformance2
+  epoch_s_date: 1394564400
+  epoch_s_end_date: 1394575200
+  time_zone: GMT
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-webperformance/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Web Performance'
+  seriesconfdescription: Optimising Web Performance
+  url: /workshops/eventhandlernightclass-webperformance
 - speakerID: razvancaliman
   series: eventhandlernightclass-modernlayout
   eventbriteid: '9987164879'
@@ -3052,6 +3167,7 @@
   seriesconfdescription: An evening workshop dedicated to levelling up your JavaScript
   url: /workshops/ldnjsnightclass-nextleveljs
 - speakerID: ''
+  series: uxcamp
   eventbriteid: '9202377559'
   venue: centralfoundation
   title: UX Camp London - Spring 2014
@@ -3118,4 +3234,6 @@
   epoch_s_end_date: 1395513000
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/uxcamp/
-  url: /events
+  seriesconfprettyname: ! 'Eventhandler Meetups: UX Learning & Discovery'
+  seriesconfdescription: UX Learning & Discovery
+  url: /events/uxcamp

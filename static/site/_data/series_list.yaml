@@ -72,14 +72,14 @@
   url: /workshops/ldnjsnightclass-angular
   prettyname: ! 'London JS Night Classes: AngularJS'
   description: An evening workshop dedicated to learning AngularJS
-- series: uxnightclass-usability
-  url: /workshops/uxnightclass-usability
-  prettyname: Usability Testing How To's for Small Teams (& Little Budgets)
-  description: Cheap and effective usability testing
 - series: uxnightclass-uxdeliverables
   url: /workshops/uxnightclass-uxdeliverables
   prettyname: Best Practice for UX Deliverables
   description: Best Practice for UX Deliverables
+- series: uxnightclass-usability
+  url: /workshops/uxnightclass-usability
+  prettyname: Usability Testing How To's for Small Teams (& Little Budgets)
+  description: Cheap and effective usability testing
 - series: eventhandlernightclass-introtogit
   url: /workshops/eventhandlernightclass-introtogit
   prettyname: ! 'Eventhandler Night Classes: Introduction to Git'
@@ -128,3 +128,7 @@
   url: /workshops/uxnightclass-sellingucd
   prettyname: ! 'Selling UCD: How to get buy in from clients'
   description: Selling UCD with Anna Dahlstrom
+- series: uxcamp
+  url: /events/uxcamp
+  prettyname: ! 'Eventhandler Meetups: UX Learning & Discovery'
+  description: UX Learning & Discovery

@@ -1891,6 +1891,193 @@ ldnjsnightclass-angular:
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
   seriesconfdescription: An evening workshop dedicated to learning AngularJS
   url: /workshops/ldnjsnightclass-angular
+uxnightclass-uxdeliverables:
+- speakerID: annadahlstrom
+  series: uxnightclass-uxdeliverables
+  eventbriteid: '7993975195'
+  venue: hubwestminster
+  title: Best Practice for UX Deliverables
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 22nd of October, Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom) will be holding an evening class on creating well presented
+    deliverables to communicate your work.</p><p>(image: uxforux.png class: full-width)</p><p>Whilst
+    the work we do is not meant to be hanged on a wall for people to admire, nor is
+    meant to be put in a drawer and forgotten about. Just as we make the products
+    and services we design easy to use, the UX of UX is about communicating your thinking
+    in a way that ensures that what you&#39;ve defined is easy to understand for the
+    reader. It&#39;s about adapting the work you do to the project in question and
+    finding the right balance of making people want to look through your work whilst
+    not spending unnecessary time on making it pretty.</p><h3>Who is it for?</h3><p>This
+    workshop is suitable for anyone starting out in UX, or who&#39;s worked with it
+    for a while but is looking to improve the way they present their work. </p><h3>Who
+    is it taught by?</h3><p>The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom), an Information Architecure and User Experience consultant.
+    Originally from Sweden, Anna lives and works in London. Having previously worked
+    for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances
+    part-time.</p><h3>What you&#39;ll learn</h3><p>In this hands on workshop we&#39;ll
+    walk through real life examples of why the UX of UX deliverables matter. We&#39;ll
+    cover how who the reader is effects the way we should present our work, both on
+    paper and verbally, and how to ensure that the work you do adds value. Coming
+    out of the workshop you&#39;ll have practical examples and hands on experience
+    with:</p><ul><li>How to adapt and sell your UX deliverable to the reader (from
+    clients, your team, in house and outsourced developers)</li><li>Guiding principles
+    for creating good UX deliverables (both low and high fidelity)</li><li>Best practice
+    for presentations, personas, user journeys, flows, sitemaps, wireframes and other
+    documents</li><li>Simple, low effort but big impact tools for improving the visual
+    presentation of your UX deliverables</li></ul><h3>Requirements</h3><ul><li>Please
+    bring your laptop</li></ul><h3>Refund Policy</h3><p>If you discover that you are
+    unable to attend the event you bought tickets for, we are happy to arrange a 100%
+    refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2013/uxnightclass-uxofux/speakers/c0d066262a5ac81d.v1.json
+  lanyrd: http://www.lanyrd.com/2013/uxnightclass-uxforux
+  booking_link: http://uxnightclass-uxdeliverables.eventbrite.com/
+  blurb: Best Practice for UX Deliverables
+  date: 2013-10-22 19:00
+  end_Date: 2013-10-22 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-uxdeliverables
+  filename: uxnightclass-uxdeliverables2
+  epoch_s_date: 1382464800
+  epoch_s_end_date: 1382475600
+  time_zone: BST
+  seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
+  seriesconfprettyname: Best Practice for UX Deliverables
+  seriesconfdescription: Best Practice for UX Deliverables
+  url: /workshops/uxnightclass-uxdeliverables
+- speakerID: annadahlstrom
+  series: uxnightclass-uxdeliverables
+  eventbriteid: '9475727155'
+  venue: hubwestminster
+  title: Best Practice for UX Deliverables
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On Tuesday the 28th of January, Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom) will be holding an evening class on creating well presented
+    deliverables to communicate your work.</p><p>(image: uxforux.png class: full-width)</p><p>Whilst
+    the work we do is not meant to be hanged on a wall for people to admire, nor is
+    meant to be put in a drawer and forgotten about. Just as we make the products
+    and services we design easy to use, the UX of UX is about communicating your thinking
+    in a way that ensures that what you&#39;ve defined is easy to understand for the
+    reader. It&#39;s about adapting the work you do to the project in question and
+    finding the right balance of making people want to look through your work whilst
+    not spending unnecessary time on making it pretty.</p><h3>Who is it for?</h3><p>This
+    workshop is suitable for anyone starting out in UX, or who&#39;s worked with it
+    for a while but is looking to improve the way they present their work. </p><h3>Who
+    is it taught by?</h3><p>The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom), an Information Architecure and User Experience consultant.
+    Originally from Sweden, Anna lives and works in London. Having previously worked
+    for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances
+    part-time.</p><h3>What you&#39;ll learn</h3><p>In this hands on workshop we&#39;ll
+    walk through real life examples of why the UX of UX deliverables matter. We&#39;ll
+    cover how who the reader is effects the way we should present our work, both on
+    paper and verbally, and how to ensure that the work you do adds value. Coming
+    out of the workshop you&#39;ll have practical examples and hands on experience
+    with:</p><ul><li>How to adapt and sell your UX deliverable to the reader (from
+    clients, your team, in house and outsourced developers)</li><li>Guiding principles
+    for creating good UX deliverables (both low and high fidelity)</li><li>Best practice
+    for presentations, personas, user journeys, flows, sitemaps, wireframes and other
+    documents</li><li>Simple, low effort but big impact tools for improving the visual
+    presentation of your UX deliverables</li></ul><h3>Requirements</h3><ul><li>Please
+    bring your laptop</li></ul><h3>Refund Policy</h3><p>If you discover that you are
+    unable to attend the event you bought tickets for, we are happy to arrange a 100%
+    refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-uxdeliverables2/speakers/df72083b7c6b6956.v1.json
+  lanyrd: http://www.lanyrd.com/2014/uxnightclass-uxdeliverables2
+  booking_link: http://uxnightclass-uxdeliverables2.eventbrite.com/
+  blurb: Best Practice for UX Deliverables
+  date: 2014-01-28 19:00
+  end_Date: 2013-01-28 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-uxdeliverables
+  filename: uxnightclass-uxdeliverables
+  epoch_s_date: 1390935600
+  epoch_s_end_date: 1359410400
+  time_zone: GMT
+  seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
+  seriesconfprettyname: Best Practice for UX Deliverables
+  seriesconfdescription: Best Practice for UX Deliverables
+  url: /workshops/uxnightclass-uxdeliverables
+- speakerID: annadahlstrom
+  series: uxnightclass-uxdeliverables
+  eventbriteid: '10000992237'
+  venue: hubwestminster
+  title: Best Practice for UX Deliverables
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £60
+  text: ! '<p>On the 5th of March, Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom) will be holding an evening class on creating well presented
+    deliverables to communicate your work.</p><p>(image: uxforux.png class: full-width)</p><p>Whilst
+    the work we do is not meant to be hanged on a wall for people to admire, nor is
+    meant to be put in a drawer and forgotten about. Just as we make the products
+    and services we design easy to use, the UX of UX is about communicating your thinking
+    in a way that ensures that what you&#39;ve defined is easy to understand for the
+    reader. It&#39;s about adapting the work you do to the project in question and
+    finding the right balance of making people want to look through your work whilst
+    not spending unnecessary time on making it pretty.</p><h3>Who is it for?</h3><p>This
+    workshop is suitable for anyone starting out in UX, or who&#39;s worked with it
+    for a while but is looking to improve the way they present their work. </p><h3>Who
+    is it taught by?</h3><p>The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom
+    text: @annadahlstrom), an Information Architecure and User Experience consultant.
+    Originally from Sweden, Anna lives and works in London. Having previously worked
+    for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances
+    part-time.</p><h3>What you&#39;ll learn</h3><p>In this hands on workshop we&#39;ll
+    walk through real life examples of why the UX of UX deliverables matter. We&#39;ll
+    cover how who the reader is effects the way we should present our work, both on
+    paper and verbally, and how to ensure that the work you do adds value. Coming
+    out of the workshop you&#39;ll have practical examples and hands on experience
+    with:</p><ul><li>How to adapt and sell your UX deliverable to the reader (from
+    clients, your team, in house and outsourced developers)</li><li>Guiding principles
+    for creating good UX deliverables (both low and high fidelity)</li><li>Best practice
+    for presentations, personas, user journeys, flows, sitemaps, wireframes and other
+    documents</li><li>Simple, low effort but big impact tools for improving the visual
+    presentation of your UX deliverables</li></ul><h3>Requirements</h3><ul><li>Please
+    bring your laptop</li></ul><h3>Refund Policy</h3><p>If you discover that you are
+    unable to attend the event you bought tickets for, we are happy to arrange a 100%
+    refund for you as long as you notify us at (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
+    the event in question.</p><p>If you cannot attend the event you bought tickets
+    for but have a friend or coworker that you would like to go in your place, send
+    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
+    with your name and the name of the person you&#39;d like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-uxdeliverables2/speakers/df72083b7c6b6956.v1.json
+  lanyrd: http://www.lanyrd.com/2014/uxnightclass-uxdeliverables2
+  booking_link: http://uxnightclass-uxdeliverables2.eventbrite.com/
+  blurb: Best Practice for UX Deliverables
+  date: 2014-03-05 19:00
+  end_Date: 2014-03-05 22:00
+  directory_tags:
+  - events
+  - workshops
+  - uxnightclass-uxdeliverables
+  filename: uxnightclass-uxdeliverables3
+  epoch_s_date: 1394046000
+  epoch_s_end_date: 1394056800
+  time_zone: GMT
+  seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
+  seriesconfprettyname: Best Practice for UX Deliverables
+  seriesconfdescription: Best Practice for UX Deliverables
+  url: /workshops/uxnightclass-uxdeliverables
 uxnightclass-usability:
 - speakerID: evgeniagrinblo
   series: uxnightclass-usability
@@ -2061,131 +2248,6 @@ uxnightclass-usability:
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
   seriesconfdescription: Cheap and effective usability testing
   url: /workshops/uxnightclass-usability
-uxnightclass-uxdeliverables:
-- speakerID: annadahlstrom
-  series: uxnightclass-uxdeliverables
-  eventbriteid: '9475727155'
-  venue: hubwestminster
-  title: Best Practice for UX Deliverables
-  map: 80 Haymarket, London, SW1Y 4TE
-  cost: £60
-  text: ! '<p>On Tuesday the 28th of January, Anna Dahlström (link: http://www.twitter.com/annadahlstrom
-    text: @annadahlstrom) will be holding an evening class on creating well presented
-    deliverables to communicate your work.</p><p>(image: uxforux.png class: full-width)</p><p>Whilst
-    the work we do is not meant to be hanged on a wall for people to admire, nor is
-    meant to be put in a drawer and forgotten about. Just as we make the products
-    and services we design easy to use, the UX of UX is about communicating your thinking
-    in a way that ensures that what you&#39;ve defined is easy to understand for the
-    reader. It&#39;s about adapting the work you do to the project in question and
-    finding the right balance of making people want to look through your work whilst
-    not spending unnecessary time on making it pretty.</p><h3>Who is it for?</h3><p>This
-    workshop is suitable for anyone starting out in UX, or who&#39;s worked with it
-    for a while but is looking to improve the way they present their work. </p><h3>Who
-    is it taught by?</h3><p>The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom
-    text: @annadahlstrom), an Information Architecure and User Experience consultant.
-    Originally from Sweden, Anna lives and works in London. Having previously worked
-    for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances
-    part-time.</p><h3>What you&#39;ll learn</h3><p>In this hands on workshop we&#39;ll
-    walk through real life examples of why the UX of UX deliverables matter. We&#39;ll
-    cover how who the reader is effects the way we should present our work, both on
-    paper and verbally, and how to ensure that the work you do adds value. Coming
-    out of the workshop you&#39;ll have practical examples and hands on experience
-    with:</p><ul><li>How to adapt and sell your UX deliverable to the reader (from
-    clients, your team, in house and outsourced developers)</li><li>Guiding principles
-    for creating good UX deliverables (both low and high fidelity)</li><li>Best practice
-    for presentations, personas, user journeys, flows, sitemaps, wireframes and other
-    documents</li><li>Simple, low effort but big impact tools for improving the visual
-    presentation of your UX deliverables</li></ul><h3>Requirements</h3><ul><li>Please
-    bring your laptop</li></ul><h3>Refund Policy</h3><p>If you discover that you are
-    unable to attend the event you bought tickets for, we are happy to arrange a 100%
-    refund for you as long as you notify us at (email: contact@eventhandler.co.uk
-    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
-    the event in question.</p><p>If you cannot attend the event you bought tickets
-    for but have a friend or coworker that you would like to go in your place, send
-    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
-    with your name and the name of the person you&#39;d like to transfer to the ticket
-    to. We will transfer your ticket as long as you notify us of this at least 24
-    hours before the event goes ahead.</p>'
-  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-uxdeliverables2/speakers/df72083b7c6b6956.v1.json
-  lanyrd: http://www.lanyrd.com/2014/uxnightclass-uxdeliverables2
-  booking_link: http://uxnightclass-uxdeliverables2.eventbrite.com/
-  blurb: Best Practice for UX Deliverables
-  date: 2014-01-28 19:00
-  end_Date: 2013-01-28 22:00
-  directory_tags:
-  - events
-  - workshops
-  - uxnightclass-uxdeliverables
-  filename: uxnightclass-uxdeliverables
-  epoch_s_date: 1390935600
-  epoch_s_end_date: 1359410400
-  time_zone: GMT
-  seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
-  seriesconfprettyname: Best Practice for UX Deliverables
-  seriesconfdescription: Best Practice for UX Deliverables
-  url: /workshops/uxnightclass-uxdeliverables
-- speakerID: annadahlstrom
-  series: uxnightclass-uxdeliverables
-  eventbriteid: '10000992237'
-  venue: hubwestminster
-  title: Best Practice for UX Deliverables
-  map: 80 Haymarket, London, SW1Y 4TE
-  cost: £60
-  text: ! '<p>On the 5th of March, Anna Dahlström (link: http://www.twitter.com/annadahlstrom
-    text: @annadahlstrom) will be holding an evening class on creating well presented
-    deliverables to communicate your work.</p><p>(image: uxforux.png class: full-width)</p><p>Whilst
-    the work we do is not meant to be hanged on a wall for people to admire, nor is
-    meant to be put in a drawer and forgotten about. Just as we make the products
-    and services we design easy to use, the UX of UX is about communicating your thinking
-    in a way that ensures that what you&#39;ve defined is easy to understand for the
-    reader. It&#39;s about adapting the work you do to the project in question and
-    finding the right balance of making people want to look through your work whilst
-    not spending unnecessary time on making it pretty.</p><h3>Who is it for?</h3><p>This
-    workshop is suitable for anyone starting out in UX, or who&#39;s worked with it
-    for a while but is looking to improve the way they present their work. </p><h3>Who
-    is it taught by?</h3><p>The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom
-    text: @annadahlstrom), an Information Architecure and User Experience consultant.
-    Originally from Sweden, Anna lives and works in London. Having previously worked
-    for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances
-    part-time.</p><h3>What you&#39;ll learn</h3><p>In this hands on workshop we&#39;ll
-    walk through real life examples of why the UX of UX deliverables matter. We&#39;ll
-    cover how who the reader is effects the way we should present our work, both on
-    paper and verbally, and how to ensure that the work you do adds value. Coming
-    out of the workshop you&#39;ll have practical examples and hands on experience
-    with:</p><ul><li>How to adapt and sell your UX deliverable to the reader (from
-    clients, your team, in house and outsourced developers)</li><li>Guiding principles
-    for creating good UX deliverables (both low and high fidelity)</li><li>Best practice
-    for presentations, personas, user journeys, flows, sitemaps, wireframes and other
-    documents</li><li>Simple, low effort but big impact tools for improving the visual
-    presentation of your UX deliverables</li></ul><h3>Requirements</h3><ul><li>Please
-    bring your laptop</li></ul><h3>Refund Policy</h3><p>If you discover that you are
-    unable to attend the event you bought tickets for, we are happy to arrange a 100%
-    refund for you as long as you notify us at (email: contact@eventhandler.co.uk
-    text: contact@eventhandler.co.uk) of your need for a refund, up to a month before
-    the event in question.</p><p>If you cannot attend the event you bought tickets
-    for but have a friend or coworker that you would like to go in your place, send
-    an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
-    with your name and the name of the person you&#39;d like to transfer to the ticket
-    to. We will transfer your ticket as long as you notify us of this at least 24
-    hours before the event goes ahead.</p>'
-  lanyrdAPI: http://lanyrd.com/2014/uxnightclass-uxdeliverables2/speakers/df72083b7c6b6956.v1.json
-  lanyrd: http://www.lanyrd.com/2014/uxnightclass-uxdeliverables2
-  booking_link: http://uxnightclass-uxdeliverables2.eventbrite.com/
-  blurb: Best Practice for UX Deliverables
-  date: 2014-03-05 19:00
-  end_Date: 2013-03-05 22:00
-  directory_tags:
-  - events
-  - workshops
-  - uxnightclass-uxdeliverables
-  filename: uxnightclass-uxdeliverables3
-  epoch_s_date: 1394046000
-  epoch_s_end_date: 1362520800
-  time_zone: GMT
-  seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
-  seriesconfprettyname: Best Practice for UX Deliverables
-  seriesconfdescription: Best Practice for UX Deliverables
-  url: /workshops/uxnightclass-uxdeliverables
 eventhandlernightclass-introtogit:
 - speakerID: kornellesinski
   series: eventhandlernightclass-introtogit
@@ -2807,6 +2869,59 @@ eventhandlernightclass-webperformance:
   seriesconfprettyname: ! 'Eventhandler Night Classes: Web Performance'
   seriesconfdescription: Optimising Web Performance
   url: /workshops/eventhandlernightclass-webperformance
+- speakerID: patrickhamann
+  series: eventhandlernightclass-webperformance
+  eventbriteid: '10001973171'
+  venue: hubwestminster
+  title: ! 'Building a faster web: How to optimise your website''s performance'
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: £50-60
+  text: ! '<p>On Tuesday the 11th of March, Patrick Hamann will be holding an evening
+    class on how to optimise your website&#39;s performance.</p><p>(image: webperformance.png
+    class: full-width)</p><h3>Who is it for?</h3><p>This workshop is for any designer
+    or developer wanting to improve the speed of their websites and have a greater
+    understanding of the browser&#39;s internals.</p><h3>What you&#39;ll learn</h3><p>In
+    one evening you will discover what the common performance bottlenecks are in the
+    browser from networking to painting and learn how to best optimise at each stage
+    of the critical path to create fast, jank free websites.</p><h3>Who is it taught
+    by?</h3><p>Patrick is a senior client-side developer at the (link: http://www.theguardian.com/view=mobile
+    text: Guardian) in London, where amongst other things, he is helping to engineer
+    the next generation of their web platform. When not (link: http://lanyrd.com/profile/patrickhamann/
+    text: speaking) or ranting about performance or CSS architecture on (link: http://twitter.com/patrickhamann
+    text: twitter) he enjoys spends his spare time discovering new food and craft
+    beer.</p><h3>What this workshop will cover</h3><ul><li>Why performance matters</li><li>Networking</li><li>Render
+    tree construction</li><li>Measuring performance using browser developer tools</li><li>Hardware
+    acceleration</li><li>Optimising load time</li><li>Optimising paint</li><li>Practice
+    on working examples</li><li>Testing and monitoring</li><li>Tips, tricks and best
+    practices</li><li>The future</li></ul><h3>Requirements</h3><p>Please bring your
+    laptop with your text editor and browser of choice installed.</p><h3>Refund Policy</h3><p>If
+    you discover that you are unable to attend the event you bought tickets for, we
+    are happy to arrange a 100% refund for you as long as you notify us at (email:
+    contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for
+    a refund, up to a month before the event in question.</p><p>If you cannot attend
+    the event you bought tickets for but have a friend or coworker that you would
+    like to go in your place, send an email to (email: contact@eventhandler.co.uk
+    text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
+    like to transfer to the ticket to. We will transfer your ticket as long as you
+    notify us of this at least 24 hours before the event goes ahead.</p>'
+  lanyrdAPI: http://lanyrd.com/2014/ehnightclass-webperformance2/speakers/173a4a6693ee0b50.v1.json
+  lanyrd: http://www.lanyrd.com/2014/ehnightclass-webperformance2
+  booking_link: http://ehnightclass-webperformance2.eventbrite.com/
+  blurb: Optimising Web Performance
+  date: 2014-03-11 19:00
+  end_Date: 2014-03-11 22:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandlernightclass-webperformance
+  filename: eventhandlernightclass-webperformance2
+  epoch_s_date: 1394564400
+  epoch_s_end_date: 1394575200
+  time_zone: GMT
+  seriesconfpath: site/_data/events/workshops/eventhandlernightclass-webperformance/
+  seriesconfprettyname: ! 'Eventhandler Night Classes: Web Performance'
+  seriesconfdescription: Optimising Web Performance
+  url: /workshops/eventhandlernightclass-webperformance
 ldnjsnightclass-angularfullday:
 - speakerID: timruffles
   series: ldnjsnightclass-angularfullday
@@ -2976,3 +3091,75 @@ uxnightclass-sellingucd:
   seriesconfprettyname: ! 'Selling UCD: How to get buy in from clients'
   seriesconfdescription: Selling UCD with Anna Dahlstrom
   url: /workshops/uxnightclass-sellingucd
+uxcamp:
+- speakerID: ''
+  series: uxcamp
+  eventbriteid: '9202377559'
+  venue: centralfoundation
+  title: UX Camp London - Spring 2014
+  map: Central Foundation Boys School, Cowper Street, London, EC2A 4SH
+  cost: £10
+  text: ! '<p>Traditionally, UX Camp London is a once-a-year affair. But after this
+    years event, we found it so awesome that we couldn&#39;t bare to wait a whole
+    year for the next one. <strong>We&#39;ve decided to do UX Camp twice a year!</strong>
+    Join us for our spring edition in early 2014.</p><p>(image: uxcamp.png class:
+    full-width)</p><p>UX Camp London is a BarCamp focused on exploring user experience,
+    where we come together to share ideas, get inspired and develop our skills. It
+    boasts an eclectic mix of talks and discussions from seasoned UX’ers and novices
+    alike; for anyone interested in user experience design, information architecture,
+    usability and more. There are no set talks, nor any product pitches; the content
+    of the day is shaped by all those who attend, anyone can hold a talk or host a
+    discussion.</p><p>We want to make sure everyone has a chance of getting a ticket,
+    so we&#39;re releasing them in batches over the coming weeks. - Batch One: Weds
+    13th November- Batch Two: Weds 20th November- Batch Three: Weds 27th November</p><h2>What
+    is a BarCamp?</h2><p>Unlike a traditional conference, a BarCamp is an event which
+    is shaped by the attendees. Rather than having a day of scheduled speakers, you
+    are given the opportunity to present yourself. The goal is to share what you know,
+    learn from others and ignite discussion.</p><p>You create the schedule: at the
+    start of the day anyone who wants to has the opportunity to sign up for a speaking
+    slot. What you want to talk about is up to you! Previous sessions have been anything
+    from “Live Wireframing” and “From post-its to personas” to “Visual Note Taking”
+    and “A Hitchhikers guide to Gamification”.</p><h2>Who is it for?</h2><p>(image:
+    whatis.png class: full-width)</p><p>UX Camp London is for anyone at all who is
+    interested in User Experience.UX Camp has been host to a broad selection of attendees
+    including seasoned UX practitioners who want to connect with other members of
+    the field and trade ideas, designers and developers who want to learn more about
+    another aspect of creating great products and services &amp; students who want
+    to be more involved in the community and develop their skills.</p><h2>How can
+    you get involved?</h2><p>BarCamps are a community effort and there are ways in
+    which you can get yourself involved with UX Camp London. Apart from signing up
+    to do a talk or encouraging others to do so, you can help us with the following.</p><h3>Sponsorship</h3><p>UX
+    Camp London is a non-profit event, run by volunteers who give their time to organise
+    the event and run it on the day. By providing the event with sponsorship you will
+    help contribute to the costs of venue hire and any miscellaneous costs such as
+    materials to present the talks (pens, paper, whiteboards).</p><p>If you choose
+    to sponsor UX Camp, your brand will be exposed to the leading members of the industry.
+    You will feature prominently in front of our delegates as well as being promoted
+    to a wider audience in all of our conference material including the UX Camp London
+    website, EventBrite &amp; Lanyrd page, posters at the event, all email correspondence
+    between us and attendees and tweets from the (link: http://www.twitter.com/uxcamplondon
+    text: @uxcamplondon) account.</p><p>If you&#39;re interested in sponsoring UX
+    Camp London, get in touch with us at (email: contact@eventhandler.co.uk text:
+    contact@eventhandler.co.uk)</p><h3>Volunteering</h3><p>UX Camp London has always
+    been a volunteer run event. We need people to help us make sure everything runs
+    smoothly; from set-up and take down to directing people to the right rooms. If
+    you think you can volunteer some of your time to help, please email us at: (email:
+    contact@eventhandler.co.uk text: contact@eventhandler.co.uk)</p>'
+  lanyrdAPI: http://lanyrd.com/2014/uxcldnspring14/speakers/44d4bfceda23ec74.v1.json
+  lanyrd: http://lanyrd.com/2014/uxcldn14/
+  booking_link: http://uxcamplondonspring2014.eventbrite.com/
+  blurb: UX Learning & Discovery
+  date: 2014-03-22 09:30
+  end_Date: 2014-03-22 18:30
+  directory_tags:
+  - events
+  - meetups
+  - uxcamp
+  filename: uxcamp
+  epoch_s_date: 1395480600
+  epoch_s_end_date: 1395513000
+  time_zone: GMT
+  seriesconfpath: site/_data/events/meetups/uxcamp/
+  seriesconfprettyname: ! 'Eventhandler Meetups: UX Learning & Discovery'
+  seriesconfdescription: UX Learning & Discovery
+  url: /events/uxcamp
