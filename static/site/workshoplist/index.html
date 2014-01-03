@@ -25,12 +25,11 @@ title: Events
           </div>
           <div class="speakername">
             <span>Speaker: </span>
-    	      {% for speaks in events.speakerID %}
-    	      	{{site.data.speakers[speaks].name}}
-    	      	{% if forloop.rindex0 > 0%}
-    		      	,
-    	      	{%endif%}
-    	      {%endfor%}
+              {%if events.epoch_s_end_date%}
+                {{events.epoch_s_date | prettyDate : events.epoch_s_end_date}}
+              {%else%}
+                {{events.epoch_s_date | prettyDate : "null"}}
+              {%endif%}
           </div>
 
           <!-- Event Venue does not seem to be coming in, ask Alex -->
