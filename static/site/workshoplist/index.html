@@ -13,15 +13,18 @@ title: Events
       <li {%if x%}data-evb="{{events.eventbriteid}}"{%endif%} >
 
           <a href="{{events.booking_link}}">{{ events.title }} </a>
-          <div class="eventdate">
-              {%if events.epoch_s_end_date%}
-                {{events.epoch_s_date | prettyDate : events.epoch_s_end_date}}
-              {%else%}
-                {{events.epoch_s_date | prettyDate : "null"}}
-              {%endif%}
-          </div>
-          <div class="speakername">
+
+          <div class="speaker">
             <span>Speaker: </span>
+              {% for speaks in events.speakerID %}
+              {{site.data.speakers[speaks].name}}
+              {% if forloop.rindex0 > 0%}
+              {%endif%}
+            {%endfor%}
+          </div>
+
+          <div class="eventdate">
+            <span>Date &amp; Time: </span>
               {%if events.epoch_s_end_date%}
                 {{events.epoch_s_date | prettyDate : events.epoch_s_end_date}}
               {%else%}
@@ -30,12 +33,12 @@ title: Events
           </div>
 
           <!-- Event Venue does not seem to be coming in, ask Alex -->
+          {%if events.venue %}
           <div class="eventvenue">
             <span>Venue: </span>
-          	{%if events.where %}
-          		{{site.data.venues[events.where].name}}
-          	{%endif%}
+          		{{site.data.venues[events.venue].name}}
           </div>
+          {%endif%}
           {%if x%}
           <div class="eventspaces"><span class="spacesremaining">Spaces remaining:</span>
           	<span id="{{events.eventbriteid}}">
