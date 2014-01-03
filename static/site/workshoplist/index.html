@@ -4,9 +4,6 @@ title: Events
 ---
 <h2> Event Handler Workshops </h2>
  <ul id="eventslist">
-
-  <!-- Fetches all events listed in the 'workshops' directory -->
-
   {% for events in site.data.events %}
     {% if events.directory_tags contains "workshops" %}
       {%assign zeds = {{events.epoch_s_date|afterToday}}%}
@@ -17,11 +14,11 @@ title: Events
 
           <a href="{{events.booking_link}}">{{ events.title }} </a>
           <div class="eventdate">
-
-            <!-- Are Date & Time Part of the same thing?-->
-            <span>Date: </span>
-            {{events.date}} <!-- - {{events.end_Date}} -->
-
+              {%if events.epoch_s_end_date%}
+                {{events.epoch_s_date | prettyDate : events.epoch_s_end_date}}
+              {%else%}
+                {{events.epoch_s_date | prettyDate : "null"}}
+              {%endif%}
           </div>
           <div class="speakername">
             <span>Speaker: </span>

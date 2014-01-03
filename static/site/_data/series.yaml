@@ -22,6 +22,7 @@ geeky:
   - geeky
   filename: geeky
   epoch_s_date: 1337016600
+  epoch_s_end_date: 1337025600
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
@@ -50,6 +51,7 @@ geeky:
   - geeky
   filename: geeky-august
   epoch_s_date: 1346175000
+  epoch_s_end_date: 1346184000
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
@@ -78,6 +80,7 @@ geeky:
   - geeky
   filename: geeky-october
   epoch_s_date: 1351013400
+  epoch_s_end_date: 1351022400
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
@@ -145,6 +148,7 @@ geeky:
   - geeky
   filename: geeky-april
   epoch_s_date: 1366738200
+  epoch_s_end_date: 1366747200
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
@@ -185,6 +189,7 @@ geeky:
   - geeky
   filename: geeky-june
   epoch_s_date: 1372095000
+  epoch_s_end_date: 1372104000
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/geeky/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky'
@@ -217,6 +222,7 @@ londonjs-schooltrip:
   - londonjs-schooltrip
   filename: londonjs-schooltrip
   epoch_s_date: 1341046800
+  epoch_s_end_date: 1341079200
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs-schooltrip/
   seriesconfprettyname: ! 'Eventhandler Meetups: LondonJS School Trip'
@@ -248,6 +254,7 @@ londonjs:
   - londonjs
   filename: londonjs-13
   epoch_s_date: 1345485600
+  epoch_s_end_date: 1345496400
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -281,6 +288,7 @@ londonjs:
   - londonjs
   filename: londonjs-14
   epoch_s_date: 1347904800
+  epoch_s_end_date: 1347912000
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -314,6 +322,7 @@ londonjs:
   - londonjs
   filename: londonjs-15
   epoch_s_date: 1350322200
+  epoch_s_end_date: 1350331200
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -347,6 +356,7 @@ londonjs:
   - londonjs
   filename: londonjs-createtheweb
   epoch_s_date: 1352745000
+  epoch_s_end_date: 1352754000
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -380,6 +390,7 @@ londonjs:
   - londonjs
   filename: londonjs-16
   epoch_s_date: 1353349800
+  epoch_s_end_date: 1353358800
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -413,6 +424,7 @@ londonjs:
   - londonjs
   filename: londonjs-17
   epoch_s_date: 1361212200
+  epoch_s_end_date: 1361221200
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -446,6 +458,7 @@ londonjs:
   - londonjs
   filename: londonjs-18
   epoch_s_date: 1363631400
+  epoch_s_end_date: 1363640400
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -479,6 +492,7 @@ londonjs:
   - londonjs
   filename: londonjs-19
   epoch_s_date: 1366047000
+  epoch_s_end_date: 1366056000
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -514,6 +528,7 @@ londonjs:
   - londonjs
   filename: londonjs-20
   epoch_s_date: 1369071000
+  epoch_s_end_date: 1369080000
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -550,6 +565,7 @@ londonjs:
   - londonjs
   filename: londonjs-21
   epoch_s_date: 1371490200
+  epoch_s_end_date: 1371499200
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -585,6 +601,7 @@ londonjs:
   - londonjs
   filename: londonjs-22
   epoch_s_date: 1373909400
+  epoch_s_end_date: 1373918400
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -622,6 +639,7 @@ londonjs:
   - londonjs
   filename: londonjs-23
   epoch_s_date: 1376933400
+  epoch_s_end_date: 1376942400
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -659,6 +677,7 @@ londonjs:
   - londonjs
   filename: londonjs-24
   epoch_s_date: 1379352600
+  epoch_s_end_date: 1379361600
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -696,6 +715,7 @@ londonjs:
   - londonjs
   filename: londonjs-25
   epoch_s_date: 1382376600
+  epoch_s_end_date: 1382385600
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/londonjs/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS'
@@ -765,6 +785,7 @@ geeklates:
   - geeklates
   filename: geeklates
   epoch_s_date: 1351792800
+  epoch_s_end_date: 1351807200
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/geeklates/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geek Lates'
@@ -794,6 +815,7 @@ gamesnight:
   - gamesnight
   filename: eventhandler-gamesnight-1
   epoch_s_date: 1355769000
+  epoch_s_end_date: 1355783400
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/gamesnight/
   seriesconfprettyname: ! 'Eventhandler Meetups: Board Games Night'
@@ -839,6 +861,7 @@ eventhandlernightclass-designmodelling:
   - eventhandlernightclass-designmodelling
   filename: designmodelling
   epoch_s_date: 1359194400
+  epoch_s_end_date: 1359221400
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-designmodelling/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Design Modelling'
@@ -874,6 +897,7 @@ ldnjsnightclass-arduino:
   - ldnjsnightclass-arduino
   filename: arduinoworkshop-1
   epoch_s_date: 1360749600
+  epoch_s_end_date: 1360776600
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-arduino/
   seriesconfprettyname: ! 'London JS Classes: Arduino'
@@ -912,6 +936,7 @@ ldnjsnightclass-toolingcli:
   - ldnjsnightclass-toolingcli
   filename: ldnjsnightclass-toolingcli
   epoch_s_date: 1362594600
+  epoch_s_end_date: 1362605400
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-toolingcli/
   seriesconfprettyname: ! 'London JS Night Classes: Tooling Command Line Interfaces'
@@ -952,6 +977,7 @@ ldnjsnightclass-buildingcli:
   - ldnjsnightclass-buildingcli
   filename: ldnjsnightclass-buildingcli
   epoch_s_date: 1364409000
+  epoch_s_end_date: 1364419800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-buildingcli/
   seriesconfprettyname: ! 'London JS Night Classes: Building Command Line Interfaces'
@@ -985,6 +1011,7 @@ craft:
   - craft
   filename: craft
   epoch_s_date: 1370278800
+  epoch_s_end_date: 1370293200
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/craft/
   seriesconfprettyname: ! 'Eventhandler Meetups: Craft'
@@ -1026,6 +1053,7 @@ ldnjsnightclass-webgames:
   - ldnjsnightclass-webgames
   filename: ldnjsnightclass-webgames1
   epoch_s_date: 1370367000
+  epoch_s_end_date: 1370377800
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
   seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
@@ -1067,6 +1095,7 @@ ldnjsnightclass-webgames:
   - ldnjsnightclass-webgames
   filename: ldnjsnightclass-webgames2
   epoch_s_date: 1370971800
+  epoch_s_end_date: 1370982600
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
   seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
@@ -1108,6 +1137,7 @@ ldnjsnightclass-webgames:
   - ldnjsnightclass-webgames
   filename: ldnjsnightclass-webgames3
   epoch_s_date: 1371576600
+  epoch_s_end_date: 1371587400
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
   seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
@@ -1152,6 +1182,7 @@ ldnjsnightclass-webgames:
   - ldnjsnightclass-webgames
   filename: ldnjsnightclass-webgames4
   epoch_s_date: 1372181400
+  epoch_s_end_date: 1372192200
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-webgames/
   seriesconfprettyname: ! 'London JS Night Classes: Canvas & Canvas Animation'
@@ -1206,6 +1237,7 @@ ldnjsnightclass-git:
   - ldnjsnightclass-git
   filename: ldnjsnightclass-git
   epoch_s_date: 1378229400
+  epoch_s_end_date: 1378240200
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-git/
   seriesconfprettyname: ! 'London JS Night Classes: Git'
@@ -1255,6 +1287,7 @@ geekyscience:
   - geekyscience
   filename: geekyscience1
   epoch_s_date: 1378404000
+  epoch_s_end_date: 1378414800
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/geekyscience/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
@@ -1307,6 +1340,7 @@ geekyscience:
   - geekyscience
   filename: geeky-science2
   epoch_s_date: 1380823200
+  epoch_s_end_date: 1380834000
   time_zone: BST
   seriesconfpath: site/_data/events/meetups/geekyscience/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
@@ -1358,6 +1392,7 @@ geekyscience:
   - geekyscience
   filename: geeky-science3
   epoch_s_date: 1383246000
+  epoch_s_end_date: 1383256800
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/geekyscience/
   seriesconfprettyname: ! 'Eventhandler Meetups: Geeky Science'
@@ -1414,6 +1449,7 @@ ldnjsnightclass-backbone:
   - ldnjsnightclass-backbone
   filename: ldnjsnightclass-backbone
   epoch_s_date: 1379439000
+  epoch_s_end_date: 1379449800
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
   seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
@@ -1468,6 +1504,7 @@ ldnjsnightclass-backbone:
   - ldnjsnightclass-backbone
   filename: ldnjsnightclass-backbone2
   epoch_s_date: 1383159600
+  epoch_s_end_date: 1383170400
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
   seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
@@ -1521,6 +1558,7 @@ ldnjsnightclass-backbone:
   - ldnjsnightclass-backbone
   filename: ldnjsnightclass-backbone3
   epoch_s_date: 1391022000
+  epoch_s_end_date: 1391032800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbone/
   seriesconfprettyname: ! 'London JS Night Classes: Backbone.js'
@@ -1580,6 +1618,7 @@ ldnjsnightclass-introtojs:
   - ldnjsnightclass-introtojs
   filename: ldnjsnightclass-introtojs
   epoch_s_date: 1380043800
+  epoch_s_end_date: 1380054600
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-introtojs/
   seriesconfprettyname: ! 'London JS Night Classes: Introduction to JS'
@@ -1633,6 +1672,7 @@ eventhandlernightclass-gamesdesign:
   - eventhandlernightclass-gamesdesign
   filename: eventhandlernightclass-gamesdesign1
   epoch_s_date: 1381860000
+  epoch_s_end_date: 1381870800
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-gamesdesign/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Games Design'
@@ -1686,6 +1726,7 @@ eventhandlernightclass-gamesdesign:
   - eventhandlernightclass-gamesdesign
   filename: eventhandlernightclass-gamesdesign2
   epoch_s_date: 1392145200
+  epoch_s_end_date: 1392156000
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-gamesdesign/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Games Design'
@@ -1739,6 +1780,7 @@ ldnjsnightclass-angular:
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular
   epoch_s_date: 1381946400
+  epoch_s_end_date: 1381957200
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
@@ -1791,6 +1833,7 @@ ldnjsnightclass-angular:
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular2
   epoch_s_date: 1383678000
+  epoch_s_end_date: 1383688800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
@@ -1842,6 +1885,7 @@ ldnjsnightclass-angular:
   - ldnjsnightclass-angular
   filename: ldnjsnightclass-angular3
   epoch_s_date: 1392836400
+  epoch_s_end_date: 1392847200
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angular/
   seriesconfprettyname: ! 'London JS Night Classes: AngularJS'
@@ -1899,6 +1943,7 @@ uxnightclass-usability:
   - uxnightclass-usability
   filename: uxnightclass-usability
   epoch_s_date: 1382637600
+  epoch_s_end_date: 1382648400
   time_zone: BST
   seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
@@ -1954,6 +1999,7 @@ uxnightclass-usability:
   - uxnightclass-usability
   filename: uxnightclass-usability2
   epoch_s_date: 1390417200
+  epoch_s_end_date: 1390428000
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
@@ -2009,6 +2055,7 @@ uxnightclass-usability:
   - uxnightclass-usability
   filename: uxnightclass-usability3
   epoch_s_date: 1392750000
+  epoch_s_end_date: 1392760800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-usability/
   seriesconfprettyname: Usability Testing How To's for Small Teams (& Little Budgets)
@@ -2071,6 +2118,7 @@ uxnightclass-uxdeliverables:
   - uxnightclass-uxdeliverables
   filename: uxnightclass-uxdeliverables
   epoch_s_date: 1390935600
+  epoch_s_end_date: 1359410400
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
   seriesconfprettyname: Best Practice for UX Deliverables
@@ -2132,6 +2180,7 @@ uxnightclass-uxdeliverables:
   - uxnightclass-uxdeliverables
   filename: uxnightclass-uxdeliverables3
   epoch_s_date: 1394046000
+  epoch_s_end_date: 1362520800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-uxdeliverables/
   seriesconfprettyname: Best Practice for UX Deliverables
@@ -2187,6 +2236,7 @@ eventhandlernightclass-introtogit:
   - eventhandlernightclass-introtogit
   filename: eventhandlernightclass-introtogit
   epoch_s_date: 1391540400
+  epoch_s_end_date: 1391551200
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-introtogit/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Introduction to Git'
@@ -2247,6 +2297,7 @@ eventhandlernightclass-modernlayout:
   - eventhandlernightclass-modernlayout
   filename: eventhandlernightclass-modernlayout
   epoch_s_date: 1391626800
+  epoch_s_end_date: 1391637600
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-modernlayout/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Modern Layout'
@@ -2307,6 +2358,7 @@ eventhandlernightclass-modernlayout:
   - eventhandlernightclass-modernlayout
   filename: eventhandlernightclass-modernlayout2
   epoch_s_date: 1395255600
+  epoch_s_end_date: 1395266400
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-modernlayout/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Modern Layout'
@@ -2362,6 +2414,7 @@ ldnjsnightclass-backbonefullday:
   - ldnjsnightclass-backbonefullday
   filename: ldnjsclass-backbonejsfullday
   epoch_s_date: 1391767200
+  epoch_s_end_date: 1391796000
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-backbonefullday/
   seriesconfprettyname: ! 'London JS Classes: Backbone Full Day'
@@ -2421,6 +2474,7 @@ uxnightclass-sketchinginterfaces:
   - uxnightclass-sketchinginterfaces
   filename: uxnightclass-sketchinginterfaces
   epoch_s_date: 1392145200
+  epoch_s_end_date: 1392156000
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-sketchinginterfaces/
   seriesconfprettyname: ! 'Selling UCD: How to get buy in from clients'
@@ -2473,6 +2527,7 @@ ldnjsnightclass-nextleveljs:
   - ldnjsnightclass-nextleveljs
   filename: ldnjsnightclass-nextleveljs
   epoch_s_date: 1392231600
+  epoch_s_end_date: 1392242400
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-nextleveljs/
   seriesconfprettyname: ! 'London JS Night Classes: Next Level JS'
@@ -2524,6 +2579,7 @@ ldnjsnightclass-nextleveljs:
   - ldnjsnightclass-nextleveljs
   filename: ldnjsnightclass-nextleveljs2
   epoch_s_date: 1395255600
+  epoch_s_end_date: 1395266400
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-nextleveljs/
   seriesconfprettyname: ! 'London JS Night Classes: Next Level JS'
@@ -2569,6 +2625,7 @@ londonjsconf:
   - londonjsconf
   filename: londonjsconf
   epoch_s_date: 1392282000
+  epoch_s_end_date: 1392316200
   time_zone: GMT
   seriesconfpath: site/_data/events/meetups/londonjsconf/
   seriesconfprettyname: ! 'Eventhandler Meetups: London JS Conf'
@@ -2630,6 +2687,7 @@ eventhandlernightclass-cssarchitecture:
   - eventhandlernightclass-cssarchitecture
   filename: eventhandlerclass-cssarchitecture
   epoch_s_date: 1392372000
+  epoch_s_end_date: 1392400800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-cssarchitecture/
   seriesconfprettyname: ! 'Eventhandler Night Classes: CSS Architecture'
@@ -2688,6 +2746,7 @@ eventhandlernightclass-advancedgit:
   - eventhandlernightclass-advancedgit
   filename: eventhandlernightclass-advancedgit
   epoch_s_date: 1392750000
+  epoch_s_end_date: 1392760800
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-advancedgit/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Advanced Git'
@@ -2742,6 +2801,7 @@ eventhandlernightclass-webperformance:
   - eventhandlernightclass-webperformance
   filename: eventhandlernightclass-webperformance
   epoch_s_date: 1392836400
+  epoch_s_end_date: 1392847200
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/eventhandlernightclass-webperformance/
   seriesconfprettyname: ! 'Eventhandler Night Classes: Web Performance'
@@ -2794,6 +2854,7 @@ ldnjsnightclass-angularfullday:
   - ldnjsnightclass-angularfullday
   filename: ldnjsclass-angularjsfullday
   epoch_s_date: 1392976800
+  epoch_s_end_date: 1393005600
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-angularfullday/
   seriesconfprettyname: ! 'London JS Classes: AngularJS Full-Day Workshop'
@@ -2848,6 +2909,7 @@ ldnjsnightclass-testingjs:
   - ldnjsnightclass-testingjs
   filename: ldnjsnightclass-testingjs
   epoch_s_date: 1393354800
+  epoch_s_end_date: 1393365600
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/ldnjsnightclass-testingjs/
   seriesconfprettyname: ! 'London JS Night Classes: Testing Javascript'
@@ -2908,6 +2970,7 @@ uxnightclass-sellingucd:
   - uxnightclass-sellingucd
   filename: uxnightclass-sellingucd
   epoch_s_date: 1393441200
+  epoch_s_end_date: 1393452000
   time_zone: GMT
   seriesconfpath: site/_data/events/workshops/uxnightclass-sellingucd/
   seriesconfprettyname: ! 'Selling UCD: How to get buy in from clients'

@@ -5,12 +5,12 @@
     <body>
           {%include navbar.html %}
         <div class="site">
-          <h2> Events List </h2>
+          <h2> Workshops List </h2>
 			 <ul>
 			  {% for events in site.data.events %}
 			  {%if events.epoch_s_date > datenow%}
 
-  {% if events.directory_tags contains "workshops" %}{%else%}
+  {% if events.directory_tags contains "workshops" %}
 			  <li>
 			      <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }}</a>
 			      <span>{%if events.epoch_s_end_date%}
@@ -21,7 +21,7 @@
 	          </span>
 			      <ul>
 			      	{%for speakers in events.speakerID%}
-			      	<li>Speaker : {{site.data.speakers[speakers].name}}
+			      	<li>Tutor : {{site.data.speakers[speakers].name}}
 			      	{% endfor %}
 			  	</ul>
 			  </li>
@@ -29,13 +29,13 @@
 			  {% endif %}
 			  {% endfor %}
 			  </ul>
-			<h2> Category List </h2>
+			<h2> Workshop Categories List </h2>
 			<ul>
 			{%assign series_sorted_alpha = site.data.series_list | alphasort %}
 			  {% for seriess in series_sorted_alpha%}
 			  	{%for seri in site.data.series[seriess.series]%}
 				  {%if seri.epoch_s_date > datenow%}
-					  {% if seri.directory_tags contains "workshops"%}{%else%}
+					  {% if seri.directory_tags contains "workshops" %}
 					  <li>
 					      <a href="{{seriess.url}}/">{{seriess.prettyname}}</a>
 					      <p>{{seriess.description}}</p>

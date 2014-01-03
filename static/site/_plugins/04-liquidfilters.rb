@@ -40,6 +40,15 @@ module Jekyll
         x.floor;
       end
     end
+    def prettyDate(starting, ending)
+      startDate = Time.at(starting.to_i)
+      if(ending != '')
+        endDate = Time.at(ending.to_i)
+        starting = startDate.strftime("%A, #{ordinalize(startDate.day)} of %B %Y") + " ("+startDate.strftime("%H:%M")+" - "+endDate.strftime("%H:%M")+")";
+      else
+      starting = startDate.strftime("%A, #{ordinalize(startDate.day)} of %B %Y") + " ("+startDate.strftime("%H:%M")+")";
+      end
+    end
   end
   module Frontpaging
     def alphasort(starting)
@@ -142,6 +151,19 @@ def difference(one, two)
 	if two == one
 		return 0
 	end
+end
+
+def ordinalize(number)
+  if (11..13).include?(number.to_i.abs % 100)
+    "#{number}th"
+  else
+    case number.to_i.abs % 10
+      when 1; "#{number}st"
+      when 2; "#{number}nd"
+      when 3; "#{number}rd"
+      else    "#{number}th"
+    end
+  end
 end
 
 Liquid::Template.register_filter(Jekyll::Calendar_functions)

@@ -1,14 +1,4 @@
 ---
-layout: default
+layout: workshops
 title: Events
 ---
-<h2> Workshops Listing </h2>
- <ul>
-  {% for events in site.data.events %}
-  {% if events.directory_tags contains "workshops" %}
-  <li>
-      <a href="{{events.url}}/{{events.filename}}.html">{{ events.title }} </a>
-  </li>
-  {% endif %}
-  {% endfor %}
-  </ul>
