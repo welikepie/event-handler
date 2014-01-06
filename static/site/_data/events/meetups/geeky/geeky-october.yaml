@@ -5,7 +5,8 @@ venue: "forward"
 title: Geeky
 map: "19 Mandela Street, London, NW1 0DU, United Kingdom"
 cost: Free
-text: "<p>Lightning talks celebrating geekiness, with talks ranging from board games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>"
+text: |
+  "<p>Lightning talks celebrating geekiness, with talks ranging from board games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>"
 lanyrd: "http://lanyrd.com/2012/geekynight-october/"
 booking_link: "http://geeky-october.eventbrite.com/"
 blurb: "Lightning talks celebrating geekiness, with talks ranging from board games and zombies to Lego and 4sq."

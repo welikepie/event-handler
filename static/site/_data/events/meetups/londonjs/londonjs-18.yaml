@@ -5,7 +5,8 @@ venue: "poke"
 title: London JS
 map: "10 Redchurch Street, Biscuit Building, London, E2 7DD"
 cost: Free
-text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><p>This months, the talks will be:</p><ul><li>Javascript &amp; Kinect - Mairead Buchan (link: https://twitter.com/tiny<em>m text: @tiny</em>m)</li><li>Shaders &amp; Filters - Paul Lewis (link: https://twitter.com/aerotwist text: @aerotwist)</li><li>Regular Expressions - Remy Bach (link: https://twitter.com/remybach text: @remybach)</li></ul>"
+text: |
+  "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><p>This months, the talks will be:</p><ul><li>Javascript &amp; Kinect - Mairead Buchan <a href="https://twitter.com/tiny_m">@tiny_m</a></li><li>Shaders &amp; Filters - Paul Lewis <a href="https://twitter.com/aerotwist">@aerotwist</a></li><li>Regular Expressions - Remy Bach <a href="https://twitter.com/remybach">@remybach</a></li></ul>"
 lanyrd: "http://www.lanyrd.com/2013/londonjs-18/"
 booking_link: "http://londonjs-18.eventbrite.com/"
 blurb: Evening of Javascript talks about JavaScript Engines and Frameworks

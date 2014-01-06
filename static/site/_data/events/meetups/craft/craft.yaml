@@ -5,7 +5,8 @@ venue: "brewdogshoreditch"
 title: Craft
 map: "51-55 Bethnal Green Road, London, E1 6LA, United Kingdom"
 cost: Free
-text: "<p>An evening dedicated to the skill and knowledge that goes in to creating the finest beverages and digital products. Craft is hosted in BrewDogs&#39; Underdog Bar in Redchurch Street and supported by the BrewDog Shoreditch Team.</p><p><strong>Tickets will be released at 2pm on May 20th and 2pm on May 24th</strong></p><h2>Talks by:</h2><p>Ian Fenn (link: http://twitter.com/ifenn text: @ifenn) - Designing your UX PortfolioEvgenia Grinblo (link: http://twitter.com/grinblo text: @grinblo) - What Craft and War Have in Common</p><h2>Beer Tasting:</h2><p>Punk IPA Vermouth</p><h2>Supported by:</h2><p>(image: brewdog.png class: rmboxshad full-width link:http://www.brewdog.co.uk)</p>"
+text: |
+  "<p>An evening dedicated to the skill and knowledge that goes in to creating the finest beverages and digital products. Craft is hosted in BrewDogs&#39; Underdog Bar in Redchurch Street and supported by the BrewDog Shoreditch Team.</p><p><strong>Tickets will be released at 2pm on May 20th and 2pm on May 24th</strong></p><h2>Talks by:</h2><p>Ian Fenn <a href="http://twitter.com/ifenn">@ifenn</a>- Designing your UX PortfolioEvgenia Grinblo <a href="http://twitter.com/grinblo"> @grinblo</a> - What Craft and War Have in Common</p><h2>Beer Tasting:</h2><p>Punk IPA Vermouth</p><h2>Supported by:</h2><p><a href="http://www.brewdog.co.uk"><img src= "/assets/img/brewdog.png" class ="rmboxshad full-width"/></a> </p>"
 lanyrd: "http://lanyrd.com/2013/craft-01/"
 booking_link: "http://craft-1.eventbrite.com/"
 blurb: An evening of Craft Beer and Tech
