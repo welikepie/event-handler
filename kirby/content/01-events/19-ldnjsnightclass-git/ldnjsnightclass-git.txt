@@ -4,6 +4,8 @@ Text:
 
 An evening workshop hosted by Kornel Lesinski (link: https://twitter.com/pornelski text: @pornelski); for those who want to learn all the things they should have learned when they started out with Git. Go from being a complete beginner to highly proficient; learning the theory behind Git, all the necessary commands you need to get by and more advanced things like publishing patches and creating Git hooks. 
 
+<p class="soldout"> This workshop has passed. However; we currently have an (link: http://www.eventhandler.co.uk/events/eventhandlernightclass-introtogit text: introduction to git class) and an (link: http://www.eventhandler.co.uk/events/eventhandlernightclass-advancedgit text: advanced git class) open!</p>
+
 #### What you'll learn:
 
 * The theory of Git: How it works and basic terms & concepts.

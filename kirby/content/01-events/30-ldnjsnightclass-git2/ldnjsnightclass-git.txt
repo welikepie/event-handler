@@ -4,6 +4,8 @@ Text:
 
 Due to the success of our first Git workshop, we are happy to announce a second one!
 
+<p class="soldout"> This workshop has passed. However; we currently have an (link: http://www.eventhandler.co.uk/events/eventhandlernightclass-introtogit text: introduction to git class) and an (link: http://www.eventhandler.co.uk/events/eventhandlernightclass-advancedgit text: advanced git class) open!</p>
+
 (image: gitworkshop.png class: full-width)
 
 ### Who is it for?

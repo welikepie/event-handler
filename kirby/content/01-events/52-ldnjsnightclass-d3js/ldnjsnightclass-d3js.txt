@@ -3,6 +3,8 @@ Title: London JS Night Class: D3.js
 Text: 
 On the 21st of January, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting an evening workshop in which you can learn to use D3.js
 
+<p class="soldout"> This workshop has passed. However; we have another D3 workshop open (link: http://www.eventhandler.co.uk/events/ldnjsnightclass-d3js2 text: here)!</p>
+
 (image: d3js.png class: full-width)
 
 ### Who is it for?
