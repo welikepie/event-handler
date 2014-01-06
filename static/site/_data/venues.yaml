@@ -1,13 +1,10 @@
 ---
 brewdogshepherdsbush:
   name: BrewDog Shepherd's Bush
-  address: ! '15-19 Goldhawk Road,
-
+  address: |
+    15-19 Goldhawk Road,
     London,
-
     W12 8QQ
-
-'
   location:
   - 51.502893
   - -0.223889
@@ -32,7 +29,7 @@ brewdogshepherdsbush:
     type:
     - tube
     - overground
-  description: ! "(From the BrewDog Website at http://www.brewdog.com/bars/shepherds-bush)\nKicking
+  description: "(From the BrewDog Website at http://www.brewdog.com/bars/shepherds-bush)\nKicking
     back with a few beers is the name of the game at BrewDog Shepherd's Bush.\nIt's
     a place to chill out and explore beer with a vast menu at your fingertips, \nand
     when they get a bit restless there's always the plethora of vintage arcade machines
@@ -42,13 +39,10 @@ brewdogshepherdsbush:
   filename: brewdogshepherdsbush
 brewdogshoreditch:
   name: BrewDog Shoreditch
-  address: ! '51 bethnal Green Road,
-
+  address: |
+    51 bethnal Green Road,
     London,
-
     E1 6LA
-
-'
   location:
   - 51.525193
   - -0.07191
@@ -81,7 +75,7 @@ brewdogshoreditch:
     type:
     - tube
     - rail
-  description: ! "(From the BrewDog Website at http://www.brewdog.com/bars/shoreditch)\nOur
+  description: "(From the BrewDog Website at http://www.brewdog.com/bars/shoreditch)\nOur
     Bethnal Green Road bar encapsulates the unrelenting, \nunforgiving surge of creativity
     that continues to fuel the area's journey to reinvention. \nAntique tiles, reclaimed
     metal and a bar completely exposed by an unforgiving wall of \nglass make this
@@ -92,7 +86,7 @@ brewdogshoreditch:
   filename: brewdogshoreditch
 centralfoundation:
   name: Central Foundation Boys School
-  address: ! "Central Foundation Boys School, \nCowper Street, \nEC2A 4SH\n"
+  address: "Central Foundation Boys School, \nCowper Street, \nEC2A 4SH\n"
   location:
   - 32
   - 50
@@ -125,7 +119,7 @@ centralfoundation:
     type:
     - tube
     - rail
-  description: ! "(From the Central Foundation website at http://www.centralfoundationboys.co.uk/about)\nAs
+  description: "(From the Central Foundation website at http://www.centralfoundationboys.co.uk/about)\nAs
     we approach the celebration of 150 years of Central Foundation, \nwe look to the
     past with pride and gratitude – and forward, to an exciting \nfuture.\n"
   directory_tags:
@@ -133,7 +127,7 @@ centralfoundation:
   filename: centralfoundation
 forward:
   name: Forward Internet Group
-  address: ! "19 Mandela Street, \nLondon,\nNW1 0DU\n"
+  address: "19 Mandela Street, \nLondon,\nNW1 0DU\n"
   location:
   - 51.484802
   - -0.236574
@@ -154,15 +148,14 @@ forward:
     - Northern
     type:
     - tube
-  description: ! 'This is a test description. Please note that this needs changing.
-
-'
+  description: |
+    This is a test description. Please note that this needs changing.
   directory_tags:
   - venues
   filename: forward
 googlecampus:
   name: Campus London
-  address: ! "4-5 Bonhill St, \nLondon, \nEC2A 4BX ‎\n"
+  address: "4-5 Bonhill St, \nLondon, \nEC2A 4BX ‎\n"
   location:
   - 51.52506
   - -0.080123
@@ -195,7 +188,7 @@ googlecampus:
     type:
     - tube
     - rail
-  description: ! "(From the Campus London website at www.campuslondon.com)\nWelcome
+  description: "(From the Campus London website at www.campuslondon.com)\nWelcome
     to Campus. We’re a co-working space in the heart of East London’s Tech \nCity
     that’s powered by Google to offer startups the tools they need to succeed. \nThink
     seven floors of flexible work space, free high-speed internet and support \nto
@@ -207,13 +200,10 @@ googlecampus:
   filename: googlecampus
 hubwestminster:
   name: Hub Westminister
-  address: ! '1st floor, New Zealand House,
-
+  address: |
+    1st floor, New Zealand House,
     41 New Zealand House,
-
     80 Haymarket, London SW1Y 4TE
-
-'
   location:
   - 51.508342
   - -0.12748
@@ -246,22 +236,16 @@ hubwestminster:
     - Picadilly
     type:
     - tube
-  description: ! '(Sourced from the Impact Hub Westminster website at westminster.impacthub.net/about-us/)
-
-    Launched in 2011, Impact Hub Westminster is one of the largest of a global network
-    of locally owned collaborative working spaces.
-
-    Our primary aim is to support organisations with positive social and environmental
-    impact at the heart of their missions. We provide flexible access to workspace
-    and curate a supportive, collaborative environment for these impact makers.
-
-'
+  description: |
+    (Sourced from the Impact Hub Westminster website at westminster.impacthub.net/about-us/)
+    Launched in 2011, Impact Hub Westminster is one of the largest of a global network of locally owned collaborative working spaces.
+    Our primary aim is to support organisations with positive social and environmental impact at the heart of their missions. We provide flexible access to workspace and curate a supportive, collaborative environment for these impact makers.
   directory_tags:
   - venues
   filename: hubwestminster
 ovalspace:
   name: Oval Space
-  address: ! "29-32 The Oval, \nLondon,\nE2 9DT\n"
+  address: "29-32 The Oval, \nLondon,\nE2 9DT\n"
   location:
   - 51.53367
   - -0.059223
@@ -290,7 +274,7 @@ ovalspace:
     - London Overground
     type:
     - overground
-  description: ! "(From the Oval Space website at www.ovalspace.co.uk)\nIn the heart
+  description: "(From the Oval Space website at www.ovalspace.co.uk)\nIn the heart
     of fashionable East London, Oval Space is an amazing warehouse-style venue finished
     to a very high standard that offers 5,000 square feet of unobstructed event space,
     with the iconic backdrop of the Bethnal Green Gas Holders lending an authentic,
@@ -300,15 +284,11 @@ ovalspace:
   filename: ovalspace
 poke:
   name: Poke, London
-  address: ! 'Biscuit Building,
-
+  address: |
+    Biscuit Building,
     10 Redchurch Street,
-
     London,
-
     E2 7DD
-
-'
   location:
   - 51.524405
   - -0.076454
@@ -341,15 +321,14 @@ poke:
     type:
     - tube
     - rail
-  description: ! 'This is a test description. Please note that this needs changing.
-
-'
+  description: |
+    This is a test description. Please note that this needs changing.
   directory_tags:
   - venues
   filename: poke
 princecharlescinema:
   name: Prince Charles Cinema
-  address: ! "7 Leicester Pl, \nLondon, \nWC2H 7BY\n"
+  address: "7 Leicester Pl, \nLondon, \nWC2H 7BY\n"
   location:
   - 51.511934
   - -0.130205
@@ -372,7 +351,7 @@ princecharlescinema:
     - Picadilly
     type:
     - tube
-  description: ! "(From the Prince Charles Website at http://www.princecharlescinema.com/html/cinema_hire.php)\nLocated
+  description: "(From the Prince Charles Website at http://www.princecharlescinema.com/html/cinema_hire.php)\nLocated
     50 yards from London's Leicester Square the Prince Charles Cinema \nis \"the countries
     funkiest cinema\" (Evening Standard) and its most successful \nindependent screen.
     Its prime West End situation is enhanced by its reputation \nthroughout the Film
@@ -382,13 +361,10 @@ princecharlescinema:
   filename: princecharlescinema
 richmix:
   name: Rich Mix
-  address: ! '35-47 Bethnal Green Rd,
-
+  address: |
+    35-47 Bethnal Green Rd,
     London,
-
     E1 6LA
-
-'
   location:
   - 51.524913
   - -0.073106
@@ -421,7 +397,7 @@ richmix:
     type:
     - tube
     - rail
-  description: ! "(From the Rich Mix Website at http://www.richmix.org.uk/about/about-us/)\nRich
+  description: "(From the Rich Mix Website at http://www.richmix.org.uk/about/about-us/)\nRich
     Mix is a charity and social enterprise that offers live music, film, \ndance,
     theatre, comedy, spoken word and a range of creative activities for \npeople of
     all ages and all cultures. All profits go back to support our \neducation, arts
@@ -431,13 +407,10 @@ richmix:
   filename: richmix
 thereliance:
   name: The Reliance
-  address: ! '10 Redchurch Street
-
+  address: |
+    10 Redchurch Street
     London,
-
     e2 7dd
-
-'
   location:
   - 51.527609
   - -0.080853
@@ -470,9 +443,8 @@ thereliance:
     type:
     - tube
     - rail
-  description: ! 'This is a test description. Please note that this needs changing.
-
-'
+  description: |
+    This is a test description. Please note that this needs changing.
   directory_tags:
   - venues
   filename: thereliance
