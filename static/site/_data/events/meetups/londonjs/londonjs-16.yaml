@@ -5,7 +5,8 @@ venue: "poke"
 title: London JS
 map: "10 Redchurch Street, Biscuit Building, London, E2 7DD"
 cost: Free
-text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><p>This months, the talks will be:</p><ul><li>Dojo Promises - Mark Wubben (link: https://twitter.com/novemberborn text: @novemberborn)</li><li>JavaScript Engines - Peter Beverloo (link: https://twitter.com/beverloo text: @beverloo)</li><li>jQuery - Addy Osmani (link: https://twitter.com/addyosmani text: @addyosmani)</li></ul>"
+text: |
+  "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><p>This months, the talks will be:</p><ul><li>Dojo Promises - Mark Wubben <a href="https://twitter.com/novemberborn">@novemberborn</a></li><li>JavaScript Engines - Peter Beverloo <a href="https://twitter.com/beverloo">@beverloo</a></li><li>jQuery - Addy Osmani (link: https://twitter.com/addyosmani text: @addyosmani)</li></ul>"
 lanyrd: "http://www.lanyrd.com/2012/londonjs-16/"
 booking_link: "http://londonjs-16.eventbrite.com/"
 blurb: Evening of Javascript talks about JavaScript Engines and Frameworks

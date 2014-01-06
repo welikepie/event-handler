@@ -5,7 +5,8 @@ venue: "poke"
 title: London JS
 map: "10 Redchurch Street, Biscuit Building, London, E2 7DD"
 cost: Free
-text: "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><p>This months, the talks will be:</p><ul><li>Dart - Chris Buckett (link: https://twitter.com/chrisbuckett text: @chrisbuckett)</li><li>JavaScript and Test Driven Development - Ricky Clegg (link: https://twitter.com/ricky<em>clegg text: @ricky</em>clegg)</li></ul>"
+text: |
+  "<p>With all the new HTML5 APIs and node.js making waves in the backend, it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS will (try and) meet on a Monday of each month to hear a couple of talks on the exciting new topics that are influencing our field, before retiring to the local pub.</p><p>This months, the talks will be:</p><ul><li>Dart - Chris Buckett <a href="https://twitter.com/chrisbuckett">@chrisbuckett</a></li><li>JavaScript and Test Driven Development - Ricky Clegg <a href="https://twitter.com/ricky_clegg">@ricky_clegg</a></li></ul>"
 lanyrd: "http://www.lanyrd.com/2012/londonjs-15/"
 booking_link: "http://londonjs-15.eventbrite.com/"
 blurb: Evening of Javascript talks about Microframeworks and Require.js.

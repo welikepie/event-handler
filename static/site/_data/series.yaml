@@ -7,9 +7,11 @@ geeky:
   title: Geeky
   map: 19 Mandela Street, London, NW1 0DU, United Kingdom
   cost: Free
-  text: ! '<p>Lightning talks celebrating geekiness. With talks ranging from board
+  text: ! '"<p>Lightning talks celebrating geekiness. With talks ranging from board
     games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email
-    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>'
+    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>"
+
+'
   lanyrd: http://www.lanyrd.com/2012/geekynight-may/
   booking_link: http://geeky-may.eventbrite.com/
   blurb: Lightning talks celebrating geekiness. With talks ranging from board games
@@ -36,9 +38,11 @@ geeky:
   title: Geeky
   map: 19 Mandela Street, London, NW1 0DU, United Kingdom
   cost: Free
-  text: ! '<p>Lightning talks celebrating geekiness. With talks ranging from board
+  text: ! '"<p>Lightning talks celebrating geekiness. With talks ranging from board
     games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email
-    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>'
+    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>"
+
+'
   lanyrd: http://lanyrd.com/2012/geekynight-august/
   booking_link: http://geeky-august.eventbrite.com/
   blurb: Lightning talks celebrating geekiness. With talks ranging from board games
@@ -65,9 +69,11 @@ geeky:
   title: Geeky
   map: 19 Mandela Street, London, NW1 0DU, United Kingdom
   cost: Free
-  text: ! '<p>Lightning talks celebrating geekiness, with talks ranging from board
+  text: ! '"<p>Lightning talks celebrating geekiness, with talks ranging from board
     games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email
-    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>'
+    us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p>"
+
+'
   lanyrd: http://lanyrd.com/2012/geekynight-october/
   booking_link: http://geeky-october.eventbrite.com/
   blurb: Lightning talks celebrating geekiness, with talks ranging from board games
@@ -94,10 +100,12 @@ geeky:
   title: Geeky
   map: 19 Mandela Street, London, NW1 0DU, United Kingdom
   cost: Free
-  text: ! '<p>Lightning talks celebrating geekiness, with talks ranging from board
+  text: ! '"<p>Lightning talks celebrating geekiness, with talks ranging from board
     games and zombies to Lego and 4sq. Come and embrace your inner geek. Why not email
     us about speaking at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p><p>(image:
-    geeky.png class: full-width)</p>'
+    geeky.png class: full-width)</p>"
+
+'
   lanyrd: http://lanyrd.com/2013/geekynight-february/
   booking_link: http://geeky-february.eventbrite.com/
   blurb: Lightning talks celebrating geekiness, with talks ranging from board games
@@ -122,8 +130,8 @@ geeky:
   title: Geeky
   map: 19 Mandela Street, London, NW1 0DU, United Kingdom
   cost: Free
-  text: ! '<p><strong>The first batch of tickets will be available on Friday the 5th
-    of April at 2pm, The second batch will be available on Monday the 8th of April
+  text: ! '"<p><strong>The first batch of tickets will be available on Friday the
+    5th of April at 2pm, The second batch will be available on Monday the 8th of April
     at 2pm and the third on Monday the 15th at 2pm.</strong></p><p>Lightning talks
     celebrating geekiness, with talks ranging from board games and zombies to Lego
     and 4sq.Come and embrace your inner geek. Why not email us about speaking at (email:
@@ -135,7 +143,9 @@ geeky:
     text: @msjaneaustin)</li><li>Sometimes I&#39;m a Chicken - Anna Pickard (link:
     http://twitter.com/annapickard text: @annapickard)</li><li>Once Upon a Time, in
     WebGL - Benjamin Blundell (link: http://twitter.com/secti0n9 text: @secti0n9)</li></ul><p>(image:
-    geeky.png class: full-width)</p>'
+    geeky.png class: full-width)</p>"
+
+'
   lanyrd: http://lanyrd.com/2013/geekynight-april/
   booking_link: http://geeky-april.eventbrite.com/
   blurb: Lightning talks celebrating geekiness, with talks ranging from board games
@@ -162,9 +172,9 @@ geeky:
   title: Geeky
   map: 19 Mandela Street, London, NW1 0DU, United Kingdom
   cost: Free
-  text: ! '<p><strong>The first batch of tickets will be available on Monday the 10th
-    of June at 2pm, The second batch will be available on Friday the 14th of June
-    at 2pm and the third on Monday the 17th of June at 2pm.</strong></p><p>Lightning
+  text: ! '"<p><strong>The first batch of tickets will be available on Monday the
+    10th of June at 2pm, The second batch will be available on Friday the 14th of
+    June at 2pm and the third on Monday the 17th of June at 2pm.</strong></p><p>Lightning
     talks celebrating geekiness, with talks ranging from board games and zombies to
     Lego and 4sq.Come and embrace your inner geek. Why not email us about speaking
     at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk).</p><h2>Talks</h2><ul><li>OH
@@ -176,7 +186,9 @@ geeky:
     (link: http://twitter.com/charlotteis text: @charlotteis)</li><li>Building Interactive
     Installations in Five Days - Mark Wubben (link: http://twitter.com/novemberborn
     text: @novemberborn)</li></ul><p>(image: geeky.png class: full-width)</p><h2>Supporters</h2><p>(image:
-    forward.png class: rmboxshad full-width link:http://www.forwardtechnology.co.uk)</p>'
+    forward.png class: rmboxshad full-width link:http://www.forwardtechnology.co.uk)</p>"
+
+'
   lanyrd: http://lanyrd.com/2013/geekynight-june/
   booking_link: http://geeky-june.eventbrite.com/
   blurb: Lightning talks celebrating geekiness, with talks ranging from board games
@@ -236,13 +248,15 @@ londonjs:
   title: London JS
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
   cost: Free
-  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+  text: ! '"<p>With all the new HTML5 APIs and node.js making waves in the backend,
     it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
     will (try and) meet on a Monday of each month to hear a couple of talks on the
     exciting new topics that are influencing our field, before retiring to the local
     pub.</p><p>This months, the talks will be:</p><ul><li>Microframeworks - Dan Knell
-    (link: https://twitter.com/danielknell text: @danielknell)</li><li>Require.js
-    - Tim Ruffles (link: https://twitter.com/timruffles text: @timruffles)</li></ul>'
+    <a href="https://twitter.com/danielknell"> @danielknell<a></li><li>Require.js
+    - Tim Ruffles <a href="https://twitter.com/timruffles">@timruffles</a></li></ul>"
+
+'
   lanyrd: http://www.lanyrd.com/2012/londonjs-13/
   booking_link: http://londonjs-13.eventbrite.com/
   blurb: Evening of Javascript talks about Microframeworks and Require.js.
@@ -269,14 +283,15 @@ londonjs:
   title: London JS
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
   cost: Free
-  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+  text: ! '"<p>With all the new HTML5 APIs and node.js making waves in the backend,
     it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
     will (try and) meet on a Monday of each month to hear a couple of talks on the
     exciting new topics that are influencing our field, before retiring to the local
     pub.</p><p>This months, the talks will be:</p><ul><li>Glyn laughing evilly whilst
-    telling you about security - Glyn Wintle (link: https://twitter.com/glynwintle
-    text: @glynwintle)</li><li>Artificial Intelligence - James Thomas (link: https://twitter.com/thomasj
-    text: @thomasj)</li></ul>'
+    telling you about security - Glyn Wintle <a href="https://twitter.com/glynwintle">@glynwintle</a></li><li>Artificial
+    Intelligence - James Thomas <a href="https://twitter.com/thomasj">@thomasj</a></li></ul>"
+
+'
   lanyrd: http://www.lanyrd.com/2012/londonjs-14/
   booking_link: http://londonjs-14.eventbrite.com/
   blurb: Evening of Javascript talks by developers, for developers.
@@ -303,14 +318,15 @@ londonjs:
   title: London JS
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
   cost: Free
-  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+  text: ! '"<p>With all the new HTML5 APIs and node.js making waves in the backend,
     it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
     will (try and) meet on a Monday of each month to hear a couple of talks on the
     exciting new topics that are influencing our field, before retiring to the local
-    pub.</p><p>This months, the talks will be:</p><ul><li>Dart - Chris Buckett (link:
-    https://twitter.com/chrisbuckett text: @chrisbuckett)</li><li>JavaScript and Test
-    Driven Development - Ricky Clegg (link: https://twitter.com/ricky<em>clegg text:
-    @ricky</em>clegg)</li></ul>'
+    pub.</p><p>This months, the talks will be:</p><ul><li>Dart - Chris Buckett <a
+    href="https://twitter.com/chrisbuckett">@chrisbuckett</a></li><li>JavaScript and
+    Test Driven Development - Ricky Clegg <a href="https://twitter.com/ricky_clegg">@ricky_clegg</a></li></ul>"
+
+'
   lanyrd: http://www.lanyrd.com/2012/londonjs-15/
   booking_link: http://londonjs-15.eventbrite.com/
   blurb: Evening of Javascript talks about Microframeworks and Require.js.
@@ -371,14 +387,16 @@ londonjs:
   title: London JS
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
   cost: Free
-  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+  text: ! '"<p>With all the new HTML5 APIs and node.js making waves in the backend,
     it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
     will (try and) meet on a Monday of each month to hear a couple of talks on the
     exciting new topics that are influencing our field, before retiring to the local
     pub.</p><p>This months, the talks will be:</p><ul><li>Dojo Promises - Mark Wubben
-    (link: https://twitter.com/novemberborn text: @novemberborn)</li><li>JavaScript
-    Engines - Peter Beverloo (link: https://twitter.com/beverloo text: @beverloo)</li><li>jQuery
-    - Addy Osmani (link: https://twitter.com/addyosmani text: @addyosmani)</li></ul>'
+    <a href="https://twitter.com/novemberborn">@novemberborn</a></li><li>JavaScript
+    Engines - Peter Beverloo <a href="https://twitter.com/beverloo">@beverloo</a></li><li>jQuery
+    - Addy Osmani (link: https://twitter.com/addyosmani text: @addyosmani)</li></ul>"
+
+'
   lanyrd: http://www.lanyrd.com/2012/londonjs-16/
   booking_link: http://londonjs-16.eventbrite.com/
   blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
@@ -405,14 +423,15 @@ londonjs:
   title: London JS
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
   cost: Free
-  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+  text: ! '"<p>With all the new HTML5 APIs and node.js making waves in the backend,
     it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
     will (try and) meet on a Monday of each month to hear a couple of talks on the
     exciting new topics that are influencing our field, before retiring to the local
     pub.</p><p>This months, the talks will be:</p><ul><li>Puppet for developers -
-    Daniel Knell (link: https://twitter.com/danielknell text: @danielknell)</li><li>Playing
-    with binary data in JavaScript - Kornel Lesinski (link: https://twitter.com/pornelski
-    text: @pornelski)</li></ul>'
+    Daniel Knell <a href="https://twitter.com/danielknell">@danielknell</a></li><li>Playing
+    with binary data in JavaScript - Kornel Lesinski <a href="https://twitter.com/pornelski">@pornelski</a></li></ul>"
+
+'
   lanyrd: http://www.lanyrd.com/2013/londonjs-17/
   booking_link: http://londonjs-17.eventbrite.com/
   blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
@@ -439,14 +458,16 @@ londonjs:
   title: London JS
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
   cost: Free
-  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+  text: ! '"<p>With all the new HTML5 APIs and node.js making waves in the backend,
     it&#39;s never been a better time to be a JavaScript developer.</p><p>London JS
     will (try and) meet on a Monday of each month to hear a couple of talks on the
     exciting new topics that are influencing our field, before retiring to the local
     pub.</p><p>This months, the talks will be:</p><ul><li>Javascript &amp; Kinect
-    - Mairead Buchan (link: https://twitter.com/tiny<em>m text: @tiny</em>m)</li><li>Shaders
-    &amp; Filters - Paul Lewis (link: https://twitter.com/aerotwist text: @aerotwist)</li><li>Regular
-    Expressions - Remy Bach (link: https://twitter.com/remybach text: @remybach)</li></ul>'
+    - Mairead Buchan <a href="https://twitter.com/tiny_m">@tiny_m</a></li><li>Shaders
+    &amp; Filters - Paul Lewis <a href="https://twitter.com/aerotwist">@aerotwist</a></li><li>Regular
+    Expressions - Remy Bach <a href="https://twitter.com/remybach">@remybach</a></li></ul>"
+
+'
   lanyrd: http://www.lanyrd.com/2013/londonjs-18/
   booking_link: http://londonjs-18.eventbrite.com/
   blurb: Evening of Javascript talks about JavaScript Engines and Frameworks
@@ -473,14 +494,15 @@ londonjs:
   title: London JS
   map: 10 Redchurch Street, Biscuit Building, London, E2 7DD
   cost: Free
-  text: ! '<p>With all the new HTML5 APIs and node.js making waves in the backend,
+  text: ! '"<p>With all the new HTML5 APIs and node.js making waves in the backend,
     it&#39;s never been a better time to be a JavaScript developer.</p><p>(image:
     londonjseh.png class: full-width)</p><p>London JS will (try and) meet on a Monday
     of each month to hear a couple of talks on the exciting new topics that are influencing
     our field, before retiring to the local pub.</p><h2>Talks This Month</h2><ul><li>Chrome
     Extensions for Hackers - Cristiano Betta (link: http://twitter.com/cbetta text:
-    @cbetta)</li><li>Building Firefox OS Apps - Ruth John (link: http://twitter.com/rumyra
-    text: @rumyra)</li></ul>'
+    @cbetta)</li><li>Building Firefox OS Apps - Ruth John <a href="http://twitter.com/rumyra">@rumyra</a></li></ul>"
+
+'
   lanyrd: http://www.lanyrd.com/2013/londonjs-19/
   booking_link: http://londonjs-19.eventbrite.com/
   blurb: An evening of JavaScript talks
@@ -731,49 +753,53 @@ geeklates:
   title: Geek Lates
   map: Cowper Street, London, EC2A 4SH
   cost: £5 - £25
-  text: ! '<p>We&#39;ve been planning this event for quite some time now and we&#39;re
+  text: ! '"<p>We&#39;ve been planning this event for quite some time now and we&#39;re
     ready to finally tell you about it! Geek Lates is an evening of geeky entertainment
     and insight. Held in the hall of Central Foundation School just off of Old Street;
     there will be workshops, talks and other stands dotted around the place. We have
     a sketch notes workshop from Eva Lotta Lamm, (very) short story writing from James
     Wallis, Domestic Science with Helen Arney, Arduino workshops with Paul King and
-    many more to be announced.</p><h2>Speakers</h2><p>&lt;a name=&quot;paulKing&quot;&gt;&lt;/a&gt;(image:
-    Paul-King.png class: full-width)</p><h3>Paul King</h3><p>An Arduino aficionado
-    and professional tinkerer who likes things that go &quot;beep&quot;. He will be
-    holding an arduino workshop and &quot;is most definitely not a robot&quot;.</p><p>If
+    many more to be announced.</p><h2>Speakers</h2><p>&lt;a name=&quot;paulKing&quot;&gt;&lt;/a&gt;<img
+    src="/assets/img/meetups/Paul-King.png" class= "full-width"/></p><h3>Paul King</h3><p>An
+    Arduino aficionado and professional tinkerer who likes things that go &quot;beep&quot;.
+    He will be holding an arduino workshop and &quot;is most definitely not a robot&quot;.</p><p>If
     you&#39;d like to join in with this workshop but don&#39;t have your own kit,
     you&#39;ll be able to buy a workshop ready arduino kit from us on the day.</p><p>&lt;a
-    name=&quot;evaLottaLamm&quot;&gt;&lt;/a&gt;(image: Eva-Lotta-Lamm.png class: full-width)</p><h3>Eva
-    Lotta Lamm</h3><p>A UX designer currently working for Google. She has published
-    a book of beautiful sketch notes on UX and Design events and will show us how
-    to do these ourselves.</p><p>&lt;a name=&quot;judePullen&quot;&gt;&lt;/a&gt;(image:
-    Jude-Pullen.png class: full-width)</p><h3>Jude Pullen</h3><p>An award winning
-    designer and engineer at Dyson UK, he will be showing us how to build physical
-    prototypes, getting the idea off of the paper and into 3D.</p><p>&lt;a name=&quot;giddyUpCoffee&quot;&gt;&lt;/a&gt;(image:
-    Giddy-Up-Coffee.png class: full-width)</p><h3>Giddy Up Coffee</h3><p>These guys
-    seem to have endless ways of making coffee, a staple in the tech community. They
-    will be teaching others how to brew the good stuff as well as catering for the
-    event.</p><p>&lt;a name=&quot;laurianGridinoc&quot;&gt;&lt;/a&gt;(image: Laurian-Gridinoc.png
-    class: full-width)</p><h3>Laurian Gridinoc</h3><p>A mad scientist currently working
-    with BBC News. He plays with geiger counters and the human anatomy and will be
-    teaching us how to analyse bone fractures and do anatomical sketches.</p><p>&lt;a
-    name=&quot;helenArney&quot;&lt;/a&gt;(image: Helen-Arney.png class: full-width)</p><h3>Helen
-    Arney &amp; Rob Wells: Domestic Science</h3><p>Comedians Helen Arney &amp; Rob
-    Wells, fresh back from the Edinburgh Fringe, will be performing their &quot;culinary
+    name=&quot;evaLottaLamm&quot;&gt;&lt;/a&gt;<img src="/assets/img/meetups/Eva-Lotta-Lamm.png"
+    class= "full-width"/></p><h3>Eva Lotta Lamm</h3><p>A UX designer currently working
+    for Google. She has published a book of beautiful sketch notes on UX and Design
+    events and will show us how to do these ourselves.</p><p>&lt;a name=&quot;judePullen&quot;&gt;&lt;/a&gt;
+    <img src="/assets/img/meetups/Jude-Pullen.png" class="full-width"/></p><h3>Jude
+    Pullen</h3><p>An award winning designer and engineer at Dyson UK, he will be showing
+    us how to build physical prototypes, getting the idea off of the paper and into
+    3D.</p><p>&lt;a name=&quot;giddyUpCoffee&quot;&gt;&lt;/a&gt;<img src="/assets/img/meetups/Giddy-Up-Coffee.png"
+    class= "full-width"/></p><h3>Giddy Up Coffee</h3><p>These guys seem to have endless
+    ways of making coffee, a staple in the tech community. They will be teaching others
+    how to brew the good stuff as well as catering for the event.</p><p>&lt;a name=&quot;laurianGridinoc&quot;&gt;&lt;/a&gt;<img
+    src= "/assets/img/meetups/Laurian-Gridinoc.png" class="full-width"/></p><h3>Laurian
+    Gridinoc</h3><p>A mad scientist currently working with BBC News. He plays with
+    geiger counters and the human anatomy and will be teaching us how to analyse bone
+    fractures and do anatomical sketches.</p><p>&lt;a name=&quot;helenArney&quot;&lt;/a&gt;<img
+    src="/assets/img/meetups/Helen-Arney.png" class="full-width"></p><h3>Helen Arney
+    &amp; Rob Wells: Domestic Science</h3><p>Comedians Helen Arney &amp; Rob Wells,
+    fresh back from the Edinburgh Fringe, will be performing their &quot;culinary
     science&quot; workshop. &quot;Highly entertaining… Surprisingly educational&quot;
-    - &lt;i&gt;Broadway Baby&lt;/i&gt;&quot;</p><p>&lt;a name=&quot;frankieRoberto&quot;&lt;/a&gt;(image:
-    Frankie-Roberto.png class: full-width)</p><h3>Frankie Roberto</h3><p>A UX designer
-    and LEGO enthusiast. He will be holding a discussion about the famous plastic
-    blocks whilst our attendees construct their own masterpieces.</p><p>&lt;a name=&quot;jimmyHatherley&quot;&gt;&lt;/a&gt;(image:
-    Jimmy-Hatherley.png class: full-width)</p><h3>Jimmy Hatherley of London Fields
-    Brewery</h3><p>He will be taking us through a world of beer, holding a tasting
-    session and informing us about the process of making the good stuff. </p><p>&lt;a
-    name=&quot;paulusDreibholz&quot;&gt;&lt;/a&gt;(image: Paulus-Dreibholz.png class:
-    full-width)</p><h3>Paulus Dreibholz of TeachingType.com</h3><p>He will be teaching
-    us how to design our own typefaces, sketching them out and building them up. </p><p>&lt;a
-    name=&quot;rozMorris&quot;&gt;&lt;/a&gt;</p><h3>Roz Morris</h3><p>A writer and
-    ghostwriter with 8 best selling novels; Roz is going to be teaching us how to
-    write short stories with a twist, they have to fit on a postcard.</p>'
+    - &lt;i&gt;Broadway Baby&lt;/i&gt;&quot;</p><p>&lt;a name=&quot;frankieRoberto&quot;&lt;/a&gt;<img
+    src="/assets/img/meetups/Frankie-Roberto.png" class="full-width"/></p><h3>Frankie
+    Roberto</h3><p>A UX designer and LEGO enthusiast. He will be holding a discussion
+    about the famous plastic blocks whilst our attendees construct their own masterpieces.</p><p>&lt;a
+    name=&quot;jimmyHatherley&quot;&gt;&lt;/a&gt;<img src= "/assets/img/meetups/Jimmy-Hatherley.png"
+    class="full-width"/></p><h3>Jimmy Hatherley of London Fields Brewery</h3><p>He
+    will be taking us through a world of beer, holding a tasting session and informing
+    us about the process of making the good stuff. </p><p>&lt;a name=&quot;paulusDreibholz&quot;&gt;&lt;/a&gt;<img
+    src="/assets/img/src/Paulus-Dreibholz.png" class="full-width"/></p><h3>Paulus
+    Dreibholz of TeachingType.com</h3><p>He will be teaching us how to design our
+    own typefaces, sketching them out and building them up. </p><p>&lt;a name=&quot;rozMorris&quot;&gt;&lt;/a&gt;</p><h3>Roz
+    Morris</h3><p>A writer and ghostwriter with 8 best selling novels; Roz is going
+    to be teaching us how to write short stories with a twist, they have to fit on
+    a postcard.</p>"
+
+'
   lanyrd: http://lanyrd.com/2012/geek-lates/
   booking_link: http://geeklates.eventbrite.com/
   blurb: An evening of geeky entertainment and insight with workshops, talks and stands.
@@ -800,10 +826,12 @@ gamesnight:
   title: Event Handler Games Night
   map: 336 Old Street, London, EC1V 9DR
   cost: Free
-  text: <p>Join us in the pub for an evening of board games! Head down after work
+  text: ! '"<p>Join us in the pub for an evening of board games! Head down after work
     to relax with a drink and some of your favourites.</p><p>Games we&#39;re bringing:</p><ul><li>Carrcassone</li><li>Settlers
     of Catan</li><li>Once upon a time</li><li>Gloom</li></ul><p>Feel free to bring
-    your own, the more the merrier!</p>
+    your own, the more the merrier!</p>"
+
+'
   lanyrd: http://www.lanyrd.com/2012/eventhandler-gamesnight-01/
   booking_link: http://eventhandler-gamesnight-01.eventbrite.com/
   blurb: A relaxing board game evening
@@ -992,14 +1020,17 @@ craft:
   title: Craft
   map: 51-55 Bethnal Green Road, London, E1 6LA, United Kingdom
   cost: Free
-  text: ! '<p>An evening dedicated to the skill and knowledge that goes in to creating
+  text: ! '"<p>An evening dedicated to the skill and knowledge that goes in to creating
     the finest beverages and digital products. Craft is hosted in BrewDogs&#39; Underdog
     Bar in Redchurch Street and supported by the BrewDog Shoreditch Team.</p><p><strong>Tickets
     will be released at 2pm on May 20th and 2pm on May 24th</strong></p><h2>Talks
-    by:</h2><p>Ian Fenn (link: http://twitter.com/ifenn text: @ifenn) - Designing
-    your UX PortfolioEvgenia Grinblo (link: http://twitter.com/grinblo text: @grinblo)
+    by:</h2><p>Ian Fenn <a href="http://twitter.com/ifenn">@ifenn</a>- Designing your
+    UX PortfolioEvgenia Grinblo <a href="http://twitter.com/grinblo"> @grinblo</a>
     - What Craft and War Have in Common</p><h2>Beer Tasting:</h2><p>Punk IPA Vermouth</p><h2>Supported
-    by:</h2><p>(image: brewdog.png class: rmboxshad full-width link:http://www.brewdog.co.uk)</p>'
+    by:</h2><p><a href="http://www.brewdog.co.uk"><img src= "/assets/img/brewdog.png"
+    class ="rmboxshad full-width"/></a> </p>"
+
+'
   lanyrd: http://lanyrd.com/2013/craft-01/
   booking_link: http://craft-1.eventbrite.com/
   blurb: An evening of Craft Beer and Tech
@@ -1251,21 +1282,21 @@ geekyscience:
   title: ! 'GeekyScience: Evolution'
   map: 35-47 Bethnal Green Rd London, E1 6LA
   cost: £12-15
-  text: ! '<p>We&#39;re excited to announce a brand new monthly event, GeekyScience!</p><p>(image:
-    geekyscience.png class: full-width)</p><p>GeekyScience is an exciting evening
-    of learning and entertainment. Each month, experts in their field will come together
-    to share what they know, related to an overarching scientific theme that will
-    change each month. GeekyScience is both curated and hosted by (link: http://www.twitter.com/helenarney
-    text: Helen Arney), award-winning comedian and physics graduate. If you want to
-    learn about the things that live deep within the ocean, how to make an asteroid
-    or what an explosion scientist gets up to day-to-day; GeekyScience is something
-    you don’t want to miss. </p><h2>Septembers&#39; Theme: Evolution</h2><p>From Mendel&#39;s
-    discoveries on inheritance to Darwin&#39;s theory of natural selection, the theory
-    of evolution has led to an immense amount of scientific research and discovery.
-    (link: http://www.twitter.com/harpistkat text: Dr. Kat Arney), Science Information
-    Manager at Cancer Research UK, will be joining us to share her insights into the
-    evolution of Cancer and (link: http://www.twitter.com/adamrutherford text: Dr.
-    Adam Rutherford), journalist and presenter, will be using hip hop in his exploration
+  text: ! '"<p>We&#39;re excited to announce a brand new monthly event, GeekyScience!</p><p><img
+    src="/assets/img/meetups/geekyscience.png" class="full-width"/></p><p>GeekyScience
+    is an exciting evening of learning and entertainment. Each month, experts in their
+    field will come together to share what they know, related to an overarching scientific
+    theme that will change each month. GeekyScience is both curated and hosted by
+    <a href="http://www.twitter.com/helenarney">Helen Arney</a>, award-winning comedian
+    and physics graduate. If you want to learn about the things that live deep within
+    the ocean, how to make an asteroid or what an explosion scientist gets up to day-to-day;
+    GeekyScience is something you don’t want to miss. </p><h2>Septembers&#39; Theme:
+    Evolution</h2><p>From Mendel&#39;s discoveries on inheritance to Darwin&#39;s
+    theory of natural selection, the theory of evolution has led to an immense amount
+    of scientific research and discovery. <a href="http://www.twitter.com/harpistkat">Dr.
+    Kat Arney</a>, Science Information Manager at Cancer Research UK, will be joining
+    us to share her insights into the evolution of Cancer and <a href="http://www.twitter.com/adamrutherford">Dr.
+    Adam Rutherford</a>, journalist and presenter, will be using hip hop in his exploration
     of evolution and synthetic biology.</p><h2>Refund Policy</h2><p>If you discover
     that you are unable to attend the event you bought tickets for, we are happy to
     arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk
@@ -1275,7 +1306,9 @@ geekyscience:
     an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
     with your name and the name of the person you&#39;d like to transfer to the ticket
     to. We will transfer your ticket as long as you notify us of this at least 24
-    hours before the event goes ahead.</p>'
+    hours before the event goes ahead.</p>"
+
+'
   lanyrd: http://lanyrd.com/2013/geekyscience-september/
   booking_link: http://geekyscience-september.eventbrite.com/
   blurb: An evening of talks exploring an exciting variety of scientific topics.
@@ -1285,7 +1318,7 @@ geekyscience:
   - events
   - meetups
   - geekyscience
-  filename: geekyscience1
+  filename: geeky-science1
   epoch_s_date: 1378404000
   epoch_s_end_date: 1378414800
   time_zone: BST
@@ -1301,10 +1334,10 @@ geekyscience:
   title: ! 'GeekyScience: Fire'
   map: Central Foundation Boys School, Cowper Street, EC2A 4SH
   cost: £6-10
-  text: ! '<p>GeekyScience is an exciting evening of learning and entertainment. Each
-    month, experts in their field will come together to share what they know, related
-    to an overarching scientific theme that will change each month. GeekyScience is
-    both curated and hosted by (link: http://www.twitter.com/helenarney text: Helen
+  text: ! '"<p>GeekyScience is an exciting evening of learning and entertainment.
+    Each month, experts in their field will come together to share what they know,
+    related to an overarching scientific theme that will change each month. GeekyScience
+    is both curated and hosted by (link: http://www.twitter.com/helenarney text: Helen
     Arney), award-winning comedian and physics graduate. If you want to learn about
     the things that live deep within the ocean, how to make an asteroid or what an
     explosion scientist gets up to day-to-day; GeekyScience is something you don’t
@@ -1328,7 +1361,9 @@ geekyscience:
     you would like to go in your place, send an email to (email: contact@eventhandler.co.uk
     text: contact@eventhandler.co.uk) with your name and the name of the person you&#39;d
     like to transfer to the ticket to. We will transfer your ticket as long as you
-    notify us of this at least 24 hours before the event goes ahead.</p>'
+    notify us of this at least 24 hours before the event goes ahead.</p>"
+
+'
   lanyrd: http://lanyrd.com/2013/geekyscience-october/
   booking_link: http://geekyscience-october.eventbrite.com/
   blurb: An evening of talks exploring an exciting variety of scientific topics.
@@ -1354,10 +1389,10 @@ geekyscience:
   title: ! 'GeekyScience: Spaaace'
   map: Central Foundation Boys School, Cowper Street, EC2A 4SH
   cost: £6-10
-  text: ! '<p>GeekyScience is an exciting evening of learning and entertainment. Each
-    month, experts in their field will come together to share what they know, related
-    to an overarching scientific theme that will change each month. GeekyScience is
-    both curated and hosted by (link: http://www.twitter.com/helenarney text: Helen
+  text: ! '"<p>GeekyScience is an exciting evening of learning and entertainment.
+    Each month, experts in their field will come together to share what they know,
+    related to an overarching scientific theme that will change each month. GeekyScience
+    is both curated and hosted by (link: http://www.twitter.com/helenarney text: Helen
     Arney), award-winning comedian and physics graduate. If you want to learn about
     the things that live deep within the ocean, how to make an asteroid or what an
     explosion scientist gets up to day-to-day; GeekyScience is something you don’t
@@ -1380,7 +1415,9 @@ geekyscience:
     an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk)
     with your name and the name of the person you&#39;d like to transfer to the ticket
     to. We will transfer your ticket as long as you notify us of this at least 24
-    hours before the event goes ahead.</p>'
+    hours before the event goes ahead.</p>"
+
+'
   lanyrd: http://lanyrd.com/2013/geekyscience-november/
   booking_link: http://geekyscience-november.eventbrite.com/
   blurb: An evening of talks exploring an exciting variety of scientific topics.
