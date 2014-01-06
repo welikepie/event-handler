@@ -88,8 +88,8 @@
   url: /workshops/eventhandlernightclass-modernlayout
   prettyname: ! 'Eventhandler Night Classes: Modern Layout'
   description: An evening workshop dedicated to learning Modern CSS Layout Techniques
-- series: ldnjsnightclass-backbonefullday
-  url: /workshops/ldnjsnightclass-backbonefullday
+- series: ldnjsclass-backbonefullday
+  url: /workshops/ldnjsclass-backbonefullday
   prettyname: ! 'London JS Classes: Backbone Full Day'
   description: A full-day BackboneJS Workshop
 - series: uxnightclass-sketchinginterfaces
@@ -116,8 +116,8 @@
   url: /workshops/eventhandlernightclass-webperformance
   prettyname: ! 'Eventhandler Night Classes: Web Performance'
   description: Optimising Web Performance
-- series: ldnjsnightclass-angularfullday
-  url: /workshops/ldnjsnightclass-angularfullday
+- series: ldnjsclass-angularfullday
+  url: /workshops/ldnjsclass-angularfullday
   prettyname: ! 'London JS Classes: AngularJS Full-Day Workshop'
   description: Full-day AngularJS Workshop
 - series: ldnjsnightclass-testingjs
