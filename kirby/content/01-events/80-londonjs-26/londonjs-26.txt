@@ -1,4 +1,4 @@
-Title: London JS: Data Visualisation
+Title: London JS: Tiny Angular
 ----
 Text:
 
