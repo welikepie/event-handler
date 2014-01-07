@@ -39,7 +39,7 @@ Infobox:
 <h1>
 	<span>London JS</span>
 	<span>27th January 2014</span>
-	<abbr class="easydate">Mon, 27 January 2013 18:30:00 +0000</abbr>
+	<abbr class="easydate">Mon, 27 January 2014 18:30:00 +0000</abbr>
 	<a href="http://londonjs-26.eventbrite.com/" target="_blank">View Tickets</a>
 </h1>
 ----
