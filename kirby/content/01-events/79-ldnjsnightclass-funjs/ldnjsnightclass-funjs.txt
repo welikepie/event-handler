@@ -1,0 +1,70 @@
+Title: London JS Night Class: Functional JavaScript
+----
+Text: 
+On the 12th of February, (link: http://www.twitter.com/timruffles text: Tim Ruffles) will be hosting a workshop in which you can get to grips with Functional JavaScript.
+
+(image: funjs.png class: full-width)
+
+### Who is it for?
+
+Functional programming takes us back to basics: functions and data. Functions become our primary tool of abstraction and structure in our programs, transforming data in pipelines. This delivers real simplicity and lets us focus on solving problems, rather than obsessing over forcing programs into object hierarchies.
+ 
+How does functional programming differ from OOP? What are higher order functions? How do you get started with functional Javascript? Tim & Matt will answer these questions by taking you through the core concepts of FP, and guiding you through exercises to ensure the concepts stick.
+
+### Who is it taught by?
+
+This workshop is being run by (link: http://www.twitter.com/timruffles text: Tim Ruffles) & (link: http://www.twitter.com/mattfieldy text: Matt Field). Tim is a Ruby & JavaScript Developer living and working in London. He spends time mentoring others and working on (link: http://www.sidekickjs.com text: SidekickJS), his code-quality tracking tool. Matt is a developer interested in a variety of things including JavaScript, Functional Programming, Clojure and (sipping) whisky. Together, they run the (link: http://lanyrd.com/series/funjsldn/ text: FunctionalJS London) meet-up.
+
+### What you'll cover
+
+* An introduction to Functional Programming
+* Higher order functions
+* D3.js
+* Combinators
+* State & Change
+
+### Requirements
+
+* Must have a competency with JavaScript
+* Please bring your laptop with your text editor of choice installed
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+An evening workshop dedicated to Functional Programming
+----
+What: Functional Programming
+----
+Date: 2014-02-12 19:00
+----
+End_Date: 2014-02-12 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £50 - £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Functional Programming</span>
+	<span>12th February 2014</span>
+	<abbr class="easydate">Weds, 12 February 2014 19:00:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-funjs.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-funjs.eventbrite.com/
+----
+Lanyrd: http://lanyrd.com/2014/ldnjsnightclass-funjs
+----
+LanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-funjs/speakers/c0fb3e3a38dc0c6c.v1.json
+----
