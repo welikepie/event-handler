@@ -11,6 +11,7 @@ With all the new HTML5 APIs and node.js making waves in the backend, it's never 
 ## Talks This Month
 
 * Tiny Angular - (link: http://twitter.com/timruffles text: @timruffles)
+* TBC - (link: http://www.twitter.com/tomstuart text: @tomstuart)
 
 ## Sponsors
 (image: pokelogo.png class: rmboxshad full-width link:http://www.pokelondon.com)
