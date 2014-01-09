@@ -3,8 +3,6 @@ Title: CSS Architecture For Big Front-Ends
 Text: 
 On Friday the 7th of March, (link: http://www.twitter.com/csswizardry text: Harry Roberts) will be hosting a **full-day** workshop in which you can learn to use architecte big-front ends. 
 
-<p class="soldout">This workshop is sold out! However; we have another CSS Architecture workshop (link: http://www.eventhandler.co.uk/events/eventhandlerclass-cssarchitecture2 text: here)!</p>
-
 (image: cssarchitecture.png class: full-width)
 
 Ten years ago most websites were small affairs, with perhaps a handful of pages and very simple designs. Today, however, the majority of websites are very different beasts…
