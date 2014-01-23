@@ -1,9 +1,9 @@
-Title: London JS Night Class: An Introduction to Arduino with JavaScropt
+Title: London JS Night Class: An Introduction to Arduino with JavaScript
 ----
 Text: 
 On the 18th of March, (link: http://www.twitter.com/grinblo text: Evgenia Grinblo) will be introducing a night class into the world of Arduino with JavaScript.
 
-(image: introtoarduino.png class: full-width)
+(image: introarduino.png class: full-width)
 
 ### Who is it for?
 
@@ -63,7 +63,7 @@ Map: 80 Haymarket, London, SW1Y 4TE
 Infobox:
 
 <h1>
-	<span>Intro to Arduino with JavaScript</span>
+	<span>Introduction to Arduino</span>
 	<span>18th March 2014</span>
 	<abbr class="easydate">Tues, 18 March 2014 19:00:00 +0000</abbr>
 	<a href="http://ldnjsnightclass-introtoarduino.eventbrite.com/" target="_blank">View Tickets</a>
