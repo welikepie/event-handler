@@ -1,0 +1,76 @@
+Title: London JS Night Class: An Introduction to Arduino with JavaScropt
+----
+Text: 
+On the 18th of March, (link: http://www.twitter.com/grinblo text: Evgenia Grinblo) will be introducing a night class into the world of Arduino with JavaScript.
+
+(image: introtoarduino.png class: full-width)
+
+### Who is it for?
+
+This workshop is for curious minds. It is for people who bought an Arduino but don't know quite what to do with it or where to start. It is also for people who find the idea of an Arduino attractive, but need to be convinced. 
+
+For those who thought they'd have to learn C to make it work, we'll show you JavaScript can be the solution.
+
+In one evening you will learn how to work with Arduino and Breakout.js to create prototypes and kick-start your ideas. This class will rely on your existing JS, HTML and CSS skills to bring you one step closer to being a Maker.
+ 
+
+### Who is it taught by?
+
+This workshop is run by (link: http://www.twitter.com/lily_2point0 text: Lily Madar). Lily is a Creative Technologist living and working in London. Doing mostly front-end development at work, she spends her free time playing around with Arduino and other physical devices, always adding crazy ideas to her ever-growing to-do list. She created the LED-based Advent Calendar (link: http://300leds.wordpress.com text: 300leds.wordpress.com)
+
+### What you'll learn
+
+* Getting started with Arduino & Breakout.js
+* Wiring basic electronic components to your board
+* Prototyping
+* Use Arduino as a physical interface to interact with your browser view
+* How to plan the steps to make your ideas happen 
+
+### Requirements
+
+* Please bring your laptop (preferably with the latest version of the Arduino IDE and (link: http://breakoutjs.com/download/ text: BreakoutJS)on it)
+
+* To take part in this course, you must know the basics of JavaScript, jQuery (or similar DOM library) and HTML/CSS (knowing canvas is a bonus).
+
+* No need to bring an Arduino, you'll be provided with one for the evening.
+
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+JavaScript on the Arduino
+----
+What: An Introduction to Arduino with JavaScript
+----
+Date: 2014-03-18 19:00
+----
+End_Date: 2014-03-18 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £50 - 60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Intro to Arduino with JavaScript</span>
+	<span>18th March 2014</span>
+	<abbr class="easydate">Tues, 18 March 2014 19:00:00 +0000</abbr>
+	<a href="http://ldnjsnightclass-introtoarduino.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://ldnjsnightclass-introtoarduino.eventbrite.com
+----
+Lanyrd: http://www.lanyrd.com/2014/ldnjsnightclass-introtoarduino
+----
+LanyrdAPI: http://lanyrd.com/2014/ldnjsnightclass-introtoarduino/speakers/d20630815be872b4.v1.json
