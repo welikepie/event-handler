@@ -1,7 +1,7 @@
 Title: London JS Night Class: An Introduction to Arduino with JavaScript
 ----
 Text: 
-On the 18th of March, (link: http://www.twitter.com/grinblo text: Evgenia Grinblo) will be introducing a night class into the world of Arduino with JavaScript.
+On the 18th of March, (link: http://www.twitter.com/lily_2point0 text: Lily Madar) will be introducing a night class into the world of Arduino with JavaScript.
 
 (image: introarduino.png class: full-width)
 
@@ -28,10 +28,8 @@ This workshop is run by (link: http://www.twitter.com/lily_2point0 text: Lily Ma
 
 ### Requirements
 
-* Please bring your laptop (preferably with the latest version of the Arduino IDE and (link: http://breakoutjs.com/download/ text: BreakoutJS)on it)
-
+* Please bring your laptop (preferably with the latest version of the Arduino IDE and (link: http://breakoutjs.com/download/ text: BreakoutJS) on it)
 * To take part in this course, you must know the basics of JavaScript, jQuery (or similar DOM library) and HTML/CSS (knowing canvas is a bonus).
-
 * No need to bring an Arduino, you'll be provided with one for the evening.
 
 
