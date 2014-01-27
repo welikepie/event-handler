@@ -14,7 +14,7 @@ The workshop will explain all operations needed to use git fluently: committing,
 
 ### Who is taught by?
 
-This workshop is being taught by Kornel Lesinski (link: http://twitter.com/pornelski text: @pornelski), Senior Developer at BazaarVoice. Kornel is a developer with many languages in his toolset including PHP, HTML5, CSS & JavaScript. He has created many popular image compression tools: (link: http://www.imageoptim.com text: ImageOptim), (link: http://www.pngmini.com text: ImageAlpha) & (link: http://www.pngquant.org text: pngquant) and is a big fan of web-based game development and web standards. You'll find Kornel talking at meet-ups, events and international conferences. 
+This workshop is being taught by Kornel Lesinski (link: http://twitter.com/pornelski text: @pornelski), developer at FT Labs. Kornel is a developer with many languages in his toolset including PHP, HTML5, CSS & JavaScript. He has created many popular image compression tools: (link: http://www.imageoptim.com text: ImageOptim), (link: http://www.pngmini.com text: ImageAlpha) & (link: http://www.pngquant.org text: pngquant) and is a big fan of web-based game development and web standards. You'll find Kornel talking at meet-ups, events and international conferences. 
 
 ### What you'll learn
 
