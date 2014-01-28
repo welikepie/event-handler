@@ -1,0 +1,70 @@
+Title: UX Night Class: Sketchnotes Workshop
+----
+Text: 
+On the 4th of March, (link: http://www.twitter.com/lurkmoophy text: Luke Murphy-Wearmouth) will be teaching an evening class on Sketchnoting!
+
+(image: sketchnotes.png class: full-width)
+
+### Who is it for?
+
+Have you ever walked out of a talk or presentation with a rambling page of notes that will probably never be looked at again? Sketchnoting, also known as visual note taking, is a way of taking your notes and making them more memorable and interesting, while also distilling ideas down and providing an easier way to navigate through a tangle of ideas.
+
+In the workshop, we’ll start with the basics of sketching and build up to how to communicate your ideas effectively through sketching, as well as some techniques to listen and sketch at the same time, through theory, practice exercises, live sketching and group critiques.
+ 
+
+### Who is it taught by?
+
+(link: http://www.twitter.com/lurkmoophy text: Luke) has designed and built things for Microsoft, Hotels.com, O2, FT.com and Pearson. He also tinkers with music at (link: http://www.earlydoorsdisco.com text: Early Doors Disco), helps run (link: http://www.londonjsconf.com text: London JS Conf) and occasionally chases ghosts through London. Luke has been sketchnoting for three years and you can take a look at some of his sketchnotes (link: http://www.flickr.com/photos/ubelly/sets/72157625053185564/ text: here)! 
+
+### What you'll learn
+
+* The basics of sketching for those who think they can’t draw
+* Building up your visual arsenal of elements
+* The role of individual style
+* Techniques to identify concepts and keep up with speakers
+* How to create simple, effective visual metaphors
+
+### Requirements
+
+* Just bring yourself, we'll provide the pens & paper!
+
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Sketchnotes Workshop
+----
+What: An Introduction to Sketchnoting
+----
+Date: 2014-03-04 19:00
+----
+End_Date: 2014-03-04 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £50 - 60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Sketchnotes Workshop</span>
+	<span>4th March 2014</span>
+	<abbr class="easydate">Tues, 4 March 2014 19:00:00 +0000</abbr>
+	<a href="http://uxnightclass-sketchnotes.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://uxnightclass-sketchnotes.eventbrite.com/
+----
+Lanyrd: http://www.lanyrd.com/2014/uxnightclass-sketchnotes
+----
+LanyrdAPI: http://lanyrd.com/2014/uxnightclass-sketchnotes/speakers/3d39422059450b81.v1.json
