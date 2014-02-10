@@ -1,0 +1,70 @@
+Title: A Basic Guide to Graphic Design for Digital Application 
+----
+Text: 
+On Wednesday the 26th of March, graphic and interaction designer Nicola Sherry (link: http://www.twitter.com/smallsherry text: @smallsherry) will take you through the basic graphic design principles you need for your digital projects.
+
+(image: sherry.png class: full-width)
+
+### Who is it for?
+
+This workshop will aim to give you an understanding of fundamental colour, typographic and layout principles to help you make better visual design decisions for your digital projects. You will work towards creating a comprehensive style guide for your own digital design projects and come away with lots of useful knowledge and techniques to put into practice.
+ 
+
+### Who is it taught by?
+
+Nikki is a graphic and interaction designer. She has a background in print design and branding but for the last 3 years has mostly been designing digital products. She previously worked at London based agencies (link: http://www.sidekickstudios.net text: Sidekick Studios) and (link: http://www.mintdigital.com text: Mint Digital) for clients ranging from Carers UK to Channel 4. She currently works as a freelance designer and also teaches on a post graduate design course at Ravensbourne.
+
+### What you'll learn
+
+This workshop is ideal for anyone who is involved in creating websites, applications or digital products and wants to improve their graphic design and layout skills.
+
+You will cover the following:
+
+* Basic colour theory and harmonious colour palette selection
+* Best practice typographic principles
+* Effective font selection and font pairing  
+
+### Requirements
+
+* Please bring your laptop with Photoshop & Illustrator installed.
+
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Graphic Design Basics
+----
+What: Graphic Design Basics
+----
+Date: 2014-03-26 19:00
+----
+End_Date: 2014-03-26 22:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £50 - £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Graphic Design Basics</span>
+	<span>26th March 2014</span>
+	<abbr class="easydate">Weds, 26 March 2014 19:00:00 +0000</abbr>
+	<a href="https://graphicdesignbasics.eventbrite.co.uk" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: https://graphicdesignbasics.eventbrite.co.uk
+----
+Lanyrd: http://lanyrd.com/2014/ehnightclass-graphicdesignbasics/
+----
+LanyrdAPI: http://lanyrd.com/2014/ehnightclass-graphicdesignbasics/speakers/32c1991624ac8557.v1.json
