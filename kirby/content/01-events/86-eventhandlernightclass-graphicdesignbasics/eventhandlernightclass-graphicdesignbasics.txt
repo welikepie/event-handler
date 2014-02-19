@@ -20,9 +20,10 @@ This workshop is ideal for anyone who is involved in creating websites, applicat
 
 You will cover the following:
 
-* Basic colour theory and harmonious colour palette selection
-* Best practice typographic principles
-* Effective font selection and font pairing  
+* Basic colour theory
+* Intro to best practice typographic principles
+* Use of images and iconography
+* Basic layout principles
 
 ### Requirements
 
