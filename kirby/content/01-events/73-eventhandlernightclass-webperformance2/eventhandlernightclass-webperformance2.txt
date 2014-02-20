@@ -31,7 +31,12 @@ Patrick is a senior client-side developer at the (link: http://www.theguardian.c
 
 ### Requirements
 
-Please bring your laptop with your text editor and browser of choice installed.
+Please bring your laptop with the following installed:
+
+* Latest (link: https://www.google.com/intl/en/chrome/browser/ text: Chrome) browser
+* (link: http://nodejs.org/ text: Node.js)
+* (link: http://gruntjs.com/ text: Grunt)
+
 
 ### Refund Policy
 
