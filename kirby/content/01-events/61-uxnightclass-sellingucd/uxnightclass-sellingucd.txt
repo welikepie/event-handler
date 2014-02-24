@@ -65,10 +65,10 @@ Infobox:
 	<span>Selling UCD</span>
 	<span>26th February 2014</span>
 	<abbr class="easydate">Tues, 11 February 2014 19:00:00 +0000</abbr>
-	<a href="http://uxnightclass-sellingucd.eventbrite.com/" target="_blank">View Tickets</a>
+	<a href="https://uxnightclasses-sellingucd.eventbrite.co.uk" target="_blank">View Tickets</a>
 </h1>
 ----
-Booking_link: http://uxnightclass-sellingucd.eventbrite.com/
+Booking_link: https://uxnightclasses-sellingucd.eventbrite.co.uk
 ----
 Lanyrd: http://www.lanyrd.com/2014/uxnightclass-sellingucd
 ----
