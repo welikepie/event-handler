@@ -1,0 +1,72 @@
+Title: Crafting Type: An Introduction to Type Design
+----
+Text: 
+On Friday the 9th of May, Dave Crossland (link: http://www.twitter.com/davelab6 text: @davelab6) will be hosting a full-day "Crafting Type" workshop in which you can learn the skills to start design your own type.
+
+(image: craftingtype.png class: full-width)
+
+### Who is it for?
+
+Crafting Type is a workshop where absolute beginners learn how to design typefaces. This workshop will benefit anyone who does professional typography (using fonts, not making them). Previous attendees of the Crafting Type workshops come from established careers as artists, architects, and illustrators.
+
+Learning type design is a great way to deepen your understanding of typography. Zooming in to this level of detail is still rare, and being able to drill down with clients and other designers sets you apart.
+ 
+
+### Who is it taught by?
+
+(link: http://www.twitter.com/davelab6 text: Dave Crossland) is an English type designer, best known for creating the Cantarell typeface: a beautiful contemporary Humanist sans serif. Made while studying for over 2 years in the Department of Typography at the University of Reading (UK, 2009), Cantarell was chosen as the brand type for the GNOME desktop. Dave is currently ‘Font Consultant’ to (link: https://www.google.com/fonts text: Google Fonts) and has commissioned hundreds of typefaces from designers around the world.
+
+### What you'll learn
+
+* Expert letter sketching in pencil
+* The unexpected key application needed to design even a few letters digitally
+* Using FontForge to begin creating a functional OpenType font
+* The most important features in any font editor
+* The typeface design lifecycle explained
+
+### Requirements
+
+* We'll provide the sketching materials!
+* Please bring your laptop
+* Please install (link: http://fontforge.github.io/en-US/downloads/mac/ text: FontForge) on your laptop, it's what we'll be using to create our font
+
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Crafting Type
+----
+What: Crafting Type
+----
+Date: 2014-05-09 10:00
+----
+End_Date: 2014-05-09 18:00
+----
+Where: Hub Westminster, 
+1st floor, New Zealand House 
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £120 - £150
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Crafting Type</span>
+	<span>9th May 2014</span>
+	<abbr class="easydate">Fri, 9 May 2014 10:00:00 +0000</abbr>
+	<a href="https://craftingtype.eventbrite.co.uk" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: https://craftingtype-eventhandler.eventbrite.co.uk
+----
+Lanyrd: http://lanyrd.com/2014/craftingtype-eventhandler
+----
+LanyrdAPI: http://lanyrd.com/2014/craftingtype-eventhandler/speakers/697f4e06e5e94f02.v1.json
