@@ -149,3 +149,8 @@
   prettyname: Graphic Design Basics
   description: |
     Graphic Design Basics with Nicola Sherry
+- series: eventhandler-craftingtype
+  url: "/workshops/eventhandler-craftingtype"
+  prettyname: Crafting Type
+  description: |
+    An Introduction to Type Design, with Dave Crossland

@@ -678,7 +678,7 @@ londonjs:
   - events
   - meetups
   - londonjs
-  filename: londonjs-26
+  filename: londonjs-27
   epoch_s_date: 1390847400
   epoch_s_end_date: 1390856400
   time_zone: GMT
@@ -715,7 +715,7 @@ londonjs:
   - events
   - meetups
   - londonjs
-  filename: londonjs-27
+  filename: londonjs-26
   epoch_s_date: 1390847400
   epoch_s_end_date: 1390856400
   time_zone: GMT
@@ -868,7 +868,7 @@ ldnjsnightclass-arduino:
   venue: hubwestminster
   title: An Introduction to Arduino with JavaScript
   map: 80 Haymarket, London, SW1Y 4TE
-  cost: "£60"
+  cost: "£30-40"
   text: "<p>On the 18th of March, <a href='http://www.twitter.com/lily_2point0' alt='Lily
     Madar'>Lily Madar</a> will be introducing a night class into the world of Arduino
     with JavaScript.</p> <p><img src='introarduino.png'></p> <h3>Who is it for?</h3>
@@ -3605,3 +3605,65 @@ eventhandlernightclass-graphicdesignbasics:
   seriesconfdescription: |
     Graphic Design Basics with Nicola Sherry
   url: "/workshops/eventhandlernightclass-graphicdesignbasics"
+eventhandler-craftingtype:
+- speakerID: davecrossland
+  series: eventhandler-craftingtype
+  eventbriteid: ''
+  venue: hubwestminster
+  title: Crafting Type
+  map: 80 Haymarket, London, SW1Y 4TE
+  cost: "£120 - £150"
+  text: "<p>On Friday the 9th of May, <a href='http://www.twitter.com/davelab6' alt='Dave
+    Crossland'>Dave Crossland</a> will be hosting a full-day 'Crafting Type' workshop
+    in which you can learn the skills to start design your own type</p> <p><img src='craftingtype.png'></p>
+    <p>Crafting Type is a workshop where absolute beginners learn how to design typefaces.
+    This workshop will benefit anyone who does professional typography (using fonts,
+    not making them). Previous attendees of the Crafting Type workshops come from
+    established careers as artists, architects, and illustrators.</p> <p>Learning
+    type design is a great way to deepen your understanding of typography. Zooming
+    in to this level of detail is still rare, and being able to drill down with clients
+    and other designers sets you apart.</p> <h3>Who is it taught by?</h3> <p><a href='http://www.twitter.com/davelab6'
+    alt='Dave Crossland'>Dave</a> is an English type designer, best known for creating
+    the Cantarell typeface: a beautiful contemporary Humanist sans serif. Made while
+    studying for over 2 years in the Department of Typography at the University of
+    Reading (UK, 2009), Cantarell was chosen as the brand type for the GNOME desktop.
+    Dave is currently ‘Font Consultant’ to <a href='https://www.google.com/fonts'>Google
+    Fonts</a> and has commissioned hundreds of typefaces from designers around the
+    world</p> <h3>What you'll learn</h3> <p>This full-day workshop shall give a whirlwind
+    overview of:</p> <ul> <li>Expert letter sketching in pencil</li> <li>The unexpected
+    key application needed to design even a few letters digitally</li> <li>Using FontForge
+    to begin creating a functional OpenType font</li> <li>The most important features
+    in any font editor</li> <li>The typeface design lifecycle explained</li> </ul>
+    <p>So much to cover, and such little time! Bring your laptop and your best CSS-game
+    and let’s get cracking. It’s gonna be fun!</p> <h3>Requirements</h3> <ul> <li>We'll
+    provide the sketching materials!</li> <li>Please bring your laptop</li> <li>Please
+    install <a href='http://fontforge.github.io/en-US/downloads/mac/'>FontForge</a>
+    on your laptop, it's what we'll be using to create our font</li> </ul> <h3>Refund
+    Policy</h3> <p>If you discover that you are unable to attend the event you bought
+    tickets for, we are happy to arrange a 100% refund for you as long as you notify
+    us at <a href='mailto:contact@eventhandler.co.uk'>contact@eventhandler.co.uk</a>
+    of your need for a refund, up to a month before the event in question.</p> <p>If
+    you cannot attend the event you bought tickets for but have a friend or coworker
+    that you would like to go in your place, send an email to <a href='mailto:contact@eventhandler.co.uk'>contact@eventhandler.co.uk</a>
+    with your name and the name of the person you'd like to transfer to the ticket
+    to. We will transfer your ticket as long as you notify us of this at least 24
+    hours before the event goes ahead.</p>"
+  lanyrdAPI: ''
+  lanyrd: http://lanyrd.com/2014/craftingtype-eventhandler/speakers/697f4e06e5e94f02.v1.json
+  booking_link: https://craftingtype-eventhandler.eventbrite.co.uk
+  blurb: An Introduction to Type Design
+  date: 2014-05-09 10:00
+  end_Date: 2014-05-09 18:00
+  directory_tags:
+  - events
+  - workshops
+  - eventhandler-craftingtype
+  filename: eventhandler-craftingtype
+  epoch_s_date: 1399626000
+  epoch_s_end_date: 1399654800
+  time_zone: BST
+  seriesconfpath: site/_data/events/workshops/eventhandler-craftingtype/
+  seriesconfprettyname: Crafting Type
+  seriesconfdescription: |
+    An Introduction to Type Design, with Dave Crossland
+  url: "/workshops/eventhandler-craftingtype"

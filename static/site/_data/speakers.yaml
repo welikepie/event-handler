@@ -23,6 +23,18 @@ benhowdle:
   directory_tags:
   - speakers
   filename: benhowdle
+davecrossland:
+  picture: "/assets/img/speakers/timruffles.png"
+  name: Tim Ruffles
+  title: Web Developer and Teacher
+  description: |
+    Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on SidekickJS, his code-quality tracking tool. You can find him speaking about the web at various events.
+  lanyrd: timruffles
+  twitter: timruffles
+  webpage: http://truffles.me.uk/
+  directory_tags:
+  - speakers
+  filename: davecrossland
 evalottalamm:
   picture: https://d8142femxnlg1.cloudfront.net/cropped-profile-photos/034848b8e23fbe34485c576b1090fd45cb292ef7-t640.jpg
   name: Eva-Lotta Lamm
