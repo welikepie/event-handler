@@ -1,4 +1,4 @@
-module Jekyll 
+module Jekyll
   module Calendar_functions
     def afterToday(starting)
       starting = (starting-Time.now.to_i) >= 0;
@@ -35,7 +35,8 @@ module Jekyll
     def monthcount(starting)
       x = starting/60/60/24/30.5;
       if((x - x.floor) > 0.5)
-        x.ceiling;
+        # It is Ceil, not Ceiling!
+        x.ceil;
       else
         x.floor;
       end
@@ -117,7 +118,7 @@ module Jekyll
   		starting.concat(ending)
   	end
   end
-end 
+end
 
 def time_since_epoch(time)
 	begin
