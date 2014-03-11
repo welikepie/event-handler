@@ -1,6 +1,6 @@
 ##Dependencies##
 - **ruby** (1.9.3 used in development, use RVM to install it if necessary)
-- Make sure rubygems and ruby are up to date. 
+- Make sure rubygems and ruby are up to date.
 - gem install jekyll
 - [Mac] If this fails with "gcc-4.2: No such file or directory" or similar, run brew install apple-gcc42
 - [Mac] If it still fails, run xcode-select --install to install xcode command line tools (Needed in Mavericks)
@@ -55,15 +55,15 @@ Comment; location property is an array which takes two arguments; latitude then 
 
 ##Page Building and Compiling process##
 
-Jekyll has a slightly funny way of doing things to build pages. 
+Jekyll has a slightly funny way of doing things to build pages.
 
-Firstly, you define the rigid site structure in folders in the root of the static/site/ folder. Folders without an underscore (_) before their names will be included and as such will have their contents created as pages. Each folder has its' own index.html file, which can contain the following; 
+Firstly, you define the rigid site structure in folders in the root of the static/site/ folder. Folders without an underscore (_) before their names will be included and as such will have their contents created as pages. Each folder has its' own index.html file, which can contain the following;
 - **Headmatter** A bit of yaml at the top of the document denoting which layout from the _layouts folder to use and title of page.
 - **content** HTML content of the page. Note, this isn't a necessity of each index.html file and can also be in the layout relevant to the file.
 
 Now we have the layouts in the _layouts folder. These are what the pages reference to build themselves. Each layout has a name, which is referenced in the respective index.html folder. Can contain liquid templating language, also just normal HTML. Also has the feature of Includes, which mean you can "include" snippets of html (header / footer etc.) in to your document to be added to the page during compile.
 
-During compilation, the base pages are compiled, and all of the ruby in the _plugins folder is ran. What this does in this case is iterates through allof the data files in the data folder, and creates pages for each series of events as well as individual pages for each series.
+During compilation, the base pages are compiled, and all of the ruby in the _plugins folder is ran. What this does in this case is iterates through all of the data files in the data folder, and creates pages for each series of events as well as individual pages for each series.
 
 These created files are copied in to the static/RELEASE/ folder, where the new version of the site lives.
 
@@ -76,13 +76,13 @@ These templates are used to create new Events, Speakers and Venues. They live in
 ### Events Template ###
 
     speakerID: timruffles //same speakerID as the file name of the speaker. Can be an array.
-    title: "London JS Night Class: AngularJS" 
+    title: "London JS Night Class: AngularJS"
     series: 1 , yes, true or 0, no, false are accepted values
     eventbriteid: String
     text: |
       So this is a decently interesting example introduction using
       the high and venerable art of markdown.
-    blurb: An evening workshop dedicated to learning AngularJS 
+    blurb: An evening workshop dedicated to learning AngularJS
     date: 2013-11-05 19:00
     end_Date: 2013-11-05 22:00
     where: hubwestminster
@@ -112,31 +112,31 @@ These templates are used to create new Events, Speakers and Venues. They live in
         This is multiline markdown.
         The two spaces at the beginning are mandatory.
         Otherwise Jekyll breaks. It's sad.
-    location: 
+    location:
       - 32
       - 50
     closest_stations:
       - name: test name
-        location: 
+        location:
           - 32
           - 50
-        lines: 
+        lines:
           - piccadily
           - northern
           - etc.
-        type: 
+        type:
           - rail
           - tube
           - overground
       - name: test name
-        location: 
+        location:
           - 32
           - 50
-        lines: 
+        lines:
           - piccadily
           - northern
           - etc.
-        type: 
+        type:
           - rail
           - tube
           - overground
@@ -207,16 +207,13 @@ Multiple inputs that are used as responses to the same question should be concat
       "interests" : "Zombies, Javascript"
     }
 
-Naming conventions for each input are loose, as long as data is correctly serialised. 
+Naming conventions for each input are loose, as long as data is correctly serialised.
 
 **Suggested naming is as follows;**
-  
+
     name_for_value.type_of_input.group
 
 with .group symbolising the fact of more than one input.
-
-####Relevant XKCD####
-![Why you should sanitise Database Inputs; Little Bobby Tables](http://imgs.xkcd.com/comics/exploits_of_a_mom.png "Her daughter is named Help I'm trapped in a driver's license factory.")
 
 ###On Form Validation###
 
@@ -224,7 +221,7 @@ Form validation is handled by a javascript file in the assets/scripts/formJS fol
 
 To validate a form, it is a case of attaching a function to the on click event of the submit button, creating a form validation object and calling the submit method of that object.
 
-The object creation takes up to five parameters with a minimum of three in the form of a JSON object; 
+The object creation takes up to five parameters with a minimum of three in the form of a JSON object;
 
     {
     "array_of_elements" : [],
@@ -247,10 +244,10 @@ To create an instance of the form tester, pass in an array of elements to test, 
 - float
 - email
 
-NOTE: percent accepts values between 0 and 100, whereas percent2 attempts to accept all of the following as valid percentages; 
+NOTE: percent accepts values between 0 and 100, whereas percent2 attempts to accept all of the following as valid percentages;
 
-- 69% 
-- 69 
+- 69%
+- 69
 - 0.69
 
 To specify the "success_function" parameter correctly, all that is necessary is to define a function which can be executed once the form is shown to have verified correctly.

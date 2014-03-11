@@ -52,8 +52,8 @@
 				}
 				function displayFail(){
 				?>
-					<h3 class="errorhead">You're not allowed to access this page.</h3>
-					<p class="error">
+					<h3>You're not allowed to access this page.</h3>
+					<p>
 					This means that your Twitter username is not on our list. If you think this is in error, please drop us an email at <a href="mailto:charlotte@welikepie.com">charlotte@welikepie.com</a>.
 					</p>
 				<?php

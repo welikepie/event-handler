@@ -1,0 +1,36 @@
+speakerID: "lukemurphy"
+series: 1
+eventbriteid: ""
+venue: "hubwestminster"
+title: "An Introduction to Sketchnoting"
+map: "80 Haymarket, London, SW1Y 4TE"
+cost: £60
+text: "<p>On the 4th of March, <a href='http://www.twitter.com/lurkmoophy' alt='Luke Murphy'>Luke Murphy</a> will be teaching an evening class on Sketchnoting!</p>
+<p><img src='sketchnotes.png'></p>
+<h3>Who is it for?</h3>
+<p>Have you ever walked out of a talk or presentation with a rambling page of notes that will probably never be looked at again? Sketchnoting, also known as visual note taking, is a way of taking your notes and making them more memorable and interesting, while also distilling ideas down and providing an easier way to navigate through a tangle of ideas.</p>
+<p>In the workshop, we’ll start with the basics of sketching and build up to how to communicate your ideas effectively through sketching, as well as some techniques to listen and sketch at the same time, through theory, practice exercises, live sketching and group critiques.</p>
+<h3>Who is it taught by?</h3>
+<p><a href='http://www.twitter.com/lurkmoophy' alt='Luke Murphy'>Luke</a> has designed and built things for Microsoft, Hotels.com, O2, FT.com and Pearson. He also tinkers with music at<a href='http://www.earlydoorsdisco.com'>Early Doors Disco</a>, helps run <a href='http://www.londonjsconf.com'>London JS Conf</a> and occasionally chases ghosts through London. Luke has been sketchnoting for three years and you can take a look at some of his sketchnotes <a href='http://www.flickr.com/photos/ubelly/sets/72157625053185564/'>here</a>!</p>
+<h3>What you'll cover</h3>
+<ul>
+  <li>The basics of sketching for those who think they can’t draw</li>
+  <li>Building up your visual arsenal of elements</li>
+  <li>The role of individual style</li>
+  <li>Techniques to identify concepts and keep up with speakers</li>
+  <li>How to create simple, effective visual metaphors</li>
+</ul>
+<h3>Requirements</h3>
+<ul>
+  <li>Just bring yourself, we'll provide the pens & paper!</li>
+</ul>
+<h3>Refund Policy</h3>
+<p>If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at <a href='mailto:contact@eventhandler.co.uk'>contact@eventhandler.co.uk</a> of your need for a refund, up to a month before the event in question.</p>
+<p>If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to <a href='mailto:contact@eventhandler.co.uk'>contact@eventhandler.co.uk</a> with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.</p>"
+
+lanyrdAPI: "http://lanyrd.com/2014/uxnightclass-sketchnotes/speakers/3d39422059450b81.v1.json"
+lanyrd: "http://www.lanyrd.com/2014/uxnightclass-sketchnotes"
+booking_link: "http://uxnightclass-sketchnotes.eventbrite.com/"
+blurb: An Introduction to Sketchnoting
+date: "2014-03-04 19:00"
+end_Date: "2014-03-04 22:00"

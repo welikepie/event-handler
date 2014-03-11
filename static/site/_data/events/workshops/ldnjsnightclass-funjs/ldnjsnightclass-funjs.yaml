@@ -1,0 +1,37 @@
+speakerID: ["timruffles", "mattfield"]
+series: 1
+eventbriteid: ""
+venue: "hubwestminster"
+title: "London JS Night Class: Functional JavaScript"
+map: "80 Haymarket, London, SW1Y 4TE"
+cost: "£50 - 60"
+text: "<p>On the 12th of February, <a href='http://www.twitter.com/timruffles' alt='Tim Ruffles'>Tim Ruffles</a> and <a href='http://www.twitter.com/mattfieldy' alt='Matt Field'>Matt Field</a> will be hosting a workshop in which you can get to grips with Functional JavaScript.</p>
+<p><img src='funjs.png'></p>
+<h3>Who is it for?</h3>
+<p>Functional programming takes us back to basics: functions and data. Functions become our primary tool of abstraction and structure in our programs, transforming data in pipelines. This delivers real simplicity and lets us focus on solving problems, rather than obsessing over forcing programs into object hierarchies.</p>
+<p>How does functional programming differ from OOP? What are higher order functions? How do you get started with functional Javascript? Tim & Matt will answer these questions by taking you through the core concepts of FP, and guiding you through exercises to ensure the concepts stick.</p>
+<h3>Who is it taught by?</h3>
+<p>This workshop is being run by <a href='http://www.twitter.com/timruffles' alt='Tim Ruffles'>Tim Ruffles</a> and <a href='http://www.twitter.com/mattfieldy' alt='Matt Field'>Matt Field</a>. Tim is a Ruby & JavaScript Developer living and working in London. He spends time mentoring others and working on <a href='http://www.sidekickjs.com' alt='SideKickJS'>SidekickJS</a>, his code-quality tracking tool. Matt is a developer interested in a variety of things including JavaScript, Functional Programming, Clojure and (sipping) whisky. Together, they run the <a href='http://lanyrd.com/series/funjsldn/' alt='FunctionalJS London'>FunctionalJS London</a> meet-up.</p>
+<h3>What you'll cover</h3>
+<ul>
+  <li>An introduction to Functional Programming</li>
+  <li>Higher order functions</li>
+  <li>D3.js</li>
+  <li>Combinators</li>
+  <li>State & Change</li>
+</ul>
+<h3>Requirements</h3>
+<ul>
+  <li>Must have a competency with JavaScript</li>
+  <li>Please bring your laptop with your text editor of choice installed</li>
+</ul>
+<h3>Refund Policy</h3>
+<p>If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at <a href='mailto:contact@eventhandler.co.uk'>contact@eventhandler.co.uk</a> of your need for a refund, up to a month before the event in question.</p>
+<p>If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to <a href='mailto:contact@eventhandler.co.uk'>contact@eventhandler.co.uk</a> with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.</p>"
+
+lanyrdAPI: ""
+lanyrd: "http://lanyrd.com/2014/ldnjsnightclass-funjs"
+booking_link: "http://ldnjsnightclass-funjs.eventbrite.com/"
+blurb: "An evening workshop dedicated to learning Functional JavaScript"
+date: "2014-02-12 19:00"
+end_Date: "2014-02-12 22:00"

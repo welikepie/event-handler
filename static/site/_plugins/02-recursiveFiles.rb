@@ -70,10 +70,10 @@ if file["date"]
 	puts "middle"
 	if(file["epoch_s_date"].to_i >= first_sunday && file["epoch_s_date"].to_i <= last_sunday)
 		file["time_zone"] = "BST";
-	else 
+	else
 		file["time_zone"] = "GMT";
 	end
-	
+
 	if(file["series"])
 	paths = $substring_from;
 	file["directory_tags"].each{|x|
@@ -90,29 +90,29 @@ def create_dump()
 	auto_hash = Hash.new{ |h,k| h[k] = Hash.new &h.default_proc }
 	$pathArr.each{ |path|
 	  sub = auto_hash
-	  path.split( "/" ).each{ 
-	  	|dir| 
-	  	sub[dir]; 
-	  	sub = sub[dir] 
+	  path.split( "/" ).each{
+	  	|dir|
+	  	sub[dir];
+	  	sub = sub[dir]
 	  }
 	}
 	$fileArr.each{ |path|
 	  sub = auto_hash
-	  path.split( "/" ).each{ 
-	  	|dir| 
+	  path.split( "/" ).each{
+	  	|dir|
 	 # 	puts dir;
 	  	if (dir == path.split("/").last)
 	  		sub["#{dir}".gsub(".yml","").gsub(".yaml","")]= YAML.load_file($path_to_data+path)
 	  	elsif (sub[dir] == path.split("/").last)
 	  		sub = sub["#{dir}".gsub(".yml","").gsub(".yaml","")]
 	  	else
-		  	sub = sub[dir] 
+		  	sub = sub[dir]
 	  	end
 	  }
 	}
 	#puts auto_hash #At the moment we've got the stuff created here. Now to write the file contents to this here! Woop woop!
 	puts "-- Writing to file data.yaml"
-	File.open($path_to_data+"data.yaml", 'w') { |file| 
+	File.open($path_to_data+"data.yaml", 'w') { |file|
 		file.write(YAML.dump(auto_hash));
 		puts "-- Data directory successfully re-created!"
 	}
@@ -139,13 +139,13 @@ end
 def sort_events(binary, sorting)
 sorting = sorting.sort_by {
 	|x|
-	 x["epoch_s_date"] 
+	 x["epoch_s_date"]
 }
 	if(binary == "high")
 		sorting.reverse!;
 	end
 	sorting.each{
-		|x| 
+		|x|
 		if( x["series"] && (x["series"] == true || x["series"] == "yes" || x["series"] == 1 ))
 			x["series"] = x["directory_tags"].last
 			file = YAML.load_file(x["seriesconfpath"]+"seriesconf.yaml");
@@ -189,7 +189,7 @@ sorting = sorting.sort_by {
   }
 
   	puts "-- Writing Categories to series_list.yaml"
-	File.open($path_to_data+"series_list.yaml", 'w') { |file| 
+	File.open($path_to_data+"series_list.yaml", 'w') { |file|
 		#puts $categories;
 		file.write(YAML.dump($categories));
 		puts "-- Series_list have been saved"
@@ -197,7 +197,7 @@ sorting = sorting.sort_by {
 
 
 	puts "-- Writing Events to file events.yaml"
-	File.open($path_to_data+"events.yaml", 'w') { |file| 
+	File.open($path_to_data+"events.yaml", 'w') { |file|
 		file.write(YAML.dump(sorting));
 		puts "-- Events have been saved"
 	}
@@ -219,7 +219,7 @@ array.each{
 	end
 }
 puts "-- Writing Series listings"
-File.open($path_to_data+"series.yaml", 'w') { |file| 
+File.open($path_to_data+"series.yaml", 'w') { |file|
 		file.write(YAML.dump(arr));
 		puts "-- Series have been saved"
 	}
@@ -227,7 +227,7 @@ end
 
 def write_speakers(array)
 puts "-- Writing Speakers to flat file structure."
-File.open($path_to_data+"speakers.yaml", 'w') { |file| 
+File.open($path_to_data+"speakers.yaml", 'w') { |file|
 		file.write(YAML.dump($speakerArr));
 		puts "-- Speakers have been saved"
 	}
@@ -235,7 +235,7 @@ end
 
 def write_venues(array)
 puts "-- Writing Venues to flat file structure."
-File.open($path_to_data+"venues.yaml", 'w') { |file| 
+File.open($path_to_data+"venues.yaml", 'w') { |file|
 		file.write(YAML.dump($venueArr));
 		puts "-- Venues have been saved"
 	}
@@ -263,4 +263,4 @@ puts "-- Sorting by lowest date first.";
 sort_events("low", $dateSortArr);
 write_speakers($speakerArr);
 write_venues($venueArr);
-puts " == Cave Johnson, we're done here."
+puts " == Event Handler Site, Successfully Built - Congratulations"

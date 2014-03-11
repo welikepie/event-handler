@@ -8,7 +8,7 @@ module Jekyll
       @name = name
       #self.template = "_layouts/"+template;
 
-      
+
       self.process(@name);
       self.read_yaml(File.join(base, '_layouts'), template)
       #puts self;
@@ -42,6 +42,7 @@ end
     def generate(site)
         dir="site/_data/"
 
+        # This decides which folders should be included in the site generation - Charlotte
         foldersToTemplate = ["meetups","other","workshops"];
         subfolders_to_check_for = ["workshops"];
         hash_of_data =  YAML.load_file(dir+"events.yaml");
@@ -50,7 +51,7 @@ end
         if(x["directory_tags"].include? y )
           if(x.has_key? "series")
               array = [];
-              hash_of_data.each{|z| 
+              hash_of_data.each{|z|
                 if(z["series"] == x["series"])
                   array << z;
                 end
@@ -63,7 +64,7 @@ end
           if(x.has_key? "series")
             end_dir = "/events/"+x["series"];
               array = [];
-              hash_of_data.each{|z| 
+              hash_of_data.each{|z|
                 if(z["series"] == x["series"])
                   #puts z["series"]
                   array << z;

@@ -83,6 +83,54 @@ kornellesinski:
   directory_tags:
   - speakers
   filename: kornellesinski
+lilymadar:
+  picture: "/assets/img/speakers/timruffles.png"
+  name: Tim Ruffles
+  title: Web Developer and Teacher
+  description: |
+    Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on SidekickJS, his code-quality tracking tool. You can find him speaking about the web at various events.
+  lanyrd: timruffles
+  twitter: timruffles
+  webpage: http://truffles.me.uk/
+  directory_tags:
+  - speakers
+  filename: lilymadar
+lukemurphy:
+  picture: "/assets/img/speakers/timruffles.png"
+  name: Tim Ruffles
+  title: Web Developer and Teacher
+  description: |
+    Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on SidekickJS, his code-quality tracking tool. You can find him speaking about the web at various events.
+  lanyrd: timruffles
+  twitter: timruffles
+  webpage: http://truffles.me.uk/
+  directory_tags:
+  - speakers
+  filename: lukemurphy
+mattfield:
+  picture: "/assets/img/speakers/timruffles.png"
+  name: Tim Ruffles
+  title: Web Developer and Teacher
+  description: |
+    Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on SidekickJS, his code-quality tracking tool. You can find him speaking about the web at various events.
+  lanyrd: timruffles
+  twitter: timruffles
+  webpage: http://truffles.me.uk/
+  directory_tags:
+  - speakers
+  filename: mattfield
+nicolasherry:
+  picture: "/assets/img/speakers/timruffles.png"
+  name: Tim Ruffles
+  title: Web Developer and Teacher
+  description: |
+    Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on SidekickJS, his code-quality tracking tool. You can find him speaking about the web at various events.
+  lanyrd: timruffles
+  twitter: timruffles
+  webpage: http://truffles.me.uk/
+  directory_tags:
+  - speakers
+  filename: nicolasherry
 patrickhamann:
   picture: https://pbs.twimg.com/profile_images/1764506030/twitter-profile.png
   name: Patrick Hamann
@@ -107,7 +155,7 @@ razvancaliman:
   - speakers
   filename: razvancaliman
 timruffles:
-  picture: /assets/img/speakers/timruffles.png
+  picture: "/assets/img/speakers/timruffles.png"
   name: Tim Ruffles
   title: Web Developer and Teacher
   description: |

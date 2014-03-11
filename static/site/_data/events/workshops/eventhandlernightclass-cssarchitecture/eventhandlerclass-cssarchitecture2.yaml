@@ -1,0 +1,44 @@
+speakerID: "harryroberts"
+series: 1
+eventbriteid: ""
+venue: "hubwestminster"
+title: CSS Architecture For Big Front-Ends
+map: "80 Haymarket, London, SW1Y 4TE"
+cost: £120 - £150
+text: "<p>On Friday the 7th of March, <a href='http://www.twitter.com/csswizardry' alt='Harry Roberts'>Harry Roberts</a> will be hosting a <strong>full-day</strong> workshop in which you can learn to use architect big-front ends</p>
+<p><img src='cssarchitecture.png'></p>
+<p>Ten years ago most websites were small affairs, with perhaps a handful of pages and very simple designs. Today, however, the majority of websites are very different beasts…</p>
+<p>There’s no denying that web-sites, services and apps are getting much bigger; more views, more pages, more layouts, more browsers on more devices… It’s time we levelled up our CSS.</p>
+<h3>Who is it taught by?</h3>
+<p>Harry is a Consultant Front-end Architect, designer, developer, writer and speaker from the UK. Previously a Senior Developer at BSkyB, he now helps tech teams all over the world build better products.</p>
+<p>He specialises in authoring and scaling large front-ends; he writes on the subjects of maintainability, architecture, performance, OOCSS and more at <a href='http://csswizardry.com'>csswizardry.com</a>; he is the lead and sole developer of <a href='http://inuitcss.com'>inuit.css</a>, a powerful, scalable, Sass-based, BEM, OOCSS framework; he Tweets at <a href='http://www.twitter.com/csswizardry'>@csswizardry<a/>.</p>
+<h3>What you'll cover</h3>
+<p>This full-day workshop shall give a whirlwind overview of:</p>
+<ul>
+  <li>How to assess, normalise and rationalise designs.</li>
+  <li>How to split designs up into discrete objects, abstractions and components.</li>
+  <li>The ever pesky task of naming things.</li>
+  <li>How to shear your codebase into flexible, extensible and manageable layers.</li>
+  <li>The optimal architecture for a robust, extensible, scalable CSS codebase.</li>
+  <li>How to use Sass’ more humble features to tie things together.</li>
+  <li>How to effectively manage layout.</li>
+  <li>And anything more you think of on the day.</li>
+</ul>
+<p>So much to cover, and such little time! Bring your laptop and your best CSS-game and let’s get cracking. It’s gonna be fun!</p>
+<h3>Requirements</h3>
+<ul>
+  <li>Your **laptop** with:</li>
+  <li>Text editor</li>
+  <li>Sass</li>
+  <li>Git(Hub)</li>
+  <li>Photoshop (optional)</li>
+</ul>
+<h3>Refund Policy</h3>
+<p>If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at <a href='mailto:contact@eventhandler.co.uk'>contact@eventhandler.co.uk</a> of your need for a refund, up to a month before the event in question.</p>
+<p>If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to <a href='mailto:contact@eventhandler.co.uk'>contact@eventhandler.co.uk</a> with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.</p>"
+lanyrdAPI: ""
+lanyrd: "http://www.lanyrd.com/2014/ehclass-cssarchitecture2"
+booking_link: "http://ehclass-cssarchitecture2.eventbrite.co.uk"
+blurb: CSS Architecture for Big Front-Ends
+date: "2014-03-07 10:00"
+end_Date: "2014-03-07 18:00"

@@ -3,18 +3,34 @@
   padding: 0;
 }
 .site {
-  margin: 25px 0;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
 }
 h2 {
   font-size: 20px;
   text-align: center;
-  margin-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.nav {
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.nav li {
+  display: inline;
+  margin-right: 15px;
+}
+.nav a {
+  color: #000000;
+}
+.nav a :visited {
+  color: #000000;
 }
 #eventslist {
   width: 500px;
   margin: 0 auto;
+  border-bottom: 1px dashed #cccccc;
 }
 #eventslist div {
   margin-bottom: 10px;
@@ -70,4 +86,48 @@ h2 {
 .percentagebar .outerbar .innerbar {
   height: 10px;
   border-radius: 6px;
+}
+.tips,
+.subjects {
+  padding-top: 25px;
+  margin: 0 auto;
+  width: 500px;
+}
+.tips p,
+.subjects p {
+  margin-bottom: 15px;
+}
+.exercisetips {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #cccccc;
+}
+.exercisetips li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.generaltips {
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #cccccc;
+}
+.generaltips li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.subjectlist {
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #cccccc;
+}
+.subjectlist li {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.errorhead {
+  width: 500px;
+  margin: 0 auto;
+}
+.error {
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
