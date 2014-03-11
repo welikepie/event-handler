@@ -2,54 +2,205 @@
 layout: workshoplist
 title: Events
 ---
-<h2> Event Handler Workshops </h2>
- <ul id="eventslist">
-  {% for events in site.data.events %}
-    {% if events.directory_tags contains "workshops" %}
-      {%assign zeds = {{events.epoch_s_date|afterToday}}%}
-      {%if zeds%}
-      {%assign x = {{events.eventbriteid|isNotEmpty}} %}
+<h2 id="top"> Event Handler Workshops </h2>
+  <ul class="nav">
+    <li><a href="#tips">Hints &amp; Tips</a></li>
+    <li><a href="#subjects">Potential workshop subjects</a></li>
+  </ul>
 
-      <li {%if x%}data-evb="{{events.eventbriteid}}"{%endif%} >
+  <ul id="eventslist">
+    {% for events in site.data.events %}
+      {% if events.directory_tags contains "workshops" %}
+        {%assign zeds = {{events.epoch_s_date|afterToday}}%}
+        {%if zeds%}
+        {%assign x = {{events.eventbriteid|isNotEmpty}} %}
 
-          <a href="{{events.booking_link}}">{{ events.title }} </a>
+        <li {%if x%}data-evb="{{events.eventbriteid}}"{%endif%} >
 
-          <div class="speaker">
-            <span>Speaker: </span>
-              {% for speaks in events.speakerID %}
-              {{site.data.speakers[speaks].name}}
-              {% if forloop.rindex0 > 0%}
-              {%endif%}
-            {%endfor%}
-          </div>
+            <a href="{{events.booking_link}}">{{ events.title }} </a>
 
-          <div class="eventdate">
-            <span>Date &amp; Time: </span>
-              {%if events.epoch_s_end_date%}
-                {{events.epoch_s_date | prettyDate : events.epoch_s_end_date}}
-              {%else%}
-                {{events.epoch_s_date | prettyDate : "null"}}
-              {%endif%}
-          </div>
+            <div class="speaker">
+              <span>Speaker: </span>
+                {% for speaks in events.speakerID %}
+                {{site.data.speakers[speaks].name}}
+                {% if forloop.rindex0 > 0%}
+                {%endif%}
+              {%endfor%}
+            </div>
 
-          {%if events.venue %}
-          <div class="eventvenue">
-            <span>Venue: </span>
-          		{{site.data.venues[events.venue].name}}
-          </div>
-          {%endif%}
-          {%if x%}
-          <div class="eventspaces"><span class="spacesremaining">Spaces remaining:</span>
-          	<span id="{{events.eventbriteid}}">
-          		<img src="/assets/img/tempspinnersmall.gif"></img>
-          	</span>
-          </div>
-          <div class="percentagebar" id="{{events.eventbriteid}}percentbar"></div>
-          {%endif%}
-      </li>
-      {% endif %}
-    {%endif%}
+            <div class="eventdate">
+              <span>Date &amp; Time: </span>
+                {%if events.epoch_s_end_date%}
+                  {{events.epoch_s_date | prettyDate : events.epoch_s_end_date}}
+                {%else%}
+                  {{events.epoch_s_date | prettyDate : "null"}}
+                {%endif%}
+            </div>
+
+            {%if events.venue %}
+            <div class="eventvenue">
+              <span>Venue: </span>
+            		{{site.data.venues[events.venue].name}}
+            </div>
+            {%endif%}
+            {%if x%}
+            <div class="eventspaces"><span class="spacesremaining">Spaces remaining:</span>
+            	<span id="{{events.eventbriteid}}">
+            		<img src="/assets/img/tempspinnersmall.gif"></img>
+            	</span>
+            </div>
+            <div class="percentagebar" id="{{events.eventbriteid}}percentbar"></div>
+            {%endif%}
+        </li>
+        {% endif %}
+      {%endif%}
 
 
-  {% endfor %}
+    {% endfor %}
+  </ul>
+
+  <div class="tips" id="tips">
+    <h3>Hint &amp; Tips</h3>
+
+    <p>We asked a few of our past and present workshop hosts if they had any tips for hosting a workshop and here's what they had to say.</p>
+      <div class="generaltips">
+        <h4>General Tips:</h4>
+          <ul>
+            <li>
+              At the start of the workshop, outline what you'll cover and if the slides/examples will be shared
+            </li>
+
+            <li>
+              white text can be hard to see if the room has lights pointing directly at the screen/ wall where the slides will be projected
+            </li>
+
+            <li>
+              avoid putting too much of the text on your slides at the bottom as this at times will be hard to see
+            </li>
+
+            <li>
+              for intensive workshops try to get exercises to build on each other, i.e. the second exercise is based on what you did in the first one. This helps attendees to get through them and not spend too much time thinking through the case
+            </li>
+
+            <li>
+              also give them enough information so that they can focus their attention on the point of the exercise rather than figuring out details of the case used
+            </li>
+
+            <li>
+              have a print out of all your notes to refer to as your screen will be visible to everyone, and jumping to notes looks rubbish
+            </li>
+
+            <li>
+              have a finished example ready to show just in case your demo goes wrong
+            </li>
+
+            <li>
+              don't rely on the internet
+            </li>
+
+            <li>
+              leave time for tangents and discussions you might not initially have anticipated - be flexible
+            </li>
+
+            <li>
+              have challenges for people to do, don't talk for 3 hours
+            </li>
+
+            <li>
+              I think walking around and observing is really important during the practical parts, because it allows you to see what people really absorbed. I also use what I hear to inform the conclusion at the end.
+            </li>
+
+            <li>
+              Give people a sense of achievement by sharing something as a group, whether it's presenting some work or talking about it.
+            </li>
+
+            <li>
+              Music can be a fun way to differentiate the active parts from the lecture parts.
+            </li>
+
+            <li>
+              Leave enough time for Q&amp;A at the end
+            </li>
+          </ul>
+        </div>
+
+      <div class="exercisetips">
+        <h4>Class Exercises</h4>
+          <ul>
+            <li>
+              Break down the workshop into sections and have exercises corresponding to those sections
+            </li>
+
+            <li>
+              When you get to an exercise, run through it followed by quickly going back over what the main points were and what you needed them to do. Do this by repeating some slides (rather than jumping back and forth in the deck) and then show the exercise again, if this is on a slide
+            </li>
+
+            <li>
+              Ensure any examples/information needed is on the slides/page that also outlines the exercise
+            </li>
+
+            <li>
+              During the exercises, walk around and help the attendees
+            </li>
+
+            <li>
+              Be clear on how long they have by saying e.g. 10 minutes as well as the actual time the exercise will end
+            </li>
+
+            <li>
+              Let people know when half the time has passed, and when there's just a couple of minutes left
+            </li>
+
+            <li>
+              Be loud and assertive when keeping time and calling the end of activities. People get busy and excited, and it's harder to get their attention when they are working.
+            </li>
+
+            <li>
+              Before finishing off, quickly summarise some of the key points that were walked through
+            </li>
+          </ul>
+        </div>
+
+  </div>
+  
+  <div class="subjects" id="subjects">
+    <h3>Subjects we'd like to cover</h3>
+
+    <p>We have a range of subjects we'd like to cover as evening and/or full-day workshops. If you're interested in hosting a workshops on one of these, let us know.</p>
+
+    <ul class="subjectlist">
+      <li>Node.js Best Practice</li>
+      <li>JavaScript Best Practice</li>
+      <li>Introduction to Ruby</li>
+      <li>Data Visualisation &amp; Story Telling</li>
+      <li>Interactive Data Visualisation</li>
+      <li>Getting started with Node.js</li>
+      <li>Copywriting</li>
+      <li>Micro-copywriting</li>
+      <li>Data Driven UX Design</li>
+      <li>Introduction to Python</li>
+      <li>Meteor.js</li>
+      <li>Getting to grips with Sass</li>
+      <li>Command Line</li>
+      <li>Regular Expressions</li>
+      <li>Grunt</li>
+      <li>Yeoman</li>
+      <li>Bower</li>
+      <li>Fundamentals of Design</li>
+      <li>Storytelling</li>
+      <li>From HTML4 to HTML5</li>
+      <li>From CSS2 to CSS3</li>
+      <li>Accessibility</li>
+      <li>Iconography</li>
+      <li>Better PHP</li>
+      <li>CSS Animations</li>
+      <li>Interviewing for Research</li>
+      <li>Prototyping with HTML, CSS &amp; jQuery</li>
+      <li>CSS Animations</li>
+    </ul>
+
+  </div>
+
+  <ul class="nav">
+    <li><a href="#top">Back to top</a></li>
   </ul>
