@@ -1,10 +1,10 @@
 ---
-picture: /assets/img/speakers/timruffles.png
-name: Tim Ruffles
-title: Web Developer and Teacher
+picture: /assets/img/speakers/lilymadar.png
+name: Lily Madar
+title: Creative Technologist
 description: |
-  Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on SidekickJS, his code-quality tracking tool. You can find him speaking about the web at various events.
-lanyrd: timruffles
-twitter: timruffles
-webpage: http://truffles.me.uk/
+Lily is a Creative Technologist living and working in London. Doing mostly front-end development at work, she spends her free time playing around with Arduino and other physical devices, always adding crazy ideas to her ever-growing to-do list. She created the LED-based Advent Calendar <a href='http://300leds.wordpress.com'>300leds.wordpress.com</a>
+lanyrd: lily_2point0
+twitter: lily_2point0
+webpage:
 ---

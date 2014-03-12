@@ -1,9 +1,10 @@
 ---
-picture: https://pbs.twimg.com/profile_images/1764506030/twitter-profile.png
+picture: /assets/img/speakers/patrickhamann.png
 name: Patrick Hamann
-title: Senior Developer
+title: Senior client-side engineer at The Guardian
 description: |
-  Senior client-side developer at the Guardian in London, where amongst other things, he is helping to engineer the next generation of their web platform. When not speaking or ranting about performance or CSS architecture on twitter he enjoys spends his spare time discovering new food and craft beer.
+Patrick is a senior client-side developer at the Guardian in London, where amongst other things, he is helping to engineer the next generation of their web platform. When not speaking or ranting about performance or CSS architecture on twitter he enjoys spends his spare time discovering new food and craft beer.
 lanyrd: patrickhamann
 twitter: patrickhamann
+webpage: http://www.patrickhamann.com/
 ---

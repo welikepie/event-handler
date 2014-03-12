@@ -1,10 +1,10 @@
 ---
-picture: /assets/img/speakers/timruffles.png
-name: Tim Ruffles
-title: Web Developer and Teacher
+picture: /assets/img/speakers/mattfield.png
+name: Matt Field
+title: Web Developer and Coffee Nerd
 description: |
-  Tim is a Ruby & JavaScript Developer living and working in London. Having previously worked for Skimlinks as their tech lead, he now spends time mentoring others and working on SidekickJS, his code-quality tracking tool. You can find him speaking about the web at various events.
-lanyrd: timruffles
-twitter: timruffles
-webpage: http://truffles.me.uk/
+  Matt is a developer interested in a variety of things including JavaScript, Functional Programming, Clojure and (sipping) whisky. Together, they run the FunctionalJS London meet-up.
+lanyrd: mattfieldy
+twitter: mattfieldy
+webpage: http://mattfield.github.io
 ---
