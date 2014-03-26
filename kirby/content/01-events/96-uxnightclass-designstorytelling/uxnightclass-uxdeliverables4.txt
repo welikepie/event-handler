@@ -1,0 +1,70 @@
+Title: Best Practice for UX Deliverables
+----
+Text:
+On Wednesday the 28th of May, Anna Dahlström (link: http://www.twitter.com/annadahlstrom text: @annadahlstrom) will be holding an evening workshop on "designing around storytelling".
+
+(image: designingstorytelling.png class: full-width)
+
+Storytelling has always played an important part in our societies and development throughout history. In the last few years it's gained attention as an important aspect in communicating and building engagement with a brand’s customer base. But storytelling is also an integral part of the design process and a tool that not only can help us define our content, but also how to display and interact with it.
+
+In this workshop we’ll walk through how the art of dramaturgy - that is traditionally used in literature, theatre and film - can help define and prioritise requirements, features and the experience as a whole. Both across platforms and screens. We’ll also explore how storytelling can be used to guide page layouts, as well as the value it brings for modular design and dynamic publishing.
+
+### Who is it taught by?
+
+The workshop is being hosted Anna Dahlström (link: http://www.twitter.com/annadahlstrom text: @annadahlstrom), an Information Architecture and User Experience consultant. Originally from Sweden, Anna lives and works in London. Having previously worked for Dare; she now works for (link: http://www.byflock.com text: Byflock) and freelances part-time.
+
+### What you'll learn
+
+Coming out of the workshop you’ll have a understanding of and practical experience with:
+
+* The role of storytelling in the design process
+* How storytelling helps us define what we’re trying to say, who to and how to deliver that message
+* How to apply principles from dramaturgy to planning out a product or sitemaps
+* How to use storytelling from the start of a project, during definition and development as well as going forwards
+* How to use storytelling as a guide for the flow of a page and a full site
+* Examples of innovative and non-linear ways of storytelling in design
+
+### Requirements
+
+* Just bring yourself, we'll provide the pens & paper!
+
+### Refund Policy
+
+If you discover that you are unable to attend the event you bought tickets for, we are happy to arrange a 100% refund for you as long as you notify us at (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) of your need for a refund, up to a month before the event in question.
+
+If you cannot attend the event you bought tickets for but have a friend or coworker that you would like to go in your place, send an email to (email: contact@eventhandler.co.uk text: contact@eventhandler.co.uk) with your name and the name of the person you'd like to transfer to the ticket to. We will transfer your ticket as long as you notify us of this at least 24 hours before the event goes ahead.
+
+----
+Blurb:
+
+Designing around Storytelling
+----
+What: Designing around Storytelling
+----
+Date: 2014-05-28 19:00
+----
+End_Date: 2014-05-28 22:00
+----
+Where: Hub Westminster,
+1st floor, New Zealand House
+80 Haymarket, London SW1Y 4TE
+----
+Cost: £50 - £60
+----
+Map: 80 Haymarket, London, SW1Y 4TE
+----
+Infobox:
+
+<h1>
+	<span>Designing around Storytelling</span>
+	<span>28th May 2014</span>
+	<abbr class="easydate">Wed, 28 May 2014 19:00:00 +0000</abbr>
+	<a href="http://uxnightclass-designstorytelling.eventbrite.com/" target="_blank">View Tickets</a>
+</h1>
+----
+Booking_link: http://uxnightclass-designingstorytelling.eventbrite.com/
+----
+Lanyrd: http://www.lanyrd.com/2014/uxnightclass-designingstorytelling
+----
+LanyrdAPI: http://lanyrd.com/2014/uxnightclass-designstorytelling/speakers/7d6f002ae45bf095.v1.json
+----
